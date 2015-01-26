@@ -1,0 +1,13 @@
+---
+layout: default
+title: Home
+css_id: home
+---
+
+{% for post in paginator.posts %}
+  {% include teaser.html post=post %}
+{% endfor %}
+
+{% include pagination.html %}
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
