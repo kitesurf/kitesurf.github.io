@@ -3,13 +3,17 @@ layout: default
 title: es
 lang: es
 t:
-  menutxt1: "cursos de kitesurf"
-  menutxt2: "alquiler"
-  menutxt3: "viento"
-  menutxt4: "contacto"
-  menutxt5: "fotos y videos"
+  link1: "cursos de kitesurf"
+  menutxt1:    "cursos de kitesurf"
+  link2: "alquiler"
+  menutxt2:    "alquiler"
+  link3: "viento"
+  menutxt3:    "viento"
+  link4: "contacto"
+  menutxt4:    "contacto"
+  link5: "fotos y videos"
+  menutxt5:    "flying-friends"
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
-
 ---
 
 <div class="home">

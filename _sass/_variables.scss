@@ -3,8 +3,8 @@
 
 // Typography variables
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
-$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+$base-font                   	: Arial,sans-serif;
+$heading-font                	: Lato,"Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
@@ -17,19 +17,21 @@ $border-radius               	: 3px;
 
 // Color variables
 
-$body-color                  	: #ebebeb;
-$text-color                  	: #313130;
+$body-color                  	: #7d7b7a;
+$text-color                  	: #7d7b7a;
 $base-color                  	: #343434;    
 $comp-color                  	: complement($base-color); 
 $border-color                	: #ddd;
 $white                       	: #fff;
 $black                       	: #000;
-$link-color                  	: #222;
+$blau							: #2799d1;
+$rot							: #df061c;
+$link-color                  	: $blau;
 $primary-color               	: $black;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
-$info-color                  	: #3498db;
+$info-color                  	: $rot;
 
 $table-border-color          	: $border-color;
 $table-border                	: 1px solid $table-border-color;
@@ -67,11 +69,11 @@ $form-font-size              	: $doc-font-size;
 
 // Sliding Menu Navigation
 
-$sliding-menu-border-color	 	: $black;
-$sliding-menu-background 		: $black;
-$sliding-menu-color 	 		: $white;
-$sliding-menu-background-hover	: $black;
-$sliding-menu-color-hover	 	: $white;
+$sliding-menu-border-color	 	: transparent;
+$sliding-menu-background 		: transparent;
+$sliding-menu-color 	 		: $blau;
+$sliding-menu-background-hover	: transparent;
+$sliding-menu-color-hover	 	: $blau;
 $sliding-menu-border   			: 1px solid $sliding-menu-border-color;
 $button-size		         	: 30px; 
 $transition						: .3s; // increase this to see the transformations in slow-motion

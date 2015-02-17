@@ -1,13 +1,27 @@
 ---
-layout: default
-title: en
+layout: archive
+title: {{ title }}
+modified:
+categories: {{ dir }}
+excerpt:
+tags: []
+image:
+  feature:
+  teaser: flying-friends/game.png
+  thumb:
+title: Kite-Mallorca - Tel. +34-696-264729 - Wind
 lang: en
 t:
   menutxt1: "kitesurfing lessons"
+  link1:    "kitesurfing-lessons"
   menutxt2: "rental"
+  link2:    "renting"
   menutxt3: "wind"
+  link3:    "wind"
   menutxt4: "contact"
+  link4:    "contact"
   menutxt5: "pictures & videos"
+  link5:    "flying-friends"
   teaser: "Come and learn with us the first steps in kitesurfing..."
 ---
 

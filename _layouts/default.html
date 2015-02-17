@@ -2,8 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+        <!-- Custom Fonts -->    
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
@@ -11,7 +14,10 @@
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+        <!-- Multilinguale behandlung durch Google -->
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -21,23 +27,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <style>
-    .sliding-menu-content {
-      top: 0;
-      right: 0;
-      text-align: center;
-      visibility: hidden;
-      height: 100%;
-      width: 100%;
-      -webkit-transform: translateX(100%);
-      -moz-transform: translateX(100%);
-      -ms-transform: translateX(100%);
-      -o-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    </style>
-
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+        <!-- Icons -->
+    <!-- 16x16 -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <!-- 32x32 -->
+    <link rel="shortcut icon" href="/images/favicon.png">
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
@@ -48,10 +43,16 @@
 
   <body>
     {% include header.html %}
-    {% include navigation-sliding.html %}
-
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
+
+      {% if page.t.teaser %}
+        <div class="myteaser">
+                <div class="space"></div>
+                <span><h2>{{ page.t.teaser }}</h2></span>
+      
+        </div>
+      {% endif %}  
 
       {{ content }}
 
@@ -60,6 +61,7 @@
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
+    <script src="{{ site.url }}/js/animenu.js"></script>
     
     {% if page.toc == true %}
     <script type="text/javascript">

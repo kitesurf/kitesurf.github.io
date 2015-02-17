@@ -1,11 +1,17 @@
 ---
 layout: archive
 title: {{ title }}
+subtitle:
 date: {{ date }}
 modified:
-excerpt:
+description:
+lang: de
+en-url: "en"
+es-url: "es"
+de-url: "de"
 image:
   feature:
   teaser:
   thumb:
+snippets: true
 ---

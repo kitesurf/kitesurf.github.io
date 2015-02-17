@@ -1,13 +1,18 @@
 ---
 layout: media
 title: {{ title }}
+subtitle:
 modified:
 categories: {{ dir }}
-excerpt:
+description:
+lang: de
+en-url: "en"
+es-url: "es"
+de-url: "de"
 tags: []
 image:
   feature:
   teaser:
   thumb:
-ads: false  
+snippets: true
 ---
