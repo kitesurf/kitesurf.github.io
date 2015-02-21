@@ -48,4 +48,14 @@ Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung un
 Einzelstunden in der Gruppe   EUR 45,-/h
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
-[komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
+[» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
+
+
+###Kite & Board Vermietung
+
+Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
+
+Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per Kite oder Rettungsboot zur Stelle.
+
+[» komplettes Angebot und Preise für Kite & Board Vermietung]({{ site.url }}/de/vermietung/ "Vermietung und Preise")
+

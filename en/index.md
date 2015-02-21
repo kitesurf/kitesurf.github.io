@@ -49,4 +49,13 @@ Individual hours for all levels in a small group of 2-4 students
 3 hours trial course  EUR 100,-
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
 
-[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
+[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
+
+
+###Kite & board rental
+
+Latest equipment from North, Liquid Force and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
+
+We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
+
+[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting "Renting and costs")

@@ -66,6 +66,11 @@ Our courses for beginners comprise the following elements:
 2) Body drag: As soon as you can control the kite on land we go into the water! During the first sessions in the water you learn the body dragging, which is like kitesurfing without board, where you let yourself drag through the water with the kite.
 
 3) Water start: After the successful body drags you get the board onto your feet and you learn how to ride the first meters on the water.
+<figcaption>Students learning with Kite-Mallorca</figcaption>
+<figure class="third">
+  <img src="{{ site.baseurl }}/images/rescue-boat.jpg">
+  <img src="{{ site.baseurl }}/images/roberto.jpg">
+  <img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg">
+</figure>
 
-{gallery alignment=left-clear layout=flow maxcount=4 sortcriterion=random}fotos/students{/gallery}
 Book your own kite course with Daniel & Gerhard (+34-696-264729)  now!
