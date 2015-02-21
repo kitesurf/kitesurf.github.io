@@ -4,7 +4,7 @@ title: "Kite-Mallorca - Your International Kitesurf Center - Tel. +34-696-264729
 subtitle: 
 date: 
 modified:
-description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
+description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:
   feature:
   teaser:
@@ -28,29 +28,25 @@ t:
   teaser: "Come and learn with us the first steps in kitesurfing..."
 ---
 
-<div id="main" role="main">     
-  <div class="wrap">
-    {% if page.image.feature %}
-    <div class="page-feature">
-      <div class="page-image">
-        <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
-        {% if page.image.credit %}{% include image-credit.html %}{% endif %}
-      </div><!-- /.page-image -->
-    </div><!-- /.page-feature -->
-    {% endif %}
-<div class="tiles">
-{% for post in site.categories.en %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles -->
-    <div class="archive-wrap">
-      <div class="page-content">
-        {{ content }}
-      </div><!-- /.page-content -->
-    </div class="archive-wrap"><!-- /.archive-wrap -->
-  </div><!-- /.wrap -->
-</div><!-- /#main -->
+###Kitesurfing lessons
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
 
-</div>
+We offer lessons for all kite levels (beginners, refreshers and advanced riders).
+
+As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
+
+The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
+
+Our quality for the best price
+
+10 hours beginners course  EUR 390,-
+Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
+
+Lessons on an hourly basis  EUR 45,-/h
+Individual hours for all levels in a small group of 2-4 students
+
+3 hours trial course  EUR 100,-
+Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
+
+[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
