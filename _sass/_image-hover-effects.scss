@@ -1,0 +1,63 @@
+.photos {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+.photos > div {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 2px solid #444;
+    float: left;
+    height: 100%;
+    margin: 1%;
+    overflow: hidden;
+    position: relative;
+    width: 31%;
+    z-index: 1;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    
+    -webkit-transform:scale(1.0);
+    -moz-transform:scale(1.0);
+    -ms-transform:scale(1.0);
+    -o-transform:scale(1.0);
+    transform:scale(1.0);
+
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.photos > div img{
+    width: 100%;
+}
+.photos > div:hover{
+    z-index: 10;
+}
+#picleft:hover {
+    -webkit-transform-origin: bottom left;-webkit-transform:scale(3.0);
+    -moz-transform-origin: bottom left;-moz-transform:scale(3.0);
+    -ms-transform-origin: bottom left;-ms-transform:scale(3.0);
+    -o-transform-origin: bottom left;-o-transform:scale(3.0);
+    transform-origin: bottom left;transform:scale(3.0);
+}
+#picright:hover {
+    -webkit-transform-origin: bottom right;-webkit-transform:scale(3.0);
+    -moz-transform-origin: bottom right;-moz-transform:scale(3.0);
+    -ms-transform-origin: bottom right;-ms-transform:scale(3.0);
+    -o-transform-origin: bottom right;-o-transform:scale(3.0);
+    transform-origin: bottom right;transform:scale(3.0);
+}
+#picmiddle:hover {
+    -webkit-transform-origin: bottom;-webkit-transform:scale(3.0);
+    -moz-transform-origin: bottom;-moz-transform:scale(3.0);
+    -ms-transform-origin: bottom;-ms-transform:scale(3.0);
+    -o-transform-origin: bottom;-o-transform:scale(3.0);
+    transform-origin: bottom;transform:scale(3.0);
+}
