@@ -1,16 +1,19 @@
 ---
-layout: archive
-title: {{ title }}
+layout: article
+title: "Kite-Mallorca - Kite & board rental - Tel. +34-696-264729"
+subtitle:
+date: 
 modified:
-categories: {{ dir }}
-excerpt:
-tags: []
+description: "Rent your kitesurf equipment from North, Liquid Force or Spleene for your next holiday on Mallorca."
 image:
   feature:
-  teaser: flying-friends/circus.png
+  teaser:
   thumb:
-title: Kite-Mallorca - Tel. +34-696-264729 - Renting
+snippets: true
 lang: en
+en-url: "en/renting"
+es-url: "es/alquiler"
+de-url: "de/vermietung"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons"
@@ -22,22 +25,51 @@ t:
   link4:    "contact"
   menutxt5: "pictures & videos"
   link5:    "flying-friends"
-  teaser: "Come and learn with us the first steps in kitesurfing..."
+  teaser:
 ---
 
-<div class="home">
+###Kite & board rental
 
-  <h1>Posts</h1>
+Latest equipment from North, Liquid Force and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+#####Rental prices
+<table>
+  <tr>
+    <td></td>
+    <td>1 h</td>
+    <td>2 h</td>
+    <td>1 day</td>
+  </tr>
+  <tr>
+    <td>kite</td>
+    <td>25 €</td>
+    <td>50 €</td>
+    <td>80 €</td>
+  </tr>
+  <tr>
+    <td>board</td>
+    <td>10 €</td>
+    <td>20 €</td>
+    <td>30 €</td>
+  </tr> 
+  <tr>
+    <td>kite & board</td>
+    <td>30 €</td>
+    <td>60 €</td>
+    <td>100 €</td>
+  </tr>     
+</table> 
 
-</div>
+
+#####Booking
+In order to make sure that you always get the apropriate kite we recommend to book in advance for a rental period of one week or more. Then the equipment will be reserved for you.
+
+
+#####Liability for rented kites and boards
+We recommend to effect an insurance covering accident, third party liability and damage to rented equipment prior to the rental, e.g. the Safety Tool from VDWS.
+
+In case of damage of a rented kite or board the customer is liable for the repair through one of our qualified professionals. In addition to the repair costs 20% of the present value has to be paid for the loss of value. In case of total damage or loss the customer is liable for the full present value.
+
+Rental of kites and/or boards is only possible on the spot the KITE-MALLORCA team is visiting the same day. Rented equipment must not be taken to other destinations without our knowledge and approval.
