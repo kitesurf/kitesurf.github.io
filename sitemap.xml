@@ -16,6 +16,14 @@ lang: en
   <url>
     <loc>{{site.siteurl}}{{site.baseurl}}{{page.url}}</loc>
   </url>
+  {% elsif page.lang == 'es' and page.layout != nil %}
+  <url>
+    <loc>{{site.siteurl}}{{site.baseurl}}{{page.url}}</loc>
+  </url>
+  {% elsif page.lang == 'de' and page.layout != nil %}
+  <url>
+    <loc>{{site.siteurl}}{{site.baseurl}}{{page.url}}</loc>
+  </url>
   {% endif %}
   {% endfor %}
 </urlset>
