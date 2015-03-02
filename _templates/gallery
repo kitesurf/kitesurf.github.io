@@ -1,11 +1,11 @@
 ---
-layout: {{ layout }}
-title: {{ title }}
+layout: gallery
+title: 
 subtitle:
 date: {{ date }}
 modified:
 description:
-lang: {{ lang }}
+lang:
 en-url: "en"
 es-url: "es"
 de-url: "de"

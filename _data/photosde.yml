@@ -1,0 +1,22 @@
+# Gallery pictures data
+images:
+  - image: l_kite-mallorca_001.jpg
+    thumb: m_kite-mallorca_001.jpg
+    name: Daniel
+    title: Daniel mit Surfboard bereit zum kitesurfen
+    description: Daniel macht sich auf dem Weg ins Wasser
+    alt: Daniel mit Surfboard bereit zum kitesurfen
+
+  - image: l_kite-mallorca_002.jpg
+    thumb: m_kite-mallorca_002.jpg
+    name: Strandleben
+    title: Kites in Reih und Glied am Boden und am Himmel
+    description: Die Kites machen die Strände farbig
+    alt: Kites in Reih und Glied am Boden und am Himmel
+
+  - image: l_kite-mallorca_003.jpg
+    thumb: m_kite-mallorca_003.jpg
+    name: Schüler
+    title: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
+    description: Daniel mit Schüler im Wasser bereit zur ersten Fahrt
+    alt: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
