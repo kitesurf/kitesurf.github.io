@@ -1,16 +1,20 @@
 ---
-layout: archive
-title: {{ title }}
+layout: gallery
+title: "Kite-Mallorca - Pictures & Videos - Impressions - Tel. +34-696-264729"
+subtitle: 
+date: 
 modified:
-categories: {{ dir }}
-excerpt:
-tags: []
+description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
+dataFile: photosen
 image:
   feature:
-  teaser: flying-friends/cabin.png
+  teaser:
   thumb:
-title: Kite-Mallorca - Tel. +34-696-264729 - Pictures & Videos
+snippets: true
 lang: en
+en-url: "en/flying-friends"
+es-url: "es/flying-friends"
+de-url: "de/flying-friends"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons"
@@ -22,22 +26,9 @@ t:
   link4:    "contact"
   menutxt5: "pictures & videos"
   link5:    "flying-friends"
-  teaser: "Come and learn with us the first steps in kitesurfing..."
+  teaser:
 ---
 
-<div class="home">
+###Impressions
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+Pictures from kitesurfing in Mallorca. You can see many of our stundents and friends here.
