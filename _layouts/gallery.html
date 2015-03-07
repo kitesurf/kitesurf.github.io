@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<section>
-{% include gallery-overlay.html %}
-</section>			
+
 <div id="main" role="main">	
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.image.feature %}
@@ -37,3 +35,6 @@ layout: default
 		{% if page.snippets == true %}{% include snippets.html %}<!-- /.snippets -->{% endif %}
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
+<section>
+{% include gallery-overlay.html %}
+</section>	

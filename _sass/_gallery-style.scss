@@ -1,3 +1,92 @@
+// styles for thumbs in gallery
+//.picture .sml img {}
+//.picture .med img {}
+//.picture .lrg img {}
+// styles for pictures in gallery
+.picture .sml img {
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+.picture .sml:target img {
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .picture .sml img {
+    height: 100%;
+}
+.picture .med img {
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+.picture .med:target img {
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .picture .med img {
+    height: 100%;
+}
+.picture .lrg img {
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+.picture .med:target img {
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .picture .med img {
+    height: 100%;
+}
 .lb-album{
 	width: 900px;
 	margin: 0 auto;

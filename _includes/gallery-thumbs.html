@@ -1,7 +1,19 @@
-<div class="gallery">
+<div>
 {% for image in site.data[page.dataFile].images %}		
+
 	<a href="#image-{{ forloop.index }}">
-		<img src="{{ site.baseurl }}/images/flying-friends/{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}">
-	</a>
+        <span data-picture data-alt="{{ image.alt }}" title="{{ image.title }}">
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}"
+                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/ts_{{ image.image }}" data-media="(min-width: 400px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 800px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 1000px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+
+    		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+    		<noscript>
+        		<img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}" />
+    		</noscript>
+        </span>
+    </a>
 {% endfor %}
 </div>
