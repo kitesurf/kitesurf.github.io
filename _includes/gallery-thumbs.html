@@ -3,11 +3,10 @@
 
 	<a href="#image-{{ forloop.index }}">
         <span data-picture data-alt="{{ image.alt }}" title="{{ image.title }}">
-            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}"
-                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-            <span data-src="{{ site.baseurl }}/images/flying-friends/ts_{{ image.image }}" data-media="(min-width: 400px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 800px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 1000px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/ts_{{ image.image }}" data-media="(min-width: 400px)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 800px)"></span>
+            <span data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" data-media="(min-width: 1000px)"></span>
 
     		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
     		<noscript>

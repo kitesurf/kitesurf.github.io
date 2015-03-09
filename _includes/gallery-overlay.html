@@ -1,11 +1,16 @@
 <section>
 		{% for image in site.data[page.dataFile].images %}		
 		<div class="lb-overlay" id="image-{{ forloop.index }}">
+		 	<script>
+			var lazy = lazyload({
+			container: document.getElementById('lb-overlay')
+			});
+			</script>
 		    <span data-picture data-alt="{{ image.alt }}">
-	    	    <span data-src="{{ site.baseurl }}/images/flying-friends/m_{{ image.image }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-	    	    <span data-src="{{ site.baseurl }}/images/flying-friends/s_{{ image.image }}"     data-media="(min-width: 400px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-	        	<span data-src="{{ site.baseurl }}/images/flying-friends/m_{{ image.image }}"      data-media="(min-width: 800px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
-	        	<span data-src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-media="(min-width: 1000px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lzld(this)"></span>
+	    	    <span data-src="{{ site.baseurl }}/images/flying-friends/m_{{ image.image }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lazy(this)"></span>
+	    	    <span data-src="{{ site.baseurl }}/images/flying-friends/s_{{ image.image }}"     data-media="(min-width: 400px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lazy(this)"></span>
+	        	<span data-src="{{ site.baseurl }}/images/flying-friends/m_{{ image.image }}"      data-media="(min-width: 800px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lazy(this)"></span>
+	        	<span data-src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-media="(min-width: 1000px)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload="lazy(this)"></span>
 
         		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
         		<noscript>
