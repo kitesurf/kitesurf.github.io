@@ -64,9 +64,9 @@
 
 <!--    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-    <script src="{{ site.url }}/js/animenu.js"></script> -->
+    <script src="{{ site.url }}/js/animenu.js"></script> 
     <script src="{{ site.url }}/js/picturefill.js" async></script>
-    <script src="{{ site.url }}/js/lazyload.min.js" async></script>
+    <script src="{{ site.url }}/js/lazyload.min.js" async></script> -->
     
     {% if page.toc == true %}
     <script type="text/javascript">
@@ -90,7 +90,17 @@
       });
     </script>
     {% endif %}
-
+    <!-- defer-images -->
+    <script>
+      function loadBG(){
+          document.getElementById("2").style.backgroundImage="url(../../images/2.jpg)";
+          document.getElementById("3").style.backgroundImage="url(../../images/3.jpg)";
+          document.getElementById("3").style.backgroundImage="url(../../images/4.jpg)";
+          document.getElementById("4").style.backgroundImage="url(../../images/5.jpg)";
+          document.getElementById("4").style.backgroundImage="url(../../images/6.jpg)";
+      }
+      window.onload=loadBG();
+    </script>
   </body>
 
 </html>

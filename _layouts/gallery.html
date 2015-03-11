@@ -32,7 +32,11 @@ layout: default
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		{% if page.snippets == true %}{% include snippets.html %}<!-- /.snippets -->{% endif %}
+			<section class="masonry">
+				<div class="item">
+					{% include snippets/{{ page.lang }}/video.html %}
+				</div>
+			</section>
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
 <section>
