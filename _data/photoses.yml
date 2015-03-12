@@ -1,0 +1,409 @@
+# Gallery pictures data
+images:
+  - image: kite-mallorca_001.jpg
+    name: Daniel
+    title: Daniel mit Surfboard bereit zum kitesurfen
+    description: Daniel macht sich auf dem Weg ins Wasser
+    alt: Daniel mit Surfboard bereit zum kitesurfen
+
+  - image: kite-mallorca_002.jpg
+    name: Strandleben
+    title: Kites in Reih und Glied am Boden und am Himmel
+    description: Die Kites machen die Strände farbig
+    alt: Kites in Reih und Glied am Boden und am Himmel
+
+  - image: kite-mallorca_003.jpg
+    name: Schüler
+    title: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
+    description: Daniel mit Schüler im Wasser bereit zur ersten Fahrt
+    alt: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
+
+  - image: kite-mallorca_004.jpg
+    name: Daniel & Marie
+    title: Marie, hier 8, hat mit 6 Jahren bei uns angefangen
+    description: Marie hat mit 6 Jahren mit dem Kitesurfen begonnnen
+    alt: Marie, jüngste Kiteschülerin, hat mit 6 Jahren bei uns angefangen
+
+  - image: kite-mallorca_005.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_006.jpg
+    name: Eli
+    title: Eli in voller Konzentration, wohl vor einem weiteren Sprung
+    description: Kitesurferin Eli über den Wellen in der Bucht von Pollensa
+    alt: Eli voll konzentriert beim gleiten über den Wellen
+
+  - image: kite-mallorca_007.jpg
+    name: Gemütlichkeit
+    title: Wenn der Wind eine Pause macht...
+    description: Noch ein Paar Sonnenstrahlen mit nach Hause nehmen
+    alt: Kites und Menschen ruhen sich am Strand aus
+
+  - image: kite-mallorca_008.jpg
+    name: Gerhard
+    title: Gerhard sehr glücklich nach einer kurzen Session
+    description: Gerhard, unser Schulungsleiter, nach einer kurzen fahrt
+    alt: Kite und -surfer im Hintergrund, Gerhard gelassen im Vordergrund
+
+  - image: kite-mallorca_009.jpg
+    name: Carlos
+    title: Unser Lehrer Carlos bei einer kurzen Arbeitspause
+    description: Carlos hat mal Schüler und Kitesurf gegen Ruhe getauscht
+    alt: Kitelehrer Carlos liegt am Strand und ruht sich aus
+
+  - image: kite-mallorca_010.jpg
+    name: Ansgar
+    title: Manche Schüler haben viel Talent und können nach einem Tag schon fahren
+    description: Ein neuer Schüler macht sich bereit
+    alt: Schüler sucht noch Sonnencreme bevor es ins Wasser geht
+
+  - image: kite-mallorca_011.jpg
+    name: Eli
+    title: Tanz in die unendlichkeit des Meeres
+    description: Leicht bewegtes Wasser und Wind, beste Bedingungen zum Kitesurfen
+    alt: Kitesurferin tanzt über die Wellen
+
+  - image: kite-mallorca_012.jpg
+    name: ENVY
+    title: Die Kites von Liquid Force eignen sich hervorragend für den Sport
+    description: Liquid Force Kites vom Typ Envy, perfekter Allrounder
+    alt: Evo von North und Envy von Liquid Force liegen bereit am Strand
+
+  - image: kite-mallorca_013.jpg
+    name: Bodysystem
+    title: Am Anfang immer gehalten, damit keiner davon fliegt
+    description: Übung macht den Meister. Das fliegen des Kites muss sitzen
+    alt: Lehrer überwacht Flugübungen der Kiteschüler im Wasser
+
+  - image: kite-mallorca_014.jpg
+    name: Uli 1
+    title: Uli 1. unser Rettungsboot immer dabei
+    description: Zur Sicherheit der Schüler ist dass Rettungsboot ein muss
+    alt: Rettungsboot Uli 1 liegt bereit am Strand
+
+  - image: kite-mallorca_015.jpg
+    name: Fortaleza
+    title: Die Fortaleza von Port Pollensa
+    description: Ein altes Fort mit Leuchtturm, wacht über die Bucht von Pollensa
+    alt: Ehemaliges Fort mit Leuchtturm wacht in der Bucht von Pollensa
+
+  - image: kite-mallorca_016.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_017.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_018.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_019.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_020.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_021.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_022.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_023.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_024.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_025.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_026.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_027.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_028.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_029.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_030.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_031.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_032.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_033.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_034.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_035.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_036.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_037.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_038.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_039.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_040.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_041.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_042.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_043.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_044.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_045.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_046.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_047.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_048.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_049.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_050.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_051.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_052.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_053.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_054.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_055.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_056.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_057.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_058.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_059.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_060.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_061.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_062.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_063.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_064.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_065.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_066.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_067.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
+
+  - image: kite-mallorca_068.jpg
+    name: Ruhe
+    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+    alt: Kite liegt am Strand unter wolken
