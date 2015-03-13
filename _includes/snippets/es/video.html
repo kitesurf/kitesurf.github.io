@@ -1,1 +1,20 @@
-<iframe width="420" height="315" src="https://www.youtube.com/embed/El49Bnx505w" frameborder="0" allowfullscreen></iframe>
+<script type="text/javascript">
+//doesn't block the load event
+function createIframe(){
+  var i = document.createElement("iframe");
+  i.src = "https://www.youtube.com/embed/El49Bnx505w";
+  i.style = "border:none; overflow:hidden; width:100%;";
+  i.scrolling = "no";
+  i.frameborder = "0";
+  i.allowTransparency = "false";
+  document.getElementById("fit-vids-style").appendChild(i);
+};
+        
+// Check for browser support of event handling capability
+if (window.addEventListener)
+window.addEventListener("load", createIframe, false);
+else if (window.attachEvent)
+window.attachEvent("onload", createIframe);
+else window.onload = createIframe;
+</script>
+<div id="fit-vids-style"><noscript><iframe width="100%" src="https://www.youtube.com/embed/El49Bnx505w" frameborder="0" allowfullscreen></iframe></noscript></div>
