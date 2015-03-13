@@ -1,4 +1,5 @@
-.masonry {
+.masonry,
+.video {
     margin: 0 0 1.5em;
     padding: 0;
     -moz-column-gap: 0.8em;
@@ -30,6 +31,12 @@
     display: inline-block;
      opacity: 1.0;
     margin: 0 0 0.8em;
+}
+
+.video {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
 }
 
 @media only screen and (min-width: 400px) {

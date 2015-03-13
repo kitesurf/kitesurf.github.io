@@ -2,8 +2,9 @@
 		{% for image in site.data[page.dataFile].images %}		
 		<div class="lb-overlay" id="image-{{ forloop.index }}">
 		 	<script>
+		 	;(function($){
 			var lazy = lazyload({
-			container: document.getElementById('lb-overlay')
+			container: document.getElementById('lb-overlay')});
 			});
 			</script>
 		    <span data-picture data-alt="{{ image.alt }}">

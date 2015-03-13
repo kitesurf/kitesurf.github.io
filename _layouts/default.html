@@ -37,8 +37,8 @@
     <!--[if lt IE 9]>
       <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]-->
-    <script src="{{ site.url }}/js/main.js" async></script>
+    <![endif]
+    <script src="{{ site.url }}/js/main.js" async></script>-->
 
   </head>
 
@@ -90,10 +90,12 @@
     {% endif %}
     <!-- defer-images -->
     <script>
+    ;(function($){
       function loadBG(){
           document.getElementByClassName("cb-slideshow").style.backgroundImage="url(../../images/*.jpg)";
       }
       window.onload=loadBG();
+    });
     </script>
   </body>
 
