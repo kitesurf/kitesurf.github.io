@@ -1,29 +1,53 @@
 ---
-layout: default
-title: es
+layout: article
+title: "Kite-Mallorca - Viento - Tel. +34-696-264729"
+subtitle: 
+date: 
+modified:
+description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."
+image:
+  feature:
+  teaser:
+  thumb:
+snippets: true
 lang: es
+en-url: "en/wind"
+es-url: "es/viento"
+de-url: "de/wind"
 t:
-  menutxt1: "cursos de kitesurf"
-  menutxt2: "alquiler"
-  menutxt3: "viento"
-  menutxt4: "contacto"
-  menutxt5: "fotos y videos"
-  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
+  link1: "cursos-de-kitesurf"
+  menutxt1:    "cursos de kitesurf"
+  link2: "alquiler"
+  menutxt2:    "alquiler"
+  link3: "viento"
+  menutxt3:    "viento"
+  link4: "contacto"
+  menutxt4:    "contacto"
+  link5: "flying-friends"
+  menutxt5:    "fotos y videos"
+  teaser:
 ---
 
-<div class="home">
+###PRONÓSTICOS ACTUALES DE VIENTOS
+<script type="text/javascript">
+//doesn't block the load event
+function windIframe(){
+  var i = document.createElement("iframe");
+  i.src = "http://widgets.ikitesurf.com/widgets/web/forecastTable?lat=39.87&lon=3.0884&units_wind=kts&units_height=m&units_temp=C&days=4&width=500&height=210&color=2799d1&name=Sa Marina&app=ikitesurf";
+  i.style = "border:none; overflow:hidden; height:200px; width:100%;";
+  i.scrolling = "no";
+  i.frameborder = "0";
+  i.allowTransparency = "true";
+  document.getElementById("windframe").appendChild(i);
+};
+        
+// Check for browser support of event handling capability
+if (window.addEventListener)
+window.addEventListener("load", windIframe, false);
+else if (window.attachEvent)
+window.attachEvent("onload", windIframe);
+else window.onload = windIframe;
+</script>
+<div id="windframe"><noscript><iframe src="http://widgets.ikitesurf.com/widgets/web/forecastTable?lat=39.87&lon=3.0884&units_wind=kts&units_height=m&units_temp=C&days=4&width=500&height=210&color=2799d1&name=Sa Marina&app=ikitesurf"></iframe></noscript></div>
 
-  <h1>Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
