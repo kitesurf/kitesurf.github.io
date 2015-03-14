@@ -45,14 +45,14 @@ images:
   - image: kite-mallorca_008.jpg
     name: Gerhard
     title: Gerhard sehr glücklich nach einer kurzen Session
-    description: Gerhard, unser Schulungsleiter, nach einer kurzen fahrt
+    description: Gerhard, unser Schulungsleiter, immer ein Lächeln im Gesicht
     alt: Kite und -surfer im Hintergrund, Gerhard gelassen im Vordergrund
 
   - image: kite-mallorca_009.jpg
     name: Carlos
     title: Unser Lehrer Carlos bei einer kurzen Arbeitspause
     description: Carlos hat mal Schüler und Kitesurf gegen Ruhe getauscht
-    alt: Kitelehrer Carlos liegt am Strand und ruht sich aus
+    alt: Kitelehrer Carlos liegt am Strand und geniesst die Ruhe
 
   - image: kite-mallorca_010.jpg
     name: Ansgar
@@ -91,49 +91,49 @@ images:
     alt: Ehemaliges Fort mit Leuchtturm wacht in der Bucht von Pollensa
 
   - image: kite-mallorca_016.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Aufbau
+    title: Vor dem kitesurfen muss ein Kite erst aufgeblasen werden
+    description: Ein Kite ist ein Flügel der seine Form erhält durch aufgeblasene Luftkammern
+    alt: Kitesurferin beim auslegen des Kites und aufblasen der Tubes
 
   - image: kite-mallorca_017.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Nähkunst
+    title: Ein Kite ist eine Meisterleistung im Nähen
+    description: Ein guter Kite zeichnet sich durch durchdachte und sauber ausgeführte Nähte aus
+    alt: Kites bestehen aus vielen Stoffstücken, besonders stabil miteinander vernäht
 
   - image: kite-mallorca_018.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Beobachten
+    title: Als Kiter muss man lernen Wind und Wetter zu beobachten
+    description: Gerhard beim beobachten vom Wind und Wetter
+    alt: Kiter beobachtet Wind und Wetter
 
   - image: kite-mallorca_019.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Fantasie
+    title: Im theoretischen Kitesurfunterricht braucht man gute Vorstellungskraft
+    description: Die Theorie kann sehr komplex werden, deswegen üben wir umso mehr
+    alt: Im Hintergrund lehrt Daniel mit Zeichen am Himmel wie ein Kite fliegen sollte
 
   - image: kite-mallorca_020.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Relaunch
+    title: Das relaunchen ist das wiederstarten des Kites aus dem Wasser
+    description: Sollte ein Kite mal auf dem Wasser landen, muss es mit spezieller Technik wieder starten
+    alt: Lehrer erklärt den Schülern wie das relaunchen funktioniert
 
   - image: kite-mallorca_021.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Päckchen
+    title: Je kleiner die Kites, umso mehr gehen in den Van
+    description: Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden
+    alt: Gerhard legt ein Kite zusammen
 
   - image: kite-mallorca_022.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: Door
+    title: Bei wenig Wind eignen sich grosse Boards -sogenannte Door- viel besser
+    description: Door sind Boards mit sehr grosse Fläche und fast keine Aufbiegung
+    alt: Kitelehrer führt das gemütliche fahren mit einer Door vor
 
   - image: kite-mallorca_023.jpg
-    name: Ruhe
+    name: Helfer
     title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
     description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
     alt: Kite liegt am Strand unter wolken
