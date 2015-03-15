@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Kite-Mallorca - Wind - Tel. +34-696-264729"
+title: "Kite-Mallorca - Wind - Phone +34-696-264729"
 subtitle: 
 date: 
 modified:

@@ -1,29 +1,60 @@
 ---
-layout: default
-title: es
+layout: article
+title: "Kite-Mallorca - Contacto - Tel. +34-696-264729"
+subtitle: 
+date: 
+modified:
+description: "Datos de contacto y ubicación de Kite-Mallorca."
+image:
+  feature:
+  teaser:
+  thumb:
+snippets: true
 lang: es
+en-url: "en/contact"
+es-url: "es/contacto"
+de-url: "de/kontakt"
 t:
-  menutxt1: "cursos de kitesurf"
-  menutxt2: "alquiler"
-  menutxt3: "viento"
-  menutxt4: "contacto"
-  menutxt5: "fotos y videos"
-  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
+  link1: "cursos-de-kitesurf"
+  menutxt1:    "cursos de kitesurf"
+  link2: "alquiler"
+  menutxt2:    "alquiler"
+  link3: "viento"
+  menutxt3:    "viento"
+  link4: "contacto"
+  menutxt4:    "contacto"
+  link5: "flying-friends"
+  menutxt5:    "fotos y videos"
+  teaser:
 ---
 
-<div class="home">
+###DATOS DE CONTACTO DE KITE-MALLORCA
 
-  <h1>Posts</h1>
+Nos encuentras en la playa de Sa Marina, en la bahía de Pollensa, entre la ciudad de Alcudia y el Puerto de Pollensa.
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+KITE-MALLORCA  
+Kitesurf Mallorca S.L.  
+Calle del Greco 19  
+07400 Alcudia  
+Mallorca, España  
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% include googlemap.html %}
 
-</div>
+Alojamientos cercanos
+
+En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.
+
+Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.
+
+* Hotel Club Pollentia Ressort - [Clic aquí por ofertas](https://www.clubpollentia.com/?lang=es "www.clubpollentia.com")
+* Hostal Fonda Llabres - [Clic aquí por ofertas](http://www.fondallabres.com/alcudia.htm "www.fondallabres.com")
+* Hotel Hi Panoramic - [Clic aquí por ofertas](http://www.hihotels.net/es/hotels/7-smartline-panoramic "www.hihotels.net")
+* Hotel Moré - [Clic aquí por ofertas](http://www.hotelmore.com "www.hotelmore.com")
+
+ 
+
+Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.
+
+<p style='text-align: center;'><strong><a href="{{ site.url }}/es/contacta-con-nosotros" title="Abre el formulario de contacto para que nos puedas hacer tus preguntas">Daniel & Gerhard</a> +34-696-264729</strong></p>
+
+![Gerhard y Daniel en la barca de rescate]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard y Daniel en la barca de rescate")

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Kite-Mallorca - Kite & board rental - Tel. +34-696-264729"
+title: "Kite-Mallorca - Kite & board rental - Phone +34-696-264729"
 subtitle:
 date: 
 modified:

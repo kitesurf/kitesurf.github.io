@@ -25,7 +25,7 @@ t:
   menutxt4:    "contacto"
   link5: "flying-friends"
   menutxt5:    "fotos y videos"
-  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
+  teaser:
 ---
 
 ###Cursos de kitesurf
