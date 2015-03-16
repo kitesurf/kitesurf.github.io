@@ -25,6 +25,10 @@ t:
   link4:    "contact"
   menutxt5: "pictures & videos"
   link5:    "flying-friends"
+  menutxt6: "Disclaimer"
+  link6: "disclaimer"
+  menutxt7: "Contact us"
+  link7: "contact-us"
   teaser:
 ---
 

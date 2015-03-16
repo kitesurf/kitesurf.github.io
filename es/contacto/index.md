@@ -25,6 +25,10 @@ t:
   menutxt4:    "contacto"
   link5: "flying-friends"
   menutxt5:    "fotos y videos"
+  link6: "aviso-legal"
+  menutxt6: "Aviso legal"
+  link7: "contacta-con-nosotros"
+  menutxt7: "Contacta con nosotros"
   teaser:
 ---
 
@@ -45,12 +49,13 @@ Alojamientos cercanos
 En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.
 
 Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.
+<ul>
+<li>Hotel Club Pollentia Ressort - <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">Clic aquí por ofertas</a></li>
 
-* Hotel Club Pollentia Ressort - [Clic aquí por ofertas](https://www.clubpollentia.com/?lang=es "www.clubpollentia.com")
-* Hostal Fonda Llabres - [Clic aquí por ofertas](http://www.fondallabres.com/alcudia.htm "www.fondallabres.com")
-* Hotel Hi Panoramic - [Clic aquí por ofertas](http://www.hihotels.net/es/hotels/7-smartline-panoramic "www.hihotels.net")
-* Hotel Moré - [Clic aquí por ofertas](http://www.hotelmore.com "www.hotelmore.com")
-
+<li>Hostal Fonda Llabres - <a href="http://www.fondallabres.com/alcudia.htm" rel="nofollow" title="www.fondallabres.com">Clic aquí por ofertas</a></li>
+<li>Hotel Hi Panoramic - <a href="http://www.hihotels.net/es/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">Clic aquí por ofertas</a></li>
+<li>Hotel Moré - <a href="http://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">Clic aquí por ofertas</a></li>
+</ul>
  
 
 Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.

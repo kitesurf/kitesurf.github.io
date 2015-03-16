@@ -25,6 +25,10 @@ t:
   menutxt4:    "contacto"
   link5: "flying-friends"
   menutxt5:    "fotos y videos"
+  link6: "aviso-legal"
+  menutxt6: "Aviso legal"
+  link7: "contacta-con-nosotros"
+  menutxt7: "Contacta con nosotros"
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
 ---
 

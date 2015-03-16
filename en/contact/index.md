@@ -25,6 +25,10 @@ t:
   link4:    "contact"
   menutxt5: "pictures & videos"
   link5:    "flying-friends"
+  menutxt6: "Disclaimer"
+  link6: "disclaimer"
+  menutxt7: "Contact us"
+  link7: "contact-us"
   teaser:
 ---
 
@@ -46,12 +50,13 @@ Phone +34 696 264 729
 In Alcudia and around there are lots of accommodations, we just list the closest ones here.
 From those you can take the public bus or just walk to our spot.
 
-* Club Pollentia Ressort - [Click here for offers](https://www.clubpollentia.com/?lang=en "www.clubpollentia.com")
-* Fonda Llabres - [Click here for offers](http://www.fondallabres.com/e_alcudia.htm "www.fondallabres.com")
-* Moré - [Click here for offers](http://hotelmore.com/en/hotel-more-alcudia "www.hotelmore.com")
-* Hi Panoramic - [Click here for offers](http://www.hihotels.net/en/hotels/7-smartline-panoramic "www.hihotels.net")
+<ul>
+<li>Hotel Club Pollentia Ressort - <a href="https://www.clubpollentia.com/?lang=en" rel="nofollow" title="www.clubpollentia.com">Clic aquí por ofertas</a></li>
 
-
+<li>Hostal Fonda Llabres - <a href="http://www.fondallabres.com/e_alcudia.htm" rel="nofollow" title="www.fondallabres.com">Clic aquí por ofertas</a></li>
+<li>Hotel Hi Panoramic - <a href="http://www.hihotels.net/en/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">Clic aquí por ofertas</a></li>
+<li>Hotel Moré - <a href="http://www.hotelmore.com/en/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">Clic aquí por ofertas</a></li>
+</ul>
 
 For more information please fill out the [contact form]({{ site.url }}/en/contact-us "Open the contact form to write us without the need of a mail program") or just call us!
 
