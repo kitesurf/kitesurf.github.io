@@ -120,3 +120,34 @@
 	    }    
 	}
 }
+@media only screen and (max-width: 600px) {
+	.btn-fixonbottom{
+		display: inline-block;
+		width: 80%;
+		text-align: center;
+		padding: 8px 20px;
+		@include font-size(14);
+		font-family: $alt-font;
+		text-decoration: none;
+		border: 0 !important;
+		border-radius: 10 * $border-radius;
+		@include transition(background 0.2s, border 0.2s);
+		z-index: 1000;
+	    position:fixed;
+	    bottom: 5px;
+	    margin: 0 10%;
+		background-color: $info-color;
+		color: $white;
+		&:visited {
+			color: $white;
+		}
+		&:hover {
+			background-color: lighten($info-color, 10);
+		}    
+	}
+}
+@media only screen and (min-width: 600px) {
+	.btn-fixonbottom{
+		display: none;
+	}
+}

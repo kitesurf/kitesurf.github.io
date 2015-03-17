@@ -1,0 +1,13 @@
+# Texts in different languages
+
+en:
+  calltext: "Press here for call, WhatsApp or SMS"
+  teaser:   ""
+
+es:
+  calltext: "Clic aquí para llamar, WhatsApp o SMS"
+  teaser:   ""
+
+de:
+  calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
+  teaser:   ""
