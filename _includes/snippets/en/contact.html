@@ -1,9 +1,10 @@
 <h4>Any questions?</h4>
 <form method="POST" action="http://formspree.io/daniel@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email address" required>
+  <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
   <textarea name="body" placeholder="Write here your questions"></textarea>
   <span>Write us your name and mobile number and we will keep you posted on wind- and spot info during your stay. This service is free of charge.</span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
   <input type="submit" value="Send">
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks" />
 </form>
 <span>Or send us a email to<p style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</p></span>
