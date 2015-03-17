@@ -1,18 +1,5 @@
 # Site navigation links
-en:
-	- title:
-	  url:
-	  excerpt:
-	  image:
-
-es:
-	- title:
-	  url:
-	  excerpt:
-	  image:
-
-de:
-	- title:
-	  url:
-	  excerpt:
-	  image:
+- title:
+  url:
+  excerpt:
+  image:
