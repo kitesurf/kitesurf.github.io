@@ -77,8 +77,9 @@
 
       {{ content }}
 
-      {% include footer.html %}
     </div>
+      {% include footer.html %}
+    
       {% assign lang = site.data.texts[page.lang] %}
     <a class="btn-fixonbottom" href="tel:+34696264729">{{ lang.calltext }}</a>
 
@@ -122,7 +123,7 @@
     </script>
      <!-- Load GA after the `window.ga` is initialized -->
     <script async src="//www.google-analytics.com/analytics.js"></script>
-
+    <script src="/javascript/turbolinks.js" type="text/javascript" charset="utf-8"></script>
   </body>
 
 </html>

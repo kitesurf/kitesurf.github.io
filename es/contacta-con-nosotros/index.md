@@ -1,29 +1,45 @@
 ---
-layout: default
-title: es
+layout: article
+title: "Kite-Mallorca - Contacta aquí con tu centro de kitesurf - Tel. +34-696-264729"
+subtitle: 
+date: 
+modified:
+description: "Contacta aquí con el equipo de KITE-MALLORCA y escribenos tus preguntas!"
+image:
+  feature:
+  teaser:
+  thumb:
+snippets:
+shortsnippets: true
 lang: es
+en-url: "en/contact-us"
+es-url: "es/contacta-con-nosotros"
+de-url: "de/kontaktiere-uns"
 t:
-  menutxt1: "cursos de kitesurf"
-  menutxt2: "alquiler"
-  menutxt3: "viento"
-  menutxt4: "contacto"
-  menutxt5: "fotos y videos"
-  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
+  link1: "cursos-de-kitesurf"
+  menutxt1:    "cursos de kitesurf"
+  link2: "alquiler"
+  menutxt2:    "alquiler"
+  link3: "viento"
+  menutxt3:    "viento"
+  link4: "contacto"
+  menutxt4:    "contacto"
+  link5: "flying-friends"
+  menutxt5:    "fotos y videos"
+  link6: "aviso-legal"
+  menutxt6: "Aviso legal"
+  link7: "contacta-con-nosotros"
+  menutxt7: "Contacta con nosotros"
+  teaser:
 ---
+<h4>Alguna duda?</h4>
+<form method="POST" action="http://formspree.io/daniel@kite-mallorca.com">
+  <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
+  <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">
+  <textarea name="body" cols="40" rows="6" placeholder="Anota aquí tus preguntas"></textarea>
+  <span>Si nos dejas tu nombre y tu móvil, te añadiremos a nuestra lista de información de viento y spot por el tiempo de tu estancia. Este servicio es gratuito y será efectuado por Whatsapp o SMS</span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
+  <input type="submit" value="Enviar">
+</form>
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+O envíanos un correo electrónico a <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>

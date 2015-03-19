@@ -31,6 +31,6 @@ layout: default
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		{% if page.snippets == true %}{% include snippets.html %}<!-- /.snippets -->{% endif %}
+		{% if page.snippets == true %}{% include snippets.html %}{% elsif page.shortsnippets == true %}{% include shortsnippets.html %}<!-- /.snippets -->{% endif %}
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
