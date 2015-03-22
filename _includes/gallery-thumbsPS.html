@@ -1,0 +1,12 @@
+<div class="my-simple-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+{% for image in site.data[page.dataFile].images %}
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+        <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" itemprop="contentUrl" data-size="640x480">
+            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}" name="{{ image.name }}" >
+        </a>
+        <figcaption itemprop="caption description">{{ image.title }}</figcaption>	
+    </figure>
+{% endfor %}
+</div>
+
