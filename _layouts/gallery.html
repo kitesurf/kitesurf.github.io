@@ -85,10 +85,10 @@
      - preloader.gif (for browsers that do not support CSS animations) -->
 <link rel="stylesheet" href="{{ site.url }}/css/default-skin/default-skin.css">
 <!-- Core JS file -->
-<script src="{{ site.url }}/js/photoswipe.min.js"></script> 
+<script src="{{ site.url }}/js/photoswipe.min.js" async></script> 
 
 <!-- UI JS file -->
-<script src="{{ site.url }}/js/photoswipe-ui-default.min.js"></script> 
+<script src="{{ site.url }}/js/photoswipe-ui-default.min.js" async></script> 
 
 <div id="main" role="main">	
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
@@ -108,7 +108,7 @@
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
-				{% include gallery-thumbsPS.html %}
+				{% include gallery-thumbs.html %}
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
@@ -121,8 +121,8 @@
 		</div><!-- /.inner-wrap -->
 			<section class="video">
 				<div class="item">
-		{% include snippets/{{ page.lang }}/video.html %}					
-				</div>
+		<!--{% include snippets/{{ page.lang }}/video.html %}					
+				</div> -->
 			</section>
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
@@ -161,7 +161,7 @@
       });
     </script>
     {% endif %}
-    <!-- defer-images -->
+    <!-- defer-images 
     <script>
     ;(function($){
       function loadBG(){
@@ -169,11 +169,11 @@
       }
       window.onload=loadBG();
     });
-    </script>
-     <!-- Load GA after the `window.ga` is initialized -->
-    <script async src="//www.google-analytics.com/analytics.js"></script>
+    </script> -->
+     <!-- Load GA after the `window.ga` is initialized 
+    <script async src="//www.google-analytics.com/analytics.js"></script> -->
     <section>
-{% include gallery-overlayPS.html %}
+{% include gallery-overlay.html %}
 </section>
   </body>
 

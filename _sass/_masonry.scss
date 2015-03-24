@@ -8,12 +8,9 @@
     font-size: .85em;
 }
 .gallery {
-    margin: 0 0 1.5em;
-    padding: 0;
     -moz-column-gap: 0.8em;
     -webkit-column-gap: 0.8em;
     column-gap: 0.8em;
-    font-size: .85em;
 }
 .item {
     z-index: 100;
@@ -21,7 +18,7 @@
     background: #fff;
     opacity: 0.8;
     padding: 0.8em;
-    margin: 0 0 0.8em;
+    margin-bottom: 1.8em;
     width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -29,8 +26,8 @@
  }
 .gallery a img{
     display: inline-block;
-     opacity: 1.0;
-    margin: 0 0 0.8em;
+    opacity: 1.0;
+    margin-bottom: 0.8em;
 }
 
 .video {

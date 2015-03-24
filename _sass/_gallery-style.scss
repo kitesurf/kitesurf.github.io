@@ -1,15 +1,13 @@
 // styles fot PhotoSlide
-.my-simple-gallery {
-  width: 100%;
-  float: left;
-}
 .my-simple-gallery img {
+  width: 100%;
   height: auto;
 }
 .my-simple-gallery figure {
   display: block;
   float: left;
-  width: 150px;
+  margin: 0 0;
+  width: 100px;
 }
 .my-simple-gallery figcaption {
   display: none;
@@ -141,13 +139,13 @@ x:-o-prefocus, .picture .med img {
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-	background: rgb(39,153,209);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(39,153,209,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(39,153,209,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
+	background: rgb(255,255,255);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
 	-webkit-transition: opacity 0.3s linear;
 	-moz-transition: opacity 0.3s linear;
 	-o-transition: opacity 0.3s linear;
@@ -169,13 +167,13 @@ x:-o-prefocus, .picture .med img {
 	padding: 0px;
 	z-index: 99;
 	text-align: center;
-	background: rgb(39,153,209);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(39,153,209,1) 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(39,153,209,1)));
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(39,153,209,1) 100%);
+	background: rgb(255,255,255);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.86)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
 }
 .lb-overlay > div{
 	position: relative;
@@ -252,11 +250,11 @@ x:-o-prefocus, .picture .med img {
 }
 .lb-prev, .lb-next{
 	text-indent: -9000px;
-	position: relative;
-	top: -332px;
+	position: absolute;
+	top: -32px;
 	width: 24px;
 	height: 25px;
-	left: 0;
+	left: 50%;
 	opacity: 0.8;
 	filter: alpha(opacity=80); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /*IE8*/
@@ -267,11 +265,11 @@ x:-o-prefocus, .picture .med img {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
 .lb-prev{
-	margin-left: -80%;
+	margin-left: -30px;
 	background: transparent url(../../images/arrows.png) no-repeat top left;
 }
 .lb-next{
-	margin-left: 80%;
+	margin-left: 6px;
 	background: transparent url(../../images/arrows.png) no-repeat top right;
 }
 .lb-overlay:target {
