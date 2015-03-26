@@ -122,7 +122,7 @@ images:
 
   - image: kite-mallorca_021.jpg
     name: Päckchen
-    title: Je kleiner die Kites, umso mehr gehen in den Van
+    title: Je kleiner die Kites gepackt, umso mehr gehen in den Van
     description: Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden
     alt: Gerhard legt ein Kite zusammen
 
@@ -134,9 +134,9 @@ images:
 
   - image: kite-mallorca_023.jpg
     name: Helfer
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    title: Beim starten und landen eines Kites braucht man einen eingewiesenen Helfer
+    description: Die Helfer müssen eingewiesen sein und entsprechend dem Signal agieren.
+    alt: Helfer hält den Kite hoch und wartet auf sein Signal
 
   - image: kite-mallorca_024.jpg
     name: Ruhe
