@@ -1,409 +1,409 @@
 # Gallery pictures data
 images:
   - image: kite-mallorca_001.jpg
-    name: Daniel
-    title: Daniel mit Surfboard bereit zum kitesurfen
-    description: Daniel macht sich auf dem Weg ins Wasser
-    alt: Daniel mit Surfboard bereit zum kitesurfen
+    name: "Daniel"
+    title: "Daniel mit Surfboard bereit zum kitesurfen"
+    description: "Daniel macht sich auf dem Weg ins Wasser"
+    alt: "Daniel mit Surfboard bereit zum kitesurfen"
 
   - image: kite-mallorca_002.jpg
-    name: Strandleben
-    title: Kites in Reih und Glied am Boden und am Himmel
-    description: Die Kites machen die Strände farbig
-    alt: Kites in Reih und Glied am Boden und am Himmel
+    name: "Strandleben"
+    title: "Kites in Reih und Glied am Boden und am Himmel"
+    description: "Die Kites machen die Strände farbig"
+    alt: "Kites in Reih und Glied am Boden und am Himmel"
 
   - image: kite-mallorca_003.jpg
-    name: Schüler
-    title: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
-    description: Daniel mit Schüler im Wasser bereit zur ersten Fahrt
-    alt: Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt
+    name: "Schüler"
+    title: "Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt"
+    description: "Daniel mit Schüler im Wasser bereit zur ersten Fahrt"
+    alt: "Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt"
 
   - image: kite-mallorca_004.jpg
-    name: Daniel & Marie
-    title: Marie, hier 8, hat mit 6 Jahren bei uns angefangen
-    description: Marie hat mit 6 Jahren mit dem Kitesurfen begonnnen
-    alt: Marie, jüngste Kiteschülerin, hat mit 6 Jahren bei uns angefangen
+    name: "Daniel mit Marie"
+    title: "Marie, hier 8, hat mit 6 Jahren bei uns angefangen"
+    description: "Marie hat mit 6 Jahren mit dem Kitesurfen begonnnen"
+    alt: "Marie, jüngste Kiteschülerin, hat mit 6 Jahren bei uns angefangen"
 
   - image: kite-mallorca_005.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_006.jpg
-    name: Eli
-    title: Eli in voller Konzentration, wohl vor einem weiteren Sprung
-    description: Kitesurferin Eli über den Wellen in der Bucht von Pollensa
-    alt: Eli voll konzentriert beim gleiten über den Wellen
+    name: "Eli"
+    title: "Eli in voller Konzentration, wohl vor einem weiteren Sprung"
+    description: "Kitesurferin Eli über den Wellen in der Bucht von Pollensa"
+    alt: "Eli voll konzentriert beim gleiten über den Wellen"
 
   - image: kite-mallorca_007.jpg
-    name: Gemütlichkeit
-    title: Wenn der Wind eine Pause macht...
-    description: Noch ein Paar Sonnenstrahlen mit nach Hause nehmen
-    alt: Kites und Menschen ruhen sich am Strand aus
+    name: "Gemütlichkeit"
+    title: "Wenn der Wind eine Pause macht..."
+    description: "Noch ein Paar Sonnenstrahlen mit nach Hause nehmen"
+    alt: "Kites und Menschen ruhen sich am Strand aus"
 
   - image: kite-mallorca_008.jpg
-    name: Gerhard
-    title: Gerhard sehr glücklich nach einer kurzen Session
-    description: Gerhard, unser Schulungsleiter, immer ein Lächeln im Gesicht
-    alt: Kite und -surfer im Hintergrund, Gerhard gelassen im Vordergrund
+    name: "Gerhard"
+    title: "Gerhard sehr glücklich nach einer kurzen Session"
+    description: "Gerhard, unser Schulungsleiter, immer ein Lächeln im Gesicht"
+    alt: "Kite und -surfer im Hintergrund, Gerhard gelassen im Vordergrund"
 
   - image: kite-mallorca_009.jpg
-    name: Carlos
-    title: Unser Lehrer Carlos bei einer kurzen Arbeitspause
-    description: Carlos hat mal Schüler und Kitesurf gegen Ruhe getauscht
-    alt: Kitelehrer Carlos liegt am Strand und geniesst die Ruhe
+    name: "Carlos"
+    title: "Unser Lehrer Carlos bei einer kurzen Arbeitspause"
+    description: "Carlos hat mal Schüler und Kitesurf gegen Ruhe getauscht"
+    alt: "Kitelehrer Carlos liegt am Strand und geniesst die Ruhe"
 
   - image: kite-mallorca_010.jpg
-    name: Ansgar
-    title: Manche Schüler haben viel Talent und können nach einem Tag schon fahren
-    description: Ein neuer Schüler macht sich bereit
-    alt: Schüler sucht noch Sonnencreme bevor es ins Wasser geht
+    name: "Ansgar"
+    title: "Manche Schüler haben viel Talent und können nach einem Tag schon fahren"
+    description: "Ein neuer Schüler macht sich bereit"
+    alt: "Schüler sucht noch Sonnencreme bevor es ins Wasser geht"
 
   - image: kite-mallorca_011.jpg
-    name: Eli
-    title: Tanz in die unendlichkeit des Meeres
-    description: Leicht bewegtes Wasser und Wind, beste Bedingungen zum Kitesurfen
-    alt: Kitesurferin tanzt über die Wellen
+    name: "Eli"
+    title: "Tanz in die unendlichkeit des Meeres"
+    description: "Leicht bewegtes Wasser und Wind, beste Bedingungen zum Kitesurfen"
+    alt: "Kitesurferin tanzt über die Wellen"
 
   - image: kite-mallorca_012.jpg
-    name: ENVY
-    title: Die Kites von Liquid Force eignen sich hervorragend für den Sport
-    description: Liquid Force Kites vom Typ Envy, perfekter Allrounder
-    alt: Evo von North und Envy von Liquid Force liegen bereit am Strand
+    name: "ENVY"
+    title: "Die Kites von Liquid Force eignen sich hervorragend für den Sport"
+    description: "Liquid Force Kites vom Typ Envy, perfekter Allrounder"
+    alt: "Evo von North und Envy von Liquid Force liegen bereit am Strand"
 
   - image: kite-mallorca_013.jpg
-    name: Bodysystem
-    title: Am Anfang immer gehalten, damit keiner davon fliegt
-    description: Übung macht den Meister. Das fliegen des Kites muss sitzen
-    alt: Lehrer überwacht Flugübungen der Kiteschüler im Wasser
+    name: "Bodysystem"
+    title: "Am Anfang immer gehalten, damit keiner davon fliegt"
+    description: "Übung macht den Meister. Das fliegen des Kites muss sitzen"
+    alt: "Lehrer überwacht Flugübungen der Kiteschüler im Wasser"
 
   - image: kite-mallorca_014.jpg
-    name: Uli 1
-    title: Uli 1. unser Rettungsboot immer dabei
-    description: Zur Sicherheit der Schüler ist dass Rettungsboot ein muss
-    alt: Rettungsboot Uli 1 liegt bereit am Strand
+    name: "Uli 1"
+    title: "Uli 1. unser Rettungsboot immer dabei"
+    description: "Zur Sicherheit der Schüler ist dass Rettungsboot ein muss"
+    alt: "Rettungsboot Uli 1 liegt bereit am Strand"
 
   - image: kite-mallorca_015.jpg
-    name: Fortaleza
-    title: Die Fortaleza von Port Pollensa
-    description: Ein altes Fort mit Leuchtturm, wacht über die Bucht von Pollensa
-    alt: Ehemaliges Fort mit Leuchtturm wacht in der Bucht von Pollensa
+    name: "Fortaleza"
+    title: "Die Fortaleza von Port Pollensa"
+    description: "Ein altes Fort mit Leuchtturm, wacht über die Bucht von Pollensa"
+    alt: "Ehemaliges Fort mit Leuchtturm wacht in der Bucht von Pollensa"
 
   - image: kite-mallorca_016.jpg
-    name: Aufbau
-    title: Vor dem kitesurfen muss ein Kite erst aufgeblasen werden
-    description: Ein Kite ist ein Flügel der seine Form erhält durch aufgeblasene Luftkammern
-    alt: Kitesurferin beim auslegen des Kites und aufblasen der Tubes
+    name: "Aufbau"
+    title: "Vor dem kitesurfen muss ein Kite erst aufgeblasen werden"
+    description: "Ein Kite ist ein Flügel der seine Form erhält durch aufgeblasene Luftkammern"
+    alt: "Kitesurferin beim auslegen des Kites und aufblasen der Tubes"
 
   - image: kite-mallorca_017.jpg
-    name: Nähkunst
-    title: Ein Kite ist eine Meisterleistung im Nähen
-    description: Ein guter Kite zeichnet sich durch durchdachte und sauber ausgeführte Nähte aus
-    alt: Kites bestehen aus vielen Stoffstücken, besonders stabil miteinander vernäht
+    name: "Nähkunst"
+    title: "Ein Kite ist eine Meisterleistung im Nähen"
+    description: "Ein guter Kite zeichnet sich durch durchdachte und sauber ausgeführte Nähte aus"
+    alt: "Kites bestehen aus vielen Stoffstücken, besonders stabil miteinander vernäht"
 
   - image: kite-mallorca_018.jpg
-    name: Beobachten
-    title: Als Kiter muss man lernen Wind und Wetter zu beobachten
-    description: Gerhard beim beobachten vom Wind und Wetter
-    alt: Kiter beobachtet Wind und Wetter
+    name: "Beobachten"
+    title: "Als Kiter muss man lernen Wind und Wetter zu beobachten"
+    description: "Gerhard beim beobachten vom Wind und Wetter"
+    alt: "Kiter beobachtet Wind und Wetter"
 
   - image: kite-mallorca_019.jpg
-    name: Fantasie
-    title: Im theoretischen Kitesurfunterricht braucht man gute Vorstellungskraft
-    description: Die Theorie kann sehr komplex werden, deswegen üben wir umso mehr
-    alt: Im Hintergrund lehrt Daniel mit Zeichen am Himmel wie ein Kite fliegen sollte
+    name: "Fantasie"
+    title: "Im theoretischen Kitesurfunterricht braucht man gute Vorstellungskraft"
+    description: "Die Theorie kann sehr komplex werden, deswegen üben wir umso mehr"
+    alt: "Im Hintergrund lehrt Daniel mit Zeichen am Himmel wie ein Kite fliegen sollte"
 
   - image: kite-mallorca_020.jpg
-    name: Relaunch
-    title: Das relaunchen ist das wiederstarten des Kites aus dem Wasser
-    description: Sollte ein Kite mal auf dem Wasser landen, muss es mit spezieller Technik wieder starten
-    alt: Lehrer erklärt den Schülern wie das relaunchen funktioniert
+    name: "Relaunch"
+    title: "Das relaunchen ist das wiederstarten des Kites aus dem Wasser"
+    description: "Sollte ein Kite mal auf dem Wasser landen, muss es mit spezieller Technik wieder starten"
+    alt: "Lehrer erklärt den Schülern wie das relaunchen funktioniert"
 
   - image: kite-mallorca_021.jpg
-    name: Päckchen
-    title: Je kleiner die Kites gepackt, umso mehr gehen in den Van
-    description: Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden
-    alt: Gerhard legt ein Kite zusammen
+    name: "Päckchen"
+    title: "Je kleiner die Kites gepackt, umso mehr gehen in den Van"
+    description: "Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden"
+    alt: "Gerhard legt ein Kite zusammen"
 
   - image: kite-mallorca_022.jpg
-    name: Door
-    title: Bei wenig Wind eignen sich grosse Boards -sogenannte Door- viel besser
-    description: Door sind Boards mit sehr grosse Fläche und fast keine Aufbiegung
-    alt: Kitelehrer führt das gemütliche fahren mit einer Door vor
+    name: "Door"
+    title: "Bei wenig Wind eignen sich grosse Boards -sogenannte Door- viel besser"
+    description: "Door sind Boards mit sehr grosse Fläche und fast keine Aufbiegung"
+    alt: "Kitelehrer führt das gemütliche fahren mit einer Door vor"
 
   - image: kite-mallorca_023.jpg
-    name: Helfer
-    title: Beim starten und landen eines Kites braucht man einen eingewiesenen Helfer
-    description: Die Helfer müssen eingewiesen sein und entsprechend dem Signal agieren.
-    alt: Helfer hält den Kite hoch und wartet auf sein Signal
+    name: "Helfer"
+    title: "Beim starten und landen eines Kites braucht man einen eingewiesenen Helfer"
+    description: "Die Helfer müssen eingewiesen sein und entsprechend dem Signal agieren."
+    alt: "Helfer hält den Kite hoch und wartet auf sein Signal"
 
   - image: kite-mallorca_024.jpg
-    name: Barkräfte
-    title: Beim kitesurfen benötigt man in der Regel keine große Kraft in den Armen
-    description: Eine gute Kitesurferin braucht an der Bar kaum Kraft
-    alt: Kiterin mit perfekter Technik an der Bar
+    name: "Barkräfte"
+    title: "Beim kitesurfen benötigt man in der Regel keine große Kraft in den Armen"
+    description: "Eine gute Kitesurferin braucht an der Bar kaum Kraft"
+    alt: "Kiterin mit perfekter Technik an der Bar"
 
   - image: kite-mallorca_025.jpg
-    name: Daniel
-    title: In 6 Jahren über 1000 Kiteschüler geschult, da bleiben ein paar Falten
-    description: Daniel mit einigen Falten... nach 6 Jahren lehren normal
-    alt: Kitelehrer Daniel mit einigen Falten im Gesicht
+    name: "Daniel"
+    title: "In 6 Jahren über 1000 Kiteschüler geschult, da bleiben ein paar Falten"
+    description: "Daniel mit einigen Falten... nach 6 Jahren lehren normal"
+    alt: "Kitelehrer Daniel mit einigen Falten im Gesicht"
 
   - image: kite-mallorca_026.jpg
-    name: Pärchen
-    title: Was viele nicht wissen, kitesurfen eignet sich besonders für beide
-    description: Am Anfang hat man viele Fragen. Wir versuchen alles klar zu stellen
-    alt: Pärchen mit Fragen an den Lehrer
+    name: "Pärchen"
+    title: "Was viele nicht wissen, kitesurfen eignet sich besonders für beide"
+    description: "Am Anfang hat man viele Fragen. Wir versuchen alles klar zu stellen"
+    alt: "Pärchen mit Fragen an den Lehrer"
 
   - image: kite-mallorca_027.jpg
-    name: Strandgespräche
-    title: Vor und nach dem Kitesurfen sollte man Zeit haben für einen Plausch
-    description: Kitesurfen ist für jeden geeignet, egal ob muskulös oder zierlich
-    alt: Kitesurfer unterhalten sich während dem Aufbau eines Kites
+    name: "Strandgespräche"
+    title: "Vor und nach dem Kitesurfen sollte man Zeit haben für einen Plausch"
+    description: "Kitesurfen ist für jeden geeignet, egal ob muskulös oder zierlich"
+    alt: "Kitesurfer unterhalten sich während dem Aufbau eines Kites"
 
   - image: kite-mallorca_028.jpg
-    name: Flugtraining
-    title: Vorrangig für einen guten Kitesurfer ist die volle Kontrolle des Kites
-    description: Bei uns lernt man wie ein Kite fliegt und wie man ihn steuert
-    alt: Paar erhält Erläuterungen über die Steuerbewegungen an der Kitebar
+    name: "Flugtraining"
+    title: "Vorrangig für einen guten Kitesurfer ist die volle Kontrolle des Kites"
+    description: "Bei uns lernt man wie ein Kite fliegt und wie man ihn steuert"
+    alt: "Paar erhält Erläuterungen über die Steuerbewegungen an der Kitebar"
 
   - image: kite-mallorca_029.jpg
-    name: Kitehandling
-    title: Ein Kite lässt sich sehr gut in der Mitte hochheben um es am Strand zu bewegen
-    description: Der sogenannte Transportgrif, dabei wird der Kite einfach in der Mitte hochgenommen
-    alt: Kiterin nimmt einen Kite hoch in dem sie unter der Frontube greift
+    name: "Kitehandling"
+    title: "Ein Kite lässt sich sehr gut in der Mitte hochheben um es am Strand zu bewegen"
+    description: "Der sogenannte Transportgrif, dabei wird der Kite einfach in der Mitte hochgenommen"
+    alt: "Kiterin nimmt einen Kite hoch in dem sie unter der Frontube greift"
 
   - image: kite-mallorca_030.jpg
-    name: Relaunch
-    title: Beim relaunchen wird ein Kite aus dem Wasser wieder gestartet
-    description: Es gibt sehr viele Arten einen Kite zu relaunchen
-    alt: Kite liegt im Wasser und Schüler versuchen es unter Anleitung zu relaunchen
+    name: "Relaunch"
+    title: "Beim relaunchen wird ein Kite aus dem Wasser wieder gestartet"
+    description: "Es gibt sehr viele Arten einen Kite zu relaunchen"
+    alt: "Kite liegt im Wasser und Schüler versuchen es unter Anleitung zu relaunchen"
 
   - image: kite-mallorca_031.jpg
-    name: Aufgereit
-    title: Kites warten auf ihren Einsatz
-    description: Immer wieder schön anzusehen wenn Kites ordentlich aufgereit da liegen
-    alt: Kites die am Strand aufgereit auf ihren Einsatz warten
+    name: "Aufgereit"
+    title: "Kites warten auf ihren Einsatz"
+    description: "Immer wieder schön anzusehen wenn Kites ordentlich aufgereit da liegen"
+    alt: "Kites die am Strand aufgereit auf ihren Einsatz warten"
 
   - image: kite-mallorca_032.jpg
-    name: Sonnenschutz
-    title: Sonnenbrille und Sonnencreme, sehr wichtig beim Kitesurfen im Sommer
-    description: Gerade als Anfänger schaut man öfters nach dem Kite und dabei in die Sonne
-    alt: Kiter steuern und beobachten ihren Kite am Himmel
+    name: "Sonnenschutz"
+    title: "Sonnenbrille und Sonnencreme, sehr wichtig beim Kitesurfen im Sommer"
+    description: "Gerade als Anfänger schaut man öfters nach dem Kite und dabei in die Sonne"
+    alt: "Kiter steuern und beobachten ihren Kite am Himmel"
 
   - image: kite-mallorca_033.jpg
-    name: Leichtwind
-    title: Gefühlvolles steuern an der Kitebar
-    description: Bei Leichtwind muss man sehr gefühlvoll an der Bar steuern
-    alt: Gerhard zeigt den Umgang mit der Bar beim fahren bei Leichtwind
+    name: "Leichtwind"
+    title: "Gefühlvolles steuern an der Kitebar"
+    description: "Bei Leichtwind muss man sehr gefühlvoll an der Bar steuern"
+    alt: "Gerhard zeigt den Umgang mit der Bar beim fahren bei Leichtwind"
 
   - image: kite-mallorca_034.jpg
-    name: Startzeichen
-    title: Verständigung am Strand mit Zeichen
-    description: Da es oft sehr laut ist am Strand verständigt man sich mit Zeichen
-    alt: Kiter gibt mit Finger oben das Signal zum loslassen des Kites durch den Helfer
+    name: "Startzeichen"
+    title: "Verständigung am Strand mit Zeichen"
+    description: "Da es oft sehr laut ist am Strand verständigt man sich mit Zeichen"
+    alt: "Kiter gibt mit Finger oben das Signal zum loslassen des Kites durch den Helfer"
 
   - image: kite-mallorca_035.jpg
-    name: Glücksmomente
-    title: Kitesurfen kann sehr glücklich machen
-    description: Einfachheit gepaart mit akrobatischen Wassersport macht süchtig
-    alt: Daniel mit immensen Grinsen im Gesicht
+    name: "Glücksmomente"
+    title: "Kitesurfen kann sehr glücklich machen"
+    description: "Einfachheit gepaart mit akrobatischen Wassersport macht süchtig"
+    alt: "Daniel mit immensen Grinsen im Gesicht"
 
   - image: kite-mallorca_036.jpg
-    name: Sicherheit
-    title: Sicherheit ist oberstes gebot
-    description: Als Rettungsschwimmer ausgebildete Kitelehrer und Rettungsboot, ein muss für eine gute Kiteschule
-    alt: Rettungsboot ist immer parat zur Stelle
+    name: "Sicherheit"
+    title: "Sicherheit ist oberstes gebot"
+    description: "Als Rettungsschwimmer ausgebildete Kitelehrer und Rettungsboot, ein muss für eine gute Kiteschule"
+    alt: "Rettungsboot ist immer parat zur Stelle"
 
   - image: kite-mallorca_037.jpg
-    name: Bodydrag
-    title: Bodydragen, ohne Board sich vom Kite durch das Wasser ziehen lassen
-    description: Am Anfang muss das Bodydragen zu zweit geübt werden
-    alt: Lehrer mit Schülerin lassen sich vom Kite durchs Wasser ziehen
+    name: "Bodydrag"
+    title: "Bodydragen, ohne Board sich vom Kite durch das Wasser ziehen lassen"
+    description: "Am Anfang muss das Bodydragen zu zweit geübt werden"
+    alt: "Lehrer mit Schülerin lassen sich vom Kite durchs Wasser ziehen"
 
   - image: kite-mallorca_038.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_039.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_040.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_041.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_042.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_043.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_044.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_045.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_046.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_047.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_048.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_049.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_050.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_051.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_052.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_053.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_054.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_055.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_056.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_057.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_058.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_059.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_060.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_061.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_062.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_063.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_064.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_065.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_066.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_067.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_068.jpg
-    name: Ruhe
-    title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
-    alt: Kite liegt am Strand unter wolken
+    name: "Ruhe"
+    title: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    description: "Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein"
+    alt: "Kite liegt am Strand unter wolken"

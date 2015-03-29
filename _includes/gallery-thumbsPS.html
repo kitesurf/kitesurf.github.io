@@ -1,7 +1,0 @@
-<div>
-{% for image in site.data[page.dataFile].images %}
-<a href="#image-{{ forloop.index }}">
-    <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}" />
-</a>
-{% endfor %}
-</div>

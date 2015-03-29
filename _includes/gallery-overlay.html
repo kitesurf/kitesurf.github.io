@@ -6,7 +6,7 @@
 
 		{% for image in site.data[page.dataFile].images %}		
 		<div class="lb-overlay" id="image-{{ forloop.index }}">
-            		<img src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" alt="{{ image.alt }}" />
+            		<img src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" alt={{ image.alt }} />
 			<div>
 				<h3>{{ image.name }}</h3>
 				<p>{{ image.description }}</p>
