@@ -4,43 +4,43 @@ images:
     name: "Daniel"
     title: "Daniel with his surfboard ready to go kitesurfing"
     description: "Daniel on the way to the water"
-    alt: "Daniel with his surfboard ready to go kitesurfing"
+    alt: "Daniel catching his surfboard to go on the water"
 
   - image: kite-mallorca_002.jpg
     name: "beach life"
     title: "Kites arranged in proper order on the ground and in the air"
     description: "The kites make the beaches colourful"
-    alt: "Kites arranged in proper order on the ground and in the air"
+    alt: "Kites on the beach and in the air"
 
   - image: kite-mallorca_003.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Students"
+    title: "Daniel giving last instructions before the first ride"
+    description: "Daniel with a student ready for his first ride"
+    alt: "Daniel instructing a stundent"
 
   - image: kite-mallorca_004.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Daniel with Marie"
+    title: "Marie, here 8 years old, started kitesurfing with 6 years"
+    description: "Marie started kitesurfing with us being only 6 years old"
+    alt: "Marie, our youngest stundent when she started with the age of 6 years"
 
   - image: kite-mallorca_005.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Chill out"
+    title: "Time to pack up"
+    description: "Getting quiet when the kitesurfers leave in the evening"
+    alt: "After a long kite day"
 
   - image: kite-mallorca_006.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Eli"
+    title: "Eli playing in small waves"
+    description: "Eli concentrating on her ride"
+    alt: "Eli looking for a kicker wave"
 
   - image: kite-mallorca_007.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Chilling"
+    title: "Waiting for the next breeze"
+    description: "Enjoying the sun on the kite beach"
+    alt: "A kitesurfer's life is hard"
 
   - image: kite-mallorca_008.jpg
     name: ""
