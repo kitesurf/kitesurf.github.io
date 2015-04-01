@@ -1,16 +1,16 @@
 # Gallery pictures data
 images:
   - image: kite-mallorca_001.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Daniel"
+    title: "Daniel with his surfboard ready to go kitesurfing"
+    description: "Daniel on the way to the water"
+    alt: "Daniel with his surfboard ready to go kitesurfing"
 
   - image: kite-mallorca_002.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "beach life"
+    title: "Kites arranged in proper order on the ground and in the air"
+    description: "The kites make the beaches colourful"
+    alt: "Kites arranged in proper order on the ground and in the air"
 
   - image: kite-mallorca_003.jpg
     name: ""
