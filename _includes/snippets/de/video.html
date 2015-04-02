@@ -3,12 +3,11 @@
 function createIframe(){
   var i = document.createElement("iframe");
   i.src = "https://www.youtube.com/embed/El49Bnx505w";
-  i.high = "420px"
-  i.width = "315px"
-  i.style = "border:none; allowfullscreen;";
+  i.high = "315px"
+  i.width = "420px"
   i.scrolling = "no";
   i.frameborder = "0";
-  i.allowfullscreen;
+  i.allowfullscreen = "true";
   i.allowTransparency = "false";
   document.getElementById("video").appendChild(i);
 };
