@@ -74,8 +74,6 @@
       
         </div>
       {% endif %}  
-<!-- <script src="{{ site.url }}/js/picturefill.js" async></script>
-<script src="{{ site.url }}/js/lazyload.min.js" async></script> -->
 <!-- Core CSS file -->
 <link rel="stylesheet" href="{{ site.url }}/css/photoswipe.css"> 
 
@@ -121,8 +119,8 @@
 		</div><!-- /.inner-wrap -->
 			<section class="video">
 				<div class="item">
-		<!--{% include snippets/{{ page.lang }}/video.html %}					
-				</div> -->
+		{% include snippets/{{ page.lang }}/video.html %}					
+				</div>
 			</section>
 	</article><!-- ./wrap -->
 </div><!-- /#main -->
@@ -132,10 +130,10 @@
       {% assign lang = site.data.texts[page.lang] %}
     <a class="btn-fixonbottom" href="tel:+34696264729">{{ lang.calltext }}</a>
 
+    <script src="{{ site.url }}/js/animenu.js" async></script> 
 
 <!--    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-    <script src="{{ site.url }}/js/animenu.js"></script> 
     <script src="{{ site.url }}/js/picturefill.js" async></script>
     <script src="{{ site.url }}/js/lazyload.min.js" async></script> -->
     
