@@ -3,11 +3,12 @@
 function createIframe(){
   var i = document.createElement("iframe");
   i.src = "https://www.youtube.com/embed/El49Bnx505w";
-  i.style = "border:none; overflow:hidden; width:100%; height:100%";
+  i.allowTransparency = "false"
+  i.height = "460px"
+  i.width = "100%"
+  i.style = "border:none; allowfullscreen;";
   i.scrolling = "no";
-  i.frameborder = "0";
-  i.allowTransparency = "false";
-  document.getElementById("fit-vids-style").appendChild(i);
+  document.getElementById("video").appendChild(i);
 };
         
 // Check for browser support of event handling capability
@@ -17,4 +18,4 @@ else if (window.attachEvent)
 window.attachEvent("onload", createIframe);
 else window.onload = createIframe;
 </script>
-<div id="fit-vids-style"><noscript><iframe width="100%" height="100%" src="https://www.youtube.com/embed/El49Bnx505w" frameborder="0" allowfullscreen></iframe></noscript></div>
+<div id="video"></div><noscript><iframe src="https://www.youtube.com/embed/El49Bnx505w" frameborder="0" allowfullscreen></iframe></noscript>
