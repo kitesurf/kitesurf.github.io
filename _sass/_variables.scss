@@ -3,7 +3,7 @@
 
 // Typography variables
 
-$base-font                   	: Arial,sans-serif;
+$base-font                   	: Lato,"Segoe UI",Arial,sans-serif;
 $heading-font                	: Lato,"Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
@@ -23,8 +23,8 @@ $base-color                  	: #343434;
 $comp-color                  	: complement($base-color); 
 $border-color                	: #ddd;
 $white                       	: #fff;
-$black                       	: #000;
-$blau							: #2799d1;
+$black                      	: #222;
+$blau			        : #2799d1;
 $rot							: #df061c;
 $link-color                  	: $blau;
 $primary-color               	: $black;
