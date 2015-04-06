@@ -49,33 +49,31 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 > 10 Stunden Anfängerkurs - EUR 390,-  
 > Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)
 
-> Einzelstunden in der Gruppe - EUR 45,-/h  
-> Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
+- Einzelstunden in der Gruppe - EUR 45,-/h  
+Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
-> 3 Stunden Schnupperkurs - EUR 100,-  
-> Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)
+- 3 Stunden Schnupperkurs - EUR 100,-  
+Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)
 
 > Einzelstunden im privaten Unterricht - EUR 75,-/h  
 > Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
 *Alle Preise gültig pro Person*
 
-Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.
-
-->Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!<-
-
+Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
+**Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**
 
 Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:
 
-1) Basics und Kitekontrolle: Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.
+1. Basics und Kitekontrolle: Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.
 
-2) Bodydrag: Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.
+2. Bodydrag: Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.
 
-3) Wasserstart: Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.
+3. Wasserstart: Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.
 
 Bilder von und mit Schüler beim Kitesurfen:
 
 {% include snippets/de/image-hover-effects.html %}
 
-Melde dich bei [Daniel & Gerhard]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!
+Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!
 
