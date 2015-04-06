@@ -29,7 +29,7 @@ t:
   menutxt6: "Datenschutz"
   link7: "kontaktiere-uns"
   menutxt7: "Kontaktiere uns"
-  teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen..."
+  teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen!"
 ---
 
 ###KITEKURSE
@@ -48,14 +48,14 @@ Unsere Qualität zum besten Preis
 
 10 Stunden Anfängerkurs   EUR 390,-
 Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)
-
+---
 Einzelstunden in der Gruppe   EUR 45,-/h
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
 
 
-###Kite & Board Vermietung
+###KITE & BOARD VERMIETUNG
 
 Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
 
