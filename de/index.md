@@ -46,6 +46,8 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 Unsere Qualität zum besten Preis
 
+---
+
 10 Stunden Anfängerkurs   EUR 390,-  
 Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)
 
