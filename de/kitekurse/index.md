@@ -58,7 +58,7 @@ Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende 
 Einzelstunden im privaten Unterricht - **EUR 75,-/h**  
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
-<p text-align: right;>Alle Preise gültig pro Person></p>
+*Alle Preise gültig pro Person*
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**
