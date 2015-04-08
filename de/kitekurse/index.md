@@ -52,13 +52,13 @@ Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung un
 Einzelstunden in der Gruppe - **EUR 45,-/h**  
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
-3 Stunden Schnupperkurs **EUR 100,-**  
+3 Stunden Schnupperkurs - **EUR 100,-**  
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)
 
-Einzelstunden im privaten Unterricht **EUR 75,-/h**  
+Einzelstunden im privaten Unterricht - **EUR 75,-/h**  
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
-*Alle Preise gültig pro Person*
+<p text-align: right;>Alle Preise gültig pro Person></p>
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**
