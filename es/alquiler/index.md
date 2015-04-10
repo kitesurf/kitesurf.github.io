@@ -36,7 +36,7 @@ t:
 
 En el alquiler de material tenemos los equipos más nuevos de North, Liquid Force y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
-Por que alquilar con Kite-Mallorca  
+**Por que alquilar con Kite-Mallorca**
 - Siempre te asesoraremos en elegir el material adecuado, seguro y que más se adapte a tu nivel.  
 - Nuestra supervisión está incluida en el precio de alquiler y te daremos consejos como mejorar tu nivel.
 - Desde la playa te observaremos, y estaremos siempre a tu lado cuando necesites ayuda!
