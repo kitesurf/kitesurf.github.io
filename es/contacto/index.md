@@ -44,22 +44,18 @@ Mallorca, España
 
 {% include googlemap.html %}
 
-Alojamientos cercanos
+#####Alojamientos cercanos
 
-En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.
-
+En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.  
 Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.
-<ul>
-<li>Hotel Club Pollentia Ressort - <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">Clic aquí por ofertas</a></li>
 
-<li>Hostal Fonda Llabres - <a href="http://www.fondallabres.com/alcudia.htm" rel="nofollow" title="www.fondallabres.com">Clic aquí por ofertas</a></li>
-<li>Hotel Hi Panoramic - <a href="http://www.hihotels.net/es/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">Clic aquí por ofertas</a></li>
-<li>Hotel Moré - <a href="http://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">Clic aquí por ofertas</a></li>
-</ul>
- 
+- Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">» Clic aquí por ofertas</a>
+- Hostal Fonda Llabres <a href="http://www.fondallabres.com/alcudia.htm" rel="nofollow" title="www.fondallabres.com">» Clic aquí por ofertas</a>
+- Hotel Hi Panoramic <a href="http://www.hihotels.net/es/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">» Clic aquí por ofertas</a>
+- Hotel Moré <a href="http://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">» Clic aquí por ofertas</a>
 
 Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.
 
-<p style='text-align: center;'><strong><a href="{{ site.url }}/es/contacta-con-nosotros" title="Abre el formulario de contacto para que nos puedas hacer tus preguntas">Daniel & Gerhard</a> +34-696-264729</strong></p>
+<h6 style='text-align: center;'><a href="{{ site.url }}/es/contacta-con-nosotros" title="Abre el formulario de contacto para que nos puedas hacer tus preguntas">Daniel & Gerhard</a> +34-696-264729</h6>
 
 ![Gerhard y Daniel en la barca de rescate]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard y Daniel en la barca de rescate")
