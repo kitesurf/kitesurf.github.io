@@ -56,7 +56,7 @@ Lessons in a small group of 2-4 students with the goal to be dragged through the
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
 
 
-###Kite & board rental
+###KITE & BOARD RENTAL
 
 Latest equipment from Liquid Force, North and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 
