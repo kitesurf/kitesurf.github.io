@@ -32,9 +32,9 @@ t:
   teaser:
 ---
 
-###Kite & board rental
+###KITE & BOARD RENTAL
 
-Latest equipment from North, Liquid Force and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
+Latest equipment from Liquid Force, North  and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
@@ -69,7 +69,6 @@ We always keep an eye on you and in case you need our help we are immediately wi
 
 #####Booking
 In order to make sure that you always get the apropriate kite we recommend to book in advance for a rental period of one week or more. Then the equipment will be reserved for you.
-
 
 #####Liability for rented kites and boards
 We recommend to effect an insurance covering accident, third party liability and damage to rented equipment prior to the rental, e.g. the Safety Tool from VDWS.
