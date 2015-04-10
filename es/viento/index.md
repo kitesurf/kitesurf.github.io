@@ -37,8 +37,8 @@ t:
 //doesn't block the load event
 function windIframe(){
   var i = document.createElement("iframe");
-  i.src = "http://widgets.ikitesurf.com/widgets/web/forecastTable?lat=39.87&lon=3.0884&units_wind=kts&units_height=m&units_temp=C&days=4&width=450&height=230&color=2799d1&name=Sa Marina&app=ikitesurf";
-  i.style = "border:none; overflow:hidden; height:200px; width:100%;";
+  i.src = "http://widgets.ikitesurf.com/widgets/web/forecastTable?lat=39.87&lon=3.0884&units_wind=kts&units_height=m&units_temp=C&days=4&width=450&height=250&color=2799d1&name=Sa Marina&app=ikitesurf";
+  i.style = "border:none; overflow:hidden; height:250px; width:100%;";
   i.scrolling = "no";
   i.frameborder = "0";
   i.allowTransparency = "true";
