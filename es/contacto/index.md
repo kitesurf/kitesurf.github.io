@@ -41,6 +41,7 @@ Kitesurf Mallorca S.L.
 Calle del Greco 19  
 07400 Alcudia  
 Mallorca, España  
+Tlf. +34 696 264729
 
 {% include googlemap.html %}
 
