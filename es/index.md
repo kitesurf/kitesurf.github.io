@@ -32,7 +32,7 @@ t:
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
 ---
 
-###Cursos de kitesurf
+###CURSOS DE KITESURF
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
@@ -42,22 +42,21 @@ Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar bue
 
 Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.
 
-Nuestra calidad al mejor precio
+#####Nuestra calidad al mejor precio
 
-Curso completo de 10 horas  EUR 390,-
-Clases en grupo, incluyen preparación y teoría para obtener la licencia
-de la federación internacional VDWS (duración 3-6 dias)
+Curso completo de 10 horas - **EUR 390,-**  
+Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
-Clases por horas sueltas  EUR 45,-/h
+Clases por horas sueltas - **EUR 45,-/h**  
 Clases individuales en grupo para todos los niveles
 
 [» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
 
-###Alquiler de Kite y Tabla para Mallorca
+###ALQUILER DE KITE Y TABLA
 
-En el alquiler de material tenemos los equipos más nuevos de North, Liquid Force y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
+En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North  y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
-Por que alquilar con Kite-Mallorca:
+**Por que alquilar con Kite-Mallorca**
 
 * Siempre te asesoraremos en elegir el material adecuado, seguro y que más se adapte a tu nivel.
 * Nuestra supervisión está incluida en el precio de alquiler y te daremos consejos como mejorar tu nivel.
