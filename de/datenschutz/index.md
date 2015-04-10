@@ -32,7 +32,7 @@ t:
   teaser:
 ---
 
-###Datenschutzrichtlinien
+###DATENSCHUTZRICHTLINIEN
 
 #####Disclaimer
 
