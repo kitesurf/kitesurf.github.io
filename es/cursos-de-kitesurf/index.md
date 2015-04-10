@@ -71,6 +71,6 @@ Nuestros cursos de kite están compuestos de la siguiente manera:
 
 Fotos de alumnos en clases y practicando kitesurf:
 
-{%include snippets/es/image-hover-effects.html %}  
-
+{%include snippets/es/image-hover-effects.html %}
+  
 Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!
