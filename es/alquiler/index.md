@@ -34,7 +34,7 @@ t:
 
 ###ALQUILER DE KITE Y TABLA
 
-En el alquiler de material tenemos los equipos más nuevos de North, Liquid Force y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
+En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
 #####Por que alquilar con Kite-Mallorca
 
