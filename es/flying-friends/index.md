@@ -33,6 +33,8 @@ t:
   teaser:
 ---
 
-###Impresiónes
+### FOTOS Y VIDEOS
+
+#####IMPRESIÓNES
 
 Fotos de Kitesurf en Mallorca. En ellas se pueden admirar muchos de nuestros alumnos y amigos.
