@@ -33,7 +33,8 @@ t:
   teaser:
 ---
 
-<### NOCH FRAGEN?
+### NOCH FRAGEN?
+
 <form method="POST" action="http://formspree.io/daniel@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
   <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
