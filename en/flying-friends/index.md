@@ -33,6 +33,8 @@ t:
   teaser:
 ---
 
-###Impressions
+### PICTURES & VIDEOS
+
+#####Impressions
 
 Pictures from kitesurfing in Mallorca. You can see many of our stundents and friends here.
