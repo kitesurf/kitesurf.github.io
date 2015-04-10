@@ -70,8 +70,9 @@ Nuestros cursos de kite están compuestos de la siguiente manera:
 3) Waterstart: Después de navegar con Bodydrag bien controlado tendrás que ponerte la tabla de kitesurf o kiteboard en los pies, y aprenderás como hacer tus primeros metros encima del agua navegando.
 
 Fotos de alumnos en clases y practicando kitesurf:
-
-{%include snippets/es/image-hover-effects.html %}
   
+{%include snippets/es/image-hover-effects.html %}  
+  
+
 
 Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!
