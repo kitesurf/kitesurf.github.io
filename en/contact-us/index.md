@@ -33,7 +33,8 @@ t:
   teaser:
 ---
 
-<h4>Any questions?</h4>
+###ANY QUESTIONS?
+
 <form method="POST" action="http://formspree.io/daniel@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email address" required>
   <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
@@ -42,4 +43,4 @@ t:
   <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
   <input type="submit" value="Send">
 </form>
-Or send us a email to <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>
+Or send us a email to <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>.
