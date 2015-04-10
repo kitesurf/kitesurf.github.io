@@ -43,4 +43,4 @@ t:
   <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
   <input type="submit" value="Send">
 </form>
-Or send us a email to <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>.
+Or send us a email to <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>
