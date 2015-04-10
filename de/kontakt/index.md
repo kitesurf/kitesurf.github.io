@@ -41,29 +41,24 @@ Kitesurf Mallorca S.L.
 Calle del Greco 19  
 07400 Alcudia  
 Mallorca, Spanien  
-Tel.: +34 696 264 729  
+Tel.: +34 696 264729  
 
 
 {% include googlemap.html %}
 
 
-Nächstgelegene Unterkünfte
+#####Nächstgelegene Unterkünfte
 
-In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.
-
+In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.  
 Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch eure Abholung möglich.
 
-<ul>
-<li>Hotel Club Pollentia Ressort - <a href="https://www.clubpollentia.com/?lang=de" rel="nofollow" title="www.clubpollentia.com">Clic aquí por ofertas</a></li>
-
-<li>Hostal Fonda Llabres - <a href="http://www.fondallabres.com/d_alcudia.htm" rel="nofollow" title="www.fondallabres.com">Clic aquí por ofertas</a></li>
-<li>Hotel Hi Panoramic - <a href="http://www.hihotels.net/de/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">Clic aquí por ofertas</a></li>
-<li>Hotel Moré - <a href="http://www.hotelmore.com/de/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">Clic aquí por ofertas</a></li>
-</ul>
+- Hotel Club Pollentia Ressort  <a href="https://www.clubpollentia.com/?lang=de" rel="nofollow" title="www.clubpollentia.com">  » Klicke hier für Angebote</a>
+- Hostal Fonda Llabres - <a href="http://www.fondallabres.com/d_alcudia.htm" rel="nofollow" title="www.fondallabres.com">  » Klicke hier für Angebote</a>
+- Hotel Hi Panoramic  <a href="http://www.hihotels.net/de/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">  » Klicke hier für Angebote</a>
+- Hotel Moré  <a href="http://www.hotelmore.com/de/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">  » Klicke hier für Angebote</a>
 
 Für nähere Informationen über uns fülle bitte das [Kontaktformular]({{ site.url }}/de/kontaktiere-uns "Öffnet das Kontaktformular um uns auch ohne E-Mail Programm zu schreiben") aus oder ruf uns einfach an!
 
-<p style='text-align: center;'><strong><a href="{{ site.url }}/de/kontaktiere-uns" title="Öffnet das Kontaktformular um uns zu schreiben">Daniel & Gerhard</a> +34-696-264729</strong></p>
-
+<h6 style='text-align: center;'><a href="{{ site.url }}/de/kontaktiere-uns" title="Öffnet das Kontaktformular um uns zu schreiben">Daniel & Gerhard</a> +34-696-264729</h6>
 
 ![Gerhard und Daniel im Rettungsboot]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard und Daniel im Rettungsboot")
