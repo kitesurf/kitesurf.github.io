@@ -342,7 +342,11 @@ ul.cb-slideshow {
 	max-width:100%;
 	height:auto
 }
-
+.logo {
+	@media only screen and ( max-width: 767px ) {
+    max-width:60%;
+	}
+}
 // page header
 .page-feature {
 	@include fill-parent;
