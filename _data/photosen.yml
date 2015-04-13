@@ -9,8 +9,8 @@ images:
   - image: kite-mallorca_002.jpg
     name: "beach life"
     title: "Kites arranged in proper order on the ground and in the air"
-    description: "The kites make the beaches colourful"
-    alt: "Kites on the beach and in the air"
+    description: "Kites on the beach and in the air"
+    alt: "The kites make the beaches colourful"
 
   - image: kite-mallorca_003.jpg
     name: "Students"
@@ -43,58 +43,58 @@ images:
     alt: "A kitesurfer's life is hard"
 
   - image: kite-mallorca_008.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Gerhard"
+    title: "Gerhard happy after a session"
+    description: "Gerhard always with a smile"
+    alt: "Gerhard in front of a kite and a kitesurfer"
 
   - image: kite-mallorca_009.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Carlos"
+    title: "Instructor Carlos "
+    description: "Our instructor Carlos taking a break on the beach"
+    alt: "Instructor Carlos relaxing on the beach during a break"
 
   - image: kite-mallorca_010.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Ansgar"
+    title: "Some stundent have a lot of talent an learn kitesurfing in one day"
+    description: "A student getting ready for his next lession"
+    alt: "Stundent preparing for his next course"
 
   - image: kite-mallorca_011.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Eli"
+    title: "Kitesurfer playing in small waves"
+    description: "Perfect conditions for kitesurfing!"
+    alt: "A very nice ride..."
 
   - image: kite-mallorca_012.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Liquid Force Envy"
+    title: "The kites from Liquid force are great for kitesurfing"
+    description: "Packing together the Liquid Force Envy at the end of the day"
+    alt: "Evo from North and Envy from Liquid Force are prepared on the beach"
 
   - image: kite-mallorca_013.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Buddy System"
+    title: "First waster unit to lear the kite control"
+    description: "Learning the basic kite conrol in the buddy system"
+    alt: "The kite control is the most important about kitesurfing"
 
   - image: kite-mallorca_014.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Uli 1."
+    title: "Our rescue boat Uli 1."
+    description: "For your safety there is always our rescue boat on site"
+    alt: "Rescue boat ready on the beach"
 
   - image: kite-mallorca_015.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Fortaleza"
+    title: "The Fortaleza from Port Pollenca"
+    description: "An old fort with a lighthouse is watching over the bay from Port de Pollenca"
+    alt: "The old fort watching over the kitesurfers' bay"
 
   - image: kite-mallorca_016.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Pump up"
+    title: "Pump up = warm up"
+    description: "First thing to do - pump up the kite!"
+    alt: "A kite needs to be inflated to get his shape"
 
   - image: kite-mallorca_017.jpg
     name: ""
