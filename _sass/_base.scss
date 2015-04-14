@@ -30,13 +30,13 @@ h3 {
 	@include font-size(28);
 }
 h4 {
-	@include font-size(24);
+	@include font-size(24,12,36);
 }
 h5 {
 	@include font-size(20);
 }
 h6 {
-	@include font-size(18);
+	@include font-size(18,12,27);
 }
 
 u,
