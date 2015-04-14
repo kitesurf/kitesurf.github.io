@@ -159,7 +159,7 @@ images:
   - image: kite-mallorca_027.jpg
     name: "small talk"
     title: "Kitesurfers's small talk"
-    description: "There is a lot to chat before and after a kite session..."
+    description: "There is a lot to chat before and after a kite session!"
     alt: "Typical small talk between kitesurfers on the beach"
 
   - image: kite-mallorca_028.jpg
@@ -172,12 +172,12 @@ images:
     name: "Holding a kite"
     title: "How to carry a kite"
     description: "Kitesurfer safely carrying a kite"
-    alt: Correctly carrying a kite in the middle of the front tube"
+    alt: "Correctly carrying a kite in the middle of the front tube"
 
   - image: kite-mallorca_030.jpg
     name: "Kite relaunch"
     title: "Also the relaunch has to be learned"
-    description: "Stundents learning how to relaunch a kite"
+    description: "Students learning how to relaunch a kite"
     alt: "There a different techniques to launch a kite"
 
   - image: kite-mallorca_031.jpg
@@ -217,28 +217,28 @@ images:
     alt: "Rescue boat - a must have for a kite school"
 
   - image: kite-mallorca_037.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Body dragging"
+    title: "Daniel with student learning the body drag"
+    description: "Body dragging - the second step in the kite course"
+    alt: "After the basic kite control the students start with the body dragging"
 
   - image: kite-mallorca_038.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Gerhard & Daniel"
+    title: "Gerhard and Daniel on their rescue boat"
+    description: "Gerhard and Daniel on a ride with the recue boat"
+    alt: "Gerhard and Daniel trying out the resuce boat"
 
   - image: kite-mallorca_039.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Getting ready"
+    title: "Gerhard and Daniel chatting"
+    description: "After the lessions the instructors may go kitesurfing..."
+    alt: "Gerhard preparing to go to the water"
 
   - image: kite-mallorca_040.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite launch"
+    title: "Safe kite launch in the waer"
+    description: "Launching the kite safely practised in the water"
+    alt: "First you learn to start the kite in the water"
 
   - image: kite-mallorca_041.jpg
     name: ""
