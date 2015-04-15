@@ -29,7 +29,7 @@ t:
   link6:    "disclaimer"
   menutxt7: "Contact us"
   link7:    "contact-us"
-  teaser: "Come and learn with us the first steps in kitesurfing..."
+  teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 
 ###KITESURFING LESSONS
