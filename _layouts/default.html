@@ -20,6 +20,7 @@
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
 
         <!-- Multilinguale behandlung durch Google -->
+    <meta http-equiv="language" content="{{ page.lang }}">
     <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
