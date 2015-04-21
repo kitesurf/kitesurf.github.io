@@ -273,14 +273,14 @@ ul.cb-slideshow {
 		text-align: center;
 		margin-top: 0;
 		margin-left: 0;
-		margin-right: -5;
+		margin-right: -$gutter;
 		padding: 10px;
 		background: $white;
 		opacity: 0.8;
 		@include media($medium) {
 			@include span-columns(3);
 			margin-left: 0;
-			margin-right: 5;
+			margin-right: $gutter;
 		}
 		&:after {
 			content: 'Advertisement';
