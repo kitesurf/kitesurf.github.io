@@ -14,7 +14,7 @@
         {% for image in site.data[page.dataFile].images %}        
         <span class="my-simple-gallery">
         <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
-        <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}">
+        <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
         </a>
                 <figcaption itemprop="caption description">{{ image.description }}</figcaption>
         </span>
