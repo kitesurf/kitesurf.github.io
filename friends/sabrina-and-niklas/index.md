@@ -31,7 +31,7 @@ t:
   link6: "disclaimer"
   menutxt7: "Contact us"
   link7: "contact-us"
-  teaser:
+  teaser: Pictures from Sabrina, we hope next time we can add some from Niklas!
 ---
 
 ### Sabrina and Niklas
