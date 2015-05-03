@@ -35,6 +35,3 @@ t:
 ---
 
 ### Sabrina and Niklas
-
-
-Pictures from Sabrina, we hope next time we can add some one from Niklas to this site.
