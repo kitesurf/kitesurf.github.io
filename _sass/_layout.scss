@@ -358,8 +358,8 @@ ul.cb-slideshow {
 // make image flush with edges on small screens
 .page-image {	
 	position: relative;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
+//	margin-left: -1 * $gutter; (removed feature image margin)
+//	margin-right: -1 * $gutter; (removed feature image margin)
 	// Feature Image Caption
 	.image-credit {
 		position: absolute;
