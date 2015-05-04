@@ -518,12 +518,11 @@ ul.cb-slideshow {
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
-	height: 60px;
+	height: 50px;
 	display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-	background-color: $blau;
-	opacity: 0.8;
+	background-color: rgba(39,153,209,0.8);
 	font-family: $alt-font;
 	z-index: 20;
 }
