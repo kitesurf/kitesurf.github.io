@@ -29,7 +29,7 @@ t:
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros"
   menutxt7: "Contacta con nosotros"
-  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf..."
+  teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
 ---
 
 ###CURSOS DE KITESURF
