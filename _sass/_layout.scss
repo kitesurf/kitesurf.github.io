@@ -135,7 +135,6 @@ ul.cb-slideshow {
 // --------------------------------------------------
 .myteaser {
 	@include media($medium) {
-//		width: 50%;
 	}
     color: $white;
     background-color: transparent;
@@ -152,9 +151,10 @@ ul.cb-slideshow {
 
 .myteaser>span {
     margin-top: 5em;
-    -webkit-flex: 4 0 0;
-        -ms-flex: 4 0 0;
-            flex: 4 0 0;
+//   max-width: 33.2em;
+    -webkit-flex: 0 1 33.2em;
+        -ms-flex: 0 1 33.2em;
+            flex: 0 1 33.2em;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
