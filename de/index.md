@@ -29,7 +29,7 @@ t:
   menutxt6: "Datenschutz"
   link7: "kontaktiere-uns"
   menutxt7: "Kontaktiere uns"
-  teaser: "Komm und lern mit uns</br>die ersten Schritte im Kitesurfen!"
+  teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen!"
 ---
 
 ###KITEKURSE
