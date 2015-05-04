@@ -202,7 +202,9 @@ ul.cb-slideshow {
 		@include media($medium) {
 			@include span-columns(6);
 		}
+		width: 100%;
 		margin-right: 0.8em !important;
+		margin-bottom: 0.8em;
 	}
 	.toc {
 		@include media($medium) {
