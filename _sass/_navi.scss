@@ -27,7 +27,8 @@ $anm-gutter: 10px;                      // Base gutter
         -ms-flex-direction: column;
             flex-direction: column;
   li {
-    padding: 0.5em 0 0 1em;
+//  padding: 0.5em 0 0 1em;
+    flex: 0 0 auto;
   }
 }
 
