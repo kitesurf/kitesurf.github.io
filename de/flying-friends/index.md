@@ -7,6 +7,7 @@ modified:
 description: "Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen."
 dataFile: photosde
 image:
+  background: 3.jpg
   feature:
   teaser:
   thumb:

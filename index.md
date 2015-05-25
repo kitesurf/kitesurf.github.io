@@ -6,6 +6,7 @@ date:
 modified:
 description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment for each student will be provided."
 image:
+  background: 4.jpg
   feature:
   teaser:
   thumb:

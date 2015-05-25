@@ -6,6 +6,7 @@ date:
 modified:
 description: "Aquí encuentras el aviso legal de Kitesurf Mallorca SL"
 image:
+  background: 2.jpg
   feature:
   teaser:
   thumb:

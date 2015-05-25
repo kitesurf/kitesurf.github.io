@@ -60,6 +60,20 @@
        });
        };
       </script>
+      <!-- background images -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+        document.body.style.backgroundImage = "url({{ site.url}}/images/{{ page.image.background }})";
+        });
+      </script>
+      <noscript>
+          <style type="text/css">
+              body 
+               {
+                background-image: url({{ site.url}}/images/{{ page.image.background }});
+              }
+          </style>
+      </noscript> 
   </head>
 
   <body>

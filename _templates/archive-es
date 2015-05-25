@@ -6,6 +6,7 @@ date: {{ date }}
 modified:
 description:
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

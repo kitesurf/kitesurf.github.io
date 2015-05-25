@@ -6,6 +6,7 @@ date:
 modified:
 description: "Kite-Mallorca's international kitesurf center contact details and ubication on the island"
 image:
+  background: 5.jpg
   feature:
   teaser:
   thumb:

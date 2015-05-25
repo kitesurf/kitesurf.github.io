@@ -10,6 +10,7 @@ en-url: "en"
 es-url: "es"
 de-url: "de"
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

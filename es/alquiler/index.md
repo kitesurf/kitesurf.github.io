@@ -6,6 +6,7 @@ date:
 modified:
 description: "En Kite-Mallorca.com puedes alquilar tu proxima tabla y cometa de kitesurf. Con material de North, Liquid Force, Mutiny, Spleene y All Ride te sentiras muy bien y seguro al practicar este deporte."
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

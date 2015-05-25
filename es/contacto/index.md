@@ -6,6 +6,7 @@ date:
 modified:
 description: "Datos de contacto y ubicación de Kite-Mallorca."
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

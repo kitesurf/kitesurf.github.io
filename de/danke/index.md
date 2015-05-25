@@ -6,6 +6,7 @@ date:
 modified:
 description: "Bei Kite-Mallorca werden alle Kunden bevorzugt behandelt. Dein Anliegen wird so schnell wie möglich erledigt"
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

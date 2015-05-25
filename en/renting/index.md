@@ -6,6 +6,7 @@ date:
 modified:
 description: "Rent your kitesurf equipment from North, Liquid Force or Spleene for your next holiday on Mallorca."
 image:
+  background: 4.jpg
   feature:
   teaser:
   thumb:

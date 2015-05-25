@@ -11,6 +11,7 @@ es-url: "es"
 de-url: "de"
 tags: []
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

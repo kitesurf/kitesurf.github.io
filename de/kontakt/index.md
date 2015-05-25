@@ -6,6 +6,7 @@ date:
 modified:
 description: "Kite-Mallorca Kontaktdaten Adresse Telefonnummern."
 image:
+  background: 1.jpg
   feature:
   teaser:
   thumb:

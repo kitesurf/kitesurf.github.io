@@ -6,6 +6,7 @@ date:
 modified:
 description: "Contact here the KITE-MALLORCA team and send us your questions!"
 image:
+  background: 4.jpg
   feature:
   teaser:
   thumb:

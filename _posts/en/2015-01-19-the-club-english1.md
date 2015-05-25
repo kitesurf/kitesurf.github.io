@@ -6,6 +6,7 @@ categories: en
 excerpt:
 tags: []
 image:
+  background: 1.jpg
   feature: 
   teaser: flying-friends/game.png
   thumb:

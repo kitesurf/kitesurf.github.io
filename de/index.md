@@ -6,6 +6,7 @@ date:
 modified:
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
 image:
+  background: 5.jpg
   feature:
   teaser:
   thumb:

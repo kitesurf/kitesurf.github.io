@@ -6,6 +6,7 @@ date:
 modified:
 description: "Bei uns kannst du Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen."
 image:
+  background: 3.jpg
   feature:
   teaser:
   thumb:

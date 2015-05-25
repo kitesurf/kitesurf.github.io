@@ -6,6 +6,7 @@ date:
 modified:
 description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
 image:
+  background: 3.jpg
   feature:
   teaser:
   thumb:

@@ -6,6 +6,7 @@ date:
 modified:
 description: "Contacta aquí con el equipo de KITE-MALLORCA y escribenos tus preguntas!"
 image:
+  background: 3.jpg
   feature:
   teaser:
   thumb:

@@ -7,6 +7,7 @@ modified:
 description: "El kitesurf es un deporte maravilloso y en combinación con el agua, las olas y el viento muy adecuado para fantásticas fotos. Cuando harás tus imágenes con nosotros?"
 dataFile: photosen
 image:
+  background: 3.jpg
   feature:
   teaser:
   thumb:

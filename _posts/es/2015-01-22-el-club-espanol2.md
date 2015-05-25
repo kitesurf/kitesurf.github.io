@@ -6,6 +6,7 @@ categories: blog
 excerpt:
 tags: []
 image:
+  background: 1.jpg
   feature: reunion-03-07-2014.jpg
   teaser:
   thumb:

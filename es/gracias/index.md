@@ -6,6 +6,7 @@ date:
 modified:
 description: "En Kite-Mallorca todos nuestros clientes son privilegiados. Tu solicitud será tratada a la brevedad posible"
 image:
+  background: 4.jpg
   feature:
   teaser:
   thumb:

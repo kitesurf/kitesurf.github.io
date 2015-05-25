@@ -6,6 +6,7 @@ date:
 modified:
 description:
 image:
+  background: 6.jpg
   feature:
   teaser:
   thumb:

@@ -6,6 +6,7 @@ date:
 modified:
 description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."
 image:
+  background: 6.jpg
   feature:
   teaser:
   thumb:

@@ -6,6 +6,7 @@ date:
 modified:
 description: "Si deseas aprender kitesurf, has encontrado la mejor escuela de kite en Mallorca. Profesores titulados por la federación española y la alemana. Cursos para todos los niveles - alquiler de material"
 image:
+  background: 5.jpg
   feature:
   teaser:
   thumb:

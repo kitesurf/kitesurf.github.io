@@ -7,6 +7,7 @@ modified:
 description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
 dataFile: sabrina-and-niklas
 image:
+  background: 4.jpg
   feature: sabrina-and-niklas.jpg
   title: Sabrinas first ride... Yeah!!!
   teaser: 
