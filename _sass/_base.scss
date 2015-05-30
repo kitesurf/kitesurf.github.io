@@ -5,11 +5,10 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
-	float: left;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 0%;
-    background-size: cover;
+    background-size: auto;
 }
 
 p {
