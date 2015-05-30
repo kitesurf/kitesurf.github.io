@@ -79,14 +79,12 @@
   </head>
 
   <body>
-    {% include header.html %}
     <div id="page-wrapper">
+      {% include header.html %}
       {% include browser-upgrade.html %}
-
       {% if page.t.teaser %}
         <div class="myteaser">
                 <span><h2>{{ page.t.teaser }}</h2></span>
-<!--                <div class="space"></div> -->
         </div>
       {% endif %}  
 
