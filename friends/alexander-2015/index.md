@@ -45,13 +45,13 @@ t:
   </tr>
   <tr>
     <td>1.</td>
-    <td>Samstag?</td>
+    <td>Samstag</td>
     <td>05.09.2015?</td>  
   </tr>
   <tr>
     <td>2.</td>
-    <td>Sonntag?</td>
-    <td>06.09.2015?</td>  
+    <td></td>
+    <td></td>  
   </tr>
   <tr>
     <td>3.</td>
