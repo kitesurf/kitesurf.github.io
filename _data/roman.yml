@@ -1,0 +1,121 @@
+# Gallery pictures data
+images:
+  - image: roman-001.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-002.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-003.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-004.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-005.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-006.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-007.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-008.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-009.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-010.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-011.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-012.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-013.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-014.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-015.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-016.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-017.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-018.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-019.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
+
+  - image: roman-020.jpg
+    name: ""
+    title: ""
+    description: ""
+    alt: ""
