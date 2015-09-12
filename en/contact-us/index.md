@@ -36,7 +36,7 @@ t:
 
 ###ANY QUESTIONS?
 
-<form method="POST" action="http://formspree.io/daniel@kite-mallorca.com">
+<form method="POST" action="http://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email address" required>
   <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
   <textarea name="body" cols="40" rows="6" placeholder="Write here your questions"></textarea>
