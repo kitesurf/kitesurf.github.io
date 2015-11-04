@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
+title: Kite-Mallorca.com - International Kitesurf Centre
+description: Mallorcas kitesurf school number one
+logo: kite-mallorca_150x118.png
 teaser: # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: kite-mallorca.com
 
 # Jekyll configuration
 
@@ -20,11 +20,11 @@ gems:
 
 
 # Site owner
-owner:
-  name:
-  email:
-  twitter:
-  google:
+owner: 
+  name: Kitesurf Mallorca SL
+  email: team@kite-mallorca.com
+  twitter: kite_mallorca
+  google: Kitesurf Mallorca
     ad-client: 
     ad-slot: 
   bio: 

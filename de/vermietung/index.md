@@ -4,7 +4,7 @@ title: "Kite-Mallorca - Vermietung - Tel. +34-696-264729"
 subtitle:
 date: 
 modified:
-description: "Bei uns kannst du Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen."
+description: "Bei Kite-Mallorca Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen. Trapez und Neo sind auch dabei"
 image:
   background: 3.jpg
   feature:

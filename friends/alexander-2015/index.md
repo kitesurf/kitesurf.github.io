@@ -1,6 +1,7 @@
 ---
 layout: article
-title: "Kite-Mallorca - Friends - Alexander"
+sitemap: false
+title: "/Kite-Mallorca - Friends - Alexander"
 subtitle: 
 date: 
 modified:

@@ -1,5 +1,6 @@
 ---
 layout: gallery
+sitemap: false
 title: "Kite-Mallorca - Friends - Sabrina and Niklas"
 subtitle: 
 date: 

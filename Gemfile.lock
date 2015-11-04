@@ -82,7 +82,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   jekyll (~> 2.4.0)
-  jekyll-sitemap (~> 0.6.1)
+  jekyll-sitemap
   neat
   octopress (= 3.0.0.rc.12)
   sass
