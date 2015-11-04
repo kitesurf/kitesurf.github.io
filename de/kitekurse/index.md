@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Kite-Mallorca - Vermietung - Tel. +34-696-264729"
+title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
 subtitle:
 date: 
 modified:
-description: "Bei uns kannst du Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen."
+description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
 image:
   background: 6.jpg
   feature:
