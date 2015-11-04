@@ -12,23 +12,23 @@ image:
   thumb:
 snippets: true
 lang: en
-en-url: "en"
-es-url: "es"
-de-url: "de"
+en-url: "en/"
+es-url: "es/"
+de-url: "de/"
 t:
+  link1:    "kitesurfing-lessons/"
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons"
+  link2:    "renting/"
   menutxt2: "rental"
-  link2:    "renting"
+  link3:    "wind/"
   menutxt3: "wind"
-  link3:    "wind"
+  link4:    "contact/"
   menutxt4: "contact"
-  link4:    "contact"
+  link5:    "flying-friends/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends"
+  link6: "disclaimer/"
   menutxt6: "Disclaimer"
-  link6: "disclaimer"
+  link7: "contact-us/"
   menutxt7: "Contact us"
-  link7: "contact-us"
   teaser: "Come and learn with us the first steps in kitesurfing..."
 ---

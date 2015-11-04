@@ -12,24 +12,24 @@ image:
   thumb:
 snippets:
 lang: en
-en-url: "en/disclaimer"
-es-url: "es/aviso-legal"
-de-url: "de/datenschutz"
+en-url: "en/disclaimer/"
+es-url: "es/aviso-legal/"
+de-url: "de/datenschutz/"
 t:
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons"
+  link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
-  link2:    "renting"
+  link2:    "renting/"
   menutxt3: "wind"
-  link3:    "wind"
+  link3:    "wind/"
   menutxt4: "contact"
-  link4:    "contact"
+  link4:    "contact/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends"
+  link5:    "flying-friends/"
   menutxt6: "Disclaimer"
-  link6: "disclaimer"
+  link6: "disclaimer/"
   menutxt7: "Contact us"
-  link7: "contact-us"
+  link7: "contact-us/"
   teaser:
 ---
 
@@ -61,7 +61,7 @@ t:
 
     IN NO EVENT WILL www.kite-mallorca.com BE LIABLE FOR (I) ANY INCIDENTAL, CONSEQUENTIAL, OR INDIRECT DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR INFORMATION, AND THE LIKE) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SERVICE, OR ANY INFORMATION, OR TRANSACTIONS PROVIDED ON THE SERVICE, OR DOWNLOADED FROM THE SERVICE, OR ANY DELAY OF SUCH INFORMATION OR SERVICE. EVEN IF www.kite-mallorca.com OR ITS AUTHORIZED REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR (II) ANY CLAIM ATTRIBUTABLE TO ERRORS, OMISSIONS, OR OTHER INACCURACIES IN THE SERVICE AND/OR MATERIALS OR INFORMATION DOWNLOADED THROUGH THE SERVICE. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. IN SUCH STATES, www.kite-mallorca.com LIABILITY IS LIMITED TO THE GREATEST EXTENT PERMITTED BY LAW.
 
-    www.kite-mallorca.com makes no representations whatsoever about any other web site which you may access through this one or which may link to this Site. When you access a non-www.kite-mallorca.com web site, please understand that it is independent from www.kite-mallorca.com, and that www.kite-mallorca.com has no control over the content on that web site. In addition, a link to a www.kite-mallorca.com web site does not mean that www.kite-mallorca.com endorses or accepts any responsibility for the content, or the use, of such web site.
+    www.kite-mallorca.com makes no representations whatsoever about any other web site which you may access through this one or which may link to this Site. When you access a non-www.kite-mallorca.com web site, please understand that it is independent from www.kite-mallorca.com, and that www.kite-mallorca.com has no control over the content on that web site. In addition, a link to a www.kite-mallorca.com web site does not mean that www.kite-mallorca.com endorses or accepts any responsibility for the content, or the use, of such web site/.
 
 3.  Indemnification.  
 

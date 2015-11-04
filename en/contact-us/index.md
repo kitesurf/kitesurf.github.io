@@ -13,24 +13,24 @@ image:
 snippets:
 shortsnippets: true
 lang: en
-en-url: "en/contact-us"
-es-url: "es/contacta-con-nosotros"
-de-url: "de/kontaktiere-uns"
+en-url: "en/contact-us/"
+es-url: "es/contacta-con-nosotros/"
+de-url: "de/kontaktiere-uns/"
 t:
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons"
+  link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
-  link2:    "renting"
+  link2:    "renting/"
   menutxt3: "wind"
-  link3:    "wind"
+  link3:    "wind/"
   menutxt4: "contact"
-  link4:    "contact"
+  link4:    "contact/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends"
+  link5:    "flying-friends/"
   menutxt6: "Disclaimer"
-  link6: "disclaimer"
+  link6: "disclaimer/"
   menutxt7: "Contact us"
-  link7: "contact-us"
+  link7: "contact-us/"
   teaser:
 ---
 

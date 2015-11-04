@@ -6,9 +6,9 @@ modified:
 categories: {{ dir }}
 description:
 lang: de
-en-url: "en"
-es-url: "es"
-de-url: "de"
+en-url: "en/"
+es-url: "es/"
+de-url: "de/"
 tags: []
 image:
   background: 1.jpg

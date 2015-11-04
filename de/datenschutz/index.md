@@ -12,23 +12,23 @@ image:
   thumb:
 snippets:
 lang: de
-en-url: "en/disclaimer"
-es-url: "es/aviso-legal"
-de-url: "de/datenschutz"
+en-url: "en/disclaimer/"
+es-url: "es/aviso-legal/"
+de-url: "de/datenschutz/"
 t:
-  link1: "kitekurse"
+  link1: "kitekurse/"
   menutxt1: "kitekurse"
-  link2: "vermietung"
+  link2: "vermietung/"
   menutxt2: "vermietung"
-  link3: "wind"
+  link3: "wind/"
   menutxt3: "wind"
-  link4: "kontakt"
+  link4: "kontakt/"
   menutxt4: "kontakt"
-  link5: "flying-friends"
+  link5: "flying-friends/"
   menutxt5: "bilder & videos"
-  link6: "datenschutz"
+  link6: "datenschutz/"
   menutxt6: "Datenschutz"
-  link7: "kontaktiere-uns"
+  link7: "kontaktiere-uns/"
   menutxt7: "Kontaktiere uns"
   teaser:
 ---
@@ -44,8 +44,8 @@ t:
 2.  Hinweis zum Urheberrecht  
     Der gesamte Inhalt dieser Website unterliegt dem Urheberrecht. Unerlaubte Verwendung, Reproduktion oder Wiedergabe des Inhalts oder von Teilen des Inhalts ist untersagt. Wegen einer Erlaubnis zur Nutzung des Inhalts wenden Sie sich bitte an den Herausgeber.
 
-3.  Hinweis zu externen Links  
-    Soweit von dieser Website auf andere Websites Links gelegt sind, wird darauf hingewiesen, dass keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten besteht und sich deren Inhalt nicht zu eigen gemacht wird. Dies gilt für alle auf dieser Seite ausgebrachten, externen Links und für alle Inhalte der Seiten, zu denen Werbemittel (z.B. Banner, Textanzeigen, Videoanzeigen) führen. Für verlinkte Seiten gilt, dass rechtswidrige Inhalte zum Zeitpunkt der Verlinkung nicht erkennbar waren. Die Links werden regelmäßig auf rechtswidrige Inhalte überprüft und bei Rechtsverletzungen unverzüglich entfernt.
+3.  Hinweis zu externen Links / 
+    Soweit von dieser Website auf andere Websites Links gelegt sind, wird darauf hingewiesen, dass keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten besteht und sich deren Inhalt nicht zu eigen gemacht wird. Dies gilt für alle auf dieser Seite ausgebrachten, externen Links und für alle Inhalte der Seiten, zu denen Werbemittel (z.B. Banner, Textanzeigen, Videoanzeigen) führen. Für verlinkte Seiten gilt, dass rechtswidrige Inhalte zum Zeitpunkt der Verlinkung nicht erkennbar waren. Die Links werden regelmäßig auf rechtswidrige Inhalte überprüft und bei Rechtsverletzungen unverzüglich entfernt/.
 
  
 4.  Datenschutz  
