@@ -74,4 +74,4 @@ Pictures from and with students of kitesurfing:
 
 {% include snippets/en/image-hover-effects.html %}
 
-Book your own kite course with [Daniel & Gerhard]({{ site.url }}/en/contact-us){:title="Opening the contact form to mail Daniel and Gerhard"} (+34-696-264729) now!
+Book your own kite course with [Daniel & Gerhard]({{ site.url }}/en/contact-us/){:title="Opening the contact form to mail Daniel and Gerhard"} (+34-696-264729) now!
