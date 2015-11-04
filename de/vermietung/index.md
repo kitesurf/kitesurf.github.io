@@ -68,6 +68,10 @@ Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per 
   </tr>     
 </table> 
 
+##### Das meinen unsere Gäste:
+
+<div class="g-post" data-href="https://plus.google.com/+KitesurfMallorca/posts/RykZZVhRU6a"></div>
+
 #####Buchung
 
 Um sicherzustellen, dass du zu jeder Zeit den passenden Kite bekommst, empfehlen wir ab einer Mietdauer von einer Woche die Vorbuchung. Damit ist das Material für dich gesichert.
