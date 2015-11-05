@@ -15,10 +15,11 @@
 	{% elsif page.lang == 'de' %}<meta property="og:locale" content="de_DE">
 	{% elsif page.lang == 'es' %}<meta property="og:locale" content="es_ES">
 	{% endif %}
+	<meta property="og:description" content="{{ page.description }}">
 	<meta property="og:type" content="article">
 	<meta property="og:image" content="{{ site.url }}/images/{{ page.image.thumb }}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 	<meta property="og:site_name" content="{{ site.title }}">
-	<meta property="fb:app_id" content="[{{ site.owner.fb_app_id }}]"/>
+	<meta property="fb:app_id" content="{{ site.owner.fb_app_id }}"/>
