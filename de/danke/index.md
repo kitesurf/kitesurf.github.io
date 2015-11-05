@@ -9,7 +9,7 @@ image:
   background: 1.jpg
   feature:
   teaser:
-  thumb:
+  thumb: rescue-boat.jpg
 snippets:
 lang: de
 en-url: "en/thanks/"
