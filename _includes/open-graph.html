@@ -11,7 +11,10 @@
 	<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 	{% endif %}
 	<!-- Open Graph -->
-	<meta property="og:locale" content="{{ page.lang }}">
+	{% if page.lang == 'en' %}<meta property="og:locale" content="en_UK">
+	{% elsif page.lang == 'de' %}<meta property="og:locale" content="de_DE">
+	{% elsif page.lang == 'es' %}<meta property="og:locale" content="es_ES">
+	{% endif %}
 	<meta property="og:type" content="article">
 	<meta property="og:image" content="{{ site.url }}/images/{{ page.image.thumb }}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
