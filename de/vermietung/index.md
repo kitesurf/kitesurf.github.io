@@ -9,7 +9,7 @@ image:
   background: 3.jpg
   feature:
   teaser:
-  thumb:
+  thumb: /flying-friends/s_kite-mallorca_002.jpg
 snippets: true
 lang: de
 en-url: "en/renting/"
