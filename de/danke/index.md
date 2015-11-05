@@ -9,7 +9,7 @@ image:
   background: 1.jpg
   feature:
   teaser:
-  thumb: /flying-friends/m_kite-mallorca_038.jpg
+  thumb: flying-friends/m_kite-mallorca_038.jpg
 snippets:
 lang: de
 en-url: "en/thanks/"
