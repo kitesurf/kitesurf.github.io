@@ -1,0 +1,52 @@
+# testimonials
+
+lang:
+    de:
+      - person: Missultin64
+        avatar_img: http://media-cdn.tripadvisor.com/media/photo-l/01/f9/3c/59/missultin64.jpg
+        languages: it - es - en
+        review_at: Tripadvisor
+        author_link: http://www.tripadvisor.com/members/Missultin64
+        quote: 5
+        review: "We had a great time with Daniel that is a fantastic guy and really a good kite instructor. The place is excellent both for learners and for experienced kites. Overall EXCELLENT!"
+        org_link: http://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+
+      - person: Thomas Sprecher
+        avatar_img: http://lh5.googleusercontent.com/-K-Om9lADwms/AAAAAAAAAAI/AAAAAAAAAAA/vgBbOKwy0C8/s74-p/photo.jpg
+        languages: de - en
+        review_at: Google
+        author_link: https://www.google.com/maps/contrib/113521341863057329168/reviews/@39.8678333,3.1077288,15z
+        quote: 5
+        review: "Besser gehts nicht mehr :-) Habe im Sommer 2014 Kite und Board gemietet. Bekommen habe ich persönliche und individuelle Betreuung und Tipps. Dani und Geri informieren dich per WhatsUp wann guter Wind ist. Geben dir passendes Material und ermöglichen Dir Kiten bei jeder Bedingung. Danke Daniel, Danke Kitesurf Mallorca. Gerne wieder."
+        org_link: "https://www.google.com/search?q=Kitesurf+Mallorca+SL+-+International+Kitesurf+Center,+Carrer+Greco,+19,+07400+Alcudia,+Islas+Baleares,+Illes+Balears&ludocid=16053100418805389750#lrd=0x12962ca9e43656f9:0xdec811c72691d9b6,1"
+
+    en:
+      - person: Missultin64
+        avatar_img: http://media-cdn.tripadvisor.com/media/photo-l/01/f9/3c/59/missultin64.jpg
+        languages: it - es - en
+        review_at: Tripadvisor
+        author_link:
+        quote: 5
+        review: "We had a great time with Daniel that is a fantastic guy and really a good kite instructor. The place is excellent both for learners and for experienced kites. Overall EXCELLENT!"
+        org_link: http://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+
+    es:
+      - person: Missultin64
+        avatar_img: http://media-cdn.tripadvisor.com/media/photo-l/01/f9/3c/59/missultin64.jpg
+        languages: it - es - en
+        review_at: Tripadvisor
+        author_link:
+        quote: 5
+        review: "We had a great time with Daniel that is a fantastic guy and really a good kite instructor. The place is excellent both for learners and for experienced kites. Overall EXCELLENT!"
+        org_link: http://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+
+
+#       - person: 
+#        avatar_img: 
+#        languages: 
+#        review_at: 
+#        author_link: 
+#        quote: 5
+#        review: 
+#        org_link: 
+        

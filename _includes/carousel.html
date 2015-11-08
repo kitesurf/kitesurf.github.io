@@ -1,0 +1,38 @@
+<div class="carousel-wrapper" style="height: 400px;">
+  {% for item in site.data.testimonials.lang[page.lang] %}
+    {% capture length %}{{ forloop.length }}{% endcapture %}
+    <span id="target-item-{{ forloop.index }}"></span>
+      {% endfor %}
+
+<!--  <div class="gallery autoplay items-{{ length }}" itemscope itemtype="http://schema.org/Review"> -->
+
+    {% for item in site.data.testimonials.lang[page.lang] %} 
+
+    {% endfor %}
+  
+    {% for item in site.data.testimonials.lang[page.lang] %} 
+  <div class="carousel-item item-{{ forloop.index }}">
+        <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <meta itemprop="url" content="{{ item.author_link }}"/>
+            <span itemprop="name">{{ item.person }}</span>
+        <img src="{{ item.avatar_img }}">
+        </div>    hat eine Bewertung geschrieben:
+        <div class="" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+            <a href="http://plus.google.com/108768305083116030970/about" target="_blank" rel="nofollow"  oid="108768305083116030970"><div class="" itemprop="name">Kitesurf Mallorca SL - International Kitesurf Center</div>
+            </a>
+            <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
+            <div  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="">
+            <span itemprop="name">Carrer Greco, 19, 07400 Alcudia, Islas Baleares</span>
+            </div>  
+        </div> 
+        <div class=""><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+          <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
+            </span>
+        </div>
+        <div class="" itemprop="reviewBody">{{ item.review }}</div>  
+    <a class="arrow arrow-prev" href="#target-item-3"></a>
+    <a class="arrow arrow-next" href="#target-item-2"></a>
+  </div>
+    {% endfor %}
+
+</div>
