@@ -591,7 +591,7 @@ in the right place. */
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 25px 50px;
+    padding: 25px 40px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 
@@ -604,7 +604,7 @@ in the right place. */
     position: absolute;
     top: 0;
     display: block;
-    width: 50px;
+    width: 40px;
     height: 100%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     background: url("../../images/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
