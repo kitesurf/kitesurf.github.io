@@ -1,11 +1,11 @@
 <div class="col-md-8 col-md-offset-2">
   <div id="testimonials-carousel" class="carousel carousel-fade" data-ride="carousel"><!-- data-ride="carousel" causes auto play -->
     <div class="carousel-inner text-center">
-      {% for item in site.data.testimonials.lang[page.lang] %}
+    {% for testimonial in site.data.testimonials.lang[page.lang] %} 
         <div class="item{% if forloop.first == true %} active{% endif %}"> <!--TARGET FIRST ITEM -->
           <blockquote>
-            <p>{{ item.quote }}</p>
-            <footer>{{ item.person }}</footer>
+            <p>{{ testimonial.quote }}</p>
+            <footer>{{ testimonial.person }}</footer>
           </blockquote>
         </div>
       {% endfor %}
