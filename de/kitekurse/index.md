@@ -63,7 +63,7 @@ Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**
-
+######Das meinen unsere Gäste
 {% include carousel.html %}
 
 Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:
