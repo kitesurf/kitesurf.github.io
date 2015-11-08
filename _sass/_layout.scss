@@ -575,6 +575,7 @@ ul.cb-slideshow {
 	}
 }
 
+
 // CSS Carousel
 /* Here's where our carousel begins, with the main wrapper being
 relatively positioned, so that our absolutely positioned items are
@@ -600,6 +601,16 @@ in the right place. */
     I'm using empty links with a background image so that the links
     look like arrows. Make sure you swap out that URL with an actual
     URL so that your arrow links aren't just transparent rectangles. */
+    .rounded-avatar {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+
     .arrow {
     position: absolute;
     top: 0;
@@ -623,7 +634,7 @@ in the right place. */
                 transform: rotate(180deg);
       }
     }
-
+    }
     /* I really like how these carousel items look on a dark image
     background, so if a .carousel-item div has the class 'light',
     we'll make its text color white, and use a white arrow instad of
