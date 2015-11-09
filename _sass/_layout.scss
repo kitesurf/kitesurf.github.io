@@ -704,8 +704,7 @@ in the right place. */
 .rating > span:hover ~ span {
   color: transparent;
 }
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+.quote {
    content: "\2605";
    position: absolute;
    left: 0;

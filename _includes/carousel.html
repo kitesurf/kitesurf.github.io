@@ -34,8 +34,14 @@
         </div>
         <div class="rating"><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
           <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
-          <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-          </span>
+          {% assign quote == item.quote %}
+          {% for item in site.data.photosen limit:5 %}
+              {% if i <= {{ quote }} %}
+          <span class="quote">☆</span>
+              {% else %}
+          <span >☆</span>
+              {% endif %}
+          {% endfor %}
         </div>
         <div class="" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
             <a href="http://plus.google.com/108768305083116030970/about" target="_blank" rel="nofollow"  oid="108768305083116030970"><div class="" itemprop="name">Kitesurf Mallorca SL - International Kitesurf Center</div>
