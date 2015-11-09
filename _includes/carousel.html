@@ -32,6 +32,11 @@
               -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
             </div>
         </div>
+        <div class="rating"><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+          <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
+          <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+          </span>
+        </div>
         <div class="" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
             <a href="http://plus.google.com/108768305083116030970/about" target="_blank" rel="nofollow"  oid="108768305083116030970"><div class="" itemprop="name">Kitesurf Mallorca SL - International Kitesurf Center</div>
             </a>
@@ -40,10 +45,6 @@
             <span itemprop="name">Carrer Greco, 19, 07400 Alcudia, Islas Baleares</span>
             </div>  
         </div> 
-        <div class=""><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-          <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
-            </span>
-        </div>
         <div class="" itemprop="reviewBody">{{ item.review }}</div>  
     <a class="arrow arrow-prev" href="#target-item-3"></a>
     <a class="arrow arrow-next" href="#target-item-2"></a>
