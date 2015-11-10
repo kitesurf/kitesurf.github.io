@@ -692,8 +692,6 @@ in the right place. */
 // rating stars
 .rating {
   unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: center;
 }
 .rating > span {
   display: inline-block;
