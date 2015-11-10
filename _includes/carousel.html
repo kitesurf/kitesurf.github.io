@@ -32,18 +32,19 @@
               -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
             </div>
         </div>
-        <div class="rating"><span itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-          <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
-          {% assign var = item.quote plus 0 %}
-          {% for i in (1..5) plus 0 %}
+          <div class="rating"><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+            <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
+            {% assign var = item.quote plus 0 %}
+            {% for i in (1..5) plus 0 %}
             {% if i <= var %}
               <span class="quote">★</span>
             {% else %}
               <span>☆</span>
             {% endif %}
           {% endfor %}
-        </div>
-        <div style="text-align: center" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+
+          </div>
+        <div class="" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
             <a href="http://plus.google.com/108768305083116030970/about" target="_blank" rel="nofollow"  oid="108768305083116030970"><div class="" itemprop="name">Kitesurf Mallorca SL - International Kitesurf Center</div>
             </a>
             <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
