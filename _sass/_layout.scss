@@ -700,13 +700,12 @@ in the right place. */
   position: relative;
   width: 1.1em;
 }
-.rating > span:hover,
+/*.rating > span:hover,
 .rating > span:hover ~ span {
   color: transparent;
-}
+} */
 .quote {
    content: "\2605";
    position: absolute;
-   left: 0;
    color: gold;
 }
