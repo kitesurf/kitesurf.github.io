@@ -59,6 +59,8 @@ Clases en exclusiva y privadas para todos los niveles
 
 (Todos los precios válidos por persona)
 
+{% include carousel.html %}
+
 Los cursos y las clases de kitesurf incluyen todo el material necesario para su practica. En caso necesario con barco de apoyo.  
 **Solo tienes que traer una buena sonrisa y ganas de aprender y divertirte!**
 

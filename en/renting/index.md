@@ -39,6 +39,8 @@ Latest equipment from Liquid Force, North  and Spleene is available for you to r
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
+{% include carousel.html %}
+
 #####Rental prices
 <table>
   <tr>

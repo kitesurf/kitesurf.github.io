@@ -43,6 +43,8 @@ As an absolute beginner you normally need about 10 hours of lessons to control t
 
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
 
+{% include carousel.html %}
+
 **Our quality for the best price**
 
 10 hours beginners course  - **EUR 390,-**  

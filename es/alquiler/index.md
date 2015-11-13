@@ -46,6 +46,8 @@ En el alquiler de material tenemos los equipos más nuevos de Liquid Force, Nort
 
 Para que tu pases un buen día!
 
+{% include carousel.html %}
+
 #####Precios
 <table>
   <tr>

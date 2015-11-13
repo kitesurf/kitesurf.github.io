@@ -68,9 +68,7 @@ Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per 
   </tr>     
 </table> 
 
-##### Das meinen unsere Gäste:
-
-<div class="g-post" data-href="https://plus.google.com/+KitesurfMallorca/posts/RykZZVhRU6a"></div>
+{% include carousel.html %}
 
 #####Buchung
 

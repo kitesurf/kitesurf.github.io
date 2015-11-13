@@ -1,61 +1,73 @@
-<div class="carousel-wrapper" style="height: 400px;">
-  {% for item in site.data.testimonials.lang[page.lang] %}
-    {% capture length %}{{ forloop.length }}{% endcapture %}
-    <span id="target-item-{{ forloop.index }}"></span>
-      {% endfor %}
-
-<!--  <div class="gallery autoplay items-{{ length }}" itemscope itemtype="http://schema.org/Review"> -->
-
-    {% for item in site.data.testimonials.lang[page.lang] %} 
-
+<div class="testim-title" style="margin-top: -10px; line-height: 1.0;">
+{% assign lang = site.data.texts[page.lang] %}
+<p>{{ lang.testimonial }}</p>
+</div>
+<div class="carousel-wrapper" style="height: 500px; margin-top: -30px;">
+    {% for item in site.data.testimonials.lang[page.lang] %}
+      <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
-  
     {% for item in site.data.testimonials.lang[page.lang] %} 
   <div class="carousel-item item-{{ forloop.index }}">
-        <div class="testimonial-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="url" content="{{ item.author_link }}"/>
-            <span itemprop="name">{{ item.person }}</span>
-            <div 
-            style=" 
-              width: 100px;
-              height: 100px;
-              border-radius: 50px;
-              -webkit-border-radius: 50px;
-              -moz-border-radius: 50px;
-              background: url({{ item.avatar_img }}) no-repeat center center;
-              -webkit-background-size: cover;
-              -moz-background-size: cover;
-              -o-background-size: cover;
-              background-size: cover;
-              box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-              -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-              -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
-            </div>
-        </div>
-          <div class="rating"><span class=""  itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-            <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
-            {% assign var = item.quote plus 0 %}
-            {% for i in (1..5) plus 0 %}
-            {% if i <= var %}
-              <span class="quote">★</span>
-            {% else %}
-              <span>☆</span>
-            {% endif %}
-          {% endfor %}
-
+      <div class="flex">
+          <div class="testimonial-author" style="margin-left: 50px;" itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <div class="sec-flex">
+                    <div class="flex-left" style="margin-top: -20px;">
+                      <meta itemprop="url" content="{{ item.author_link }}"/>
+                      <span itemprop="name">{{ item.person }}</span>
+                    </div>
+              </div>
+              <div class="avatar" style="
+                    margin-left: 22px; 
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    background: url({{ item.avatar_img }}) no-repeat center center;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+                    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
+              </div>
+              <div class="rating" style="font-size: 1.2rem;">
+                    <meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating" />
+                    <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
+                    {% assign var = item.quote plus 0 %}
+                    {% for i in (1..5) plus 0 %}
+                    {% if i <= var %}
+                      <span class="quote">★</span>
+                    {% else %}
+                      <span class="quote">☆</span>
+                    {% endif %}
+                    {% endfor %}
+              </div>
           </div>
-        <div class="" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
-            <a href="http://plus.google.com/108768305083116030970/about" target="_blank" rel="nofollow"  oid="108768305083116030970"><div class="" itemprop="name">Kitesurf Mallorca SL - International Kitesurf Center</div>
-            </a>
+        <div class="right-bottom">
+            <div class="review-body" itemprop="reviewBody">
+              <p>{{ item.review }}</p>
+            </div>
+            <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
             <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
-            <div  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="">
-            <span itemprop="name">Carrer Greco, 19, 07400 Alcudia, Islas Baleares</span>
-            </div>  
+            <meta  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" content="Carrer Greco, 19, 07400 Alcudia, Islas Baleares"
+            />
+            <div class="flex-right" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+                <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
+            </div>
         </div> 
-        <div class="" itemprop="reviewBody">{{ item.review }}</div>  
-    <a class="arrow arrow-prev" href="#target-item-3"></a>
-    <a class="arrow arrow-next" href="#target-item-2"></a>
+      </div>
+        {% if forloop.index == 1 %}
+        <a class="arrow arrow-prev" href="#target-item-{{ forloop.length }}"></a>
+        {% else %}
+        <a class="arrow arrow-prev" href="#target-item-{{ forloop.index | minus:1 }}"></a>
+        {% endif %}
+        {% if forloop.last == true %}
+        <a class="arrow arrow-next" href="#target-item-1"></a>
+        {% else %}
+        <a class="arrow arrow-next" href="#target-item-{{ forloop.index | plus:1 }}"></a>
+        {% endif %}
   </div>
-    {% endfor %}
-
+      {% endfor %}
 </div>
