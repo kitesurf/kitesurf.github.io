@@ -695,6 +695,9 @@ in the right place. */
 	display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .left-top{
