@@ -581,7 +581,7 @@ in the right place. */
 .carousel-wrapper {
   position: relative;
   		@include media($small) { height: 300px; margin-top: -30px; }
-    @include media($medium) { height: 400px; margin-top: -30px; }
+    @include media($medium) { height: 300px; margin-top: -30px; }
 
 
   /* Our absolutely positioned carousel items span the width and
