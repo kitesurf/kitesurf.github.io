@@ -641,7 +641,9 @@ in the right place. */
     on smaller devices.*/
     @media (max-width: 480px) {
     	.carousel-item {
+			&:first-child {    		
     		padding: 0px 20px;
+    		}
     	}	
       .arrow, &.light .arrow {
       	width: 12px;
