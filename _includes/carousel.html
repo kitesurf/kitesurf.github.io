@@ -2,7 +2,7 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
-<div class="carousel-wrapper" style="height: 400px; margin-top: -30px;">
+<div class="carousel-wrapper">
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}

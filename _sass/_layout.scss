@@ -580,6 +580,9 @@ relatively positioned, so that our absolutely positioned items are
 in the right place. */
 .carousel-wrapper {
   position: relative;
+  		@include media($micro) { height: 300px; margin-top: -30px; }
+    @include media($small) { height: 400px; margin-top: -30px; }
+
 
   /* Our absolutely positioned carousel items span the width and
   height of its parent. We're making them transparent by default so
