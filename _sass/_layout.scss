@@ -640,6 +640,9 @@ in the right place. */
     /* Let's use using some media queries to resize the arrows
     on smaller devices.*/
     @media (max-width: 480px) {
+    	.carousel-item {
+    		padding: 0px 20px;
+    	}	
       .arrow, &.light .arrow {
       	width: 12px;
         background-size: 10px;
