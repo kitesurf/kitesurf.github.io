@@ -720,9 +720,9 @@ in the right place. */
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center; 
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start; 
 }
 
 .avatar{
