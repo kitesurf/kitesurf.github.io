@@ -724,6 +724,9 @@ in the right place. */
 
 .avatar{
 	padding-left: 10px;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center; 
 }
 
 .review-body div {
@@ -748,6 +751,7 @@ in the right place. */
   display: inline-block;
   position: relative;
   width: 1.1em;
+  color: gold;
 }
 /*.rating > span:hover,
 .rating > span:hover ~ span {
