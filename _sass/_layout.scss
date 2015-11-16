@@ -640,18 +640,21 @@ in the right place. */
     /* Let's use using some media queries to resize the arrows
     on smaller devices.*/
     @media (max-width: 480px) {
-    	.carousel-item {
-			&:first-child {    		
-    		padding: 0px 20px;
-    		}
-    	}	
       .arrow, &.light .arrow {
-      	width: 12px;
+      	width: 30px;
         background-size: 10px;
         background-position: 0px 50%;
       }
     }
   }
+
+@media (max-width: 480px) {
+	.carousel-item{
+        padding: 10px 30px;		
+	}
+
+}
+
 
   /* Let's set our jump link targets display: none; so that we're not
   making the browser jump to the top of the carousel whenever a user
