@@ -9,9 +9,9 @@
     {% for item in site.data.testimonials.lang[page.lang] %} 
   <div class="carousel-item item-{{ forloop.index }}">
       <div class="flex">
-          <div class="testimonial-author" style="margin-left: 0px;" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="testimonial-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
               <div class="sec-flex">
-                    <div class="flex-left" style="margin-top: -20px;">
+                    <div class="flex-left">
                       <meta itemprop="url" content="{{ item.author_link }}"/>
                       <span itemprop="name">{{ item.person }}</span>
                     </div>
@@ -32,7 +32,7 @@
                     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
                     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
               </div>
-              <div class="rating" style="font-size: 1.2rem;">
+              <div class="rating">
                     <meta itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating" />
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/><meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
                     {% assign var = item.quote plus 0 %}

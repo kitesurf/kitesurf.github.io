@@ -747,9 +747,10 @@ in the right place. */
 
 
 // rating stars
-.rating > span {
+.rating span {
   display: inline-block;
   position: relative;
+  font-size: 1.2rem !important;
   width: 1.1em;
   color: gold;
 }
@@ -757,8 +758,6 @@ in the right place. */
 .rating > span:hover ~ span {
   color: transparent;
 } */
-.quote > span{
+.quote span{
 	display: inline-block;
-   	font-size: 2em !important;
-	color: gold !important;
 }
