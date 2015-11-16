@@ -641,9 +641,9 @@ in the right place. */
     on smaller devices.*/
     @media (max-width: 480px) {
       .arrow, &.light .arrow {
-      	width: 10px;
+      	width: 12px;
         background-size: 10px;
-        background-position: 10px 50%;
+        background-position: 0px 50%;
       }
     }
   }
