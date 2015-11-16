@@ -2,12 +2,15 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
-<div class="carousel-wrapper">
+<div class="carousel-wrapper" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+        <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
+        <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
+        <meta  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" content="Carrer Greco, 19, 07400 Alcudia, Islas Baleares" />
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
     {% for item in site.data.testimonials.lang[page.lang] %} 
-  <div class="carousel-item item-{{ forloop.index }}">
+  <div class="carousel-item item-{{ forloop.index }}" itemprop="Review" itemscope itemtype="http://schema.org/Review">
       <div class="flex">
           <div class="testimonial-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
               <div class="sec-flex">
@@ -49,11 +52,7 @@
             <div class="review-body" itemprop="reviewBody">
               <p>{{ item.review }}</p>
             </div>
-            <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
-            <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
-            <meta  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" content="Carrer Greco, 19, 07400 Alcudia, Islas Baleares"
-            />
-            <div class="flex-right" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+            <div class="flex-right">
                 <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
             </div>
         </div> 
