@@ -720,13 +720,13 @@ in the right place. */
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center; 
 }
 
 .avatar{
 	padding-left: 10px;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center; 
 }
 
 .review-body div {
