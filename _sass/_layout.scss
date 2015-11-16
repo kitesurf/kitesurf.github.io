@@ -580,7 +580,7 @@ relatively positioned, so that our absolutely positioned items are
 in the right place. */
 .carousel-wrapper {
   position: relative;
-  	height: auto;
+  	height: 350px;
   	margin-top: -30px;
 
   /* Our absolutely positioned carousel items span the width and
