@@ -581,7 +581,6 @@ in the right place. */
 .carousel-wrapper {
   position: relative;
 	height: 380px;
-  	margin-top: -30px;
 
   /* Our absolutely positioned carousel items span the width and
   height of its parent. We're making them transparent by default so
@@ -592,7 +591,7 @@ in the right place. */
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 25px 50px;
+    padding: 0px 50px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
 
@@ -650,7 +649,7 @@ in the right place. */
 
 @media (max-width: 480px) {
 	.carousel-item{
-        padding: 10px 30px;		
+        padding: 0px 30px;		
 	}
 
 }
