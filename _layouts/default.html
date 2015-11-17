@@ -8,7 +8,30 @@
     <!-- 16x16 
     <link rel="shortcut icon" href="/images/favicon.ico"> -->
     <!-- 32x32 -->
-    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png"> 
+    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+    <script type="application/ld+json">
+      {
+        "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "url" : "http://www.kite-mallorca.com",
+        "logo" : "http://www.kite-mallorca.com/images/kite-mallorca_225x177.png",
+        "contactPoint" : [{
+          "@type" : "ContactPoint",
+          "telephone" : "+34-696-264-729",
+          "contactType" : [
+              "customer service",
+              "reservations",
+              "sales"
+            ],
+          "availableLanguage" : [
+              "Spanish",
+              "German",
+              "Italian",
+              "English"
+            ],          
+        }]
+      }
+    </script>
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
