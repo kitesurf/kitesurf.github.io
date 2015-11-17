@@ -10,6 +10,7 @@ image:
   feature: 
   teaser:
   thumb: flying-friends/l_kite-mallorca_026.jpg
+  picnum: 26
 snippets: true
 lang: de
 en-url: "en/kitesurfing-lessons/"
