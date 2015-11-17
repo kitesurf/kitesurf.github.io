@@ -36,7 +36,6 @@
               </div>
               <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/>
-                    <meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
                     {% assign var = item.quote plus 0 %}
                     {% for i in (1..5) plus 0 %}
                     {% if i <= var %}
