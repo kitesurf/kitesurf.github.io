@@ -18,6 +18,7 @@
     {% endif %}
     {% include open-graph.html %}
     {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
+    <meta itemprop="image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}" alt="{{ page.subtitle }}">
 
         <!-- Multilinguale behandlung durch Google -->
     <meta http-equiv="language" content="{{ page.lang }}">
