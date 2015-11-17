@@ -701,29 +701,8 @@ in the right place. */
 	line-height: 1.0;
 }
 
-.flex {
-	display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
 
-.left-top{
-   -webkit-flex: 1 0 0;
-   -ms-flex: 1 0 0; 
-   flex: 1 0 0;
-}
-
-.right-bottom{
-	-webkit-flex: 1 0 0;
-   	-ms-flex: 1 0 0; 
-   	flex: 1 0 0;
-
-}
-
-.testimonial-author{
+.review{
 	display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;

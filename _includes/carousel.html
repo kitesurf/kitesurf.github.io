@@ -2,25 +2,21 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
-<div class="carousel-wrapper" itemprop="Review" itemscope itemtype="http://schema.org/Review">
-    <div  itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
-        <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
-        <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
-        <meta  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" content="Carrer Greco, 19, 07400 Alcudia, Islas Baleares" />
-    </div>
+<div class="carousel-wrapper">
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
     {% for item in site.data.testimonials.lang[page.lang] %} 
   <div class="carousel-item item-{{ forloop.index }}">
-      <div class="flex">
-          <div class="testimonial-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <div class="sec-flex">
-                    <div class="flex-left">
+          <div class="review"  itemprop="Review" itemscope itemtype="http://schema.org/Review">
+              <div  itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+                  <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
+                  <meta itemprop="url" content="http://plus.google.com/108768305083116030970"/> 
+                  <meta  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" content="Carrer Greco, 19, 07400 Alcudia, Islas Baleares" />
+              </div>
+              <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                       <meta itemprop="url" content="{{ item.author_link }}"/>
                       <span itemprop="name">{{ item.person }}</span>
-                    </div>
-              </div>
               <div class="avatar" style="
                     margin-left: 22px; 
                     width: 100px;
@@ -37,6 +33,7 @@
                     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
                     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);">
               </div>
+              </div>
               <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/>
                     <meta itemprop="http://schemas.google.com/embed/attributeId" content="rating_{{ item.quote }}"/>
@@ -49,16 +46,11 @@
                     {% endif %}
                     {% endfor %}
               </div>
-          </div>
-        <div class="right-bottom">
-            <div class="review-body" itemprop="reviewBody">
-              <p>{{ item.review }}</p>
-            </div>
-            <div class="flex-right">
-                <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
-            </div>
-        </div> 
-      </div>
+              <div class="review-body" itemprop="reviewBody">
+                <p>{{ item.review }}</p>
+                  <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
+              </div>
+          </div> 
         {% if forloop.index == 1 %}
         <a class="arrow arrow-prev" href="#target-item-{{ forloop.length }}"></a>
         {% else %}
