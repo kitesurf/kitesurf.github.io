@@ -1,15 +1,16 @@
 ---
 layout: article
 title: "Kite-Mallorca - Kitesurfing lessons - Phone +34-696-264729"
-subtitle: 
-date: 
+subtitle: "Kitesurfing courses and lessons"
+date: 2015-01-24T12:57:10+01:00
 modified:
 description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:
   background: 3.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/l_kite-mallorca_055.jpg
+  picnum: 55
 snippets: true
 lang: en
 en-url: "en/kitesurfing-lessons/"

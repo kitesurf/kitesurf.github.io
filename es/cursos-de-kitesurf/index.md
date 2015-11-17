@@ -1,15 +1,16 @@
 ---
 layout: article
 title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
-subtitle: 
-date: 
+subtitle: "Cursos y clases de kitesurf"
+date: 2015-01-23T13:57:10+01:00
 modified:
 description: "Aprender kitesurf en Mallorca, con Kite-Mallorca muy simple: cursos y lecciones para principiantes y avanzados. Todo el material incluido: kite, tabla, arnes, neopreno."
 image:
   background: 2.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/l_kite-mallorca_037.jpg
+  picnum: 37
 snippets: true
 lang: es
 en-url: "en/kitesurfing-lessons/"
