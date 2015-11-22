@@ -43,7 +43,7 @@
               <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/>
                     <meta property="bestRating" content="5">
-                    <meta property="worstRating" content="0">
+                    <meta property="worstRating" content="1">
                     {% assign var = item.quote plus 0 %}
                     {% for i in (1..5) plus 0 %}
                     {% if i <= var %}
