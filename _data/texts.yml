@@ -4,16 +4,16 @@ en:
   calltext: "Press here for call, WhatsApp or SMS"
   testimonial: "Our guests say:"
   org_link: "Original review on "
-  item_reviewed: "Reviewed company:"
+  ratings_count: "total reviews"
 
 es:
   calltext: "Clic aquí para llamar, WhatsApp o SMS"
   testimonial: "Que opinan nuestros clientes:"
   org_link: "Valoracion original en "
-  item_reviewed: "Empresa valorada:"
+  ratings_count: "valoraciones en total"
 
 de:
   calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
   testimonial: "Das meinen unsere Gäste:"
   org_link: "Originale Bewertung in "
-  item_reviewed: "Bewertete Firma:"
+  ratings_count: "Bewertungen insgesamt"
