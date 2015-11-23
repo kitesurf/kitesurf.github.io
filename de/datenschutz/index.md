@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Kite-Mallorca - Datenschutz - Tel. +34-696-264729"
-subtitle:
+subtitle: "Datenschutz"
 date: 2015-11-23
 modified:
 description:

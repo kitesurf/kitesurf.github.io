@@ -1,15 +1,16 @@
 ---
 layout: article
 title: "Kite-Mallorca - Your International Kitesurf Center - Tel. +34-696-264729"
-subtitle: 
-date: 
+subtitle: "Your International Kiteboarding Center"
+date: 2015-11-23
 modified:
-description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment for each student will be provided."
+description: "Kiteboarding in Majorca, with Kite-Mallorca easy: kiteboarding lessons for beginners and advanced students. Complete equipment for each student will be provided."
 image:
   background: 4.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/l_kite-mallorca_031.jpg
+  picnum: 31
 snippets: true
 lang: en
 en-url: "en/"

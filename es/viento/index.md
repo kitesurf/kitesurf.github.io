@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Kite-Mallorca - Viento - Tel. +34-696-264729"
-subtitle: 
+subtitle: "Pronosticos del viento en Mallorca"
 date: 2015-11-23 
 modified:
 description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."

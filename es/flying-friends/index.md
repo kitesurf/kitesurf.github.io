@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: "Kite-Mallorca - Fotos y videos - Impresiones - Tel. +34-696-264729"
-subtitle: 
+subtitle: "Fotos y videos - Impresiones"
 date: 2015-11-23
 modified:
 description: "El kitesurf es un deporte maravilloso y en combinación con el agua, las olas y el viento muy adecuado para fantásticas fotos. Cuando harás tus imágenes con nosotros?"
