@@ -7,7 +7,7 @@ modified:
 description: "En Kite-Mallorca todos nuestros clientes son privilegiados. Tu solicitud será tratada a la brevedad posible"
 image:
   background: 4.jpg
-  feature:
+  feature: flying-friends/l_kite-mallorca_038.jpg
   teaser:
   thumb: flying-friends/l_kite-mallorca_038.jpg
   picnum: 38
