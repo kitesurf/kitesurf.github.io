@@ -13,7 +13,17 @@
         <meta itemprop="addressRegion" content="Islas Baleares" />
         <meta  itemprop="addressCountry" content="Spain" />
         </div>
-    </div>      
+    </div>
+{% assign counter=0 %}
+{% for person in site.data.testimonials.lang.de %}
+{% assign counter=counter | plus:1 %} 
+{% endfor %}
+{% for person in site.data.testimonials.lang.en %}
+{% assign counter=counter | plus:1 %} 
+{% endfor %}
+{% for person in site.data.testimonials.lang.es %}
+{% assign counter=counter | plus:1 %} 
+{% endfor %}      
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
@@ -41,9 +51,6 @@
               </div>
               </div>
               <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
-                    <meta itemprop="ratingValue" content="{{ item.quote }}"/>
-                    <meta property="bestRating" content="5"/>
-                    <meta property="worstRating" content="1"/>
                     {% assign var = item.quote plus 0 %}
                     {% for i in (1..5) plus 0 %}
                     {% if i <= var %}
@@ -51,11 +58,13 @@
                     {% else %}
                       <span class="quote">☆</span>
                     {% endif %}
-                    {% endfor %}
-                    <strong style="color:#7d7b7a;" property="ratingValue">({{ item.quote }}/5)</strong>
+                    {% endfor %}                 
               </div>
               <div class="review-body" itemprop="reviewBody">
                 <p>{{ item.review }}</p>
+                    <div class="ratingvalue">
+                    <span property="ratingValue">{{ item.quote }}</span> / <span property="bestRating">5</span> - {{ lang.ratings_count }}: <span property="ratingCount">{{ counter }}</span>
+                    </div>                 
                   <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
               </div>
           </div> 

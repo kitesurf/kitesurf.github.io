@@ -580,7 +580,9 @@ relatively positioned, so that our absolutely positioned items are
 in the right place. */
 .carousel-wrapper {
   position: relative;
-  height: 400px;
+  height: 480px;
+
+
 
   /* Our absolutely positioned carousel items span the width and
   height of its parent. We're making them transparent by default so
@@ -749,4 +751,8 @@ in the right place. */
 } */
 .quote span{
 	display: inline-block;
+}
+
+.ratingvalue span{
+	line-height: 0.5rem;
 }
