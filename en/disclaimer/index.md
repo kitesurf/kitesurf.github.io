@@ -2,14 +2,15 @@
 layout: archive
 title: "Kite-Mallorca - Disclaimer - Phone +34-696-264729"
 subtitle:
-date: 
+date: 2015-11-23
 modified:
 description:
 image:
   background: 6.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/m_kite-mallorca_035.jpg
+  picnum: 35
 snippets:
 lang: en
 en-url: "en/disclaimer/"

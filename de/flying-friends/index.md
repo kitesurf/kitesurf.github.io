@@ -2,7 +2,7 @@
 layout: gallery
 title: "Kite-Mallorca - Bilder & Videos - Impressionen - Tel. +34-696-264729"
 subtitle: 
-date: 
+date: 2015-11-23
 modified:
 description: "Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen."
 dataFile: photosde
@@ -10,7 +10,8 @@ image:
   background: 3.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/l_kite-mallorca_043.jpg
+  picnum: 43
 snippets: true
 lang: de
 en-url: "en/flying-friends/"

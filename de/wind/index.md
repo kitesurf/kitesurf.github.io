@@ -2,14 +2,15 @@
 layout: article
 title: "Kite-Mallorca - Wind - Tel. +34-696-264729"
 subtitle: 
-date: 
+date: 2015-11-23
 modified:
 description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
 image:
   background: 3.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/ĺ_kite-mallorca_011.jpg
+  picnum: 11
 snippets: true
 lang: de
 en-url: "en/wind"

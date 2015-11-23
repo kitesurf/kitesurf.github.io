@@ -2,14 +2,15 @@
 layout: archive
 title: "Kite-Mallorca - Datenschutz - Tel. +34-696-264729"
 subtitle:
-date:
+date: 2015-11-23
 modified:
 description:
 image:
   background: 2.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/m_kite-mallorca_015.jpg
+  picnum: 15
 snippets:
 lang: de
 en-url: "en/disclaimer/"

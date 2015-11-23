@@ -2,14 +2,15 @@
 layout: article
 title: "Kite-Mallorca - Gracias - Tel. +34-696-264729"
 subtitle:
-date: 
+date: 2015-11-23
 modified:
 description: "En Kite-Mallorca todos nuestros clientes son privilegiados. Tu solicitud será tratada a la brevedad posible"
 image:
   background: 4.jpg
   feature:
   teaser:
-  thumb:
+  thumb: flying-friends/l_kite-mallorca_038.jpg
+  picnum: 38
 snippets:
 lang: es
 en-url: "en/thanks/"
