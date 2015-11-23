@@ -63,7 +63,7 @@
               <div class="review-body" itemprop="reviewBody">
                 <p>{{ item.review }}</p>
                     <div class="ratingvalue">
-                    <span property="ratingValue">{{ item.quote }}</span> / <span property="bestRating">5</span> - {{ lang.ratings_count }}: <span property="ratingCount">{{ counter }}</span>
+                    <span property="ratingValue" content="{{ item.quote }}">{{ item.quote }}</span> / <span property="bestRating">5</span> - {{ lang.ratings_count }}: <span property="ratingCount" content="{{ counter }}">{{ counter }}</span>
                     </div>                 
                   <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
               </div>
