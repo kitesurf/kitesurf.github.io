@@ -58,13 +58,13 @@
                     {% else %}
                       <span class="quote">☆</span>
                     {% endif %}
-                    {% endfor %}                 
+                    {% endfor %}
+                    <div class="allvalues">
+                        <span property="ratingValue">{{ item.quote }}</span> / <span property="bestRating">5</span> - {{ lang.ratings_count }}: <span property="ratingCount">{{ counter }}</span>
+                    </div>              
               </div>
               <div class="review-body" itemprop="reviewBody">
-                <p>{{ item.review }}</p>
-                    <div class="allvalues">
-                    <span property="ratingValue">{{ item.quote }}</span> / <span property="bestRating">5</span> - {{ lang.ratings_count }}: <span property="ratingCount" content="{{ counter }}">{{ counter }}</span>
-                    </div>                 
+                <p>{{ item.review }}</p>                 
                   <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
               </div>
           </div> 
