@@ -50,9 +50,9 @@
 
         <!-- Multilinguale behandlung durch Google -->
     <meta http-equiv="language" content="{{ page.lang }}">
-    {% if page.lang == 'en' %}<link rel="alternate" href="{{ site.url }}/{{ page.en-url }}" hreflang="x" />{% else %}<link rel="alternate" href="{{ site.url }}/{{ page.en-url }}" hreflang="en" />{% endif %}
-    {% if page.lang == 'es' %}<link rel="alternate" href="{{ site.url }}/{{ page.es-url }}" hreflang="x" />{% else %}<link rel="alternate" href="{{ site.url }}/{{ page.es-url }}" hreflang="es" />{% endif %}
-    {% if page.lang == 'de' %}<link rel="alternate" href="{{ site.url }}/{{ page.de-url }}" hreflang="x" />{% else %}<link rel="alternate" href="{{ site.url }}/{{ page.de-url }}" hreflang="de" />{% endif %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
 
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
