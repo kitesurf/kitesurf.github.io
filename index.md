@@ -43,6 +43,8 @@ We offer lessons for all kite levels (beginners, refreshers and advanced riders)
 
 As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
 
+{% include carousel.html %}
+
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
 
 ######Our quality for the best price

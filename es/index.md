@@ -42,6 +42,8 @@ Ofrecemos cursos y clases para cada nivel (principiantes, avanzados y clases esp
 
 Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!
 
+{% include carousel.html %}
+
 Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.
 
 #####Nuestra calidad al mejor precio

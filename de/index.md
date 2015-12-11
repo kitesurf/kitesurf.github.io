@@ -42,6 +42,8 @@ Wir bieten Schulungen für jede Könnensstufe an (Einsteiger, Aufsteiger und For
 
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!
 
+{% include carousel.html %}
+
 Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontrolle hat, die ersten Wasserstartversuche gemacht hat und die ersten Meter gefahren ist, sodass man dann in die Miete übergehen und unter unserer Aufsicht selbständig weiterüben kann.
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!
