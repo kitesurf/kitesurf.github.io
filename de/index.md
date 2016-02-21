@@ -1,38 +1,41 @@
 ---
 layout: article
 title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
-subtitle: "Dein internationaler Kitesurfcenter"
-date: 2015-11-23
-modified:
+subtitle: Dein internationaler Kitesurfcenter
+date: 2015-11-23T00:00:00.000Z
+modified: null
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
-image:
+image: 
   background: 5.jpg
-  feature:
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_058.jpg
+  feature: null
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_058.jpg"
   picnum: 58
 snippets: true
 lang: de
-en-url: "en/"
-es-url: "es/"
-de-url: "de/"
-t:
-  link1: "kitekurse/"
-  menutxt1: "kitekurse"
-  link2: "vermietung/"
-  menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
-  link4: "kontakt/"
-  menutxt4: "kontakt"
+"en-url": en/
+"es-url": es/
+"de-url": de/
+t: 
+  menu: MENÜ
+  link1: kitekurse/
+  menutxt1: kitekurse
+  link2: vermietung/
+  menutxt2: vermietung
+  link3: wind/
+  menutxt3: wind
+  link4: kontakt/
+  menutxt4: kontakt
   link5: "flying-friends/"
   menutxt5: "bilder & videos"
-  link6: "datenschutz/"
-  menutxt6: "Datenschutz"
+  link6: datenschutz/
+  menutxt6: Datenschutz
   link7: "kontaktiere-uns/"
-  menutxt7: "Kontaktiere uns"
+  menutxt7: Kontaktiere uns
   teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen!"
+published: true
 ---
+
 
 ###KITEKURSE
 
