@@ -17,7 +17,7 @@ lang: de
 "es-url": es/gracias/
 "de-url": de/danke/
 t: 
-  menu: MENU
+  menu: MENÜ
   link1: kitekurse/
   menutxt1: kitekurse
   link2: vermietung/
