@@ -1,38 +1,41 @@
 ---
 layout: article
 title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
-subtitle: "Kurse und Schulung im kitesurfen"
-date: 2015-01-26T12:57:10+01:00
-modified:
+subtitle: Kurse und Schulung im kitesurfen
+date: 2015-01-26T11:57:10.000Z
+modified: null
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
-image:
+image: 
   background: 6.jpg
-  feature: 
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_026.jpg
+  feature: null
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_026.jpg"
   picnum: 26
 snippets: true
 lang: de
-en-url: "en/kitesurfing-lessons/"
-es-url: "es/cursos-de-kitesurf/"
-de-url: "de/kitekurse/"
-t:
-  link1: "kitekurse/"
-  menutxt1: "kitekurse"
-  link2: "vermietung/"
-  menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
-  link4: "kontakt/"
-  menutxt4: "kontakt"
+"en-url": "en/kitesurfing-lessons/"
+"es-url": "es/cursos-de-kitesurf/"
+"de-url": de/kitekurse/
+t: 
+  menu: MENÜ
+  link1: kitekurse/
+  menutxt1: kitekurse
+  link2: vermietung/
+  menutxt2: vermietung
+  link3: wind/
+  menutxt3: wind
+  link4: kontakt/
+  menutxt4: kontakt
   link5: "flying-friends/"
   menutxt5: "bilder & videos"
-  link6: "datenschutz/"
-  menutxt6: "Datenschutz"
+  link6: datenschutz/
+  menutxt6: Datenschutz
   link7: "kontaktiere-uns/"
-  menutxt7: "Kontaktiere uns"
-  teaser:
+  menutxt7: Kontaktiere uns
+  teaser: null
+published: true
 ---
+
 
 ###KITEKURSE
 
@@ -80,4 +83,3 @@ Bilder von und mit Schüler beim Kitesurfen:
 {% include snippets/de/image-hover-effects.html %}
 
 Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!
-
