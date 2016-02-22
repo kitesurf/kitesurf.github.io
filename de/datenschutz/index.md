@@ -1,38 +1,41 @@
 ---
 layout: archive
 title: "Kite-Mallorca - Datenschutz - Tel. +34-696-264729"
-subtitle: "Datenschutz"
-date: 2015-11-23
-modified:
-description:
-image:
+subtitle: Datenschutz
+date: 2015-11-23T00:00:00.000Z
+modified: null
+description: null
+image: 
   background: 2.jpg
-  feature:
-  teaser:
-  thumb: flying-friends/m_kite-mallorca_015.jpg
+  feature: null
+  teaser: null
+  thumb: "flying-friends/m_kite-mallorca_015.jpg"
   picnum: 15
-snippets:
+snippets: null
 lang: de
-en-url: "en/disclaimer/"
-es-url: "es/aviso-legal/"
-de-url: "de/datenschutz/"
-t:
-  link1: "kitekurse/"
-  menutxt1: "kitekurse"
-  link2: "vermietung/"
-  menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
-  link4: "kontakt/"
-  menutxt4: "kontakt"
+"en-url": en/disclaimer/
+"es-url": "es/aviso-legal/"
+"de-url": de/datenschutz/
+t: 
+  menu: MENÜ
+  link1: kitekurse/
+  menutxt1: kitekurse
+  link2: vermietung/
+  menutxt2: vermietung
+  link3: wind/
+  menutxt3: wind
+  link4: kontakt/
+  menutxt4: kontakt
   link5: "flying-friends/"
   menutxt5: "bilder & videos"
-  link6: "datenschutz/"
-  menutxt6: "Datenschutz"
+  link6: datenschutz/
+  menutxt6: Datenschutz
   link7: "kontaktiere-uns/"
-  menutxt7: "Kontaktiere uns"
-  teaser:
+  menutxt7: Kontaktiere uns
+  teaser: null
+published: true
 ---
+
 
 ###DATENSCHUTZRICHTLINIEN
 
@@ -67,5 +70,3 @@ t:
 
 
 Quelle: internetratgeber-recht.de - Rechtsberatung und Rechtsinformationen
-
- 
