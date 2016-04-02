@@ -14,19 +14,18 @@ sass:
     style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
-highlighter: pygments
 gems:
   - jekyll-sitemap
 
 
 # Site owner
-owner: 
+owner:
   name: Kitesurf Mallorca SL
   email: team@kite-mallorca.com
   twitter: kite_mallorca
   google: Kitesurf Mallorca
   fb_app_id: 296657447029072
-  bio: 
+  bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
