@@ -5,7 +5,7 @@ subtitle: Dein internationaler Kitesurfcenter
 date: 2015-11-23T00:00:00.000Z
 modified: null
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
-image: 
+image:
   background: 5.jpg
   feature: null
   teaser: null
@@ -16,7 +16,7 @@ lang: de
 "en-url": en/
 "es-url": es/
 "de-url": de/
-t: 
+t:
   menu: MENÜ
   link1: kitekurse/
   menutxt1: kitekurse
@@ -37,7 +37,7 @@ published: true
 ---
 
 
-###KITEKURSE
+### KITEKURSE
 
 KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
 
@@ -51,18 +51,18 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!
 
-######Unsere Qualität zum besten Preis
+###### Unsere Qualität zum besten Preis
 
-10 Stunden Anfängerkurs - ** EUR 390,-**  
+10 Stunden Anfängerkurs - ** EUR 390,-**
 Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)
 
-Einzelstunden in der Gruppe - **EUR 45,-/h**  
+Einzelstunden in der Gruppe - **EUR 45,-/h**
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
 
 
-###KITE & BOARD VERMIETUNG
+### KITE & BOARD VERMIETUNG
 
 Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
 

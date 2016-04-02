@@ -34,22 +34,22 @@ t:
   teaser:
 ---
 
-###KITE-MALLORCA KONTAKT
+### KITE-MALLORCA KONTAKT
 
 Du findest uns am Strand von Sa Marina in der Bucht zwischen Alcudia und Port de Pollenca.
 
-KITE-MALLORCA  
-Kitesurf Mallorca S.L.  
-Calle del Greco 19  
-07400 Alcudia  
-Mallorca, Spanien  
-Tel.: +34 696 264729  
+KITE-MALLORCA
+Kitesurf Mallorca S.L.
+Calle del Greco 19
+07400 Alcudia
+Mallorca, Spanien
+Tel.: +34 696 264729
 
 {% include googlemap.html %}
 
-#####Nächstgelegene Unterkünfte
+##### Nächstgelegene Unterkünfte
 
-In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.  
+In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.
 Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch eure Abholung möglich.
 
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=de" rel="nofollow" title="www.clubpollentia.com">» Klicke hier für Angebote</a>

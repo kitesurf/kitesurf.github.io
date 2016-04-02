@@ -6,7 +6,7 @@ date: 2015-11-23T00:00:00.000Z
 modified: null
 description: Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.
 dataFile: photosde
-image: 
+image:
   background: 3.jpg
   feature: null
   teaser: null
@@ -17,7 +17,7 @@ lang: de
 "en-url": "en/flying-friends/"
 "es-url": "es/flying-friends/"
 "de-url": "de/flying-friends/"
-t: 
+t:
   menu: MENÜ
   link1: kitekurse/
   menutxt1: kitekurse
@@ -40,6 +40,6 @@ published: true
 
 ### Bilder & Videos
 
-#####Impressionen
+##### Impressionen
 
 Bilder vom Kitesurf auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.

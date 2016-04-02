@@ -5,7 +5,7 @@ subtitle: Contact
 date: 2015-11-23T00:00:00.000Z
 modified: null
 description: "Kite-Mallorca's international kitesurf center contact details and ubication on the island"
-image: 
+image:
   background: 5.jpg
   feature: null
   teaser: null
@@ -16,7 +16,7 @@ lang: en
 "en-url": en/contact/
 "es-url": es/contacto/
 "de-url": de/kontakt/
-t: 
+t:
   menu: MENU
   menutxt1: kitesurfing lessons
   link1: "kitesurfing-lessons/"
@@ -37,20 +37,20 @@ published: true
 ---
 
 
-###KITE-MALLORCA CONTACT
+### KITE-MALLORCA CONTACT
 
 You find us on the beach of Sa Marina in the bay between Alcudia and Port de Pollenca.
 
-KITE-MALLORCA  
-Kitesurf Mallorca S.L.  
-Calle del Greco 19  
-07400 Alcudia  
-Mallorca, Spain  
+KITE-MALLORCA
+Kitesurf Mallorca S.L.
+Calle del Greco 19
+07400 Alcudia
+Mallorca, Spain
 Phone +34 696 264729
 
 {% include googlemap.html %}
 
-#####Places to stay
+##### Places to stay
 
 In Alcudia and around there are lots of accommodations, we just list the closest ones here.
 From those you can take the public bus or just walk to our spot.

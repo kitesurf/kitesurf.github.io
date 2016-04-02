@@ -37,6 +37,6 @@ t:
 
 ### FOTOS Y VIDEOS
 
-#####IMPRESIÓNES
+##### IMPRESIÓNES
 
 Fotos de Kitesurf en Mallorca. En ellas se pueden admirar muchos de nuestros alumnos y amigos.

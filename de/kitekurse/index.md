@@ -5,7 +5,7 @@ subtitle: Kurse und Schulung im kitesurfen
 date: 2015-01-26T11:57:10.000Z
 modified: null
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
-image: 
+image:
   background: 6.jpg
   feature: null
   teaser: null
@@ -16,7 +16,7 @@ lang: de
 "en-url": "en/kitesurfing-lessons/"
 "es-url": "es/cursos-de-kitesurf/"
 "de-url": de/kitekurse/
-t: 
+t:
   menu: MENÜ
   link1: kitekurse/
   menutxt1: kitekurse
@@ -37,7 +37,7 @@ published: true
 ---
 
 
-###KITEKURSE
+### KITEKURSE
 
 KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
 
@@ -49,23 +49,23 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!
 
-######Unsere Qualität zum besten Preis
+###### Unsere Qualität zum besten Preis
 
-10 Stunden Anfängerkurs - **EUR 390,-**  
+10 Stunden Anfängerkurs - **EUR 390,-**
 Unterricht in einer kleiner Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)
 
-Einzelstunden in der Gruppe - **EUR 45,-/h**  
+Einzelstunden in der Gruppe - **EUR 45,-/h**
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern
 
-3 Stunden Schnupperkurs - **EUR 100,-**  
+3 Stunden Schnupperkurs - **EUR 100,-**
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)
 
-Einzelstunden im privaten Unterricht - **EUR 75,-/h**  
+Einzelstunden im privaten Unterricht - **EUR 75,-/h**
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
 (Alle Preise gültig pro Person)
 
-Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
+Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.
 **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**
 
 {% include carousel.html %}

@@ -34,7 +34,7 @@ t:
   teaser:
 ---
 
-###WINDVORHERSAGEN
+### WINDVORHERSAGEN
 <script type="text/javascript">
 //doesn't block the load event
 function windIframe(){
@@ -46,7 +46,7 @@ function windIframe(){
   i.allowTransparency = "true";
   document.getElementById("windframe").appendChild(i);
 };
-        
+
 // Check for browser support of event handling capability
 if (window.addEventListener)
 window.addEventListener("load", windIframe, false);

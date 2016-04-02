@@ -34,7 +34,7 @@ t:
   teaser:
 ---
 
-###CURSOS DE KITESURF
+### CURSOS DE KITESURF
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
@@ -46,23 +46,23 @@ Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del 
 
 **Nuestra calidad al mejor precio**
 
-Curso completo de 10 horas - **EUR 390,-**  
+Curso completo de 10 horas - **EUR 390,-**
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
-Clases por horas sueltas - **EUR 45,-/h**  
+Clases por horas sueltas - **EUR 45,-/h**
 Clases individuales en grupo para todos los niveles
 
-Curso de prueba de 3 horas - **EUR 100,-**  
+Curso de prueba de 3 horas - **EUR 100,-**
 Clases en grupo que terminan con arrastre por una cometa en el agua (duración 1 dia)
 
-Clases privadas por horas sueltas - **EUR 75,-/h**  
+Clases privadas por horas sueltas - **EUR 75,-/h**
 Clases en exclusiva y privadas para todos los niveles
 
 (Todos los precios válidos por persona)
 
 {% include carousel.html %}
 
-Los cursos y las clases de kitesurf incluyen todo el material necesario para su practica. En caso necesario con barco de apoyo.  
+Los cursos y las clases de kitesurf incluyen todo el material necesario para su practica. En caso necesario con barco de apoyo.
 **Solo tienes que traer una buena sonrisa y ganas de aprender y divertirte!**
 
 Nuestros cursos de kite están compuestos de la siguiente manera:
@@ -75,6 +75,6 @@ Nuestros cursos de kite están compuestos de la siguiente manera:
 
 Fotos de alumnos en clases y practicando kitesurf:
 
-{%include snippets/es/image-hover-effects.html %}  
+{%include snippets/es/image-hover-effects.html %}
 
 Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!

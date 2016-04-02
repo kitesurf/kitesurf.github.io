@@ -35,29 +35,29 @@ t:
 ---
 
 
-###Aviso legal
+### Aviso legal
 
-  
-Información general para dar cumplimiento a la Ley de Internet 34/2002:  
-  
-  
 
-#####Titular:
+Información general para dar cumplimiento a la Ley de Internet 34/2002:
 
-Kitesurf Mallorca S.L.  
-C.I.F.: B57774572  
-Dirección: Calle del Greco nº19, 07400 Alcudia (Islas Baleares)  
-Teléfono: +34 696 264 729  
-E-Mail: <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>  
+
+
+##### Titular:
+
+Kitesurf Mallorca S.L.
+C.I.F.: B57774572
+Dirección: Calle del Greco nº19, 07400 Alcudia (Islas Baleares)
+Teléfono: +34 696 264 729
+E-Mail: <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>
 
 Kitesurf Mallorca S.L. es propietaria del nombre de dominio y páginas en Internet a
-las que se accede a través de la dirección http://www.kite-mallorca.com  
-Datos Registrales:  
-Inscrito en el Registro mercantil de Palma de Mallorca  
-Inscripción 1ª, Hoja PM-70674, Folio 93, Tomo 2516  
+las que se accede a través de la dirección http://www.kite-mallorca.com
+Datos Registrales:
+Inscrito en el Registro mercantil de Palma de Mallorca
+Inscripción 1ª, Hoja PM-70674, Folio 93, Tomo 2516
 
 
-#####Política de privacidad:  
+##### Política de privacidad:
 De acuerdo con lo dispuesto en la Ley Orgánica 15/99 del 13 de diciembre de 1999
 sobre Protección de Datos de Carácter Personal, Kitesurf Mallorca S.L. y su sitio
 web http://www.kite-mallorca.com cumple la legislación vigente respecto a la protección
@@ -85,9 +85,9 @@ tratamiento o acceso no autorizados.
 
 Los clientes y/o usuarios de http://www.kite-mallorca.com pueden, en todo momento,
 ejercitar los derechos de acceso, rectificación, cancelación u oposición sobre sus datos
-personales comunicándolo por escrito a  
-Kitesurf Mallorca S.L.  
-Calle del Greco nº19  
-07400 Alcudia (Islas Baleares)  
+personales comunicándolo por escrito a
+Kitesurf Mallorca S.L.
+Calle del Greco nº19
+07400 Alcudia (Islas Baleares)
 
 o bien enviando un E-Mail a <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>

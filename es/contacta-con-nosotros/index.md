@@ -34,7 +34,7 @@ t:
   menutxt7: "Contacta con nosotros"
   teaser:
 ---
-###ALGUNA DUDA?
+### ALGUNA DUDA?
 <form method="POST" action="http://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">
