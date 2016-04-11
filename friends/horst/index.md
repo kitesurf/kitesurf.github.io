@@ -9,7 +9,7 @@ description: "Kitesurf mit Kite-Mallorca kann zum richtigen Vergnügen werden, v
 dataFile:
 image:
   background: 3.jpg
-  feature:
+  feature: horst.jpg
   title:
   teaser:
   thumb:
