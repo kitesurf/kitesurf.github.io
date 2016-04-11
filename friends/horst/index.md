@@ -1,0 +1,97 @@
+---
+layout: article
+sitemap: false
+title: "/Kite-Mallorca - Friends - Horst"
+subtitle:
+date:
+modified:
+description: "Kitesurf mit Kite-Mallorca kann zum richtigen Vergnügen werden, vor allem wenn man sich genau unsere Mietpreise anschaut"
+dataFile:
+image:
+  background: 3.jpg
+  feature:
+  title:
+  teaser:
+  thumb:
+snippets: true
+lang: de
+en-url: "friends/horst/"
+es-url: "friends/horst/"
+de-url: "friends/horst/"
+t:
+  link1: "kitekurse/"
+  menutxt1: "kitekurse"
+  link2: "vermietung/"
+  menutxt2: "vermietung"
+  link3: "wind/"
+  menutxt3: "wind"
+  link4: "kontakt/"
+  menutxt4: "kontakt"
+  link5: "flying-friends/"
+  menutxt5: "bilder & videos"
+  link6: "datenschutz/"
+  menutxt6: "Datenschutz"
+  link7: "kontaktiere-uns/"
+  menutxt7: "Kontaktiere uns"
+  teaser: Wir wünschen Horst viel Spass!
+---
+
+### 10er Bonus Karte Horst
+
+<table>
+  <tr>
+    <td></td>
+    <td>Tag</td>
+    <td>Datum</td>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>9.</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10.</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
