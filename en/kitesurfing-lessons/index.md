@@ -44,8 +44,7 @@ As an absolute beginner you normally need about 10 hours of lessons to control t
 
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!  
 
-{% include carousel.html %}
-
+{% include carousel.html %}  
 **Our quality for the best price - Season 2016**  
 
 10 hours beginners course - **EUR 390,-**  
@@ -54,7 +53,7 @@ Lessons in a small group of 2-4 students, including preparation and theory for t
 4 hours refresh course - **EUR 200,-**  
 Lessons in a small group of 2-4 students for people who have done a course before and want to refresh and improve their skills (duration 1-3 days)  
 
-Group lessons on an hourly basis
+Group lessons on an hourly basis  
 with shared kite & board - **EUR 45,-/h**  
 with own kite & board - **EUR 55,-/h**  
 Individual hours for all levels in a small group of 2-4 students  
@@ -63,7 +62,7 @@ Individual hours for all levels in a small group of 2-4 students
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)  
 
 Private one-to-one lessons - **EUR 85,-/h**  
-Individual hours alone with an instructor for all levels  
+Individual hours alone with an instructor for all levels
 
 (All prices are per person)
 
@@ -80,6 +79,6 @@ The courses and lessons always include the complete equipment required. If neces
 
 Pictures from and with students of kitesurfing:  
 
-{% include snippets/en/image-hover-effects.html %}
-
+{% include snippets/en/image-hover-effects.html %}  
+  
 Book your own kite course with [Daniel & Gerhard]({{ site.url }}/en/contact-us/){:title="Opening the contact form to mail Daniel and Gerhard"} (+34-696-264729) now!  
