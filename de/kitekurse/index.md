@@ -49,7 +49,7 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
 
-###### Unsere Qualität zum besten Preis (Stand 2016)  
+###### Unsere Qualität zum besten Preis (Saison 2016)  
 
 10 Stunden Anfängerkurs - **EUR 390,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
@@ -85,6 +85,7 @@ Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:
 
 Bilder von und mit Schüler beim Kitesurfen:  
 
-{% include snippets/de/image-hover-effects.html %}
-
+{% include snippets/de/image-hover-effects.html %}  
+  
+  
 Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  
