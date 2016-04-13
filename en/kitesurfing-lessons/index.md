@@ -31,7 +31,7 @@ t:
   link6: "disclaimer/"
   menutxt7: "Contact us"
   link7: "contact-us/"
-  teaser: "Come and learn with us the first steps in kitesurfing..."
+  teaser: ""
 ---
 
 ### KITESURFING LESSONS  
@@ -45,13 +45,14 @@ As an absolute beginner you normally need about 10 hours of lessons to control t
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!  
 
 {% include carousel.html %}  
-**Our quality for the best price - Season 2016**  
+
+###### Our quality for the best price (Season 2016)  
 
 10 hours beginners course - **EUR 390,-**  
-Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  
+Beginner lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  
 
 4 hours refresh course - **EUR 200,-**  
-Lessons in a small group of 2-4 students for people who have done a course before and want to refresh and improve their skills (duration 1-3 days)  
+Advanced lessons in a small group of 2-4 students for people who have done a course before and want to refresh and improve their skills (duration 1-3 days)  
 
 Group lessons on an hourly basis  
 with shared kite & board - **EUR 45,-/h**  
@@ -67,6 +68,7 @@ Individual hours alone with an instructor for all levels
 (All prices are per person)
 
 The courses and lessons always include the complete equipment required. If necessary also with boat support.  
+
 **You just need to bring a great mood, fun and the desire to learn!**  
 
 **Our courses for beginners comprise the following elements**  
