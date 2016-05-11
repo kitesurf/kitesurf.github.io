@@ -1,7 +1,7 @@
 ---
 layout: article
 sitemap: false
-title: "/Kite-Mallorca - Friends - Alexander"
+title: "/Kite-Mallorca - Friends - Tobias"
 subtitle:
 date:
 modified:
@@ -9,15 +9,15 @@ description: "Kitesurf mit Kite-Mallorca kann zum richtigen Vergnügen werden, v
 dataFile:
 image:
   background: 3.jpg
-  feature:
+  feature: tobias.jpg
   title:
   teaser:
   thumb:
 snippets: true
 lang: de
-en-url: "friends/alexander-2015/"
-es-url: "friends/alexander-2015/"
-de-url: "friends/alexander-2015/"
+en-url: "friends/tobias/"
+es-url: "friends/tobias/"
+de-url: "friends/tobias/"
 t:
   link1: "kitekurse/"
   menutxt1: "kitekurse"
@@ -33,10 +33,10 @@ t:
   menutxt6: "Datenschutz"
   link7: "kontaktiere-uns/"
   menutxt7: "Kontaktiere uns"
-  teaser: Wir wünschen Alex viel Spass!
+  teaser: Wir wünschen Tobias viel Spass!
 ---
 
-### 10er Bonus Karte Alexander
+### 10er Bonus Karte Tobias
 
 <table>
   <tr>
@@ -46,23 +46,23 @@ t:
   </tr>
   <tr>
     <td>1.</td>
-    <td>Samstag</td>
-    <td>05.09.2015</td>
+    <td>Montag</td>
+    <td>02.05.2016</td>
   </tr>
   <tr>
     <td>2.</td>
     <td>Mittwoch</td>
-    <td>07.10.2015</td>
+    <td>04.05.2016</td>
   </tr>
   <tr>
     <td>3.</td>
-    <td>Samstag</td>
-    <td>10.10.2015</td>
+    <td>Donnerstag</td>
+    <td>05.05.2016</td>
   </tr>
   <tr>
     <td>4.</td>
-    <td></td>
-    <td></td>
+    <td>Montag</td>
+    <td>09.05.2016</td>
   </tr>
   <tr>
     <td>5.</td>
