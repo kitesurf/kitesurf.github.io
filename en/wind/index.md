@@ -11,7 +11,7 @@ image:
   teaser:
   thumb: flying-friends/l_kite-mallorca_042.jpg
   picnum: 42
-snippets: true
+snippets:
 lang: en
 en-url: "en/wind"
 es-url: "es/viento"
