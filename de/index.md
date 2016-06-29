@@ -37,12 +37,20 @@ published: true
 ---
 
 
-### KITEKURSE  
+### KITEKURSE, MIETE & MEHR
 
 KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.  
 
-Wir bieten Schulungen für jede Könnensstufe an (Einsteiger, Aufsteiger und Fortgeschrittene).  
+Wir haben für dich:  
+- Schulungen für jede Könnensstufe (Einsteiger, Aufsteiger und Fortgeschrittene)  
+- Miete von Kites, Boards, usw. für Fortgeschrittene  
+- Storage für Gäste  
+- Und vieles Mehr...
 
+#### Unsere Webcam
+{% include webcam.html %} 
+
+#### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
 
 {% include carousel.html %}  
@@ -62,7 +70,7 @@ Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
 
 
-### KITE & BOARD VERMIETUNG  
+#### KITE & BOARD VERMIETUNG  
 
 Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!  
 

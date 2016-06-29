@@ -34,12 +34,20 @@ t:
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 
-### KITESURFING LESSONS
+### KITEBOARDING LESSONS, RENTING & MORE
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
 
-We offer lessons for all kite levels (beginners, refreshers and advanced riders).
+We've for you:  
+- Lessons for all kite levels (beginners, refreshers and advanced riders),  
+- Kites, Boards, etc. for kiteboarders to rent,  
+- Storage for our guests,  
+- and much more...
 
+#### Our Webcam
+{% include webcam.html %} 
+
+#### Kiteboarding and kitesurfing courses
 As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
 
 {% include carousel.html %}
@@ -60,7 +68,7 @@ Lessons in a small group of 2-4 students with the goal to be dragged through the
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
 
 
-### KITE & BOARD RENTAL
+#### KITE & BOARD RENTAL
 
 Latest equipment from Liquid Force, North and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 

@@ -750,3 +750,35 @@ in the right place. */
 .quote span{
 	display: inline-block;
 }
+
+// IFRAME RESPONSIVE
+// --------------------------------------------------
+
+.iframe-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+ 
+/* 16x9 Aspect Ratio */
+.iframe-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-bottom: 75%;
+}
+
+/* Google maps Aspect Ratio */
+.iframe-container-google-maps {
+  padding-bottom: 80%;
+}
+ 
+.iframe-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

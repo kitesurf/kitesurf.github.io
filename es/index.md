@@ -34,11 +34,20 @@ t:
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
 ---
 
-### CURSOS DE KITESURF
+### CURSOS, ALQUILER Y MAS EN KITESURF
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
-Ofrecemos cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida).
+Tenemos para ti:  
+- cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida),  
+- alquiler de tablas, cometas, etc. para kitesurfistas,  
+- almacenamiento de tu propio material,  
+- y mucho más...
+
+#### Nuestra cámara web
+{% include webcam.html %} 
+
+#### Cursos de kitesurf
 
 Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!
 
@@ -56,7 +65,7 @@ Clases individuales en grupo para todos los niveles
 
 [» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
 
-### ALQUILER DE KITE Y TABLA
+#### Alquiler de kite y tabla
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North  y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
