@@ -46,18 +46,18 @@ t:
   </tr>
   <tr>
     <td>1.</td>
-    <td></td>
-    <td></td>
+    <td>Mittwoch</td>
+    <td>25.05.2016</td>
   </tr>
   <tr>
     <td>2.</td>
-    <td></td>
-    <td></td>
+    <td>Mittwoch</td>
+    <td>08.06.2016</td>
   </tr>
   <tr>
     <td>3.</td>
-    <td></td>
-    <td></td>
+    <td>Samstag</td>
+    <td>11.06.2016</td>
   </tr>
   <tr>
     <td>4.</td>
