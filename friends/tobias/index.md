@@ -71,13 +71,13 @@ t:
   </tr>
   <tr>
     <td>6.</td>
-    <td></td>
-    <td></td>
+    <td>Sonntag</td>
+    <td>10.07.2016</td>
   </tr>
   <tr>
     <td>7.</td>
-    <td></td>
-    <td></td>
+    <td>Montag</td>
+    <td>11.07.2016</td>
   </tr>
   <tr>
     <td>8.</td>
