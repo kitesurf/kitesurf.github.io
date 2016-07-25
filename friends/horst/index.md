@@ -66,8 +66,8 @@ t:
   </tr>
   <tr>
     <td>5.</td>
-    <td></td>
-    <td></td>
+    <td>Samstag</td>
+    <td>23.07.2016</td>
   </tr>
   <tr>
     <td>6.</td>
