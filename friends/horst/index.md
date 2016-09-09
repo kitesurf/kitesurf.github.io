@@ -71,27 +71,27 @@ t:
   </tr>
   <tr>
     <td>6.</td>
-    <td></td>
-    <td></td>
+    <td>Sonntag</td>
+    <td>31.07.2016</td>
   </tr>
   <tr>
     <td>7.</td>
-    <td></td>
-    <td></td>
+    <td>Samstag</td>
+    <td>20.08.2016</td>
   </tr>
   <tr>
     <td>8.</td>
-    <td></td>
-    <td></td>
+    <td>Samstag</td>
+    <td>03.09.2016</td>
   </tr>
   <tr>
     <td>9.</td>
-    <td></td>
-    <td></td>
+    <td>Montag</td>
+    <td>05.09.2016</td>
   </tr>
   <tr>
     <td>10.</td>
-    <td></td>
-    <td></td>
+    <td>Mittwoch</td>
+    <td>07.09.2016</td>
   </tr>
 </table>
