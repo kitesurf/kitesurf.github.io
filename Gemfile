@@ -3,7 +3,7 @@ source "https://rubygems.org"
 
 gem 'jekyll', '~> 2.4.0'
 # gem 'jekyll-sitemap', '~> 0.6.1'
-# gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-sitemap'
 gem 'sass'
 gem 'bourbon'
