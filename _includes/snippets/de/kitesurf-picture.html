@@ -1,4 +1,4 @@
-<div itemscope itemtype="http://schema.org/Place">
+<div>
 <script type="text/javascript" language="JavaScript">
 <!--
 //
@@ -12,8 +12,8 @@ var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
 // Specify the first and last part of the image tag. 
 // if random is less then 10 add 0 to picture number
 
-if (r < 10) {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img itemprop="photo" src="/images/flying-friends/s_kite-mallorca_00';}
-else {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img itemprop="photo" src="/images/flying-friends/s_kite-mallorca_0';}
+if (r < 10) {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img src="/images/flying-friends/s_kite-mallorca_00';}
+else {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img src="/images/flying-friends/s_kite-mallorca_0';}
 
 LastPart = '.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >» mehr Bilder</a>';
 
@@ -25,8 +25,8 @@ printImage();
 
 <!-- Fallback Content -->
 <noscript>
-	<div itemscope itemtype="http://schema.org/Place">
-		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">{% if page.image.picnum %}<img itemprop="photo" src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img  itemprop="photo" src="/images/flying-friends/s_kite-mallorca_005.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >{% endif %}» mehr Bilder</a>
+	<div>
+		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">{% if page.image.picnum %}<img itemprop="photo" src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img  itemprop="image" src="/images/flying-friends/s_kite-mallorca_005.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >{% endif %}» mehr Bilder</a>
 	</div>
 </noscript>
 <!-- END Fallback Content -->
