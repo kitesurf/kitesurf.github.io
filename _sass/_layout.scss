@@ -770,15 +770,22 @@ in the right place. */
   padding-bottom: 75%;
 }
 
+/* Facebook iframe Aspect Ratio */
+.iframe-facebook {
+  padding-bottom: 100%;
+}
+
 /* Google maps Aspect Ratio */
 .iframe-container-google-maps {
   padding-bottom: 80%;
 }
  
-.iframe-container iframe {
+video.responsive, 
+iframe.responsive {
   position: absolute;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+
