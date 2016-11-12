@@ -1,11 +1,27 @@
-<script type="text/javascript">
+<video id=example-video width=100% height=100% class="video-js vjs-default-skin" controls data-setup='{}'>
+  <source
+     src="https://94.228.215.67:1935/live/livecam055.stream/playlist.m3u8"
+     type="application/x-mpegURL">
+</video>
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
+<!--<script type="text/javascript">
 function createVideo(){
   var webcam = document.createElement('video');
+//  if ( typeof(video.canPlayType) == 'undefined' || // detect browsers with no <video> support
+//       video.canPlayType('video/mp4') == '') { // detect the ability to play H.264/MP4
+
   webcam.controls = 'controls';
   webcam.setAttribute('class', 'responsive');
   webcam.src = '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8';
+  webcam.type="application/x-mpegURL"
   webcam.style.height = '100%';
   webcam.style.width = '100%';
+
+//hier rein
+
   document.getElementById("devideo").appendChild(webcam);
 };
         
@@ -17,13 +33,13 @@ window.attachEvent("onload", createVideo);
 else window.onload = createVideo;
 </script>
 <div id="devideo" class="iframe-container iframe-container-16x9"></div>
-<!--
+
 <noscript><iframe src="http://livecam-pro.com/livecam055.html" style="border:none; overflow:hidden; height:100%; width:100%;" allowTransparency="true" allowFullscreen="true"></iframe></noscript>
 		
 <iframe allowFullScreen height="360" name="livecam-pro" src="http://livecam-pro.com/livecam055.html" >
 </iframe>
 	<video controls poster="https://livecam-pro.com/fileadmin/templates/assets/_pics/055_000M.jpg" width="100%" height="100%">
-	<source src="http://94.228.215.67:1935/live/livecam055.stream/playlist.m3u8" type="application/x-mpegURL">
+	<source src="http://94.228.215.67:1935/live/livecam055.stream/playlist.m3u8" >
  </video>
 
 </div>-->
