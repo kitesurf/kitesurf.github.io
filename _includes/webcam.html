@@ -11,7 +11,7 @@ function createVideo(){
   webcam.style.width = '100%';
 
 // variables for FF and Chrome
-/*  var jsVideo = document.createElement('video');
+  var jsVideo = document.createElement('video');
   jsVideo.setAttribute('id', 'my_video_1');
   jsVideo.setAttribute('class', 'video-js', 'vjs-default-skin');
   jsVideo.controls = 'controls';
@@ -22,10 +22,10 @@ function createVideo(){
   var jsSource = document.createElement('source');
   jsSource.setAttribute('src', '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8');
   jsSource.setAttribute('type', 'application/x-mpegURL');
-*/
-  var camiframe = document.createElement('iframe');
+
+/*  var camiframe = document.createElement('iframe');
   camiframe.setAttribute('class', 'responsive');
-  camiframe.src = '//livecam-pro.com/livecam055.html'; 
+  camiframe.src = '//livecam-pro.com/livecam055.html'; */
 
 if(webcam.canPlayType('application/vnd.apple.mpegurl') === "probably" || webcam.canPlayType('application/vnd.apple.mpegurl') === "maybe"){
     //Actions like playing the .m3u8 content
@@ -33,10 +33,10 @@ if(webcam.canPlayType('application/vnd.apple.mpegurl') === "probably" || webcam.
 }
 else{
     //Actions like playing another video type
-    document.getElementById("devideo").appendChild(camiframe);
-/*    document.getElementById("devideo").appendChild(jsVideo);
+/*    document.getElementById("devideo").appendChild(camiframe);*/
+    document.getElementById("devideo").appendChild(jsVideo);
     document.getElementById("my_video_1").appendChild(jsSource);
-*/
+
 }  
 };
         // Check for browser support of event handling capability
