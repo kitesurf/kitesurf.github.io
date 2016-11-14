@@ -761,7 +761,8 @@ in the right place. */
 }
  
 /* 16x9 Aspect Ratio */
-.iframe-container-16x9 {
+.iframe-container-16x9,
+.video-js {
   padding-bottom: 56.25%;
 }
  
@@ -779,13 +780,13 @@ in the right place. */
 .iframe-container-google-maps {
   padding-bottom: 80%;
 }
- 
-video.responsive, 
+
+video.responsive,
 iframe.responsive {
   position: absolute;
   top:0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
 }
 
