@@ -42,7 +42,7 @@ published: true
 
 KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.  
 
-Wir haben für dich:  http://kite-mallorca.com/images/flying-friends/l_kite-mallorca_058.jpg
+Wir haben für dich:  
 - Schulungen für jede Könnensstufe (Einsteiger, Aufsteiger und Fortgeschrittene)  
 - Miete von Kites, Boards, usw. für Fortgeschrittene  
 - Storage für Gäste  
