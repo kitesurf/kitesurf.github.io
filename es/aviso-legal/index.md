@@ -3,7 +3,8 @@ layout: archive
 title: "Kite-Mallorca - Aviso legal - Tel. +34-696-264729"
 subtitle: "Aviso legal"
 date: 2015-11-23
-modified:
+modified: 2016-11-20T00:00:00.000Z
+author: daniel
 description: "Aquí encuentras el aviso legal de Kitesurf Mallorca SL"
 image:
   background: 2.jpg
