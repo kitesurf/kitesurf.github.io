@@ -3,41 +3,15 @@ function createVideo(){
 // variables for safari and mobile
   var webcam = document.createElement('video');
   webcam.controls = 'controls';
-  webcam.setAttribute('id', 'myVideo');
-  webcam.setAttribute('class', 'responsive');
+  webcam.setAttribute('id', 'livecam-pro');
+  webcam.setAttribute('class', 'responsive')
+  webcam.setAttribute('poster', '//livecam-pro.com/fileadmin/templates/assets/_pics/055_000M.jpg');
   webcam.setAttribute('type', 'application/x-mpegURL');
   webcam.src = '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8';
   webcam.style.height = '100%';
   webcam.style.width = '100%';
 
-// variables for FF and Chrome
-  var jsVideo = document.createElement('video');
-  jsVideo.setAttribute('id', 'my_video_1');
-  jsVideo.setAttribute('class', 'video-js', 'vjs-default-skin');
-  jsVideo.controls = 'controls';
-  jsVideo.setAttribute('preload', 'auto');
-  jsVideo.setAttribute('poster', '//livecam-pro.com/fileadmin/templates/assets/_pics/055_000M.jpg')
-  jsVideo.setAttribute('data-setup', '{"aspectRatio":"640:360"}');
-
-  var jsSource = document.createElement('source');
-  jsSource.setAttribute('src', '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8');
-  jsSource.setAttribute('type', 'application/x-mpegURL');
-
- var camiframe = document.createElement('iframe');
-  camiframe.setAttribute('class', 'responsive');
-  camiframe.src = '//livecam-pro.com/livecam055.html'; 
-
-if(webcam.canPlayType('application/vnd.apple.mpegurl') === "probably" || webcam.canPlayType('application/vnd.apple.mpegurl') === "maybe"){
-    //Actions like playing the .m3u8 content
-    document.getElementById("devideo").appendChild(webcam);
-}
-else{
-    //Actions like playing another video type
-/*   document.getElementById("devideo").appendChild(camiframe);*/
-     document.getElementById("devideo").appendChild(jsVideo);
-    document.getElementById("my_video_1").appendChild(jsSource);
-
-}  
+document.getElementById("devideo").appendChild(webcam);
 };
         // Check for browser support of event handling capability
 if (window.addEventListener)
@@ -46,6 +20,8 @@ else if (window.attachEvent)
 window.attachEvent("onload", createVideo);
 else window.onload = createVideo;
 </script>
-<div id="devideo" class="iframe-container iframe-container-16x9">
-<noscript><iframe src="http://livecam-pro.com/livecam055.html" style="border:none; overflow:hidden; height:100%; width:100%;" allowTransparency="true" allowFullscreen="true"></iframe></noscript>
-</div>		
+<div id="devideo" class="iframe-container iframe-container-16x9"></div>
+      {% assign lang = site.data.texts[page.lang] %}
+<p> <strong>{{ lang.webcam_fullview }}</strong>
+  <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}">"{{ page.t.menutxt3 }}"</a>
+</p>

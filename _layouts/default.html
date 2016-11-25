@@ -4,17 +4,6 @@
   {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
     <meta charset="utf-8">
     {% include yandex_metrika.html %}
-    <script>
-      var cb = function() {
-      var l = document.createElement('link'); l.rel = 'stylesheet';
-      l.href = 'https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/alt/video-js-cdn.css';
-      var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-    </script>
        <!-- Custom Fonts -->    
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin' rel='stylesheet' type='text/css'>
         <!-- Icons -->
@@ -205,10 +194,6 @@
     <script src="{{ site.url }}/js/animenu.js" async></script>
     <script src="https://apis.google.com/js/plusone.js" async></script>
     <script async src="//www.google-analytics.com/analytics.js" async></script>
-          <!-- javascript video player
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/alt/video-js-cdn.css" rel="stylesheet"> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/video.js" async></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/3.6.11/videojs-contrib-hls.min.js" async></script>
   </body>
 
 </html>

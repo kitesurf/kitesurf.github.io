@@ -5,18 +5,18 @@ en:
   testimonial: "Our guests say:"
   org_link: "Original review on "
   ratings_count: "total reviews"
-  webcam_fullview: "Double click for fullscreen"
+  webcam_fullview: "Follow if the live video didn't work:"
 
 es:
   calltext: "Clic aquí para llamar, WhatsApp o SMS"
   testimonial: "Que opinan nuestros clientes:"
   org_link: "Valoracion original en "
   ratings_count: "valoraciones en total"
-  webcam_fullview: "Doble click para agrandar ventana"
+  webcam_fullview: "Sigue este enlace si el video no funciona:"
 
 de:
   calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
   testimonial: "Das meinen unsere Gäste:"
   org_link: "Originale Bewertung in "
   ratings_count: "Bewertungen insgesamt"
-  webcam_fullview: "Doppelt klicken für maximale größe"
+  webcam_fullview: "Hier klicken wenn das Video nicht funktioniert:"
