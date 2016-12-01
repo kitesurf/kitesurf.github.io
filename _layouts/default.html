@@ -197,19 +197,11 @@ body,h2,h3,h4,h6{font-family:Lato,"Segoe UI",Arial,sans-serif}figure img,h2,h3,p
       });
     </script>
     {% endif %}
-    <!-- defer-images 
-    <script>
-    ;(function($){
-      function loadBG(){
-          document.getElementByClassName("cb-slideshow").style.backgroundImage="url(../../images/*.jpg)";
-      }
-      window.onload=loadBG();
-    });
-    </script> -->
-     <!-- Load GA after the `window.ga` is initialized -->
-    <!--<script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>-->
+
+
+<!--    <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js" async defer></script> -->
     <script src="{{ site.url }}/js/animenu.js" async></script>
-    <script src="https://apis.google.com/js/plusone.js" async></script>
+    <script src="https://apis.google.com/js/plusone.js" async defer></script>
     <script async src="//www.google-analytics.com/analytics.js" async></script>
   </body>
 
