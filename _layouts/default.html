@@ -78,6 +78,13 @@ body,h2,h3,h4,h6{font-family:Lato,"Segoe UI",Arial,sans-serif}figure img,h2,h3,p
       }
     </script>
 
+    <script>
+        ;(function() {
+            // Initialize
+            var bLazy = new Blazy();
+        })();
+    </script>
+    
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
