@@ -20,10 +20,10 @@
     {% for item in site.data.testimonials.lang[page.lang] %} 
   <div class="carousel-item item-{{ forloop.index }}">
           <div class="review">
-              <div class="b-lazy" itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                       <meta itemprop="url" content="{{ item.author_link }}"/>
                       <span itemprop="name">{{ item.person }}</span>
-              <div class="avatar" style="
+              <div class="b-lazy" style="
                     margin-left: 22px; 
                     width: 100px;
                     height: 100px;
