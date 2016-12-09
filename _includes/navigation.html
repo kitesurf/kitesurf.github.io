@@ -14,9 +14,15 @@
                 <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a>
                 <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a>
                 <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a>
-                <a href="{{site.baseurl }}/{{ page.de-url }}" title="Deutsch"><img class="img-responsive" src="{{site.baseurl }}/images/flags/germany_24.png" alt="Deutsch"></a>
+<!--                <a href="{{site.baseurl }}/{{ page.de-url }}" title="Deutsch"><img class="img-responsive" src="{{site.baseurl }}/images/flags/germany_24.png" alt="Deutsch"></a>
                 <a href="{{site.baseurl }}/{{ page.es-url }}" title="Español"><img class="img-responsive" src="{{site.baseurl }}/images/flags/spain_24.png" alt="Español"></a>
                 <a href="{{site.baseurl }}/{{ page.en-url }}" title="English"><img class="img-responsive" src="{{site.baseurl }}/images/flags/uk_24.png" alt="English"></a>
+-->             <img src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
+                    <map name="Map" id="Map">
+                        <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
+                        <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
+                        <area alt="English" title="English" href="{{site.baseurl }}/{{ page.en-url }}" shape="rect" coords="126,3,149,20" />
+                    </map>
             </nav>
         </div>
 </div>
