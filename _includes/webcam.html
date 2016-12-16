@@ -1,3 +1,8 @@
+{% if page.amp == true %}
+<amp-video width="640" height="360" controls="" layout="responsive" poster="//livecam-pro.com/fileadmin/templates/assets/_pics/055_000M.jpg">
+<source  type="application/x-mpegURL" src="//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8">
+</amp-video>
+{% else %}
 <script type="text/javascript">
 function createVideo(){
 // variables for safari and mobile
@@ -23,3 +28,4 @@ else window.onload = createVideo;
 <p> <strong>{{ lang.webcam_fullview }}</strong>
   <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}">"{{ page.t.menutxt3 }}"</a>
 </p>
+{% endif %}

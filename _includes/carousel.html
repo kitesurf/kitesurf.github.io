@@ -15,13 +15,15 @@
         <meta  itemprop="addressCountry" content="Spain" />
         </div>
     </div> 
+    {% if page.amp != true %}
     <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script> 
     <script>
         ;(function() {
             // Initialize
             var bLazy = new Blazy();
         })();
-    </script>     
+    </script>  
+    {% endif %}   
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
@@ -31,8 +33,13 @@
               <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                       <meta itemprop="url" content="{{ item.author_link }}"/>
                       <span itemprop="name">{{ item.person }}</span>
-              <div class="b-lazy avatar" data-src="{{ item.avatar_img }}">
+              {% if page.amp == true %}
+              <div>
+              <amp-img class="avatar" src="{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
               </div>
+              {% else %}
+              <div class="b-lazy avatar" data-src="{{ item.avatar_img }}"></div>
+              {% endif %}
               </div>
               <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/>
@@ -46,7 +53,8 @@
                       <span class="quote">☆</span>
                     {% endif %}
                     {% endfor %}
-                    <strong style="color:#7d7b7a;" property="ratingValue">({{ item.quote }}/5)</strong>
+                    <strong class="golden">({{ item.quote }}/5)</strong>
+                    <meta  property="ratingValue" content="{{ item.quote }}/5"/>
               </div>
               <div class="review-body" itemprop="reviewBody">
                 <p>{{ item.review }}</p>

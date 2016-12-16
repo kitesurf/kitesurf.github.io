@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: amp-default
 ---
 
 <div id="main" role="main">			
@@ -26,11 +26,7 @@ layout: default
 					{% include page-author.html %}
 					  <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-						  {% if page.amp == true %}
-					      <amp-img src="http://kite-mallorca.com/images/kite-mallorca_225x225.png" width="225" height="225"/>
-					      {% else %}
-					      <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="http://kite-mallorca.com/images/kite-mallorca_225x225.png"/>
-					      {% endif %}
+					      <img class="b-lazy" data-src="http://kite-mallorca.com/images/kite-mallorca_225x225.png"/>
 					      <meta itemprop="url" content="http://kite-mallorca.com/images/kite-mallorca_225x225.png">
 					      <meta itemprop="width" content="100%">
 					      <meta itemprop="height" content="100%"> 

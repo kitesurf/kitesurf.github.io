@@ -1,0 +1,40 @@
+<!doctype html>
+<html ⚡ lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />    
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+
+{% include structured-data.html %}
+
+
+{% include amp-inline-css.html %}
+
+<noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      {% include header.html %}
+      {% if page.t.teaser %}
+        <div class="myteaser">
+                <span><h2>{{ page.t.teaser }}</h2></span>
+        </div>
+      {% endif %}  
+
+      {{ content }}
+
+    </div>
+      {% include footer.html %}
+    
+      {% assign lang = site.data.texts[page.lang] %}
+    <a class="btn-fixonbottom" href="tel:+34696264729">{{ lang.calltext }}</a>
+    
+
+  </body>
+</html>
