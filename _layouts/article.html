@@ -26,7 +26,11 @@ layout: default
 					{% include page-author.html %}
 					  <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 						<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-					      <img src="http://kite-mallorca.com/images/kite-mallorca_225x225.png"/>
+						  {% if page.amp == true %}
+					      <amp-img src="http://kite-mallorca.com/images/kite-mallorca_150x118.png" width="150" height="118"/>
+					      {% else %}
+					      <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="http://kite-mallorca.com/images/kite-mallorca_225x225.png"/>
+					      {% endif %}
 					      <meta itemprop="url" content="http://kite-mallorca.com/images/kite-mallorca_225x225.png">
 					      <meta itemprop="width" content="100%">
 					      <meta itemprop="height" content="100%"> 

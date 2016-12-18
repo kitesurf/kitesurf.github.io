@@ -22,8 +22,6 @@ function createVideo(){
   webcam.setAttribute('class', 'responsive');
   webcam.setAttribute('type', 'application/x-mpegURL');
   webcam.src = '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8';
-  webcam.style.height = '100%';
-  webcam.style.width = '100%';
 
 // variables for FF and Chrome
   var jsVideo = document.createElement('video');
@@ -48,7 +46,7 @@ if(webcam.canPlayType('application/vnd.apple.mpegurl') === "probably" || webcam.
 }
 else{
     //Actions like playing another video type
-     document.getElementById("livecam").appendChild(camiframe);
+//     document.getElementById("livecam").appendChild(camiframe);
      document.getElementById("devideo").appendChild(jsVideo);
 
 }  
@@ -62,7 +60,6 @@ else window.onload = createVideo;
 </script>
 <div>
 <object id="devideo" class="iframe-container iframe-container-16x9">
-  <object id="livecam" class="iframe-container iframe-container-16x9"></object>
 </object>
 <noscript><iframe src="http://livecam-pro.com/livecam055.html" style="border:none; overflow:hidden; height:100%; width:100%;" allowTransparency="true" allowFullscreen="true"></iframe></noscript>
 </div>    

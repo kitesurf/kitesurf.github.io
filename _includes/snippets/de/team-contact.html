@@ -1,4 +1,10 @@
-<p><a href="http://m.me/kitesurfmallorca"><img width="100%"src="{{ site.baseurl }}/images/gerhard-und-daniel.jpg" border="0" alt="Foto von Daniel und Gerhard" /></a></p>
-<h4 style="text-align: center;">Für mehr Infos:</h4>
-<h6 style="text-align: center;"><a href="{{ site.baseurl }}/de/kontaktiere-uns">Daniel &amp; Gerhard</a> <br /><a href="tel:+34696264729">+34-696-264729</a><br /></h6>
-<p style="text-align: center; unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</p>
+<p>Für Facebook Messenger auf Bild klicken<a href="http://m.me/kitesurfmallorca">
+{% if page.amp == true %}
+<amp-img class="centered" width="258" height="194" layout="responsive" src="{{ site.baseurl }}/images/gerhard-und-daniel.jpg" alt="Foto von Daniel und Gerhard" />
+{% else %}
+<img class="centered" width="100%"src="{{ site.baseurl }}/images/gerhard-und-daniel.jpg" alt="Foto von Daniel und Gerhard" />
+{% endif %}
+</a></p>
+<h4 class="centered">Für mehr Infos:</h4>
+<h6 class="centered"><a href="{{ site.baseurl }}/de/kontaktiere-uns">Daniel &amp; Gerhard</a> <br /><a href="tel:+34696264729">+34-696-264729</a><br /></h6>
+<p class="backforward">moc.acrollam-etik@maet</p>

@@ -26,6 +26,17 @@ grunt.initConfig({
       }]
     }
   },
+  // Remove unused CSS across multiple files and ignore specific selectors
+uncss: {
+  dist: {
+    options: {
+      ignore: ['#added_at_runtime', '.created_by_jQuery']
+    },
+    files: {
+      'dist/css/tidy.css': ['site/index.html']
+    }
+  }
+},
   copy: {
     dev: {
       files: [{
@@ -114,6 +125,7 @@ grunt.initConfig({
 });
 
   // Load tasks
+  grunt.loadNpmTasks('grunt-uncss');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');

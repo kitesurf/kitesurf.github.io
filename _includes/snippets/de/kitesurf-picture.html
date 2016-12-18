@@ -1,4 +1,5 @@
 <div>
+{% if page.amp != true %}
 <script type="text/javascript" language="JavaScript">
 <!--
 //
@@ -22,12 +23,18 @@ document.write(FirstPart + r + LastPart);
 printImage();
 -->
 </script>
-
+{% endif %}
 <!-- Fallback Content -->
 <noscript>
 	<div>
 	<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">{% if page.image.picnum %}<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img src="/images/flying-friends/s_kite-mallorca_005.jpg" itemprop="url" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >{% endif %}» mehr Bilder</a>
+		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">
+		{% if page.amp == true %}
+		<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="320" height="240" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >
+		{% else %}
+		<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >
+		{% endif %}
+		» mehr Bilder</a>
 		<meta itemprop="width" content="100%">
     	<meta itemprop="height" content="100%">
 	</figure>

@@ -1,68 +1,30 @@
 <!DOCTYPE html>
+{% if page.amp == true %}
+<html ⚡ lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />    
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+
+{% include structured-data.html %}
+
+
+{% include amp-inline-css.html %}
+
+</head>
+{% else %}
 <html>
   <head>
   {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
     <meta charset="utf-8">
-    {% include yandex_metrika.html %}
-       <!-- Custom Fonts -->    
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin' rel='stylesheet' type='text/css'>
-        <!-- Icons -->
-    <!-- 16x16 
-    <link rel="shortcut icon" href="/images/favicon.ico"> -->
-    <!-- 32x32 -->
-    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
-    <script type="application/ld+json">
-      {
-        "@context" : "http://schema.org",
-        "@type" : "Organization",
-        "@type" : "Service",
-        "@type" : "LocalBusiness",
-        "telephone" : "+34-696-264-729",
-        "priceRange": "$$",
-        "name" : "Kitesurf Mallorca SL",
-        "image" : "http://www.kite-mallorca.com/images/gerhard-und-daniel.jpg",
-        "url" : "http://www.kite-mallorca.com",
-        "sameAs" : [
-          "https://www.facebook.com/KitesurfMallorca",
-          "https://twitter.com/kite_mallorca",
-          "https://plus.google.com/108768305083116030970"
-        ],
-        "logo" : "http://www.kite-mallorca.com/images/kite-mallorca_225x177.png",        
-        "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Alcudia",
-        "addressCountry": "Spain",
-        "postalCode":"07400",
-        "streetAddress": "Calle del Greco 19"
-        },
-        "description": "Kitesurfing and Kiteboarding school for all levels, also equipement rental for practicing this watersport",
-        "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-22:00",
-         "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": "39.6224385",
-            "longitude": "2.966201"
-          },
-          "geoRadius": "60000"
-        },
-        "contactPoint" : {
-          "@type" : "ContactPoint",
-          "telephone" : "+34-696-264-729",
-          "contactType" : [
-              "customer service",
-              "reservations",
-              "sales"
-            ],
-          "availableLanguage" : [
-              "Spanish",
-              "German",
-              "Italian",
-              "English"
-            ]         
-        }
-      }
-    </script>
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
@@ -79,7 +41,7 @@
     <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
-
+    {% if page.amp == true %}<link rel="amphtml" href="{{ site.url }}/amp/{{ page.url }}" />{% endif %}
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
@@ -88,35 +50,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
 
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    {% include inline-css.html %}
 
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-      <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
-    <![endif]
-    <script src="{{ site.url }}/js/main.js" async></script> -->
-     <!-- Google Analytics async snippet: http://goo.gl/3FPNDx -->
+    {% include yandex_metrika.html %}
+
+<link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+
+    {% include structured-data.html %}
+
+      <!-- Google Analytics -->
       <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-
-       <!-- Create the GA tracker before doing any logging -->
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-20548983-1', 'auto');
-       ga('send', 'pageview');
-
-       <!-- Track uncaught errors via Google Analytics -->
-       window.onerror = function(message, url, line, col) {
-       var desc = message + ' (line: ' + line + ', url: ' + url + ', col: ' + col + ')';
-       ga('send', 'exception', {
-       exDescription: 'window.onerror: ' + desc,
-       exFatal: false
-       });
-       };
+      ga('send', 'pageview');
       </script>
+
+      <script async src='https://www.google-analytics.com/analytics.js'></script>
+      <!-- End Google Analytics -->
       <!-- background images -->
       <script>
         window.addEventListener("load", function(event) {
@@ -130,12 +80,12 @@
                 background-image: url({{ site.url}}/images/{{ page.image.background }});
               }
           </style>
-      </noscript> 
-  </head>
+      </noscript>
+   </head>
+{% endif %}
   <body>
     <div id="page-wrapper">
       {% include header.html %}
-      {% include browser-upgrade.html %}
       {% if page.t.teaser %}
         <div class="myteaser">
                 <span><h2>{{ page.t.teaser }}</h2></span>
@@ -149,15 +99,8 @@
     
       {% assign lang = site.data.texts[page.lang] %}
     <a class="btn-fixonbottom" href="tel:+34696264729">{{ lang.calltext }}</a>
-
-
-<!--    
-    <script src="{{ site.url }}/js/main.js"></script>
-    <script src="{{ site.url }}/js/animenu.js"></script> 
-    <script src="{{ site.url }}/js/picturefill.js" async></script>
-    <script src="{{ site.url }}/js/lazyload.min.js" async></script> -->
     
-    {% if page.toc == true %}
+    {% if page.amp == false and page.toc == true %}
     <script type="text/javascript">
       $('.toc').toc({
         'selectors': 'h2', //elements to use as headings
@@ -179,20 +122,7 @@
       });
     </script>
     {% endif %}
-    <!-- defer-images 
-    <script>
-    ;(function($){
-      function loadBG(){
-          document.getElementByClassName("cb-slideshow").style.backgroundImage="url(../../images/*.jpg)";
-      }
-      window.onload=loadBG();
-    });
-    </script> -->
-     <!-- Load GA after the `window.ga` is initialized -->
-    <!--<script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>-->
-    <script src="{{ site.url }}/js/animenu.js" async></script>
-    <script src="https://apis.google.com/js/plusone.js" async></script>
-    <script async src="//www.google-analytics.com/analytics.js" async></script>
+
   </body>
 
 </html>

@@ -3,7 +3,11 @@
 {% endif %}
 
 <div class="author-image">
-	<img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+	{% if page.amp == true %}
+	<amp-img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}" width="80" height="80">
+	{% else %}
+	<img class="b-lazy" data-src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+	{% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
 	<h3 class="author-name" >Written by {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
