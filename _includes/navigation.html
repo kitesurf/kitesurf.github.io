@@ -1,8 +1,8 @@
     <!-- Navigation -->
-<div class="animenu__box clearfix">
+<div >
         <div>
             {% if page.amp == true %}
-            <a href="{{site.baseurl }}/amp/{{page.lang }}"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_225x177.png" alt="Kite Mallorca Logo" height="177" width="225" title="Kite Mallorca home"></a>
+            <a href="{{site.baseurl }}/amp/{{page.lang }}"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></a>
             {% else %}
             <a href="{{site.baseurl }}/amp/{{page.lang }}"><img class="logo" src="{{site.baseurl}}/images/kite-mallorca_225x177.png" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
             {% endif %}
@@ -11,7 +11,7 @@
             {% if page.amp == true %}
             <div class="navtop">
             <ul>
-              <li><span class="hidden-desktop">&#9776;</span> 
+              <li><span>&#9776;</span> 
                 <ul>
                   <li id="header">Menu</li>
                   <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a></li>
