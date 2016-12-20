@@ -1,131 +1,158 @@
+/*
+ * grunt-uncss
+ * https://github.com/addyosmani/grunt-uncss
+ *
+ * Copyright (c) 2016 Addy Osmani
+ * Licensed under the MIT license.
+ */
+
 'use strict';
+
+/* jshint indent: 2 */
+
 module.exports = function(grunt) {
 
-grunt.initConfig({
-  pkg: grunt.file.readJSON('package.json'),
-    responsive_images: {
-      dev: {
-        options: {},
-        sizes: [{
-          width: 320,
-          height: 240
-        },{
-          name: 'large',
-          width: 640
-        },{
-          name: "large",
-          width: 1024,
-          suffix: "_x2",
-          quality: 0.6
-        }],
+  require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
+  require('time-grunt')(grunt);
+
+  // Project configuration.
+  grunt.initConfig({
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        'tasks/*.js',
+        '<%= simplemocha.test.src %>'
+      ]
+    },
+
+    // Before generating any new files, remove any previously-created files.
+    clean: {
+      tests: ['tmp', 'dist', 'tests/output.css']
+    },
+
+    uncss: {
+      dist: {
+        src: ['_site/de/flying-friends/index.html'],
+        dest: '_dist/css/gallery.css'
+      },
+      test: {
+        files: {
+          'tests/output.css': 'tests/index.html'
+        },
+        options: {
+          report: 'gzip'
+        }
+      },
+      testMany: {
+        files: {
+          'tests/output.css': 'tests/index.html',
+          'tests/output2.css': 'tests/index2.html',
+        },
+        options: {
+          report: 'gzip'
+        }
+      },
+      testUncssrc: {
+        files: {
+          'tests/output.css': 'tests/index.html'
+        },
+        options: {
+          uncssrc: 'tests/.uncssrc'
+        }
+      },
+      testUrl: {
+        files: [{
+          nonull: true,
+          src: ['http://getbootstrap.com/examples/jumbotron/'],
+          dest: 'tests/outputUrl.css'
+        }]
+      }
+    },
+
+    processhtml: {
+      dist: {
+        files: {
+          'dist/about.html': 'tests/app/about.html',
+          'dist/contact.html': 'tests/app/contact.html',
+          'dist/index.html': 'tests/app/index.html'
+        }
+      }
+    },
+
+    cssmin: {
+      dist: {
+        options: {
+          compatibility: 'ie8',
+          keepSpecialComments: 0
+        },
+        files: {
+          '<%= uncss.dist.dest %>': '<%= uncss.dist.dest %>'
+        }
+      }
+    },
+
+    copy: {
+      dist: {
         files: [{
           expand: true,
-          cwd: 'images/',
-          src: '{,*/}*.{png,jpg,jpeg}',
-          dest: '_dist/'
-      }]
-    }
-  },
-  copy: {
-    dev: {
-      files: [{
-        expand: true,
-        src: ['**/*', '!images/**/*.*'],
-        cwd: 'src/',
-        dest: 'dist/'
-      }]
-    }
-  },
-  jshint: {
-    options: {
-      jshintrc: '.jshintrc'
-    },
-    all: [
-      'Gruntfile.js',
-      'js/*.js',
-      '!js/main.js'
-    ]
-  },
-  watch: {
-    js: {
-      files: [
-        '<%= jshint.all %>'
-      ],
-      tasks: ['jshint', 'uglify'],
-      options: {
-        livereload: true
+          cwd: 'tests/app/',
+          src: ['img/**', 'js/**', '*.png', '*.xml', '*.txt', '*.ico', '!*.html'],
+          dest: 'dist/'
+        }]
       }
     },
-  },
-  uglify: {
-    dist: {
-      options: {
-        banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */',
-        compress: true,
-        beautify: false,
-        mangle: false
-      },
-      files: {
-        'js/main.js': [
-          'js/plugins/*.js',
-          'js/_*.js'
-        ]
+
+    // Unit tests.
+    simplemocha: {
+      test: {
+        src: 'tests/selectors.js'
       }
-    }
-  },
-  imagemin: {
-    dist: {
-      options: {
-        optimizationLevel: 7,
-        progressive: true
-      },
-      files: [{
-        expand: true,
-        cwd: 'images/',
-        src: '{,*/}*.{png,jpg,jpeg}',
-        dest: 'images/'
-      }]
-    }
-  },
-  imgcompress: {
-    dist: {
-      options: {
-        optimizationLevel: 7,
-        progressive: true
-      },
-      files: [{
-        expand: true,
-        cwd: 'images/',
-        src: '{,*/}*.{png,jpg,jpeg}',
-        dest: 'images/'
-      }]
-    }
-  },
-  svgmin: {
-    dist: {
-      files: [{
-        expand: true,
-        cwd: 'images/',
-        src: '{,*/}*.svg',
-        dest: 'images/'
-      }]
-    }
-  },
-});
+    },
 
-  // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-newer');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
-  grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-imgcompress');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-responsive-images');
+    connect: {
+      server: {
+        options: {
+          base: 'tests',
+          port: 3000
+        }
+      }
+    },
 
-  // Register tasks
-  grunt.registerTask('default', ['responsive_images']);
-  grunt.registerTask('scripts', ['watch', 'uglify']);
-  grunt.registerTask('images', ['newer:imgcompress', 'newer:svgmin']);
+    watch: {
+      files: ['Gruntfile.js', 'tasks/**/*.js', 'test/**/*.*'],
+      tasks: ['jshint', 'test']
+    }
+
+  });
+
+  // Actually load this plugin's task(s).
+  grunt.loadTasks('tasks');
+
+  grunt.registerTask('test', [
+    'jshint',
+    'uncss:test',
+    'uncss:testMany',
+    'uncss:testUncssrc',
+    'uncss:testUrl',
+    'simplemocha'
+  ]);
+
+  grunt.registerTask('dev', [
+    'test',
+    'connect',
+    'watch'
+  ]);
+
+  // By default, lint and run all tests.
+  grunt.registerTask('default', [
+    'clean',
+    'copy',
+    'uncss:dist',
+    'cssmin',
+    'processhtml'
+  ]);
+
 };

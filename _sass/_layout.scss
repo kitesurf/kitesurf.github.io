@@ -789,3 +789,37 @@ iframe.responsive {
   height: 100% !important;
 }
 
+/* fixed top menu has a 40px height*/
+.navtop{height:30px;z-index:990;}
+
+/* remove bullets and add transition effect */
+.navtop ul{list-style-type: none; background-color: rgba(255,255,255,.6); margin:0;padding:0;transition: transform .75s ease-in-out;  -webkit-transition: transform .75s ease-in-out;}
+
+/* fixed menu button */
+.navtop > ul >li{position: fixed;right:36px;top:0px;z-index:991;}
+
+.navtop>ul>li>span{position: absolute;
+	font-weight:700;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;}
+
+/* initial state: hide the menu */
+.navtop > ul > li > ul{position:fixed;top:0;right:-240px;width:200px;bottom:0;z-index:990;padding-top:36px;}
+
+/* Hover state, the menu button has been clicked*/
+
+/* scroll the menu into the page */
+.navtop > ul > li:hover > ul{transform: translate3d( -200px, 0, 0 );-webkit-transform: translate3d( -200px, 0, 0 );}
+
+/* div on top of menu to simulate the close button, delay animation for .75s*/
+#closemenu{position:fixed;top:-40px;left:0;right:0;height:40px; z-index:999; padding-left:210px;font-size:36px;
+        transition: transform .05s ease-in-out;-webkit-transition: transform .05s ease-in-out; -webkit-transition-delay: 0.70s;transition-delay: 0.70s;
+      }
+/* the the close menu button, uses ~ selector */
+.navtop ul:hover  ~ #closemenu{transform: translate3d( 0, 40px, 0 );-webkit-transform: translate3d( 0, 40px, 0 )}
+
+/* styling */
+.navtop a{color: #4A8DDD;}
+.navtop > ul > li > ul > li{font-size:1rem;padding:4px 0 4px 4px;}
+.navtop > ul > li > ul > li >a{display:block; text-decoration:none;padding:4px 0;}
