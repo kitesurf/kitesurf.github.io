@@ -1,5 +1,5 @@
     <!-- Navigation -->
-<div >
+<div class="animenu__box">
         <div>
             {% if page.amp == true %}
             <a href="{{site.baseurl }}/amp/{{page.lang }}"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></a>
@@ -11,9 +11,12 @@
             {% if page.amp == true %}
             <div class="navtop">
             <ul>
-              <li><span>&#9776;</span> 
+              <li>
+                <label for="open">
+                  <span>&#9776;</span>
+                </label> 
                 <ul>
-                  <li id="header">Menu</li>
+                  <li id="menuname">Menu</li>
                   <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a></li>
                   <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" >{{ page.t.menutxt2 }}</a></li>
                   <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a></li>
@@ -26,25 +29,100 @@
               </li>
             </ul>
             </div>
-            {% else %}
+            {% else %}            
+            <div class="navtop">
             <div id="closemenu">&#215;</div>
-            <label for="open" onclick="">
-                <span class="hidden-desktop">&#9776;</span>
-            </label>
-            <input type="checkbox" name="" id="open">
-            <nav>
-                <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a>
-                <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" >{{ page.t.menutxt2 }}</a>
-                <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a>
-                <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a>
-                <a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a>
+            <ul>
+              <li>
+                <label for="open">
+                    <span>&#9776;</span>
+                </label>
+                <input type="checkbox" name="" id="open">
+                <ul class="animenu__nav">
+                  <li id="menuname">Menu</li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" >{{ page.t.menutxt2 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
+                  <li><div class="animenu__flag">                
+                              <img src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
+                                  <map name="Map" id="Map">
+                                      <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
+                                      <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
+                                      <area alt="English" title="English" href="{{site.baseurl }}/{{ page.en-url }}" shape="rect" coords="126,3,149,20" />
+                                  </map>
+                      </div></li>
+                </ul>
+              </li>
+            </ul>
+            </div>
+            {% endif %}
+        </div>
+</div>
+<!--        {% if page.amp != true %}
+        <nav class="animenu__nav">                
                 <img src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
                     <map name="Map" id="Map">
                         <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
                         <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
                         <area alt="English" title="English" href="{{site.baseurl }}/{{ page.en-url }}" shape="rect" coords="126,3,149,20" />
                     </map>
-            </nav>
-            {% endif %}
-        </div>
+        </nav>
+        {% endif %}
+        <div class="navtop">
+            <ul>
+              <li>
+              <div id="closemenu">&#215;</div>
+              <label>
+              <span>&#9776;</span>
+              </label>
+              <nav class="animenu__nav">
+                <ul>
+                  <li id="header">Menu</li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" >{{ page.t.menutxt2 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
+                  <li>
+                    <img src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
+                    <map name="Map" id="Map">
+                        <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
+                        <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
+                        <area alt="English" title="English" href="{{site.baseurl }}/{{ page.en-url }}" shape="rect" coords="126,3,149,20" />
+                    </map>  
+                  </li>
+                </ul>
+                </nav>
+              </li>
+            </ul>
+            </div>    
+       
 </div>
+<nav class=animenu>
+  <div class=animenu__box>
+    <div>
+      <a href=/en ><img class=logo src=/images/kite-mallorca_225x177.png alt="Kite Mallorca Logo"></a>
+    </div>
+    <div>
+      <label class=animenu__toggle>
+        <span>&#9776;</span>
+      </label>
+      <ul class=animenu__nav>
+        <li><a href=/en/kitesurfing-lessons title="kitesurfing lessons" data-pjax=page-wrapper>kitesurfing lessons</a></li>
+        <li><a href=/en/renting title=rental data-pjax=page-wrapper>rental</a></li>
+        <li><a href=/en/wind title=wind data-pjax=page-wrapper>wind</a></li>
+        <li><a href=/en/contact title=contact data-pjax=page-wrapper>contact</a></li>
+        <li><a href=/en/flying-friends title="pictures & videos" data-pjax=page-wrapper>pictures & videos</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class=animenu__flag>
+        <li><a href=/de title=Deutsch><img class=img-responsive src=/images/flags/germany_24.png alt=Deutsch></a></li>
+        <li><a href=/es title=Español><img class=img-responsive src=/images/flags/spain_24.png alt=Español></a></li>
+        <li><a href=/en title=English><img class=img-responsive src=/images/flags/uk_24.png alt=English></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
