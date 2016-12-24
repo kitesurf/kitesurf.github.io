@@ -130,9 +130,9 @@
 		</div><!-- /.page-feature -->
 		{% endif %}
 		{% include breadcrumbs.html %}
-		<div class="page-title">
+<!--		<div class="page-title">
 			<h1>{{ page.subtitle }}</h1>
-		</div>
+		</div> -->
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
@@ -160,13 +160,6 @@
     
       {% assign lang = site.data.texts[page.lang] %}
     <a class="btn-fixonbottom" href="tel:+34696264729">{{ lang.calltext }}</a>
-
-    <script src="{{ site.url }}/js/animenu.js" async></script> 
-
-<!--    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="{{ site.url }}/js/main.js"></script>
-    <script src="{{ site.url }}/js/picturefill.js" async></script>
-    <script src="{{ site.url }}/js/lazyload.min.js" async></script> -->
     
     {% if page.toc == true %}
     <script type="text/javascript">
@@ -190,17 +183,7 @@
       });
     </script>
     {% endif %}
-    <!-- defer-images 
-    <script>
-    ;(function($){
-      function loadBG(){
-          document.getElementByClassName("cb-slideshow").style.backgroundImage="url(../../images/*.jpg)";
-      }
-      window.onload=loadBG();
-    });
-    </script> -->
-     <!-- Load GA after the `window.ga` is initialized 
-    <script async src="//www.google-analytics.com/analytics.js"></script> -->
+
     <section>
 {% include gallery-overlay.html %}
 </section>
