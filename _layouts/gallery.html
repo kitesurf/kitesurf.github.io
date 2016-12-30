@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
@@ -107,6 +108,7 @@
 <!--                <div class="space"></div> -->
         </div>
       {% endif %}  
+{% if page.amp != true %}      
 <!-- Core CSS file -->
 <link rel="stylesheet" href="{{ site.url }}/css/photoswipe.css"> 
 
@@ -120,7 +122,7 @@
 
 <!-- UI JS file -->
 <script src="{{ site.url }}/js/photoswipe-ui-default.min.js" async></script> 
-
+{% endif %}
 <div id="main" role="main">	
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.image.feature %}

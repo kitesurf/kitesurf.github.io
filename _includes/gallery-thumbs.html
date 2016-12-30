@@ -1,3 +1,14 @@
+{% if page.amp == true %}
+    <div class="noscriptmsg">
+        {% for image in site.data[page.dataFile].images %}
+        <div class="thumb_rows">
+            <a href="#image-{{ forloop.index }}">
+                <amp-img layout="responsive" src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" height="100" width="100" title="{{ image.title }}" /></amp-img>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
 <noscript>
     <style type="text/css">
         .pagecontainer {display:none;}
@@ -21,3 +32,4 @@
         </span>
         {% endfor %}
 </div>
+{% endif %}
