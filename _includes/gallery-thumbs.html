@@ -1,13 +1,16 @@
 {% if page.amp == true %}
-    <div class="noscriptmsg">
+
         {% for image in site.data[page.dataFile].images %}
-        <div class="thumb_rows">
-            <a href="#image-{{ forloop.index }}">
-                <amp-img layout="responsive" src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" height="100" width="100" title="{{ image.title }}" /></amp-img>
-            </a>
-        </div>
+        <figure class="thumb_rows">
+            <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" alt="{{ image.alt }}" height="480" width="640" title="{{ image.title }}" ></amp-img>
+
+          <figcaption class="nodisplay">
+                <h3>{{ image.name }}</h3>
+                <p>{{ image.description }}</p>
+        </figcaption>
+        </figure>
         {% endfor %}
-    </div>
+
 {% else %}
 <noscript>
     <style type="text/css">

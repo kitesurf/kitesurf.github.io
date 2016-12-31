@@ -1,9 +1,9 @@
 {% if page.amp == true %}
-    <section class="noscriptmsg">
+<!--    <section>
 
         {% for image in site.data[page.dataFile].images %}      
         <div class="lb-overlay" id="image-{{ forloop.index }}">
-                    <amp-img layout="responsive" src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" height="480" width="640" alt={{ image.alt }} /></amp-img>
+                    <amp-img src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" height="480" width="640" alt={{ image.alt }} ></amp-img>
             <div>
                 <h3>{{ image.name }}</h3>
                 <p>{{ image.description }}</p>
@@ -22,6 +22,7 @@
         </div>
         {% endfor %}
     </section>
+-->
 {% else %}
 <noscript>
     <style type="text/css">

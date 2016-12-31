@@ -48,7 +48,7 @@ a:active {
   outline: 0;
 }
 
-img {
+amp-img {
   max-width: 100%;
   width: auto;
   height: auto;
@@ -1253,218 +1253,57 @@ x:-o-prefocus {
 }
 
 /* pswp__ui--one-slide class is added when there is just one item in gallery */
-.lb-album{
-  width: 900px;
-  margin: 0 auto;
-}
-.lb-album li{
-  float: left;
-  margin: 5px;
-  position: relative;
-}
-.lb-album a,
-.lb-album a img{
-  display: block;
-}
-.lb-album a{
-  width: 100%;
-  padding: 0.8em;
-  background: #f1d2c2;
-  -webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
-  -moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
-  box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158,111,86,0.3) inset;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px 4px 4px 4px;
-}
-.lb-album li > a span{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 10px;
-  left: 10px;
-  text-align: center;
-  line-height: 150px;
-  color: rgba(27,54,81,0.8);
-  text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-  font-size: 24px;
-  opacity: 0;
-  filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-  background: rgb(255,255,255);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(255,255,255,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
-  background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(255,255,255,1) 100%);
-  -webkit-transition: opacity 0.3s linear;
-  -moz-transition: opacity 0.3s linear;
-  -o-transition: opacity 0.3s linear;
-  -ms-transition: opacity 0.3s linear;
-  transition: opacity 0.3s linear;
-}
-.lb-album li > a:hover span{
-  opacity: 1;
-  filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
-}
-.lb-overlay{
-  width: 0px;
-  height: 0px;
-  position: fixed;
-  overflow: hidden;
-  left: 0px;
-  top: 0px;
-  padding: 0px;
-  z-index: 99;
-  text-align: center;
-  background: rgb(255,255,255);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.86)), color-stop(100%,rgba(255,255,255,1)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
-  background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.86) 0%,rgba(255,255,255,1) 100%);
-}
-.lb-overlay > div{
-  position: relative;
-  color: rgba(27,54,81,0.8);
-  width: 80%;
-  height: 80px;
-  margin: 40px auto 0px auto;
-  text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
-}
-.lb-overlay div h3,
-.lb-overlay div p{
-  padding: 0px 20px;
-  width: 40%;
-  height: 60px;
-}
-.lb-overlay div h3{
-  font-size: 36px;
-  float: left;
-  text-align: right;
-  border-right: 1px solid rgba(27,54,81,0.4);
-}
-.lb-overlay div h3 span,
-.lb-overlay div p{
-  @include font-size(16);
-  font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-  font-style: italic;
-}
-.lb-overlay div h3 span{
-  display: block;
-  line-height: 6px;
-}
-.lb-overlay div p{
-  font-size: 14px;
-  text-align: left;
-  float: left;
-  width: 40%;
-}
-.lb-overlay a.lb-close{
-  background: rgba(27,54,81,0.8);
-  z-index: 1001;
-  color: #fff;
-  position: absolute;
-  top: 43px;
-  left: 50%;
-  font-size: 15px;
-  line-height: 26px;
-  text-align: center;
-  width: 50px;
-  height: 23px;
-  overflow: hidden;
-  margin-left: -25px;
-  opacity: 0;
-  filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-  -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-}
-.lb-overlay img{
-  /* height: 100%; For Opera max-height does not seem to work */
-  max-height: 100%;
-  position: relative;
-  opacity: 0;
-  filter: alpha(opacity=0); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
-  -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-  -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
-  -webkit-transition: opacity 0.8s linear;
-  -moz-transition: opacity 0.8s linear;
-  -o-transition: opacity 0.8s linear;
-  -ms-transition: opacity 0.8s linear;
-  transition: opacity 0.8s linear;
-}
-.lb-prev, .lb-next{
-  text-indent: -9000px;
-  position: absolute;
-  top: -32px;
-  width: 24px;
-  height: 25px;
-  left: 50%;
-  opacity: 0.8;
-  filter: alpha(opacity=80); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /*IE8*/
-}
-.lb-prev:hover, .lb-next:hover{
-  opacity: 1;
-  filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
-}
-.lb-prev{
-  margin-left: -30px;
-  background: transparent url(../../../images/arrows.png) no-repeat top left;
-}
-.lb-next{
-  margin-left: 6px;
-  background: transparent url(../../../images/arrows.png) no-repeat top right;
-}
-.lb-overlay:target {
-  width: auto;
+
+/* ab hier */
+.lb-album li>a span,.lb-overlay>div{color:rgba(27,54,81,.8);text-shadow:0 1px 1px rgba(255,255,255,.6)}
+.lb-album li>a span,.lb-overlay{text-align:center;background:#fff}
+.lb-album{width:900px;margin:0 auto}
+.lb-album li{float:left;margin:5px;position:relative}
+.lb-album a,.lb-album a amp-img img{display:block}
+.lb-album a{width:100%;padding:.8em;background:#f1d2c2;box-shadow:1px 1px 2px #fff,1px 1px 2px rgba(158,111,86,.3) inset;border-radius:4px}
+.lb-album li>a span,.lb-overlay{text-align:center;background:#fff}
+.lb-album li>a span{position:absolute;width:150px;height:150px;top:10px;left:10px;line-height:150px;font-size:24px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";background:radial-gradient(center,ellipse cover,rgba(255,255,255,.56) 0,#fff 100%);transition:opacity .3s linear}
+.lb-album li>a:hover span{opacity:1;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"}
+.lb-overlay{width:0;height:0;position:fixed;overflow:hidden;left:0;top:0;padding:0;z-index:99;background:radial-gradient(center,ellipse cover,rgba(255,255,255,.86) 0,#fff 100%)}
+.lb-overlay>div{position:relative;width:80%;height:80px;margin:40px auto 0}
+.lb-overlay div h3,.lb-overlay div p{padding:0 20px;width:40%;height:60px}
+.lb-overlay div h3{font-size:36px;float:left;text-align:right;border-right:1px solid rgba(27,54,81,.4)}
+.lb-overlay div h3 span,.lb-overlay div p{font-size:16px;font-size:1rem;line-height:1.5;margin-bottom:1.5rem;font-family:Constantia,Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;font-style:italic}
+.lb-overlay div h3 span{display:block;line-height:6px}
+.lb-overlay div p{font-size:14px;text-align:left;float:left;width:40%}
+.lb-overlay a.lb-close{background:rgba(27,54,81,.8);z-index:1001;color:#fff;position:absolute;top:43px;left:50%;font-size:15px;line-height:26px;text-align:center;width:50px;height:23px;overflow:hidden;margin-left:-25px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";box-shadow:0 1px 2px rgba(0,0,0,.3)}
+.lb-overlay amp-img img{max-height:100%;position:relative;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";box-shadow:0 2px 7px rgba(0,0,0,.2);transition:opacity .8s linear}
+.lb-next,.lb-prev{text-indent:-9000px;position:absolute;top:-32px;width:24px;height:25px;left:50%;opacity:.8;filter:alpha(opacity=80);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"}
+.lb-next:hover,.lb-prev:hover{opacity:1;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"}
+.lb-prev{margin-left:-30px;background:url(../../../images/arrows.png) top left no-repeat}
+.lb-next{margin-left:6px;background:url(../../../images/arrows.png) top right no-repeat}
+.lb-overlay:target{width:auto;height:auto;bottom:0;right:0;padding:80px 100px 120px}
+.lb-overlay:target a.lb-close,.lb-overlay:target amp-img img{opacity:1;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"}
+.lb-overlay amp-img img,x:-o-prefocus{height:100%}
+.-amp-fill-content {
   height: auto;
-  bottom: 0px;
-  right: 0px;
-  padding: 80px 100px 120px 100px;
-}
-.lb-overlay:target amp-img > img,
-.lb-overlay:target a.lb-close{
-  opacity: 1;
-  filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
-}
-/* 
-  100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
-  http://bricss.net/post/11230266445/css-hack-to-target-opera 
-*/
-x:-o-prefocus, .lb-overlay > amp-img > img {
-    height: 100%;
 }
 
-    .carousel1, .carousel2 {
-      background: #eee;
-      margin: 16px 0;
-    }
-    .carousel1 .slide > amp-img > img{
-      object-fit: contain;
-    }
-    .carousel2 .slide > amp-img > img{
-      object-fit: contain;
-    }
-    .carousel2 .caption {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      padding: 8px;
-      background: rgba(0, 0, 0, 0.6);
-      color: #ddd;
-      font-size: smaller;
-      max-height: 30%;
-    }
+
+.carousel-wrapper{position:relative;width: 100%;height:30rem;}.carousel-wrapper .carousel-item{position:absolute;top:0;bottom:0;left:0;right:0;padding:0 50px;opacity:0;transition:all .5s ease-in-out}.carousel-wrapper .carousel-item .arrow{position:absolute;top:0;display:block;width:50px;height:100%;-webkit-tap-highlight-color:transparent;background:url(../../../images/carousel-arrow-dark.png) 50% 50%/20px no-repeat}.carousel-wrapper .carousel-item .arrow.arrow-prev{left:0}.carousel-wrapper .carousel-item .arrow.arrow-next{right:0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}@media (max-width:480px){.carousel-wrapper .carousel-item .arrow{width:30px;background-size:10px;background-position:0 50%}.carousel-wrapper .carousel-item{padding:0 30px}}
+.carousel-wrapper [id^=target-item]{display:none}
+.carousel-wrapper .item-1{z-index:2;opacity:1}
+.carousel-wrapper :target~.item-1{opacity:0}
+.carousel-wrapper #target-item-1:target~.item-1{opacity:1}
+.carousel-wrapper #target-item-2:target~.item-2,.carousel-wrapper #target-item-3:target~.item-3{z-index:3;opacity:1}
+.testim-title p{margin-top:-10px;line-height:1}.review{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:flex-start;-ms-align-items:flex-start;align-items:flex-start}.review-body p{font-size:14px;font-family:Constantia,Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;font-style:italic;hyphens:auto;text-align:justify}
+
+#lightbox1-caption h3,#lightbox1-caption p{padding:0 2px;width:80%}
+#lightbox1-caption h3{font-size:36px;float:right;}
+#lightbox1-caption h3 span,#lightbox1-caption p{font-size:16px;font-size:1rem;line-height:1.5;margin-bottom:3rem;font-family:Constantia,Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;font-style:italic}
+#lightbox1-caption h3 span{display:block;line-height:6px}
+#lightbox1-caption p{font-size:14px;text-align:right;float:right;width:80%}
+figure {
+  margin: 0;
+}
+.nodisplay>h3,.nodisplay>p{
+  display: none;
+}
+
 </style>
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>

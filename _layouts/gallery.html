@@ -5,10 +5,7 @@
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
-    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
-    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
@@ -98,6 +95,7 @@
 {% endif %}
 
   <body>
+    {% if page.amp == true %}<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>{% endif %}
     {% include header.html %}
     <div id="page-wrapper">
       {% include browser-upgrade.html %}
