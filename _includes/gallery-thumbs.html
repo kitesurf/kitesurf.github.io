@@ -1,38 +1,39 @@
 {% if page.amp == true %}
-
+    <amp-carousel class="carousel2" layout=responsive height=480 width=640 type=slides>
         {% for image in site.data[page.dataFile].images %}
-        <figure class="thumb_rows">
-            <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" alt="{{ image.alt }}" height="480" width="640" title="{{ image.title }}" ></amp-img>
-
-          <figcaption class="nodisplay">
-                <h3>{{ image.name }}</h3>
+        <figure class="slide">
+            <amp-img on="tap:lightbox1" role="button" tabindex="0" layout="responsive" aria-describedby="nodisplay" src="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" alt="{{ image.alt }}" height="480" width="640" title="{{ image.title }}" ></amp-img>
+            <figcaption id="nodisplay">
+                <h4>{{ image.name }}</h4>
                 <p>{{ image.description }}</p>
-        </figcaption>
+            </figcaption>
         </figure>
         {% endfor %}
-
+    </amp-carousel>
+    {% assign lang = site.data.texts[page.lang] %}
+    <h6>{{ lang.slide-message }}</h6>
 {% else %}
-<noscript>
-    <style type="text/css">
-        .pagecontainer {display:none;}
-    </style>
-    <div class="noscriptmsg">
-        {% for image in site.data[page.dataFile].images %}
-        <a href="#image-{{ forloop.index }}">
-            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}" />
-        </a>
-        {% endfor %}
-    </div>
-</noscript>
-<div class="gallery" id="bLazy">
+    <noscript>
+        <style type="text/css">
+            .pagecontainer {display:none;}
+        </style>
+        <div class="noscriptmsg">
+            {% for image in site.data[page.dataFile].images %}
+            <a href="#image-{{ forloop.index }}">
+                <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}" />
+            </a>
+            {% endfor %}
+        </div>
+    </noscript>
+    <div class="gallery" id="bLazy">
 
-        {% for image in site.data[page.dataFile].images %}        
-        <span class="my-simple-gallery">
-        <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
-        <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
-        </a>
-                <figcaption itemprop="caption description">{{ image.description }}</figcaption>
-        </span>
-        {% endfor %}
-</div>
+            {% for image in site.data[page.dataFile].images %}        
+            <span class="my-simple-gallery">
+            <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
+            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
+            </a>
+                    <figcaption itemprop="caption description">{{ image.description }}</figcaption>
+            </span>
+            {% endfor %}
+    </div>
 {% endif %}
