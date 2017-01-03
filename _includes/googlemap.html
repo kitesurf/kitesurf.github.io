@@ -1,4 +1,4 @@
-<!--
+
 <script type="text/javascript">
 //doesn't block the load event
 function mapIframe(){
@@ -18,9 +18,10 @@ else if (window.attachEvent)
 window.attachEvent("onload", mapIframe);
 else window.onload = mapIframe;
 </script>
-<div id="mapframe"><noscript><iframe src= frameborder="0" style="border:none; overflow:hidden; height:450px; width:562px;" allowTransparency="true"></iframe></noscript></div>
--->
-
-<div class="iframe-container iframe-container-google-maps">
-		  <iframe class="responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6125.452358888931!2d3.101255!3d39.857969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12962ca9e43656f9%3A0xdec811c72691d9b6!2sKitesurf+Mallorca+SL+-+International+Kitesurf+Center!5e0!3m2!1ses!2s!4v1406555738216" allowTransparency="true" allowfullscreen style="border: none;"></iframe>
+<div id="mapframe" class="iframe-container iframe-container-google-maps">
+	<noscript>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6125.452358888931!2d3.101255!3d39.857969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12962ca9e43656f9%3A0xdec811c72691d9b6!2sKitesurf+Mallorca+SL+-+International+Kitesurf+Center!5e0!3m2!1ses!2s!4v1406555738216" frameborder="0" style="border:none; overflow:hidden; height:450px; width:562px;" allowTransparency="true">
+			
+		</iframe>
+	</noscript>
 </div>
