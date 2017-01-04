@@ -63,6 +63,4 @@ From those you can take the public bus or just walk to our spot.
 
 For more information please fill out the [contact form]({{ site.url }}/en/contact-us "Open the contact form to write us without the need of a mail program") or just call us!
 
-<h6 style='text-align: center;'><a href="{{ site.url }}/en/contact-us" title="Open the contact form to write us without a mail program">Daniel & Gerhard</a> +34-696-264729</h6>
-
-![Gerhard and Daniel on the rescueboat]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard and Daniel on the rescueboat")
+{% include daniel_und_gerhard.html %}

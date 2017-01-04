@@ -9,10 +9,12 @@ author: daniel
 description: "Bei Kite-Mallorca werden alle Kunden bevorzugt behandelt. Dein Anliegen wird so schnell wie möglich erledigt"
 image: 
   background: 1.jpg
-  feature: "flying-friends/l_kite-mallorca_038.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
   picnum: 38
+  feature: "flying-friends/l_kite-mallorca_038.jpg"
+  width: "640"
+  height: "480"     
 snippets: null
 lang: de
 "en-url": en/thanks/
@@ -34,7 +36,8 @@ t:
   menutxt6: Datenschutz
   link7: "kontaktiere-uns/"
   menutxt7: Kontaktiere uns
-  teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:   +34 696 264 729."
+  teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:  
+  +34 696 264 729."
 published: true
 ---
 

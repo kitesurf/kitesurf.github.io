@@ -1,4 +1,5 @@
 <div>
+{% if page.amp != true %}
 <script type="text/javascript" language="JavaScript">
 <!--
 //
@@ -25,13 +26,19 @@ printImage();
 
 <!-- Fallback Content -->
 <noscript>
+{% endif %}
 	<div>
 	<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-		<h4>Impressions</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img src="/images/flying-friends/s_kite-mallorca_005.jpg" itemprop="url" width="100%" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" >{% endif %}» More pictures</a>
+		<h4>Impressions</h4>
+		{% if page.amp == true %}
+		<a href="{{site.baseurl }}/amp/{{page.lang }}/flying-friends">{% if page.image.picnum %}<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="320" height="240" layout="responsive" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" ></amp-img>{% else %}<amp-img src="/images/flying-friends/m_kite-mallorca_005.jpg" itemprop="url" width="320" height="240" layout="responsive" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" ></amp-img>{% endif %}» More pictures</a>
+		{% else %}
+		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" itemprop="url" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img src="/images/flying-friends/m_kite-mallorca_005.jpg" itemprop="url" width="100%" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" >{% endif %}» More pictures</a>		
+		{% endif %}
 		<meta itemprop="width" content="100%">
     	<meta itemprop="height" content="100%">
 	</figure>
 	</div>
-</noscript>
+{% if page.amp != true %}</noscript>{% endif %}
 <!-- END Fallback Content -->
 </div>

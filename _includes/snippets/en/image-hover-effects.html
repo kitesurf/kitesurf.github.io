@@ -1,5 +1,19 @@
 <!-- panel with buttons -->
 <div class="photos">
+{% if page.amp == true %}
+            <div id="picleft">
+                <amp-img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" width="600" height="400" layout="responsive" alt="Tina and Daniel on the beach" title="Tina and Daniel on the beach"></amp-img>
+                <div></div>
+            </div>
+            <div id="picmiddle">
+                <amp-img src="{{ site.baseurl }}/images/roberto.jpg" width="600" height="400" layout="responsive" alt="Roberto, our first student ever, kitesurfing at the homespot Sa Marina" title="Roberto, our first student ever, kitesurfing at the homespot Sa Marina"></amp-img>
+                <div></div>
+            </div>
+            <div id="picright">
+                <amp-img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" width="600" height="400" layout="responsive" alt="Daniel explaining Kerstin the kite setup" title="Daniel explaining Kerstin the kite setup"></amp-img>
+                <div></div>
+            </div>
+{% else %}
             <div id="picleft">
                 <img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" alt="Tina and Daniel on the beach" title="Tina and Daniel on the beach" />
                 <div></div>
@@ -11,5 +25,6 @@
             <div id="picright">
                 <img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" alt="Daniel explaining Kerstin the kite setup" title="Daniel explaining Kerstin the kite setup" />
                 <div></div>
-            </div>        
+            </div>
+{% endif %}     
 </div>

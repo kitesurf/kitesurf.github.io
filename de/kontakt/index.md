@@ -60,6 +60,4 @@ Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch 
 
 Für nähere Informationen über uns fülle bitte das [Kontaktformular]({{ site.url }}/de/kontaktiere-uns "Öffnet das Kontaktformular um uns auch ohne E-Mail Programm zu schreiben") aus oder ruf uns einfach an!
 
-<h6 style='text-align: center;'><a href="{{ site.url }}/de/kontaktiere-uns" title="Öffnet das Kontaktformular um uns zu schreiben">Daniel & Gerhard</a> +34-696-264729</h6>
-
-![Gerhard und Daniel im Rettungsboot]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard und Daniel im Rettungsboot")
+{% include daniel_und_gerhard.html %}

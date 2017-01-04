@@ -3,13 +3,25 @@
 <html ⚡ lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
+    
+    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
+    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/{{ page.en-url }}" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />    
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
 
@@ -46,10 +58,12 @@
 
         <!-- Multilinguale behandlung durch Google -->
     <meta http-equiv="language" content="{{ page.lang }}">
+
+    <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}" />    
     <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
-    {% if page.amp == true %}<link rel="amphtml" href="{{ site.url }}/amp/{{ page.url }}" />{% endif %}
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 

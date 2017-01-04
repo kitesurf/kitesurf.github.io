@@ -1,4 +1,4 @@
-# Texts in different languages
+# Text messages in different languages
 
 en:
   calltext: "Press here for call, WhatsApp or SMS"
@@ -7,6 +7,9 @@ en:
   ratings_count: "total reviews"
   webcam_fullview: "Follow if the live video didn't work:"
   slide-message: "Wipe for next image. Tap for full view"
+  contact_pic_link: "contact-us"
+  contact_pic_alt: "Gerhard and Daniel on the rescueboat"
+  contact_pic_titel: "Open the contact form to write us without a mail program"
 
 es:
   calltext: "Clic aquí para llamar, WhatsApp o SMS"
@@ -15,6 +18,9 @@ es:
   ratings_count: "valoraciones en total"
   webcam_fullview: "Sigue este enlace si el video no funciona:"
   slide-message: "Corre para otra foto, Dar para agrandar"
+  contact_pic_link: "contacta-con-nosotros"
+  contact_pic_alt: "Gerhard y Daniel en la barca de rescate"
+  contact_pic_titel: "Abre el formulario de contacto para que nos puedas hacer tus preguntas"
 
 de:
   calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
@@ -23,3 +29,6 @@ de:
   ratings_count: "Bewertungen insgesamt"
   webcam_fullview: "Hier klicken wenn das Video nicht funktioniert:"
   slide-message: "Wischen für nächtes Bild, Tippen für Vollbild"
+  contact_pic_link: "kontaktiere-uns"
+  contact_pic_alt: "Gerhard und Daniel im Rettungsboot"
+  contact_pic_titel: "Öffnet das Kontaktformular um uns zu schreiben"

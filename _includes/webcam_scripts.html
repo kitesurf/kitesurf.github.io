@@ -1,3 +1,6 @@
+{% if page.amp == true %}
+<amp-iframe src="https://livecam-pro.com/livecam055.html" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" scrolling="no" frameborder="0" height="360" width="640"></amp-iframe>
+{% else %}
 <script type="text/javascript">
 // best deferred loader for css
   var cb = function() {
@@ -62,4 +65,5 @@ else window.onload = createVideo;
 <object id="devideo" class="iframe-container iframe-container-16x9">
 </object>
 <noscript><iframe src="http://livecam-pro.com/livecam055.html" style="border:none; overflow:hidden; height:100%; width:100%;" allowTransparency="true" allowFullscreen="true"></iframe></noscript>
-</div>    
+</div>
+{% endif %}  

@@ -40,12 +40,12 @@ t:
 
 Nos encuentras en la playa de Sa Marina, en la bahía de Pollensa, entre la ciudad de Alcudia y el Puerto de Pollensa.
 
-KITE-MALLORCA
-Kitesurf Mallorca S.L.
-Calle del Greco 19
-07400 Alcudia
-Mallorca, España
-Tlf. +34 696 264729
+KITE-MALLORCA  
+Kitesurf Mallorca S.L.  
+Calle del Greco 19  
+07400 Alcudia  
+Mallorca, España  
+Tlf. +34 696 264729  
 
 {% include googlemap.html %}
 
@@ -61,6 +61,4 @@ Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible ll
 
 Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.
 
-<h6 style='text-align: center;'><a href="{{ site.url }}/es/contacta-con-nosotros" title="Abre el formulario de contacto para que nos puedas hacer tus preguntas">Daniel & Gerhard</a> +34-696-264729</h6>
-
-![Gerhard y Daniel en la barca de rescate]({{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg "Gerhard y Daniel en la barca de rescate")
+{% include daniel_und_gerhard.html %}

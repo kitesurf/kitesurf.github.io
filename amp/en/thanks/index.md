@@ -13,6 +13,8 @@ image:
   teaser:
   thumb: flying-friends/l_kite-mallorca_038.jpg
   picnum: 38
+  width: "640"
+  height: "480"
 snippets:
 lang: en
 en-url: "en/thanks/"
