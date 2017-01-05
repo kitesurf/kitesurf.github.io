@@ -6,7 +6,11 @@
 	{% include snippets/{{ page.lang }}/languages.html %}
 </div>
 <div class="item">
+{% if page.amp == true %}
+	{% include snippets/{{ page.lang }}/amp-contact.html %}
+{% else %}
 	{% include snippets/{{ page.lang }}/contact.html %}
+{% endif %}
 </div>
 <div class="item">
 	{% include snippets/{{ page.lang }}/team-contact.html %}
