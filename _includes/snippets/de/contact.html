@@ -1,10 +1,18 @@
 <h4>Noch Fragen?</h4>
+{% if page.amp == true %}
 <form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
+{% else %}
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com" target="_blank">
+{% endif %}
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
   <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
   <textarea name="body" placeholder="Einfach hier direkt an uns schreiben!"></textarea>
   <span>Teile uns deinen Namen und deine Handynummer mit und du kommst in unser Verteiler für Wind- und Spotinfos für die Dauer deines Aufenthaltes. Dieser Service ist kostenlos und wird über Whatsapp oder SMS getätigt.</span><br><br>
+{% if page.amp == true %}
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/de/danke">
+{% else %}
   <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
+{% endif %}
   <input type="submit" value="Senden">
 </form>
 <span>

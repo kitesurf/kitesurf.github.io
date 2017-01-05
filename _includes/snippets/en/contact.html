@@ -1,10 +1,18 @@
 <h4>Any questions?</h4>
+{% if page.amp == true %}
 <form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
+{% else %}
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com" target="_blank">
+{% endif %}
   <input type="email" name="_replyto" placeholder="Your email address" required>
   <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
   <textarea name="body" placeholder="Write here your questions"></textarea>
   <span>Write us your name and mobile number and we will keep you posted on wind- and spot info during your stay. This service is free of charge.</span><br><br>
+{% if page.amp == true %}
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/en/thanks">
+{% else %}
   <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
+{% endif %}
   <input type="submit" value="Send">
 </form>
 <span>
