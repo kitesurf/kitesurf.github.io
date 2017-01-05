@@ -2,19 +2,19 @@
       {
         "@context" : "http://schema.org",
         "@type" : "Organization",
-        "@type" : "Service",
+        "@type" : "Course",
         "@type" : "LocalBusiness",
         "telephone" : "+34-696-264-729",
         "priceRange": "$$",
         "name" : "Kitesurf Mallorca SL",
-        "image" : "http://www.kite-mallorca.com/images/gerhard-und-daniel.jpg",
-        "url" : "http://www.kite-mallorca.com",
+        "image" : "http://kite-mallorca.com/images/gerhard-und-daniel.jpg",
+        "url" : "http://kite-mallorca.com",
         "sameAs" : [
           "https://www.facebook.com/KitesurfMallorca",
           "https://twitter.com/kite_mallorca",
           "https://plus.google.com/108768305083116030970"
         ],
-        "logo" : "http://www.kite-mallorca.com/images/kite-mallorca_225x177.png",        
+        "logo" : "http://kite-mallorca.com/images/kite-mallorca_225x177.png",        
         "address": {
         "@type": "PostalAddress",
         "addressLocality": "Alcudia",
@@ -32,6 +32,69 @@
             "longitude": "2.966201"
           },
           "geoRadius": "60000"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Sport services",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "Kiteboarding and Kitesurfing learning",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Tester course for everyone",
+                    "description": "Learning how to fly and control a kite and drag the body throw the water with his power"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Complette 10 hours course",
+                    "description": "Learning all basics about kitesurfing and kiteboarding to be safe and independent"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Refresh course for advanced riders",
+                    "description": "Special training like kitecontrol, waterstart, riding longer tack, transitions or jumping for advanced students"
+                  }
+                }
+              ]
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Sports equipement rental",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Complette equipement rental"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Kite rental"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Board rental"
+                  }
+                }
+              ]
+            }
+          ]
         },
         "contactPoint" : {
           "@type" : "ContactPoint",
