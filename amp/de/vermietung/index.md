@@ -3,8 +3,8 @@ layout: article
 amp: true
 title: "Kite-Mallorca - Vermietung - Tel. +34-696-264729"
 subtitle: "Vermietung von Kitesurf Material"
-date: 2015-01-22T12:57:10+01:00
-modified: 2016-11-20T00:00:00.000Z
+date: 2017-01-05
+modified: 2017-01-06
 author: daniel
 description: "Bei Kite-Mallorca Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen. Trapez und Neo sind auch dabei"
 image:

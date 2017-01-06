@@ -3,8 +3,8 @@ layout: article
 amp: true
 title: "Kite-Mallorca - Alquiler de material de kitesurf - Tel. +34-696-264729"
 subtitle: "Alquiler de tablas y cometas para kitesurf"
-date: 2015-01-23T12:57:10+01:00
-modified: 2016-11-20T00:00:00.000Z
+date: 2017-01-05
+modified: 2017-01-06
 author: daniel
 description: "En Kite-Mallorca.com puedes alquilar tu proxima tabla y cometa de kitesurf. Con material de North, Liquid Force, Mutiny, Spleene y All Ride te sentiras muy bien y seguro al practicar este deporte."
 image:
