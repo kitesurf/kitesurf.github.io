@@ -5,12 +5,20 @@
   <textarea name="body" placeholder="Einfach hier direkt an uns schreiben!"></textarea>
   <span>Teile uns deinen Namen und deine Handynummer mit und du kommst in unser Verteiler für Wind- und Spotinfos für die Dauer deines Aufenthaltes. Dieser Service ist kostenlos und wird über Whatsapp oder SMS getätigt.</span><br><br>
   <input type="submit" value="Senden">
+    <div submit-success>
+      <template type="amp-mustache">
+        Success! Thanks {{name}} for trying the
+        <code>amp-form</code> demo! Try to insert the word "error" as a name input in the form to see how
+        <code>amp-form</code> handles errors.
+      </template>
+    </div>
     <div submit-error>
       <template type="amp-mustache">
         Error! Thanks {{name}} for trying the
         <code>amp-form</code> demo with an error response.
       </template>
-    </div>  
+    </div>
+
 </form>
 <span>
   Oder sende uns eine E-Mail an
