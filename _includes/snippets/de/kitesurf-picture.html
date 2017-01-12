@@ -32,10 +32,10 @@ printImage();
 		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">
 		{% if page.amp == true %}
 		<a href="{{site.baseurl }}/amp/{{page.lang }}/flying-friends">{% if page.image.picnum %}<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="320" height="240" layout="responsive" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" ></amp-img>{% else %}<amp-img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="320" height="240" layout="responsive" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos von Kitesurfer bei Kite-Mallorca" ></amp-img>{% endif %}» mehr Bilder</a>
-		<meta itemprop="url" content="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
+		<meta itemprop="url" content="{{site.baseurl }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% else %}		
 		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos von Kitesurfer bei Kite-Mallorca" >{% endif %}» mehr Bilder</a>
-		<meta itemprop="url" content="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
+		<meta itemprop="url" content="{{site.baseurl }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% endif %}
 		
 		<meta itemprop="width" content="100%">
