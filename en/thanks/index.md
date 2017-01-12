@@ -32,7 +32,6 @@ t:
   link6:    "disclaimer/"
   menutxt7: "Contact us"
   link7:    "contact-us/"
-  teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:  
-  +34 696 264 729."
+  teaser: "Thank you very much for contacting us. We will get back to you as soon as possible. You can also call us: +34696264729"
 ---
 
