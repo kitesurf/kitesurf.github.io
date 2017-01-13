@@ -53,14 +53,14 @@
               </div>
           </div> 
         {% if forloop.index == 1 %}
-        <a class="arrow arrow-prev" href="#target-item-{{ forloop.length }}"></a>
+        <a class="b-lazy arrow arrow-prev" href="#target-item-{{ forloop.length }}"></a>
         {% else %}
-        <a class="arrow arrow-prev" href="#target-item-{{ forloop.index | minus:1 }}"></a>
+        <a class="b-lazy arrow arrow-prev" href="#target-item-{{ forloop.index | minus:1 }}"></a>
         {% endif %}
         {% if forloop.last == true %}
-        <a class="arrow arrow-next" href="#target-item-1"></a>
+        <a class="b-lazy arrow arrow-next" href="#target-item-1"></a>
         {% else %}
-        <a class="arrow arrow-next" href="#target-item-{{ forloop.index | plus:1 }}"></a>
+        <a class="b-lazy arrow arrow-next" href="#target-item-{{ forloop.index | plus:1 }}"></a>
         {% endif %}
   </div>
       {% endfor %}

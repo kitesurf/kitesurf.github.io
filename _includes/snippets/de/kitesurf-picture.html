@@ -13,8 +13,8 @@ var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
 // Specify the first and last part of the image tag. 
 // if random is less then 10 add 0 to picture number
 
-if (r < 10) {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img src="/images/flying-friends/s_kite-mallorca_00';}
-else {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img src="/images/flying-friends/s_kite-mallorca_0';}
+if (r < 10) {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img class="b-lazy" data-src="/images/flying-friends/s_kite-mallorca_00';}
+else {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img class="b-lazy" data-src="/images/flying-friends/s_kite-mallorca_0';}
 
 LastPart = '.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >» mehr Bilder</a>';
 
@@ -34,7 +34,7 @@ printImage();
 		<a href="{{site.baseurl }}/amp/{{page.lang }}/flying-friends">{% if page.image.picnum %}<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="320" height="240" layout="responsive" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" ></amp-img>{% else %}<amp-img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="320" height="240" layout="responsive" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos von Kitesurfer bei Kite-Mallorca" ></amp-img>{% endif %}» mehr Bilder</a>
 		<meta itemprop="url" content="{{ site.url }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% else %}		
-		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos von Kitesurfer bei Kite-Mallorca" >{% endif %}» mehr Bilder</a>
+		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img class="b-lazy" data-src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" >{% else %}<img class="b-lazy" data-src="/images/flying-friends/m_kite-mallorca_005.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos von Kitesurfer bei Kite-Mallorca" >{% endif %}» mehr Bilder</a>
 		<meta itemprop="url" content="{{ site.url }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% endif %}
 		
