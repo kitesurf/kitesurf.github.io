@@ -107,7 +107,17 @@
 {% endif %}
 
   <body>
-  {% if page.amp == true %}{% include amp-analytics.html %}{% endif %}
+  {% if page.amp == true %}
+  {% include amp-analytics.html %}
+  {% else %}
+    <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script> 
+    <script>
+        ;(function() {
+            // Initialize
+            var bLazy = new Blazy();
+        })();
+    </script>  
+  {% endif %}
     <div id="page-wrapper">
       {% include header.html %}
       {% if page.t.teaser %}

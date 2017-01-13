@@ -15,15 +15,6 @@
         <meta  itemprop="addressCountry" content="Spain" />
         </div>
     </div> 
-    {% if page.amp != true %}
-    <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script> 
-    <script>
-        ;(function() {
-            // Initialize
-            var bLazy = new Blazy();
-        })();
-    </script>  
-    {% endif %}   
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
