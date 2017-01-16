@@ -39,12 +39,25 @@ t:
 
 ### NOCH FRAGEN?
 
-<form method="POST" action="http://formspree.io/team@kite-mallorca.com">
+<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
   <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
-  <textarea name="body" cols="40" rows="6" placeholder="Einfach hier direkt an uns schreiben!"></textarea>
+  <textarea name="body" placeholder="Einfach hier direkt an uns schreiben!"></textarea>
   <span>Teile uns deinen Namen und deine Handynummer mit und du kommst in unser Verteiler für Wind- und Spotinfos für die Dauer deines Aufenthaltes. Dieser Service ist kostenlos und wird über Whatsapp oder SMS getätigt.</span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
   <input type="submit" value="Senden">
+    <div submit-success>
+      <template type="amp-mustache">
+        Vielen Dank für deine Anfrage, wir werden es in den nächsten Stunden bearbeiten und uns bei dir melden.
+      </template>
+    </div>
+    <div submit-error>
+      <template type="amp-mustache">
+        Vielen Dank für deine Anfrage, wir werden es in den nächsten Stunden bearbeiten und uns bei dir melden.  
+      </template>
+    </div>
+
 </form>
-Oder sende uns eine E-Mail an <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>.
+<span>
+  Oder sende uns eine E-Mail an
+  <p class="backforward">moc.acrollam-etik@maet</p>
+</span>

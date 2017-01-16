@@ -37,13 +37,25 @@ t:
   teaser:
 ---
 ### ALGUNA DUDA?
-<form method="POST" action="http://formspree.io/team@kite-mallorca.com">
+<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">
-  <textarea name="body" cols="40" rows="6" placeholder="Anota aquí tus preguntas"></textarea>
+  <textarea name="body" placeholder="Anota aquí tus preguntas"></textarea>
   <span>Si nos dejas tu nombre y tu móvil, te añadiremos a nuestra lista de información de viento y spot por el tiempo de tu estancia. Este servicio es gratuito y será efectuado por Whatsapp o SMS.</span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/es/gracias">
   <input type="submit" value="Enviar">
+    <div submit-success>
+      <template type="amp-mustache">
+        Muchas gracias por tu encuesta. La procesaremos en las próximas horas y nos pondremos en contacto contigo.
+      </template>
+    </div>
+    <div submit-error>
+      <template type="amp-mustache">
+        Muchas gracias por tu encuesta. La procesaremos en las próximas horas y nos pondremos en contacto contigo.
+      </template>
+    </div>
 </form>
-
-O envíanos un correo electrónico a <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>.
+<span>
+  O envíanos un correo electrónico a
+  <p class="backforward">moc.acrollam-etik@maet</p>
+</span>
