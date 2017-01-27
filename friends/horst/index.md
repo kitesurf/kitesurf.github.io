@@ -5,7 +5,7 @@ title: "/Kite-Mallorca - Friends - Horst"
 subtitle:
 date:
 modified:
-description: "Kitesurf mit Kite-Mallorca kann zum richtigen Vergnügen werden, vor allem wenn man sich genau unsere Mietpreise anschaut"
+description: "Unsere Langzeitmieten sind auf internationllem Niveau unschlagbar. "
 dataFile:
 image:
   background: 3.jpg

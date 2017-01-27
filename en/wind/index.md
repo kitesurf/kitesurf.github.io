@@ -5,7 +5,7 @@ subtitle: "Wind and weather forecast"
 date: 2015-11-23
 modified: 2016-11-20T00:00:00.000Z
 author: daniel
-description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
+description: "Current information about the wind conditions in Mallorca."
 image:
   background: 6.jpg
   feature:

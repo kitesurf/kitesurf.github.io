@@ -6,7 +6,7 @@ subtitle: "Datos de contacto"
 date: 2017-01-05
 modified: 2017-01-06
 author: daniel
-description: "Datos de contacto y ubicación de Kite-Mallorca."
+description: "Datos de contacto y ubicación de Kite-Mallorca. Tambien encuentras aquí una pequeña lista de los hoteles más cercanos."
 image:
   background: 1.jpg
   feature:

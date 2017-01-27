@@ -5,7 +5,7 @@ title: "Kite-Mallorca - Friends - Sabrina and Niklas"
 subtitle: 
 date: 
 modified:
-description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
+description: "Pictures from Sabrina and Niklas on his first Kitesurfing lessons. She finished riding! When do you make your pictures with us?"
 dataFile: sabrina-and-niklas
 image:
   background: 4.jpg

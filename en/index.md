@@ -5,7 +5,7 @@ subtitle: "Your International Kitesurf Center"
 date: 2015-11-23
 modified: 2016-11-20T00:00:00.000Z
 author: daniel
-description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
+description: "Kite-Mallorca, since 2009 official kitesurfing school on Mallorca, joined in the international water sports federation VDWS and since 2012 Registered in the Balearic association of the sailing schools"
 image:
   background: 2.jpg
   feature:

@@ -5,7 +5,7 @@ title: "Kite-Mallorca - Friends - Roman"
 subtitle: 
 date: 
 modified:
-description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
+description: "Hier unser Freund Roman, bei seinem ersten Besuch bei uns. Wann kommst du?"
 dataFile: roman
 image:
   background: 3.jpg
