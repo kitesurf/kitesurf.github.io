@@ -51,10 +51,6 @@
                 <p>{{ item.review }}</p>
                   <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
               </div>
-              <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-               Rated <span itemprop="ratingValue">4.8</span>/5
-               based on <span itemprop="reviewCount">32</span> customer reviews on Google+, Facebook and Tripadvisor
-              </div>
           </div> 
         {% if forloop.index == 1 %}
         <a class="b-lazy arrow arrow-prev" href="#target-item-{{ forloop.length }}"></a>
@@ -68,4 +64,8 @@
         {% endif %}
   </div>
       {% endfor %}
+</div>
+<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+ Rated <span itemprop="ratingValue">4.8</span>/5
+ based on <span itemprop="reviewCount">32</span> customer reviews on Google+, Facebook and Tripadvisor
 </div>
