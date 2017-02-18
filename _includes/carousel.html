@@ -4,6 +4,7 @@
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
 <div class="carousel-wrapper" itemprop="Review" itemscope itemtype="http://schema.org/Review">
+    <meta property="reviewCount" content="32">
     <div  itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
         <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
         <meta itemprop="url" content="http://kite-mallorca.com"/>
@@ -46,7 +47,6 @@
                     {% endfor %}
                     <strong class="golden">({{ item.quote }}/5)</strong>
                     <meta  property="ratingValue" content="{{ item.quote }}/5"/>
-                    <meta property="reviewCount" content="32">
               </div>
               <div class="review-body" itemprop="reviewBody">
                 <p>{{ item.review }}</p>
