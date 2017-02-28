@@ -4,7 +4,7 @@ amp: true
 title: "Kite-Mallorca - Danke - Tel. +34-696-264729"
 subtitle: Vielen Dank für deine Anfrage
 date: 2017-01-05T00:00:00.000Z
-modified: 2017-01-06
+modified: 2017-02-28
 author: daniel
 description: "Bei Kite-Mallorca werden alle Kunden bevorzugt behandelt. Dein Anliegen wird so schnell wie möglich erledigt"
 image: 

@@ -3,7 +3,7 @@ layout: archive
 title: "Kite-Mallorca - Disclaimer - Phone +34-696-264729"
 subtitle: "Disclaimer"
 date: 2015-11-23
-modified: 2016-11-20T00:00:00.000Z
+modified: 2017-02-28
 author: daniel
 description:
 image:
