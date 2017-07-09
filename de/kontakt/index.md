@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Kontakt - Tel. +34-696-264729"
 subtitle: "Kontaktdaten"
 date: 2015-11-23
-modified: 2016-11-20T00:00:00.000Z
+modified: 2017-02-28
 author: daniel
 description: "Kite-Mallorca Kontaktdaten Adresse Telefonnummern."
 image:

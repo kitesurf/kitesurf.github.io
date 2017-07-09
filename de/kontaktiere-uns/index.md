@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Kontaktiere mit dein Kitesurfcenter - Tel. +34-696-264729"
 subtitle: "Kontakformular Kitesurfcenter"
 date: 2015-11-23
-modified: 2016-11-20T00:00:00.000Z
+modified: 2017-02-28
 author: daniel
 description: "Nehme hier Kontakt mit dem KITE-MALLORCA Team auf und schreibe uns deine Fragen!"
 image:

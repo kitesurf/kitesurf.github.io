@@ -4,7 +4,7 @@ amp: true
 title: "Kite-Mallorca - Pictures & Videos - Impressions - Phone +34-696-264729"
 subtitle: "Pictures & Videos - Impressions"
 date: 2017-01-05
-modified: 2017-01-06
+modified: 2017-02-28
 author: daniel
 description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
 dataFile: photosen

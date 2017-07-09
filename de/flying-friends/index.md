@@ -3,7 +3,7 @@ layout: gallery
 title: "Kite-Mallorca - Bilder & Videos - Impressionen - Tel. +34-696-264729"
 subtitle: "Bilder & Videos - Impressionen"
 date: 2015-11-23T00:00:00.000Z
-modified: 2016-11-20T00:00:00.000Z
+modified: 2017-02-28
 author: daniel
 description: Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.
 dataFile: photosde

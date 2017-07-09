@@ -4,7 +4,7 @@ amp: true
 title: "Kite-Mallorca - Wind - Phone +34-696-264729"
 subtitle: "Wind and weather forecast"
 date: 2017-01-05
-modified: 2017-01-06
+modified: 2017-02-28
 author: daniel
 description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
 image:
