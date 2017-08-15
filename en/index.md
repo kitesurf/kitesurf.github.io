@@ -46,7 +46,7 @@ We've for you:
 - and much more...
 
 #### Our Webcam
-{% include webcam.html %} 
+{% include webcamIframe.html %} 
 
 #### Kiteboarding and kitesurfing courses
 As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
