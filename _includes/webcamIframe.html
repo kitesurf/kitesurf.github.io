@@ -1,0 +1,31 @@
+{% if page.amp == true %}
+<amp-youtube width="560"
+  height="315"
+  layout="responsive"
+  data-videoid="gam6nRucldQ"
+  autoplay>
+</amp-youtube>
+{% else %}
+<script type="text/javascript">
+//doesn't block the load event
+function createIframeWebcam(){
+  var i = document.createElement("iframe");
+  i.src = "https://www.youtube.com/embed/gam6nRucldQ";
+  i.style = "border:none; overflow:hidden; height:315px; width:560px;";
+  i.scrolling = "no";
+  i.frameborder = "0";
+  i.allowTransparency = "true";
+  i.allowfullscreen = "true";
+  document.getElementById("deframe").appendChild(i);
+};
+        
+// Check for browser support of event handling capability
+if (window.addEventListener)
+window.addEventListener("load", createIframeWebcam, false);
+else if (window.attachEvent)
+window.attachEvent("onload", createIframeWebcam);
+else window.onload = createIframeWebcam;
+</script>
+<div id="deframe"><noscript>
+<iframe src="https://www.youtube.com/embed/gam6nRucldQ" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:315px; width:560px;" allowTransparency="true" allowfullscreen></iframe></noscript></div>
+{% endif %}
