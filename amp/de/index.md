@@ -50,7 +50,7 @@ Wir haben für dich:
 - Und vieles Mehr...
 
 #### Unsere Webcam
-{% include webcam.html %} 
+{% include webcamIframe.html %} 
 
 #### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  

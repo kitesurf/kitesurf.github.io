@@ -47,7 +47,7 @@ Tenemos para ti:
 - y mucho más...
 
 #### Nuestra cámara web
-{% include webcam.html %} 
+{% include webcamIframe.html %} 
 
 #### Cursos de kitesurf
 
