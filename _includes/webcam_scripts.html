@@ -1,69 +1,31 @@
 {% if page.amp == true %}
-<amp-iframe src="https://livecam-pro.com/livecam055.html" layout="responsive" sandbox="allow-scripts allow-same-origin allow-popups" scrolling="no" frameborder="0" height="360" width="640"></amp-iframe>
+<amp-youtube width="560"
+  height="315"
+  layout="responsive"
+  data-videoid="eIIYCelMJW8"
+  autoplay>
+</amp-youtube>
 {% else %}
 <script type="text/javascript">
-// best deferred loader for css
-  var cb = function() {
-  var l = document.createElement('link'); l.rel = 'stylesheet';
-  l.href = 'https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/alt/video-js-cdn.css';
-  var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-  webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) raf(cb);
-  else window.addEventListener('load', cb);
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/5.10.2/video.js" async></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/3.6.11/videojs-contrib-hls.min.js" async></script>
-<script type="text/javascript">
-// webcam part
-function createVideo(){
-// variables for safari and mobile
-  var webcam = document.createElement('video');
-  webcam.controls = 'controls';
-  webcam.setAttribute('id', 'myVideo');
-  webcam.setAttribute('class', 'responsive');
-  webcam.setAttribute('type', 'application/x-mpegURL');
-  webcam.src = '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8';
-
-// variables for FF and Chrome
-  var jsVideo = document.createElement('video');
-  jsVideo.setAttribute('id', 'my_video_1');
-  jsVideo.setAttribute('class', 'video-js', 'vjs-default-skin');
-  jsVideo.controls = 'controls';
-  jsVideo.setAttribute('preload', 'auto');
-  jsVideo.setAttribute('poster', '//livecam-pro.com/fileadmin/templates/assets/_pics/055_000M.jpg')
-  jsVideo.setAttribute('data-setup', '{"aspectRatio":"640:360"}');
-
-  var jsSource = document.createElement('source');
-  jsSource.setAttribute('src', '//94.228.215.67:1935/live/livecam055.stream/playlist.m3u8');
-  jsSource.setAttribute('type', 'application/x-mpegURL');
-
- var camiframe = document.createElement('iframe');
-  camiframe.setAttribute('class', 'responsive');
-  camiframe.src = '//livecam-pro.com/livecam055.html'; 
-
-if(webcam.canPlayType('application/vnd.apple.mpegurl') === "probably" || webcam.canPlayType('application/vnd.apple.mpegurl') === "maybe"){
-    //Action for playing the .m3u8 content
-    document.getElementById("devideo").appendChild(webcam);
-}
-else{
-    //Actions like playing another video type
-//     document.getElementById("livecam").appendChild(camiframe);
-     document.getElementById("devideo").appendChild(jsVideo);
-
-}  
+//doesn't block the load event
+function createIframeWebcam(){
+  var i = document.createElement("iframe");
+  i.src = "https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ";
+  i.style = "border:none; overflow:hidden; height:315px; width:560px;";
+  i.scrolling = "no";
+  i.frameborder = "0";
+  i.allowTransparency = "true";
+  i.allowfullscreen = "true";
+  document.getElementById("deframe").appendChild(i);
 };
-        // Check for browser support of event handling capability
+        
+// Check for browser support of event handling capability
 if (window.addEventListener)
-window.addEventListener("load", createVideo, false);
+window.addEventListener("load", createIframeWebcam, false);
 else if (window.attachEvent)
-window.attachEvent("onload", createVideo);
-else window.onload = createVideo;
+window.attachEvent("onload", createIframeWebcam);
+else window.onload = createIframeWebcam;
 </script>
-<div>
-<object id="devideo" class="iframe-container iframe-container-16x9">
-</object>
-<noscript><iframe src="http://livecam-pro.com/livecam055.html" style="border:none; overflow:hidden; height:100%; width:100%;" allowTransparency="true" allowFullscreen="true"></iframe></noscript>
-</div>
-{% endif %}  
+<div id="deframe" class="iframe-container-16x9">
+<iframe src="https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ?autoplay=1" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:315px; width:560px;" allowTransparency="true" allowfullscreen="true"></iframe></div>
+{% endif %}
