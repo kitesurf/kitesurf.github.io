@@ -1,9 +1,12 @@
 {% if page.amp == true %}
-<amp-youtube width="560"
+<amp-iframe width="560"
   height="315"
   layout="responsive"
-  data-videoid="live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ">
-</amp-youtube>
+  sandbox="allow-scripts allow-same-origin allow-popups"
+  allowfullscreen
+  frameborder="0"
+  src="https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ">
+</amp-iframe>
 {% else %}
 <script type="text/javascript">
 //doesn't block the load event
@@ -25,6 +28,8 @@ else if (window.attachEvent)
 window.attachEvent("onload", createIframeWebcam);
 else window.onload = createIframeWebcam;
 </script>
-<div id="deframe" class="iframe-container-16x9">
-<iframe src="https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:315px; width:560px;" allowTransparency="true" allowfullscreen="true"></iframe></div>
+<div id="deframe" class="iframe-container-16x9"></div>
+<noframes>
+<iframe src="https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:315px; width:560px;" allowTransparency="true" allowfullscreen="true"></iframe>
+</noframes>
 {% endif %}
