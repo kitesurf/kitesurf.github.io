@@ -1,6 +1,7 @@
 # Text messages in different languages
 
 en:
+  chatbuttontext: "Press here for chat, call or email with us"
   calltext: "Press here for call, WhatsApp or SMS"
   testimonial: "Our guests say:"
   org_link: "Original review on "
@@ -12,6 +13,7 @@ en:
   contact_pic_titel: "Open the contact form to write us without a mail program"
 
 es:
+  chatbuttontext: "Clic para chat, llamar o correo electronico"
   calltext: "Clic aquí para llamar, WhatsApp o SMS"
   testimonial: "Que opinan nuestros clientes:"
   org_link: "Valoracion original en "
@@ -23,6 +25,7 @@ es:
   contact_pic_titel: "Abre el formulario de contacto para que nos puedas hacer tus preguntas"
 
 de:
+  chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
   calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
   testimonial: "Das meinen unsere Gäste:"
   org_link: "Originale Bewertung in "
