@@ -4,7 +4,7 @@
             {% if page.amp == true %}
             <a href="{{site.baseurl }}/amp/{{page.lang }}"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></a>
             {% else %}
-            <a href="{{site.baseurl }}/{{page.lang }}"><img class="logo" src="{{site.baseurl}}/images/kite-mallorca_225x177.png" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
+            <a href="{{site.baseurl }}/{{page.lang }}"><img class="logo b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{site.baseurl}}/images/kite-mallorca_225x177.png" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
             {% endif %}
         </div>
         <div>
@@ -46,7 +46,7 @@
                   <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
                   <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
                   <li><div class="animenu__flag">                
-                              <img src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
+                              <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{site.baseurl }}/images/flags/allflags.png" alt="languages" usemap="#Map" />
                                   <map name="Map" id="Map">
                                       <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
                                       <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
