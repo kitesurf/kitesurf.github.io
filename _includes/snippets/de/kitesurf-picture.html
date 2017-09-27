@@ -1,6 +1,32 @@
 <div>
+<!--
+{% if page.amp != true %}
+<script type="text/javascript" language="JavaScript">
+//
+// Type the number of images you are rotating.
+
+NumberOfImagesToRotate = 68;
+
+function printImage() {
+var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+
+// Specify the first and last part of the image tag. 
+// if random is less then 10 add 0 to picture number
+
+if (r < 10) {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ site.url }}/images/flying-friends/s_kite-mallorca_00';}
+else {FirstPart = '<h4>Impressionen</h4><a href="{{site.baseurl }}/{{page.lang }}/flying-friends"><img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ site.url }}/images/flying-friends/s_kite-mallorca_0';}
+
+LastPart = '.jpg" width="100%" alt="Fotos von Kitesurfer bei Kite-Mallorca" title="Fotos vom Kitesurf mit Kite-Mallorca" >» mehr Bilder</a>';
+
+document.write(FirstPart + r + LastPart);
+}
+printImage();
+</script>
 
 
+<noscript>
+{% endif %}
+-->
 	<div>
 	<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 		<h4>Impressionen</h4><a href="{{ site.baseurl }}/{{ page.lang }}/flying-friends">
@@ -16,6 +42,8 @@
     	<meta itemprop="height" content="100%">
 	</figure>
 	</div>
-
+<!--
+{% if page.amp != true %}</noscript>{% endif %}
+-->
 <!-- END Fallback Content -->
 </div>

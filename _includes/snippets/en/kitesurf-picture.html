@@ -1,7 +1,8 @@
 <div>
+<!--	
 {% if page.amp != true %}
 <script type="text/javascript" language="JavaScript">
-<!--
+
 //
 // Type the number of images you are rotating.
 
@@ -21,12 +22,13 @@ LastPart = '.jpg" width="100%" alt="Pictures from kitesurfing by Kite-Mallorca" 
 document.write(FirstPart + r + LastPart);
 }
 printImage();
--->
+
 </script>
 
-<!-- Fallback Content -->
+
 <noscript>
 {% endif %}
+-->
 	<div>
 	<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 		<h4>Impressions</h4>
@@ -34,13 +36,14 @@ printImage();
 		<a href="{{site.baseurl }}/amp/{{page.lang }}/flying-friends">{% if page.image.picnum %}<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="320" height="240" layout="responsive" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" ></amp-img>{% else %}<amp-img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="320" height="240" layout="responsive" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" ></amp-img>{% endif %}» More pictures</a>
 		<meta itemprop="url" content="{{ site.url }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% else %}
-		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img class="b-lazy" data-src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" />{% else %}<img class="b-lazy" data-src="/images/flying-friends/m_kite-mallorca_005.jpg" width="100%" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" >{% endif %}» More pictures</a>
+		<a href="{{site.baseurl }}/{{page.lang }}/flying-friends">{% if page.image.picnum %}<img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="100%" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" />{% else %}<img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="/images/flying-friends/m_kite-mallorca_005.jpg" width="100%" alt="Pictures from kitesurfing by Kite-Mallorca" title="Pictures from kitesurfing with Kite-Mallorca" >{% endif %}» More pictures</a>
 		<meta itemprop="url" content="{{ site.url }}/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg">
 		{% endif %}
 		<meta itemprop="width" content="100%">
     	<meta itemprop="height" content="100%">
 	</figure>
 	</div>
+<!--
 {% if page.amp != true %}</noscript>{% endif %}
-<!-- END Fallback Content -->
+ END Fallback Content -->
 </div>
