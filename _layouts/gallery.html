@@ -20,7 +20,6 @@
     <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />    
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
@@ -40,11 +39,18 @@
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
     {% include amp-gallery-css.html %}
-
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 {% else %}
 <html>
   <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5J849CQ');</script>
+<!-- End Google Tag Manager -->
   {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
     <meta charset="utf-8">
 
@@ -118,6 +124,11 @@
     {% if page.amp == true %}
     {% include amp-analytics.html %}
     <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+    {% else %}
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     {% endif %}
     {% include header.html %}
     <div id="page-wrapper">
