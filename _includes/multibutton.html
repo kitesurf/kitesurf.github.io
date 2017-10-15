@@ -1,5 +1,8 @@
 <div class="btn-multi">
 	<input type="checkbox" id="multi-btn" name="multi-btn" />
+	{% if page.amp == true %}
+	<label> class="tooltip" for="multi-btn"</label>
+	{% else %}
 	<label class="tooltip" for="multi-btn" onclick="void(0)">
         {% assign lang = site.data.texts[page.lang] %}
 		<a href="mailto:team@kite-mallorca.com?Subject=Infos%20about%20Kite-Mallorca.com" class="btn btn-circle" target="_blank" title="Mail"><i class="icomoon icon icon-mail-envelope-closed"></i></a>
