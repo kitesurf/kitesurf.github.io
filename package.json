@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A Jekyll based multilingual site",
   "author": "Daniel von Ledebur <daniel@kite-mallorca.com>",
-  "homepage": "http://kite-mallorca.com/",
+  "homepage": "https://kite-mallorca.com/",
   "devDependencies": {
     "browserify": "^9.0.3",
     "deumdify": "^1.1.0",

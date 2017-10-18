@@ -6,7 +6,7 @@ lang: en
   {% for post in site.posts %}
   {% if post.lang == page.lang and post.layout != nil %}
   <url>
-    <loc>http://kite-mallorca.com{{site.baseurl}}{{post.url}}</loc>
+    <loc>https://kite-mallorca.com{{site.baseurl}}{{post.url}}</loc>
   </url>
   {% endif %}
   {% endfor %}
@@ -14,15 +14,15 @@ lang: en
   {% for page in site.pages %}
   {% if page.lang == 'en' and page.layout != nil %}
   <url>
-    <loc>http://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
+    <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
   {% elsif page.lang == 'es' and page.layout != nil %}
   <url>
-    <loc>http://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
+    <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
   {% elsif page.lang == 'de' and page.layout != nil %}
   <url>
-    <loc>http://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
+    <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
   {% endif %}
   {% endfor %}
