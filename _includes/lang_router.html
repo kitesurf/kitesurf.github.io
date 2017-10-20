@@ -1,29 +1,26 @@
-<script>
+<script type="text/javascript>
 
-var browserlang=new Array("en", "de", "es", "default")
+var browserlang=new Array("en", "de", "es", "default");
 
-var rout_to=new Array("/en/", "/de/", "/es/", "/en/")
+var rout_to=new Array("/en/", "/de/", "/es/", "/en/");
 
-var languageinfo=navigator.language? navigator.language : navigator.userLanguage
-var gotodefault=1
+var languageinfo=navigator.language? navigator.language : navigator.userLanguage;
+var gotodefault=1;
 
 function redirectpage(dest){
 if (window.location.replace)
-window.location.replace(dest)
+window.location.replace(dest);
 else
-window.location=dest
+window.location=dest;
 }
-
-for (i=0;i<browserlang.length-1;i++){
+for (var i=0;i<browserlang.length-1;i++){
 if (languageinfo.substr(0,2)==browserlang[i]){
-redirectpage(rout_to[i])
-gotodefault=0
-break
+redirectpage(rout_to[i]);
+gotodefault=0;
 }
 }
 
 if (gotodefault)
-redirectpage(rout_to[browserlang.length-1])
-
+redirectpage(rout_to[browserlang.length-1]);
 
 </script>

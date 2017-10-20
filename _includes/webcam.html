@@ -5,7 +5,6 @@
 {% else %}
 <script type="text/javascript">
 function createVideo(){
-// variables for safari and mobile
   var webcam = document.createElement('video');
   webcam.controls = 'controls';
   webcam.setAttribute('id', 'livecam-pro');
@@ -16,7 +15,6 @@ function createVideo(){
 
 document.getElementById("devideo").appendChild(webcam);
 };
-        // Check for browser support of event handling capability
 if (window.addEventListener)
 window.addEventListener("load", createVideo, false);
 else if (window.attachEvent)

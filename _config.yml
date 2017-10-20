@@ -16,8 +16,8 @@ permalink: /:categories/:title/
 markdown: kramdown
 gems:
   - jekyll-sitemap
-
-
+compress_html:
+  clippings: [script]
 # Site owner
 owner:
   name: Kitesurf Mallorca SL

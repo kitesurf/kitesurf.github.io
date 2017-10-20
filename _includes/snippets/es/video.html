@@ -6,8 +6,7 @@
   </amp-youtube>
   </br></br>
 {% else %}
-<script type="text/javascript">
-//doesn't block the load event
+<script>
 function createIframe(){
   var i = document.createElement("iframe");
   i.src = "https://www.youtube.com/embed/El49Bnx505w";
@@ -18,8 +17,6 @@ function createIframe(){
   i.scrolling = "no";
   document.getElementById("video").appendChild(i);
 };
-        
-// Check for browser support of event handling capability
 if (window.addEventListener)
 window.addEventListener("load", createIframe, false);
 else if (window.attachEvent)

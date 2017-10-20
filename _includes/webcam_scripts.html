@@ -6,8 +6,7 @@
   autoplay>
 </amp-youtube>
 {% else %}
-<script type="text/javascript">
-//doesn't block the load event
+<script>
 function createIframeWebcam(){
   var i = document.createElement("iframe");
   i.src = "https://www.youtube.com/embed/live_stream?channel=UCUYH3gE-UHMUD3BzvW_WJcQ";
@@ -18,8 +17,6 @@ function createIframeWebcam(){
   i.allowfullscreen = "true";
   document.getElementById("deframe").appendChild(i);
 };
-        
-// Check for browser support of event handling capability
 if (window.addEventListener)
 window.addEventListener("load", createIframeWebcam, false);
 else if (window.attachEvent)
