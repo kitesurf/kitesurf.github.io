@@ -3,34 +3,17 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-  {% if page.langrouted == true %}
 
- <script>
- var browserlang=new Array("en", "de", "es", "default");
- var rout_to=new Array("/en/", "/de/", "/es/", "/en/");
- var languageinfo=navigator.language? navigator.language : navigator.userLanguage;
- var gotodefault=1;
- function redirectpage(dest){
- if (window.location.replace)
- window.location.replace(dest);
- else
- window.location=dest;
- }
- for (var i=0;i<browserlang.length-1;i++){
- if (languageinfo.substr(0,2)==browserlang[i]){
- redirectpage(rout_to[i]);
- gotodefault=0;
- }
- }
- if (gotodefault)
- redirectpage(rout_to[browserlang.length-1]);
- </script>
-
-  {% endif %}
 {% if page.amp == true %}
 <html ⚡ lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
+
+  {% include amp-inline-css.html %}
+
+  {% if page.langrouted == true %}
+    {% include lang_router.html %}
+  {% endif %}
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
@@ -57,9 +40,6 @@ layout: compress
 
     {% include structured-data.html %}
 
-    {% include amp-inline-css.html %}
-
-
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
@@ -67,6 +47,7 @@ layout: compress
 {% else %}
 <html>
   <head>
+    <meta charset="utf-8">
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -74,7 +55,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5J849CQ');</script>
 <!-- End Google Tag Manager -->
-    <meta charset="utf-8">
+
+  {% if page.langrouted == true %}
+    {% include lang_router.html %}
+  {% endif %}
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
