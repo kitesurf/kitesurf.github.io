@@ -57,8 +57,6 @@ In Alcudia and around there are lots of accommodations, we just list the closest
 From those you can take the public bus or just walk to our spot.
 
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=en" rel="nofollow" title="www.clubpollentia.com">» CLick here for offers</a>
-- Hostal Fonda Llabres <a href="http://www.fondallabres.com/e_alcudia.htm" rel="nofollow" title="www.fondallabres.com">» CLick here for offers</a>
-- Hotel Hi Panoramic <a href="http://www.hihotels.net/en/hotels/7-smartline-panoramic" rel="nofollow" title="www.hihotels.net">» CLick here for offers</a>
 - Hotel Moré <a href="http://www.hotelmore.com/en/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» CLick here for offers</a>
 
 For more information please fill out the [contact form]({{ site.url }}/en/contact-us "Open the contact form to write us without the need of a mail program") or just call us!
