@@ -36,7 +36,7 @@ t:
   teaser:
 ---
 ### ALGUNA DUDA?
-<form method="POST" action="http://formspree.io/team@kite-mallorca.com">
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">
   <textarea name="body" cols="40" rows="6" placeholder="Anota aquí tus preguntas"></textarea>

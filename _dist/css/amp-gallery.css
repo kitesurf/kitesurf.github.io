@@ -1,17 +1,17 @@
-/*** uncss> filename: http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin ***/
+/*** uncss> filename: https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin ***/
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
 }
 
 /*** uncss> filename: https://kite-mallorca.com/css/main.css ***/
@@ -1007,7 +1007,7 @@ x:-o-prefocus {
 
 	5. Loading indicator (preloader)
 
-	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+	You can play with it here - https://codepen.io/dimsemenov/pen/yyBWoR
 
  */
 

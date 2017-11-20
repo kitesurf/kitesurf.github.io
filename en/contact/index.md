@@ -57,7 +57,7 @@ In Alcudia and around there are lots of accommodations, we just list the closest
 From those you can take the public bus or just walk to our spot.
 
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=en" rel="nofollow" title="www.clubpollentia.com">» CLick here for offers</a>
-- Hotel Moré <a href="http://www.hotelmore.com/en/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» CLick here for offers</a>
+- Hotel Moré <a href="https://www.hotelmore.com/en/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» CLick here for offers</a>
 
 For more information please fill out the [contact form]({{ site.url }}/en/contact-us "Open the contact form to write us without the need of a mail program") or just call us!
 

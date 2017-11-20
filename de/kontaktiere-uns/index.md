@@ -38,7 +38,7 @@ t:
 
 ### NOCH FRAGEN?
 
-<form method="POST" action="http://formspree.io/team@kite-mallorca.com">
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
   <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
   <textarea name="body" cols="40" rows="6" placeholder="Einfach hier direkt an uns schreiben!"></textarea>

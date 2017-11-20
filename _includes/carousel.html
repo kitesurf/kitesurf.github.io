@@ -3,11 +3,11 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
-<div class="carousel-wrapper" itemprop="Review" itemscope itemtype="http://schema.org/Review">
-    <div  itemprop="itemReviewed" itemscope itemtype="http://schema.org/Place">
+<div class="carousel-wrapper" itemprop="Review" itemscope itemtype="https://schema.org/Review">
+    <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Place">
         <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
         <meta itemprop="url" content="https://kite-mallorca.com"/>
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> 
+        <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> 
         <meta itemprop="streetAddress" content="Carrer Greco 19" />
         <meta itemprop="addressLocality" content="Alcudia, Mallorca" />
         <meta itemprop="postalCode" content="07400" />
@@ -21,7 +21,7 @@
     {% for item in site.data.testimonials.lang[page.lang] %} 
   <div class="carousel-item item-{{ forloop.index }}">
           <div class="review">
-              <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <div itemprop="author" itemscope itemtype="https://schema.org/Person">
                       <meta itemprop="url" content="{{ item.author_link }}"/>
                       <span itemprop="name">{{ item.person }}</span>
               {% if page.amp == true %}
@@ -32,7 +32,7 @@
               <div class="b-lazy avatar" data-src="{{ item.avatar_img }}"></div>
               {% endif %}
               </div>
-              <div class="rating" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+              <div class="rating" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                     <meta itemprop="ratingValue" content="{{ item.quote }}"/>
                     <meta property="bestRating" content="5"/>
                     <meta property="worstRating" content="1"/>
@@ -65,7 +65,7 @@
   </div>
       {% endfor %}
 </div>
-<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
  Rated <span itemprop="ratingValue">4.5</span>/5
  based on <span itemprop="reviewCount">52</span> customer reviews on Google+, Facebook and Tripadvisor
 </div>

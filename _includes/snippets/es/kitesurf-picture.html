@@ -30,7 +30,7 @@ printImage();
 {% endif %}
 -->
 	<div>
-	<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+	<figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<h4>Impresiónes</h4>
 		{% if page.amp == true %}
 		<a href="{{site.baseurl }}/amp/{{page.lang }}/flying-friends">{% if page.image.picnum %}<amp-img src="/images/flying-friends/m_kite-mallorca_0{{ page.image.picnum }}.jpg" width="320" height="240" layout="responsive" alt="{{ page.subtitle }}" title="{{ page.subtitle }}" ></amp-img>{% else %}<amp-img src="/images/flying-friends/m_kite-mallorca_005.jpg" width="320" height="240" layout="responsive" alt="Fotos de Kitesurfistas en Kite-Mallorca" title="Fotos de Kitesurf con Kite-Mallorca" ></amp-img>{% endif %}» más Fotos</a>
