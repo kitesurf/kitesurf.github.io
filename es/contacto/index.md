@@ -54,7 +54,7 @@ En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo t
 Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.
 
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">» Clic aquí por ofertas</a>
-- Hotel Moré <a href="http://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">» Clic aquí por ofertas</a>
+- Hotel Moré <a href="https://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">» Clic aquí por ofertas</a>
 
 Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.
 

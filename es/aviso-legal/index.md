@@ -52,7 +52,7 @@ Teléfono: +34 696 264 729
 E-Mail: <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>
 
 Kitesurf Mallorca S.L. es propietaria del nombre de dominio y páginas en Internet a
-las que se accede a través de la dirección http://www.kite-mallorca.com
+las que se accede a través de la dirección https://kite-mallorca.com
 Datos Registrales:
 Inscrito en el Registro mercantil de Palma de Mallorca
 Inscripción 1ª, Hoja PM-70674, Folio 93, Tomo 2516
@@ -61,7 +61,7 @@ Inscripción 1ª, Hoja PM-70674, Folio 93, Tomo 2516
 ##### Política de privacidad:
 De acuerdo con lo dispuesto en la Ley Orgánica 15/99 del 13 de diciembre de 1999
 sobre Protección de Datos de Carácter Personal, Kitesurf Mallorca S.L. y su sitio
-web http://www.kite-mallorca.com cumple la legislación vigente respecto a la protección
+web https://kite-mallorca.com cumple la legislación vigente respecto a la protección
 de datos personales y de contacto de sus subscriptores y los mantiene en la más
 estricta confidencialidad.
 
@@ -84,7 +84,7 @@ Así mismo, Kitesurf Mallorca S.L. guardará los datos de carácter personal que
 recabado y adoptará las medidas necesarias para evitar su alteración, pérdida,
 tratamiento o acceso no autorizados.
 
-Los clientes y/o usuarios de http://www.kite-mallorca.com pueden, en todo momento,
+Los clientes y/o usuarios de https://kite-mallorca.com pueden, en todo momento,
 ejercitar los derechos de acceso, rectificación, cancelación u oposición sobre sus datos
 personales comunicándolo por escrito a
 Kitesurf Mallorca S.L.
