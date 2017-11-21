@@ -1,6 +1,9 @@
 ---
 layout: article
 amp: true
+amp-mustache: false
+amp-form: false
+amp-iframe: false
 title: "Kite-Mallorca - Thank you - Phone +34-696-264729"
 subtitle: "Thank you for contacting us"
 date: 2017-01-05

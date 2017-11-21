@@ -1,6 +1,9 @@
 ---
 layout: article
 amp: true
+amp-mustache: true
+amp-form: true
+amp-iframe: true
 title: "Kite-Mallorca - Contact with your kitesurfcenter - Phone +34-696-264729"
 subtitle: "Contact with your kiteboarding center"
 date: 2017-01-05

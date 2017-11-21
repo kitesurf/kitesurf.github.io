@@ -1,6 +1,9 @@
 ---
 layout: gallery
 amp: true
+amp-mustache: false
+amp-form: false
+amp-iframe: false
 title: "Kite-Mallorca - Fotos y videos - Impresiones - Tel. +34-696-264729"
 subtitle: "Fotos y videos - Impresiones"
 date: 2017-01-05

@@ -1,6 +1,9 @@
 ---
 layout: article
 amp: true
+amp-mustache: true
+amp-form: true
+amp-iframe: true
 title: "Kite-Mallorca - Kitesurfing lessons - Phone +34-696-264729"
 subtitle: "Kitesurfing courses and lessons"
 date: 2017-01-05

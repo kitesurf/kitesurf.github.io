@@ -1,6 +1,9 @@
 ---
 layout: article
 amp: true
+amp-mustache: true
+amp-form: true
+amp-iframe: true
 title: "Kite-Mallorca - Alquiler de material de kitesurf - Tel. +34-696-264729"
 subtitle: "Alquiler de tablas y cometas para kitesurf"
 date: 2017-01-05

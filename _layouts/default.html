@@ -29,9 +29,9 @@ layout: compress
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
-    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
-    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    {% if page.amp-mustache == true %}<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>{% endif %}
+    {% if page.amp-form == true %}<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>{% endif %}
+    {% if page.amp-iframe == true %}<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>{% endif %}
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
 
     {% include structured-data.html %}

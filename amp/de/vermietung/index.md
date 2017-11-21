@@ -1,6 +1,9 @@
 ---
 layout: article
 amp: true
+amp-mustache: true
+amp-form: true
+amp-iframe: true
 title: "Kite-Mallorca - Vermietung - Tel. +34-696-264729"
 subtitle: "Vermietung von Kitesurf Material"
 date: 2017-01-05
