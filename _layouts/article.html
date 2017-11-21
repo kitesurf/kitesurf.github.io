@@ -14,7 +14,9 @@ layout: default
 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
 				{% endif %}
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-
+				<meta itemprop="url" content="{{ site.url }}/images/{{ page.image.feature }}"></meta>
+        		<meta itemprop="width" content="{{ page.image.width }}"></meta>
+        		<meta itemprop="height" content="{{ page.image.height }}"></meta>
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
 		{% endif %}
