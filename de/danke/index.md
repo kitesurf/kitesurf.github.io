@@ -19,20 +19,24 @@ lang: de
 "de-url": de/danke/
 t: 
   menu: MENÜ
-  link1: kitekurse/
-  menutxt1: kitekurse
-  link2: vermietung/
-  menutxt2: vermietung
-  link3: wind/
-  menutxt3: wind
-  link4: kontakt/
-  menutxt4: kontakt
+  link1: "kitekurse/"
+  menutxt1: "kitekurse"
+  link2: "vermietung/"
+  menutxt2: "vermietung"
+  link3: "wind/"
+  menutxt3: "wind"
+  link4: "kontakt/"
+  menutxt4: "kontakt"
   link5: "flying-friends/"
   menutxt5: "bilder & videos"
-  link6: datenschutz/
-  menutxt6: Datenschutz
+  link6: "datenschutz/"
+  menutxt6: "Datenschutz"
   link7: "kontaktiere-uns/"
-  menutxt7: Kontaktiere uns
+  menutxt7: "Kontaktiere uns"
+  link8: "shop/"
+  menutxt8: "Shop"
+  link9: "outfit/"
+  menutxt9: "Outfit"
   teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:   +34 696 264 729."
 published: true
 ---

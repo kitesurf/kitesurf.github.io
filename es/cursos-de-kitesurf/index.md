@@ -32,6 +32,10 @@ t:
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros/"
   menutxt7: "Contacta con nosotros"
+  link8: "shop/"
+  menutxt8: Shop
+  link9: "outfit/"
+  menutxt9: Outfit
   teaser:
 ---
 

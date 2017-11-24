@@ -32,6 +32,10 @@ t:
   link6:    "disclaimer/"
   menutxt7: "Contact us"
   link7:    "contact-us/"
+  link8: "shop/"
+  menutxt8: shop
+  link9: "outfit/"
+  menutxt9: "Outfit"
   teaser: "Thank you very much for contacting us. We will get back to you as soon as possible. You can also call us: +34696264729"
 ---
 

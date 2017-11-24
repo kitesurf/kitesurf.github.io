@@ -33,6 +33,10 @@ t:
   menutxt6: "Datenschutz"
   link7: "kontaktiere-uns/"
   menutxt7: "Kontaktiere uns"
+  link8: "shop/"
+  menutxt8: shop
+  menutxt9: "Outfit"
+  menutxt9: Outfit
   teaser: Wir wünschen Horst viel Spass!
 ---
 

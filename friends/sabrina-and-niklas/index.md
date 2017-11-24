@@ -33,6 +33,10 @@ t:
   link6: "disclaimer/"
   menutxt7: "Contact us"
   link7: "contact-us/"
+  link8: "shop/"
+  menutxt8: shop
+  menutxt9: "Outfit"
+  menutxt9: Outfit
   teaser: Pictures from Sabrina, we hope next time we can add some from Niklas!
 ---
 

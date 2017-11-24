@@ -32,6 +32,10 @@ t:
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros/"
   menutxt7: "Contacta con nosotros"
+  link8: "shop/"
+  menutxt8: shop
+  link9: "outfit/"
+  menutxt9: Outfit
   teaser: "Muchas gracias por habernos escrito, responderemos lo antes posible. Si quieres nos puedes llamar tambien:  
   +34 696 264 729."
 ---

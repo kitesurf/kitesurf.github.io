@@ -18,7 +18,8 @@ lang: de
 en-url: "en/contact-us/"
 es-url: "es/contacta-con-nosotros/"
 de-url: "de/kontaktiere-uns/"
-t:
+t: 
+  menu: MENÜ
   link1: "kitekurse/"
   menutxt1: "kitekurse"
   link2: "vermietung/"
@@ -33,6 +34,10 @@ t:
   menutxt6: "Datenschutz"
   link7: "kontaktiere-uns/"
   menutxt7: "Kontaktiere uns"
+  link8: "shop/"
+  menutxt8: "shop"
+  link9: "outfit/"
+  menutxt9: "Outfit"
   teaser:
 ---
 
