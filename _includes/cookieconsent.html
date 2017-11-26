@@ -1,0 +1,27 @@
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  {% assign lang = site.data.texts[page.lang] %}
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2799d1",
+      "text": "#3e4141"
+    },
+    "button": {
+      "background": "#df061c",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "{{ lang.cookie_message }}",
+    "dismiss": "{{ lang.cookie_dismiss }}",
+    "link": "{{ lang.cookie_link }}",
+    "href": "{{ lang.cookie_href }}"
+  }
+})});
+</script>

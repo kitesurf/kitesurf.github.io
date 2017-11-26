@@ -11,6 +11,10 @@ en:
   contact_pic_link: "contact-us"
   contact_pic_alt: "Gerhard and Daniel on the rescueboat"
   contact_pic_titel: "Open the contact form to write us without a mail program"
+  cookie_message: "We use cookies to give you the best possible user experience, enjoy surfing on our site"
+  cookie_dismiss: "Got it, hang loose"
+  cookie_link: "More info"
+  cookie_href: "https://kite-mallorca.com/en/disclaimer/"
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
@@ -23,6 +27,10 @@ es:
   contact_pic_link: "contacta-con-nosotros"
   contact_pic_alt: "Gerhard y Daniel en la barca de rescate"
   contact_pic_titel: "Abre el formulario de contacto para que nos puedas hacer tus preguntas"
+  cookie_message: "Usamos cookies para que esta web funcione mejor, disfruta navegando"
+  cookie_dismiss: "Claro, hang loose"
+  cookie_link: "Leer más"
+  cookie_href: "https://kite-mallorca.com/es/aviso-legal/"
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
@@ -35,3 +43,7 @@ de:
   contact_pic_link: "kontaktiere-uns"
   contact_pic_alt: "Gerhard und Daniel im Rettungsboot"
   contact_pic_titel: "Öffnet das Kontaktformular um uns zu schreiben"
+  cookie_message: "Wir benutzen hier cookies, genieße das surfen auf unserer Webseite!"
+  cookie_dismiss: "Klar, Hang loose!"
+  cookie_link: "Mehr Infos"
+  cookie_href: "https://kite-mallorca.com/de/datenschutz/"
