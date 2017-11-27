@@ -42,12 +42,12 @@ published: true
 ---
 
 <div id="myShop">
-    <a href="//shop.spreadshirt.es/kite-mallorca">kite-mallorca</a>
+    <a href="//shop.spreadshirt.es/kite-mallorca-es">kite-mallorca-es</a>
 </div>
 
 <script>
     var spread_shop_config = {
-        shopName: 'kite-mallorca',
+        shopName: 'kite-mallorca-es',
         locale: 'es_ES',
         prefix: '//shop.spreadshirt.es',
         baseId: 'myShop'
