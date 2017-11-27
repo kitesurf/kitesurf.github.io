@@ -14,7 +14,7 @@ en:
   cookie_message: "We use cookies to give you the best possible user experience, enjoy surfing on our site"
   cookie_dismiss: "Got it, hang loose"
   cookie_link: "More info"
-  cookie_href: "https://kite-mallorca.com/en/disclaimer/"
+  cookie_href: "/en/disclaimer/"
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
@@ -30,7 +30,7 @@ es:
   cookie_message: "Usamos cookies para que esta web funcione mejor, disfruta navegando"
   cookie_dismiss: "Claro, hang loose"
   cookie_link: "Leer más"
-  cookie_href: "https://kite-mallorca.com/es/aviso-legal/"
+  cookie_href: "/es/aviso-legal/"
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
@@ -46,4 +46,4 @@ de:
   cookie_message: "Wir benutzen hier cookies, genieße das surfen auf unserer Webseite!"
   cookie_dismiss: "Klar, Hang loose!"
   cookie_link: "Mehr Infos"
-  cookie_href: "https://kite-mallorca.com/de/datenschutz/"
+  cookie_href: "/de/datenschutz/"
