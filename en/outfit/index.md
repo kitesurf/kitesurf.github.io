@@ -11,7 +11,7 @@ image:
   background: 1.jpg
   feature: ""
   teaser: null
-  thumb: ""
+  thumb: outfit/t-shirt.jpg
   picnum: 
 snippets: null
 lang: en
