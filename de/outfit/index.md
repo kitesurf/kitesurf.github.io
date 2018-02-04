@@ -56,5 +56,5 @@ published: true
 </script>
 
 <script type="text/javascript"
-        src="//shopbeta.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
+        src="//shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
 </script>
