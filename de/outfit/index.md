@@ -50,11 +50,11 @@ published: true
     var spread_shop_config = {
         shopName: 'kite-mallorca',
         locale: 'de_DE',
-        prefix: '//shopbeta.spreadshirt.de.spreadshirt.de',
+        prefix: '//shop.spreadshirt.de.spreadshirt.de',
         baseId: 'myShop'
     };
 </script>
 
 <script type="text/javascript"
-        src="//shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
+        src="//shopbeta.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
 </script>
