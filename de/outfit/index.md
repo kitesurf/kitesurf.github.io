@@ -43,7 +43,7 @@ published: true
 ---
 
 <div id="myShop">
-    <a href="//shop.spreadshirt.de/kite-mallorca">kite-mallorca</a>
+    <a href="//shopbeta.spreadshirt.de/kite-mallorca">kite-mallorca</a>
 </div>
 
 <script>
