@@ -2,7 +2,8 @@
 
 en:
   chatbuttontext: "Press here for chat, call or email with us"
-  calltext: "Press here for call, WhatsApp or SMS"
+  calltext: "BOOK NOW!"
+  calltoactionlink: "en/instantly-booking/"
   testimonial: "Our guests say:"
   org_link: "Original review on "
   ratings_count: "total reviews"
@@ -18,7 +19,8 @@ en:
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
-  calltext: "Clic aquí para llamar, WhatsApp o SMS"
+  calltext: "RESERVA AQUÍ!"
+  calltoactionlink: "es/reserva-inmediata/"
   testimonial: "Que opinan nuestros clientes:"
   org_link: "Valoracion original en "
   ratings_count: "valoraciones en total"
@@ -34,7 +36,8 @@ es:
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
-  calltext: "Klicke hier für Anruf, WhatsApp od. SMS"
+  calltext: "HIER RESERVIEREN!"
+  calltoactionlink: "de/sofortbuchung/"
   testimonial: "Das meinen unsere Gäste:"
   org_link: "Originale Bewertung in "
   ratings_count: "Bewertungen insgesamt"

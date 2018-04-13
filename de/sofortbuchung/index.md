@@ -1,9 +1,10 @@
 ---
 layout: default
+buchung: true
 title: "Kite-Mallorca - Danke - Tel. +34-696-264729"
 subtitle: Vielen Dank für deine Anfrage
-date: 2015-11-23T00:00:00.000Z
-modified: 2017-02-28
+date: 2018-03-18T00:00:00.000Z
+modified: 
 author: daniel
 description: "Unsere Angebote sofort buchbar"
 image: 
@@ -14,9 +15,9 @@ image:
   picnum: 
 snippets: null
 lang: de
-"en-url": en/thanks/
-"es-url": es/gracias/
-"de-url": de/danke/
+"en-url": en/instantly-booking/
+"es-url": es/reserva-inmediata/
+"de-url": de/sofortbuchung/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
