@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
 subtitle: Dein internationaler Kitesurfcenter
 date: 2015-11-23T00:00:00.000Z
-modified: 2017-02-28
+modified: 2018-04-14
 author: daniel
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
 image:
@@ -66,7 +66,7 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 ###### Unsere Qualität zum besten Preis  
 
-10 Stunden Anfängerkurs - **EUR 390,-**  
+10 Stunden Anfängerkurs - **EUR 450,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 
 4 Stunden Refreshkurs - **EUR 200,-**  
