@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
 subtitle: "Cursos y clases de kitesurf"
 date: 2017-01-05
-modified: 2017-02-28
+modified: 2018-04-18T09:29:00.000Z
 author: daniel
 description: "Aprender kitesurf en Mallorca, con Kite-Mallorca muy simple: cursos y lecciones para principiantes y avanzados. Todo el material incluido: kite, tabla, arnes, neopreno."
 image:
@@ -51,7 +51,7 @@ Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del 
 
 ###### Nuestra calidad al mejor precio (temporada 2016)  
 
-Curso completo de 10 horas - **EUR 390,-**  
+Curso completo de 10 horas - **EUR 450,-**  
 Clases de iniciación en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)  
 
 Curso de repaso de 4 horas - **EUR 200,-**  
@@ -62,7 +62,7 @@ con un equipo compartido entre dos - **EUR 45,-/h**
 cada uno con un equipo - **EUR 55,-/h**  
 Clases individuales en grupo para todos los niveles  
 
-Curso de prueba de 3 horas - **EUR 100,-**  
+Curso de iniciación de 3 horas - **EUR 100,-**  
 Clases en grupo que terminan con arrastre por una cometa en el agua (duración 1 dia)  
 
 Clases privadas por horas sueltas - **EUR 85,-/h**  

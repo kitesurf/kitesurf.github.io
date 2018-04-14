@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Kite-Mallorca - Your International Kitesurf Center - Phone +34-696-264729"
 subtitle: "Your International Kitesurf Center"
 date: 2017-01-05
-modified: 2017-02-28
+modified: 2018-04-18T09:27:00.000Z
 author: daniel
 description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:
@@ -61,10 +61,10 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ##### Our quality for the best price
 
-10 hours beginners course - **EUR 390,-**
+10 hours beginners course - **EUR 450,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
-Lessons on an hourly basis - **EUR 45,-/h**
+Lessons on an hourly basis - **EUR 55,-/h**
 Individual hours for all levels in a small group of 2-4 students
 
 3 hours trial course - **EUR 100,-**

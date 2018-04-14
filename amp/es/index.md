@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Kite-Mallorca - Tu centro internacional de kitesurf - Tel. +34-696-264729"
 subtitle: "Tu centro internacional de kitesurf"
 date: 2017-01-05
-modified: 2017-02-28
+modified: 2018-04-18T09:28:00.000Z
 author: daniel
 description: "Si deseas aprender kitesurf, has encontrado la mejor escuela de kite en Mallorca. Profesores titulados por la federación española y la alemana. Cursos para todos los niveles - alquiler de material"
 image:
@@ -62,10 +62,10 @@ Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del 
 
 ##### Nuestra calidad al mejor precio
 
-Curso completo de 10 horas - **EUR 390,-**
+Curso completo de 10 horas - **EUR 450,-**
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
-Clases por horas sueltas - **EUR 45,-/h**
+Clases por horas sueltas - **EUR 55,-/h**
 Clases individuales en grupo para todos los niveles
 
 [» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
