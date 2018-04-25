@@ -42,28 +42,42 @@ published: true
 ---
 
 
-### KITEKURSE
+### KITEKURSE 
 
-KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.  
+KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
 
-Wir bieten Schulungen für jede Könnensstufe an (Einsteiger, Aufsteiger und Fortgeschrittene).  
+Wir bieten Schulungen für jede Könnensstufe an (Einsteiger, Aufsteiger und Fortgeschrittene).
 
-Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
+Unser Unterricht basiert durch Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
 
 Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontrolle hat, die ersten Wasserstartversuche gemacht hat und die ersten Meter gefahren ist, sodass man dann in die Miete übergehen und unter unserer Aufsicht selbständig weiterüben kann.  
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
 
+Der Hauptstandort vom KITE-MALLORCA Team befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
+Dies ergab sich einfach dadurch das Daniel hier seinen Wohnsitz, gerade vorm Kitestrand hat. Dies macht es uns sehr einfach unsere Gäste darüber zu informieren wie den gerade der Wind tatsächlich ist.  
+
+Wir sind schon seit 2009 hier in Mallorca mit unserer Schule ansässig und seit 2012 offizziel eingetragen im internationalen VDWS Kite- und Wassersportschulen Verband.
+Gerhard leitet im Winter seit 2011, gemeinsam mit andere, eines der grössten Schulen in Ägypten. 
+Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus 
+
+Warum gerade mit uns einen Kitekurs reservieren:
+  * Langjährige internationale Erfahrung im Kitesurfen und Kiteboarden
+  * Kurse in der eigenen Sprache
+  * Klare und überschaubare Preise
+  * 
+
+
 ###### Unsere Qualität zum besten Preis  
 
 10 Stunden Anfängerkurs - **EUR 450,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
+Lizenz erwerb kostet extra 80,- Euro (Dauer ca. 2 Stunden für Theorie und Test)
 
 4 Stunden Refreshkurs - **EUR 200,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
 
-Einzelstunden in der Gruppe  
-mit geteiltem Kite & Board - **EUR 45,-/h**(zwei Schüler teilen sich das Material)  
+Einzelstunden in der Gruppe    
 mit eigenem Kite & Board - **EUR 55,-/h**  
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
 
@@ -73,7 +87,7 @@ Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende 
 Einzelstunden im privaten Unterricht - **EUR 100,-/h**  
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe  
 
-(Alle Preise gültig pro Person)  
+(Alle Preise gültig pro Person und mit komplettem Equipment)  
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 
@@ -88,6 +102,7 @@ Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:
 2) Bodydrag: Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
 
 3) Wasserstart: Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
+
 
 Bilder von und mit Schüler beim Kitesurfen:  
 

@@ -44,15 +44,18 @@ published: true
 
 ### KITEKURSE, MIETE & MEHR
 
-KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.  
+Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
+Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
+Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
+KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationaler Kitesurfcenter seit ein knappes Jahrzehnt hier tätig
 
 Wir haben für dich:  
-- Schulungen für jede Könnensstufe (Einsteiger, Aufsteiger und Fortgeschrittene)  
-- Miete von Kites, Boards, usw. für Fortgeschrittene  
-- Storage für Gäste  
+- Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) Deutsche und Österreichische Kitelehrer
+- Miete von Kites, Boards, Trapez, einfach alles für Fortgeschrittene
+- Einlagerung von Material für Gäste
 - Und vieles Mehr...
 
-#### Unsere Webcam
+#### Unsere Webcam bei Youtube als Live Stream
 {% include webcamIframe.html %} 
 
 #### Kurse im Kiteboarden / Kitesurfen
