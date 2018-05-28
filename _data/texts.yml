@@ -19,7 +19,7 @@ en:
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
-  calltext: "RESERVA AQUÍ!"
+  calltext: "RESERVA AHORA!"
   calltoactionlink: "es/reserva-inmediata/"
   testimonial: "Que opinan nuestros clientes:"
   org_link: "Valoracion original en "
@@ -36,7 +36,7 @@ es:
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
-  calltext: "HIER RESERVIEREN!"
+  calltext: "BUCHE JETZT!"
   calltoactionlink: "de/sofortbuchung/"
   testimonial: "Das meinen unsere Gäste:"
   org_link: "Originale Bewertung in "

@@ -2,7 +2,7 @@
 layout: article
 title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
 subtitle: Kurse und Schulung im kitesurfen
-date: 2015-01-26T11:57:10.000Z
+date: 2018-05-26T11:57:10.000Z
 modified: 2018-04-14
 author: daniel
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
@@ -42,13 +42,10 @@ published: true
 ---
 
 
-### KITEKURSE 
+### KITEKURSE
+ 
 
-KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
-
-Wir bieten Schulungen für jede Könnensstufe an (Einsteiger, Aufsteiger und Fortgeschrittene).
-
-Unser Unterricht basiert durch Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
+Unsere Kurse im kitesurfen, kiteboarden und hydrofoilen basierend auf Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband Fachrichtung Kiteboarding und einer langjährige Erfahrung auf Mallorca, seit 2009 unterrichten wir auf dieser schönen Insel, nach den neuesten Erkenntnissen, schnell, sicher und optimal. Perfekt geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommt jeder Gast schnell aufs Board und kann mit uns die Faszination des Kitesurfen erleben!  
 
 Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontrolle hat, die ersten Wasserstartversuche gemacht hat und die ersten Meter gefahren ist, sodass man dann in die Miete übergehen und unter unserer Aufsicht selbständig weiterüben kann.  
 
