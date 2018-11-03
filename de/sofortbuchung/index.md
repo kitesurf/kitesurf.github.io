@@ -1,12 +1,12 @@
 ---
 layout: default
 buchung: true
-title: "Kite-Mallorca - Danke - Tel. +34-696-264729"
-subtitle: Vielen Dank für deine Anfrage
+title: "Kite-Mallorca - Sofortbuchung - Tel. +34-696-264729"
+subtitle: Hier kannst du deinen Kurs sofort Buchen
 date: 2018-03-18T00:00:00.000Z
-modified: 
+modified: 2018-09-20T00:00:00.000Z
 author: daniel
-description: "Unsere Angebote sofort buchbar"
+description: "Unsere Kurse im kiten auf Mallorca sofort buchbar"
 image: 
   background: 1.jpg
   feature: ""
@@ -44,3 +44,6 @@ published: true
 
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a977af9f0a388f04a1c4c4a4396a21d7&lang=de"></script>
+<noscript>
+  
+</noscript>

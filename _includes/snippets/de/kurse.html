@@ -1,0 +1,20 @@
+<h4 class="centered">UNSERE KITESURFKURSE</h4>
+<h6>
+	<ul>
+		<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/3615f83ea415c3fbec86b9877a5050aa" title="Direkt Schnupperkurs reservieren">Schnupperkurs, 3 Stunden/1 Tag</a></li>
+		<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/ec7242b91d52f942c5d0333c2c0001cb" title="Direkt Anfängerkurs reservieren">Anfängerkurs, 10 Std/3-5 Tage</a></li>
+		<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/2b2b67f400ea96bfe1028cd2adf1cc95" title="Direkt Kurs für Fortgeschritten reservieren">Fortgeschritten, nach Bedarf</a></li>
+		<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/2b2b67f400ea96bfe1028cd2adf1cc95" title="Direkt Foilkurs reservieren">Hydrofoilkurs, ab 2 Stunden</a></li>
+		<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/2b2b67f400ea96bfe1028cd2adf1cc95" title="Direkt Privatstunden reservieren">Privatstunden, nach Belieben</a></li>
+	</ul><br />
+</h6>
+{% if page.amp == true %}
+{% else %}
+{% endif %}
+    {% assign lang = site.data.texts[page.lang] %}
+
+    {% if page.buchung != true %}
+<div class="centered">
+    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+</div>
+    {% endif %}

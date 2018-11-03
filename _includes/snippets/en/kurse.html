@@ -1,0 +1,20 @@
+<h4 class="centered">KITESURFING LESSONS</h4>
+<h6>
+	<ul>
+		<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/1a00199e91cbcd2dd89a03e734f89e96" title="Book here your Tryout lessons">Tryout course, 3 hs / 1 day</a></li>
+		<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/fe2b69ad49c38dbd8413529f76d836db" title="Book here your Basic course">Basic course, 10 hs / 3-5 days</a></li>
+		<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/b0428e290ead6da2c764c2e3626b0193" title="Book here your further lessons">Further lessons, what you need</a></li>
+		<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/b0428e290ead6da2c764c2e3626b0193" title="Book here your hydrofoil course">Hydrofoil course, min. 2 hs</a></li>
+		<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/b0428e290ead6da2c764c2e3626b0193" title="Book here your privat lessons, one to one with your teacher">Privatlessons, what you like</a></li>
+	</ul><br />
+</h6>
+{% if page.amp == true %}
+{% else %}
+{% endif %}
+    {% assign lang = site.data.texts[page.lang] %}
+
+    {% if page.buchung != true %}
+<div class="centered">
+    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+</div>
+    {% endif %}
