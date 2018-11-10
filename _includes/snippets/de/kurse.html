@@ -1,5 +1,11 @@
 <div class="calltoaction">
 	<h4 class="centered">UNSERE KURSE IM KITESURFEN</h4>
+	    {% assign lang = site.data.texts[page.lang] %}
+	    {% if page.buchung != true %}
+	<div class="centered">
+	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+	</div>
+	    {% endif %}
 	<h6>
 		<ul>
 			<li><a href="https://kite-mallorca.com/de/sofortbuchung/#!/e/3615f83ea415c3fbec86b9877a5050aa" title="Direkt Schnupperkurs reservieren">Schnupperkurs, 3 Stunden/1 Tag</a></li>
@@ -12,11 +18,4 @@
 	{% if page.amp == true %}
 	{% else %}
 	{% endif %}
-	    {% assign lang = site.data.texts[page.lang] %}
-
-	    {% if page.buchung != true %}
-	<div class="centered">
-	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
-	</div>
-	    {% endif %}
 </div>

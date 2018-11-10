@@ -1,5 +1,11 @@
 <div class="calltoaction">
+	    {% assign lang = site.data.texts[page.lang] %}
 	<h4 class="centered">OUR LESSONS IN KITESURFING</h4>
+	    {% if page.buchung != true %}
+	<div class="centered">
+	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+	</div>
+	    {% endif %}
 	<h6>
 		<ul>
 			<li><a href="https://kite-mallorca.com/en/instantly-booking/#!/e/1a00199e91cbcd2dd89a03e734f89e96" title="Book here your Tryout lessons">Tryout course, 3 hs / 1 day</a></li>
@@ -12,11 +18,4 @@
 	{% if page.amp == true %}
 	{% else %}
 	{% endif %}
-	    {% assign lang = site.data.texts[page.lang] %}
-
-	    {% if page.buchung != true %}
-	<div class="centered">
-	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
-	</div>
-	    {% endif %}
 </div>

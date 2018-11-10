@@ -38,6 +38,7 @@ t:
   menutxt9: Outfit
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
 ---
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 ### [**CURSOS DE KITESURF**]({{ site.url }}/es/cursos-de-kitesurf "Cursos y clases de kitesurf"), [**ALQUILER**]({{ site.url }}/es/alquiler "Alquiler de tablas y cometas para kitesurf") Y MAS   
 

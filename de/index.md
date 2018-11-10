@@ -40,6 +40,7 @@ t:
   teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen!"
 published: true
 ---
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 ### [**KITEKURSE**]({{ site.url }}/de/kitekurse "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung "Vermietung von Kitesurf Material") & MEHR
 

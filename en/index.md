@@ -38,6 +38,7 @@ t:
   menutxt9: "Outfit"
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 ### [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting "Kite & board rental") & MORE
 
