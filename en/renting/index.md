@@ -36,10 +36,8 @@ t:
   menutxt8: shop
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser:
+  teaser: KITE & BOARD RENTAL
 ---
-
-### KITE & BOARD RENTAL
 
 Latest equipment from Liquid Force, North  and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 

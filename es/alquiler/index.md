@@ -36,10 +36,8 @@ t:
   menutxt8: Shop
   link9: "outfit/"
   menutxt9: Outfit
-  teaser:
+  teaser: ALQUILER DE KITE Y TABLA
 ---
-
-### ALQUILER DE KITE Y TABLA
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 

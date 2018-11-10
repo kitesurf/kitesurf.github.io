@@ -37,10 +37,8 @@ t:
   menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser:
+  teaser: KITE & BOARD VERMIETUNG
 ---
-
-### KITE & BOARD VERMIETUNG
 
 Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
 
