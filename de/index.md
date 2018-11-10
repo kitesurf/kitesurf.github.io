@@ -41,8 +41,7 @@ t:
 published: true
 ---
 
-
-### KITEKURSE, MIETE & MEHR
+### [**KITEKURSE**]({{ site.url }}/de/kitekurse "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung "Vermietung von Kitesurf Material") & MEHR
 
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
 Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.

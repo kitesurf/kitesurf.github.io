@@ -36,10 +36,10 @@ t:
   menutxt8: shop
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser: ""
+  teaser: KITESURFING LESSONS
 ---
 
-### KITESURFING LESSONS  
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.  
 

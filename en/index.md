@@ -39,7 +39,7 @@ t:
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 
-### KITEBOARDING LESSONS, RENTING & MORE
+### [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting "Kite & board rental") & MORE
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
 

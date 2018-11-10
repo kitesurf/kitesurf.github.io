@@ -37,13 +37,11 @@ t:
   menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser: null
+  teaser: Kitekurse
 published: true
 ---
 
-
-### KITEKURSE
- 
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 Unsere Kurse im kitesurfen, kiteboarden und hydrofoilen basierend auf Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband Fachrichtung Kiteboarding und einer langjährige Erfahrung auf Mallorca, seit 2009 unterrichten wir auf dieser schönen Insel, nach den neuesten Erkenntnissen, schnell, sicher und optimal. Perfekt geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommt jeder Gast schnell aufs Board und kann mit uns die Faszination des Kitesurfen erleben!  
 
@@ -105,4 +103,4 @@ Bilder von und mit Schüler beim Kitesurfen:
 
 {% include snippets/de/image-hover-effects.html %}  
 
-Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  
+Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/kontaktiere-uns "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  

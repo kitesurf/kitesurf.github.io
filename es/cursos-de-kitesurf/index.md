@@ -36,10 +36,10 @@ t:
   menutxt8: Shop
   link9: "outfit/"
   menutxt9: Outfit
-  teaser:
+  teaser: CURSOS DE KITESURF
 ---
 
-### CURSOS DE KITESURF  
+{% include snippets/{{ page.lang }}/kurse.html %}
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.  
 
