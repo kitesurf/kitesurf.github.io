@@ -9,6 +9,7 @@ author: daniel
 description: "kite-mallorca's Outfit - dein Lifestyle. Shop für Fashion und Accessoires mit 30 Tage Rückgaberecht. Geniese unsere gemeinsame Lebensfreude mit deinem T—Shirt, Hoodie, Kappe oder sonst was wo auch immer"
 image: 
   background: 1.jpg
+  background2:
   feature: ""
   teaser: null
   thumb: outfit/t-shirt.jpg

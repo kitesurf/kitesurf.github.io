@@ -43,7 +43,7 @@ layout: compress
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 {% else %}
-<html>
+<html class="no-js">
   <head>
     <meta charset="utf-8">
     <!-- Google Tag Manager -->
@@ -93,6 +93,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {% include structured-data.html %}
 
+    <script src="/js/modernizr.js"></script>
+
       <!-- Google Analytics -->
     <script>
       var dataLayer = window.dataLayer = window.dataLayer || [];
@@ -101,21 +103,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       });
     </script>
       <!-- End Google Analytics -->
+<script>Modernizr.on();</script> <!-- Webp images handling -->
 
-      <!-- background images -->
+      <!-- background images überprüfen ob mit load event handler möglich
       <script>
-        window.addEventListener("load", function(event) {
-        document.body.style.backgroundImage = "url({{ site.url}}/images/{{ page.image.background }})";
-        });
+       // window.addEventListener("load", function(event) {
+          Modernizr.on('webp', function(result) {
+            if (result) {
+              document.body.style.backgroundImage = "url({{ base.url}}/images/{{ page.image.background }})"; // supported
+            } else {
+              document.body.style.backgroundImage = "url({{ base.url}}/images/{{ page.image.background2 }})"; // not-supported
+            }
+          });
+       // });
       </script>
       <noscript>
           <style type="text/css">
               body 
                {
-                background-image: url({{ site.url}}/images/{{ page.image.background }});
+                background-image: url({{ base.url}}/images/{{ page.image.background }});
               }
           </style>
-      </noscript>
+      </noscript> -->
       {% include cookieconsent.html %}  
    </head>
 

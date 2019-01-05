@@ -1,8 +1,8 @@
 ---
 layout: default
 buchung: true
-title: "Kite-Mallorca - Sofortbuchung - Tel. +34-696-264729"
-subtitle: Hier kannst du deinen Kurs sofort Buchen
+title: "Schnupperkurs im Kiten"
+subtitle: Mit viel Spass das Kitesurfen testen
 date: 2018-03-18T00:00:00.000Z
 modified: 2018-09-20T00:00:00.000Z
 author: daniel
@@ -39,12 +39,28 @@ t:
   menutxt8: "Shop"
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser: "Hier kannst du sofort bequem reservieren und buchen"
+  link20: "kitekurse/schnupperkurse/"
+  menutxt20: "Schnupperkurse"
+  link21: "kitekurse/anfaengerkurse/"
+  menutxt21: "Anfängerkurse"
+  link22: "kitekurse/fortgeschritten/"
+  menutxt22: "Fortgeschritten"
+  link23: "kitekurse/hydrofoilkurs/"
+  menutxt23: "Hydrofoil"
+  link24: "kitekurse/privatstunden/"
+  menutxt24: "Privatunterricht"
+  link30: "vermietung/pro-stunde"
+  menutxt30: "Miete pro Stunde"
+  link31: "vermietung/pro-tag"
+  menutxt31: "Miete pro Tag"
+  link32: "vermietung/langzeit"
+  menutxt32: "Langzeitmiete"
+  teaser: "Unser Schnupperkurs, perfekt für den ersten Kontakt mit dem Kitesurf"
 published: true
 ---
 
 <div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a977af9f0a388f04a1c4c4a4396a21d7&lang=de"></script>
+<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
 <noscript>
   
 </noscript>

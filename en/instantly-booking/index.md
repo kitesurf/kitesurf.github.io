@@ -9,6 +9,7 @@ author: daniel
 description: "Unsere Angebote reservieren und sofort buchbar. Kurse für alle Level im kiten, kitesurfen und kiteboarden."
 image: 
   background: 1.jpg
+  background2:
   feature: ""
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"

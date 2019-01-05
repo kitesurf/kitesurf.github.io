@@ -9,6 +9,7 @@ author: daniel
 description: "Reserva y compra inmediata de cursos de kitesurf y kiteboard. Todos los cursos para todos los niveles con los mejores medios de pago en compra online"
 image: 
   background: 1.jpg
+  background2:
   feature: ""
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"

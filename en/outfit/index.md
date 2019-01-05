@@ -9,6 +9,7 @@ author: daniel
 description: "Own shop from kite-mallorca for Fanartikel und Fashion with 30 days refund. Live your life style with us wherever you are"
 image: 
   background: 1.jpg
+  background2:
   feature: ""
   teaser: null
   thumb: outfit/t-shirt.jpg

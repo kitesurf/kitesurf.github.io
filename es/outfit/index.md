@@ -9,6 +9,7 @@ author: daniel
 description: "Nuestra tienda de moda para compartir nuestro estilo de vida. Camisetas, chaquetas, sudaderas, gorros, bolsos, etc."
 image: 
   background: 1.jpg
+  background2:
   feature: ""
   teaser: null
   thumb: outfit/t-shirt.jpg
