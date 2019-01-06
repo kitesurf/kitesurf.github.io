@@ -8,7 +8,7 @@ author: daniel
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
 image:
   background: 7.webp
-  background2: 7.jpg
+  background2: 7.webp
   feature: null
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_058.jpg"
