@@ -43,7 +43,7 @@ layout: compress
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 {% else %}
-<html>
+<html class="no-js">
   <head>
     <meta charset="utf-8">
     <!-- Google Tag Manager -->
@@ -85,11 +85,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta http-equiv="cleartype" content="on">
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
-<!-- script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
-if(WebP.height!=2){var sc=document.createElement('script');sc.type='text/javascript';sc.async=true;
-var s=document.getElementsByTagName('script')[0];sc.src='{{ site.url }}/js/webpjs-0.0.2.min.js';s.parentNode.insertBefore(sc,s);}};
-WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();</script -->
-<script type="text/javascript" src="{{ site.url }}/js/webpjs-0.0.2.min.js"></script>
 
     {% if page.shop == true %}{% include shop-css.html %}{% else %}
     {% include inline-css.html %}
@@ -97,8 +92,8 @@ WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0
     {% include yandex_metrika.html %}
 
     {% include structured-data.html %}
-    
-    <!--script src="/js/modernizr.js"></script -->
+
+    <script src="/js/modernizr.js"></script>
 
       <!-- Google Analytics -->
     <script>
@@ -108,7 +103,7 @@ WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0
       });
     </script>
       <!-- End Google Analytics -->
-<!--<script>Modernizr.on();</script>  Webp images handling -->
+<script>Modernizr.on();</script> <!-- Webp images handling -->
 
       <!-- background images überprüfen ob mit load event handler möglich
       <script>
