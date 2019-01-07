@@ -46,10 +46,6 @@ layout: compress
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-
-    <script type="text/javascript" src="{{ site.url }}/js/webpjs-0.0.2.min.js"></script>
-
-
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -97,7 +93,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     {% include structured-data.html %}
 
-    <!-- script src="/js/modernizr.js"></script-->
+    <script src="/js/modernizr.js"></script>
 
       <!-- Google Analytics -->
     <script>
@@ -107,7 +103,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       });
     </script>
       <!-- End Google Analytics -->
- <!-- Webp images handling -->
+<script>Modernizr.on();</script> <!-- Webp images handling -->
 
       <!-- background images überprüfen ob mit load event handler möglich
       <script>
@@ -138,11 +134,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% if page.amp == true %}
   {% include amp-analytics.html %}
   {% else %}
-  <!--script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
-if(WebP.height!=2){var sc=document.createElement('script');sc.type='text/javascript';
-var s=document.getElementsByTagName('script')[0];sc.src='{{ site.url }}/js/webpjs-0.0.2.min.js';s.parentNode.insertBefore(sc,s);}};
-WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();</script>
-<!-- script>Modernizr.on();</script -->
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
