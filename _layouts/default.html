@@ -126,6 +126,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </style>
       </noscript> -->
       {% include cookieconsent.html %}  
+      <script type="text/javascript" src="{{ site.url }}/js/webpjs-0.0.2.min.js"></script>
    </head>
 
 {% endif %}
@@ -134,7 +135,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% if page.amp == true %}
   {% include amp-analytics.html %}
   {% else %}
-  <script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
+  <!--script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
 if(WebP.height!=2){var sc=document.createElement('script');sc.type='text/javascript';
 var s=document.getElementsByTagName('script')[0];sc.src='{{ site.url }}/js/webpjs-0.0.2.min.js';s.parentNode.insertBefore(sc,s);}};
 WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();</script>
