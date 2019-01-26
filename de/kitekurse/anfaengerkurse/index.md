@@ -60,7 +60,37 @@ published: true
 ---
 
 <div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
+<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=de&e=ec7242b91d52f942c5d0333c2c0001cb"></script>
 <noscript>
-  
+<h3>Reservieren und Buchen: Grundkurs im Kitesurfen, 10 Std.</h3>
+<br>
+ 
+AB 55,00 € pro Stunde<br>
+10 Stunden für 450,- € (10% Mengenrabatt)<br><br>
+<span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
+Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
+<div class="item">
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
+  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
+  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs">
+  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
+  <span></span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
+  <input type="submit" value="Senden">
+</form>
+<ul>
+  <li>Von 0 auf 100 in nur 10 Stunden</li>
+  <li>Material muss nicht mit anderen geteilt werden und ist im Preis enthalten</li>
+
+  <li>Zahlbar auch erst nach Vollendung</li>
+  <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
+</ul>
+</div>
+<H6>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H6>
+<span>Mitzubringen sind:
+Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
+
+<span><strong>Hinweis an die Teilnehmer</strong>
+Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span><br><br><br><br>
 </noscript>

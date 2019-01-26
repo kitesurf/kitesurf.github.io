@@ -60,7 +60,27 @@ published: true
 ---
 
 <div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
-<noscript>
-  
+<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=2b2a109f437c0eb21de3e8796a20792a"></script>
+<noscript><h3>Reservieren und Buchen: Privater Kurs im Kitesurfen</h3>
+<br>
+ 
+120 € pro Stunde<br><br>
+<span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
+<div class="item">
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
+  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse, bitte zweimal kontrolieren" required>
+  <input type="hidden" name="_subject" value="Reservierungsanfrage für Privatstunden im Kitesurfen">
+  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
+  <span></span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
+  <input type="submit" value="Senden">
+</form>
+</div>
+<H6>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H6>
+<span>Mitzubringen sind:
+Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
+
+<span><strong>Hinweis an die Teilnehmer</strong>
+Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span><br><br><br><br>
 </noscript>

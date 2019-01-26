@@ -2,7 +2,7 @@
 layout: default
 buchung: true
 title: "Kurs für fortgeschrittene Kitsurfer"
-subtitle: Hier kommst du in den nächsten Level
+subtitle: Hier kommst du in den nächsten Level beim Kitesurfen
 date: 2018-03-18T00:00:00.000Z
 modified: 2018-09-20T00:00:00.000Z
 author: daniel
@@ -55,12 +55,39 @@ t:
   menutxt31: "Miete pro Tag"
   link32: "vermietung/langzeit"
   menutxt32: "Langzeitmiete"
-  teaser: "Höhe laufen, sicherer wenden, springen? Egal was, hier bist du richtig"
+  teaser: "Höhe laufen, sicherer wenden, springen? Hier bist du richtig"
 published: true
 ---
 
 <div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
+<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=de&e=2b2b67f400ea96bfe1028cd2adf1cc95"></script>
 <noscript>
-  
+<h3>Reservieren und Buchen: Aufbaukurs im Kitesurfen</h3>
+<br>
+ 
+AB 55,00 € pro Stunde<br>
+4 Stunden für 200,- € (10% Mengenrabatt)<br><br>
+<span>Dieser Auffrischungskurs im Kitesurfen ist für alle die Gedacht, welche schon Kontakt hatten mit dem Kitesurfen und sich hier weiter entwickeln möchten.</span>
+<div class="item">
+<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
+  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
+  <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
+  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
+  <span></span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
+  <input type="submit" value="Senden">
+</form>
+<ul>
+  <li>Das Kitematerial muss nicht mit anderen geteilt werden!</li>
+  <li>Du steigst dort ein wo du das letzte mal aufgehört hast!</li>
+  <li>Zahlbar auch erst nach Vollendung</li>
+  <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
+</ul>
+</div>
+
+<span>Mitzubringen sind:
+Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
+
+<span><strong>Hinweis an die Teilnehmer</strong>
+Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher</span><br><br><br><br>
 </noscript>
