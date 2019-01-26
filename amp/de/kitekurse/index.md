@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
 subtitle: Kurse und Schulung im kitesurfen
 date: 2017-01-05
-modified: 2018-04-18T09:25:00.000Z
+modified: 2019-26-18T09:25:00.000Z
 author: daniel
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
 image:
@@ -54,7 +54,7 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
 
-###### Unsere Qualität zum besten Preis (Saison 2016)  
+###### Unsere Qualität zum besten Preis (Saison 2019)  
 
 10 Stunden Anfängerkurs - **EUR 450,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
@@ -70,7 +70,7 @@ Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Sch
 3 Stunden Schnupperkurs - **EUR 100,-**  
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
 
-Einzelstunden im privaten Unterricht - **EUR 85,-/h**  
+Einzelstunden im privaten Unterricht - **EUR 120,-/h**  
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe  
 
 (Alle Preise gültig pro Person)  

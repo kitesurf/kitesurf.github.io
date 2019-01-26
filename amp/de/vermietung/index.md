@@ -82,7 +82,7 @@ Um sicherzustellen, dass du zu jeder Zeit den passenden Kite bekommst, empfehlen
 
 ##### Haftung für Verleihkites und -boards
 
-Wir empfehlen vor der Anmietung von Kitematerial eine spezielle Versicherung abzuschließen: z.B. Safety Tool vom VDWS
+Wir empfehlen vor der Anmietung von Kitematerial eine spezielle Versicherung abzuschließen: z.B. [**Safety Tool vom VDWS**](https://cp.vdws.de/shop/insurance/VS19796 "Hier geht es zur besten Wassersport-versicherung")
 
 Bei Beschädigung der Verleihkites oder -boards haftet der Mieter im Umfang einer fachgerechten Reparatur durch unsere Fachkräfte. Zusätzlich zu den Reparaturkosten ist ein Wertverlust in Höhe von 20% vom Zeitwert zu bezahlen. Bei Totalverlust des Verleihkites oder -boards haftet der Mieter in vollem Umfang des Zeitwerts.
 
