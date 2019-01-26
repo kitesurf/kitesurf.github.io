@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 buchung: true
 title: "Schnupperkurs im Kiten"
 subtitle: Mit viel Spass das Kitesurfen testen
@@ -9,8 +9,8 @@ author: daniel
 description: "Unsere Kurse im kiten auf Mallorca sofort buchbar"
 image: 
   background: 1.jpg
-  background2:
-  feature: ""
+  background2: 7.webp
+  feature: "flying-friends/l_kite-mallorca_055.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
   picnum: 
