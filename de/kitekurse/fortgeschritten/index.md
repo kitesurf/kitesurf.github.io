@@ -85,6 +85,8 @@ AB 55,00 € pro Stunde<br>
 </ul>
 </div>
 
+{% include carousel.html %}
+
 <span>Mitzubringen sind:
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
 

@@ -62,5 +62,7 @@ published: true
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
 <noscript>
+
+  {% include carousel.html %}
   
 </noscript>

@@ -88,6 +88,9 @@ Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
 </div>
 <H6>
 Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H6>
+
+{% include carousel.html %}
+
 <span>Mitzubringen sind:
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
 
