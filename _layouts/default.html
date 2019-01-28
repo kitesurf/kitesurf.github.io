@@ -69,7 +69,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
         <!-- Multilinguale behandlung durch Google -->
-    <meta http-equiv="language" content="{{ page.lang }}">
 
     <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}" />    
@@ -82,7 +81,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
 
