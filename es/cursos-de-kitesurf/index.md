@@ -5,9 +5,10 @@ subtitle: "Cursos y clases de kitesurf"
 date: 2015-01-23T13:57:10+01:00
 modified: 2018-04-14
 author: daniel
-description: "Aprender kitesurf en Mallorca, con Kite-Mallorca muy simple: cursos y lecciones para principiantes y avanzados. Todo el material incluido: kite, tabla, arnes, neopreno."
+description: "Kitesurf, Kite y Kiteboarding en Mallorca: cursos y clases para todos los niveles en agua plana. Material incluido. Llama y reserva ya"
 image:
   background: 2.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg
@@ -36,7 +37,23 @@ t:
   menutxt8: Shop
   link9: "outfit/"
   menutxt9: Outfit
-  teaser: CURSOS DE KITESURF
+  link20: "cursos-de-kitesurf/iniciacion/"
+  menutxt20: "Cursillo de iniciación"
+  link21: "cursos-de-kitesurf/principiante/"
+  menutxt21: "Principiantes"
+  link22: "cursos-de-kitesurf/avanzado/"
+  menutxt22: "Avanzado"
+  link23: "cursos-de-kitesurf/hidrofoil/"
+  menutxt23: "Hidrofoil"
+  link24: "cursos-de-kitesurf/privado/"
+  menutxt24: "Privado"
+  link30: "alquiler/por-hora"
+  menutxt30: "Alquiler por hora"
+  link31: "alquiler/por-dia"
+  menutxt31: "Alquiler por día"
+  link32: "alquiler/largo-plazo"
+  menutxt32: "Alquiler a largo plazo"
+  teaser: CURSOS DE KITESURF - VEN Y APRENDE CON DANIEL Y GERHARD
 ---
 
 {% include snippets/{{ page.lang }}/kurse.html %}

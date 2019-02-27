@@ -1,15 +1,15 @@
 ---
 layout: default
 buchung: true
-title: "Kite-Mallorca - Sofortbuchung - Tel. +34-696-264729"
+title: "Sofortbuchung - Tel. &#128242;+34-696-264729"
 subtitle: Hier kannst du deinen Kurs sofort Buchen
-date: 2018-03-18T00:00:00.000Z
-modified: 2018-09-20T00:00:00.000Z
+date: 2019-02-21T00:00:00.000Z
+modified: 
 author: daniel
-description: "Unsere Kurse im kiten auf Mallorca sofort buchbar"
+description: "Liste aller unserer Angebote im kiten auf Mallorca sofort buchbar: Kurse Anfänger und Fortgeschritten, Foilen, Materialmiete, Gutscheine"
 image: 
   background: 1.jpg
-  background2:
+  background2: 7.webp
   feature: ""
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
@@ -39,6 +39,20 @@ t:
   menutxt8: "Shop"
   link9: "outfit/"
   menutxt9: "Outfit"
+  link20: "kitekurse/schnupperkurse/"
+  menutxt20: "Schnupperkurse"
+  link21: "kitekurse/anfaengerkurse/"
+  menutxt21: "Anfängerkurse"
+  link22: "kitekurse/fortgeschritten/"
+  menutxt22: "Fortgeschritten"
+  link23: "kitekurse/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitekurse/privatstunden/"
+  menutxt24: "Privatunterricht"
+  link30: "vermietung/pro-stunde-oder-tag/"
+  menutxt30: "Miete pro Stunde oder Tag"
+  link31: "vermietung/langzeit/"
+  menutxt31: "Langzeitmiete"
   teaser: "Hier kannst du sofort bequem reservieren und buchen"
 published: true
 ---

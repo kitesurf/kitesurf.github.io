@@ -8,6 +8,7 @@ author: daniel
 description: "En Kite-Mallorca.com puedes alquilar tu proxima tabla y cometa de kitesurf. Con material de North, Liquid Force, Mutiny, Spleene y All Ride te sentiras muy bien y seguro al practicar este deporte."
 image:
   background: 1.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_047.jpg
@@ -36,7 +37,23 @@ t:
   menutxt8: Shop
   link9: "outfit/"
   menutxt9: Outfit
-  teaser: ALQUILER DE KITE Y TABLA
+  link20: "cursos-de-kitesurf/iniciacion/"
+  menutxt20: "Cursillo de iniciación"
+  link21: "cursos-de-kitesurf/principiante/"
+  menutxt21: "Principiantes"
+  link22: "cursos-de-kitesurf/avanzado/"
+  menutxt22: "Avanzado"
+  link23: "cursos-de-kitesurf/hidrofoil/"
+  menutxt23: "Hidrofoil"
+  link24: "cursos-de-kitesurf/privado/"
+  menutxt24: "Privado"
+  link30: "alquiler/por-hora"
+  menutxt30: "Alquiler por hora"
+  link31: "alquiler/por-dia"
+  menutxt31: "Alquiler por día"
+  link32: "alquiler/largo-plazo"
+  menutxt32: "Alquiler a largo plazo"
+teaser: ALQUILER DE KITE Y TABLA
 ---
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.

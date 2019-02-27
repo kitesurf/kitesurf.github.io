@@ -1,23 +1,23 @@
 ---
-layout: default
+layout: article
 buchung: true
 title: "Privatunterricht im Kitesurfen"
-subtitle: Wo dein Unterricht an erster Stelle stehts
-date: 2018-03-18T00:00:00.000Z
-modified: 2018-09-20T00:00:00.000Z
+subtitle: Wo dein eigener Unterricht an erster Stelle steht
+date: 2019-02-27T00:00:00.000Z
+modified: 
 author: daniel
-description: "Privatunterricht für alle die Exclusiv und sehr schnell ans Ziel wollen"
+description: "&#128081;Unser Privatunterricht stellt dich in den Mittelpunkt wenn es ums kitesurfen geht. Für alle die extra schnell ans Ziel wollen"
 image: 
   background: 1.jpg
-  background2:
-  feature: ""
+  background2: 7.webp
+  feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
   picnum: 
 snippets: null
 lang: de
-"en-url": en/instantly-booking/
-"es-url": es/reserva-inmediata/
+"en-url": en/kitesurfing-lessons/privatlessons/
+"es-url": es/cursos-de-kitesurf/clase-privada/
 "de-url": de/kitekurse/privatstunden/
 t: 
   menu: MENÜ
@@ -45,16 +45,14 @@ t:
   menutxt21: "Anfängerkurse"
   link22: "kitekurse/fortgeschritten/"
   menutxt22: "Fortgeschritten"
-  link23: "kitekurse/hydrofoilkurs/"
+  link23: "kitekurse/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitekurse/privatstunden/"
   menutxt24: "Privatunterricht"
-  link30: "vermietung/pro-stunde"
-  menutxt30: "Miete pro Stunde"
-  link31: "vermietung/pro-tag"
-  menutxt31: "Miete pro Tag"
-  link32: "vermietung/langzeit"
-  menutxt32: "Langzeitmiete"
+  link30: "vermietung/pro-stunde-oder-tag/"
+  menutxt30: "Miete pro Stunde oder Tag"
+  link31: "vermietung/langzeit/"
+  menutxt31: "Langzeitmiete"
   teaser: "Privatunterricht für alle die Exclusiv und sehr schnell ans Ziel wollen"
 published: true
 ---
@@ -64,8 +62,8 @@ published: true
 <noscript><h3>Reservieren und Buchen: Privater Kurs im Kitesurfen</h3>
 <br>
  
-120 € pro Stunde<br><br>
-<span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
+<strong>120 € pro Stunde</strong><br><br>
+<span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist Preis inbegrifen.</span>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse, bitte zweimal kontrolieren" required>
@@ -75,15 +73,17 @@ published: true
   <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
   <input type="submit" value="Senden">
 </form>
-</div>
+
 <H6>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H6>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche unter anderem zum Mieten von Material an anderen Kiteschulen und Kitecenter berechtigt.</H6>
+
+<span><strong>Mitzubringen sind:</strong><br>
+Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
+
+<span><strong>Hinweis an die Teilnehmer</strong><br>
+Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
+</div>
 
 {% include carousel.html %}
 
-<span>Mitzubringen sind:
-Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br>
-
-<span><strong>Hinweis an die Teilnehmer</strong>
-Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span><br><br><br><br>
 </noscript>

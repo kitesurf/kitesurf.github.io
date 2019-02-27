@@ -8,6 +8,7 @@ author: daniel
 description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
 image:
   background: 3.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/ĺ_kite-mallorca_011.jpg
@@ -37,7 +38,23 @@ t:
   menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
-  teaser:
+  link20: "kitekurse/schnupperkurse/"
+  menutxt20: "Schnupperkurse"
+  link21: "kitekurse/anfaengerkurse/"
+  menutxt21: "Anfängerkurse"
+  link22: "kitekurse/fortgeschritten/"
+  menutxt22: "Fortgeschritten"
+  link23: "kitekurse/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitekurse/privatstunden/"
+  menutxt24: "Privatunterricht"
+  link30: "vermietung/pro-stunde"
+  menutxt30: "Miete pro Stunde"
+  link31: "vermietung/pro-tag"
+  menutxt31: "Miete pro Tag"
+  link32: "vermietung/langzeit"
+  menutxt32: "Langzeitmiete"
+teaser:
 ---
 
 ### WINDVORHERSAGEN

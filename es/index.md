@@ -5,9 +5,10 @@ subtitle: "Tu centro internacional de kitesurf"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Si deseas aprender kitesurf, has encontrado la mejor escuela de kite en Mallorca. Profesores titulados por la federación española y la alemana. Cursos para todos los niveles - alquiler de material"
+description: "Kitesurfen, kiteboarding e hidrofoil. Todo el año cursos en todos los niveles y alquiler de material con instructores españoles. Llama ya"
 image:
   background: 5.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_018.jpg
@@ -36,6 +37,22 @@ t:
   menutxt8: shop
   link9: "outfit/"
   menutxt9: Outfit
+  link20: "cursos-de-kitesurf/iniciacion/"
+  menutxt20: "Cursillo de iniciación"
+  link21: "cursos-de-kitesurf/principiante/"
+  menutxt21: "Principiantes"
+  link22: "cursos-de-kitesurf/avanzado/"
+  menutxt22: "Avanzado"
+  link23: "cursos-de-kitesurf/hidrofoil/"
+  menutxt23: "Hidrofoil"
+  link24: "cursos-de-kitesurf/privado/"
+  menutxt24: "Privado"
+  link30: "alquiler/por-hora"
+  menutxt30: "Alquiler por hora"
+  link31: "alquiler/por-dia"
+  menutxt31: "Alquiler por día"
+  link32: "alquiler/largo-plazo"
+  menutxt32: "Alquiler a largo plazo"
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
@@ -46,7 +63,7 @@ KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entr
 
 Tenemos para ti:  
 - cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida),  
-- alquiler de tablas, cometas, etc. para kitesurfistas,  
+- alquiler de material para kitesurfistas,  
 - almacenamiento de tu propio material,  
 - y mucho más...
 

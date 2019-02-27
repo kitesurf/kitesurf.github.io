@@ -2,12 +2,13 @@
 layout: article
 title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
 subtitle: Kurse und Schulung im kitesurfen
-date: 2018-05-26T11:57:10.000Z
-modified: 2018-04-14
+date: 2019-02-21T00:00:00.000Z
+modified: 
 author: daniel
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
 image:
   background: 6.jpg
+  background2: 7.webp
   feature: null
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_026.jpg"
@@ -37,6 +38,20 @@ t:
   menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
+  link20: "kitekurse/schnupperkurse/"
+  menutxt20: "Schnupperkurse"
+  link21: "kitekurse/anfaengerkurse/"
+  menutxt21: "Anfängerkurse"
+  link22: "kitekurse/fortgeschritten/"
+  menutxt22: "Fortgeschritten"
+  link23: "kitekurse/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitekurse/privatstunden/"
+  menutxt24: "Privatunterricht"
+  link30: "vermietung/pro-stunde-oder-tag/"
+  menutxt30: "Miete pro Stunde oder Tag"
+  link31: "vermietung/langzeit/"
+  menutxt31: "Langzeitmiete"
   teaser: Kitekurse
 published: true
 ---

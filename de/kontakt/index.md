@@ -8,6 +8,7 @@ author: daniel
 description: "Kite-Mallorca Kontaktdaten Adresse Telefonnummern."
 image:
   background: 1.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/m_kite-mallorca_051.jpg
@@ -37,6 +38,20 @@ t:
   menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
+  link20: "kitekurse/schnupperkurse/"
+  menutxt20: "Schnupperkurse"
+  link21: "kitekurse/anfaengerkurse/"
+  menutxt21: "Anfängerkurse"
+  link22: "kitekurse/fortgeschritten/"
+  menutxt22: "Fortgeschritten"
+  link23: "kitekurse/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitekurse/privatstunden/"
+  menutxt24: "Privatunterricht"
+  link30: "vermietung/pro-stunde-oder-tag/"
+  menutxt30: "Miete pro Stunde oder Tag"
+  link31: "vermietung/langzeit/"
+  menutxt31: "Langzeitmiete"
   teaser:
 ---
 

@@ -8,6 +8,7 @@ author: daniel
 description:
 image:
   background: 6.jpg
+  background2: 7.webp
   feature:
   teaser:
   thumb: flying-friends/m_kite-mallorca_035.jpg
@@ -36,6 +37,20 @@ t:
   menutxt8: shop
   link9: "outfit/"
   menutxt9: "Outfit"
+  link20: "kitesurfing-lessons/tryout/"
+  menutxt20: "Tryout"
+  link21: "kitesurfing-lessons/beginner/"
+  menutxt21: "Beginner"
+  link22: "kitesurfing-lessons/advanced/"
+  menutxt22: "Advanced"
+  link23: "kitesurfing-lessons/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitesurfing-lessons/privatlessons/"
+  menutxt24: "Privat lessons"
+  link30: "renting/per-hour-or-day/"
+  menutxt30: "Renting per hour or day"
+  link31: "renting/long-term/"
+  menutxt31: "Long term rent"
   teaser:
 ---
 

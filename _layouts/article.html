@@ -6,6 +6,7 @@ layout: default
 	<article class="wrap" itemscope itemtype="https://schema.org/Article">
 	  <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.url }}{{ page.url }}"/>
 		{% if page.image.feature %}
+		<noscript>
 		<div class="page-feature">
 			<div class="page-image" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 				{% if page.amp == true %}
@@ -14,11 +15,12 @@ layout: default
 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
 				{% endif %}
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-				<meta itemprop="url" content="{{ site.url }}/images/{{ page.image.feature }}"></meta>
+				<meta itemprop="url" content="{{ base.url }}/images/{{ page.image.feature }}"></meta>
         		<meta itemprop="width" content="{{ page.image.width }}"></meta>
         		<meta itemprop="height" content="{{ page.image.height }}"></meta>
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
+		</noscript>
 		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="page-title">

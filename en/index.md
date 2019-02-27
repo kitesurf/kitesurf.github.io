@@ -5,10 +5,11 @@ subtitle: "Your International Kitesurf Center"
 date: 2015-11-23
 modified: 2018-04-14
 author: daniel
-description: "Kite-Mallorca, since 2009 official kitesurfing school on Mallorca, joined in the international water sports federation VDWS and since 2012 Registered in the Balearic association of the sailing schools"
+description: "Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
 image:
   background: 2.jpg
-  feature:
+  background2: 7.webp
+  feature: flying-friends/Dennis_with_backroll-inverted_l.jpg
   teaser:
   thumb: flying-friends/l_kite-mallorca_042.jpg
   picnum: 42
@@ -36,6 +37,20 @@ t:
   menutxt8: shop
   link9: "outfit/"
   menutxt9: "Outfit"
+  link20: "kitesurfing-lessons/tryout/"
+  menutxt20: "Tryout course"
+  link21: "kitesurfing-lessons/beginner/"
+  menutxt21: "Beginner"
+  link22: "kitesurfing-lessons/advanced/"
+  menutxt22: "Advanced"
+  link23: "kitesurfing-lessons/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitesurfing-lessons/privatlessons/"
+  menutxt24: "Privat Lessons"
+  link30: "renting/per-hour-and-day"
+  menutxt30: "Reǹting per hour and day"
+  link32: "renting/longterm"
+  menutxt32: "Long term rent"
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
