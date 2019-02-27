@@ -14,7 +14,7 @@ sass:
     style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
 compress_html:
   clippings: [script]
