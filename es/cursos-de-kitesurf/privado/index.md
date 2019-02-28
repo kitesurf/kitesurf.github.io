@@ -1,8 +1,8 @@
 ---
 layout: article
 buchung: true
-title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
-subtitle: "Cursos y clases de kitesurf"
+title: "Curso particular de kitesurf &#128242;+34-696-264729"
+subtitle: "Cursos y clases particulares de kitesurf o kiteboarding"
 date: 2019-02-27T13:57:10+01:00
 modified: 
 author: daniel
