@@ -3,12 +3,13 @@ layout: article
 langrouted: true
 title: "Kite-Mallorca - Your International Kitesurf Center - Tel. +34-696-264729"
 subtitle: "Your International Kiteboarding Center"
-date: 2015-11-23
-modified: 2016-11-20T00:00:00.000Z
+date: 2019-02-27
+modified: 
 author: daniel
-description: "Kiteboarding in Majorca, with Kite-Mallorca easy: kiteboarding lessons for beginners and advanced students. Complete equipment for each student will be provided."
+description: "&#127965;Rent Kiteboarding, kitesurfing and hydrofoil or lessons for all levels at Palma, Alcudia or Pollensa. All gear for each student"
 image:
   background: 4.jpg
+  background2: 7.jpg
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_031.jpg
@@ -33,8 +34,32 @@ t:
   link6:    "disclaimer/"
   menutxt7: "Contact us"
   link7:    "contact-us/"
+  link8: "shop/"
+  menutxt8: shop
+  link9: "outfit/"
+  menutxt9: "Outfit"
+  link20: "kitesurfing-lessons/tryout/"
+  menutxt20: "Tryout course"
+  link21: "kitesurfing-lessons/beginner/"
+  menutxt21: "Beginner"
+  link22: "kitesurfing-lessons/advanced/"
+  menutxt22: "Advanced"
+  link23: "kitesurfing-lessons/hydrofoil/"
+  menutxt23: "Hydrofoil"
+  link24: "kitesurfing-lessons/privatlessons/"
+  menutxt24: "Privat Lessons"
+  link30: "renting/per-hour-and-day"
+  menutxt30: "Reǹting per hour and day"
+  link32: "renting/longterm"
+  menutxt32: "Long term rent"
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
+{% include snippets/{{ page.lang }}/kurse.html %}
+#### You're visiting this site without Javascript active.
+#### Please change first your lenguage if needed 
+[» All informations in English]({{ site.url }}/en "Kite-mallorca.com/en/")  
+[» Alle Informationen auf Deutsch]({{ site.url }}/de "Kite-mallorca.com/de/")  
+[» Todas las informaciones en Español]({{ site.url }}/es "Kite-mallorca.com/es/")  
 
 ### KITESURFING LESSONS
 
@@ -50,10 +75,10 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ###### Our quality for the best price
 
-10 hours beginners course - **EUR 390,-**
+10 hours beginners course - **EUR 450,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
-Lessons on an hourly basis - **EUR 45,-/h**
+Lessons on an hourly basis - **EUR 55,-/h**
 Individual hours for all levels in a small group of 2-4 students
 
 3 hours trial course - **EUR 100,-**
