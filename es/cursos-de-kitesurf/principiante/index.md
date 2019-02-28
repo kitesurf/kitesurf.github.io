@@ -60,7 +60,7 @@ t:
 <h3>Reserva aquí tu curso básico de kitesurf, 10 hs.</h3>
 <br>
  
-<strong>SOLO 55,00 € por hora o 450 por 10 horas(10% descuento)</strong>
+<strong>SOLO 55,00 € por hora o 450 por 10 horas(10% descuento)</strong><br><br>
 
 Con nuestro curso básico de kitesurf te haremos en corto tiempo independiente y seguro en el uso de cometa y tabla.<br><br>
 
@@ -77,7 +77,7 @@ Al fin del curso se puede ampliar el mismo con teoría, test y entrega de la lic
   <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
   <input type="submit" value="Enviar">
 </form>
-<ul title="Otros puntos que destacan en el curso de kitesurf"><strong>¿Qué otros puntos destacados puede esperar?</strong>
+<ul title="Otros puntos que destacan en el curso de kitesurf"><strong>¿Qué otros puntos destacados puedes esperar?</strong>
   <li>Aprender a volar y controlar una cometa jugando en la playa</li>
   <li>Déjate arrastrar por una cometa real por el agua(bodydrag)</li>
   <li>Bodydrag en mar abierto</li>
