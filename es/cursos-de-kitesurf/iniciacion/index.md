@@ -54,7 +54,7 @@ t:
   menutxt31: "Alquiler por día"
   link32: "alquiler/largo-plazo"
   menutxt32: "Alquiler a largo plazo"
-  teaser: CURSOS DE KITESURF
+  teaser: VEN A DIVERTIRTE UN DÍA PROBANDO EL KITESURF CON NOSOTROS
 ---
 
 <div id="bookingKitContainer"></div>
@@ -63,7 +63,7 @@ t:
 <h3>Reserva aquí tu curso de inciación o bautismo en kitesurf</h3>
 <br>
  
-<strong>SOLO 100,00 € 3 horas</strong>
+<strong>SOLO 100,00 € 3 horas en un solo día</strong><br><br>
 
 ¿Siempre has querido iniciarte o probar el kitesurf? Aquí en kite-mallorca.com tenemos el curso perfecto para ti.<br><br>
 

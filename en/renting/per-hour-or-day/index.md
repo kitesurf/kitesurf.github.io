@@ -52,7 +52,7 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser: KITESURFING LESSONS
+  teaser: KITESURFING GEAR RENTAL PER HOUR OR DAY
 ---
 
 <div id="bookingKitContainer"></div>
@@ -70,7 +70,7 @@ t:
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for long-term rental">
+  <input type="hidden" name="_subject" value="Booking request for short-term rental">
   <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the package you're interested for"></textarea>
   <span></span><br><br>
   <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
