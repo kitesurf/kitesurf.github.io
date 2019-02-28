@@ -48,12 +48,10 @@ t:
   menutxt23: "Hidrofoil"
   link24: "cursos-de-kitesurf/privado/"
   menutxt24: "Privado"
-  link30: "alquiler/por-hora"
-  menutxt30: "Alquiler por hora"
-  link31: "alquiler/por-dia"
-  menutxt31: "Alquiler por día"
-  link32: "alquiler/largo-plazo"
-  menutxt32: "Alquiler a largo plazo"
+  link30: "alquiler/por-hora-y-dia/"
+  menutxt30: "Alquiler por hora y día"
+  link31: "alquiler/largo-plazo"
+  menutxt31: "Alquiler a largo plazo"
   teaser: VEN A DIVERTIRTE UN DÍA PROBANDO EL KITESURF CON NOSOTROS
 ---
 
