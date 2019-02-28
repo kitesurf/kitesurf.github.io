@@ -61,7 +61,7 @@ t:
 <h3>Reserva aquí tu curso de perfeccionamiento en kitesurf</h3>
 <br>
  
-<strong>SOLO 55,00 € por hora o 200 por 4 horas(10% descuento)</strong>
+<strong>SOLO 55,00 € por hora o 200 por 4 horas(10% descuento)</strong><br><br>
 
 Este curso está pensado para todos aquellos que ya han tenido contacto con el kitesurf y desean continuar y perfeccionar su técnica.<br><br>
 
@@ -78,11 +78,9 @@ Al fin del curso se puede ampliar el mismo con teoría, test y entrega de la lic
   <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
   <input type="submit" value="Enviar">
 </form>
-<ul title="Otros puntos que destacan en el curso de perfeccionamiento en kitesurf"><strong>¿Qué otros puntos destacados puede esperar?</strong>
-  <li>Aprender a volar y controlar una cometa jugando en la playa</li>
-  <li>Déjate arrastrar por una cometa real por el agua(bodydrag)</li>
-  <li>Bodydrag en mar abierto</li>
-  <li>Apto también para niños a partir de 10 años (en compañía de persona mayor)</li>
+<ul title="Otros puntos que destacan en el curso de perfeccionamiento en kitesurf"><strong>¿Qué otros puntos destacados puedes esperar?</strong>
+  <li>Mejora tus habilidades actuales</li>
+  <li>Recomienza donde dejaste la última vez.</li>
   <li>Pagable incluso después de la finalización</li>
   <li>El material deportivo no tiene que ser compartido con otros alumnos y está incluido en el precio.</li>
 </ul>
