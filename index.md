@@ -56,7 +56,7 @@ t:
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 #### You're visiting this site without Javascript active.
-#### Please change first your lenguage if needed 
+#### Please select your language first if necessary 
 [» All informations in English]({{ site.url }}/en "Kite-mallorca.com/en/")  
 [» Alle Informationen auf Deutsch]({{ site.url }}/de "Kite-mallorca.com/de/")  
 [» Todas las informaciones en Español]({{ site.url }}/es "Kite-mallorca.com/es/")  
