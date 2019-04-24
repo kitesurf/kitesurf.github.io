@@ -12,6 +12,27 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+.navsub>li>a:hover{color:#df061c}
+.sub-menu{position: relative;}
+.navsub{ 
+  visibility: visible;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  width: 80%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition:visibility 0s linear 0.5s,opacity 0.8s linear;
+}
+.sub-menu:focus .navsub,
+.sub-menu:focus-within .navsub,
+.sub-menu:hover .navsub{
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+  transform: translate(-175px, -35px);
+  transition-delay: 0s;
+}
 footer .btn-multi {
   position: absolute;
   z-index: 999;
