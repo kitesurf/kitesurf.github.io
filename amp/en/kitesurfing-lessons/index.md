@@ -51,7 +51,7 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 {% include carousel.html %}  
 
-###### Our quality for the best price (Season 2016)  
+###### Our quality for the best price (Season 2019)  
 
 10 hours beginners course - **EUR 450,-**  
 Beginner lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  

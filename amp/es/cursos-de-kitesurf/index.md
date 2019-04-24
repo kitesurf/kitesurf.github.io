@@ -49,7 +49,7 @@ Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar bue
 
 Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.  
 
-###### Nuestra calidad al mejor precio (temporada 2016)  
+###### Nuestra calidad al mejor precio (temporada 2019)  
 
 Curso completo de 10 horas - **EUR 450,-**  
 Clases de iniciación en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)  
