@@ -2,5 +2,18 @@
   <div class="inner-wrap">
         {% include navigation.html %}
 
+  {% if page.amp == true %}
+      <!--div class="header-top">
+        <svg class="sidenav-btn" on="tap:sidenav.open" role="button" tabindex="0" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="100% 0% -30.5 24.5">
+            <g fill="none" stroke="#aaa" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5px">
+              <line x1="99%" y1="1.25" x2="-29.25" y2="1.25"></line>
+              <line x1="99%" y1="12.25" x2="-29.25" y2="12.25"></line>
+              <line x1="99%" y1="23.25" x2="-29.25" y2="23.25"></line>
+            </g>
+          </svg>
+
+      </div -->
+  {% endif %} 
+
   </div><!-- /.inner-wrap -->
 </header><!-- /.masthead -->
