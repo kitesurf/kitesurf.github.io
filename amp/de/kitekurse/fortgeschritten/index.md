@@ -58,6 +58,7 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
+  menutxt100: "Schließen"
   teaser: "Höhe laufen, sicherer wenden, springen? Hier bist du richtig"
 published: true
 ---

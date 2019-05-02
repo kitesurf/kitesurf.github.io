@@ -57,6 +57,7 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
+  menutxt100: "Close"
   teaser: PICK UP YOUR PORTION OF FUN TRYING OUT KITESURFING IN MAJORCA
 ---
 

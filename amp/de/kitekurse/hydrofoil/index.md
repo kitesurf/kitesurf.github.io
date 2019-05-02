@@ -58,6 +58,7 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
+  menutxt100: "Schließen"
   teaser: "Hydrofoil lernen und mit uns geniessen"
 published: true
 ---

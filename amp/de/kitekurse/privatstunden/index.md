@@ -58,6 +58,7 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
+  menutxt100: "Schließen"
   teaser: "Privatunterricht für alle die Exclusiv und sehr schnell ans Ziel wollen"
 published: true
 ---

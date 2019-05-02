@@ -38,6 +38,25 @@ t:
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros/"
   menutxt7: "Contacta con nosotros"
+  link8: "shop/"
+  menutxt8: Shop
+  link9: "outfit/"
+  menutxt9: Outfit
+  link20: "cursos-de-kitesurf/iniciacion/"
+  menutxt20: "Cursillo de iniciación"
+  link21: "cursos-de-kitesurf/principiante/"
+  menutxt21: "Principiantes"
+  link22: "cursos-de-kitesurf/avanzado/"
+  menutxt22: "Avanzado"
+  link23: "cursos-de-kitesurf/hidrofoil/"
+  menutxt23: "Hidrofoil"
+  link24: "cursos-de-kitesurf/privado/"
+  menutxt24: "Privado"
+  link30: "alquiler/por-hora-y-dia/"
+  menutxt30: "Alquiler por hora y día"
+  link31: "alquiler/largo-plazo"
+  menutxt31: "Alquiler a largo plazo"
+  menutxt100: "Cerrar"
   teaser: "Muchas gracias por habernos escrito, responderemos lo antes posible. Si quieres nos puedes llamar tambien:  
   +34 696 264 729."
 ---

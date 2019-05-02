@@ -107,14 +107,27 @@
 
 .navsub>li>a:hover{color:#df061c}
 
-.sub-menu{position: relative;}
+#sub-menu{
+  position: relative;
+  height: auto;
+}
+#sub-menu>label{
+  height: 1.5;
+  display: block;
+  padding: 4px 4px 8px 2px;
+  color: #2799CE;
+}
+#sub-menu input:checked ~ input{
+  height: 100%;
+  width: 100%;
+}
 .navsub{
   display: block;
   visibility: visible;
   opacity: 0;
   position: absolute;
-  top: 100%;
-  width: 80%;
+  left: 150px;
+  width: 100%;
   border-radius:5px;
   -moz-box-shadow: 0.2rem 0 1rem rgba(0,0,0,0.5);
   -webkit-box-shadow:0.2rem 0 1rem rgba(0,0,0,0.5);

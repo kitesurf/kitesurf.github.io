@@ -57,6 +57,7 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo"
   menutxt31: "Alquiler a largo plazo"
+  menutxt100: "Cerrar"
   teaser: CURSOS DE KITESURF
 ---
 <h3>Reserva aquí tu curso básico de kitesurf, 10 hs.</h3>

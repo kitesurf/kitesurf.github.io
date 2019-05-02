@@ -57,6 +57,7 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo"
   menutxt31: "Alquiler a largo plazo"
+  menutxt100: "Cerrar"
   teaser: CURSOS DE KITESURF PARA APRENDER MÁS - SALTAR- SEÑIR - STRAPLESS
 ---
 
