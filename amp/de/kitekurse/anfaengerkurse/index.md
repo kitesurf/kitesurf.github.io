@@ -71,24 +71,8 @@ AB 55,00 € pro Stunde<br>
 <strong>10 Stunden für 450,- € (10% Mengenrabatt)</strong><br><br>
 <span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
 Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
-
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs für Anfänger">
-  <textarea name="body" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="submit" value="Senden">
-    <div submit-success>
-      <template type="amp-mustache">
-        Deine Anfrage wurde nicht versendet, Bitte drücke nochmal auf Senden.  
-      </template>
-    </div>
-    <div submit-error>
-      <template type="amp-mustache">
-        Vielen Dank für deine Anfrage, wir werden es in den nächsten Stunden bearbeiten und uns bei dir melden.
-      </template>
-    </div>
-  </form>
+<div class="item">
+{% include snippets/{{ page.lang }}/amp-contact.html %}
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Von 0 auf 100 in nur 10 Stunden</li>
   <li>Material muss nicht mit anderen geteilt werden</li>
@@ -103,7 +87,7 @@ Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-
+</div>
 
 {% include carousel.html %}
 
