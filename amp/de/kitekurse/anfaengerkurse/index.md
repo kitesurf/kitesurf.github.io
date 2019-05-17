@@ -71,8 +71,11 @@ AB 55,00 € pro Stunde<br>
 <strong>10 Stunden für 450,- € (10% Mengenrabatt)</strong><br><br>
 <span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
 Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
+<section class="masonry">
 <div class="item">
 {% include snippets/{{ page.lang }}/amp-contact.html %}
+</div>
+</section>
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Von 0 auf 100 in nur 10 Stunden</li>
   <li>Material muss nicht mit anderen geteilt werden</li>
@@ -87,7 +90,7 @@ Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+
 
 {% include carousel.html %}
 
