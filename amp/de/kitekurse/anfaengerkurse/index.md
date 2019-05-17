@@ -75,7 +75,7 @@ Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
 <form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
   <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs für Anfänger">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
+  <textarea name="body" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
   <span></span><br><br>
   <input type="submit" value="Senden">
     <div submit-success>
