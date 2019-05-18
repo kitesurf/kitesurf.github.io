@@ -74,14 +74,6 @@ Du lernst hierbei spielerisch die Basics im Fliegen eines Kites und so viel Kont
 Dieser Kurs ist inhaltlich gleich wie die ersten 3 Stunden eines Grundkurses im Kitesurfen, auf den du dann ohne weiteres aufstocken kannst.<br><br>
 
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Schnupperkurs">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
-  <input type="submit" value="Senden">
-</form>
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Mit einem Kite am Strand spielerisch das fliegen lernen</li>
   <li>Von einem echten Kite sich durch das Wasser ziehen lassen</li>
@@ -89,11 +81,13 @@ Dieser Kurs ist inhaltlich gleich wie die ersten 3 Stunden eines Grundkurses im 
   <li>Jederzeit Upgrade auf 10 Stunden Basic Kurs möglich</li>
   <li>Auch für Kinder ab 8 Jahre, in Begleitung eines Erwachsenen</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+
 
 {% include carousel.html %}

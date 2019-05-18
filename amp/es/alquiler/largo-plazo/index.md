@@ -73,14 +73,6 @@ Para obtener un bono el pago debe hacerse por adelantado.<br></span>
 <li>North(ahora Duotone): Evo en 8m, 10m y 14m - Neo en 7m, 10m y 12m - Juice en 18m, diferentes twintips y Whip(direccional)</li>
 </ul>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Tu correo electrónico, por favor revísalo antes de enviar" required>
-  <input type="hidden" name="_subject" value="Encuesta de reserva para un bono de alquiler a largo plazo">
-  <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y el tipo de bono o toda pregunta que tengas. Nos pondremos en contacto contigo lo antes posible."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
-  <input type="submit" value="Enviar">
-</form>
 <ul><strong>¿Qué otros aspectos destacados me esperan?</strong>
   <li>El material se puede cambiar en cualquier momento, hasta agotar existencias</li>
   <li>El bono de ahorro tiene una validez de 2 años</li>
@@ -88,12 +80,13 @@ Para obtener un bono el pago debe hacerse por adelantado.<br></span>
   <li>Tienes 2 años para consumir tu bono.</li>
   <li>Nuestra barca de rescate está en verano siempre lista en caso de algún percance</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <span>Requisito previo para el alquiler es el alarde de un seguro de responsabilidad para los deportes acuáticos. Por ejemplo el <a href="https://cp.vdws.de/shop/insurance/VS19796" title="Seguro responsabilidad civil y accidentes para kitesurf">Safety Tool del VDWS</a><br>
 Además, navegar en ceñida es muy importante, tanto en vientos fuertes como ligeros.<br>
 También la posibilidad de recoger con Side-Bodydrag su propia tabla después de una caída.<br>
 No se permiten correas de tabla, para protegerse contra las autolesiones.<br>
 Todos son responsables de su material alquilado y cualquier daño a este y a terceros.</span>
 
-</div>
 
 {% include carousel.html %}

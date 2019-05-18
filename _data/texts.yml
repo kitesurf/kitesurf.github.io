@@ -16,6 +16,11 @@ en:
   cookie_dismiss: "Got it, hang loose"
   cookie_link: "More info"
   cookie_href: "/en/disclaimer/"
+  chatlinkTitel: "Book here now"
+  chatlinkEinleitung1: "Do you have some question or you like to book now?"
+  chatlinkEinleitung2: "Choose your preferred app and get in contact direct with us"
+  chatlinktoPhone: "Phone"
+  chatlinktoform: "Contactform"
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
@@ -33,6 +38,11 @@ es:
   cookie_dismiss: "Acepto, hang loose"
   cookie_link: "Leer más"
   cookie_href: "/es/aviso-legal/"
+  chatlinkTitel: "Comunica con nosotros"
+  chatlinkEinleitung1: "Tienes alguna pregunta o deseas reservar ya?"
+  chatlinkEinleitung2: "Elige tu aplicación preferida para ponerte en contacto con nosotros"
+  chatlinktoPhone: "Telefono"
+  chatlinktoform: "Formulario de contacto"
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
@@ -50,3 +60,8 @@ de:
   cookie_dismiss: "Klar, Hang loose!"
   cookie_link: "Mehr Infos"
   cookie_href: "/de/datenschutz/"
+  chatlinkTitel: "Kommunikationszentrale"
+  chatlinkEinleitung1: "Hast du noch Fragen oder möchtest du reservieren oder buchen?"
+  chatlinkEinleitung2: "Wähle deine beliebteste App um mit uns direkt in Kontakt zu tretten"
+  chatlinktoPhone: "Telefon"
+  chatlinktoform: "Kontaktformular"

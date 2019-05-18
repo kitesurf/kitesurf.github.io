@@ -72,20 +72,15 @@ Bei unserem Kurs zum "Foiler" machen wir es dir so einfach wie Möglich. Aus die
 
 Der Kurs findet, nach einer 15 minütigen Vorbereitungszeit am Strand, in der Bucht weiter draußen mit Bootsbegleitung statt, wo wir dich hinbringen und bei dir dabei bleiben.</span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse, bitte zweimal kontrolieren" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für Hydrofoilkurs im Kitesurfen">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
-  <input type="submit" value="Senden">
-</form>
+
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Dauer des Kurses: Minimum 2 Stunden.</li>
   <li>Zahlbar auch erst nach Vollendung</li>
   <li>Ein Lehrer mit Fachkenntnisse steht dir ganz alleine zur Verfügung.</li>
   <li>Wir begleiten dich mit Boot während der gesamten dauer des Kurses</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <H6>
 Sobald du dann selbständig hin und her fährst, solltest Du alleine weiter üben um das erlernte zu festigen.</H6>
 <span><strong>Mitzubringen sind:</strong><br>
@@ -94,7 +89,7 @@ Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Entscheidend für diesen Kurs ist die perfekte Kontrolle des Kites.
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+
 
 {% include carousel.html %}
 

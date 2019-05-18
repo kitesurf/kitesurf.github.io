@@ -71,14 +71,6 @@ published: true
 <li>North(nun Duotone): Evo in 8m, 10m u. 14m - Neo in 7m, 10m u. 12m - Juice in 18m, verschiedene Twintips und Whip</li>
 </ul>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für Miete von Kitesurfmaterial">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
-  <input type="submit" value="Senden">
-</form>
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
 <li>Material kann jederzeit getauscht werden, solange Vorrat reicht</li>
 <li>Zahlbar, was tatsächlich anfällt, auch erst nach dem kiten möglich</li>
@@ -91,9 +83,9 @@ Weiterhin ist dass Höhe halten können sehr wichtig, sowohl bei starkem als auc
 Auch die Fähigkeit das eigene Board nach einem Sturz wieder mit Side-Bodydrag holen zu können.<br>
 Es werden keine Boardleashes gestattet, um vor Selbstverletzungen zu schützen
 Jeder ist für sein gemietetes Material und etwaige Schäden daran und an Dritte verantwortlich.</span><br><br>
-
+</div>
+{% include amp-chatlinks.html %}
 
 <span>Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher bei Daniel, +34 696 264 729</span>
-</div>
 
 {% include carousel.html %}

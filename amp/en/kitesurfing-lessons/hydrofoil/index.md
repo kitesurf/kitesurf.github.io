@@ -70,14 +70,6 @@ In our "Foiling" course we make it as easy as possible for you. That's why most 
 
 The course takes place, after a 15 minute preparation time on the beach, in the bay further out with boat escort, where we take you there and stay with you.</span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for hydrofoil lessons">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for lessons. We'll contact you back soon"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
-  <input type="submit" value="Send">
-</form>
 <ul><strong>What other highlights await me?</strong>
   <li>Payable even after completion of the course</li>
   <li>A teacher with specialist knowledge is at your disposal</li>
@@ -86,11 +78,12 @@ The course takes place, after a 15 minute preparation time on the beach, in the 
 </ul>
 <H6>
 As soon as you drive back and forth on your own, you should continue practicing on your own to consolidate what you have learned.</H6>
+</div>
+{% include amp-chatlinks.html %}
 <span><strong>Please bring:</strong><br>
 bathing clothes, sun protection, sunglasses, drinking water, own material if available</span><br><br>
 <span><strong>Please note:</strong><br>
 Essential for this course is the perfect control of the kite.<br>
 The starting times may vary depending on the wind. We kindly ask you to contact us by telephone at short notice. Telephone Daniel +34 696 264 729.</span>
-</div>
 
 {% include carousel.html %}

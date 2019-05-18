@@ -74,14 +74,6 @@ Como jugando aprenderás de esta manera a controlar y volar una cometa, de tal m
 Este cursillo es equivalente a las 3 primeras horas del curso básico de kitesurf, al cual podrás cambiar en todo momento.
 
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Tu correo electronico" required>
-  <input type="hidden" name="_subject" value="Encuesta de reserva para un curso de iniciacion">
-  <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y la fecha en la cual deseas hacer tu curso. Nos pondremos en contacto contigo lo antes posible."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
-  <input type="submit" value="Enviar">
-</form>
 <ul title="Otros puntos que destacan en el curso de kitesurf"><strong>¿Qué otros puntos destacados puede esperar?</strong>
   <li>Aprender a volar y controlar una cometa jugando en la playa</li>
   <li>Déjate arrastrar por una cometa real por el agua(bodydrag)</li>
@@ -90,12 +82,12 @@ Este cursillo es equivalente a las 3 primeras horas del curso básico de kitesur
   <li>Pagable incluso después de la finalización</li>
   <li>Ampliación al curso básico de 10 horas en cualquier momento</li>
 </ul>
-
+</div>
+{% include amp-chatlinks.html %}
 <span><strong>Debes traer contigo:</strong><br>
 Traje de baño, Crema solar (protección solar), Gafas de sol, Agua de beber</span><br><br>
 
 <span><strong>A tener en cuenta:</strong><br>
 El inicio del curso puede variar según las condiciones climáticas. Se necesita un mínimo de viento. Rogamos pedir confirmación de cita a corto plazo. Teléfono Daniel +34 696 264 729</span>
-</div>
 
 {% include carousel.html %}

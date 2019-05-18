@@ -71,25 +71,18 @@ At the end of the course, you can book in extra theory to gain the official lice
 This is a group course for up to 4 students per teacher.<br>
 The material is complete for each student and included in the final price.</span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for beginner lessons">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for lessons. We'll contact you back soon"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
-  <input type="submit" value="Send">
-</form>
 <ul>
   <li>From zero to 100 in only 10 hours</li>
   <li>Payable even after completion</li>
   <li>You continue where you were the last time</li>
   <li>Material does not have to be shared with others and is included in the price</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <span>Please bring:
 Swimsuit Suncream Sunglasses Drinkwater</span><br>
 
 <span><strong>Please note</strong>
 The start times can shift, depending on the wind. Please ask for confirmation: mobile Daniel +34 696 264 729.</span>
-</div>
 
 {% include carousel.html %}

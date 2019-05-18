@@ -71,14 +71,6 @@ t:
   <li>North(now Duotone): Evo in 8m, 10m and 14m - Neo in 7m, 10m and 12m - Juice in 18m, different twintips and Whip(directional)</li>
 </ul>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for short-term rental">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the package you're interested for"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
-  <input type="submit" value="Send">
-</form>
 <ul>
   <li>Material can be changed at any time, while stocks last.</li>
   <li>Payable even after completion, according to what is real used</li>
@@ -86,6 +78,8 @@ t:
   <li>Neoprene suit and harnesses included</li>
   <li>Our rescue boat is always ready in case of a mishap.</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <span>A prerequisite for rental is the boasting of a water sports liability insurance. For instance <a href="https://cp.vdws.de/shop/insurance/VS19796" title="Accident and liability insurance">Safety Tool from VDWS</a><br>
 In addition, sailing upwind is very important, both in strong and light winds.<br>
 Also the possibility to pick up with Side-Bodydrag your own board after a fall.<br>
@@ -97,6 +91,5 @@ Swimsuit Suncream Sunglasses Drinkwater</span><br><br>
 
 <span><strong>Please note</strong>
 The start times can shift, depending on the wind. Please ask for confirmation: mobile Daniel +34 696 264 729.</span>
-</div>
 
 {% include carousel.html %}

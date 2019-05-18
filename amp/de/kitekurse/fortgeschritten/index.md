@@ -70,26 +70,23 @@ AB 55,00 € pro Stunde<br>
 <strong>4 Stunden für 200,- € (10% Mengenrabatt)</strong><br><br>
 <span>Dieser Auffrischungskurs im Kitesurfen ist für alle die Gedacht, welche schon Kontakt hatten mit dem Kitesurfen und sich weiter entwickeln möchten.</span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs für Fortgeschritten">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
-  <input type="submit" value="Senden">
-</form>
+
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Das Kitematerial muss nicht mit anderen geteilt werden!</li>
   <li>Du steigst dort ein wo du das letzte mal aufgehört hast!</li>
   <li>Zahlbar auch erst nach Vollendung</li>
   <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
 </ul>
+</div>
+
+{% include amp-chatlinks.html %}
+
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher</span>
-</div>
+
 
 {% include carousel.html %}
 

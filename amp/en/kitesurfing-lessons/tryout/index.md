@@ -73,14 +73,6 @@ You will learn the basics of flying a kite and gaining control over it, so that 
 In terms of content, this trial course is the same as the first 3 hours of our full beginners course in kitesurfing, to which you can easily upgrade at anytime.
 </span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for tryout course">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for the tryout. We'll contact you back soon"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
-  <input type="submit" value="Send">
-</form>
 <ul>
   <li>Flying a trainer kite on the beach</li>
   <li>Theory of wind and safety</li>
@@ -91,11 +83,12 @@ In terms of content, this trial course is the same as the first 3 hours of our f
   <li>Payable even after completion</li>
   <li>Our teachers speak English, German, Spanish, Italian, Catalan, Finnish, Dutch</li>
 </ul>
+</div>
+{% include amp-chatlinks.html %}
 <span>Please bring:
 Swimsuit Suncream Sunglasses Drinkwater</span><br>
 
 <span><strong>Please note</strong>
 The start times can shift, depending on the wind. Please ask for confirmation: mobile Daniel +34 696 264 729.</span>
-</div>
 
 {% include carousel.html %}

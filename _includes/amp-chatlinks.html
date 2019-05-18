@@ -1,16 +1,16 @@
-
-<h4>Kommunikationszentrale</h4>
+  {% assign lang = site.data.texts[page.lang] %}
+<h4>{{ lang.chatlinkTitel }}</h4>
 <div class="item">
-  <span>Hast du noch fragen oder möchtest du Reservieren oder Buchen?</span><br>
-  <span>Wähle deine beliebteste App um mit uns direkt in Kontakt zu tretten</span>
+  <span>{{ lang.chatlinkEinleitung1 }}</span><br>
+  <span>{{ lang.chatlinkEinleitung2 }}</span>
   <ul>
     <li><a href="mailto:team@kite-mallorca.com" class="btn-circle" target="_blank" title="phone"><i class="icomoon icon icon-mail4"></i> E-Mail</a></li>
-    <li><a href="tel:+34696264729" class="btn-circle" target="_blank" title="phone"><i class="icomoon icon icon-phone"></i> Telefon</a></li>
+    <li><a href="tel:+34696264729" class="btn-circle" target="_blank" title="phone"><i class="icomoon icon icon-phone"></i> {{ lang.chatlinktoPhone }}</a></li>
     <li><a href="https://telegram.im/@kite_mallorca" class="btn-circle" target="_blank" title="Telegram"><i class="icomoon icon icon-telegram"></i> Telegram</a></li>
     <li><a href="imessage://kitesurfdaniel@gmail.com" class="btn-circle" target="_blank" title="iMessage"><i class="icomoon icon icon-apple"></i> iMessage</a></li>
     <li><a href="https://wa.me/34696264729" class="btn-circle" target="_blank" title="WhatsApp"><i class="icomoon icon icon-whatsapp"></i> WhatsApp</a></li>    
     <li><a href="https://m.me/kitesurfmallorca" class="btn-circle" target="_blank" title="Messenger"><i class="icomoon icon icon-messenger"></i> FB-Messenger</a></li>
-    <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link7 }}" title="{{ page.t.menutxt7 }}" class="btn-circle" target="_blank" ><i class="icomoon icon icon-mail4"></i> Kontaktformular</a></li>
+    <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link7 }}" title="{{ page.t.menutxt7 }}" class="btn-circle" target="_blank" ><i class="icomoon icon icon-mail4"></i> {{ lang.chatlinktoform }}</a></li>
   </ul>
 
 </div>

@@ -72,14 +72,6 @@ En el precio del curso está incluido el material completo necesario.<br>
 Al fin del curso se puede ampliar el mismo con teoría, test y entrega de la licencia de la asosiciación international de kitesurf VDWS, necesaria para alquilar material en otros centros de kitesurf.<br>
 
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Tu correo electronico" required>
-  <input type="hidden" name="_subject" value="Encuesta de reserva para un curso de principiantes">
-  <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y la fecha en la cual deseas hacer tu curso. Nos pondremos en contacto contigo lo antes posible."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
-  <input type="submit" value="Enviar">
-</form>
 <ul title="Otros puntos que destacan en el curso de kitesurf"><strong>¿Qué otros puntos destacados puedes esperar?</strong>
   <li>Aprender a volar y controlar una cometa jugando en la playa</li>
   <li>Déjate arrastrar por una cometa real por el agua(bodydrag)</li>
@@ -88,12 +80,12 @@ Al fin del curso se puede ampliar el mismo con teoría, test y entrega de la lic
   <li>Pagable incluso después de la finalización</li>
   <li>El material deportivo no tiene que ser compartido con otros alumnos y está incluido en el precio.</li>
 </ul>
-
+</div>
+{% include amp-chatlinks.html %}
 <span><strong>Debes traer contigo:</strong><br>
 Traje de baño, Crema solar (protección solar), Gafas de sol, Agua de beber</span><br><br>
 
 <span><strong>A tener en cuenta:</strong><br>
 El inicio del curso puede variar según las condiciones climáticas. Se necesita un mínimo de viento. Rogamos pedir confirmación de cita a corto plazo. Teléfono Daniel +34 696 264 729</span>
-</div>
 
 {% include carousel.html %}

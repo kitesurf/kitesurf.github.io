@@ -69,23 +69,17 @@ published: true
 <strong>120 € pro Stunde</strong><br><br>
 <span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist Preis inbegrifen.</span>
 <div class="item">
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse, bitte zweimal kontrolieren" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für Privatstunden im Kitesurfen">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
-  <input type="submit" value="Senden">
-</form>
-
 <H6>
 Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche unter anderem zum Mieten von Material an anderen Kiteschulen und Kitecenter berechtigt.</H6>
+</div>
+
+{% include amp-chatlinks.html %}
 
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
 <span><strong>Hinweis an die Teilnehmer</strong><br>
 Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+
 
 {% include carousel.html %}
