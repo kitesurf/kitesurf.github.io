@@ -66,15 +66,12 @@ published: true
     <a href="//shop.spreadshirt.de/kite-mallorca">kite-mallorca</a>
 </div>
 
-<amp-script>
-    var spread_shop_config = {
+<amp-script type="text/javascript"
+        src="//shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
+            var spread_shop_config = {
         shopName: 'kite-mallorca',
         locale: 'de_DE',
         prefix: '//shop.spreadshirt.de',
         baseId: 'myShop'
     };
-</amp-script>
-
-<amp-script type="text/javascript"
-        src="//shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
 </amp-script>
