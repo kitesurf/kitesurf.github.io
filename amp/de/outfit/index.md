@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 amp: true
 amp-mustache: false
 amp-form: false
@@ -63,20 +63,9 @@ published: true
 ---
 
 In unserem Shop für Outfits kannst du Kleidung und Accesoirs mit Designs rund ums Thema Kitesurfen finden. 
-Der Shop nur über Javascript dargestellt und dieser funktioniert leider nicht auf AMP—Seiten wie dieser.
+Der Shop wird nur über Javascript dargestellt. Dieser funktioniert leider nicht auf AMP—Seiten.
 
-Hier findest du aber den Link zum Shop auf der normalen Webseite:
-
+Hier hast du den Link zum Shop auf der normalen Webseite:
 <div id="myShop">
-    <a href="//shop.spreadshirt.de/kite-mallorca">kite-mallorca</a>
+    <a href="//shop.spreadshirt.de/kite-mallorca">kite-mallorca Outfits</a>
 </div>
-
-<amp-script type="text/javascript"
-        src="//shop.spreadshirt.de/shopfiles/shopclient/shopclient.nocache.js">
-            var spread_shop_config = {
-        shopName: 'kite-mallorca',
-        locale: 'de_DE',
-        prefix: '//shop.spreadshirt.de',
-        baseId: 'myShop'
-    };
-</amp-script>
