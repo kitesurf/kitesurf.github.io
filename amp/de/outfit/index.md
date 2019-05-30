@@ -4,7 +4,7 @@ amp: true
 amp-mustache: false
 amp-form: false
 amp-iframe: false
-amp-script: true
+amp-script: false
 shop: true
 title: "Kite-Mallorca - Shop - Spass und Freude mit Fanartikel und Fashion"
 subtitle: Viel Spass beim stöbern
