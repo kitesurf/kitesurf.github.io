@@ -68,30 +68,16 @@ published: true
  
 <strong>NUR 100,00 € für 3 Stunden an einem Tag</strong><br><br>
 
+<button class="btn">
+<a href="#chatlinks">Kontakt</a>
+</button>
+
 Wenn du schon immer mal das Kitesurfen lernen wolltest, du aber noch unsicher bist ob dieser Sport für dich was ist, dann ist unser Schnupperkurs genau dass richtige für dich.<br>
 Hiermit kannst du an einem einzigen Tag testen wie es sich anfühlt an einem richtigen, echten Kite zu hängen und sich von diesem durch das Wasser ziehen zu lassen.<br>
 Du lernst hierbei spielerisch die Basics im Fliegen eines Kites und so viel Kontrolle über diesen zu erlangen, daß du zum Schluss dieses Kurses in der Lage sein wirst, wie ein Fisch durchs Wasser zu zischen und somit die Faszination die das Kitesurfen auslöst am eigenen Körper spürst.<br>
 Dieser Kurs ist inhaltlich gleich wie die ersten 3 Stunden eines Grundkurses im Kitesurfen, auf den du dann ohne weiteres aufstocken kannst.<br><br>
 
-<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Infos über Kitekurse od. -Vermietung auf Mallorca">
-  <textarea name="body" placeholder="Einfach hier direkt an uns schreiben!"></textarea>
-  <span>Teile uns deinen Namen und deine Handynummer mit und du kommst in unser Verteiler für Wind- und Spotinfos für die Dauer deines Aufenthaltes. Dieser Service ist kostenlos und wird über Whatsapp oder SMS getätigt.</span><br><br>
-  <h5>Bitte zweimal auf Senden drücken für korrekten Versand!</h5>
-  <input type="submit" value="Senden">
-    <div submit-success>
-      <template type="amp-mustache">
-        Deine Anfrage wurde nicht versendet, Bitte drücke nochmal auf Senden.  
-      </template>
-    </div>
-    <div submit-error>
-      <template type="amp-mustache">
-        Vielen Dank für deine Anfrage, wir werden es in den nächsten Stunden bearbeiten und uns bei dir melden.
-      </template>
-    </div>
 
-</form>
 
 <div class="item">
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
