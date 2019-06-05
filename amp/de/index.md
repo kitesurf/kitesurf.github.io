@@ -11,8 +11,11 @@ modified: 2018-04-18T09:26:00.000Z
 author: daniel
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
 image:
-  background: 5.jpg
-  feature: null
+  background:
+  background2:
+  feature: "flying-friends/m_kite-mallorca_008.jpg"
+  width: 1280px
+  height: 960px
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_058.jpg"
   picnum: 58
@@ -56,7 +59,7 @@ t:
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
   menutxt100: "Schließen"
-  teaser: "Komm und lern mit uns die ersten Schritte im Kitesurfen!"
+  teaser: "KITESURFEN AUF MALLORCA... BEI UNS BIST DU RICHTIG!"
 published: true
 ---
 

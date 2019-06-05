@@ -21,6 +21,7 @@ en:
   chatlinkEinleitung2: "Choose your preferred app and get in contact direct with us"
   chatlinktoPhone: "Phone"
   chatlinktoform: "Contactform"
+  chatlinktoContact: "Contact"
 
 es:
   chatbuttontext: "Clic para chat, llamar o correo electronico"
@@ -43,6 +44,7 @@ es:
   chatlinkEinleitung2: "Elige tu aplicación preferida para ponerte en contacto con nosotros"
   chatlinktoPhone: "Telefono"
   chatlinktoform: "Formulario de contacto"
+  chatlinktoContact: "Contacto"
 
 de:
   chatbuttontext: "Klicke hier für Chat, Anruf oder E-Mail mit uns"
@@ -65,3 +67,4 @@ de:
   chatlinkEinleitung2: "Wähle deine beliebteste App um mit uns direkt in Kontakt zu tretten"
   chatlinktoPhone: "Telefon"
   chatlinktoform: "Kontaktformular"
+  chatlinktoContact: "Kontakt"
