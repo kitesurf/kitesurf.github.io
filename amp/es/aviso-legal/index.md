@@ -71,7 +71,7 @@ Kitesurf Mallorca S.L.
 C.I.F.: B57774572
 Dirección: Calle del Greco nº19, 07400 Alcudia (Islas Baleares)
 Teléfono: +34 696 264 729
-E-Mail: <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>
+E-Mail: <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@ofni</span>
 
 Kitesurf Mallorca S.L. es propietaria del nombre de dominio y páginas en Internet a
 las que se accede a través de la dirección https://kite-mallorca.com
@@ -113,4 +113,4 @@ Kitesurf Mallorca S.L.
 Calle del Greco nº19
 07400 Alcudia (Islas Baleares)
 
-o bien enviando un E-Mail a <span style="unicode-bidi:bidi-override; direction: rtl;" align="left">moc.acrollam-etik@ofni</span>
+o bien enviando un E-Mail a <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@ofni</span>
