@@ -1,8 +1,8 @@
 ---
-layout: articleamp-mustache: true
-amp-form: true
-
+layout: article
 amp: true
+amp-mustache: true
+amp-form: true
 sitemap: false
 title: "Kite-Mallorca - Friends - Sabrina and Niklas"
 subtitle: 
