@@ -1,5 +1,7 @@
 ---
-layout: article
+layout: articleamp-mustache: true
+amp-form: true
+
 amp: true
 sitemap: false
 title: "Kite-Mallorca - Friends - Roman"
