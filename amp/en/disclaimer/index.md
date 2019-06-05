@@ -1,5 +1,8 @@
 ---
 layout: article
+amp: true
+amp-mustache: true
+amp-form: true
 title: "Kite-Mallorca - Disclaimer - Phone +34-696-264729"
 subtitle: "Disclaimer"
 date: 2017-01-05
