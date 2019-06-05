@@ -14,8 +14,8 @@ image:
   background: 1.jpg
   background2: 7.webp
   feature: "flying-friends/l_kite-mallorca_048.jpg"
-  width: 1200px
-  height: 675px
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_047.jpg
   picnum: 47

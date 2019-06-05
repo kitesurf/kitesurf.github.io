@@ -4,6 +4,7 @@ amp: true
 amp-mustache: true
 amp-form: true
 amp-iframe: true
+amp-video: true
 title: "Kite-Mallorca - Wind - Tel. +34-696-264729"
 subtitle: "Vorhersagen zum Wind und Wetter"
 date: 2017-01-05
