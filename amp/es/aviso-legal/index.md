@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: article
 title: "Kite-Mallorca - Aviso legal - Tel. +34-696-264729"
 subtitle: "Aviso legal"
 date: 2017-01-05
