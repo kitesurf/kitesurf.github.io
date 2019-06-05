@@ -12,7 +12,9 @@ author: daniel
 description: "Kite-Mallorca Kontaktdaten Adresse Telefonnummern."
 image:
   background: 1.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_038.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/m_kite-mallorca_051.jpg
   picnum: 51

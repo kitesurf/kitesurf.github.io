@@ -12,7 +12,9 @@ author: daniel
 description: "Nehme hier Kontakt mit dem KITE-MALLORCA Team auf und schreibe uns deine Fragen!"
 image:
   background: 2.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_038.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_067.jpg
   picnum: 67

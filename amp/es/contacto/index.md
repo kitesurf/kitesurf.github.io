@@ -12,7 +12,9 @@ author: daniel
 description: "Datos de contacto y ubicación de Kite-Mallorca. Tambien encuentras aquí una pequeña lista de los hoteles más cercanos."
 image:
   background: 1.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_038.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_022.jpg
   picnum: 22

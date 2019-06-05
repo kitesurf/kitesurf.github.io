@@ -12,7 +12,9 @@ author: daniel
 description: "Aprender kitesurf en Mallorca, con Kite-Mallorca muy simple: cursos y lecciones para principiantes y avanzados. Todo el material incluido: kite, tabla, arnes, neopreno."
 image:
   background: 2.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_028.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg
   picnum: 37

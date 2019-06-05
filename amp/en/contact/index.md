@@ -12,7 +12,9 @@ author: daniel
 description: "Kite-Mallorca's international kitesurf center contact details and ubication on the island"
 image:
   background: 5.jpg
-  feature: null
+  feature: "flying-friends/m_kite-mallorca_038.jpg"
+  width: 1280px
+  height: 960px
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_001.jpg"
   picnum: 1

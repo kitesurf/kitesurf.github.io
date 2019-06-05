@@ -12,7 +12,9 @@ author: daniel
 description: "Bei Kite-Mallorca Kites und Boards von North, Liquid Force, Mutiny, Spleene und All Ride mieten und ausleihen. Trapez und Neo sind auch dabei"
 image:
   background: 3.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_031.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_002.jpg
   picnum: 02

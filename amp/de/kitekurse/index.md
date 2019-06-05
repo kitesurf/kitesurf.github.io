@@ -12,7 +12,9 @@ author: daniel
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
 image:
   background: 6.jpg
-  feature: null
+  feature: "flying-friends/m_kite-mallorca_028.jpg"
+  width: 1280px
+  height: 960px
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_026.jpg"
   picnum: 26
