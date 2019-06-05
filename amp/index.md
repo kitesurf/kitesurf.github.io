@@ -13,7 +13,9 @@ author: daniel
 description: "Kiteboarding in Majorca, with Kite-Mallorca easy: kiteboarding lessons for beginners and advanced students. Complete equipment for each student will be provided."
 image:
   background: 4.jpg
-  feature:
+  feature: "flying-friends/m_kite-mallorca_008.jpg"
+  width: 1280px
+  height: 960px
   teaser:
   thumb: flying-friends/l_kite-mallorca_031.jpg
   picnum: 31

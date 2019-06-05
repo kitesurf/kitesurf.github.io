@@ -13,7 +13,7 @@ description: "Buche hier deinen Schnuperkurs im kiten, kitesurfen - kiteboarden 
 image: 
   background: 1.jpg
   background2: 7.webp
-  feature: "flying-friends/l_kite-mallorca_055.jpg"
+  feature: "flying-friends/l_kite-mallorca_008.jpg"
   width: 1200px
   height: 675px
   teaser: null
