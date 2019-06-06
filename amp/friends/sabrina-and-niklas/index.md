@@ -13,6 +13,8 @@ dataFile: sabrina-and-niklas
 image:
   background: 4.jpg
   feature: sabrina-and-niklas.jpg
+  width: 1200px
+  height: 675px
   title: Sabrinas first ride... Yeah!!!
   teaser: 
   thumb: 

@@ -13,6 +13,8 @@ dataFile:
 image:
   background: 3.jpg
   feature:
+  width: 1200px
+  height: 675px
   title:
   teaser: 
   thumb: 

@@ -13,6 +13,8 @@ dataFile: roman
 image:
   background: 3.jpg
   feature: roman.jpg
+  width: 1200px
+  height: 675px
   title: Romans Trommelwerk... Yeah!!!
   teaser: 
   thumb: 
