@@ -1,8 +1,8 @@
 ---
-layout: article
+layout: gallery
 amp: true
-amp-mustache: true
-amp-form: true
+amp-mustache: false
+amp-form: false
 sitemap: false
 title: "/Kite-Mallorca - Friends - Horst"
 subtitle:

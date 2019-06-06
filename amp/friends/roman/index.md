@@ -1,8 +1,8 @@
 ---
-layout: articleamp-mustache: true
-amp-form: true
-
+layout: gallery
 amp: true
+amp-mustache: false
+amp-form: false
 sitemap: false
 title: "Kite-Mallorca - Friends - Roman"
 subtitle: 
