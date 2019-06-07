@@ -8,20 +8,29 @@ layout: compress
 <html ⚡ lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+    {% if page.amp-mustache == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-mustache-0.2.js">{% endif %}
+    {% if page.amp-form == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">{% endif %}
+    {% if page.amp-iframe == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-iframe-0.1.js">{% endif %}
+    {% if page.amp-video == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-video-0.1.js">{% endif %}
+    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
+    <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preconnect dns-prefetch" href="https://media-cdn.tripadvisor.com/" crossorigin>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-
-    {% include amp-inline-css.html %}
-
     {% if page.amp-mustache == true %}<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>{% endif %}
     {% if page.amp-form == true %}<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>{% endif %}
     {% if page.amp-iframe == true %}<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>{% endif %}
     {% if page.amp-video == true %}<script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>{% endif %}
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    {% include amp-inline-css.html %}
+
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
     <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
@@ -35,7 +44,6 @@ layout: compress
     <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
     <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
 
 
@@ -43,7 +51,6 @@ layout: compress
 
     {% include structured-data.html %}
 
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 {% else %}
 <html lang="{{ page.lang }}" class="no-js">
