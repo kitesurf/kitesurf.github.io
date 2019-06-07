@@ -3,7 +3,7 @@ layout: article
 amp: true
 amp-mustache: true
 amp-form: true
-amp-iframe: true
+amp-iframe: false
 title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
 subtitle: Dein internationaler Kitesurfcenter
 date: 2017-01-05T00:00:00.000Z
@@ -77,8 +77,10 @@ Wir haben für dich:
 - Einlagerung von Material für Gäste
 - Und vieles Mehr...
 
+<!---
 #### Unsere Webcam
 {% include webcamIframe.html %} 
+-->
 
 #### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
