@@ -59,13 +59,13 @@ t:
   teaser:
 ---
 
-#### WEBCAM 
-
-{% include webcam.html %}
-
-### WINDVORHERSAGEN
+#### WINDVORHERSAGEN
 
 {% include wind_widget.html %}
+
+#### WEBCAM 
+
+{% include webcamIframe.html %} 
 
 
 

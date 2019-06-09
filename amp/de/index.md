@@ -63,8 +63,9 @@ t:
 published: true
 ---
 
+{% include snippets/{{ page.lang }}/kurse.html %}
 
-### KITEKURSE, MIETE & MEHR
+### KITESURFKURSE, MIETE & MEHR
 
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
 Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
@@ -77,11 +78,6 @@ Wir haben für dich:
 - Einlagerung von Material für Gäste
 - Und vieles Mehr...
 
-<!---
-#### Unsere Webcam
-{% include webcamIframe.html %} 
--->
-
 #### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
 
@@ -93,7 +89,8 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 ###### Unsere Qualität zum besten Preis  
 
-10 Stunden Anfängerkurs - **EUR 450,-**  
+10 Stunden Anfängerkurs - **EUR 450,-** <br>
+**Pro Person ein Kite!**<br>
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 
 4 Stunden Refreshkurs - **EUR 200,-**  
