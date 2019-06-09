@@ -61,16 +61,17 @@ published: true
 
 ### [**KITEKURSE**]({{ site.url }}/de/kitekurse "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung "Vermietung von Kitesurf Material") & MEHR
 
+Wir haben für dich:  
+- Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) 
+- VDWS geprüfte deutsche und österreichische Kitelehrer
+- Miete von Kites, Boards, Trapez, einfach alles für Fortgeschrittene
+- Einlagerung von Material für Gäste
+- Und vieles Mehr...
+
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
 Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
 Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
 KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter seit einem knappen Jahrzehnt hier tätig.
-
-Wir haben für dich:  
-- Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) Deutsche und Österreichische Kitelehrer
-- Miete von Kites, Boards, Trapez, einfach alles für Fortgeschrittene
-- Einlagerung von Material für Gäste
-- Und vieles Mehr...
 
 #### Unsere Webcam bei Youtube als Live Stream
 {% include webcamIframe.html %} 
