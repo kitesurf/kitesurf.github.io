@@ -13,7 +13,7 @@ description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Sch
 image:
   background:
   background2:
-  feature: "flying-friends/m_kite-mallorca_008.jpg"
+  feature: "flying-friends/xl_kite-mallorca_001.jpg"
   width: 1280px
   height: 960px
   teaser: null
