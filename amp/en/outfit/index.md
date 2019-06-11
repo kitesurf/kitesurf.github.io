@@ -11,7 +11,9 @@ description: "Own shop from kite-mallorca for Fanartikel und Fashion with 30 day
 image: 
   background: 1.jpg
   background2:
-  feature: ""
+  feature: "outfits_sample.jpg"
+  width: "360"
+  height: "360"     
   teaser: null
   thumb: outfit/t-shirt.jpg
   picnum: 

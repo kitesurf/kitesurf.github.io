@@ -11,7 +11,9 @@ description: "Nuestra tienda de moda para compartir nuestro estilo de vida. Cami
 image: 
   background: 1.jpg
   background2:
-  feature: ""
+  feature: "outfits_sample.jpg"
+  width: "360"
+  height: "360"     
   teaser: null
   thumb: outfit/t-shirt.jpg
   picnum:
