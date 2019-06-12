@@ -61,6 +61,8 @@ t:
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
 ---
 
+{% include snippets/{{ page.lang }}/kurse.html %}
+
 ### CURSOS, ALQUILER Y MAS EN KITESURF
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.

@@ -4,6 +4,7 @@ amp: true
 amp-mustache: true
 amp-form: true
 amp-iframe: true
+amp-instagram: true
 langrouted:
 title: "Kite-Mallorca - Your International Kitesurf Center - Tel. +34-696-264729"
 subtitle: "Your International Kiteboarding Center"
@@ -72,6 +73,9 @@ As an absolute beginner you normally need about 10 hours of lessons to control t
 {% include carousel.html %}
 
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
+
+#### Nuestro Instagram
+{% include instagram.html %} 
 
 ###### Our quality for the best price
 

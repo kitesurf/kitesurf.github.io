@@ -4,6 +4,7 @@ amp: true
 amp-mustache: true
 amp-form: true
 amp-iframe: false
+amp-instagram: true
 title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
 subtitle: Dein internationaler Kitesurfcenter
 date: 2017-01-05T00:00:00.000Z
@@ -77,7 +78,10 @@ Wir haben für dich:
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
 Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
 Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
-KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter seit einem knappen Jahrzehnt hier tätig.
+KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter schon seit einem knappen Jahrzehnt hier tätig.
+
+#### Nuestro Instagram
+{% include instagram.html %} 
 
 #### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  

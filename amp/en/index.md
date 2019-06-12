@@ -4,6 +4,7 @@ amp: true
 amp-mustache: true
 amp-form: true
 amp-iframe: true
+amp-instagram: true
 title: "Kite-Mallorca - Your International Kitesurf Center - Phone +34-696-264729"
 subtitle: "Your International Kitesurf Center"
 date: 2017-01-05
@@ -60,6 +61,8 @@ t:
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 
+{% include snippets/{{ page.lang }}/kurse.html %}
+
 ### KITEBOARDING LESSONS, RENTING & MORE
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
@@ -70,8 +73,8 @@ We've for you:
 - Storage for our guests,  
 - and much more...
 
-#### Our Webcam
-{% include webcamIframe.html %} 
+#### Our Instagram
+{% include instagram.html %} 
 
 #### Kiteboarding and kitesurfing courses
 As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
