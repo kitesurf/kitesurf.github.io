@@ -4,6 +4,7 @@ amp: true
 amp-mustache: true
 amp-form: true
 amp-iframe: true
+amp-instagram: true
 title: "Kite-Mallorca - Tu centro internacional de kitesurf - Tel. +34-696-264729"
 subtitle: "Tu centro internacional de kitesurf"
 date: 2017-01-05
@@ -70,8 +71,8 @@ Tenemos para ti:
 - almacenamiento de tu propio material,  
 - y mucho más...
 
-#### Nuestra cámara web
-{% include webcamIframe.html %} 
+#### Nuestro Instagram
+{% include instagram.html %} 
 
 #### Cursos de kitesurf
 
