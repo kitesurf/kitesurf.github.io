@@ -12,9 +12,9 @@ author: daniel
 description: "Si deseas aprender kitesurf, has encontrado la mejor escuela de kite en Mallorca. Profesores titulados por la federación española y la alemana. Cursos para todos los niveles - alquiler de material"
 image:
   background: 5.jpg
-  feature: "flying-friends/m_kite-mallorca_008.jpg"
-  width: 1280px
-  height: 960px
+  feature: "flying-friends/xl_kite-mallorca_001.jpg"
+  width: 400px
+  height: 267px
   teaser:
   thumb: flying-friends/l_kite-mallorca_018.jpg
   picnum: 18
