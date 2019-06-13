@@ -65,8 +65,6 @@ t:
 
 ### CURSOS, ALQUILER Y MAS EN KITESURF
 
-KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
-
 Tenemos para ti:  
 - cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida),  
 - alquiler de tablas, cometas, etc. para kitesurfistas,  
@@ -84,9 +82,12 @@ Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar bue
 
 Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.
 
+KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
+
 ##### Nuestra calidad al mejor precio
 
-Curso completo de 10 horas - **EUR 450,-**
+Curso completo de 10 horas - **EUR 450,-**<br>
+Cada alumno un equipo completo!
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
 Clases por horas sueltas - **EUR 55,-/h**
