@@ -75,13 +75,13 @@ Wir haben für dich:
 - Einlagerung von Material für Gäste
 - Und vieles Mehr...
 
+#### Unser Instagram
+{% include instagram.html %} 
+
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
 Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
 Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
 KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter schon seit einem knappen Jahrzehnt hier tätig.
-
-#### Nuestro Instagram
-{% include instagram.html %} 
 
 #### Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
