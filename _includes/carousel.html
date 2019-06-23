@@ -26,6 +26,7 @@
                       <span itemprop="name">{{ item.person }}</span>
               {% if page.amp == true %}
               <div>
+
               <amp-img class="avatar" src="{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
               </div>
               {% else %}
@@ -53,19 +54,19 @@
               </div>
           </div> 
         {% if forloop.index == 1 %}
-        <a class="icomoon icon icon-arrow_left" href="#target-item-{{ forloop.length }}"></a>
+        <a class="icomoon icon arrow icon-arrow_left" href="#target-item-{{ forloop.length }}"></a>
         {% else %}
-        <a class="icomoon icon icon-arrow_left" href="#target-item-{{ forloop.index | minus:1 }}"></a>
+        <a class="icomoon icon arrow icon-arrow_left" href="#target-item-{{ forloop.index | minus:1 }}"></a>
         {% endif %}
         {% if forloop.last == true %}
-        <a class="icomoon icon icon-arrow_right" href="#target-item-1"></a>
+        <a class="icomoon icon arrow icon-arrow_right" href="#target-item-1"></a>
         {% else %}
-        <a class="icomoon icon icon-arrow_right" href="#target-item-{{ forloop.index | plus:1 }}"></a>
+        <a class="icomoon icon arrow icon-arrow_right" href="#target-item-{{ forloop.index | plus:1 }}"></a>
         {% endif %}
   </div>
       {% endfor %}
 </div>
 <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
- Rated <span itemprop="ratingValue">4.5</span>/5
- based on <span itemprop="reviewCount">52</span> customer reviews on Google+, Facebook and Tripadvisor
+ Rated <span itemprop="ratingValue">4.6</span>/5
+ based on <span itemprop="reviewCount">95</span> customer reviews on Google+, Facebook and Tripadvisor
 </div>
