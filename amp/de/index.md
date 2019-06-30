@@ -7,8 +7,8 @@ amp-iframe: false
 amp-instagram: true
 title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
 subtitle: Dein internationaler Kitesurfcenter
-date: 2017-01-05T00:00:00.000Z
-modified: 2018-04-18T09:26:00.000Z
+date: 2019-06-30
+modified: 2019-06-30
 author: daniel
 description: "Willkommen bei KITE-MALLORCA. Komm und lern mit uns die ersten Schritte im Kitesurfen! Ob Kitesurfkurse oder Vermietung von Material, wir sind der richtige Ansprechpartner für dich."
 image:
@@ -18,7 +18,7 @@ image:
   width: 400px
   height: 267px
   teaser: null
-  thumb: "flying-friends/l_kite-mallorca_058.jpg"
+  thumb: "flying-friends/xl_kite-mallorca_001.jpg"
   picnum: 58
 snippets: true
 lang: de

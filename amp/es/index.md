@@ -7,8 +7,8 @@ amp-iframe: true
 amp-instagram: true
 title: "Kite-Mallorca - Tu centro internacional de kitesurf - Tel. +34-696-264729"
 subtitle: "Tu centro internacional de kitesurf"
-date: 2017-01-05
-modified: 2018-04-18T09:28:00.000Z
+date: 2019-06-30
+modified: 2019-06-30
 author: daniel
 description: "Si deseas aprender kitesurf, has encontrado la mejor escuela de kite en Mallorca. Profesores titulados por la federación española y la alemana. Cursos para todos los niveles - alquiler de material"
 image:
@@ -17,7 +17,7 @@ image:
   width: 400px
   height: 267px
   teaser:
-  thumb: flying-friends/l_kite-mallorca_018.jpg
+  thumb: "flying-friends/xl_kite-mallorca_001.jpg"
   picnum: 18
 snippets: true
 lang: es
