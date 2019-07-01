@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Kite-Mallorca - Dein internationaler Kitesurfcenter - Tel. +34-696-264729"
-subtitle: Dein internationaler Kitesurfcenter
+title: "Kite-Mallorca - Dein internationales Kitesurfcenter - Tel. +34-696-264729"
+subtitle: Dein internationales Kitesurfcenter
 date: 2019-02-21T00:00:00.000Z
 modified: 
 author: daniel
