@@ -11,8 +11,8 @@ image:
   background2: 7.jpg
   feature: null
   teaser: null
-  thumb: "flying-friends/l_kite-mallorca_058.jpg"
-  picnum: 58
+  thumb: "7.jpg"
+  picnum: 
 snippets: true
 lang: de
 "en-url": en/

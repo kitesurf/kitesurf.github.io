@@ -11,8 +11,8 @@ image:
   background2: 7.webp
   feature: flying-friends/Dennis_with_backroll-inverted_l.jpg
   teaser:
-  thumb: flying-friends/l_kite-mallorca_042.jpg
-  picnum: 42
+  thumb: 7.jpg
+  picnum: 
 snippets: true
 lang: en
 en-url: "en/"

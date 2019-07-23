@@ -11,8 +11,8 @@ image:
   background2: 7.webp
   feature:
   teaser:
-  thumb: flying-friends/l_kite-mallorca_018.jpg
-  picnum: 18
+  thumb: 7.jpg
+  picnum: 
 snippets: true
 lang: es
 en-url: "en/"

@@ -18,8 +18,8 @@ image:
   width: 400px
   height: 267px
   teaser: null
-  thumb: "flying-friends/xl_kite-mallorca_001.jpg"
-  picnum: 58
+  thumb: "7.jpg"
+  picnum: 
 snippets: true
 lang: de
 "en-url": en/
