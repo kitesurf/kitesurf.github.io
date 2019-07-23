@@ -19,7 +19,7 @@ image:
   height: 267px
   teaser: null
   thumb: "7.jpg"
-  picnum: 
+  picnum: 58
 snippets: true
 lang: de
 "en-url": en/

@@ -12,7 +12,7 @@ image:
   feature: flying-friends/Dennis_with_backroll-inverted_l.jpg
   teaser:
   thumb: 7.jpg
-  picnum: 
+  picnum: 42
 snippets: true
 lang: en
 en-url: "en/"
