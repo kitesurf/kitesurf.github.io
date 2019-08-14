@@ -16,6 +16,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 compress_html:
   clippings: [script]
 # Site owner
