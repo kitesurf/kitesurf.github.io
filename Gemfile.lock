@@ -250,6 +250,7 @@ DEPENDENCIES
   bourbon
   github-pages
   jekyll (= 3.7.4)
+  jekyll-redirect-from
   jekyll-sitemap
   neat
   sass

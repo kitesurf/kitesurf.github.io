@@ -17,6 +17,8 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-zopfli
+  - jekyll-brotli
 compress_html:
   clippings: [script]
 # Site owner
