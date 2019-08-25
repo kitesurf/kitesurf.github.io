@@ -5,7 +5,7 @@ amp-mustache: false
 amp-form: false
 sitemap: false
 title: "Kite-Mallorca - Friends - Sabrina and Niklas"
-subtitle: 
+subtitle: "Sabrina and Niklas learning kitesurfing with us"
 date: 2015-05-03 
 modified: 2019-06-05 
 description: "Pictures from Sabrina and Niklas on his first Kitesurfing lessons. She finished riding! When do you make your pictures with us?"
