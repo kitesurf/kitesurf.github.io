@@ -47,10 +47,10 @@ t:
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
   menutxt24: "Privat Lessons"
-  link30: "renting/per-hour-and-day"
-  menutxt30: "Reǹting per hour and day"
-  link32: "renting/longterm"
-  menutxt32: "Long term rent"
+  link30: "renting/per-hour-or-day/"
+  menutxt30: "Renting per hour or day"
+  link31: "renting/long-term/"
+  menutxt31: "Long term rent"
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}

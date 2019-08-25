@@ -48,12 +48,10 @@ t:
   menutxt23: "Hydrofoil"
   link24: "kitekurse/privatstunden/"
   menutxt24: "Privatunterricht"
-  link30: "vermietung/pro-stunde"
-  menutxt30: "Miete pro Stunde"
-  link31: "vermietung/pro-tag"
-  menutxt31: "Miete pro Tag"
-  link32: "vermietung/langzeit"
-  menutxt32: "Langzeitmiete"
+  link30: "vermietung/pro-stunde-oder-tag/"
+  menutxt30: "Miete pro Stunde oder Tag"
+  link31: "vermietung/langzeit/"
+  menutxt31: "Langzeitmiete"
   teaser: "Komm und lerne mit uns die ersten Schritte im Kitesurfen!"
 published: true
 ---
