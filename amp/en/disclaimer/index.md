@@ -15,7 +15,7 @@ image:
   teaser:
   thumb: flying-friends/m_kite-mallorca_035.jpg
   picnum: 35
-snippets:
+snippets: true
 lang: en
 en-url: "en/disclaimer/"
 es-url: "es/aviso-legal/"
