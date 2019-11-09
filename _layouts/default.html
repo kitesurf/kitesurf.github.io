@@ -59,13 +59,7 @@ layout: compress
     <meta charset="utf-8">
     <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5J849CQ');</script>
-<!-- End Google Tag Manager -->
+
 
   {% if page.langrouted == true %}
     {% include lang_router.html %}
@@ -106,14 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <script src="/js/modernizr.js"></script>
 
-      <!-- Google Analytics -->
-    <script>
-      var dataLayer = window.dataLayer = window.dataLayer || [];
-      dataLayer.push({
-        'fireGtm': true
-      });
-    </script>
-      <!-- End Google Analytics -->
+
 <script>Modernizr.on();</script> <!-- Webp images handling -->
 
       <!-- background images überprüfen ob mit load event handler möglich
@@ -189,6 +176,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           return $heading[0].tagName.toLowerCase();
         }
       });
+    </script>
+    {% endif %}
+
+    {% if page.amp == false %}
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+            element.src = "
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-5J849CQ');
+
+                var dataLayer = window.dataLayer = window.dataLayer || [];
+                dataLayer.push({
+                  'fireGtm': true
+                });
+            ";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
     </script>
     {% endif %}
 
