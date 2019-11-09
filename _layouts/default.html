@@ -179,7 +179,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
     {% endif %}
 
-    {% if page.amp == false %}
+    {% if page.amp == true %}{% else %}
     <script type="text/javascript">
         function downloadJSAtOnload() {
         var element = document.createElement("script");
