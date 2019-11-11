@@ -12,7 +12,7 @@ image:
   backgroundx2: 7.webp
   background2: 7.jpg
   background2x1: 7mov.jpg
-  background2x2:
+  background2x2: 7.jpg
   feature: null
   teaser: null
   thumb: "7.jpg"
