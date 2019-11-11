@@ -9,7 +9,7 @@ description: "Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
-  backgroundx2:
+  backgroundx2: 7.webp
   background2: 7.jpg
   background2x1: 7mov.jpg
   background2x2:
