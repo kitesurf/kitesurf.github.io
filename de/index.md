@@ -8,7 +8,11 @@ author: daniel
 description: "Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung von Kitematerial und Kurse mit deutsche Lehrer für alle Levels. Ruf an"
 image:
   background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2:
   background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2:
   feature: null
   teaser: null
   thumb: "7.jpg"

@@ -9,7 +9,11 @@ author: daniel
 description: "&#127965;Rent Kiteboarding, kitesurfing and hydrofoil or lessons for all levels at Palma, Alcudia or Pollensa. All gear for each student"
 image:
   background: 4.jpg
+  backgroundx1:
+  backgroundx2:
   background2: 7.jpg
+  background2x1:
+  background2x2:
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_031.jpg

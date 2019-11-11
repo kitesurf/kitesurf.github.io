@@ -322,10 +322,16 @@ footer .btn-multi {
 .no-js body,
 .js.no-webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background2 }});
+  background-image: -webkit-image-set(
+    url({{ base.url}}/images/{{ page.image.background2x1 }}) 1x,
+    url({{ base.url}}/images/{{ page.image.background2x2 }}) 2x);
 }
 /* WebP supported */
 .js.webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background }});
+  background-image: -webkit-image-set(
+    url({{ base.url}}/images/{{ page.image.backgroundx1 }}) 1x,
+    url({{ base.url}}/images/{{ page.image.backgroundx2 }}) 2x);
 }
 
 </style>
