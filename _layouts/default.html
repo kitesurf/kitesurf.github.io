@@ -98,10 +98,10 @@ layout: compress
 
     {% include structured-data.html %}
 
-    <script src="/js/modernizr.js"></script>
+    <!-- <script src="/js/modernizr.js"></script> 
 
 
-<script>Modernizr.on();</script> <!-- Webp images handling -->
+<script>Modernizr.on();</script>  Webp images handling -->
 
       <!-- background images überprüfen ob mit load event handler möglich
       <script>
@@ -123,7 +123,7 @@ layout: compress
               }
           </style>
       </noscript> -->
-      {% include cookieconsent.html %}  
+    <!--  {% include cookieconsent.html %}  -->
    </head>
 
 {% endif %}
@@ -183,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script type="text/javascript">
         function downloadJSAtOnload() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/analytics.js";
+            element.src = "{{ site.url }}/js/compressed.js";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
