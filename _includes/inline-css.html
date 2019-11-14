@@ -313,8 +313,12 @@ footer .btn-multi {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+/* Result pending */
+.no-js body {
+  background-image: none;
+}
 /* WebP supported */
-.no-js body,
 .js.webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background }});
 }
@@ -326,7 +330,6 @@ footer .btn-multi {
 .js.no-webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background2x1 }});
   }
-.no-js body,
 .js.webp body {
   background-image: url({{ base.url}}/images/{{ page.image.backgroundx1 }});
   }
