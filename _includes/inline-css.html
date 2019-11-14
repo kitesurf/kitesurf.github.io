@@ -315,17 +315,18 @@ footer .btn-multi {
 }
 
 /* Result pending */
+body,
 .js body {
   background-image: none;
+}
+/* WebP supported */
+.js.webp body {
+  background-image: url({{ base.url}}/images/{{ page.image.background }});
 }
 /* No JS / WebP not supported */
 .no-js body,
 .js.no-webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background2 }});
-}
-/* WebP supported */
-.js.webp body {
-  background-image: url({{ base.url}}/images/{{ page.image.background }});
 }
 @media only screen and (orientation: portrait) {
 .no-js body,
