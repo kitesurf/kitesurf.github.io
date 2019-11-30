@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "&#128081;Private lessons that focus on you when it comes to kitesurfing. For all who want to get to their goal faster."
 image:
-  background: 3.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_055.jpg

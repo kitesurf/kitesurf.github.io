@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Book your gear rental for kiteboarding and kitesurfing: Twintip, Directional and Kites from Eleveight, North or Liquid Force in all sizes"
 image:
-  background: 3.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/l_kite-mallorca_048.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_055.jpg

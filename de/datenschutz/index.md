@@ -7,8 +7,12 @@ modified: 2018-06-14
 author: daniel
 description: null
 image:
-  background: 2.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 2.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: null
   teaser: null
   thumb: "flying-friends/m_kite-mallorca_015.jpg"

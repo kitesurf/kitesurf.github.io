@@ -8,7 +8,12 @@ author: daniel
 description: "Kitesurfing is a great sport and in combination with water, waves and wind very well suited for brilliant photos. When do you make your pictureswith us?"
 dataFile: photosen
 image:
-  background: 1.jpg
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_054.jpg

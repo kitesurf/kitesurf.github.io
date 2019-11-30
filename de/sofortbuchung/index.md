@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Liste aller unserer Angebote im kiten auf Mallorca sofort buchbar: Kurse Anfänger und Fortgeschritten, Foilen, Materialmiete, Gutscheine"
 image: 
-  background: 1.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: ""
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"

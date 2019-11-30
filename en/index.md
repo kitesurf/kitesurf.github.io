@@ -7,9 +7,13 @@ modified: 2018-04-14
 author: daniel
 description: "Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
 image:
-  background: 2.jpg
-  background2: 7.webp
-  feature: flying-friends/Dennis_with_backroll-inverted_l.jpg
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
+  feature: null
   teaser:
   thumb: 7.jpg
   picnum: 42

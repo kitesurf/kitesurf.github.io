@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Nuestra tienda de moda para compartir nuestro estilo de vida. Camisetas, chaquetas, sudaderas, gorros, bolsos, etc."
 image: 
-  background: 1.jpg
-  background2:
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: ""
   teaser: null
   thumb: outfit/t-shirt.jpg

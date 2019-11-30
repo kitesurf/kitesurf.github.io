@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "&#128081;Unser Privatunterricht stellt dich in den Mittelpunkt wenn es ums kitesurfen geht. Für alle die extra schnell ans Ziel wollen"
 image: 
-  background: 1.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"

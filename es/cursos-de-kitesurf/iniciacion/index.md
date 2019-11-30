@@ -8,8 +8,12 @@ modified: 2019-02-07T00:00:00.000Z
 author: daniel
 description: "Curso de iniciación o bautismo en kitesurf, kite o kiteboarding. En solo 3 horas apredes a volar una cometa. Llama y apúntate ahora aquí"
 image:
-  background: 2.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/l_kite-mallorca_055.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg

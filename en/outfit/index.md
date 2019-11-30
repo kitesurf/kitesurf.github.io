@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Own shop from kite-mallorca for Fanartikel und Fashion with 30 days refund. Live your life style with us wherever you are"
 image: 
-  background: 1.jpg
-  background2:
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: ""
   teaser: null
   thumb: outfit/t-shirt.jpg

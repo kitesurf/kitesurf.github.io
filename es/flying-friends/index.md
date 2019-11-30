@@ -8,7 +8,12 @@ author: daniel
 description: "El kitesurf es un deporte maravilloso y en combinación con el agua, las olas y el viento muy adecuado para fantásticas fotos. Cuando harás tus imágenes con nosotros?"
 dataFile: photosen
 image:
-  background: 3.jpg
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature:
   teaser:
   thumb: flying-friends/m_kite-mallorca_045.jpg

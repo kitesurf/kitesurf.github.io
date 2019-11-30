@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:
-  background: 3.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/Daniel_with_hydrofoil_l.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_055.jpg

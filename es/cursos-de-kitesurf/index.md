@@ -7,8 +7,12 @@ modified: 2018-04-14
 author: daniel
 description: "Kitesurf, Kite y Kiteboarding en Mallorca: cursos y clases para todos los niveles en agua plana. Material incluido. Llama y reserva ya"
 image:
-  background: 2.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg

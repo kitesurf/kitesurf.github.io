@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "Curso de kite, kitesurf y kiteboarding principiantes: mejores precios, todo el material incluido, monitores certificados. Llama ahora"
 image:
-  background: 2.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/l_sabrina-and-niklas-002.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg

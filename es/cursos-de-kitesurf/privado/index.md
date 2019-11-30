@@ -8,8 +8,12 @@ modified:
 author: daniel
 description: "&#128081;Clases particulares que se centran en ti cuando se trata de kitesurf. Para todos los que desean llegar a su destino más rápido"
 image:
-  background: 2.jpg
-  background2: 7.webp
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
   teaser:
   thumb: flying-friends/l_kite-mallorca_037.jpg

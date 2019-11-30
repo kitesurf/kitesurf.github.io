@@ -7,7 +7,12 @@ modified: 2017-02-28
 author: daniel
 description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."
 image:
-  background: 6.jpg
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 7.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature:
   teaser:
   thumb: flying-friends/l_kite-mallorca_047.jpg

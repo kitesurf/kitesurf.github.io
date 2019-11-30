@@ -8,7 +8,12 @@ author: daniel
 description: Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.
 dataFile: photosde
 image:
-  background: 3.jpg
+  background: 7.webp
+  backgroundx1: 7mov.webp
+  backgroundx2: 7mov.webp
+  background2: 3.jpg
+  background2x1: 7mov.jpg
+  background2x2: 7mov.jpg
   feature: null
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_043.jpg"
