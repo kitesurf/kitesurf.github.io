@@ -313,7 +313,7 @@ footer .btn-multi {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
+body{margin:.5rem;color:#4d4c4c;background-attachment:fixed;background-size:cover;background-repeat:no-repeat;background-position:center}
 /* Result pending */
 .no-js body {
   background-image: none;
@@ -327,6 +327,7 @@ footer .btn-multi {
   background-image: url({{ base.url}}/images/{{ page.image.background2 }});
 }
 @media only screen and (orientation: portrait) {
+body{background-size:auto};
 .js.no-webp body {
   background-image: url({{ base.url}}/images/{{ page.image.background2x1 }});
   }
@@ -334,5 +335,4 @@ footer .btn-multi {
   background-image: url({{ base.url}}/images/{{ page.image.backgroundx1 }});
   }
 }
-body{margin:.5rem;color:#4d4c4c;background-attachment:fixed;background-size:cover;background-repeat:no-repeat;background-position:center}
 </style>
