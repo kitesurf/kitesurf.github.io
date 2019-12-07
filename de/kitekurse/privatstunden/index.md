@@ -4,7 +4,7 @@ buchung: true
 title: "Privatunterricht im Kitesurfen"
 subtitle: Wo dein eigener Unterricht an erster Stelle steht
 date: 2019-02-27T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "&#128081;Unser Privatunterricht stellt dich in den Mittelpunkt wenn es ums kitesurfen geht. Für alle die extra schnell ans Ziel wollen"
 image: 

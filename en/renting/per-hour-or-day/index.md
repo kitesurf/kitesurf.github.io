@@ -4,7 +4,7 @@ buchung: true
 title: "Kitesurfing and kiteboarding rental &#128242;+34-696-264729"
 subtitle: "Gear for Kitesurfing and kiteboarding for rent"
 date: 2019-02-27T12:57:10+01:00
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Book your gear rental for kiteboarding and kitesurfing: Twintip, Directional and Kites from Eleveight, North or Liquid Force in all sizes"
 image:

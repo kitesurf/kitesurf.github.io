@@ -4,7 +4,7 @@ buchung: true
 title: "Kitesurfing lessons for beginner &#128242;34-696-264729"
 subtitle: "Kitesurfing basic courses and lessons for beginner"
 date: 2019-02-24T12:57:10+01:00
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Kitesurfing + kiteboarding lessons for all levels. Complete gear such as kite, board, harness and wetsuit included"
 image:

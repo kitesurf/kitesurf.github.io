@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Kite & board rental - Phone +34-696-264729"
 subtitle: "Kite & board rental"
 date: 2015-11-23
-modified: 2017-02-28
+modified: 2019-12-07
 author: daniel
 description: "Rent your kitesurf equipment from North, Liquid Force or Spleene for your next holiday on Mallorca."
 image:

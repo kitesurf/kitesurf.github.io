@@ -4,7 +4,7 @@ buchung: true
 title: "Hydrofoilkurs für Kitesurfer"
 subtitle: Hydrofoil, die höchste Kunst im Kiteboarding
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Hydrofoil, der Trend im kiteboarding und kitesurf. Mit speziellem Board, kurzem Mast und Begleitung durch Boot sehr schnell zu lernen"
 image: 

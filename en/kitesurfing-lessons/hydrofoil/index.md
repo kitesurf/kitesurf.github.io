@@ -3,8 +3,8 @@ layout: article
 buchung: true
 title: "Hydrofoil lessons &#128242;+34-696-264729"
 subtitle: "Kitesurfing courses and lessons"
-date: 2019-02-27T12:57:10+01:00
-modified: 
+date: 2019-12-07T12:57:10+01:00
+modified: 2019-12-07
 author: daniel
 description: "Kitesurfing in Majorca, with Kite-Mallorca easy: kitesurfing lessons for beginners and advanced students. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:

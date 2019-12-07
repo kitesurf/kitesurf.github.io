@@ -4,7 +4,7 @@ buchung: true
 title: "Kurs für fortgeschrittene Kitsurfer"
 subtitle: Hier kommst du in den nächsten Level beim Kitesurfen
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Du hast schon eine Basis und möchtest mehr? Mehr Höhe laufen, Wenden, Springen? Bei diesem Kitesurf Kurs bist du richtig"
 image: 

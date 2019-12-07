@@ -4,7 +4,7 @@ buchung: true
 title: "Schnupperkurs im Kiten"
 subtitle: Mit viel Spass das Kitesurfen testen
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Buche hier deinen Schnuperkurs im kiten, kitesurfen - kiteboarden und teste einen Tag lang mit deutsche Lehrer bei viel Spaß diesen faszinierenden Wassersport"
 image: 

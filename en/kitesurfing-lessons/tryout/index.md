@@ -4,7 +4,7 @@ buchung: true
 title: "Kite-Mallorca - Tryout in Kitesurfing"
 subtitle: "Kitesurfing courses and lessons - Tryout"
 date: 2019-02-24T12:57:10+01:00
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "&#127965;Kitesurfing with lots of fun in a safe area, also for children the best way to learn this amazing water sport. All gear included"
 image:

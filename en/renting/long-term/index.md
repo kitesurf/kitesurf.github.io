@@ -4,7 +4,7 @@ buchung: true
 title: "Kitesurfing gear long-term rental &#128242;+34-696-264729"
 subtitle: "Kitesurfing material for rent for a long term"
 date: 2019-02-27T12:57:10+01:00
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "&#128176; Rent kiteboarding or kitesurfing gear longer and save money. For you we have various bonus plans for rent, useable in 2 years"
 image:

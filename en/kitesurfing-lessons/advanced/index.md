@@ -4,7 +4,7 @@ buchung: true
 title: "Kitesurfing refresh and advanced lessons &#128242;+34-696-264729"
 subtitle: "Kitesurfing courses and lessons"
 date: 2019-02-27T12:57:10+01:00
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Kitesurfing and kiteboarding refresh lessons. Complete equipment such as kite, board, harness and wetsuit will be provided."
 image:

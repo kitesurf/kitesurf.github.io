@@ -4,7 +4,7 @@ buchung: true
 title: "Anfängerkurs im Kiten"
 subtitle: Mit viel Spass das Kitesurfen richtig lernen vom Anfang an
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Unsere Kurse im kiten auf Mallorca sofort buchbar"
 image: 

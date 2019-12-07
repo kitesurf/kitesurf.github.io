@@ -4,7 +4,7 @@ buchung: true
 title: "Boards und Kites mieten zum kitesurfen auf Mallorca"
 subtitle: Gutes Material für faire Preise
 date: 2019-02-27T00:00:00.000Z
-modified: 
+modified: 2019-12-07
 author: daniel
 description: "Buche deine Materialmiete zum Kiten und Kitesurfen: Twintip- und Directional-Boards und Kites von North, Eleveight und Liquid Force in alle gängigen Grössen"
 image: 
