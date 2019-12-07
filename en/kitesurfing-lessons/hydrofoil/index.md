@@ -59,8 +59,8 @@ t:
   teaser: KITESURFING LESSONS
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=b0428e290ead6da2c764c2e3626b0193"></script>
+<div id="bookingKitContainer" data-lang="en" data-e="7c3c03c88baf5046b46ba5f066833855" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=7c3c03c88baf5046b46ba5f066833855" async></script>
 <noscript><h3>Hydrofoil course in kitesurfing</h3>
  
 <strong>200 € per person - mínimo 2 hs</strong><br><br>

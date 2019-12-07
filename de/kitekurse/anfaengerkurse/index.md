@@ -61,8 +61,8 @@ t:
 published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=de&e=ec7242b91d52f942c5d0333c2c0001cb"></script>
+<div id="bookingKitContainer" data-lang="de" data-e="ec7242b91d52f942c5d0333c2c0001cb" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=ec7242b91d52f942c5d0333c2c0001cb" async></script>
 <noscript>
 <h3>Reservieren und Buchen: Grundkurs für Anfänger im Kitesurfen, 10 Std.</h3>
 <br>

@@ -59,8 +59,8 @@ t:
   teaser: KITESURFING GEAR RENTAL PER HOUR OR DAY
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=4afa85c73b236872f3717a96683c42bb"></script>
+<div id="bookingKitContainer" data-lang="en" data-e="faa3f4b5de3c2a359c1d2cdc305af5a6" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=faa3f4b5de3c2a359c1d2cdc305af5a6" async></script>
 <noscript>
 <h3>Reserve your hire equipment here for kitesurfing in Mallorca</h3>
 <br>

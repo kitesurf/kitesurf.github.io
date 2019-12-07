@@ -61,8 +61,8 @@ t:
 published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=2b2a109f437c0eb21de3e8796a20792a"></script>
+<div id="bookingKitContainer" data-lang="de" data-e="29755c7747a531f245d7e053d5baa865" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=29755c7747a531f245d7e053d5baa865" async></script>
 <noscript><h3>Reservieren und Buchen: Privater Kurs im Kitesurfen</h3>
 <br>
  

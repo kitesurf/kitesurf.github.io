@@ -59,8 +59,8 @@ t:
   teaser: KITESURFING LESSONS
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=7d87317868c4a4251f687ba9be729092"></script>
+<div id="bookingKitContainer" data-lang="en" data-e="3bfb7b3ca857a83f8e8eaced632e2aec" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=3bfb7b3ca857a83f8e8eaced632e2aec" async></script>
 <noscript>
 <h3>Long-term rental bonuspacks for kitesurfing equipment</h3>
 <br>
