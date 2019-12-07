@@ -61,8 +61,8 @@ t:
 published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=3615f83ea415c3fbec86b9877a5050aa"></script>
+<div id="bookingKitContainer" data-lang="de" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=3615f83ea415c3fbec86b9877a5050aa" async></script>
 <noscript>
 <h3>Reservieren und Buchen: Schnupperkurs im Kitesurfen</h3>
 <br>
