@@ -59,8 +59,8 @@ t:
   teaser: PICK UP YOUR PORTION OF FUN TRYING OUT KITESURFING IN MAJORCA
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&e=1a00199e91cbcd2dd89a03e734f89e96"></script>
+<div id="bookingKitContainer" data-lang="en" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=3615f83ea415c3fbec86b9877a5050aa" async></script>
 <noscript>
 <h3>Tryout kitesurfing course (English)</h3>
 <br>
