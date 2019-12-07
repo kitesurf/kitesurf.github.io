@@ -69,9 +69,6 @@ Tenemos para ti:
 - almacenamiento de tu propio material,  
 - y mucho más...
 
-#### Nuestra cámara web
-{% include webcamIframe.html %} 
-
 #### Cursos de kitesurf
 
 Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!
