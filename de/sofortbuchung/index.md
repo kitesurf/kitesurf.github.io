@@ -61,8 +61,8 @@ t:
 published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a977af9f0a388f04a1c4c4a4396a21d7&lang=de"></script>
+<div id="bookingKitContainer" data-lang="de" data-cw="da7acbb84fc14bc40c1863ce608e7c87"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/da7acbb84fc14bc40c1863ce608e7c87/?lang=de" async></script>
 <noscript>
   
 </noscript>
