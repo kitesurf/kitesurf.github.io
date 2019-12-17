@@ -42,17 +42,14 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
 {% else %}
-<html>
+<html lang="{{ page.lang }}" class="no-js">
   <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5J849CQ');</script>
-<!-- End Google Tag Manager -->
-  {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
     <meta charset="utf-8">
+    <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
+
+
+  {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
 
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
@@ -61,7 +58,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
         <!-- Multilinguale behandlung durch Google -->
@@ -82,37 +78,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
 
-    {% include gallery-css.html %}
-
-    {% include yandex_metrika.html %}
-
     {% include structured-data.html %}
 
-      <!-- Google Analytics -->
-    <script>
-      var dataLayer = window.dataLayer = window.dataLayer || [];
-      dataLayer.push({
-        'fireGtm': true
-      });
-    </script>
-      <!-- End Google Analytics -->
-
-      <!-- background images -->
-      <script>
-        window.addEventListener("load", function(event) {
-        document.body.style.backgroundImage = "url({{ site.url}}/images/{{ page.image.background }})";
-        });
-      </script>
-      <noscript>
-          <style type="text/css">
-              body 
-               {
-                background-image: url({{ site.url}}/images/{{ page.image.background }});
-              }
-          </style>
-      </noscript>
-      <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script> 
-      {% include cookieconsent.html %}  
+    {% include gallery-css.html %}
 
    </head>
 
@@ -134,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       {% if page.t.teaser %}
         <div class="myteaser">
-                <span><h2>{{ page.t.teaser }}</h2></span>
+                <span><strong>{{ page.t.teaser }}</strong></span>
 <!--                <div class="space"></div> -->
         </div>
       {% endif %}  
@@ -243,6 +211,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section>
 {% include gallery-overlay.html %}
 </section>
+
+    {% if page.amp == true %}{% else %}
+    <script type="text/javascript">
+        function JSAtOnload1() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/modernizr.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload1, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload1);
+        else window.onload = JSAtOnload1;
+    </script>
+    <script type="text/javascript">
+        function JSAtOnload3() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/analytics.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload3, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload3);
+        else window.onload = JSAtOnload3;
+    </script>
+
+{% include cookieconsent.html %}
+
+    {% endif %}
+
   </body>
 
 </html>

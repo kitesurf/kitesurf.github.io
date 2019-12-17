@@ -56,7 +56,7 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo"
   menutxt31: "Alquiler a largo plazo"
-  teaser:
+  teaser: "KITESURF EN MALLORCA - IMPRESIÓNES EN IMÁGENES"
 ---
 
 ### FOTOS Y VIDEOS

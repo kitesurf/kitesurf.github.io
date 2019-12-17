@@ -57,7 +57,7 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: null
+  teaser: "KITESURFEN AUF MALLORCA - EINDRÜCKE IN BILDER"
 published: true
 ---
 

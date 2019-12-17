@@ -56,7 +56,7 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser:
+  teaser: "KITESURFING ON MALLORCA - IMPRESSIONS IN IMAGES"
 ---
 
 ### PICTURES & VIDEOS

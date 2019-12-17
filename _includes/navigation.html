@@ -1,5 +1,5 @@
     <!-- Navigation -->
-<div class="animenu__box">
+<div class="menubox">
         <div>
             {% if page.amp == true %}
             <a href="{{site.baseurl }}/amp/{{page.lang }}"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></a>
@@ -144,7 +144,7 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                 <ul>
                   <li><a href="{{site.baseurl }}/{{page.lang }}">Start</a>
                   </li>
-                  <li id="sub-menu">&#x2000;<label for="chbx1">{{ page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
+                  <li class="sub-menu">&#x2000;<label for="chbx1">{{ page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
                     <ul class="navsub">
                       <li>&#x2000;<label for="chbx1">
                       <svg class="svg-icon" viewBox="0 0 20 20">
@@ -163,7 +163,7 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                        <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}">{{ page.t.menutxt24 }}</a></li>
                     </ul>
                   </li>
-                  <li id="sub-menu">&#x2000;<label for="chbx2">{{ page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
+                  <li class="sub-menu">&#x2000;<label for="chbx2">{{ page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
                     <ul class="navsub">                  
                       <li>&#x2000;<label for="chbx2">
                       <svg class="svg-icon" viewBox="0 0 20 20">
@@ -181,7 +181,7 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                     </ul>
                   </li>
                   <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
-                  <li><div class="animenu__flag">                
+                  <li><div class="flags">                
                               <img class="b-lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAYCAYAAAAGcjT5AAAGG0lEQVR4Ae2aA5AcTRiGJ/Yxtm3b
 tm17b5ONbdu2bds2z+aeEb//vXW1G8xt2Knq/LVd9dTom67qnme/7ulZpY5dw7+GGTP/g0aYMQtm
 xixYvZo1049s2qL232Bw+/YlZe0Atrtp06a1RdO6dfM6Mre7bePG6SdMmFCbdOw4oHaTJt1V8Pxw
