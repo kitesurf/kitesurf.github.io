@@ -6,22 +6,5 @@
   </amp-youtube>
   </br></br>
 {% else %}
-<script>
-function createIframe(){
-  var i = document.createElement("iframe");
-  i.src = "https://www.youtube.com/embed/El49Bnx505w";
-  i.allowTransparency = "false"
-  i.height = "460px"
-  i.width = "100%"
-  i.style = "border:none; allowfullscreen;";
-  i.scrolling = "no";
-  document.getElementById("video").appendChild(i);
-};
-if (window.addEventListener)
-window.addEventListener("load", createIframe, false);
-else if (window.attachEvent)
-window.attachEvent("onload", createIframe);
-else window.onload = createIframe;
-</script>
 <div id="video"></div><noscript><iframe width="420" height="315" src="https://www.youtube.com/embed/El49Bnx505w" frameborder="0" allowfullscreen></iframe></noscript>
 {% endif %}
