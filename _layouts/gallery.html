@@ -103,6 +103,7 @@
       {% endif %}  
 {% if page.amp != true %}      
 <!-- Core CSS file -->
+<script src="{{ site.url }}/js/blazy.min.js" async></script>
 <link rel="stylesheet" href="{{ site.url }}/css/photoswipe.css"> 
 
 <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
@@ -228,18 +229,6 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload3);
         else window.onload = JSAtOnload3;
-    </script>
-    <script type="text/javascript">
-        function JSAtOnload4() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/youtubevideo.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload4, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload4);
-        else window.onload = JSAtOnload4;
     </script>
 
 {% include cookieconsent.html %}
