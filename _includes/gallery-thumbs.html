@@ -26,7 +26,14 @@
         </div>
     </noscript>
     <div class="gallery">
-
+            <script>
+                ;(function() {
+                    // Initialize
+                    var bLazy = new Blazy({ 
+                    container: '.gallery'
+                    });
+                })();
+            </script>
             {% for image in site.data[page.dataFile].images %}        
             <span class="my-simple-gallery">
             <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
@@ -35,13 +42,5 @@
                     <figcaption itemprop="caption description">{{ image.description }}</figcaption>
             </span>
             {% endfor %}
-    <script>
-        ;(function() {
-            // Initialize
-            var bLazy = new Blazy({ 
-            container: '.gallery'
-            });
-        })();
-    </script>
     </div>
 {% endif %}
