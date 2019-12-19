@@ -25,22 +25,15 @@
             {% endfor %}
         </div>
     </noscript>
-    <div class="gallery">
-            <script>
-                ;(function() {
-                    // Initialize
-                    var bLazy = new Blazy({ 
-                    container: '.gallery'
-                    });
-                })();
-            </script>
+    <div class="gallery" id="bLazy">
+
             {% for image in site.data[page.dataFile].images %}        
             <span class="my-simple-gallery">
             <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
-            <img class="b-lazy" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
+            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
             </a>
                     <figcaption itemprop="caption description">{{ image.description }}</figcaption>
             </span>
             {% endfor %}
-    </div>
+    </div>    
 {% endif %}
