@@ -97,32 +97,6 @@ layout: compress
 
     {% include structured-data.html %}
 
-    <!-- <script src="/js/modernizr.js"></script> 
-
-
-<script>Modernizr.on();</script>  Webp images handling -->
-
-      <!-- background images überprüfen ob mit load event handler möglich
-      <script>
-       // window.addEventListener("load", function(event) {
-          Modernizr.on('webp', function(result) {
-            if (result) {
-              document.body.style.backgroundImage = "url({{ base.url}}/images/{{ page.image.background }})"; // supported
-            } else {
-              document.body.style.backgroundImage = "url({{ base.url}}/images/{{ page.image.background2 }})"; // not-supported
-            }
-          });
-       // });
-      </script>
-      <noscript>
-          <style type="text/css">
-              body 
-               {
-                background-image: url({{ base.url}}/images/{{ page.image.background }});
-              }
-          </style>
-      </noscript> -->
-    <!--  {% include cookieconsent.html %}  -->
    </head>
 
 {% endif %}

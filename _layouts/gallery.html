@@ -47,6 +47,7 @@
     <meta charset="utf-8">
     <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
     <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
+    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
 
 
   {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
@@ -230,6 +231,7 @@
         window.attachEvent("onload", JSAtOnload3);
         else window.onload = JSAtOnload3;
     </script>
+
 
 {% include cookieconsent.html %}
 
