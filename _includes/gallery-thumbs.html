@@ -20,7 +20,7 @@
         <div class="noscriptmsg">
             {% for image in site.data[page.dataFile].images %}
             <a href="#image-{{ forloop.index }}">
-                <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" loading="lazy" alt="{{ image.alt }}" title="{{ image.title }}" />
+                <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="{{ image.alt }}" title="{{ image.title }}" />
             </a>
             {% endfor %}
         </div>
@@ -30,7 +30,7 @@
             {% for image in site.data[page.dataFile].images %}        
             <span class="my-simple-gallery">
             <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
-            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
+            <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" loading="lazy" itemprop="thumbnail" alt="{{ image.alt }}" title="{{ image.title }}">
             </a>
                     <figcaption itemprop="caption description">{{ image.description }}</figcaption>
             </span>
