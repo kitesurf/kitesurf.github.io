@@ -37,7 +37,6 @@ layout: compress
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
@@ -57,9 +56,7 @@ layout: compress
 <html lang="{{ page.lang }}" class="no-js">
   <head>
     <meta charset="utf-8">
-    <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
-
+    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
 
   {% if page.langrouted == true %}
     {% include lang_router.html %}
@@ -72,7 +69,6 @@ layout: compress
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
         <!-- Multilinguale behandlung durch Google -->
@@ -109,8 +105,6 @@ layout: compress
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
-  {% include blazy.html %}
 
   {% endif %}
   {% include header.html %}
@@ -184,3 +178,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </body>
 
 </html>
+    {% if page.amp == true %}{% else %}
+    <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
+    <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
+    {% endif %}
+

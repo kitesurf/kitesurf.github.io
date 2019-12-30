@@ -6,7 +6,7 @@
 	{% if page.amp == true %}
 	<amp-img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}" width="80" height="80">
 	{% else %}
-	<img class="b-lazy" data-src="{{ base.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+	<img class="lazyload" data-src="{{ base.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
 	{% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
