@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Dein internationales Kitesurfcenter - Tel. +34-696-264729"
 subtitle: Dein internationales Kitesurfcenter
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2020-01-03T00:00:00.000Z
 author: daniel
 description: "Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung von Kitematerial und Kurse mit deutsche Lehrer für alle Levels. Ruf an"
 image:
