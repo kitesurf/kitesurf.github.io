@@ -15,7 +15,41 @@
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
-    {% for item in site.data.testimonials.lang[page.lang] %} 
+    {% for item in site.data.testimonials.lang[page.lang] %}
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "LocalBusiness",
+                "image": "https://kite-mallorca.com/images/gerhard-und-daniel.jpg",
+                "name": "Legal Seafood",
+                "priceRange": "$$",
+                "telephone": "+34-696-264-729",
+                "address" :{
+                  "@type": "PostalAddress",
+                  "streetAddress": "Calle del Greco 19",
+                  "addressLocality": "Alcudia",
+                  "addressRegion": "Balearic Island",
+                  "postalCode": "07400",
+                  "addressCountry": "Spain"
+                }
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ item.quote }}"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "{{ item.person }}"
+              },
+              "reviewBody": "{{ item.review }}",
+              "publisher": {
+                "@type": "Organization",
+                "name": "{{ item.review_at }}"
+              }
+            }
+        </script> 
     <div class="carousel-item item-{{ forloop.index }}">
         <div class="review">
             <div itemprop="author" itemscope itemtype="https://schema.org/Person">
