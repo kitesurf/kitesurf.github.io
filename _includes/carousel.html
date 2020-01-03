@@ -3,15 +3,7 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
-<div class="carousel-wrapper" itemprop="Review" itemscope itemtype="https://schema.org/Review">
-    <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-        <meta itemprop="name" content="Kitesurf Mallorca SL - International Kitesurf Center" />             
-        <meta itemprop="url" content="https://kite-mallorca.com"/>               
-        <meta itemprop="image" content="https://kite-mallorca.com/images/gerhard-und-daniel.jpg"/>
-        <meta itemprop="priceRange" content="$$"/>
-        <meta itemprop="telephone" content="+34-696-264-729"/>
-        <meta itemprop="address" content="Calle del Greco 19, Alcudia"/>
-    </div>
+<div class="carousel-wrapper">
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
@@ -52,21 +44,17 @@
         </script> 
     <div class="carousel-item item-{{ forloop.index }}">
         <div class="review">
-            <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                      <meta itemprop="url" content="{{ item.author_link }}"/>
-                      <span itemprop="name">{{ item.person }}</span>
+            <div>
+               <span itemprop="name">{{ item.person }}</span>
               {% if page.amp == true %}
                 <div>
                   <amp-img class="avatar" src="{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
                 </div>
               {% else %}
-                <div class="avatar" src="{{ item.avatar_img }}"></div>
+                <div class="avatar lazyload" data-bg="{{ item.avatar_img }}"></div>
               {% endif %}
             </div>
-            <div class="rating" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
-                    <meta itemprop="ratingValue" content="{{ item.quote }}"/>
-                    <meta property="bestRating" content="5"/>
-                    <meta property="worstRating" content="1"/>
+            <div class="rating">
                     {% assign var = item.quote plus 0 %}
                     {% for i in (1..5) plus 0 %}
                     {% if i <= var %}
@@ -76,9 +64,8 @@
                     {% endif %}
                     {% endfor %}
                     <strong class="golden">({{ item.quote }}/5)</strong>
-                    <meta  property="ratingValue" content="{{ item.quote }}/5"/>
             </div>
-            <div class="review-body" itemprop="reviewBody">
+            <div class="review-body">
                 <p>{{ item.review }}</p>
                   <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
             </div>
@@ -98,5 +85,5 @@
 </div>
 <div><strong>
  Rated <span>4.6</span>/5
- based on <span>95</span> customer reviews on Google+, Facebook and Tripadvisor
+ based on <span>95</span> customer reviews on Google, Facebook and Tripadvisor
 </strong></div>
