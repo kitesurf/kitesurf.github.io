@@ -55,9 +55,13 @@ layout: compress
 {% else %}
 <html lang="{{ page.lang }}" class="no-js">
   <head>
-    <meta charset="utf-8">    
-    <script src="{{ site.url }}/js/ls.unveilhooks.min.js" async=""></script>
-    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
+    <meta charset="utf-8">
+    <link rel="preload" href="{{ site.url }}/js/ls.unveilhooks.min.js" as="script" onload="this.onload=null;this.rel='script'">
+    <noscript><link rel="script" href="{{ site.url }}/js/ls.unveilhooks.min.js"></noscript>    
+    <link rel="preload" href="{{ site.url }}/js/lazysizes.min.js" as="script" onload="this.onload=null;this.rel='script'">
+    <noscript><link rel="script" href="{{ site.url }}/js/lazysizes.min.js"></noscript>    
+    <link rel="preload" href="{{ site.url }}/js/cookieconsent.min.js" as="script" onload="this.onload=null;this.rel='script'">
+    <noscript><link rel="script" href="{{ site.url }}/js/cookieconsent.min.js"></noscript>    
 
   {% if page.langrouted == true %}
     {% include lang_router.html %}
