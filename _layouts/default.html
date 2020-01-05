@@ -56,8 +56,9 @@ layout: compress
 <html lang="{{ page.lang }}" class="no-js">
   <head>
     <meta charset="utf-8">
-    <link rel="preload" href="{{ site.url }}/js/ls.unveilhooks.min.js" as="script" onload="this.onload=null;this.rel='script'" crossorigin>    
-    <link rel="preload" href="{{ site.url }}/js/lazysizes.min.js" as="script" onload="this.onload=null;this.rel='script'" crossorigin>    
+    <script src="{{ site.url }}/js/ls.unveilhooks.min.js" async=""></script>
+    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
+    <script src="{{ site.url }}/js/modernizr.js" async=""></script>
 
   {% if page.langrouted == true %}
     {% include lang_router.html %}
@@ -147,7 +148,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% endif %}
 
     {% if page.amp == true %}{% else %}
-    <script type="text/javascript">
+    <!--script type="text/javascript">
         function JSAtOnload1() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/modernizr.js";
@@ -182,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload5);
         else window.onload = JSAtOnload5;
-    </script>
+    </script-->
     <script type="text/javascript">
         function JSAtOnload2() {
         var element = document.createElement("script");
