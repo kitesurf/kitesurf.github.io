@@ -59,8 +59,6 @@ layout: compress
     <link rel="preload" href="{{ site.url }}/js/ls.unveilhooks.min.js" as="script" onload="this.onload=null;this.rel='script'">    
     <link rel="preload" href="{{ site.url }}/js/lazysizes.min.js" as="script" onload="this.onload=null;this.rel='script'">    
     <link rel="preload" href="{{ site.url }}/js/cookieconsent.min.js" as="script" onload="this.onload=null;this.rel='script'">    
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="{{ site.url }}/fonts/icomoon.woff?6rb1a6" onload="this.onload=null;this.rel='font'">
-    <noscript><link rel="stylesheet" href="{{ site.url }}/fonts/icomoon.woff?6rb1a6"></noscript>
 
   {% if page.langrouted == true %}
     {% include lang_router.html %}
@@ -163,9 +161,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         else window.onload = JSAtOnload1;
     </script>
     <script type="text/javascript">
-        function JSAtOnload3() {
+        function JSAtOnload2() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/analytics.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload2, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload2);
+        else window.onload = JSAtOnload2;
+    </script>
+    <script type="text/javascript">
+        function JSAtOnload3() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/crisp.js";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
