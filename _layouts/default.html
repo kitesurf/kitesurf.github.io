@@ -160,6 +160,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         else window.onload = JSAtOnload1;
     </script>
     <script type="text/javascript">
+        function JSAtOnload4() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/ls.unveilhooks.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload4, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload4);
+        else window.onload = JSAtOnload4;
+    </script>
+    <script type="text/javascript">
+        function JSAtOnload5() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/lazysizes.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload5, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload5);
+        else window.onload = JSAtOnload5;
+    </script>
+    <script type="text/javascript">
         function JSAtOnload2() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/analytics.js";
