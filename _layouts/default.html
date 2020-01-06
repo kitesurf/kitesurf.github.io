@@ -60,11 +60,6 @@ layout: compress
     <link rel="preconnect dns-prefetch" href="https://client.crisp.chat" crossorigin>
     <link rel="preconnect dns-prefetch" href="https://settings.crisp.chat" crossorigin>
 
-    <script src="{{ site.url }}/js/ls.bgset.js" async=""></script>
-    <script src="{{ site.url }}/js/ls.unveilhooks.min.js" async=""></script>
-    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
-    <script src="{{ site.url }}/js/modernizr.js" async=""></script>
-
   {% if page.langrouted == true %}
     {% include lang_router.html %}
   {% endif %}
@@ -165,7 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         window.attachEvent("onload", JSAtOnload1);
         else window.onload = JSAtOnload1;
     </script>
-    <!--script type="text/javascript">
+    <script type="text/javascript">
         function JSAtOnload4() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/ls.unveilhooks.min.js";
@@ -188,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload5);
         else window.onload = JSAtOnload5;
-    </script-->
+    </script>
     <script type="text/javascript">
         function JSAtOnload2() {
         var element = document.createElement("script");

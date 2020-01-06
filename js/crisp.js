@@ -1,1 +1,1 @@
-window.$crisp=[];window.CRISP_WEBSITE_ID="06dfbac3-a16c-4bb8-ac40-84a38038a39c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+window.$crisp=[];window.CRISP_WEBSITE_ID="06dfbac3-a16c-4bb8-ac40-84a38038a39c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("body")[0].appendChild(s);})();
