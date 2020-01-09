@@ -2,9 +2,9 @@
 images:
   - image: kite-mallorca_001.jpg
     name: "Daniel"
-    title: "Daniel mit Surfboard bereit zum kitesurfen"
+    title: "Daniel mit Kitesurfboard bereit zum kitesurfen"
     description: "Daniel macht sich auf dem Weg ins Wasser"
-    alt: "Daniel mit Surfboard bereit zum kitesurfen"
+    alt: "Daniel mit Kitesurfboard bereit zum kitesurfen"
 
   - image: kite-mallorca_002.jpg
     name: "Strandleben"
@@ -13,16 +13,16 @@ images:
     alt: "Kites in Reih und Glied am Boden und am Himmel"
 
   - image: kite-mallorca_003.jpg
-    name: "Schüler"
-    title: "Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt"
+    name: "Schüler im Stehrevier"
+    title: "Kitesurflehrer mit letzte Anweisungen an Kiteschüler"
     description: "Daniel mit Schüler im Wasser bereit zur ersten Fahrt"
-    alt: "Daniel mit letzte Anweisungen an Schüler vor der ersten Fahrt"
+    alt: "Ktesurflehrer mit letzte Anweisungen an Kiteschüler"
 
   - image: kite-mallorca_004.jpg
     name: "Daniel mit Marie"
     title: "Marie, hier 8, hat mit 6 Jahren bei uns angefangen"
     description: "Marie hat mit 6 Jahren mit dem Kitesurfen begonnnen"
-    alt: "Marie, jüngste Kiteschülerin, hat mit 6 Jahren bei uns angefangen"
+    alt: "Marie, fing mit 6 Jahren mit dem Kitesurfen auf Mallorca an"
 
   - image: kite-mallorca_005.jpg
     name: "Ruhe"
@@ -31,8 +31,8 @@ images:
     alt: "Kite liegt am Strand unter wolken"
 
   - image: kite-mallorca_006.jpg
-    name: "Eli"
-    title: "Eli in voller Konzentration, wohl vor einem weiteren Sprung"
+    name: "Eli vor einem Kitesprung"
+    title: "Eli in voller Konzentration vor einem weiteren Sprung"
     description: "Kitesurferin Eli über den Wellen in der Bucht von Pollensa"
     alt: "Eli voll konzentriert beim gleiten über den Wellen"
 
@@ -44,9 +44,9 @@ images:
 
   - image: kite-mallorca_008.jpg
     name: "Gerhard"
-    title: "Gerhard sehr glücklich nach einer kurzen Session"
-    description: "Gerhard, unser Schulungsleiter, immer ein Lächeln im Gesicht"
-    alt: "Kite und -surfer im Hintergrund, Gerhard gelassen im Vordergrund"
+    title: "Gerhard sehr glücklich nach einer guten Kiteboard-Session"
+    description: "Gerhard, unser Schulleiter, immer ein Lächeln im Gesicht"
+    alt: "Kitesurfer auf Mallorca im Hintergrund, Gerhard gelassen im Vordergrund"
 
   - image: kite-mallorca_009.jpg
     name: "Carlos"
@@ -58,31 +58,31 @@ images:
     name: "Ansgar"
     title: "Manche Schüler haben viel Talent und können nach einem Tag schon fahren"
     description: "Ein neuer Schüler macht sich bereit"
-    alt: "Schüler sucht noch Sonnencreme bevor es ins Wasser geht"
+    alt: "Sonnenschutz ist sehr wichtig beim kiteboarden auf Mallorca"
 
   - image: kite-mallorca_011.jpg
     name: "Eli"
     title: "Tanz in die unendlichkeit des Meeres"
     description: "Leicht bewegtes Wasser und Wind, beste Bedingungen zum Kitesurfen"
-    alt: "Kitesurferin tanzt über die Wellen"
+    alt: "Kitesurferin tanzt über die Wellen in der Bucht von Pollensa"
 
   - image: kite-mallorca_012.jpg
     name: "ENVY"
     title: "Die Kites von Liquid Force eignen sich hervorragend für den Sport"
     description: "Liquid Force Kites vom Typ Envy, perfekter Allrounder"
-    alt: "Evo von North und Envy von Liquid Force liegen bereit am Strand"
+    alt: "Kites und Boards verschiedener Brands kann man bei uns testen"
 
   - image: kite-mallorca_013.jpg
     name: "Bodysystem"
     title: "Am Anfang immer gehalten, damit keiner davon fliegt"
     description: "Übung macht den Meister. Das fliegen des Kites muss sitzen"
-    alt: "Lehrer überwacht Flugübungen der Kiteschüler im Wasser"
+    alt: "Kitelehrer überwacht Flugübungen der Kiteschüler im Wasser"
 
   - image: kite-mallorca_014.jpg
     name: "Uli 1"
     title: "Uli 1. unser Rettungsboot immer dabei"
     description: "Zur Sicherheit der Schüler ist dass Rettungsboot ein muss"
-    alt: "Rettungsboot Uli 1 liegt bereit am Strand"
+    alt: "Rettungsboot ist trotz dem Stehrevier hier in Alcudia ein muss"
 
   - image: kite-mallorca_015.jpg
     name: "Fortaleza"
@@ -106,7 +106,7 @@ images:
     name: "Beobachten"
     title: "Als Kiter muss man lernen Wind und Wetter zu beobachten"
     description: "Gerhard beim beobachten vom Wind und Wetter"
-    alt: "Kiter beobachtet Wind und Wetter"
+    alt: "Kiter lernen Wind und Wetter zu beobachten um Sicher zu kiten"
 
   - image: kite-mallorca_019.jpg
     name: "Fantasie"
@@ -118,13 +118,13 @@ images:
     name: "Relaunch"
     title: "Das relaunchen ist das wiederstarten des Kites aus dem Wasser"
     description: "Sollte ein Kite mal auf dem Wasser landen, muss es mit spezieller Technik wieder starten"
-    alt: "Lehrer erklärt den Schülern wie das relaunchen funktioniert"
+    alt: "Ausgebildeter Kitelehrer erklärt wie das Relaunchen funktioniert"
 
   - image: kite-mallorca_021.jpg
     name: "Päckchen"
     title: "Je kleiner die Kites gepackt, umso mehr gehen in den Van"
     description: "Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden"
-    alt: "Gerhard legt ein Kite zusammen"
+    alt: "Ein gut aufgeräumter Kite hält viel länger und macht mehr Spass"
 
   - image: kite-mallorca_022.jpg
     name: "Door"
@@ -154,19 +154,19 @@ images:
     name: "Pärchen"
     title: "Was viele nicht wissen, kitesurfen eignet sich besonders für beide"
     description: "Am Anfang hat man viele Fragen. Wir versuchen alles klar zu stellen"
-    alt: "Pärchen mit Fragen an den Lehrer"
+    alt: "Pärchen mit Fragen an den Kitesurflehrer"
 
   - image: kite-mallorca_027.jpg
     name: "Strandgespräche"
     title: "Vor und nach dem Kitesurfen sollte man Zeit haben für einen Plausch"
     description: "Kitesurfen ist für jeden geeignet, egal ob muskulös oder zierlich"
-    alt: "Kitesurfer unterhalten sich während dem Aufbau eines Kites"
+    alt: "Kitesurfer fachsimpeln während dem Aufbau eines Kites"
 
   - image: kite-mallorca_028.jpg
     name: "Flugtraining"
     title: "Vorrangig für einen guten Kitesurfer ist die volle Kontrolle des Kites"
     description: "Bei uns lernt man wie ein Kite fliegt und wie man ihn steuert"
-    alt: "Paar erhält Erläuterungen über die Steuerbewegungen an der Kitebar"
+    alt: "Mit viel Spass bei lockerer Atmosphäre Kitesurfen auf Mallorca lernen"
 
   - image: kite-mallorca_029.jpg
     name: "Kitehandling"
@@ -208,19 +208,19 @@ images:
     name: "Glücksmomente"
     title: "Kitesurfen kann sehr glücklich machen"
     description: "Einfachheit gepaart mit akrobatischen Wassersport macht süchtig"
-    alt: "Daniel mit immensen Grinsen im Gesicht"
+    alt: "Daniel wie immer mit immensen Grinsen im Gesicht, die Schüler waren wohl gut"
 
   - image: kite-mallorca_036.jpg
     name: "Sicherheit"
     title: "Sicherheit ist oberstes gebot"
     description: "Als Rettungsschwimmer ausgebildete Kitelehrer und Rettungsboot, ein muss für eine gute Kiteschule"
-    alt: "Rettungsboot ist immer parat zur Stelle"
+    alt: "Als offizielle Kiteschule ist Rettungsboot immer parat zur Stelle"
 
   - image: kite-mallorca_037.jpg
     name: "Bodydrag"
     title: "Bodydragen, ohne Board sich vom Kite durch das Wasser ziehen lassen"
     description: "Am Anfang muss das Bodydragen zu zweit geübt werden"
-    alt: "Lehrer mit Schülerin lassen sich vom Kite durchs Wasser ziehen"
+    alt: "Kitelehrer mit Schülerin lassen sich vom Kite durchs Wasser ziehen"
 
   - image: kite-mallorca_038.jpg
     name: "Gerhard & Daniel"

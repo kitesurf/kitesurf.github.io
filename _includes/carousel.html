@@ -4,6 +4,15 @@
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
 <div class="carousel-wrapper">
+
+  <svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol id="arrow" viewBox="0 0 32 32">
+    <title>arrow</title>
+  <path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13z"></path>
+  <path d="M20.914 9.914l-2.829-2.829-8.914 8.914 8.914 8.914 2.828-2.828-6.086-6.086z"></path>
+  </symbol>
+  </svg>
+
     {% for item in site.data.testimonials.lang[page.lang] %}
       <span id="target-item-{{ forloop.index }}"></span>
     {% endfor %}
@@ -71,19 +80,22 @@
             </div>
         </div> 
         {% if forloop.index == 1 %}
-        <a class="icomoon icon arrow icon-arrow_left" href="#target-item-{{ forloop.length }}"></a>
+        <a href="#target-item-{{ forloop.length }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
         {% else %}
-        <a class="icomoon icon arrow icon-arrow_left" href="#target-item-{{ forloop.index | minus:1 }}"></a>
+        <a href="#target-item-{{ forloop.index | minus:1 }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
         {% endif %}
         {% if forloop.last == true %}
-        <a class="icomoon icon arrow icon-arrow_right" href="#target-item-1"></a>
+        <a href="#target-item-1"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
         {% else %}
-        <a class="icomoon icon arrow icon-arrow_right" href="#target-item-{{ forloop.index | plus:1 }}"></a>
+        <a href="#target-item-{{ forloop.index | plus:1 }}"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
         {% endif %}
     </div>
       {% endfor %}
 </div>
-<div><strong>
- Rated <span>4.6</span>/5
- based on <span>95</span> customer reviews on Google, Facebook and Tripadvisor
-</strong></div>
+  <div>
+    <strong>
+       Rated <span>4.6</span>/5
+       based on <span>95</span> customer reviews on Google, Facebook and Tripadvisor
+    </strong>
+  </div>
+   
