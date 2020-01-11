@@ -92,6 +92,9 @@ layout: compress
 
     {% include structured-data.html %}
 
+    {% include cookieconsent.html %}
+
+
    </head>
 
 {% endif %}
@@ -147,8 +150,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {% if page.amp == true %}{% else %}
     
 {% include deferedloader.html %}
-
-{% include cookieconsent.html %}
 
     {% endif %}
 
