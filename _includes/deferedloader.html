@@ -53,4 +53,16 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload5);
         else window.onload = JSAtOnload5;
+
+        function JSAtOnload6() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/cookieconsent.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload6, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload6);
+        else window.onload = JSAtOnload6;
+       
     </script>
