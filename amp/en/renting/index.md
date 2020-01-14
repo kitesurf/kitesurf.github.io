@@ -12,9 +12,9 @@ author: daniel
 description: "Rent your kitesurf equipment from North, Liquid Force or Spleene for your next holiday on Mallorca."
 image:
   background: 4.jpg
-  feature: "flying-friends/m_kite-mallorca_031.jpg"
-  width: 1280px
-  height: 960px
+  feature: "flying-friends/kitematerial_1600wide.jpg"
+  width: 1600px
+  height: 1132px
   teaser:
   thumb: flying-friends/l_kite-mallorca_031.jpg
   picnum: 31
