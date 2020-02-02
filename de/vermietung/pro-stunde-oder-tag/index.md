@@ -64,7 +64,7 @@ published: true
 <div id="bookingKitContainer" data-lang="de" data-e="faa3f4b5de3c2a359c1d2cdc305af5a6" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=faa3f4b5de3c2a359c1d2cdc305af5a6" async></script>
 <noscript>
-<h3>Buche hier dein Leihmaterial zum kiten bei uns in Mallorca</h3>
+<h1>Buche hier dein Leihmaterial zum kiten bei uns in Mallorca</h1>
   
 <ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
 <li>Eleveightkites: die gesamte Produktpalette (alle Kites, twintips und Kitesurfboards)</li>

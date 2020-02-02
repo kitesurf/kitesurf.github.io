@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer" data-lang="en" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=3615f83ea415c3fbec86b9877a5050aa" async></script>
 <noscript>
-<h3>Tryout kitesurfing course (English)</h3>
+<h1>Tryout kitesurfing course (English)</h1>
 <br>
  
 ONLY €100.00 for 3 Hours<br>

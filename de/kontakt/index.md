@@ -59,7 +59,7 @@ t:
   teaser:
 ---
 
-### KITE-MALLORCA KONTAKT
+# KITE-MALLORCA KONTAKT
 
 Du findest uns am Strand von Sa Marina in der Bucht zwischen Alcudia und Port de Pollenca.
 
@@ -72,7 +72,7 @@ Tel.: +34 696 264729
 
 {% include googlemap.html %}
 
-##### Nächstgelegene Unterkünfte
+## Nächstgelegene Unterkünfte
 
 In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.
 Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch eure Abholung möglich.

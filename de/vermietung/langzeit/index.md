@@ -64,8 +64,8 @@ published: true
 <div id="bookingKitContainer" data-lang="de" data-e="3bfb7b3ca857a83f8e8eaced632e2aec" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=3bfb7b3ca857a83f8e8eaced632e2aec" async></script>
 <noscript>
-<h3>Langfristiger Mietbonus für Kitesurfmaterial</h3>
-<h4>Deine Kitetage müssen nicht aufeinander folgend sein, Du hast 2 Jahre Zeit, um deinen Gutschein zu konsumieren.</h4>
+<h1>Langfristiger Mietbonus für Kitesurfmaterial</h1>
+<h2>Deine Kitetage müssen nicht aufeinander folgend sein, Du hast 2 Jahre Zeit, um deinen Gutschein zu konsumieren.</h2>
   
 <ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
 <li>Eleveightkites: die gesamte Produktpalette (alle Kites, twintips und Kitesurfboards)</li>

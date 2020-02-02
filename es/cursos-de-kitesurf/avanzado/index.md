@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=0d459127c3c947893aadb546dd5392e9"></script>
 <noscript>
-<h3>Reserva aquí tu curso de perfeccionamiento en kitesurf</h3>
+<h1>Reserva aquí tu curso de perfeccionamiento en kitesurf</h1>
 <br>
  
 <strong>SOLO 55,00 € por hora o 200 por 4 horas(10% descuento)</strong><br><br>

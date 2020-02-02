@@ -61,7 +61,7 @@ t:
 
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=54c3d1abd7e9f8d1a02a3991c0ed8ff7"></script>
-<noscript><h3>Reserva aquí tu curso de hidrofoil en kitesurf</h3>
+<noscript><h1>Reserva aquí tu curso de hidrofoil en kitesurf</h1>
  
 <strong>200 € por persona - acompañado por barca - mínimo 2 hs - máximo 2 alumnos</strong><br><br>
 <span>Hidrofoil, la nueva tendencia en kiteboarding también ha llegado hasta nosotros. Daniel fue el primero en traer el "foil" a nuestra área hace unos 3 años, e inmediatamente fue muy bien recibido por muchos, más ahora que se está por convertir en deporte olympico.<br>

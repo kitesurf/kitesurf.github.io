@@ -62,8 +62,8 @@ published: true
 ---
 
 
-### Bilder & Videos
+# Bilder & Videos
 
-##### Impressionen
+## Impressionen
 
 Bilder vom Kitesurf auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.

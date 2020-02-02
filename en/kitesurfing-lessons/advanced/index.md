@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer" data-lang="en" data-e="2b2b67f400ea96bfe1028cd2adf1cc95" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=2b2b67f400ea96bfe1028cd2adf1cc95" async></script>
 <noscript>
-<h3>Refresher lessons and further education in kitesurfing</h3>
+<h1>Refresher lessons and further education in kitesurfing</h1>
 <br>
  
 FROM 55.00 Euro per person/hour<br>

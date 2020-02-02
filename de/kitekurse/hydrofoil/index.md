@@ -63,7 +63,7 @@ published: true
 
 <div id="bookingKitContainer" data-lang="de" data-e="7c3c03c88baf5046b46ba5f066833855" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=7c3c03c88baf5046b46ba5f066833855" async></script>
-<noscript><h3>Reservieren und Buchen: Hydrofoil-Kurs im Kitesurfen</h3>
+<noscript><h1>Reservieren und Buchen: Hydrofoil-Kurs im Kitesurfen</h1>
  
 <strong>200 € pro Person - mit Bootsbegleitung - minimum 2 Std. - maximum 2 Teilnehmer</strong><br><br>
 <span>Hydrofoil, der neue Trend im Kiteboarden ist auch bei uns angekommen. Als erster hat Daniel das "foilen" vor ca. 3 Jahre in unser Revier gebracht, und es wurde sofort von vielen sehr gut angenommen.<br>
@@ -86,8 +86,8 @@ Der Kurs findet, nach einer 15 minütigen Vorbereitungszeit am Strand, in der Bu
   <li>Ein Lehrer mit Fachkenntnisse steht dir ganz alleine zur Verfügung.</li>
   <li>Wir begleiten dich mit Boot während der gesamten dauer des Kurses</li>
 </ul>
-<H6>
-Sobald du dann selbständig hin und her fährst, solltest Du alleine weiter üben um das erlernte zu festigen.</H6>
+<H2>
+Sobald du dann selbständig hin und her fährst, solltest Du alleine weiter üben um das erlernte zu festigen.</H2>
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 

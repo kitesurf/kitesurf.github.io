@@ -64,7 +64,7 @@ published: true
 <div id="bookingKitContainer" data-lang="de" data-e="ec7242b91d52f942c5d0333c2c0001cb" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=ec7242b91d52f942c5d0333c2c0001cb" async></script>
 <noscript>
-<h3>Reservieren und Buchen: Grundkurs für Anfänger im Kitesurfen, 10 Std.</h3>
+<h1>Reservieren und Buchen: Grundkurs für Anfänger im Kitesurfen, 10 Std.</h1>
 <br>
  
 AB 55,00 € pro Stunde<br>
@@ -87,8 +87,8 @@ Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
   <li>Zahlbar auch erst nach Vollendung</li>
   <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
 </ul>
-<H6>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H6>
+<H2>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H2>
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 

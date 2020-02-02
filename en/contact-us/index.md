@@ -59,7 +59,7 @@ t:
   teaser:
 ---
 
-### ANY QUESTIONS?
+# ANY QUESTIONS?
 
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email address" required>

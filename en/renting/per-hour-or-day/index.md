@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer" data-lang="en" data-e="faa3f4b5de3c2a359c1d2cdc305af5a6" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=faa3f4b5de3c2a359c1d2cdc305af5a6" async></script>
 <noscript>
-<h3>Reserve your hire equipment here for kitesurfing in Mallorca</h3>
+<h1>Reserve your hire equipment here for kitesurfing in Mallorca</h1>
 <br>
  
 <span>If you are longer with us, then think about a <a href="{{ site.url }}/en/renting/long-term/" title="Rent kitesurfing gear for long term">long-term rent</a></span><br>

@@ -62,7 +62,7 @@ teaser: ALQUILER DE KITE Y TABLA POR DIA O POR HORA
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=d2e27bfb1caa7778a3425cb53d9ad79a"></script>
 <noscript>
-<h3>Reserva aquí tu material de alquiler para la práctica de kitesurf en Mallorca</h3>
+<h1>Reserva aquí tu material de alquiler para la práctica de kitesurf en Mallorca</h1>
   
 <ul><strong>Puedes elegir entre las siguientes marcas con sus correspondientes cometas y tablas:</strong><br>
 <li>Eleveightkites: toda la gama (cometas, twintips y direccionales)</li>

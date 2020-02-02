@@ -58,7 +58,7 @@ t:
   menutxt31: "Alquiler a largo plazo"
   teaser:
 ---
-### ALGUNA DUDA?
+# ALGUNA DUDA?
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">

@@ -61,7 +61,7 @@ t:
 
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=dbe5c4bb2db90f93af73bc64db04e932"></script>
-<noscript><h3>Reserva aquí tus clases particulares en kitesurf</h3>
+<noscript><h1>Reserva aquí tus clases particulares en kitesurf</h1>
  
 <strong>120 € por hora </strong><br><br>
 <span>Nuestras clases privadas de kitesurf te ponen al centro de atención cuando se trata de aprender kitesurf o kiteboard.<br><br>

@@ -58,7 +58,7 @@ t:
   teaser:
 ---
 
-### DATOS DE CONTACTO DE KITE-MALLORCA
+# DATOS DE CONTACTO DE KITE-MALLORCA
 
 Nos encuentras en la playa de Sa Marina, en la bahía de Pollensa, entre la ciudad de Alcudia y el Puerto de Pollensa.
 
@@ -71,7 +71,7 @@ Tlf. +34 696 264729
 
 {% include googlemap.html %}
 
-##### Alojamientos cercanos
+## Alojamientos cercanos
 
 En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.
 Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.

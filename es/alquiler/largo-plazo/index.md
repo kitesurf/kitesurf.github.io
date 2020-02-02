@@ -62,7 +62,7 @@ teaser: BONO DE ALQUILER DE MATERIAL DE KITE A LARGO PLAZO
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=ed0aef615b80f2df794a536d750adcc2"></script>
 <noscript>
-<h3>Bono de alquiler para material de kitesurf a largo plazo</h3>
+<h1>Bono de alquiler para material de kitesurf a largo plazo</h1>
 <h4>Los días de navegación no deben ser consecutivos, tienes 2 años para consumir tu bono.</h4>
 
 

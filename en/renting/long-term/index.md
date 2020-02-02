@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer" data-lang="en" data-e="3bfb7b3ca857a83f8e8eaced632e2aec" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=3bfb7b3ca857a83f8e8eaced632e2aec" async></script>
 <noscript>
-<h3>Long-term rental bonuspacks for kitesurfing equipment</h3>
+<h1>Long-term rental bonuspacks for kitesurfing equipment</h1>
 <br>
  
 <strong>With our rental voucher for kitesurfing material you can save according to your needs and circumstances.</strong><br><br>

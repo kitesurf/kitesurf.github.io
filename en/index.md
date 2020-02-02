@@ -59,7 +59,7 @@ t:
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-### [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting "Kite & board rental") & MORE
+# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends)
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
 
@@ -69,28 +69,28 @@ We've for you:
 - Storage for our guests,  
 - and much more...
 
-#### Kiteboarding and kitesurfing courses
+## Kiteboarding and kitesurfing courses
 As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into rental and continue to practice on your own under our supervision.
 
 {% include carousel.html %}
 
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
 
-##### Our quality for the best price
+### Our quality for the best price
 
-10 hours beginners course - **EUR 450,-**
+10 hours beginners course - **EUR 500,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
-Lessons on an hourly basis - **EUR 55,-/h**
+Lessons on an hourly basis - **EUR 60,-/h**
 Individual hours for all levels in a small group of 2-4 students
 
-3 hours trial course - **EUR 100,-**
+3 hours trial course - **EUR 120,-**
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
 
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
 
 
-#### KITE & BOARD RENTAL
+## KITE & BOARD RENTAL
 
 Latest equipment from Liquid Force, North and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 

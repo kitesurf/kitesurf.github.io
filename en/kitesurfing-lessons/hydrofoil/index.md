@@ -61,7 +61,7 @@ t:
 
 <div id="bookingKitContainer" data-lang="en" data-e="7c3c03c88baf5046b46ba5f066833855" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=7c3c03c88baf5046b46ba5f066833855" async></script>
-<noscript><h3>Hydrofoil course in kitesurfing</h3>
+<noscript><h1>Hydrofoil course in kitesurfing</h1>
  
 <strong>200 € per person - mínimo 2 hs</strong><br><br>
 <span>Hydrofoil, the new trend in kiteboarding has also arrived to us. Daniel was the first to bring "foiling" to our area about 3 years ago, and it was immediately very well received by many; more now that it's about to become an Olympic sport.<br>

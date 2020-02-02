@@ -1,9 +1,11 @@
 {% assign lang = site.data.texts[page.lang] %}
-<h6 class="centered"><a href="{{ site.url }}/amp/{{ page.lang }}/{{ lang.contact_pic_link }}" title="{{ lang.contact_pic_titel }}">Daniel & Gerhard</a> +34-696-264729</h6>
-<p>
 {% if page.amp == true %}
+<h3 class="centered"><a href="{{ site.url }}/amp/{{ page.lang }}/{{ lang.contact_pic_link }}" title="{{ lang.contact_pic_titel }}">Daniel & Gerhard</a> +34-696-264729</h3>
+<p>
 <amp-img src="{{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg" width="640" height="480" layout="responsive" title="{{ lang.contact_pic_alt }}" alt="{{ lang.contact_pic_alt }}"></amp-img>
 {% else %}
+<h3 class="centered"><a href="{{ site.url }}/{{ page.lang }}/{{ lang.contact_pic_link }}" title="{{ lang.contact_pic_titel }}">Daniel & Gerhard</a> +34-696-264729</h3>
+<p>
 <img class="lazyload" data-src="{{ site.url }}/images/flying-friends/l_kite-mallorca_038.jpg" title="{{ lang.contact_pic_alt }}" alt="{{ lang.contact_pic_alt }}" />
 {% endif %}
 </p>

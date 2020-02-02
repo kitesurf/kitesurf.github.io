@@ -3,7 +3,7 @@ layout: article
 title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
 subtitle: Kurse und Schulung im kitesurfen
 date: 2019-02-21T00:00:00.000Z
-modified: 
+modified: 2020-02-02T10:00:00.000Z
 author: daniel
 description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
 image:
@@ -59,8 +59,8 @@ t:
   teaser: Kitekurse
 published: true
 ---
-
 {% include snippets/{{ page.lang }}/kurse.html %}
+# Seit 10 Jahren deine Kitesurfschule auf Mallorca
 
 Unsere Kurse im kitesurfen, kiteboarden und hydrofoilen basierend auf Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband Fachrichtung Kiteboarding und einer langjährige Erfahrung auf Mallorca, seit 2009 unterrichten wir auf dieser schönen Insel, nach den neuesten Erkenntnissen, schnell, sicher und optimal. Perfekt geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommt jeder Gast schnell aufs Board und kann mit uns die Faszination des Kitesurfen erleben!  
 
@@ -71,54 +71,58 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 Der Hauptstandort vom KITE-MALLORCA Team befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
 Dies ergab sich einfach dadurch das Daniel hier seinen Wohnsitz, gerade vorm Kitestrand hat. Dies macht es uns sehr einfach unsere Gäste darüber zu informieren wie den gerade der Wind tatsächlich ist.  
 
-Wir sind schon seit 2009 hier in Mallorca mit unserer Schule ansässig und seit 2012 offizziel eingetragen im internationalen VDWS Kite- und Wassersportschulen Verband.
-Gerhard leitet im Winter seit 2011, gemeinsam mit andere, eines der grössten Schulen in Ägypten. 
-Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus 
+Wir sind schon seit 2009 hier in Mallorca mit unserer Schule ansässig und seit 2012 offizziel eingetragen im internationalen VDWS Kite- und Wassersportschulen Verband.  
+Gerhard leitet im Winter seit 2011, gemeinsam mit andere, eines der grössten Schulen in Ägypten.  
+Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus  
 
-Warum gerade mit uns einen Kitekurs reservieren:
-  * Langjährige internationale Erfahrung im Kitesurfen und Kiteboarden
-  * Kurse in der eigenen Sprache
-  * Klare und überschaubare Preise
-  * 
+## Warum gerade mit uns einen Kitekurs reservieren:
+* **Langjährige internationale Erfahrung im Kiten, Kitesurfen und Kiteboarden**
+* **Klare und überschaubare Preise**
+* **Kurse in der eigenen Sprache :**
+**Deutsch, English, Español, Français, Italiano, Catalan.**
 
 
-###### Unsere Qualität zum besten Preis  
 
-10 Stunden Anfängerkurs - **EUR 450,-**  
+## Unsere Qualität zum besten Preis  
+
+### 10 Stunden Anfängerkurs - **EUR 500,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
-Lizenz erwerb kostet extra 80,- Euro (Dauer ca. 2 Stunden für Theorie und Test)
+**Lizenz erwerb kostet extra 80,- Euro** (Dauer ca. 2 Stunden für Theorie und Test)
 
-4 Stunden Refreshkurs - **EUR 200,-**  
+### 4 Stunden Refreshkurs - **EUR 220,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
 
-Einzelstunden in der Gruppe    
-mit eigenem Kite & Board - **EUR 55,-/h**  
+### Einzelstunden in der Gruppe    
+mit eigenem Kite & Board - **EUR 60,-/h**  
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
 
-3 Stunden Schnupperkurs - **EUR 100,-**  
+### 3 Stunden Schnupperkurs - **EUR 120,-**  
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
 
-Einzelstunden im privaten Unterricht - **EUR 100,-/h**  
+### Einzelstunden im privaten Unterricht - **EUR 120,-/h**  
 Individuelle Stunden allein mit Lehrer für jede Könnensstufe  
 
 (Alle Preise gültig pro Person und mit komplettem Equipment)  
 
-Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
+Die Kitesurfing-Kurse und -Lektionen beinhalten immer das gesamte notwendige Material für die Durchführung. Bei Bedarf auch mit Bootsunterstützung.  
 
-**Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**  
+## **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**  
 
 {% include carousel.html %}  
 
-Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:  
+## Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:  
 
-1) Basics und Kitekontrolle: Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.  
+### 1) Basics und Kitekontrolle:
+Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.  
 
-2) Bodydrag: Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
+### 2) Bodydrag:
+Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
 
-3) Wasserstart: Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
+### 3) Wasserstart:
+Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
 
 
-Bilder von und mit Schüler beim Kitesurfen:  
+## Bilder von und mit Schüler beim Kitesurfen:  
 
 {% include snippets/de/image-hover-effects.html %}  
 

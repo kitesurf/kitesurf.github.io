@@ -59,8 +59,7 @@ t:
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-### [**CURSOS DE KITESURF**]({{ site.url }}/es/cursos-de-kitesurf "Cursos y clases de kitesurf"), [**ALQUILER**]({{ site.url }}/es/alquiler "Alquiler de tablas y cometas para kitesurf") Y MAS   
-
+# [**CURSOS DE KITESURF**]({{ site.url }}/es/cursos-de-kitesurf "Cursos y clases de kitesurf"), [**ALQUILER**]({{ site.url }}/es/alquiler "Alquiler de tablas y cometas para kitesurf") [**Y MAS**]({{ site.url }}/es/flying-friends)  
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
 Tenemos para ti:  
@@ -69,7 +68,7 @@ Tenemos para ti:
 - almacenamiento de tu propio material,  
 - y mucho más...
 
-#### Cursos de kitesurf
+## Cursos de kitesurf y kiteboarding
 
 Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!
 
@@ -77,21 +76,21 @@ Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar bue
 
 Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.
 
-##### Nuestra calidad al mejor precio
+### Nuestra calidad al mejor precio
 
-Curso completo de 10 horas - **EUR 450,-**
+Curso completo de 10 horas - **EUR 500,-**
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
-Clases por horas sueltas - **EUR 55,-/h**
-Clases individuales en grupo para todos los niveles
+Clases por horas sueltas - **EUR 60,-/h**
+Clases individuales en grupo pequeños para todos los niveles, grupos de 2 a 4 almunos, incluye preparación y teoría para hacer la licencia de la VDWS (duración 3-6 días).
 
 [» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
 
-#### Alquiler de kite y tabla
+## Alquiler de kite y tabla
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North  y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
-##### Por que alquilar con Kite-Mallorca
+### Por que alquilar con Kite-Mallorca
 
 * Siempre te asesoraremos en elegir el material adecuado, seguro y que más se adapte a tu nivel.
 * Nuestra supervisión está incluida en el precio de alquiler y te daremos consejos como mejorar tu nivel.

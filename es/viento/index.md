@@ -58,10 +58,10 @@ t:
   teaser:
 ---
 
-### PRONÓSTICOS ACTUALES DE VIENTOS
+# PRONÓSTICOS ACTUALES DE VIENTOS
 
 {% include wind_widget.html %}
 
-#### WEBCAM 
+## WEBCAM 
 
 {% include webcam_scripts.html %}

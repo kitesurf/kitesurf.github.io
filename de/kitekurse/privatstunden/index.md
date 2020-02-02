@@ -63,7 +63,7 @@ published: true
 
 <div id="bookingKitContainer" data-lang="de" data-e="29755c7747a531f245d7e053d5baa865" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=29755c7747a531f245d7e053d5baa865" async></script>
-<noscript><h3>Reservieren und Buchen: Privater Kurs im Kitesurfen</h3>
+<noscript><h1>Reservieren und Buchen: Privater Kurs im Kitesurfen</h1>
 <br>
  
 <strong>120 € pro Stunde</strong><br><br>
@@ -78,8 +78,8 @@ published: true
   <input type="submit" value="Senden">
 </form>
 
-<H6>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche unter anderem zum Mieten von Material an anderen Kiteschulen und Kitecenter berechtigt.</H6>
+<H2>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche unter anderem zum Mieten von Material an anderen Kiteschulen und Kitecenter berechtigt.</H2>
 
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>

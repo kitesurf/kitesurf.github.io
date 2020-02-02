@@ -62,7 +62,7 @@ t:
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=72540446a4965399faa6cfed67b2623c"></script>
 <noscript>
-<h3>Reserva aquí tu curso de inciación o bautismo en kitesurf</h3>
+<h1>Reserva aquí tu curso de inciación o bautismo en kitesurf</h1>
 <br>
  
 <strong>SOLO 100,00 € 3 horas en un solo día</strong><br><br>
