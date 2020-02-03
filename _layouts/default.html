@@ -87,11 +87,16 @@ layout: compress
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
 
     {% if page.shop == true %}{% include shop-css.html %}{% else %}
-    {% include inline-css.html %}
+    {% include inline-above-css.html %}
     {% endif %}
 
     {% include structured-data.html %}
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
+<link rel="preload" type="text/css" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" type="text/css" href="/css/main.css"></noscript>
+<link rel="preload" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"></noscript>
    </head>
 
 {% endif %}
