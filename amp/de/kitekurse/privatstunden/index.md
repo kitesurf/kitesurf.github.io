@@ -63,7 +63,7 @@ t:
 published: true
 ---
 
-<h3>Reservieren und Buchen: Privater Kurs im Kitesurfen</h3>
+<h1>Reservieren und Buchen: Privater Kurs im Kitesurfen</h1>
 <br>
  
 <strong>120 € pro Stunde</strong><br><br>

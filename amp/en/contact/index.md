@@ -62,8 +62,7 @@ t:
 published: true
 ---
 
-
-### KITE-MALLORCA CONTACT
+# KITE-MALLORCA CONTACT
 
 You find us on the beach of Sa Marina in the bay between Alcudia and Port de Pollenca.
 
@@ -76,7 +75,7 @@ Phone +34 696 264729
 
 {% include googlemap.html %}
 
-##### Places to stay
+## Places to stay
 
 In Alcudia and around there are lots of accommodations, we just list the closest ones here.
 From those you can take the public bus or just walk to our spot.

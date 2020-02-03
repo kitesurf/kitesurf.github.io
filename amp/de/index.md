@@ -66,16 +66,16 @@ published: true
 
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-### KITESURFKURSE, MIETE & MEHR
+# KITESURFKURSE, MIETE & MEHR
 
-Wir haben für dich:  
+## Wir haben für dich:  
 - Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) 
 - VDWS geprüfte deutsche und österreichische Kitelehrer
 - Miete von Kites, Boards, Trapez, einfach alles für Fortgeschrittene
 - Einlagerung von Material für Gäste
 - Und vieles Mehr...
 
-#### Unser Instagram
+### Unser Instagram
 {% include instagram.html %} 
 
 Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
@@ -83,7 +83,7 @@ Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wasserspor
 Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
 KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter schon seit einem knappen Jahrzehnt hier tätig.
 
-#### Kurse im Kiteboarden / Kitesurfen
+## Kurse im Kiteboarden / Kitesurfen
 Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
 
 {% include carousel.html %}  
@@ -92,7 +92,7 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
 
-###### Unsere Qualität zum besten Preis  
+### Unsere Qualität zum besten Preis  
 
 10 Stunden Anfängerkurs - **EUR 450,-** <br>
 **Pro Person ein Kite!**<br>
@@ -104,7 +104,7 @@ Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
 
 
-#### KITE & BOARD VERMIETUNG  
+## KITE & BOARD VERMIETUNG  
 
 Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!  
 

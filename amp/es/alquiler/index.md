@@ -60,11 +60,11 @@ t:
   teaser:
 ---
 
-### ALQUILER DE KITE Y TABLA
+# ALQUILER DE MATERIAL DE KITESURF
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
-##### Por que alquilar con Kite-Mallorca
+## Por que alquilar con Kite-Mallorca
 
 - Siempre te asesoraremos en elegir el material adecuado, seguro y que más se adapte a tu nivel.
 - Nuestra supervisión está incluida en el precio de alquiler y te daremos consejos como mejorar tu nivel.
@@ -75,7 +75,7 @@ Para que tu pases un buen día!
 
 {% include carousel.html %}
 
-##### Precios
+### Precios
 <table>
   <tr>
     <td></td>
@@ -103,13 +103,13 @@ Para que tu pases un buen día!
   </tr>
 </table>
 
-##### Reservas
+### Reservas
 
 Para asegurar que en cualquier momento obtengas el kite o la tabla adecuada, te recomendamos para alquileres de una semana o más que lo reserves con antelacíon. De esta manera de guardaremos lo reservado.
 
 (Precios en euro. En el kitespot se puede elegir el tamaño exacto según condiciones del viento y disponibilidad. El material de alquiler se puede cambiar en cualquier momento si queda disponible.)
 
-##### Responsabilidad por el Kite y/o la tabla en alquiler
+#### Responsabilidad por el Kite y/o la tabla en alquiler
 
 Se recomienda antes de alquilar material deportivo de contratar algún seguro especial, como por ejemplo el que ofrece la federación de kitesurf Alemana, (Válido para todo el mundo): Safety Tool del VDWS
 

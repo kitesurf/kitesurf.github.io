@@ -60,7 +60,7 @@ t:
   teaser: ""
 ---
 
-### KITESURFING LESSONS  
+# KITESURFING LESSONS  
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.  
 
@@ -72,40 +72,43 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 {% include carousel.html %}  
 
-###### Our quality for the best price (Season 2019)  
+## Our quality for the best price  
 
-10 hours beginners course - **EUR 450,-**  
+### 10 hours beginners course - **EUR 500,-**  
 Beginner lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  
 
-4 hours refresh course - **EUR 200,-**  
+### 4 hours refresh course - **EUR 220,-**  
 Advanced lessons in a small group of 2-4 students for people who have done a course before and want to refresh and improve their skills (duration 1-3 days)  
 
-Group lessons on an hourly basis  
+### Group lessons on an hourly basis  
 with shared kite & board - **EUR 45,-/h**  
-with own kite & board - **EUR 55,-/h**  
+with own kite & board - **EUR 60,-/h**  
 Individual hours for all levels in a small group of 2-4 students  
 
-3 hours trial course - **EUR 100,-**  
+### 3 hours trial course - **EUR 120,-**  
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)  
 
-Private one-to-one lessons - **EUR 85,-/h**  
+### Private one-to-one lessons - **EUR 120,-/h**  
 Individual hours alone with an instructor for all levels
 
 (All prices are per person)
 
 The courses and lessons always include the complete equipment required. If necessary also with boat support.  
 
-**You just need to bring a great mood, fun and the desire to learn!**  
+## **You just need to bring a great mood, fun and the desire to learn!**  
 
-**Our courses for beginners comprise the following elements**  
+## **Our courses for beginners comprise the following elements**  
 
-1) Basics and kite control: At the beginning of a beginner's course you learn a good kite control with a small trainer kite. With the help of practical exercises the wind window, correct mounting of the kite equipment and the safety systems of modern kites are explained to you.  
+### 1) Basics and kite control:  
+At the beginning of a beginner's course you learn a good kite control with a small trainer kite. With the help of practical exercises the wind window, correct mounting of the kite equipment and the safety systems of modern kites are explained to you.  
 
-2) Body drag: As soon as you can control the kite on land we go into the water! During the first sessions in the water you learn the body dragging, which is like kitesurfing without board, where you let yourself drag through the water with the kite.  
+### 2) Body drag:  
+As soon as you can control the kite on land we go into the water! During the first sessions in the water you learn the body dragging, which is like kitesurfing without board, where you let yourself drag through the water with the kite.  
 
-3) Water start: After the successful body drags you get the board onto your feet and you learn how to ride the first meters on the water.  
+### 3) Water start:  
+After the successful body drags you get the board onto your feet and you learn how to ride the first meters on the water.  
 
-Pictures from and with students of kitesurfing:  
+#### Pictures from and with students of kitesurfing:  
 
 {% include snippets/en/image-hover-effects.html %}  
   

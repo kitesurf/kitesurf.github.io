@@ -60,7 +60,7 @@ t:
   menutxt100: "Cerrar"
   teaser: CURSOS DE KITESURF
 ---
-<h3>Reserva aquí tu curso básico de kitesurf, 10 hs.</h3>
+<h1>Reserva aquí tu curso básico de kitesurf, 10 hs.</h1>
 <br>
  
 <strong>SOLO 55,00 € por hora o 450 por 10 horas(10% descuento)</strong><br><br>

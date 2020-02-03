@@ -59,6 +59,7 @@ t:
 published: true
 ---
 
+# Outfit
 En nuestra tienda de ropa y complementos puedes encontrar ropa y accesorios con diseños alrededor del kitesurf. 
 La tienda sólo funciona a través de Javascript. Desafortunadamente esto no funciona en las páginas AMP.
 

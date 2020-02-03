@@ -61,7 +61,7 @@ t:
   teaser: CURSOS DE KITESURF PARA APRENDER MÁS - SALTAR- SEÑIR - STRAPLESS
 ---
 
-<h3>Reserva aquí tu curso de perfeccionamiento en kitesurf</h3>
+<h1>Reserva aquí tu curso de perfeccionamiento en kitesurf</h1>
 <br>
  
 <strong>SOLO 55,00 € por hora o 200 por 4 horas(10% descuento)</strong><br><br>

@@ -63,7 +63,7 @@ t:
 published: true
 ---
 
-<h3>Reservieren und Buchen: Hydrofoil-Kurs im Kitesurfen</h3>
+<h1>Reservieren und Buchen: Hydrofoil-Kurs im Kitesurfen</h1>
  
 <strong>200 € pro Person - mit Bootsbegleitung - minimum 2 Std. - maximum 2 Teilnehmer</strong><br><br>
 <span>Hydrofoil, der neue Trend im Kiteboarden ist auch bei uns angekommen. Als erster hat Daniel das "foilen" vor ca. 3 Jahre in unser Revier gebracht, und es wurde sofort von vielen sehr gut angenommen.<br>

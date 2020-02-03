@@ -58,14 +58,14 @@ t:
 ---
 
 
-### Aviso legal
+# Aviso legal
 
 
 Información general para dar cumplimiento a la Ley de Internet 34/2002:
 
 
 
-##### Titular:
+## Titular:
 
 Kitesurf Mallorca S.L.
 C.I.F.: B57774572
@@ -80,7 +80,7 @@ Inscrito en el Registro mercantil de Palma de Mallorca
 Inscripción 1ª, Hoja PM-70674, Folio 93, Tomo 2516
 
 
-##### Política de privacidad:
+### Política de privacidad:
 De acuerdo con lo dispuesto en la Ley Orgánica 15/99 del 13 de diciembre de 1999
 sobre Protección de Datos de Carácter Personal, Kitesurf Mallorca S.L. y su sitio
 web https://kite-mallorca.com cumple la legislación vigente respecto a la protección

@@ -61,7 +61,7 @@ t:
   teaser: KITESURFING AND KITEBOARDING LESSONS
 ---
 
-<h3>Refresher lessons and further education in kitesurfing</h3>
+<h1>Refresher lessons and further education in kitesurfing</h1>
 <br>
  
 FROM 55.00 Euro per person/hour<br>

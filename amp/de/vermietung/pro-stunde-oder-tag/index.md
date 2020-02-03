@@ -63,7 +63,7 @@ t:
 published: true
 ---
 
-<h3>Buche hier dein Leihmaterial zum kiten bei uns in Mallorca</h3>
+<h1>Buche hier dein Leihmaterial zum kiten bei uns in Mallorca</h1>
   
 <ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
 <li>Eleveightkites: die gesamte Produktpalette (alle Kites, twintips und Kitesurfboards)</li>

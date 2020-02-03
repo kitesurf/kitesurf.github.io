@@ -61,13 +61,13 @@ t:
   teaser: Tus clases particulares de kitesurf
 ---
 
-<h3>Reserva aquí tus clases particulares en kitesurf</h3>
+<h1>Reserva aquí tus clases particulares en kitesurf</h1>
  
 <strong>120 € por hora </strong><br><br>
-<span>Nuestras clases privadas de kitesurf te ponen al centro de atención cuando se trata de aprender kitesurf o kiteboard.<br><br>
+Nuestras clases privadas de kitesurf te ponen al centro de atención cuando se trata de aprender kitesurf o kiteboard.<br><br>
 
 Tus clases muy exclusivas con Daniel o Gerhard o uno de nuestros excelentes instructores. Cada uno tiene su propio campo (afición especial), donde es muy bueno y puede ayudarte en consecuencia mejor que otro. No importa si se trata de un curso básico o de un salto o de clases de hidrofoil, en todas partes se te acompañará como lo mereces.<br>
-</span>
+
 <div class="item">
 <ul><strong>¿Qué otros aspectos destacados me esperan?</strong>
   <li>Un profesor con conocimientos especializados está a tu disposición</li>

@@ -61,7 +61,7 @@ t:
   teaser:
 ---
 
-### NOCH FRAGEN?
+# NOCH FRAGEN?
 
 <form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>

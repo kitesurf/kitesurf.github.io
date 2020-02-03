@@ -63,7 +63,7 @@ published: true
 ---
 
 
-### KITEKURSE
+# KITESURFKURSE
 
 KITE-MALLORCA befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.  
 
@@ -75,20 +75,20 @@ Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontr
 
 Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
 
-###### Unsere Qualität zum besten Preis (Saison 2019)  
+## Unsere Qualität zum besten Preis
 
-10 Stunden Anfängerkurs - **EUR 450,-**  
+### 10 Stunden Anfängerkurs - **EUR 500,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 
-4 Stunden Refreshkurs - **EUR 200,-**  
+### 4 Stunden Refreshkurs - **EUR 220,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
 
-Einzelstunden in der Gruppe  
+### Einzelstunden in der Gruppe  
 mit geteiltem Kite & Board - **EUR 45,-/h**  
-mit eigenem Kite & Board - **EUR 55,-/h**  
+mit eigenem Kite & Board - **EUR 60,-/h**  
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
 
-3 Stunden Schnupperkurs - **EUR 100,-**  
+### 3 Stunden Schnupperkurs - **EUR 120,-**  
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
 
 Einzelstunden im privaten Unterricht - **EUR 120,-/h**  
@@ -98,19 +98,22 @@ Individuelle Stunden allein mit Lehrer für jede Könnensstufe
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 
-**Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**  
+## **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**  
 
 {% include carousel.html %}  
 
-Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:  
+## Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:  
 
-1) Basics und Kitekontrolle: Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.  
+### 1) Basics und Kitekontrolle:  
+Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.  
 
-2) Bodydrag: Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
+### 2) Bodydrag:  
+Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
 
-3) Wasserstart: Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
+### 3) Wasserstart:  
+Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
 
-Bilder von und mit Schüler beim Kitesurfen:  
+#### Bilder von und mit Schüler beim Kitesurfen:  
 
 {% include snippets/de/image-hover-effects.html %}  
 

@@ -64,6 +64,8 @@ t:
 published: true
 ---
 
+# Outfit
+
 In unserem Shop für Outfits kannst du Kleidung und Accesoirs mit Designs rund ums Thema Kitesurfen finden. 
 Der Shop wird nur über Javascript dargestellt. Dieser funktioniert leider nicht auf AMP—Seiten.
 

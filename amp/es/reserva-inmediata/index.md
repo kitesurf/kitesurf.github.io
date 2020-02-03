@@ -62,4 +62,4 @@ Desafortunadamente esto no funciona en las páginas AMP.
 
 Aquí tienes el enlace a la tienda en la página web normal:
 
-### [**RESERVA INMEDIATA**]({{ site.url }}/es/reserva-inmediata "Reserva online inmediata con confirmación")
+# [**RESERVA INMEDIATA**]({{ site.url }}/es/reserva-inmediata "Reserva online inmediata con confirmación")

@@ -61,7 +61,7 @@ t:
   teaser: KITESURFING LESSONS
 ---
 
-<h3>Hydrofoil course in kitesurfing</h3>
+<h1>Hydrofoil course in kitesurfing</h1>
  
 <strong>200 € per person - mínimo 2 hs</strong><br><br>
 <span>Hydrofoil, the new trend in kiteboarding has also arrived to us. Daniel was the first to bring "foiling" to our area about 3 years ago, and it was immediately very well received by many; more now that it's about to become an Olympic sport.<br>

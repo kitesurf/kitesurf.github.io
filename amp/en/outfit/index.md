@@ -60,6 +60,7 @@ t:
 published: true
 ---
 
+# Outfit
 In our shop for outfits you can find clothes and accessories with designs around kitesurfing. 
 The shop is only displayed via Javascript. Unfortunately this does not work on AMP pages.
 

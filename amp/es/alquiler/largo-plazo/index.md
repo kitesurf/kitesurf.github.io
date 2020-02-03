@@ -60,8 +60,8 @@ t:
 teaser: BONO DE ALQUILER DE MATERIAL DE KITE A LARGO PLAZO
 ---
 
-<h3>Bono de alquiler para material de kitesurf a largo plazo</h3>
-<h4>Los días de navegación no deben ser consecutivos, tienes 2 años para consumir tu bono.</h4>
+<h1>Bono de alquiler para material de kitesurf a largo plazo</h1>
+<h2>Los días de navegación no deben ser consecutivos, tienes 2 años para consumir tu bono.</h2>
 
 
 <span>Con nuestro bono de alquiler puedes ahorrar según tus necesidades y circunstancias.<br>

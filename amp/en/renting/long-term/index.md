@@ -61,7 +61,7 @@ t:
   teaser: KITESURFING LESSONS
 ---
 
-<h3>Long-term rental bonuspacks for kitesurfing equipment</h3>
+<h1>Long-term rental bonuspacks for kitesurfing equipment</h1>
 <br>
  
 <strong>With our rental voucher for kitesurfing material you can save according to your needs and circumstances.</strong><br><br>

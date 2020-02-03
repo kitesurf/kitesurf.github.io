@@ -60,7 +60,7 @@ t:
   menutxt100: "Cerrar"
   teaser:
 ---
-### ALGUNA DUDA?
+# ¿ALGUNA DUDA?
 <form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
   <input type="email" name="_replyto" placeholder="Tu correo electrónico" required>
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">

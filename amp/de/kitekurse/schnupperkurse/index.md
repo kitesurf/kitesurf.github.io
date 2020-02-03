@@ -63,7 +63,7 @@ t:
 published: true
 ---
 
-<h3>Reservieren und Buchen: Schnupperkurs im Kitesurfen</h3>
+<h1>Reservieren und Buchen: Schnupperkurs im Kitesurfen</h1>
 <br>
  
 <strong>NUR 100,00 € für 3 Stunden an einem Tag</strong><br><br>

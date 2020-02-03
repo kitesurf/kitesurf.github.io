@@ -61,7 +61,7 @@ t:
   teaser: VEN A DIVERTIRTE UN DÍA PROBANDO EL KITESURF CON NOSOTROS
 ---
 
-<h3>Reserva aquí tu curso de inciación o bautismo en kitesurf</h3>
+<h1>Reserva aquí tu curso de inciación o bautismo en kitesurf</h1>
 <br>
  
 <strong>SOLO 100,00 € 3 horas en un solo día</strong><br><br>

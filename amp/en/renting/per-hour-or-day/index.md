@@ -61,7 +61,7 @@ t:
   teaser: KITESURFING GEAR RENTAL PER HOUR OR DAY
 ---
 
-<h3>Reserve your hire equipment here for kitesurfing in Mallorca</h3>
+<h1>Reserve your hire equipment here for kitesurfing in Mallorca</h1>
 <br>
  
 <span>If you are longer with us, then think about a <a href="{{ site.url }}/en/renting/long-term/" title="Rent kitesurfing gear for long term">long-term rent</a></span><br>

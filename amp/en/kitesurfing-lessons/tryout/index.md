@@ -61,7 +61,7 @@ t:
   teaser: PICK UP YOUR PORTION OF FUN TRYING OUT KITESURFING IN MAJORCA
 ---
 
-<h3>Tryout kitesurfing course (English)</h3>
+<h1>Tryout kitesurfing course (English)</h1>
 <br>
  
 ONLY €100.00 for 3 Hours<br>

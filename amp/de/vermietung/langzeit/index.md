@@ -63,8 +63,8 @@ t:
 published: true
 ---
 
-<h3>Langfristiger Mietbonus für Kitesurfmaterial</h3>
-<h4>Deine Kitetage müssen nicht aufeinander folgend sein, Du hast 2 Jahre Zeit, um deinen Gutschein zu konsumieren.</h4>
+<h1>Langfristiger Mietbonus für Kitesurfmaterial</h1>
+<h2>Deine Kitetage müssen nicht aufeinander folgend sein, Du hast 2 Jahre Zeit, um deinen Gutschein zu konsumieren.</h2>
   
 <ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
 <li>Eleveightkites: die gesamte Produktpalette (alle Kites, twintips und Kitesurfboards)</li>

@@ -58,6 +58,7 @@ t:
 published: true
 ---
 
+# SOFORTBUCHUNG
 Das Buchungssystem funktioniert nur mit Javascript. Dieses funktioniert leider nicht auf AMP—Seiten.
 
 Hier hast du den Link zum Shop auf der normalen Webseite:

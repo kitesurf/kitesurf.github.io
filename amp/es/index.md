@@ -63,18 +63,18 @@ t:
 
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-### CURSOS, ALQUILER Y MAS EN KITESURF
+# CURSOS, ALQUILER Y MAS EN KITESURF
 
-Tenemos para ti:  
+## Tenemos para ti:  
 - cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida),  
 - alquiler de tablas, cometas, etc. para kitesurfistas,  
 - almacenamiento de tu propio material,  
 - y mucho más...
 
-#### Nuestro Instagram
+### Nuestro Instagram
 {% include instagram.html %} 
 
-#### Cursos de kitesurf
+## Cursos de kitesurf
 
 Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!
 
@@ -84,22 +84,22 @@ Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del 
 
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
-##### Nuestra calidad al mejor precio
+### Nuestra calidad al mejor precio
 
-Curso completo de 10 horas - **EUR 450,-**<br>
+#### Curso completo de 10 horas - **EUR 500,-**<br>
 Cada alumno un equipo completo!
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
-Clases por horas sueltas - **EUR 55,-/h**
+#### Clases por horas sueltas - **EUR 60,-/h**
 Clases individuales en grupo para todos los niveles
 
 [» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
 
-#### Alquiler de kite y tabla
+## Alquiler de kite y tabla
 
 En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North  y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
-##### Por que alquilar con Kite-Mallorca
+### Por que alquilar con Kite-Mallorca
 
 * Siempre te asesoraremos en elegir el material adecuado, seguro y que más se adapte a tu nivel.
 * Nuestra supervisión está incluida en el precio de alquiler y te daremos consejos como mejorar tu nivel.

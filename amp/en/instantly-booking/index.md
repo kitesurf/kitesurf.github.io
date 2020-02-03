@@ -57,8 +57,9 @@ t:
 published: true
 ---
 
+# INSTANTLY BOOKING
 The booking system only will be displayed with Javascript. Unfortunately this does not work on AMP pages.
 
 Here you have the link to the booking system on the normal website:
 
-### [**INSTANTLY BOOKING**]({{ site.url }}/en/instantly-booking "Instantly online booking with confirmation")
+## [**INSTANTLY BOOKING**]({{ site.url }}/en/instantly-booking "Instantly online booking with confirmation")
