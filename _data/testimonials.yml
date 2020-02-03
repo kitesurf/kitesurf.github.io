@@ -10,6 +10,15 @@ lang:
         quote: 5
         review: "Mallorca mit der Absicht, das Kiten zu erlernen...Ausrüstung... sehr professionell...am meisten gefallen hat der sehr persönliche Umgang von Daniel und Gerhardt... Aus meiner Sicht sehr empfehlenswert!"
         org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
+    
+      - person: Elisabeth Kroess
+        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t31.0-1/c0.0.160.160a/p160x160/330606_2459297561021_268743842_o.jpg?_nc_cat=108&_nc_ohc=eGEvWTzktaAAX-G67K6&_nc_ht=scontent.fmad6-1.fna&oh=4b6df680f68cdaa42d647cae8d0803cd&oe=5EC567E8"
+        languages: de
+        review_at: Facebook
+        author_link: "https://www.facebook.com/elisabeth.kroess/posts/10214245848159347:0"
+        quote: 5    
+        review: "Hier stimmt alles: gutes Material, gute Lehrer mit einer Engelsgeduld, gute Stimmung, absolut empfehlenswert. Best Kite School on the Island"
+        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
 
       - person: Ute Flockenhaus
         avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/43124956_10217833484013027_4224705711256371200_n.jpg?_nc_cat=100&_nc_ht=scontent.fmad6-1.fna&oh=72b6e8c633cc873a551ec3d20f3e24ef&oe=5D8BBE28"
@@ -21,7 +30,7 @@ lang:
         org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
 
       - person: Thorsten Koth
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/10898006_10204926883986902_5917098033074898328_n.jpg?_nc_cat=108&_nc_ht=scontent.fmad6-1.fna&oh=12c3427c92bee1841393da41bf8cae6e&oe=5D81BBE1"
+        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/10898006_10204926883986902_5917098033074898328_n.jpg?_nc_cat=108&_nc_ohc=N9WPbd695ZYAX95tTAi&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=20c33fad7868e68140d3293219868842&oe=5EBE23E1"
         languages: de
         review_at: Facebook
         author_link: "https://www.facebook.com/thorsten.koth.79/posts/10212934301967347:0"
@@ -57,6 +66,33 @@ lang:
         org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
 
     en:
+      - person: Nerijus Malin
+        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/13920769_10153865766823481_886922025931346587_n.jpg?_nc_cat=107&_nc_ohc=zs753roRYKYAX-nwV72&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=d579cccdc73cad0d7f6c805de9c49d31&oe=5ECA0AB0"
+        languages: en
+        review_at: Facebook
+        author_link: "https://www.facebook.com/nerijus.malinauskas/posts/10159336759465601:0"
+        quote: 5    
+        review: "My top recommendations to these guys - they professional, also fair (never overcharge), help with advices. I took some lessons and then rented the kite."
+        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
+
+      - person: Marie Thongkhamdy
+        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/78232730_10156510961163204_2590890161764040704_o.jpg?_nc_cat=105&_nc_ohc=-KW2BwmeUasAX9DQakA&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=e55454b578e30f7fd34a64d79b0aca19&oe=5ECFB924"
+        languages: fr - en
+        review_at: Facebook
+        author_link: "https://www.facebook.com/marie.thongkhamdy/posts/10156148674173204"
+        quote: 5    
+        review: "Merci à Daniel et Gerhad et aussi l’autre Daniel, d’avoir été super accueillant et compréhensif malgré la barrière de la langue 😛 Je les recommande, ils sont joviales et m’ont semblé patients.Je n’étais qd observation. Contact facile par whatsapp pour nous donner les prév. De la journée et nous convier à faire une session. On y retournera avec grand plaisir 👍"
+        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
+
+      - person: Stephan Thiel
+        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p160x160/53472702_2657072884308876_6789414907730198528_n.jpg?_nc_cat=108&_nc_ohc=g2jFhQVUQXMAX_0Ub7n&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=4be6672dee40839d721629652bd56c0d&oe=5EC6CF19"
+        languages: en
+        review_at: Facebook
+        author_link: "https://www.facebook.com/stephan.thiel.71/posts/641581249199797:0"
+        quote: 5    
+        review: "Daniel and Gerhard is the best Kite surfing training crew in Mallorca~~~ the coolest lesson I hv ever had!!! I am sure that i will come back soon... awesome experience in alcudia... Thx guys!!!"
+        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
+    
       - person: Michael Probst
         avatar_img: "https://lh3.googleusercontent.com/-ZebDuiOrRpE/AAAAAAAAAAI/AAAAAAAACZA/rLX1sMOZlQI/s46-c-k-no/photo.jpg"
         languages: de - en
