@@ -180,7 +180,7 @@ h2,h3,p{margin-bottom:1.5rem}body,h2,h5,input,li,p{line-height:1.5}h5>ul>li{line
 body{margin:0;width:100%;color:#4d4c4c;background-attachment:fixed;background-size:100%;background-repeat:no-repeat;background-position:50% 60px}
 /* Result pending */
 .no-js body {
-  background-image:none;
+  background-image:url({{ base.url}}/images/{{ page.image.background2 }});
 }
 /* WebP supported */
 .js.webp body {
