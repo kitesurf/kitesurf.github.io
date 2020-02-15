@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kite-Mallorca - International Kitesurf Center +34-696-264729"
+title: "Kitesurf Mallorca - International Kiteboarding School +34-696-264729"
 subtitle: "Your International Kitesurf Center"
 date: 2015-11-23
 modified: 2018-04-14
 author: daniel
-description: "&#127958; | Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
+description: "'&#127958;'Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
