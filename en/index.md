@@ -5,7 +5,7 @@ subtitle: "Your International Kitesurf Center"
 date: 2015-11-23
 modified: 2018-04-14
 author: daniel
-description: "'&#127958;'Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
+description: "Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp

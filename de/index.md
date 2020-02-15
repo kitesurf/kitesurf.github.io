@@ -5,7 +5,7 @@ subtitle: Dein internationales Kitesurfcenter
 date: 2019-02-21T00:00:00.000Z
 modified: 2020-01-03T00:00:00.000Z
 author: daniel
-description: "&#127958; Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung von Material, Kurse, Schulung. Deutsche Kitelehrer. Ruf an"
+description: "Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung von Material, Kurse, Schulung. Deutsche Kitelehrer. Ruf an"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
