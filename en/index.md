@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kite-Mallorca - Your International Kitesurf Center - Phone +34-696-264729"
+title: "Kite-Mallorca - International Kitesurf Center +34-696-264729"
 subtitle: "Your International Kitesurf Center"
 date: 2015-11-23
 modified: 2018-04-14
 author: daniel
-description: "Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
+description: "&#127958; | Kitesurfing, kiteboarding and foiling. All year round rental of kite gear and courses with certified instructors for all levels. Call us"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -92,7 +92,7 @@ Lessons in a small group of 2-4 students with the goal to be dragged through the
 
 ## KITE & BOARD RENTAL
 
-Latest equipment from Liquid Force, North and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
+Latest equipment from Duotone and Eleveight is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
