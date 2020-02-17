@@ -14,7 +14,7 @@
   </svg>
 
     {% for item in site.data.testimonials.lang[page.lang] %}
-      <span id="target-item-{{ forloop.index }}"></span>
+      <span id="testimonial-{{ forloop.index }}"></span>
     {% endfor %}
     {% for item in site.data.testimonials.lang[page.lang] %}
         <script type="application/ld+json">
@@ -80,14 +80,14 @@
             </div>
         </div> 
         {% if forloop.index == 1 %}
-        <a href="#target-item-{{ forloop.length }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
+        <a href="#testimonial-{{ forloop.length }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
         {% else %}
-        <a href="#target-item-{{ forloop.index | minus:1 }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
+        <a href="#testimonial-{{ forloop.index | minus:1 }}"><svg class="icon arrow arrow-l"><use xlink:href="#arrow"></use></svg></a>
         {% endif %}
         {% if forloop.last == true %}
-        <a href="#target-item-1"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
+        <a href="#testimonial-1"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
         {% else %}
-        <a href="#target-item-{{ forloop.index | plus:1 }}"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
+        <a href="#testimonial-{{ forloop.index | plus:1 }}"><svg class="icon arrow arrow-r"><use xlink:href="#arrow"></use></svg></a>
         {% endif %}
     </div>
       {% endfor %}
