@@ -1,4 +1,4 @@
-# testimonials, bei aendern der Anzahl muss die Datei carousel in Zeile 69-70 angepasst werden bei Anzahl der reviews.
+# testimonials, bei aendern der Anzahl muss die Datei carousel in Zeile 69-70 und in der css datei für normal und AMP der zus. Target angepasst werden bei Anzahl der reviews.
 
 lang:
     de:
