@@ -66,8 +66,7 @@ t:
 <br>
  
 <strong>With our rental voucher for kitesurfing material you can save according to your needs and circumstances.</strong><br><br>
-<span>We have bonuses of 5, 7, 10 or 20 days; the more days, the more you save.  The kitesurfing days do not have to be consecutive, you have 2 years to consume your voucher.<br>
-To get a bonus the payment must be made in advance.</span>
+<span>We have bonuses for 5, 7, 10 or 20 days; the more days, the more you save. The days using your bonus package do not have to be consecutive, you have 2 years to use up your voucher. To get one of these bonus packages, your payment must be made in advance.</span>
 
 <ul title="We have the following brands with their corresponding kites and tables to choose from:">
   <li>Eleveightkites: all the range (kites, twintips and directionals)</li>
