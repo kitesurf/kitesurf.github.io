@@ -19,9 +19,9 @@ image:
   picnum: 47
 snippets: true
 lang: es
-en-url: "en/wind"
-es-url: "es/viento"
-de-url: "de/wind"
+en-url: "en/wind/"
+es-url: "es/viento/"
+de-url: "de/wind/"
 t:
   link1: "cursos-de-kitesurf"
   menutxt1:    "cursos de kitesurf"
