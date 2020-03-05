@@ -21,9 +21,9 @@ image:
   picnum: 55
 snippets: null
 lang: en
-"en-url": amp/en/kitesurfing-lessons/privatlessons/
-"es-url": amp/es/cursos-de-kitesurf/clase-privada/
-"de-url": amp/de/kitekurse/privatstunden/
+"en-url": en/kitesurfing-lessons/privatlessons/
+"es-url": es/cursos-de-kitesurf/clase-privada/
+"de-url": de/kitekurse/privatstunden/
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"
