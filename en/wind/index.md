@@ -20,9 +20,9 @@ image:
 snippets:
 shortsnippets: true
 lang: en
-en-url: "en/wind"
-es-url: "es/viento"
-de-url: "de/wind"
+en-url: "en/wind/"
+es-url: "es/viento/"
+de-url: "de/wind/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons"
