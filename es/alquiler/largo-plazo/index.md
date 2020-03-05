@@ -20,9 +20,9 @@ image:
   picnum: 47
 snippets: null
 lang: es
-en-url: "en/renting/"
-es-url: "es/alquiler/"
-de-url: "de/vermietung/"
+en-url: "en/renting/long-term/"
+es-url: "es/alquiler/largo-plazo/"
+de-url: "de/vermietung/langzeit/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
