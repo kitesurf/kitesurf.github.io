@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Langzeitmiete für Kitesurfer"
 subtitle: Günstige Angebote für Materialmiete in Form von Bonuspakette
 date: 2019-02-27T00:00:00.000Z
-modified: 
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "&#128176; Kite - Kitesurfmaterial länger mieten und sparen? Für dich haben wir diverse Bonuspakette zum Mieten, nutzbar in 2 Jahre"
 image: 

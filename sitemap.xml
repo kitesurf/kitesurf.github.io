@@ -16,14 +16,6 @@ lang: en
   <url>
     <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
-  {% elsif page.lang == 'es' and page.layout != nil %}
-  <url>
-    <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
-  </url>
-  {% elsif page.lang == 'de' and page.layout != nil %}
-  <url>
-    <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
-  </url>
   {% endif %}
   {% endfor %}
 </urlset>

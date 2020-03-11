@@ -8,7 +8,7 @@ amp-video: true
 title: "Kite-Mallorca - Viento - Tel. +34-696-264729"
 subtitle: "Pronosticos del viento en Mallorca"
 date: 2017-01-05 
-modified: 2017-02-28
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."
 image:
@@ -19,9 +19,9 @@ image:
   picnum: 47
 snippets: true
 lang: es
-en-url: "en/wind"
-es-url: "es/viento"
-de-url: "de/wind"
+en-url: "en/wind/"
+es-url: "es/viento/"
+de-url: "de/wind/"
 t:
   link1: "cursos-de-kitesurf"
   menutxt1:    "cursos de kitesurf"

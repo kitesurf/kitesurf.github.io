@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Curso particular de kitesurf &#128242;+34-696-264729"
 subtitle: "Cursos y clases particulares de kitesurf o kiteboarding"
 date: 2019-02-27T13:57:10+01:00
-modified: 
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "&#128081;Clases particulares que se centran en ti cuando se trata de kitesurf. Para todos los que desean llegar a su destino más rápido"
 image:
@@ -22,7 +22,7 @@ image:
 snippets: null
 lang: es
 "en-url": en/kitesurfing-lessons/privatlessons/
-"es-url": es/cursos-de-kitesurf/clase-privada/
+"es-url": es/cursos-de-kitesurf/privado/
 "de-url": de/kitekurse/privatstunden/
 t:
   link1: "cursos-de-kitesurf/"

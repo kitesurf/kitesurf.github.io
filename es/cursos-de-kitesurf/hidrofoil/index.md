@@ -1,10 +1,10 @@
 ---
 layout: article
 buchung: true
-title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
+title: "Kite-Mallorca - CURSOS DE KITESURF HIDROFOIL- Tel. +34-696-264729"
 subtitle: "Cursos y clases de kitesurf"
 date: 2019-02-27T13:57:10+01:00
-modified: 
+modified: 2020-03-10T12:34:10+01:00
 author: daniel
 description: "Kite foil o hidrofoil, la nueva tendencia en kiteboarding y kitesurf. Con mástil corto y barco de apoyo se puede aprender rápido"
 image:

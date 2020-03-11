@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Alquiler en kitesurf a largo-plazo &#128242;+34-696-264729"
 subtitle: "Alquiler de tablas y cometas para kitesurf"
 date: 2019-02-27T12:57:10+01:00
-modified: 
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "&#128176; Alquilar equipo de kite o kitesurf a largo plazo y ahorrar? Para ti tenemos varios bonos de alquiler, utilizables en 2 años"
 image:
@@ -21,9 +21,9 @@ image:
   picnum: 47
 snippets: null
 lang: es
-en-url: "en/renting/"
-es-url: "es/alquiler/"
-de-url: "de/vermietung/"
+en-url: "en/renting/long-term/"
+es-url: "es/alquiler/largo-plazo/"
+de-url: "de/vermietung/langzeit/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
@@ -55,7 +55,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
 teaser: BONO DE ALQUILER DE MATERIAL DE KITE A LARGO PLAZO
 ---

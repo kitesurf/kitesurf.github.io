@@ -9,7 +9,7 @@ shop: true
 title: "Kite-Mallorca - Shop - Spass und Freude mit Fanartikel und Fashion"
 subtitle: Viel Spass beim stöbern
 date: 2017-11-24T00:00:00.000Z
-modified: 
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "kite-mallorca's Outfit - dein Lifestyle. Shop für Fashion und Accessoires mit 30 Tage Rückgaberecht. Geniese unsere gemeinsame Lebensfreude mit deinem T—Shirt, Hoodie, Kappe oder sonst was wo auch immer"
 image: 
@@ -23,9 +23,9 @@ image:
   picnum: 
 snippets: null
 lang: de
-"en-url": /amp/en/outfit/
-"es-url": /amp/es/outfit/
-"de-url": /amp/de/outfit/
+"en-url": en/outfit/
+"es-url": es/outfit/
+"de-url": de/outfit/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

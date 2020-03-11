@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
+title: "Kite-Mallorca - CURSOS DE KITESURF PRINCIPIANTE- Tel. +34-696-264729"
 subtitle: "Cursos completo de kitesurf para principiantes"
 date: 2019-02-23T13:57:10+01:00
 modified: 

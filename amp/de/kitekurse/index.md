@@ -117,4 +117,4 @@ Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du le
 
 {% include snippets/de/image-hover-effects.html %}  
 
-Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/contact-us "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  
+Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/kontaktiere-uns "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  

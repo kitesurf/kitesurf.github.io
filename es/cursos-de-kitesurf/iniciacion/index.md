@@ -1,10 +1,10 @@
 ---
 layout: article
 buchung: true
-title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
+title: "Kite-Mallorca - CURSOS DE KITESURF INICIACION- Tel. +34-696-264729"
 subtitle: "Cursos y clases de kitesurf"
 date: 2015-01-23T13:57:10+01:00
-modified: 2019-02-07T00:00:00.000Z
+modified: 2020-03-10T12:34:10+01:00
 author: daniel
 description: "Curso de iniciación o bautismo en kitesurf, kite o kiteboarding. En solo 3 horas apredes a volar una cometa. Llama y apúntate ahora aquí"
 image:

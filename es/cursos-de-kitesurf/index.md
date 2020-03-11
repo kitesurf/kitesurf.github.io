@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "Kite-Mallorca - Cursos de kitesurf - Tel. +34-696-264729"
+title: "Kite-Mallorca - CURSOS DE KITESURF TODOS NIVELES - Tel. +34-696-264729"
 subtitle: "Cursos y clases de kitesurf"
 date: 2015-01-23T13:57:10+01:00
-modified: 2018-04-14
+modified: 2020-03-10T12:34:10+01:00
 author: daniel
 description: "Kitesurf, Kite y Kiteboarding en Mallorca: cursos y clases para todos los niveles en agua plana. Material incluido. Llama y reserva ya"
 image:

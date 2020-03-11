@@ -7,7 +7,7 @@ amp-iframe: true
 title: "Kitesurfing privat lessons &#128242;+34-696-264729"
 subtitle: "Kitesurfing courses and lessons"
 date: 2019-02-27T12:57:10+01:00
-modified: 
+modified: 2020-03-11T12:25:00.000Z
 author: daniel
 description: "&#128081;Private lessons that focus on you when it comes to kitesurfing. For all who want to get to their goal faster."
 image:
@@ -22,7 +22,7 @@ image:
 snippets: null
 lang: en
 "en-url": en/kitesurfing-lessons/privatlessons/
-"es-url": es/cursos-de-kitesurf/clase-privada/
+"es-url": es/cursos-de-kitesurf/privado/
 "de-url": de/kitekurse/privatstunden/
 t:
   menutxt1: "kitesurfing lessons"
