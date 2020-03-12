@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Kite-Mallorca - Kontakt - Tel. +34-696-264729"
+title: "KITESURF MALLORCA SL - Kontakt - Tel. +34-696-264729"
 subtitle: "Kontaktdaten"
 date: 2015-11-23
 modified: 2017-02-28

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Kitesurf Mallorca - Kiteboarding lessons on shallow water"
+title: "Kitesurf Mallorca - Tryout in Kiteboarding on shallow water"
 subtitle: "Kitesurfing courses and lessons"
 date: 2015-01-24T12:57:10+01:00
 modified: 2018-04-14

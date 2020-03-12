@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Kite-Mallorca - Kurse und Schulung im kitesurfen - Tel. +34-696-264729"
+title: "KITESURF MALLORCA - Kurse und Schulungen im kiten - Tel. +34-696-264729"
 subtitle: Kurse und Schulung im kitesurfen
 date: 2019-02-21T00:00:00.000Z
 modified: 2020-02-02T10:00:00.000Z

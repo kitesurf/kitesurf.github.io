@@ -1,12 +1,12 @@
 ---
 layout: article
 buchung: true
-title: "Anfängerkurs im Kiten"
+title: "Anfängerkurs im Kiten mit KITESURF MALLORCA"
 subtitle: Mit viel Spass das Kitesurfen richtig lernen vom Anfang an
 date: 2019-02-21T00:00:00.000Z
-modified: 2019-12-07
+modified: 2020-03-12T00:00:00.000Z
 author: daniel
-description: "Unsere Kurse im kiten auf Mallorca sofort buchbar"
+description: "Kurse im kitesurfen auf Mallorca mit viel Spaß und bei besten Bedingungen mit Freude erfahren"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp

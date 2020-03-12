@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Langzeitmiete für Kitesurfer"
+title: "Material-Miete für Kitesurfer auf Mallorca in Form von Bonuspakette"
 subtitle: Günstige Angebote für Materialmiete in Form von Bonuspakette
 date: 2019-02-27T00:00:00.000Z
 modified: 2019-12-07

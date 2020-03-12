@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Privatunterricht im Kitesurfen"
+title: "Privatunterricht im Kitesurfen mit KITESURF MALLORCA"
 subtitle: Wo dein eigener Unterricht an erster Stelle steht
 date: 2020-03-10T12:34:10+01:00
 modified: 2019-12-07

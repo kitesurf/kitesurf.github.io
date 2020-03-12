@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Hydrofoilkurs für Kitesurfer"
+title: "Hydrofoilkurs für Kitesurfer mit KITESURF MALLORCA"
 subtitle: Hydrofoil, die höchste Kunst im Kiteboarding
 date: 2019-02-21T00:00:00.000Z
 modified: 2019-12-07

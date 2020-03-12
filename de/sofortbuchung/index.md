@@ -1,7 +1,7 @@
 ---
 layout: default
 buchung: true
-title: "Sofortbuchung - Tel. &#128242;+34-696-264729"
+title: "KITESURF MALLORCA Sofortbuchung - Tel. &#128242;+34-696-264729"
 subtitle: Hier kannst du deinen Kurs sofort Buchen
 date: 2019-02-21T00:00:00.000Z
 modified: 

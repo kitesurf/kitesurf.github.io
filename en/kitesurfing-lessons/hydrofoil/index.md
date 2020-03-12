@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Hydrofoil lessons &#128242;+34-696-264729"
+title: "Kitesurfing Hydrofoil lessons &#128242;+34-696-264729"
 subtitle: "Kitesurfing courses and lessons"
 date: 2019-12-07T12:57:10+01:00
 modified: 2019-12-07

@@ -1,7 +1,7 @@
 ---
 layout: article
 buchung: true
-title: "Schnupperkurs im Kiten"
+title: "Schnupperkurs im Kiten mit KITESURF MALLORCA"
 subtitle: Mit viel Spass das Kitesurfen testen
 date: 2019-02-21T00:00:00.000Z
 modified: 2019-12-07
