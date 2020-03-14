@@ -12,10 +12,12 @@ lang: en
   {% endfor %}
 
   {% for page in site.pages %}
+  {% unless page.url contains '/amp' %}
   {% if page.lang == 'en' and page.layout != nil %}
   <url>
     <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
   {% endif %}
+  {% endunless %}
   {% endfor %}
 </urlset>
