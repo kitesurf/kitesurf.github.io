@@ -3,21 +3,21 @@ lang: en
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-  {% if post.lang == page.lang and post.layout != nil %}
+  {%- for post in site.posts -%}
+  {%- if post.lang == page.lang and post.layout != nil -%}
   <url>
     <loc>https://kite-mallorca.com{{site.baseurl}}{{post.url}}</loc>
   </url>
-  {% endif %}
-  {% endfor %}
+  {%- endif -%}
+  {%- endfor -%}
 
-  {% for page in site.pages %}
-  {% unless page.url contains '/amp' %}
-  {% if page.lang == 'en' and page.layout != nil %}
+  {%- for page in site.pages -%}
+  {%- unless page.url contains '/amp' -%}
+  {%- if page.lang == 'en' and page.layout != nil -%}
   <url>
     <loc>https://kite-mallorca.com{{site.baseurl}}{{page.url}}</loc>
   </url>
-  {% endif %}
-  {% endunless %}
-  {% endfor %}
+  {%- endif -%}
+  {%- endunless -%}
+  {%- endfor -%}
 </urlset>
