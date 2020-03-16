@@ -40,12 +40,13 @@ layout: compress
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />    
-    {% if page.url contains "en" or "es" or "de" %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/{{ page.en-url }}" />
-    {% else %}
+    {% if page.en-url == '/' %}
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/" />
-    {% endif %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/en/" />
+    {% else %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/{{ page.en-url }}" />
     <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
+    {% endif %}
     <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />
     <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
@@ -77,8 +78,13 @@ layout: compress
         <!-- Multilinguale behandlung durch Google -->
 
     <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
+    {% if page.en-url == '/' %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />    
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
+   {% else %}
     <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}" />    
     <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
+    {% endif %}
     <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
     <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">

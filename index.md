@@ -20,7 +20,7 @@ image:
   picnum: 31
 snippets: true
 lang: en
-en-url: "en/"
+en-url: "/"
 es-url: "es/"
 de-url: "de/"
 t:
