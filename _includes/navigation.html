@@ -148,7 +148,11 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                   <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
                   <li><a href="{{site.baseurl }}/amp/{{ page.de-url }}" title="Deutsch"><amp-img src="{{site.baseurl }}/images/flags/germany_24.png" alt="Deutsch" height="24" width="24"></amp-img></a></li>
                   <li><a href="{{site.baseurl }}/amp/{{ page.es-url }}" title="Español"><amp-img src="{{site.baseurl }}/images/flags/spain_24.png" alt="Español" height="24" width="24"></amp-img></a></li>
+                  {%- if page.en-url =='/' -%}
+                  <li><a href="{{site.baseurl }}/amp/en/" title="English"><amp-img src="{{site.baseurl }}/images/flags/uk_24.png" alt="English" height="24" width="24"></amp-img></a></li>
+                  {%- else -%}
                   <li><a href="{{site.baseurl }}/amp/{{ page.en-url }}" title="English"><amp-img src="{{site.baseurl }}/images/flags/uk_24.png" alt="English" height="24" width="24"></amp-img></a></li>
+                  {%- endif -%}
                 </ul>
               </li>
             </ul>
