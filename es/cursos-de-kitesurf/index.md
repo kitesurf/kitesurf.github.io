@@ -53,7 +53,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser: CURSOS DE KITESURF - VEN Y APRENDE CON DANIEL Y GERHARD
 ---
@@ -117,4 +117,4 @@ Después de navegar con Bodydrag bien controlado tendrás que ponerte la tabla d
 
 {%include snippets/es/image-hover-effects.html %}  
 
-Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!  
+Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros/){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!  

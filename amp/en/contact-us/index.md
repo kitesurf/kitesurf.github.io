@@ -68,7 +68,7 @@ t:
   <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
   <textarea name="body" placeholder="Write here your questions"></textarea>
   <span>Write us your name and mobile number and we will keep you posted on wind- and spot info during your stay. This service is free of charge.</span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/amp/en/thanks">
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/en/thanks/">
   <input type="submit" value="Send">
     <div submit-success>
       <template type="amp-mustache">

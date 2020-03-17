@@ -66,7 +66,7 @@ t:
   <input type="hidden" name="_subject" value="Information regarding kitesurfing lessons and/or rental">
   <textarea name="body" cols="40" rows="6" placeholder="Write here your questions"></textarea>
   <span>Write us your name and mobile number and we will keep you posted on wind- and spot info during your stay. This service is free of charge.</span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
+  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
   <input type="submit" value="Send">
 </form>
 Or send us a email to <span style="unicode-bidi:bidi-override; direction: rtl;">moc.acrollam-etik@maet</span>

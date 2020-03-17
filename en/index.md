@@ -59,7 +59,7 @@ t:
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends)
+# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island.
 
@@ -87,7 +87,7 @@ Individual hours for all levels in a small group of 2-4 students
 3 hours trial course - **EUR 120,-**
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
 
-[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
+[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
 
 
 ## KITE & BOARD RENTAL
@@ -96,4 +96,4 @@ Latest equipment from Duotone and Eleveight is available for you to rent. Of cou
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
-[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting "Renting and costs")
+[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting/ "Renting and costs")

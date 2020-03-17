@@ -54,7 +54,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser:
 ---
@@ -64,7 +64,7 @@ t:
   <input type="hidden" name="_subject" value="Información sobre curso y/o alquiler en kitesurf">
   <textarea name="body" cols="40" rows="6" placeholder="Anota aquí tus preguntas"></textarea>
   <span>Si nos dejas tu nombre y tu móvil, te añadiremos a nuestra lista de información de viento y spot por el tiempo de tu estancia. Este servicio es gratuito y será efectuado por Whatsapp o SMS.</span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
+  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias/">
   <input type="submit" value="Enviar">
 </form>
 

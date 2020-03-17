@@ -80,6 +80,6 @@ Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch 
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=de" rel="nofollow" title="www.clubpollentia.com">» Klicke hier für Angebote</a>
 - Hotel Moré <a href="http://www.hotelmore.com/de/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» Klicke hier für Angebote</a>
 
-Für nähere Informationen über uns fülle bitte das [Kontaktformular]({{ site.url }}/de/kontaktiere-uns "Öffnet das Kontaktformular um uns auch ohne E-Mail Programm zu schreiben") aus oder ruf uns einfach an!
+Für nähere Informationen über uns fülle bitte das [Kontaktformular]({{ site.url }}/de/kontaktiere-uns/ "Öffnet das Kontaktformular um uns auch ohne E-Mail Programm zu schreiben") aus oder ruf uns einfach an!
 
 {% include daniel_und_gerhard.html %}

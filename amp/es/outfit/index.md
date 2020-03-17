@@ -53,7 +53,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser: "Y que los vientos te acompañen"
 published: true

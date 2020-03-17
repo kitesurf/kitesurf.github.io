@@ -52,18 +52,18 @@ t:
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
   menutxt24: "Privat Lessons"
-  link30: "renting/per-hour-or-day"
+  link30: "renting/per-hour-or-day/"
   menutxt30: "Reǹting per hour and day"
-  link32: "renting/long-term"
+  link32: "renting/long-term/"
   menutxt32: "Long term rent"
   teaser: "Come and learn with us the first steps in kitesurfing!"
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 #### You're visiting this site without Javascript active.
 #### Please select your language first if necessary 
-[» All informations in English]({{ site.url }}/en "Kite-mallorca.com/en/")  
-[» Alle Informationen auf Deutsch]({{ site.url }}/de "Kite-mallorca.com/de/")  
-[» Todas las informaciones en Español]({{ site.url }}/es "Kite-mallorca.com/es/")  
+[» All informations in English]({{ site.url }}/en/ "Kite-mallorca.com/en/")  
+[» Alle Informationen auf Deutsch]({{ site.url }}/de/ "Kite-mallorca.com/de/")  
+[» Todas las informaciones en Español]({{ site.url }}/es/ "Kite-mallorca.com/es/")  
 
 ### KITESURFING LESSONS
 
@@ -88,7 +88,7 @@ Individual hours for all levels in a small group of 2-4 students
 3 hours trial course - **EUR 120,-**
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
 
-[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons "Kitesurfing lessons and pricing")
+[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
 
 
 ### KITE & BOARD RENTAL
@@ -97,4 +97,4 @@ Latest equipment from Duotone and Eleveight is available for you to rent. Of cou
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 
-[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting "Renting and costs")
+[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting/ "Renting and costs")

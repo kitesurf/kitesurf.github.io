@@ -63,4 +63,4 @@ Das Buchungssystem funktioniert nur mit Javascript. Dieses funktioniert leider n
 
 Hier hast du den Link zum Shop auf der normalen Webseite:
 
-### [**SOFORTBUCHUNG**]({{ site.url }}/de/sofortbuchung "Sofortbuchung mit Bestätigung")
+### [**SOFORTBUCHUNG**]({{ site.url }}/de/sofortbuchung/ "Sofortbuchung mit Bestätigung")

@@ -55,7 +55,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   menutxt100: "Cerrar"
   teaser: "Ven y aprende con nosotros los primeros pasos en kitesurf!"
@@ -93,7 +93,7 @@ Clases en grupo, incluyen preparación y teoría para obtener la licencia de la 
 #### Clases por horas sueltas - **EUR 60,-/h**
 Clases individuales en grupo para todos los niveles
 
-[» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf){:title="Cursos de kitesurf y precios completos"}
+[» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf/){:title="Cursos de kitesurf y precios completos"}
 
 ## Alquiler de kite y tabla
 
@@ -108,4 +108,4 @@ En el alquiler de material tenemos los equipos más nuevos de Liquid Force, Nort
 
 Para que tu pases un buen día!
 
-[» Alquiler de Kite y Tabla para Mallorca]({{ site.url }}/es/alquiler){:title="Alquiler de equipos completos o solo cometa o tabla"}
+[» Alquiler de Kite y Tabla para Mallorca]({{ site.url }}/es/alquiler/){:title="Alquiler de equipos completos o solo cometa o tabla"}

@@ -79,7 +79,7 @@ t:
   <input type="hidden" name="_subject" value="Booking request for long-term rental">
   <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the package you're interested for"></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
+  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
   <input type="submit" value="Send">
 </form>
 <ul>

@@ -40,7 +40,7 @@ t:
   menutxt7: "Kontaktiere uns"
   link8: "shop/"
   menutxt8: shop
-  menutxt9: "Outfit"
+  link9: "outfit/"
   menutxt9: Outfit
   teaser: Erinnerungen an unserem lieben verrückten Professor... XXIXIX
 ---

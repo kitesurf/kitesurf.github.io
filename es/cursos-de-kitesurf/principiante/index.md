@@ -54,7 +54,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser: CURSOS DE KITESURF
 ---
@@ -78,7 +78,7 @@ Al fin del curso se puede ampliar el mismo con teoría, test y entrega de la lic
   <input type="hidden" name="_subject" value="Encuesta de reserva para un curso de principiantes">
   <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y la fecha en la cual deseas hacer tu curso. Nos pondremos en contacto contigo lo antes posible."></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
+  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias/">
   <input type="submit" value="Enviar">
 </form>
 <ul title="Otros puntos que destacan en el curso de kitesurf"><strong>¿Qué otros puntos destacados puedes esperar?</strong>

@@ -53,7 +53,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser:
 ---
@@ -79,6 +79,6 @@ Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible ll
 - Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">» Clic aquí por ofertas</a>
 - Hotel Moré <a href="https://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">» Clic aquí por ofertas</a>
 
-Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros "formulario de contacto") o simplemente llama a uno de nosotros.
+Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros/ "formulario de contacto") o simplemente llama a uno de nosotros.
 
 {% include daniel_und_gerhard.html %}

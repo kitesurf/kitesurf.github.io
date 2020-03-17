@@ -76,7 +76,7 @@ Material does not have to be shared with others and is included in the price.</s
   <input type="hidden" name="_subject" value="Booking request for refresh lessons">
   <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for lessons. We'll contact you back soon"></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
+  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
   <input type="submit" value="Send">
 </form>
 <ul>

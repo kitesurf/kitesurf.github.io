@@ -54,7 +54,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
 teaser: BONO DE ALQUILER DE MATERIAL DE KITE A LARGO PLAZO
 ---
@@ -80,7 +80,7 @@ Para obtener un bono el pago debe hacerse por adelantado.<br></span>
   <input type="hidden" name="_subject" value="Encuesta de reserva para un bono de alquiler a largo plazo">
   <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y el tipo de bono o toda pregunta que tengas. Nos pondremos en contacto contigo lo antes posible."></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias">
+  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias/">
   <input type="submit" value="Enviar">
 </form>
 <ul><strong>¿Qué otros aspectos destacados me esperan?</strong>

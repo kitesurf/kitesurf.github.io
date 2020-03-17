@@ -79,7 +79,7 @@ In terms of content, this trial course is the same as the first 3 hours of our f
   <input type="hidden" name="_subject" value="Booking request for tryout course">
   <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for the tryout. We'll contact you back soon"></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks">
+  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
   <input type="submit" value="Send">
 </form>
 <ul>

@@ -51,7 +51,7 @@ t:
   menutxt24: "Privado"
   link30: "alquiler/por-hora-y-dia/"
   menutxt30: "Alquiler por hora y día"
-  link31: "alquiler/largo-plazo"
+  link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
   teaser: "Mira disponibilidad y reserva aquí"
 published: true
@@ -62,4 +62,4 @@ Desafortunadamente esto no funciona en las páginas AMP.
 
 Aquí tienes el enlace a la tienda en la página web normal:
 
-# [**RESERVA INMEDIATA**]({{ site.url }}/es/reserva-inmediata "Reserva online inmediata con confirmación")
+# [**RESERVA INMEDIATA**]({{ site.url }}/es/reserva-inmediata/ "Reserva online inmediata con confirmación")

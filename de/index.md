@@ -61,7 +61,7 @@ published: true
 ---
 {% include snippets/{{ page.lang }}/kurse.html %}
 
-# [**KITEKURSE**]({{ site.url }}/de/kitekurse "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends)
+# [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends/)
 
 Wir haben für dich:  
 - Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) 

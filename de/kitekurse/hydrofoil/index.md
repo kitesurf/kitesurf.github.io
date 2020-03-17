@@ -77,7 +77,7 @@ Der Kurs findet, nach einer 15 minütigen Vorbereitungszeit am Strand, in der Bu
   <input type="hidden" name="_subject" value="Reservierungsanfrage für Hydrofoilkurs im Kitesurfen">
   <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
   <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke">
+  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
   <input type="submit" value="Senden">
 </form>
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
