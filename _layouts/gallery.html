@@ -7,7 +7,7 @@ layout: compress
 <html ⚡ lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
