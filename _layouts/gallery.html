@@ -32,16 +32,6 @@ layout: compress
 
     {% include structured-data.html %}
 
-    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    {% if page.author %}
-      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-    {% endif %}
-    {% include open-graph.html %}
-    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-
     {% include amp-gallery-css.html %}
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 </head>
@@ -49,12 +39,10 @@ layout: compress
 <html lang="{{ page.lang }}" class="no-js">
   <head>
     <meta charset="utf-8">
-    <script src="{{ site.url }}/js/lazysizes.min.js" async=""></script>
-
 
   {% if page.langrouted == true %}{% include lang_router.html %}{% endif %}
 
-    <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
@@ -253,6 +241,18 @@ layout: compress
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload4);
         else window.onload = JSAtOnload4;
+    </script>
+    <script>
+        function JSAtOnload5() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/lazysizes.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload5, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload5);
+        else window.onload = JSAtOnload5;
     </script>
 
 

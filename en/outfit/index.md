@@ -1,7 +1,7 @@
 ---
 layout: default
 shop: true
-title: "Kite-Mallorca - Shop - Fun and happyness with fanstuff and fashion arround kitesurf"
+title: "Kite-Mallorca - Shop - Fan articles about kitesurfing"
 subtitle: Have fun and hang loose
 date: 2017-11-24T00:00:00.000Z
 modified: 

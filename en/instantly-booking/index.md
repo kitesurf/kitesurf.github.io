@@ -1,7 +1,7 @@
 ---
 layout: default
 buchung: true
-title: "Kite-Mallorca - Check and book now your kitesurfing lessons  - Tel. +34-696-264729"
+title: "Kite-Mallorca - Check and book now your KITESURFING LESSONS"
 subtitle: Check availablety
 date: 2018-03-18T00:00:00.000Z
 modified: 
