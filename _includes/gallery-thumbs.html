@@ -20,7 +20,7 @@
         <div class="noscriptmsg">
             {% for image in site.data[page.dataFile].images %}
             <a href="#image-{{ forloop.index }}">
-                <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}"/>
+                <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="Thumb Picture: {{ image.alt }}" />
             </a>
             {% endfor %}
         </div>
