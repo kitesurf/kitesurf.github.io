@@ -1,0 +1,1 @@
+<input type="button" onClick="document.getElementById('middle').scrollIntoView();" />

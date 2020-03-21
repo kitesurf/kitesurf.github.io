@@ -1,7 +1,7 @@
 ---
 layout: default
 shop: true
-title: "Kite-Mallorca - Outfit - Estilo de vida - tienda de ropa"
+title: "Kite-Mallorca - Outfit - Artículo de fans del kitesurfing"
 subtitle: Have fun and hang loose
 date: 2017-11-24T00:00:00.000Z
 modified: 
@@ -60,6 +60,7 @@ t:
 published: true
 ---
 
+# Artículo de fans del kitesurfing  
 <div id="myShop">
     <a href="//shop.spreadshirt.es/kite-mallorca-es">kite-mallorca-es</a>
 </div>

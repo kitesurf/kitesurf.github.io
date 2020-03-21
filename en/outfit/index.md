@@ -61,6 +61,7 @@ t:
 published: true
 ---
 
+# Fan articles about kitesurfing  
 <div id="myShop">
     <a href="//shop.spreadshirt.co.uk/kite-mallorca-en">kite-mallorca-en</a>
 </div>

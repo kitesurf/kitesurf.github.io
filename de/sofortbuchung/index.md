@@ -61,6 +61,8 @@ t:
 published: true
 ---
 
+# Buche hier und jetzt  
+
 <div id="bookingKitContainer" data-lang="de" data-cw="da7acbb84fc14bc40c1863ce608e7c87"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/da7acbb84fc14bc40c1863ce608e7c87/?lang=de" async></script>
 <noscript>

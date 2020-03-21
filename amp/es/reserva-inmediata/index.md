@@ -56,7 +56,7 @@ t:
   teaser: "Mira disponibilidad y reserva aquí"
 published: true
 ---
-
+# RESERVA INMEDIATA  
 El sistema de reserva inmediata solo funciona con Javascript. 
 Desafortunadamente esto no funciona en las páginas AMP.
 

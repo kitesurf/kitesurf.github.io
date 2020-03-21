@@ -60,5 +60,6 @@ t:
 published: true
 ---
 
+# INSTANTLY BOOKING  
 <div id="bookingKitContainer"></div>
 <script src="https://eu5.bookingkit.de/bkscript.js.php?cw=b6f8247119fbc23029792632bf4ef4c1&lang=en"></script>

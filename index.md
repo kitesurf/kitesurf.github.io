@@ -65,7 +65,9 @@ t:
 [» Alle Informationen auf Deutsch]({{ site.url }}/de/ "Kite-mallorca.com/de/")  
 [» Todas las informaciones en Español]({{ site.url }}/es/ "Kite-mallorca.com/es/")  
 
-### KITESURFING LESSONS
+# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**GEAR RENTAL**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
+
+## KITESURFING LESSONS
 
 We offer lessons for all kitesurfing and kiteboarding levels (beginners, refreshers and advanced riders). Even gear rental for experted riders.
 
@@ -77,7 +79,7 @@ As an absolute beginner you normally need about 10 hours of lessons to control t
 
 The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, basic turn, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
 
-###### Our quality for the best price
+### Our quality for the best price
 
 10 hours beginners course - **EUR 500,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
@@ -91,7 +93,7 @@ Lessons in a small group of 2-4 students with the goal to be dragged through the
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
 
 
-### KITE & BOARD RENTAL
+## KITE & BOARD RENTAL
 
 Latest equipment from Duotone and Eleveight is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 

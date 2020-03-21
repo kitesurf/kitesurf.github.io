@@ -61,6 +61,8 @@ t:
 published: true
 ---
 
+# Unser Shop mit Fanartikel aller Art  
+
 <div id="myShop">
     <a href="//shop.spreadshirt.de/kite-mallorca">kite-mallorca</a>
 </div>
