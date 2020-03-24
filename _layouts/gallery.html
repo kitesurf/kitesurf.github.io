@@ -54,11 +54,11 @@ layout: compress
         <!-- Multilinguale behandlung durch Google -->
     <meta http-equiv="language" content="{{ page.lang }}">
 
-    <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}" />        
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
-    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
+    <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}">        
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}">
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}">
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}">
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
@@ -67,11 +67,12 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="cleartype" content="on">
     <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
-    <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
+    <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7">
 
     {% include structured-data.html %}
 
     {% include gallery-css.html %}
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style" crossorigin>
 
    </head>
 
@@ -195,6 +196,30 @@ layout: compress
 
     {% if page.amp == true %}{% else %}
     <script type="text/javascript">
+        function JSAtOnload6() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/css/photoswipe.min.css";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload6, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload6);
+        else window.onload = JSAtOnload6;
+    </script>
+    <script type="text/javascript">
+        function JSAtOnload7() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/css/default-skin/default-skin.min.css";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload7, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload7);
+        else window.onload = JSAtOnload7;
+    </script>
+    <script type="text/javascript">
         function JSAtOnload1() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/modernizr.js";
@@ -245,7 +270,7 @@ layout: compress
     <script>
         function JSAtOnload5() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/lazysizes.min.js";
+            element.src = "{{ site.url }}/js/blazy.min.js";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -264,8 +289,6 @@ layout: compress
 
 </html>
     {% if page.amp == true %}{% else %}
-    <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2" crossorigin>
-    <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2" crossorigin>
-    <link rel="stylesheet" href="{{ site.url }}/css/photoswipe.min.css">
-    <link rel="stylesheet" href="{{ site.url }}/css/default-skin/default-skin.min.css">
+    <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2&display=swap" crossorigin>
+    <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2&display=swap" crossorigin>
     {% endif %}
