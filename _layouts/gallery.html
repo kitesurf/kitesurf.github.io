@@ -196,18 +196,6 @@ layout: compress
 
     {% if page.amp == true %}{% else %}
     <script type="text/javascript">
-        function JSAtOnload6() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/css/photoswipe.min.css";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload6, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload6);
-        else window.onload = JSAtOnload6;
-    </script>
-    <script type="text/javascript">
         function JSAtOnload7() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/css/default-skin/default-skin.min.css";
@@ -291,4 +279,5 @@ layout: compress
     {% if page.amp == true %}{% else %}
     <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2&display=swap" crossorigin>
     <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2&display=swap" crossorigin>
+    <link href="{{ site.url }}/css/photoswipe.min.css" rel="stylesheet" rel="preload" as="style">
     {% endif %}
