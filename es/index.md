@@ -16,7 +16,7 @@ image:
   feature:
   teaser:
   thumb: 7.jpg
-  picnum: 18
+  picnum: 08
 snippets: true
 lang: es
 en-url: "en/"
