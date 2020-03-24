@@ -64,7 +64,7 @@ t:
 published: true
 ---
 
-# Outfit
+# Spass und Freude mit Fanartikel und Fashion
 
 In unserem Shop für Outfits kannst du Kleidung und Accesoirs mit Designs rund ums Thema Kitesurfen finden. 
 Der Shop wird nur über Javascript dargestellt. Dieser funktioniert leider nicht auf AMP—Seiten.

@@ -17,28 +17,33 @@
         <style type="text/css">
             .pagecontainer {display:none;}
         </style>
-        <div class="noscriptmsg">
+        <div class="noscriptmsg" itemscope itemtype="https://schema.org/ImageGallery">
             {% for image in site.data[page.dataFile].images %}
+            <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="#image-{{ forloop.index }}">
                 <img src="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}" alt="Thumb Picture: {{ image.alt }}" />
             </a>
+            </figure>
             {% endfor %}
         </div>
     </noscript>
-    <div class="gallery">
+    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-            {% for image in site.data[page.dataFile].images %}        
+            <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
+            {% for image in site.data[page.dataFile].images %}   
             <span class="my-simple-gallery">
-            <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" data-size="640x480">
+            <a href="{{ site.baseurl }}/images/flying-friends/l_{{ image.image }}" itemprop="contentUrl" data-size="640x480">
             <img
                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 data-srcset="{{ site.baseurl }}/images/flying-friends/t_{{ image.image }}"
                 data-sizes="auto"
                 class="lazyload"
+                itemprop="thumbnail" 
                 alt="{{ image.alt }}" title="{{ image.title }}"/>
             </a>
-                    <figcaption>{{ image.description }}</figcaption>
+                    <figcaption itemprop="caption description">{{ image.description }}</figcaption>
             </span>
             {% endfor %}
+            </figure>
     </div>    
 {% endif %}
