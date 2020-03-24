@@ -53,7 +53,7 @@ t:
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
   menutxt24: "Privat lessons"
-  link30: "renting/per-hour-or-day"
+  link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
