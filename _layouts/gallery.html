@@ -73,7 +73,8 @@ layout: compress
 
     {% include gallery-css.html %}
     <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style" crossorigin>
-
+    <link href="{{ site.url }}/css/photoswipe.min.css" rel="stylesheet" rel="preload" as="style">
+    <link href="{{ site.url }}/css/default-skin/default-skin.min.css" rel="stylesheet" rel="preload" as="style">
    </head>
 
 {% endif %}
@@ -196,18 +197,6 @@ layout: compress
 
     {% if page.amp == true %}{% else %}
     <script type="text/javascript">
-        function JSAtOnload7() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/css/default-skin/default-skin.min.css";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload7, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload7);
-        else window.onload = JSAtOnload7;
-    </script>
-    <script type="text/javascript">
         function JSAtOnload1() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/modernizr.js";
@@ -279,5 +268,4 @@ layout: compress
     {% if page.amp == true %}{% else %}
     <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2&display=swap" crossorigin>
     <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2&display=swap" crossorigin>
-    <link href="{{ site.url }}/css/photoswipe.min.css" rel="stylesheet" rel="preload" as="style">
     {% endif %}
