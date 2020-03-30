@@ -6,7 +6,7 @@ subtitle: Check availablety
 date: 2018-03-18T00:00:00.000Z
 modified: 
 author: daniel
-description: "Unsere Angebote reservieren und sofort buchbar. Kurse für alle Level im kiten, kitesurfen und kiteboarden."
+description: "On kitesurfing and kiteboarding, we offer courses or gear rental for all levels. Reserve and book them here immediately."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
