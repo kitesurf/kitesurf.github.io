@@ -64,7 +64,11 @@
 </div>
 
 <style>
-.slider__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 2.5rem 0 1rem;}
+.slider__holder {width: 100%; top: 80px; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 0 0 1rem;}
+@media only screen and (max-width: 767px){.slider__holder {
+top: 60;
+  }
+}
 .slider {
   height: 100%;
   width: 100%;
