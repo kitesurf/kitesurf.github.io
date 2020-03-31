@@ -1,6 +1,4 @@
----
-layout: compress
----
+
 
 <!DOCTYPE html>
 
@@ -58,7 +56,7 @@ layout: compress
 
 </head>
 {% else %}
-<html lang="{{ page.lang }}" class="no-js">
+<html lang="{{ page.lang }}" {% if page.t.teaser %}class="no-js"{% else %}style="background-color: #211d44"{% endif %}>
   <head>
     <meta charset="utf-8">
 
@@ -114,9 +112,9 @@ layout: compress
   {% if page.amp == true %}
   {% include amp-analytics.html %}
   {% else %}
-  <!-- Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 
   {% endif %}
@@ -124,8 +122,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="page-wrapper">
       {% if page.t.teaser %}
         <div class="myteaser">
-                <span><strong>{{ page.t.teaser }}</strong></span>
+          <span><strong>{{ page.t.teaser }}</strong></span>
         </div>
+      {% else %}
+           {% include slider.html height="40" unit="%" %}      
       {% endif %}  
 
       {{ content }}
