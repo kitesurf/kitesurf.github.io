@@ -112,9 +112,9 @@
   {% if page.amp == true %}
   {% include amp-analytics.html %}
   {% else %}
-  <!-- Google Tag Manager (noscript) 
+  <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
 <!-- End Google Tag Manager (noscript) -->
 
   {% endif %}
@@ -124,8 +124,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="myteaser">
           <span><strong>{{ page.t.teaser }}</strong></span>
         </div>
-      {% else %}
-           {% include slider.html height="40" unit="%" %}      
       {% endif %}  
 
       {{ content }}

@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-
-<div id="main" role="main">			
+      {% if page.t.teaser %}{% else %}
+           {% include slider.html %}      
+      {% endif %}
+<div id="main" role="main">
 	<article class="wrap" itemscope itemtype="https://schema.org/Article">
 	  <meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="{{ site.url }}{{ page.url }}"/>
 		{% if page.buchung == true %}<noscript>{% endif %}

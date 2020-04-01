@@ -21,7 +21,7 @@
         window.attachEvent("onload", JSAtOnload1);
         else window.onload = JSAtOnload1;
 
-        function JSAtOnload2() {
+       function JSAtOnload2() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/analytics.js";
         document.body.appendChild(element);
@@ -31,7 +31,7 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload2);
         else window.onload = JSAtOnload2;
-
+/*
         function JSAtOnload3() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/ls.unveilhooks.min.js";
@@ -42,7 +42,7 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload3);
         else window.onload = JSAtOnload3;
-
+*/
         function JSAtOnload4() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/lazysizes.min.js";
@@ -53,6 +53,7 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload4);
         else window.onload = JSAtOnload4;
+        lazySizes.init();
 
         function JSAtOnload6() {
         var element = document.createElement("script");

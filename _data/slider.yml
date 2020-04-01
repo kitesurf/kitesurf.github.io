@@ -4,11 +4,11 @@ lang:
       - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
         webp:
           xl: /images/flying-friends/bernardi_and_funny_dog_15x6_50prozQuali.webp
-          m: /images/flying-friends/l_roman-008.webp
+          m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
           s: /images/flying-friends/t_roman-008.webp
         jpeg:
           xl: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
-          m: /images/flying-friends/l_roman-008.jpg
+          m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
           s: /images/flying-friends/t_roman-008.jpg
         alt: kitesurfer fahrend auf board neben hund rennend in den wellen
         title: Ohne Ende Spass
@@ -18,11 +18,11 @@ lang:
       - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
         webp:
           xl: /images/flying-friends/Privatlesson_with_Dani_15x6_50prozQuali.webp
-          m: /images/flying-friends/l_roman-008.webp
+          m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
           s: /images/flying-friends/t_roman-008.webp
         jpeg:
           xl: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
-          m: /images/flying-friends/l_roman-008.jpg
+          m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
           s: /images/flying-friends/t_roman-008.jpg
         alt: trainer mit schülerin im eins zu eins kiteunterricht
         title: Privatstunden
@@ -32,39 +32,39 @@ lang:
       - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
         webp:
           xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_50prozQuali.webp
-          m: /images/flying-friends/l_roman-008.webp
+          m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
           s: /images/flying-friends/t_roman-008.webp
         jpeg:
           xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
-          m: /images/flying-friends/l_roman-008.jpg
+          m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
           s: /images/flying-friends/t_roman-008.jpg
         alt: kitesurfer im rückwärtssprung über das wasser
-        title: SPRÜNGE LERNEN
+        title: Kitesprünge
         description: Mit Dennis(Bild) oder Gerhard richtig geile Kitesprünge lernen
-        button_text: Kurse für Fortgeschrittene ab 60,-
+        button_text: Fortgeschrittene ab 60,-
         link: "/de/kitekurse/fortgeschritten/"
       - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
         webp:
           xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_50prozQuali.webp
-          m: /images/flying-friends/l_roman-008.webp
+          m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
           s: /images/flying-friends/t_roman-008.webp
         jpeg:
           xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
-          m: /images/flying-friends/l_roman-008.jpg
+          m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
           s: /images/flying-friends/t_roman-008.jpg
         alt: kitesurfer mit surfkiteboard in der hand im sprung über den wellen
-        title: STRAPLESS?
-        description: Mit Bernardi -offizieler Rider bei Eleveight- Stunden buchen
-        button_text: Strapless Kurse ab 60,-
+        title: Bindung?
+        description: Mit Bernardi -Rider bei Eleveight- Stunden buchen
+        button_text: Strapless ab 60,-
         link: "/de/kitekurse/fortgeschritten/"
       - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
         webp:
-          xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
-          m: /images/flying-friends/l_roman-008.webp
+          xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_50prozQuali.webp
+          m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
           s: /images/flying-friends/t_roman-008.webp
         jpeg:
-          xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_50prozQuali.webp
-          m: /images/flying-friends/l_roman-008.jpg
+          xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+          m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
           s: /images/flying-friends/t_roman-008.jpg
         alt: kitesurfer auf einem hydrofoil über das Wasser
         title: Hydrofoil lernen
