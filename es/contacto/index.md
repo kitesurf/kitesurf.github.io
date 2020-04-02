@@ -55,19 +55,20 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser:
+  teaser: "Nuestros datos de contacto. Para llamar o chatear: +34 696 264 729"
 ---
 
 # DATOS DE CONTACTO DE KITE-MALLORCA
 
 Nos encuentras en la playa de Sa Marina, en la bahía de Pollensa, entre la ciudad de Alcudia y el Puerto de Pollensa.
 
-KITE-MALLORCA
-Kitesurf Mallorca S.L.
-Calle del Greco 19
-07400 Alcudia
-Mallorca, España
-Tlf. +34 696 264729
+KITE-MALLORCA  
+Kitesurf Mallorca S.L.  
+Calle del Greco 19  
+07400 Alcudia  
+Mallorca, España  
+Tlf. +34 696 264729  
+[Grupo Whatsapp kite-mallorca]({{ site.url }}/whatsapp/ "Abre un chat con nuestro grupo en tu whatsapp")  
 
 {% include googlemap.html %}
 

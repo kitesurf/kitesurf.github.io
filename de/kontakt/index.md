@@ -56,19 +56,20 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser:
+  teaser: "Unsere Kontaktdaten. Anrufen oder Chaten: +34 696 264 729"
 ---
 
 # KITE-MALLORCA KONTAKT
 
 Du findest uns am Strand von Sa Marina in der Bucht zwischen Alcudia und Port de Pollenca.
 
-KITE-MALLORCA
-Kitesurf Mallorca S.L.
-Calle del Greco 19
-07400 Alcudia
-Mallorca, Spanien
-Tel.: +34 696 264729
+KITE-MALLORCA  
+Kitesurf Mallorca S.L.  
+Calle del Greco 19  
+07400 Alcudia  
+Mallorca, Spanien  
+Tel.: +34 696 264729  
+[Whatsappgruppe kite-mallorca]({{ site.url }}/whatsapp/ "Öffnet ein Chat mit uns in deinem Whatsapp")  
 
 {% include googlemap.html %}
 
