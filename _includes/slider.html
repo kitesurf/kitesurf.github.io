@@ -1,76 +1,10 @@
-{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
-{% assign letters = letterstring | split: ',' %}
-
-<div class="slider__holder" itemscope itemtype="http://schema.org/ImageGallery">
-    <input class="slider__activator"  type="radio" name="slider" id="play1" checked=""/>
-    <div class="slider">
-        {% for item in site.data.slider.lang[page.lang] %}
-          <input class="slider__activator" type="radio" name="slider" id="{{ letters[forloop.index0] }}"/>
-        {% endfor %}
-        {% for item in site.data.slider.lang[page.lang] %}
-          {% if forloop.index == forloop.length %}
-            {% assign nextindex = 0 %}
-          {% else %}
-            {% assign nextindex = forloop.index0 | plus: 1 %}
-          {% endif %}
-          {% assign nextletter = letters[nextindex] %}
-          {% if forloop.index0 == 0 %}
-            {% assign previndex = forloop.length | minus: 1 %}
-          {% else %}
-            {% assign previndex = forloop.index0 | minus: 1 %}
-          {% endif %}
-          {% assign prevletter = letters[previndex] %}
-          <div class="slider__controls">
-              <label class="slider__control slider__control--backward" for="{{ prevletter }}"></label>
-              <label class="slider__control slider__control--forward" for="{{ nextletter }}"></label>
-          </div>
-        {% endfor %}
-        <div class="slider__track">
-          <ul>
-            {% for item in site.data.slider.lang[page.lang] %}
-            <li class="slider__slide">
-              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
-                <picture>
-                  <source type="image/webp" media="(min-width: 600px)" data-srcset="{{ item.webp.xl }}">
-                  <source type="image/webp" media="(max-width: 600px)" data-srcset="{{ item.webp.m }}">
- 
-                  <source type="image/jpeg" media="(min-width: 600px)" data-srcset="{{ item.jpeg.xl }}">
-                  <source type="image/jpeg" media="(max-width: 600px)" data-srcset="{{ item.jpeg.m }}">
-                  <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" data-sizes="auto" class="lazyload">
-                </picture>
-                <a class="text_bgd" href="{{ item.link }}">
-                <h3><strong>{{ item.title }}</strong></h3>
-                <p>{{ item.description }}</p>
-                <button class="btn">
-                   <strong>{{ item.button_text }}</strong>
-                </button>
-                </a>              
-              </figure>
-            </li>            
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="slider__indicators">
-            {% for item in site.data.slider.lang[page.lang] %}
-              <label class="slider__indicator" for="{{ letters[forloop.index0] }}"></label>
-            {% endfor %}
-        </div>
-    </div>
-    <label class="slider__control slider__control--backward fake_contr" for="{{ prevletter }}"></label>
-    <label class="slider__control slider__control--forward fake_contr" for="{{ nextletter }}"></label>
-    <div class="contr_bgd contr_bgd--left"></div>
-    <div class="contr_bgd contr_bgd--right"></div>
-</div>
-
 <style>
+.slider__holder {width: 100%; position: relative; top:70px; padding-bottom:84.6% ; margin: 0 0 1rem;}
 
-.slider__holder {width: 100%; position: relative; top:70px; padding-bottom:100% ; margin: 0 0 1rem;}
-
-@media only screen and (min-width: 600px){.slider__holder {
+@media only screen and (min-width: 500px){.slider__holder {
   padding-bottom: 40%;
   }
 }
-
 .slider {
   height: 100%;
   width: 100%;
@@ -83,6 +17,7 @@
 .slider__activator {
   display: none;
 }
+
 {% for item in site.data.slider.lang[page.lang] %}
 .slider__activator:nth-of-type({{ forloop.index }}):checked ~ .slider__track {
   -webkit-transform: translateX(-{{ forloop.index0 }}00%);
@@ -150,28 +85,20 @@
   background-color: #333333;
   opacity: 0.8;
   outline: 0;
-  z-index: 3;
+  z-index: 1;
 }
 .text_bgd > h3,
 .text_bgd > p {
-  margin-top: 1rem;
+  margin: 0.5rem;
   margin-bottom: 0;
   opacity: 1.0;
-  color: #ffffff;  
+  color: rgba(255, 255, 255, 1.0);  
 }
 .text_bgd > h3 {
   line-height: 1.2;
 }
 .text_bgd > p {
   font-size: 1.6vw
-}
-@media only screen and (max-width: 600px){.text_bgd {
-  width: 40%;
-  left: 5%;  
-  }
-  .text_bgd > p {
-    font-size: 1em;
-  }
 }
 .btn {
   position: relative;
@@ -190,10 +117,13 @@
   height: 100%;
   margin: 0;
 }
+.slider__slide>figure>picture {
+  color: #ffffff;
+}
 .slider__slide>figure>picture>img {
   height: auto;
   background-size: cover;
-  background-position: center;    
+  background-position: center;
 }
 .slider__control:hover {
   opacity: 1;
@@ -216,9 +146,8 @@
 }
 .slider__indicators {
   position: absolute;
-  bottom: 10px;
-  left: 30%;
   width: 100%;
+  bottom: 3px;
   text-align: center;
 }
 .slider__indicator {
@@ -285,7 +214,12 @@
   background-position: center;
 }
 {% endfor %}
+
+
+
 /* Calculate AUTOPLAY for BULLETS Magic numbers 0.02% and 4100ms */
+
+
 {% for item in site.data.slider.lang[page.lang] %}
 {% assign pics = forloop.length %}
 {% endfor %}
@@ -308,9 +242,13 @@
   animation: label {{ label_all }}00ms infinite {{ animation_time }}00ms;
 }
 {% endfor %}
+
+
+
 /* Calculate AUTOPLAY for BULLETS - END */
 
 /* Calculate AUTOPLAY for SLIDES Magische Zahl 8.130081301% */
+
 
 @keyframes slide {
 {% for item in site.data.slider.lang[page.lang] %}
@@ -332,9 +270,119 @@
 .slider__holder > #play1:checked ~label {
   display: block;
 }
+
+
 /* Calculate AUTOPLAY for SLIDES - END */
 
 .fake_contr {
   display: none;
 }
+@media only screen and (max-width: 600px){
+  .text_bgd {
+  width: 40%;
+  left: 5%;  
+  }
+  .text_bgd > p {
+    font-size: 0.8em;
+  }
+.contr_bgd {
+  height: 40px;
+  width: 40px;
+  margin-top: -30px;
+  top: 40%;
+  }
+.slider__control {
+  height: 20px;
+  width: 20px;
+  margin-top: -20px;
+  top: 40%;
+  position: absolute;
+  border-width: 4px 4px 0 0;
+  }
+  .slider__indicator {
+  height: 15px;
+  width: 15px;
+ }
+}
+
+@media only screen and (max-width: 500px){
+  .text_bgd {
+    width: 100%;
+    left:0;
+    padding-bottom: 34.6153846%;
+    bottom: 0;
+    min-height: 0;
+  }
+  .slider__indicators {
+    bottom: 40%;
+  }
+}
+
 </style>
+
+{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
+{% assign letters = letterstring | split: ',' %}
+
+<div class="slider__holder" itemscope itemtype="http://schema.org/ImageGallery">
+    <input class="slider__activator"  type="radio" name="slider" id="play1" checked=""/>
+    <div class="slider">
+        {% for item in site.data.slider.lang[page.lang] %}
+          <input class="slider__activator" type="radio" name="slider" id="{{ letters[forloop.index0] }}"/>
+        {% endfor %}
+        {% for item in site.data.slider.lang[page.lang] %}
+          {% if forloop.index == forloop.length %}
+            {% assign nextindex = 0 %}
+          {% else %}
+            {% assign nextindex = forloop.index0 | plus: 1 %}
+          {% endif %}
+          {% assign nextletter = letters[nextindex] %}
+          {% if forloop.index0 == 0 %}
+            {% assign previndex = forloop.length | minus: 1 %}
+          {% else %}
+            {% assign previndex = forloop.index0 | minus: 1 %}
+          {% endif %}
+          {% assign prevletter = letters[previndex] %}
+          <div class="slider__controls">
+              <label class="slider__control slider__control--backward" for="{{ prevletter }}"></label>
+              <label class="slider__control slider__control--forward" for="{{ nextletter }}"></label>
+          </div>
+        {% endfor %}
+        <div class="slider__track">
+          <ul>
+            {% for item in site.data.slider.lang[page.lang] %}
+            <li class="slider__slide">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
+                <picture>
+                  <source type="image/webp" media="(min-width: 500px)" data-srcset="{{ item.webp.xl }}">
+                  <source type="image/webp" media="(max-width: 500px)" data-srcset="/images/flying-friends/testfoto.webp">
+ 
+                  <source type="image/jpeg" media="(min-width: 500px)" data-srcset="{{ item.jpeg.xl }}">
+                  <source type="image/jpeg" media="(max-width: 500px)" data-srcset="/images/flying-friends/testfoto.jpg">
+                  <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload"><br>Bitte hier klicken um die Bilder zu laden
+                </picture>
+
+                <a class="text_bgd" href="{{ item.link }}">
+                <h3><strong>{{ item.title }}</strong></h3>
+                <p>{{ item.description }}</p>
+                <button class="btn">
+                   <strong>{{ item.button_text }}</strong>
+                </button>
+                </a>              
+              <noscript>
+              </figure>
+              </noscript>
+            </li>            
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="slider__indicators">
+            {% for item in site.data.slider.lang[page.lang] %}
+              <label class="slider__indicator" for="{{ letters[forloop.index0] }}"></label>
+            {% endfor %}
+        </div>
+    </div>
+    <label class="slider__control slider__control--backward fake_contr" for="{{ prevletter }}"></label>
+    <label class="slider__control slider__control--forward fake_contr" for="{{ nextletter }}"></label>
+    <div class="contr_bgd contr_bgd--left"></div>
+    <div class="contr_bgd contr_bgd--right"></div>
+</div>
