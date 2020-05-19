@@ -15,7 +15,7 @@
                 </a>
             <a href="tel:+34696264729" title="Call or WhatsApp"><strong>+34-696-264729</strong></a>
             {% else %}
-            <a href="{{site.baseurl }}/{{page.lang }}/"><img class="logo" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAACxCAMAAAAF4yq/AAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+            <a href="{{site.baseurl }}/{{page.lang }}/" onclick="uncheck()"><img class="logo" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAACxCAMAAAAF4yq/AAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
 AK7OHOkAAAGnUExURUdwTOEAGeAAGv///////yKZzP///+IAGCSW0CSVzt0AIiWZ0SSX0CSW0CWZ
 0SaY0CmczSaY0COX0COW0CaY0SWZ0SSX0eIAGv///yOXziWXziOW0CCUzSSX0CWX0+EAGv//////
 /yKWziOX0OEAGd4AGP///yWZ0P///////////+IAGf///+MAGySZ0uIAGf///+EAGeIAGiaY0eIA
@@ -82,7 +82,7 @@ HC9IQd6FO+mwNNtp/OS+EBB+IEQcAKkwku3qw8shVg95wiUjsa50JIwdicnwQ8wJh9EYcMJheSaJ
 gYUkN/JoHpB9DasMEiGcM6xCjEcUfWlM9uIsLQtZUBYZIBYah8uCUHUIg6FQonrCEHYyaTLVATD0
 NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
             <div class="callbox">
-            <a href="http://wa.me/34696264729">
+            <a href="http://wa.me/34696264729" onclick="uncheck()">
                 <svg style="position: relative;padding-top: 10px ; width: 2em; height: auto;"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-label="WhatsApp" role="img"
@@ -92,7 +92,7 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                 rx="15%"
                 fill="#45d354"/><path d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"/><path d="M264 384c-41 0-72-22-72-22l-49 13 12-48s-20-31-20-70c0-72 59-132 132-132 68 0 126 53 126 127 0 72-58 131-129 132m-159 29l83-23a158 158 0 0 0 230-140c0-86-68-155-154-155a158 158 0 0 0-137 236"/></svg>
                 </a>
-            <a href="tel:+34696264729" title="Call or WhatsApp"><strong>+34696264729</strong></a>
+            <a href="tel:+34696264729" title="Call or WhatsApp" onclick="uncheck()"><strong>+34696264729</strong></a>
             </div>
             {% endif %}
         </div>
@@ -159,14 +159,13 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
             </div>
             {% else %}            
             <div class="navtop">
-            <ul>
-              <li id="menuToggle">
-                <input type="checkbox" />
+              <div id="menuToggle" class="menuToggle">
+                <input type="checkbox" class="nav-trigger" id="nav-trigger" onclick="menuAus()"/>
                 <span></span>
                 <span></span>
                 <span></span>
                 <ul>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/">Start</a>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/" onclick="uncheck()">Start </a>
                   </li>
                   <li class="sub-menu">&#x2000;<label for="chbx1">{{ page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
                     <ul class="navsub">
@@ -179,12 +178,12 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                           s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
                           c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
                       </svg></label><input type="checkbox" id="chbx1"/></li>                  
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" >{{ page.t.menutxt1 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}">{{ page.t.menutxt20 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}">{{ page.t.menutxt21 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}">{{ page.t.menutxt22 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}">{{ page.t.menutxt23 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}">{{ page.t.menutxt24 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" onclick="uncheck()">{{ page.t.menutxt1 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}" onclick="uncheck()">{{ page.t.menutxt20 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}" onclick="uncheck()">{{ page.t.menutxt21 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}" onclick="uncheck()">{{ page.t.menutxt22 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}" onclick="uncheck()">{{ page.t.menutxt23 }}</a></li>
+                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}" onclick="uncheck()">{{ page.t.menutxt24 }}</a></li>
                     </ul>
                   </li>
                   <li class="sub-menu">&#x2000;<label for="chbx2">{{ page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
@@ -198,14 +197,14 @@ NMiJCZ5YboRgZI2HQkTLlIUeka7WorR8lbB4uiu6/g9m7z3ICZ60owAAAABJRU5ErkJggg==" alt="K
                           s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
                           c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
                       </svg></label><input type="checkbox" id="chbx1"/></li>                      
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" >{{ page.t.menutxt2 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}">{{ page.t.menutxt30 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}">{{ page.t.menutxt31 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link32 }}" title="{{ page.t.menutxt32 }}">{{ page.t.menutxt32 }}</a></li>
+                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" onclick="uncheck2()">{{ page.t.menutxt2 }}</a></li>
+                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}" onclick="uncheck2()">{{ page.t.menutxt30 }}</a></li>
+                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}" onclick="uncheck2()">{{ page.t.menutxt31 }}</a></li>
+                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link32 }}" title="{{ page.t.menutxt32 }}" onclick="uncheck2()">{{ page.t.menutxt32 }}</a></li>
                     </ul>
                   </li>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" onclick="uncheck()">{{ page.t.menutxt4 }}</a></li>
+                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" onclick="uncheck()">{{ page.t.menutxt5 }}</a></li>
                   <li><div class="flags">                
                               <img class="lazyload" data-src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAYCAYAAAAGcjT5AAAGG0lEQVR4Ae2aA5AcTRiGJ/Yxtm3b
 tm17b5ONbdu2bds2z+aeEb//vXW1G8xt2Knq/LVd9dTom67qnme/7ulZpY5dw7+GGTP/g0aYMQtm
@@ -244,9 +243,8 @@ jJn/AFk6JemK47OUAAAAAElFTkSuQmCC" alt="languages" usemap="#Map" />
                       </div>
                   </li>
                 </ul>
-              </li>
-              </ul>
+              </div>
             </div>
-            {% endif %}
+         {% endif %}
         </div>
 </div>

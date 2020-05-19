@@ -1,6 +1,4 @@
----
-layout: compress
----
+
 
 <!DOCTYPE html>
 
@@ -105,7 +103,7 @@ layout: compress
 
 <link href="/css/main.css" rel="stylesheet" rel="preload" as="style">
 <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style">
-
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
    </head>
 
 {% endif %}
@@ -160,6 +158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     {% if page.amp == true %}{% else %}
       {% include deferedloader.html %}
+      {% include cookieconsent.html %}
     {% endif %}
 
   </body>

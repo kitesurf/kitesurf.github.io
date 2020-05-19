@@ -72,6 +72,9 @@ layout: compress
     {% include structured-data.html %}
 
     {% include gallery-css.html %}
+    {% include inline-above-css.html %}
+
+    <link href="/css/gallery_main.css" rel="stylesheet" rel="preload" as="style">
     <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style" crossorigin>
     <link href="{{ site.url }}/css/photoswipe.min.css" rel="stylesheet" rel="preload" as="style">
     <link href="{{ site.url }}/css/default-skin/default-skin.min.css" rel="stylesheet" rel="preload" as="style">
@@ -196,68 +199,8 @@ layout: compress
 </section>
 
     {% if page.amp == true %}{% else %}
-    <script type="text/javascript">
-        function JSAtOnload1() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/modernizr.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload1, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload1);
-        else window.onload = JSAtOnload1;
-    </script>
-    <script type="text/javascript">
-        function JSAtOnload2() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/photoswipe.min.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload2, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload2);
-        else window.onload = JSAtOnload2;
-    </script>
-    <script type="text/javascript">
-        function JSAtOnload3() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/photoswipe-ui-default.min.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload3, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload3);
-        else window.onload = JSAtOnload3;
-    </script>
-    <script type="text/javascript">
-        function JSAtOnload4() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/analytics.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload4, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload4);
-        else window.onload = JSAtOnload4;
-    </script>
-    <script>
-        function JSAtOnload5() {
-        var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/lazysizes.min.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload5, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload5);
-        else window.onload = JSAtOnload5;
-    </script>
 
-
+{% include deferedloader_for_gallery.html %}
 {% include cookieconsent.html %}
 
     {% endif %}
