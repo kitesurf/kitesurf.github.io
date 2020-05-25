@@ -62,34 +62,3 @@ published: true
 
 # Und hier ist mein Titel
 
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-
-<!-- Swiper -->
-<style type="text/css" media="screen">
-.swiper-container {height: 300px;}
-</style>
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-   {% for item in site.data.slider.lang[page.lang] %}
-      <div class="swiper-slide">
-        <!-- Required swiper-lazy class and image source specified in data-src attribute -->
-        <img data-src="{{ item.image }}">
-        <!-- Preloader image -->
-      </div>
-   {% endfor %}
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination swiper-pagination-white"></div>
-    <!-- Navigation -->
-    <div class="swiper-button-next swiper-button-white"></div>
-    <div class="swiper-button-prev swiper-button-white"></div>
-</div>
-<!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        dynamicBullets: true,
-      },
-    });
-  </script>

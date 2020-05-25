@@ -126,6 +126,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="myteaser">
           <span><strong>{{ page.t.teaser }}</strong></span>
         </div>
+        {% else %}
+            {% include swiper.html %}
+            {% include deferedloader_for_slider.html %}
       {% endif %}  
 
       {{ content }}

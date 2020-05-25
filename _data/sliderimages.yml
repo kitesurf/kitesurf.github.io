@@ -1,0 +1,74 @@
+lang:
+  de:
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+      webp:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer fahrend auf board neben hund rennend in den wellen
+      title: Ohne Ende Spass
+      description: Mit viel Spass kannst du bei uns kitesurfen lernen
+      button_text: Kurse schon ab 30,-
+      link: "/de/kitekurse/"
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: trainer mit schülerin im eins zu eins kiteunterricht
+      title: Privatstunden
+      description: nimm extra Stunden mit einem Lehrer NUR für Dich
+      button_text: Privatkurs ab 120,-
+      link: "/de/kitekurse/privatstunden/"
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer im rückwärtssprung über das wasser
+      title: Kitesprünge
+      description: Mit Dennis(Bild) oder Gerhard richtig geile Kitesprünge lernen
+      button_text: Fortgeschrittene ab 60,-
+      link: "/de/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer mit surfkiteboard in der hand im sprung über den wellen
+      title: Bindung?
+      description: Mit Bernardi -Rider bei Eleveight- Stunden buchen
+      button_text: Strapless ab 60,-
+      link: "/de/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+      webp:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer auf einem hydrofoil über das Wasser
+      title: Hydrofoil lernen
+      description: Mit uns die neue Art des Kitens erfahren, und, zBsp. mit Daniel gemeinsam genießen
+      button_text: Hydrofoil ab 30,-
+      link: "/de/kitekurse/hydrofoil/"
+  en:
+
