@@ -54,6 +54,17 @@
         window.attachEvent("onload", JSAtOnload4);
         else window.onload = JSAtOnload4;
 
+        function JSAtOnload5() {
+        var element = document.createElement("script");
+            element.src = "{{ site.url }}/js/ls.unveilhooks.min.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", JSAtOnload5, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", JSAtOnload5);
+        else window.onload = JSAtOnload5;
+
         function JSAtOnload6() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/cookieconsent.min.js";

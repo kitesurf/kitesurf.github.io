@@ -105,7 +105,9 @@ layout: compress
 
 <link href="/css/main.css" rel="stylesheet" rel="preload" as="style">
 <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style">
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    {% if page.t.teaser %}{% else %}
+<link href="https://unpkg.com/swiper/css/swiper.min.css" rel="stylesheet" rel="preload" as="style">
+    {% endif %}
    </head>
 
 {% endif %}
@@ -128,7 +130,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         {% else %}
             {% include swiper.html %}
-            {% include deferedloader_for_slider.html %}
       {% endif %}  
 
       {{ content }}
