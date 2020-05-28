@@ -55,9 +55,8 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser: "Come and learn with us the first steps in kitesurfing!"
+  teaser:
 ---
-{% include snippets/{{ page.lang }}/kurse.html %}
 
 # [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
 

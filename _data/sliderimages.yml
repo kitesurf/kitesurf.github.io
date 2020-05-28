@@ -11,7 +11,7 @@ lang:
         s: /images/flying-friends/t_roman-008.jpg
       alt: kitesurfer fahrend auf board neben hund rennend in den wellen
       title: Ohne Ende Spass
-      description: Mit viel Spass kannst du bei uns kitesurfen lernen
+      description: Mit der richtigen Kiteschule kannst du bei viel Spass kitesurfen lernen
       button_text: Kurse schon ab 30,-
       link: "/de/kitekurse/"
     - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
@@ -71,4 +71,144 @@ lang:
       button_text: Hydrofoil ab 30,-
       link: "/de/kitekurse/hydrofoil/"
   en:
-
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+      webp:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer riding next to his dog running in the waves
+      title: Endless fun
+      description: With the right kite school you can learn to kitesurf with a lot of fun
+      button_text: Courses already from 30,-
+      link: "/en/kitesurfing-lessons/"
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: teacher with student in one to one kite lessons
+      title: Private lessons
+      description: take extra lessons with a teacher ONLY for you
+      button_text: Private course from 120,-
+      link: "/en/kitesurfing-lessons/privatlessons/"
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfer jumping backwards over the water
+      title: Kite jumps
+      description: Learn really cool kite jumps with Dennis(picture) or Gerhard
+      button_text: Advanced learners from 60,-
+      link: "/en/kitesurfing-lessons/advanced/"
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer with surfkiteboard in his hand jumping over the waves
+      title: Bindings?
+      description: Book hours with Bernardi - Rider at Eleveight
+      button_text: Strapless from 60,-
+      link: "/en/kitesurfing-lessons/advanced/"
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+      webp:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer on a hydrofoil over the water
+      title: Learn how to Hydrofoil
+      description: Experience the new way of kiting with us and enjoy together with Daniel
+      button_text: Hydrofoil from 30,-
+      link: "/en/kitesurfing-lessons/hydrofoil/"
+  es:
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+      webp:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfista junto a su perro corriendo en las olas
+      title: Diversión sin fin
+      description: Con la escuela de kitesurf adecuada puedes aprender a hacer kitesurf con mucha diversión
+      button_text: Los cursos ya desde 30,-
+      link: "/es/cursos-de-kitesurf/"
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: entrenador con el estudiante en las lecciones de kite uno a uno
+      title: Lecciones privadas
+      description: Tomar lecciones extras con un profesor SOLO para ti
+      button_text: Curso privado de 120,-
+      link: "/es/cursos-de-kitesurf/privado/"
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfista saltando hacia atrás sobre el agua
+      title: Saltos en kitesurf
+      description: Aprende a hacer saltos realmente geniales en kitesurf con Dennis(foto) o Gerhard
+      button_text: Avanzados a partir de 60,-
+      link: "/es/cursos-de-kitesurf/avanzado/"
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+      webp:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer con la tabla de surf en la mano saltando sobre las olas
+      title: ¿Agarres?
+      description: Reserva horas con Bernardi - Rider de Eleveight
+      button_text: Strapless desde 60,-
+      link: "/es/cursos-de-kitesurf/avanzado/"
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+      webp:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
+        s: /images/flying-friends/t_roman-008.webp
+      jpeg:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: kitesurfer sobre un hidroala en el agua
+      title: Aprende el hidroala
+      description: Experimenta la nueva forma de hacer kitesurf con nosotros y disfrutalo junto a Daniel
+      button_text: Hydrofoil desde 30,-
+      link: "/es/cursos-de-kitesurf/hidrofoil/"

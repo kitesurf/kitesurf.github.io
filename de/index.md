@@ -56,10 +56,9 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Komm und lerne mit uns die ersten Schritte im Kitesurfen!"
+  teaser:
 published: true
 ---
-{% include snippets/{{ page.lang }}/kurse.html %}
 
 # [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends/)
 

@@ -14,7 +14,7 @@
             <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload">
           </picture>
           <a class="text_bgd" href="{{ item.link }}">
-          <h3><strong>{{ item.title }}</strong></h3>
+          <span><strong>{{ item.title }}</strong></span>
           <p>{{ item.description }}</p>
           <button class="btn">
              <strong>{{ item.button_text }}</strong>
@@ -114,15 +114,16 @@ section {
   left: 8%;
 }
 }
-.text_bgd > h3,
+.text_bgd > span,
 .text_bgd > p {
   margin: 0.5rem;
   margin-bottom: 0;
   opacity: 1.0;
   color: rgba(255, 255, 255, 1.0);  
 }
-.text_bgd > h3 {
+.text_bgd > span {
   line-height: 1.2;
+  font-size: 1.75rem;
 }
 .text_bgd > p {
   font-size: 0.8em;
