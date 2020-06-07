@@ -21,7 +21,13 @@
         window.attachEvent("onload", JSAtOnload1);
         else window.onload = JSAtOnload1;
 
-       function JSAtOnload2() {
+        WebFont.load({
+          google: {
+            families: ['Lato:wght@400;700&display=swap', 'Droid Serif']
+          }
+        });
+
+        function JSAtOnload2() {
         var element = document.createElement("script");
             element.src = "{{ site.url }}/js/analytics.js";
         document.body.appendChild(element);

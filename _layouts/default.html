@@ -104,6 +104,7 @@ layout: compress
 
 
 <link href="/css/main.css" rel="stylesheet" rel="preload" as="style">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style">
     {% if page.t.teaser %}{% else %}
 <link href="https://unpkg.com/swiper/css/swiper.min.css" rel="stylesheet" rel="preload" as="style">
@@ -113,14 +114,14 @@ layout: compress
 {% endif %}
 
   <body>
-  {% if page.amp == true %}
+  {% if page.amp == true and site.url != "http://localhost:4000" %}
   {% include amp-analytics.html %}
-  {% else %}
+  {% endif %}
+  {% if page.amp != true and site.url != "http://localhost:4000" %}
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J849CQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
 <!-- End Google Tag Manager (noscript) -->
-
   {% endif %}
   {% include header.html %}
     <div id="page-wrapper">
