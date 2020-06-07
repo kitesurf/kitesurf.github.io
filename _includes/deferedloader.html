@@ -1,4 +1,17 @@
-    <script type="text/javascript">
+<script>
+    WebFontConfig = {
+      google: {
+        families: ['lato:n4,n7']
+      }
+    };
+   (function(d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+   })(document);
+</script>
+<script type="text/javascript">
         /* function JSAtOnload5() {
         var element = document.createElement("link");
             element.src = "{{ site.url }}/css/main.css";
@@ -20,12 +33,6 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload1);
         else window.onload = JSAtOnload1;
-
-        WebFont.load({
-          google: {
-            families: ['Lato:wght@400;700&display=swap', 'Droid Serif']
-          }
-        });
 
         function JSAtOnload2() {
         var element = document.createElement("script");
@@ -81,5 +88,5 @@
         else if (window.attachEvent)
         window.attachEvent("onload", JSAtOnload6);
         else window.onload = JSAtOnload6;
-       
-    </script>
+
+</script>
