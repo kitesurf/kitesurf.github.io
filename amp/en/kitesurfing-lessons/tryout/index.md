@@ -64,7 +64,7 @@ t:
 <h1>Tryout kitesurfing course (English)</h1>
 <br>
  
-ONLY €100.00 for 3 Hours<br>
+ONLY €120.00 for 3 Hours<br>
 <br><br>
 <span>You always wanted to learn kitesurfing, but you are still unsure if this sport is for you, then our trial course is just the right choice.
 It allows you to try out in one day what it feels like to fly a real kitesurfing kite and to make it pull you through the water.

@@ -61,7 +61,7 @@ t:
   teaser: KITESURFING LESSONS
 ---
 
-<h1>Basic course in kitesurfing, 10 hours for 450,- Euro</h1>
+<h1>Basic course in kitesurfing, starting on a hourly basis from 45,- Euro or 10 hours for 400,- Euro</h1>
 <br>
  
 <span>Our basic course in kitesurfing makes you independent in the shortest possible time.<br>

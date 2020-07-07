@@ -67,7 +67,7 @@ published: true
 <h1>Reservieren und Buchen: Schnupperkurs im Kitesurfen</h1>
 <br>
  
-<<strong>NUR 100,00 € für 3 Stunden an einem Tag</strong><br><br>
+<<strong>NUR 120,00 € für 3 Stunden an einem Tag</strong><br><br>
 
 Wenn du schon immer mal das Kitesurfen lernen wolltest, du aber noch unsicher bist ob dieser Sport für dich was ist, dann ist unser Schnupperkurs genau dass richtige für dich.<br>
 Hiermit kannst du an einem einzigen Tag testen wie es sich anfühlt an einem richtigen, echten Kite zu hängen und sich von diesem durch das Wasser ziehen zu lassen.<br>

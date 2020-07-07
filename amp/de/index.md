@@ -98,7 +98,7 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 **Pro Person ein Kite!**<br>
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können oder 10 Stunden nur Praxis (Dauer 3-6 Tage)  
 
-4 Stunden Refreshkurs - **EUR 200,-**  
+4 Stunden Refreshkurs - **EUR 220,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
 
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  

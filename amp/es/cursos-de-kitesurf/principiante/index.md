@@ -63,7 +63,7 @@ t:
 <h1>Reserva aquí tu curso básico de kitesurf, 10 hs.</h1>
 <br>
  
-<strong>SOLO 55,00 € por hora o 450 por 10 horas(10% descuento)</strong><br><br>
+<strong>A partir de SOLO 45,00 € por hora o 400 por 10 horas(12% descuento)</strong><br><br>
 
 Con nuestro curso básico de kitesurf te haremos en corto tiempo independiente y seguro en el uso de cometa y tabla.<br><br>
 

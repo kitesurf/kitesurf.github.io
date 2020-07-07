@@ -65,7 +65,7 @@ t:
 <h1>Reserva aquí tu curso de perfeccionamiento en kitesurf</h1>
 <br>
  
-<strong>SOLO 55,00 € por hora o 200 por 4 horas(10% descuento)</strong><br><br>
+<strong>SOLO 60,00 € por hora o 220 por 4 horas(8% descuento)</strong><br><br>
 
 Este curso está pensado para todos aquellos que ya han tenido contacto con el kitesurf y desean continuar y perfeccionar su técnica.<br><br>
 

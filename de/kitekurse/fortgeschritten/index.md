@@ -67,8 +67,8 @@ published: true
 <h1>Reservieren und Buchen: Aufbaukurs im Kitesurfen</h1>
 <br>
  
-AB 55,00 € pro Stunde<br>
-<strong>4 Stunden für 200,- € (10% Mengenrabatt)</strong><br><br>
+AB 60,00 € pro Stunde<br>
+<strong>4 Stunden für 220,- € (ca. 8% Mengenrabatt)</strong><br><br>
 <span>Dieser Auffrischungskurs im Kitesurfen ist für alle die Gedacht, welche schon Kontakt hatten mit dem Kitesurfen und sich weiter entwickeln möchten.</span>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">

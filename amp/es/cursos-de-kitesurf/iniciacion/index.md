@@ -64,7 +64,7 @@ t:
 <h1>Reserva aquí tu curso de inciación o bautismo en kitesurf</h1>
 <br>
  
-<strong>SOLO 100,00 € 3 horas en un solo día</strong><br><br>
+<strong>SOLO 120,00 € 3 horas en un solo día</strong><br><br>
 
 ¿Siempre has querido iniciarte o probar el kitesurf? Aquí en kite-mallorca.com tenemos el curso perfecto para ti.<br><br>
 

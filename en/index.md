@@ -77,10 +77,10 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ### Our quality for the best price
 
-10 hours beginners course - **EUR 500,-**
+10 hours beginners course - from **EUR 400,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
-Lessons on an hourly basis - **EUR 60,-/h**
+Lessons on an hourly basis - **EUR 60,-/h** or 4 hours for **EUR 220,-**
 Individual hours for all levels in a small group of 2-4 students
 
 3 hours trial course - **EUR 120,-**

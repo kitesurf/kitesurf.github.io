@@ -85,7 +85,7 @@ Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus
 
 ## Unsere Qualität zum besten Preis  
 
-### 10 Stunden Anfängerkurs - **EUR 500,-**  
+### 10 Stunden Anfängerkurs - AB **EUR 400,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 **Lizenz erwerb kostet extra 80,- Euro** (Dauer ca. 2 Stunden für Theorie und Test)
 
