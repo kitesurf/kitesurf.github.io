@@ -106,7 +106,9 @@ layout: compress
 <link href="/css/main.css" rel="stylesheet" rel="preload" as="style">
 <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style">
     {% if page.t.teaser %}{% else %}
+      {% if page.amp != true %}
 <link href="/css/swiper.min.css" rel="stylesheet" rel="preload" as="style">
+      {% endif %}
     {% endif %}
    </head>
 
@@ -129,7 +131,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span><strong>{{ page.t.teaser }}</strong></span>
         </div>
         {% else %}
+          {% if page.amp != true %} 
             {% include swiper.html %}
+          {% endif %}
       {% endif %}  
 
       {{ content }}
