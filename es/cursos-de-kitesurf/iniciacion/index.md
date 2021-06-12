@@ -59,8 +59,8 @@ t:
   teaser: VEN A DIVERTIRTE UN DÍA PROBANDO EL KITESURF CON NOSOTROS
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=72540446a4965399faa6cfed67b2623c"></script>
+<div id="bookingKitContainer" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
+<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?e=3615f83ea415c3fbec86b9877a5050aa" async></script>
 <noscript>
 <h1>Reserva aquí tu curso de inciación o bautismo en kitesurf</h1>
 <br>
