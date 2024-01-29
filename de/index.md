@@ -91,7 +91,7 @@ Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung un
 4 Stunden Refreshkurs - **EUR 220,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage) 
 
-3 Stunden Schnupperkurs - **EUR 150,-**
+3 Stunden Schnupperkurs - **EUR 150,-**  
 Unterricht in kleinen Gruppen von 2-4 Schüler mit dem Ziel so viel Kontrolle über den Kite zu erlernen dass sich jeder eigenständig vom Kite durch das Wasser ziehen kann(Bodydrag)! Jeder Teilnehmer wird von uns komplett ausgestattet. (Dauer ein Tag)
 
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
