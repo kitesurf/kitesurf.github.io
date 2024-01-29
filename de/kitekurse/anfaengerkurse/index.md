@@ -6,7 +6,7 @@ subtitle: Mit viel Spass das Kitesurfen richtig lernen vom Anfang an
 date: 2019-02-21T00:00:00.000Z
 modified: 2020-03-12T00:00:00.000Z
 author: daniel
-description: "Kurse im kitesurfen auf Mallorca mit viel Spaß und bei besten Bedingungen mit Freude erfahren"
+description: "Kurse im kitesurfen auf Mallorca: mit viel Spaß und bei besten Bedingungen kiten lernen"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -68,9 +68,10 @@ published: true
 <br>
  
 AB 45,00 € pro Stunde<br>
-<strong>10 Stunden für 400,- € (12% Mengenrabatt)</strong><br><br>
+<strong>10 Stunden für ab 400,- € (12% Mengenrabatt)</strong><br>
+<span>Diese Preise gelten bei 1 Equipment pro 2 Teilnehmer, ansonsten siehe Preisliste</span><br><br>
 <span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
-Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
+Material wird komplett gestellt und ist im Endpreis inbegrifen.</span><br>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
@@ -82,13 +83,13 @@ Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
 </form>
 <ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
   <li>Von 0 auf 100 in nur 10 Stunden</li>
-  <li>Material muss nicht mit anderen geteilt werden</li>
+  <li>Material muss, je nach Kurs, nicht mit anderen geteilt werden</li>
   <li>Material ist im Preis enthalten</li>
   <li>Zahlbar auch erst nach Vollendung</li>
   <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
 </ul>
 <H2>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche zum Mieten von Material an anderen Kiteschulen berechtigt.</H2>
+Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz. Diese wird zum Mieten von Material an anderen Kiteschulen benötigt.</H2>
 <span><strong>Mitzubringen sind:</strong><br>
 Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
 
