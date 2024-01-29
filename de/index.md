@@ -85,11 +85,14 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 ### Unsere Qualität zum besten Preis  
 
-10 Stunden Anfängerkurs - ab **EUR 400,-** (Preis pro Teilnehmer bei 1 Kite für 2 Schüler)
+10 Stunden Anfängerkurs - ab **EUR 400,-** (Preis pro Teilnehmer bei 1 Kite für 2 Schüler)  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 
 4 Stunden Refreshkurs - **EUR 220,-**  
-Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
+Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage) 
+
+3 Stunden Schnupperkurs - **EUR 150,-**
+Unterricht in kleinen Gruppen von 2-4 Schüler mit dem Ziel so viel Kontrolle über den Kite zu erlernen dass sich jeder eigenständig vom Kite durch das Wasser ziehen kann(Bodydrag)! Jeder Teilnehmer wird von uns komplett ausgestattet. (Dauer ein Tag)
 
 [» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
 
