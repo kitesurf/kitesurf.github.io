@@ -55,9 +55,9 @@ t:
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
-  menutxt31: "Long term rent"
+  menutxt31: "Long-term rent"
   teaser: KITESURFING LESSONS
----
+-an --
 
 <div id="bookingKitContainer" data-lang="en" data-e="ec7242b91d52f942c5d0333c2c0001cb" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
 <script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=ec7242b91d52f942c5d0333c2c0001cb" async></script>
@@ -66,8 +66,8 @@ t:
 <br>
  
 <span>Our basic course in kitesurfing makes you independent in the shortest possible time.<br>
-When dealing with kiteboard and kite you will learn to ride the waves and get a lot of fun.<br>
-At the end of the course, you can book in extra theory to gain the official license. Which them entitles you to rent material at other kite schools.<br><br>
+When dealing with kiteboards and kites you will learn to ride the waves and get a lot of fun.<br>
+You can book an extra theory to gain the official license at the end of the course. Which entitles you to rent materials at other kite schools.<br><br>
 
 This is a group course for up to 4 students per teacher.<br>
 The material is complete for each student and included in the final price.</span>
@@ -75,7 +75,7 @@ The material is complete for each student and included in the final price.</span
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
   <input type="email" name="_replyto" placeholder="Your email" required>
   <input type="hidden" name="_subject" value="Booking request for beginner lessons">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for lessons. We'll contact you back soon"></textarea>
+  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested in lessons. We'll contact you back soon"></textarea>
   <span></span><br><br>
   <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
   <input type="submit" value="Send">
@@ -84,7 +84,7 @@ The material is complete for each student and included in the final price.</span
   <li>From zero to 100 in only 10 hours</li>
   <li>Payable even after completion</li>
   <li>You continue where you were the last time</li>
-  <li>Material does not have to be shared with others and is included in the price</li>
+  <li>On the individual beginner course for 500 Euro, the material does not have to be shared with others and is included in the price</li>
 </ul>
 <span>Please bring:
 Swimsuit Suncream Sunglasses Drinkwater</span><br>
