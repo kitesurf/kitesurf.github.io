@@ -60,7 +60,8 @@ t:
 published: true
 ---
 
-# [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends/)
+# [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends/)  
+[**NEU AB SOFORT WINGFOILING**] Preise auf Anfrage.
 
 Wir haben für dich:  
 - Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) 
