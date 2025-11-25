@@ -1,0 +1,33 @@
+---
+layout: default
+title: API Test
+---
+
+<div id="status-box" style="padding: 20px; border: 2px solid #ccc; margin: 20px 0;">
+  Klicke den Button, um das Backend zu testen...
+</div>
+
+<button onclick="testBackend()">Backend rufen</button>
+
+<script>
+async function testBackend() {
+  const statusBox = document.getElementById('status-box');
+  statusBox.innerText = "Lade...";
+
+  try {
+    // Hier deine Worker-URL einfügen, die du eben kopiert hast!
+    const response = await fetch("https://kite-mallorca-booking-api-v1.workers.dev", {
+      method: "GET"
+    });
+
+    const data = await response.json();
+    statusBox.innerText = "Erfolg! Antwort vom Server: " + data.message;
+    statusBox.style.borderColor = "green";
+    
+  } catch (error) {
+    statusBox.innerText = "Fehler: " + error.message;
+    statusBox.style.borderColor = "red";
+    console.error(error);
+  }
+}
+</script>
