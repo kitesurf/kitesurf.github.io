@@ -4,30 +4,61 @@ title: API Test
 ---
 
 <div id="status-box" style="padding: 20px; border: 2px solid #ccc; margin: 20px 0;">
-  Klicke den Button, um das Backend zu testen...
+  Warte auf Eingabe...
 </div>
 
-<button onclick="testBackend()">Backend rufen</button>
+<button id="test-btn" type="button" style="padding: 10px 20px; font-weight: bold; cursor: pointer;">
+  Backend rufen
+</button>
 
 <script>
-async function testBackend() {
-  const statusBox = document.getElementById('status-box');
-  statusBox.innerText = "Lade...";
-
-  try {
-    // Hier deine Worker-URL einfügen, die du eben kopiert hast!
-    const response = await fetch("https://kite-mallorca-booking-api-v1.workers.dev", {
-      method: "GET"
-    });
-
-    const data = await response.json();
-    statusBox.innerText = "Erfolg! Antwort vom Server: " + data.message;
-    statusBox.style.borderColor = "green";
+  // Wir warten sicherheitshalber, bis die ganze Seite geladen ist
+  document.addEventListener("DOMContentLoaded", function() {
     
-  } catch (error) {
-    statusBox.innerText = "Fehler: " + error.message;
-    statusBox.style.borderColor = "red";
-    console.error(error);
-  }
-}
+    // 1. Button finden
+    const button = document.getElementById("test-btn");
+
+    // 2. Funktion definieren, die beim Klicken passiert
+    if (button) {
+      button.addEventListener("click", async function() {
+        
+        const statusBox = document.getElementById("status-box");
+        statusBox.innerText = "Lade...";
+        statusBox.style.borderColor = "orange";
+        statusBox.style.backgroundColor = "#fff3cd";
+
+        try {
+          // --- HIER DEINE WORKER URL EINFÜGEN ---
+          // Falls du sie nicht parat hast, nimm erstmal meinen Platzhalter zum Testen:
+          // (Aber besser ist deine eigene!)
+          const workerUrl = "https://kite-mallorca-booking-api-v1.workers.dev"; 
+          
+          const response = await fetch(workerUrl, {
+            method: "GET",
+            headers: { "Content-Type": "application/json" }
+          });
+
+          if (!response.ok) {
+            throw new Error(`HTTP Fehler! Status: ${response.status}`);
+          }
+
+          const data = await response.json();
+          
+          // Erfolg!
+          statusBox.innerText = "✅ Erfolg! Antwort vom Server: " + (data.message || JSON.stringify(data));
+          statusBox.style.borderColor = "green";
+          statusBox.style.backgroundColor = "#d4edda";
+          
+        } catch (error) {
+          // Fehler
+          console.error(error);
+          statusBox.innerText = "❌ Fehler: " + error.message;
+          statusBox.style.borderColor = "red";
+          statusBox.style.backgroundColor = "#f8d7da";
+        }
+      });
+    } else {
+      console.error("Button nicht gefunden!");
+    }
+  });
 </script>
