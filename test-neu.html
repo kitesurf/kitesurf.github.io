@@ -1,0 +1,65 @@
+---
+layout: default
+amp: true
+title: API Test
+---
+
+<div id="status-box" style="padding: 20px; border: 2px solid #ccc; margin: 20px 0;">
+  Warte auf Eingabe...
+</div>
+
+<button id="test-btn" type="button" style="padding: 10px 20px; font-weight: bold; cursor: pointer;">
+  Backend rufen
+</button>
+
+<script>
+  // Wir warten sicherheitshalber, bis die ganze Seite geladen ist
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // 1. Button finden
+    const button = document.getElementById("test-btn");
+
+    // 2. Funktion definieren, die beim Klicken passiert
+    if (button) {
+      button.addEventListener("click", async function() {
+        
+        const statusBox = document.getElementById("status-box");
+        statusBox.innerText = "Lade...";
+        statusBox.style.borderColor = "orange";
+        statusBox.style.backgroundColor = "#fff3cd";
+
+        try {
+          // --- HIER DEINE WORKER URL EINFÜGEN ---
+          // Falls du sie nicht parat hast, nimm erstmal meinen Platzhalter zum Testen:
+          // (Aber besser ist deine eigene!)
+          const workerUrl = "https://backend.kite-mallorca-booking-api-v1.workers.dev"; 
+          
+          const response = await fetch(workerUrl, {
+            method: "GET",
+            headers: { "Content-Type": "application/json" }
+          });
+
+          if (!response.ok) {
+            throw new Error(`HTTP Fehler! Status: ${response.status}`);
+          }
+
+          const data = await response.json();
+          
+          // Erfolg!
+          statusBox.innerText = "✅ Erfolg! Antwort vom Server: " + (data.message || JSON.stringify(data));
+          statusBox.style.borderColor = "green";
+          statusBox.style.backgroundColor = "#d4edda";
+          
+        } catch (error) {
+          // Fehler
+          console.error(error);
+          statusBox.innerText = "❌ Fehler: " + error.message;
+          statusBox.style.borderColor = "red";
+          statusBox.style.backgroundColor = "#f8d7da";
+        }
+      });
+    } else {
+      console.error("Button nicht gefunden!");
+    }
+  });
+</script>
