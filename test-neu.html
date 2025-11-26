@@ -13,13 +13,9 @@ title: API Test
 </button>
 
 <script>
-  // Wir warten sicherheitshalber, bis die ganze Seite geladen ist
   document.addEventListener("DOMContentLoaded", function() {
-    
-    // 1. Button finden
     const button = document.getElementById("test-btn");
 
-    // 2. Funktion definieren, die beim Klicken passiert
     if (button) {
       button.addEventListener("click", async function() {
         
@@ -29,9 +25,6 @@ title: API Test
         statusBox.style.backgroundColor = "#fff3cd";
 
         try {
-          // --- HIER DEINE WORKER URL EINFÜGEN ---
-          // Falls du sie nicht parat hast, nimm erstmal meinen Platzhalter zum Testen:
-          // (Aber besser ist deine eigene!)
           const workerUrl = "https://backend.kite-mallorca-booking-api-v1.workers.dev"; 
           
           const response = await fetch(workerUrl, {
@@ -40,26 +33,22 @@ title: API Test
           });
 
           if (!response.ok) {
-            throw new Error(`HTTP Fehler! Status: ${response.status}`);
+            throw new Error("HTTP Fehler Status: " + response.status);
           }
 
           const data = await response.json();
           
-          // Erfolg!
-          statusBox.innerText = "✅ Erfolg! Antwort vom Server: " + (data.message || JSON.stringify(data));
+          statusBox.innerText = "ERFOLG: " + (data.message || JSON.stringify(data));
           statusBox.style.borderColor = "green";
           statusBox.style.backgroundColor = "#d4edda";
           
         } catch (error) {
-          // Fehler
           console.error(error);
-          statusBox.innerText = "❌ Fehler: " + error.message;
+          statusBox.innerText = "FEHLER: " + error.message;
           statusBox.style.borderColor = "red";
           statusBox.style.backgroundColor = "#f8d7da";
         }
       });
-    } else {
-      console.error("Button nicht gefunden!");
     }
   });
 </script>
