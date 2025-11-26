@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:3.8
+    # Wir nehmen Version 3.8 oder 4.0, je nachdem was deine Seite braucht. 
+    # Da du "github-pages" nutzt, ist jekyll/jekyll:pages oft die beste Wahl,
+    # aber wir fangen mal mit dem Standard an, um Versionskonflikte zu vermeiden.
+    
+    command: jekyll serve --livereload --force_polling
+    # --livereload: Seite lädt neu, wenn du speicherst
+    # --force_polling: Wichtig für Docker auf Mac, damit er Dateiänderungen bemerkt
+    
+    ports:
+      - "4000:4000" # Webseite
+      - "35729:35729" # LiveReload Port
+      
+    volumes:
+      - .:/srv/jekyll 
+      # Das hier ist die Magie: Wir spiegeln deinen Mac-Ordner (.) 
+      # in den Container (/srv/jekyll).
+      
+    environment:
+      - JEKYLL_ENV=development
+      # Schaltet deine harten Optimierungen (Minifier) ab, damit es schneller baut
