@@ -14,7 +14,7 @@
 <script type="text/javascript">
         /* function JSAtOnload5() {
         var element = document.createElement("link");
-            element.src = "{{ site.url }}/css/main.css";
+            element.src = "{{ '/css/main.css' | relative_url }}"";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -25,7 +25,7 @@
 
         function JSAtOnload1() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/modernizr.js";
+            element.src = "{{ '/js/modernizr.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -36,7 +36,7 @@
 
         function JSAtOnload2() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/analytics.js";
+            element.src = "{{ '/js/analytics.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -47,7 +47,7 @@
 
         function JSAtOnload3() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/menuaus.js";
+            element.src = "{{ '/js/menuaus.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -58,7 +58,7 @@
 
         function JSAtOnload4() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/lazysizes.min.js";
+            element.src = "{{ '/js/lazysizes.min.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -69,7 +69,7 @@
 
         function JSAtOnload5() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/ls.unveilhooks.min.js";
+            element.src = "{{ '/js/ls.unveilhooks.min.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
@@ -80,7 +80,7 @@
 
         function JSAtOnload6() {
         var element = document.createElement("script");
-            element.src = "{{ site.url }}/js/cookieconsent.min.js";
+            element.src = "{{ '/js/cookieconsent.min.js' | relative_url }}";
         document.body.appendChild(element);
         }
         if (window.addEventListener)
