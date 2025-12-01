@@ -56,21 +56,8 @@ language: de
 </style>
 
 <!-- {% if jekyll.environment == 'production' %}
-  <script src="{{ '/js/booking.min.js' | relative_url }}" async defer></script> */
+  <script src="{{ '/js/booking.min.js' | relative_url }}" async defer></script>
 {% else %} -->
-<script type="text/javascript">
-        function JSAtOnload7() {
-        var element = document.createElement("script");
-            element.src = "{{ '/js/booking.js' | relative_url }}";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", JSAtOnload7, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", JSAtOnload7);
-        else window.onload = JSAtOnload7;
-</script>
 
-
-<!-- <script src="{{ '/js/booking.js' | relative_url }}" async defer></script>
-{% endif %} -->
+<script src="{{ '/js/booking.js' | relative_url }}" async defer></script>
+<!-- {% endif %} -->
