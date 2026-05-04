@@ -28,8 +28,8 @@ t:
   link1: "kitesurfing-lessons/"
   menutxt2: rental
   link2: renting/
-  menutxt3: wind
-  link3: wind/
+  menutxt3: Wingfoiling
+  link3: wingfoiling/
   menutxt4: contact
   link4: contact/
   menutxt5: "pictures & videos"

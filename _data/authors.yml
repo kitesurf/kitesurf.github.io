@@ -4,6 +4,9 @@ gerhard:
   name: Gerhard Duer
   email: gerhard@kite-mallorca.com
   bio: "Schreib hier was rein"
+  bio_de: "Schreib hier was rein"
+  bio_en: "Add bio text here"
+  bio_es: "Escribe aqui un texto biografico"
   avatar: flying-friends/s_kite-mallorca_008.jpg
   twitter:
 
@@ -11,6 +14,9 @@ daniel:
   name: Daniel von Ledebur
   email: daniel@kite-mallorca.com
   bio: "Karateka, Snowboarder and Kitesurfer with heart and soul"
+  bio_de: "Karateka, Snowboarder und Kitesurfer mit Herz und Seele"
+  bio_en: "Karateka, snowboarder and kitesurfer with heart and soul"
+  bio_es: "Karateka, snowboarder y kitesurfer de corazon"
   avatar: flying-friends/s_kite-mallorca_025.jpg
   twitter: kitesurfista
 
@@ -18,5 +24,8 @@ kite-mallorca:
   name: Kitesurf Mallorca
   email: team@kite-mallorca.com
   bio: "VDWS Kiteschule auf Mallorca, seit 2010 tätig mit der Premisse die beste Schule im Bereich Kitesurfen zu sein!"
+  bio_de: "VDWS Kiteschule auf Mallorca, seit 2010 mit dem Ziel, die beste Schule im Kitesurfen zu sein."
+  bio_en: "VDWS kite school in Mallorca, active since 2010 with the goal of being one of the best schools for kitesurfing."
+  bio_es: "Escuela de kitesurf VDWS en Mallorca, activa desde 2010 con el objetivo de ser una de las mejores escuelas de kitesurf."
   avatar: kite-mallorca_225x177.png
   twitter: kite-mallorca

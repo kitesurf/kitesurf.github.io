@@ -51,9 +51,9 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat Lessons"
+  menutxt24: "Private Lessons"
   link30: "renting/per-hour-or-day/"
-  menutxt30: "Reǹting per hour and day"
+  menutxt30: "Renting per hour or day"
   link32: "renting/long-term/"
   menutxt32: "Long term rent"
   teaser: "Come and learn with us the first steps in kitesurfing!"
@@ -65,11 +65,11 @@ t:
 [» Alle Informationen auf Deutsch]({{ site.url }}/de/ "Kite-mallorca.com/de/")  
 [» Todas las informaciones en Español]({{ site.url }}/es/ "Kite-mallorca.com/es/")  
 
-# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**GEAR RENTAL**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
+# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**GEAR RENTAL**]({{ site.url }}/en/renting/ "Kite & board rental"), [**WINGFOILING**]({{ site.url }}/en/wingfoiling/ "Wingfoiling courses in Mallorca") [**& MORE**]({{ site.url }}/en/flying-friends/)
 
 ## KITESURFING LESSONS
 
-We offer lessons for all kitesurfing and kiteboarding levels (beginners, refreshers and advanced riders). Even gear rental for experted riders.
+We offer lessons for all kitesurfing and kiteboarding levels (beginners, refreshers and advanced riders). We also offer gear rental for experienced riders.
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca in the northeast of the island. Because we are open all year round, we also visit other beaches on the island, always looking for the best conditions.  It is advisable to contact us beforehand to make sure where we are kitesurfing. 
 
@@ -81,13 +81,13 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ### Our quality for the best price
 
-10 hours beginners course - **EUR 500,-**
+10 hours beginners course - **EUR 399,-**
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
 Lessons on an hourly basis - **EUR 60,-/h**
 Individual hours for all levels in a small group of 2-4 students
 
-3 hours trial course - **EUR 120,-**
+3 hours trial course - **EUR 150,-**
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
 
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")

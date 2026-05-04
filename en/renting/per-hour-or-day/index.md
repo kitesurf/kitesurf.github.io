@@ -6,7 +6,7 @@ subtitle: "Gear for Kitesurfing and kiteboarding for rent"
 date: 2019-02-27T12:57:10+01:00
 modified: 2019-12-07
 author: daniel
-description: "Book your gear rental for kiteboarding and kitesurfing: Twintip, Directional and Kites from Eleveight, North or Liquid Force in all sizes"
+description: "Book your gear rental for kiteboarding and kitesurfing: Twintip, Directional and Kites from Duotone and Eleveight in all sizes"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -28,8 +28,8 @@ t:
   link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
   link2:    "renting/"
-  menutxt3: "wind"
-  link3:    "wind/"
+  menutxt3: "Wingfoiling"
+  link3:    "wingfoiling/"
   menutxt4: "contact"
   link4:    "contact/"
   menutxt5: "pictures & videos"
@@ -68,8 +68,7 @@ t:
 <span>If you are longer with us, then think about a <a href="{{ site.url }}/en/renting/long-term/" title="Rent kitesurfing gear for long term">long-term rent</a></span><br>
 <ul title="We have the following brands with their corresponding kites and tables to choose from:">
   <li>Eleveightkites: all the range (kites, twintips and directionals)</li>
-  <li>Liquid Force: Solo light wind kites at 9m, 12m and 15.5m; Rocketfish hydrofoils in different versions, also with short 60cm mast and large wing, especially for beginners.</li>
-  <li>North(now Duotone): Evo in 8m, 10m and 14m - Neo in 7m, 10m and 12m - Juice in 18m, different twintips and Whip(directional)</li>
+  <li>Duotone: Evo in 8m, 10m and 14m - Neo in 7m, 10m and 12m - Juice in 18m, different twintips and Whip (directional)</li>
 </ul>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">

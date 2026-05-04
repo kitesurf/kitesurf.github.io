@@ -6,10 +6,20 @@
 	{% if page.amp == true %}
 	<amp-img src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}" width="80" height="80">
 	{% else %}
-	<img class="lazyload" data-src="{{ base.url }}/images/{{ author.avatar }}" alt="{{ author.name }}">
+  	<img class="lazyload" data-src="{{ site.baseurl }}/images/{{ author.avatar }}" alt="{{ author.name }}">
 	{% endif %}
 </div><!-- ./author-image -->
 <div class="author-content">
-	<h3 class="author-name" >Written by {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
-	<p class="author-bio">{{ author.bio }}</p>
+	{% if page.lang == 'de' %}
+	  {% assign byline = 'Geschrieben von' %}
+	  {% assign localized_bio = author.bio_de | default: author.bio %}
+	{% elsif page.lang == 'es' %}
+	  {% assign byline = 'Escrito por' %}
+	  {% assign localized_bio = author.bio_es | default: author.bio %}
+	{% else %}
+	  {% assign byline = 'Written by' %}
+	  {% assign localized_bio = author.bio_en | default: author.bio %}
+	{% endif %}
+	<h3 class="author-name" >{{ byline }} {% if author.web %}<a href="{{ author.web }}" itemprop="author">{{ author.name }}</a>{% else %}<span itemprop="author">{{ author.name }}</span>{% endif %}</h3>
+	<p class="author-bio">{{ localized_bio }}</p>
 </div><!-- ./author-content -->

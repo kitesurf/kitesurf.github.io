@@ -5,7 +5,7 @@ subtitle: "Vermietung von Kitesurf Material"
 date: 2019-02-27T00:00:00.000Z
 modified: 
 author: daniel
-description: "Kites und Boards von Eleveight, North, Liquid Force, mieten und ausleihen. Trapez und Neo sind auch dabei"
+description: "Kites und Boards von Duotone und Eleveight mieten und ausleihen. Trapez und Neopren sind auch dabei"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -28,8 +28,8 @@ t:
   menutxt1: "kitekurse"
   link2: "vermietung/"
   menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
+  link3: "wingfoiling/"
+  menutxt3: "Wingfoiling"
   link4: "kontakt/"
   menutxt4: "kontakt"
   link5: "flying-friends/"
@@ -61,7 +61,7 @@ t:
 
 # Material mieten zum Kitesurfen und Kiteboarden
 
-Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North und Spleene zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
+Bei der Materialmiete steht für dich neuestes Equipment von Duotone und Eleveight zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!
 
 Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per Kite oder Rettungsboot zur Stelle.
 

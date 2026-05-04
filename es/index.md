@@ -27,8 +27,8 @@ t:
   menutxt1:    "cursos de kitesurf"
   link2: "alquiler/"
   menutxt2:    "alquiler"
-  link3: "viento/"
-  menutxt3:    "viento"
+  link3: "wingfoiling/"
+  menutxt3:    "Wingfoiling"
   link4: "contacto/"
   menutxt4:    "contacto"
   link5: "flying-friends/"
@@ -58,7 +58,7 @@ t:
   teaser:
 ---
 
-# [**CURSOS DE KITESURF**]({{ site.url }}/es/cursos-de-kitesurf/ "Cursos y clases de kitesurf"), [**ALQUILER**]({{ site.url }}/es/alquiler/ "Alquiler de tablas y cometas para kitesurf") [**Y MAS**]({{ site.url }}/es/flying-friends/)  
+# [**CURSOS DE KITESURF**]({{ site.url }}/es/cursos-de-kitesurf/ "Cursos y clases de kitesurf"), [**ALQUILER**]({{ site.url }}/es/alquiler/ "Alquiler de tablas y cometas para kitesurf"), [**WINGFOILING**]({{ site.url }}/es/wingfoiling/ "Cursos de wingfoiling en Mallorca") [**Y MAS**]({{ site.url }}/es/flying-friends/)  
 KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.
 
 Tenemos para ti:  
@@ -77,7 +77,7 @@ Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del 
 
 ### Nuestra calidad al mejor precio
 
-Curso completo de 10 horas a partir de - **EUR 400,-**
+Curso completo de 10 horas a partir de - **EUR 399,-**
 Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
 
 Clases por horas sueltas - **EUR 60,-/h**
@@ -87,7 +87,7 @@ Clases individuales en grupo pequeños para todos los niveles, grupos de 2 a 4 a
 
 ## Alquiler de kite y tabla
 
-En el alquiler de material tenemos los equipos más nuevos de Liquid Force, North  y Spleene a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
+En el alquiler de material tenemos los equipos más nuevos de Duotone y Eleveight a tu disponibilidad. Cometas y tablas pueden ser cambiadas tantas veces como quieras, si las condiciones lo hacen necesario.
 
 ### Por que alquilar con Kite-Mallorca
 

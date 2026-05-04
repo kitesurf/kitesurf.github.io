@@ -27,8 +27,8 @@ t:
   link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
   link2:    "renting/"
-  menutxt3: "wind"
-  link3:    "wind/"
+  menutxt3: "Wingfoiling"
+  link3:    "wingfoiling/"
   menutxt4: "contact"
   link4:    "contact/"
   menutxt5: "pictures & videos"
@@ -78,7 +78,7 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ## Our quality for the best price  
 
-### 10 hours beginners course - FROM **EUR 400,-**  
+### 10 hours beginners course - FROM **EUR 399,-**  
 Beginner lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  
 **License purchase costs extra 80,- Euro** (duration about 2 hours for theory and test)  
 
@@ -89,10 +89,10 @@ with shared kite & board - **EUR 45,-/h**
 with own kite & board - **EUR 60,-/h**  
 Individual hours for all levels in a small group of 2-4 students  
 
-### 3 hours trial course - **EUR 120,-**  
+### 3 hours trial course - **EUR 150,-**  
 Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)  
 
-### Private one-to-one lessons - **EUR 100,-/h**  
+### Private one-to-one lessons - **EUR 120,-/h**  
 Individual hours alone with an instructor for all levels
 
 (All prices are per person and full equipment for each student).

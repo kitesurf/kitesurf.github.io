@@ -19,7 +19,7 @@ layout: default
 				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
 				{% endif %}
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-				<meta itemprop="url" content="{{ base.url }}/images/{{ page.image.feature }}"></meta>
+				<meta itemprop="url" content="{{ site.url }}/images/{{ page.image.feature }}"></meta>
         		<meta itemprop="width" content="{{ page.image.width }}"></meta>
         		<meta itemprop="height" content="{{ page.image.height }}"></meta>
 			</div><!-- /.page-image -->
@@ -42,7 +42,7 @@ layout: default
 						  {% if page.amp == true %}
 					      <amp-img src="https://kite-mallorca.com/images/kite-mallorca_150x118.png" width="150" height="118"/>
 					      {% else %}
-					      <img class="lazyload" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ base.url }}/images/logos/image.png" alt="Kite Mallorca Logo" title="Kite Mallorca home">
+					      <img class="lazyload" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ site.url }}/images/logos/image.png" alt="Kite Mallorca Logo" title="Kite Mallorca home">
 					      {% endif %}
 					      <meta itemprop="url" content="https://kite-mallorca.com/images/kite-mallorca_225x225.png">
 					      <meta itemprop="width" content="100%">

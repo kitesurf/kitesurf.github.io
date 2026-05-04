@@ -37,7 +37,6 @@ layout: compress
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />    
     {% if page.en-url == '/' %}
@@ -73,7 +72,6 @@ layout: compress
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
         <!-- Multilinguale behandlung durch Google -->
 
@@ -103,11 +101,14 @@ layout: compress
     {% include structured-data.html %}
 
 
-<link href="/css/main.css" rel="stylesheet" rel="preload" as="style">
-<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" rel="preload" as="style">
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" as="style">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
     {% if page.t.teaser %}{% else %}
       {% if page.amp != true %}
-<link href="/css/swiper.min.css" rel="stylesheet" rel="preload" as="style">
+<link rel="preload" href="/css/swiper.min.css" as="style">
+<link rel="stylesheet" href="/css/swiper.min.css">
       {% endif %}
     {% endif %}
    </head>

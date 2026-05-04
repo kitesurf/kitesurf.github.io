@@ -232,6 +232,12 @@ ul.cb-slideshow {
 				@include span-columns(9 of 9);
 			}
 
+			// inline images fill content width
+			img {
+				width: 100%;
+				height: auto;
+			}
+
 			// larger font for intro paragraph
 			> p {
 				&:first-child {

@@ -320,18 +320,18 @@ body{margin:0;width:100%;color:#4d4c4c;background-attachment:fixed;background-si
 }
 /* WebP supported */
 .js.webp body {
-  background-image: url({{ base.url}}/images/{{ page.image.background }});
+  background-image: url({{ site.baseurl }}/images/{{ page.image.background }});
 }
 /* No JS / WebP not supported */
 .js.no-webp body {
-  background-image: url({{ base.url}}/images/{{ page.image.background2 }});
+  background-image: url({{ site.baseurl }}/images/{{ page.image.background2 }});
 }
 @media only screen and (orientation: portrait) {
 .js.no-webp body {
-  background-image: url({{ base.url}}/images/{{ page.image.background2x1 }});
+  background-image: url({{ site.baseurl }}/images/{{ page.image.background2x1 }});
   }
 .js.webp body {
-  background-image: url({{ base.url}}/images/{{ page.image.backgroundx1 }});
+  background-image: url({{ site.baseurl }}/images/{{ page.image.backgroundx1 }});
   }
 }
 .video {

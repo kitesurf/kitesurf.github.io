@@ -28,8 +28,8 @@ t:
   menutxt1: "kitekurse"
   link2: "vermietung/"
   menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
+  link3: "wingfoiling/"
+  menutxt3: "Wingfoiling"
   link4: "kontakt/"
   menutxt4: "kontakt"
   link5: "flying-friends/"
@@ -85,18 +85,19 @@ Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus
 
 ## Unsere Qualität zum besten Preis  
 
-### 10 Stunden Anfängerkurs - AB **EUR 400,-**  
+### 10 Stunden Anfängerkurs - AB **EUR 399,-**  
 Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
 **Lizenz erwerb kostet extra 80,- Euro** (Dauer ca. 2 Stunden für Theorie und Test)
 
 ### 4 Stunden Refreshkurs - **EUR 220,-**  
 Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
 
-### Einzelstunden in der Gruppe    
+### Einzelstunden in der Gruppe  
+mit geteiltem Kite & Board - **EUR 45,-/h**  
 mit eigenem Kite & Board - **EUR 60,-/h**  
 Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
 
-### 3 Stunden Schnupperkurs - **EUR 120,-**  
+### 3 Stunden Schnupperkurs - **EUR 150,-**  
 Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
 
 ### Einzelstunden im privaten Unterricht - **EUR 120,-/h**  

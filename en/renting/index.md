@@ -5,7 +5,7 @@ subtitle: "Kite & board rental"
 date: 2015-11-23
 modified: 2019-12-07
 author: daniel
-description: "Rent your kitesurf equipment from North, Liquid Force or Spleene for your next holiday on Mallorca."
+description: "Rent your kitesurf equipment from Duotone and Eleveight for your next holiday on Mallorca."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -27,8 +27,8 @@ t:
   link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
   link2:    "renting/"
-  menutxt3: "wind"
-  link3:    "wind/"
+  menutxt3: "Wingfoiling"
+  link3:    "wingfoiling/"
   menutxt4: "contact"
   link4:    "contact/"
   menutxt5: "pictures & videos"
@@ -50,7 +50,7 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat lessons"
+  menutxt24: "Private lessons"
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
@@ -60,7 +60,7 @@ t:
 
 # Kitesurfing and Kiteboarding gear rental
 
-Latest equipment from Liquid Force, North  and Spleene is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
+Latest equipment from Duotone and Eleveight is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
 
 We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
 

@@ -6,7 +6,7 @@ subtitle: "Alquiler de tablas y cometas para kitesurf"
 date: 2019-02-27T12:57:10+01:00
 modified: 
 author: daniel
-description: "Reserva tu equipo de kiteboarding y kitesurf: tabla, direccionales y cometas de Eleveight, North o Liquid Force en todo los tamaños"
+description: "Reserva tu equipo de kiteboarding y kitesurf: tabla, direccionales y cometas de Duotone y Eleveight en todo los tamaños"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -28,8 +28,8 @@ t:
   menutxt1:    "cursos de kitesurf"
   link2: "alquiler/"
   menutxt2:    "alquiler"
-  link3: "viento/"
-  menutxt3:    "viento"
+  link3: "wingfoiling/"
+  menutxt3:    "Wingfoiling"
   link4: "contacto/"
   menutxt4:    "contacto"
   link5: "flying-friends/"
@@ -66,8 +66,7 @@ teaser: ALQUILER DE KITE Y TABLA POR DIA O POR HORA
   
 <ul><strong>Puedes elegir entre las siguientes marcas con sus correspondientes cometas y tablas:</strong><br>
 <li>Eleveightkites: toda la gama (cometas, twintips y direccionales)</li>
-<li>Liquid Force: Cometas para viento ligeros  Solo en 9m, 12m y 15.5m; Hidroalas Rocketfish en diferentes versiones, también con mástil corto de 60cm y ala grande, especialmente para principiantes</li>
-<li>North(ahora Duotone): Evo en 8m, 10m y 14m - Neo en 7m, 10m y 12m - Juice en 18m, diferentes twintips y Whip(direccional)</li>
+<li>Duotone: Evo en 8m, 10m y 14m - Neo en 7m, 10m y 12m - Juice en 18m, diferentes twintips y Whip (direccional)</li>
 </ul>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">

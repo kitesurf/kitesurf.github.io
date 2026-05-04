@@ -28,8 +28,8 @@ t:
   link1:    "kitesurfing-lessons/"
   menutxt2: "rental"
   link2:    "renting/"
-  menutxt3: "wind"
-  link3:    "wind/"
+  menutxt3: "Wingfoiling"
+  link3:    "wingfoiling/"
   menutxt4: "contact"
   link4:    "contact/"
   menutxt5: "pictures & videos"
@@ -70,8 +70,7 @@ t:
 
 <ul title="We have the following brands with their corresponding kites and tables to choose from:">
   <li>Eleveightkites: all the range (kites, twintips and directionals)</li>
-  <li>Liquid Force: Solo light wind kites at 9m, 12m and 15.5m; Rocketfish hydrofoils in different versions, also with short 60cm mast and large wing, especially for beginners.</li>
-  <li>North(now Duotone): Evo in 8m, 10m and 14m - Neo in 7m, 10m and 12m - Juice in 18m, different twintips and Whip(directional)</li>
+  <li>Duotone: Evo in 8m, 10m and 14m - Neo in 7m, 10m and 12m - Juice in 18m, different twintips and Whip (directional)</li>
 </ul>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">

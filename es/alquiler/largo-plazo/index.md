@@ -28,8 +28,8 @@ t:
   menutxt1:    "cursos de kitesurf"
   link2: "alquiler/"
   menutxt2:    "alquiler"
-  link3: "viento/"
-  menutxt3:    "viento"
+  link3: "wingfoiling/"
+  menutxt3:    "Wingfoiling"
   link4: "contacto/"
   menutxt4:    "contacto"
   link5: "flying-friends/"
@@ -71,8 +71,7 @@ Tenemos bonos de 5, 7, 10 o 20 días; mientras más días, más es el ahorro.<br
 Para obtener un bono el pago debe hacerse por adelantado.<br></span>
 <ul><strong>Puedes elegir entre las siguientes marcas con sus correspondientes cometas y tablas:</strong><br>
 <li>Eleveightkites: toda la gama (cometas, twintips y direccionales)</li>
-<li>Liquid Force: Cometas para viento suave  Solo en 9m, 12m y 15.5m; Hidroalas Rocketfish en diferentes versiones, también con mástil corto de 60cm y ala grande, especialmente para principiantes</li>
-<li>North(ahora Duotone): Evo en 8m, 10m y 14m - Neo en 7m, 10m y 12m - Juice en 18m, diferentes twintips y Whip(direccional)</li>
+<li>Duotone: Evo en 8m, 10m y 14m - Neo en 7m, 10m y 12m - Juice en 18m, diferentes twintips y Whip (direccional)</li>
 </ul>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">

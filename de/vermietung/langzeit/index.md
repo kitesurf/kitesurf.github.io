@@ -29,8 +29,8 @@ t:
   menutxt1: "kitekurse"
   link2: "vermietung/"
   menutxt2: "vermietung"
-  link3: "wind/"
-  menutxt3: "wind"
+  link3: "wingfoiling/"
+  menutxt3: "Wingfoiling"
   link4: "kontakt/"
   menutxt4: "kontakt"
   link5: "flying-friends/"
@@ -68,9 +68,8 @@ published: true
 <h2>Deine Kitetage müssen nicht aufeinander folgend sein, Du hast 2 Jahre Zeit, um deinen Gutschein zu konsumieren.</h2>
   
 <ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
-<li>Eleveightkites: die gesamte Produktpalette (alle Kites, twintips und Kitesurfboards)</li>
-<li>Liquid Force: Leichtwindkites Solo in 9m, 12m und 15.5m, Hydrofoils Rocketfish in unterschiedliche Ausführungen, auch mit kurzem 60cm Mast und großem Flügel, für Anfänger gut geignet</li>
-<li>North(nun Duotone): Evo in 8m, 10m u. 14m - Neo in 7m, 10m u. 12m - Juice in 18m, verschiedene Twintips und Whip</li>
+<li>Eleveightkites: die gesamte Produktpalette (alle Kites, Twintips und Kitesurfboards)</li>
+<li>Duotone: Evo in 8m, 10m u. 14m - Neo in 7m, 10m u. 12m - Juice in 18m, verschiedene Twintips und Whip</li>
 </ul>
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
