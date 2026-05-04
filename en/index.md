@@ -58,7 +58,7 @@ t:
   teaser:
 ---
 
-# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
+# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting/ "Kite & board rental"), [**WINGFOILING**]({{ site.url }}/en/wingfoiling/ "Wingfoiling courses in Mallorca") [**& MORE**]({{ site.url }}/en/flying-friends/)
 
 KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca northeast of the island.
 
@@ -77,7 +77,7 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ### Our quality for the best price
 
-10-hour beginner's course - from **EUR 400,-** This price is per person for 2 students together with one kite! 
+10-hour beginner's course - from **EUR 399,-** This price is per person for 2 students together with one kite! 
 Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
 
 Lessons on an hourly basis - **EUR 60,-/h** or 4 hours for **EUR 220,-**
