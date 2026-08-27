@@ -15,12 +15,12 @@
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.outfit.url | default: page.t.link9 }}" title="{{ nav.outfit.title | default: page.t.menutxt9 }}">{{ nav.outfit.title | default: page.t.menutxt9 }}</a>
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a>
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}">{{ nav.media.title | default: page.t.menutxt5 }}</a>
-      <span class="footer-lang" style="display:inline-flex;gap:8px;align-items:center;">
-        <a href="{{ site.baseurl }}/{{ de_link }}" title="Deutsch">DE</a>
-        <a href="{{ site.baseurl }}/{{ es_link }}" title="Español">ES</a>
-        <a href="{{ site.baseurl }}/{{ en_link }}" title="English">EN</a>
-        <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano">IT</a>
-        <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français">FR</a>
+      <span class="footer-lang" style="display:inline-flex;gap:4px;align-items:center;">
+        <a href="{{ site.baseurl }}/{{ de_link }}" title="Deutsch" aria-label="Sprache: Deutsch" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">DE</a>
+        <a href="{{ site.baseurl }}/{{ es_link }}" title="Español" aria-label="Idioma: Español" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">ES</a>
+        <a href="{{ site.baseurl }}/{{ en_link }}" title="English" aria-label="Language: English" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">EN</a>
+        <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano" aria-label="Lingua: Italiano" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">IT</a>
+        <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français" aria-label="Langue: Français" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">FR</a>
       </span>
     {% endif %}
     <p class="copyright">&#169; {{ site.time | date: '%Y' }} All rights reserved by<br>Kitesurf Mallorca SL</p>

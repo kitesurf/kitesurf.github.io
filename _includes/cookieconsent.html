@@ -20,6 +20,10 @@ window.addEventListener("load", function(){
         "dismiss": "{{ lang.cookie_dismiss }}",
         "link": "{{ lang.cookie_link }}",
         "href": "{{ lang.cookie_href }}"
+      },
+      "elements": {
+        "messagelink": '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="{{link}}" role="button" tabindex="0" class="cc-link" href="{{href}}" target="_blank">{{link}}</a></span>',
+        "dismiss": '<a aria-label="{{dismiss}}" role="button" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a>'
       }
     });
   }
