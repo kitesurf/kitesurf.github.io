@@ -7,11 +7,19 @@
       <div class="swiper-slide">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
           <picture>
+            {% if forloop.first %}
+            <source type="image/webp" media="(min-width: 500px)" srcset="{{ item.webp.xl }}">
+            <source type="image/webp" media="(max-width: 500px)" srcset="{{ item.webp.m }}">
+            <source type="image/jpeg" media="(min-width: 500px)" srcset="{{ item.jpeg.xl }}">
+            <source type="image/jpeg" media="(max-width: 500px)" srcset="{{ item.jpeg.m }}">
+            <img src="{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high">
+            {% else %}
             <source type="image/webp" media="(min-width: 500px)" data-srcset="{{ item.webp.xl }}">
             <source type="image/webp" media="(max-width: 500px)" data-srcset="{{ item.webp.m }}">
             <source type="image/jpeg" media="(min-width: 500px)" data-srcset="{{ item.jpeg.xl }}">
             <source type="image/jpeg" media="(max-width: 500px)" data-srcset="{{ item.jpeg.m }}">
-            <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload">
+            <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy">
+            {% endif %}
           </picture>
           <a class="text_bgd" href="{{ item.link }}">
           <span><strong>{{ item.title }}</strong></span>

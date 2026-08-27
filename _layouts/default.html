@@ -98,6 +98,11 @@ layout: compress
       {% if page.amp != true %}
 <link rel="preload" href="/css/swiper.min.css" as="style">
 <link rel="stylesheet" href="/css/swiper.min.css">
+{% assign first_slide = site.data.sliderimages.lang[page.lang].first %}
+{% if first_slide %}
+<link rel="preload" as="image" href="{{ first_slide.webp.m }}" type="image/webp" media="(max-width: 500px)" fetchpriority="high">
+<link rel="preload" as="image" href="{{ first_slide.webp.xl }}" type="image/webp" media="(min-width: 500px)" fetchpriority="high">
+{% endif %}
       {% endif %}
     {% endif %}
    </head>
