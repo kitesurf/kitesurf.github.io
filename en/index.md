@@ -65,7 +65,7 @@ published: true
 
 **KITE-MALLORCA** is your premier international kitesurfing school and wingfoil center located at Sa Marina beach in the Bay of Pollensa (Alcudia). Since 2009, our certified English-speaking team has guided thousands of holidaymakers, beginners, and advanced riders safely onto the water with state-of-the-art Duotone and Eleveight equipment.
 
-### Quick Overview:
+## Quick Overview:
 * **Courses for All Skill Levels:** Beginner licensing courses (VDWS/IKO), refresher sessions, advanced coaching (upwind & jumps), and 1:1 private lessons in English, German, and Spanish.
 * **Wingfoiling & Hydrofoil:** Experience the sensation of silent flight above the water in shallow, protected conditions.
 * **Premium Gear Hire & Storage:** Latest kites, wings, foils, and boards from Duotone & Eleveight with free size swapping and rescue boat supervision.

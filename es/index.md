@@ -65,7 +65,7 @@ published: true
 
 **KITE-MALLORCA** es tu escuela profesional y centro internacional de kitesurf y wingfoil ubicado en la playa de Sa Marina, en la Bahía de Pollensa (entre Alcúdia y Port de Pollença). Desde 2009 enseñamos a principiantes y avanzados a navegar con total seguridad, utilizando las mejores cometas y tablas del mercado de **Duotone** y **Eleveight**.
 
-### Resumen de nuestros servicios:
+## Resumen de nuestros servicios:
 * **Cursos para todos los niveles:** Curso de iniciación de 10 horas con titulación oficial (licencia VDWS/IKO), cursos de bautismo (3h), perfeccionamiento (ceñida y saltos) y clases particulares 1:1 en español, inglés y alemán.
 * **Wingfoil e Hidrofoil:** Aprende a volar sobre el agua de forma silenciosa y fluida en aguas poco profundas.
 * **Alquiler de material de última generación:** Cometas, tablas twintip, surfboards, wings y foils con cambio de tamaño según el viento y supervisión con lancha de rescate.

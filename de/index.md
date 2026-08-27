@@ -66,7 +66,7 @@ published: true
 
 **KITE-MALLORCA** ist deine professionelle, deutschsprachige Kiteschule und Wingfoil-Station in der Bucht von Pollensa (Alcudia). Seit 2009 begleiten wir Einsteiger, Fortgeschrittene und Urlauber sicher aufs Wasser – mit VDWS-geprüften Lehrern, modernstem Schulungsequipment und verlässlicher thermischer Windausbeute.
 
-### Unser Angebot im Überblick:
+## Unser Angebot im Überblick:
 - **Schulungen für alle Könnensstufen:** Schnupperkurse, Anfängerkurse mit VDWS-Lizenz, Aufsteiger-Trainings & Privatstunden auf Deutsch, Englisch und Spanisch.
 - **Wingfoiling & Hydrofoil:** Gezielte Kurse für den schnellen Einstieg in das lautlose Schweben über dem Wasser.
 - **Premium Materialmiete & Storage:** Neueste Kites, Wings und Boards von Duotone & Eleveight, inklusive flexibler Größenwahl und Rettungsboot-Sicherheit.
