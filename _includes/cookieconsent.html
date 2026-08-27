@@ -6,7 +6,8 @@ window.addEventListener("load", function(){
       "palette": {
         "popup": {
           "background": "#0d73a7",
-          "text": "#ffffff"
+          "text": "#ffffff",
+          "link": "#ffffff"
         },
         "button": {
           "background": "#df061c",
@@ -20,6 +21,24 @@ window.addEventListener("load", function(){
         "dismiss": "{{ lang.cookie_dismiss }}",
         "link": "{{ lang.cookie_link }}",
         "href": "{{ site.baseurl }}/{{ page.lang }}/datenschutz/"
+      },
+      "onPopupOpen": function() {
+        var el = this.element;
+        if (el) {
+          var link = el.querySelector('.cc-link');
+          if (link) { link.removeAttribute('aria-label'); }
+          var btn = el.querySelector('.cc-btn');
+          if (btn) { btn.removeAttribute('aria-label'); }
+        }
+      },
+      "onInitialise": function(status) {
+        var el = this.element;
+        if (el) {
+          var link = el.querySelector('.cc-link');
+          if (link) { link.removeAttribute('aria-label'); }
+          var btn = el.querySelector('.cc-btn');
+          if (btn) { btn.removeAttribute('aria-label'); }
+        }
       }
     });
   }
