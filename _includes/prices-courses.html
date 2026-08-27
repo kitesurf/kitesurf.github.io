@@ -1,0 +1,81 @@
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
+
+{% case page.lang %}
+  {% when 'en' %}
+    {% assign txt_beginner_title = "10 Hours Beginner Course" %}
+    {% assign txt_beginner_desc = "The complete foundation: Flight control, bodydrag, waterstart, and theory for VDWS/IKO license." %}
+    {% assign txt_taster_title = "3 Hours Taster Course" %}
+    {% assign txt_taster_desc = "First steps into kite control and bodydrag in shallow water." %}
+    {% assign txt_refresher_title = "4 Hours Refresher Course" %}
+    {% assign txt_refresher_desc = "Ideal for refreshing your kite skills and waterstart after a break." %}
+    {% assign txt_advanced_title = "Advanced / Group Coaching" %}
+    {% assign txt_advanced_desc = "Riding upwind, transitions, toeside, and first jumps." %}
+    {% assign txt_private_title = "Private 1:1 Intensive Coaching" %}
+    {% assign txt_private_desc = "100% individual coach attention, optional radio helmet." %}
+    {% assign txt_from = "from" %}
+    {% assign txt_per_hour = "per hour" %}
+  {% when 'es' %}
+    {% assign txt_beginner_title = "Curso de Iniciación (10 horas)" %}
+    {% assign txt_beginner_desc = "Aprende control del kite, bodydrag, waterstart y teoría para la licencia VDWS/IKO." %}
+    {% assign txt_taster_title = "Bautismo / Prueba (3 horas)" %}
+    {% assign txt_taster_desc = "Primer contacto con la cometa y primeros bodydrags en agua poco profunda." %}
+    {% assign txt_refresher_title = "Curso de Perfeccionamiento (4 horas)" %}
+    {% assign txt_refresher_desc = "Ideal para repasar waterstart y recuperar seguridad tras una pausa." %}
+    {% assign txt_advanced_title = "Avanzado / Navegación" %}
+    {% assign txt_advanced_desc = "Ceñir (upwind), transiciones, cambios de sentido y primeros saltos." %}
+    {% assign txt_private_title = "Clases Particulares 1:1" %}
+    {% assign txt_private_desc = "Atención exclusiva del instructor para un progreso ultrarrápido." %}
+    {% assign txt_from = "desde" %}
+    {% assign txt_per_hour = "por hora" %}
+  {% when 'it' %}
+    {% assign txt_beginner_title = "Corso Base Principianti (10 ore)" %}
+    {% assign txt_beginner_desc = "Controllo dell'ala, bodydrag, waterstart e preparazione licenza internazionale VDWS/IKO." %}
+    {% assign txt_taster_title = "Corso Prova / Battesimo (3 ore)" %}
+    {% assign txt_taster_desc = "Primo contatto con il kite e bodydrag divertente in acqua bassa." %}
+    {% assign txt_refresher_title = "Corso di Ripasso (4 ore)" %}
+    {% assign txt_refresher_desc = "Ideale per perfezionare la ripartenza dall'acqua dopo una pausa." %}
+    {% assign txt_advanced_title = "Avanzati & Bolina" %}
+    {% assign txt_advanced_desc = "Navigazione di bolina (upwind), transizioni, andatura toeside e primi salti." %}
+    {% assign txt_private_title = "Lezioni Private 1:1" %}
+    {% assign txt_private_desc = "Istruttore dedicato al 100% con casco radio per la massima progressione." %}
+    {% assign txt_from = "da" %}
+    {% assign txt_per_hour = "all'ora" %}
+  {% when 'fr' %}
+    {% assign txt_beginner_title = "Stage Débutant Complet (10 heures)" %}
+    {% assign txt_beginner_desc = "Pilotage, nage tractée (bodydrag), waterstart et théorie pour la licence VDWS/IKO." %}
+    {% assign txt_taster_title = "Cours Découverte / Initiation (3 heures)" %}
+    {% assign txt_taster_desc = "Première prise en main de l'aile et sensations de glisse en eau peu profonde." %}
+    {% assign txt_refresher_title = "Stage Perfectionnement / Remise à niveau (4 heures)" %}
+    {% assign txt_refresher_desc = "Idéal pour consolider le waterstart et reprendre confiance après une pause." %}
+    {% assign txt_advanced_title = "Perfectionnement & Remontée au vent" %}
+    {% assign txt_advanced_desc = "Navigation au près (upwind), transitions, jibes, toeside et premiers sauts." %}
+    {% assign txt_private_title = "Cours Particuliers 1:1" %}
+    {% assign txt_private_desc = "Coaching 100 % sur-mesure avec casque radio et suivi personnalisé." %}
+    {% assign txt_from = "à partir de" %}
+    {% assign txt_per_hour = "par heure" %}
+  {% else %}
+    {% assign txt_beginner_title = "10 Stunden Anfängerkurs" %}
+    {% assign txt_beginner_desc = "Der Klassiker für Einsteiger: Kite-Kontrolle, Bodydrag, Wasserstart und Vorbereitung auf die VDWS-Lizenz." %}
+    {% assign txt_taster_title = "3 Stunden Schnupperkurs" %}
+    {% assign txt_taster_desc = "Der ideale Einstieg, um Kite-Steuerung und erste Bodydrags im Wasser auszuprobieren." %}
+    {% assign txt_refresher_title = "4 Stunden Refreshkurs" %}
+    {% assign txt_refresher_desc = "Perfekt zum Auffrischen von Wasserstart und Sicherheit nach einer Pause." %}
+    {% assign txt_advanced_title = "Aufsteiger & Fortgeschrittene" %}
+    {% assign txt_advanced_desc = "Höhe halten & laufen (Upwind), Wenden, Halsen und erste Sprünge." %}
+    {% assign txt_private_title = "Privatunterricht (1:1 Coaching)" %}
+    {% assign txt_private_desc = "100 % individuelle Betreuung durch den Kitelehrer für schnellste Fortschritte." %}
+    {% assign txt_from = "ab" %}
+    {% assign txt_per_hour = "pro Stunde" %}
+{% endcase %}
+
+* **{{ txt_beginner_title }} ({{ txt_from }} {{ p.beginner_10h.price }} {{ curr }}):**  
+  {{ txt_beginner_desc }} ({{ p.beginner_10h.duration_days }} Tage/giorni/jours, kleine Gruppe / piccoli gruppi {{ p.beginner_10h.group_size }} Schüler).
+* **{{ txt_refresher_title }} ({{ p.refresher_4h.price }} {{ curr }}):**  
+  {{ txt_refresher_desc }} ({{ p.refresher_4h.duration_days }} Tage/giorni/jours).
+* **{{ txt_taster_title }} ({{ p.taster_3h.price }} {{ curr }}):**  
+  {{ txt_taster_desc }} ({{ p.taster_3h.duration_days }} Tag/giorno/jour, 100% Anrechnung / scalabile).
+* **{{ txt_advanced_title }} ({{ p.advanced_hourly.price }} {{ curr }} {{ txt_per_hour }}):**  
+  {{ txt_advanced_desc }}
+* **{{ txt_private_title }} ({{ p.private_hourly.price }} {{ curr }} {{ txt_per_hour }}):**  
+  {{ txt_private_desc }}

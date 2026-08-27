@@ -5,7 +5,7 @@ subtitle: "Vorhersagen zum Wind und Wetter"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Aktuelle Informationen über die Windbedingungen in Mallorca."
+description: "Aktuelle Windvorhersage & Live-Webcams für Kitesurfen und Wingfoilen in der Bucht von Pollensa (Alcudia). Finde jetzt die besten Windtage!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: de
 en-url: "en/wind/"
 es-url: "es/viento/"
 de-url: "de/wind/"
+it-url: "it/vento/"
+fr-url: "fr/vent/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

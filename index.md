@@ -23,6 +23,8 @@ lang: en
 en-url: "/"
 es-url: "es/"
 de-url: "de/"
+it-url: "it/"
+fr-url: "fr/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"
@@ -81,14 +83,7 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ### Our quality for the best price
 
-10 hours beginners course - **EUR 399,-**
-Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
-
-Lessons on an hourly basis - **EUR 60,-/h**
-Individual hours for all levels in a small group of 2-4 students
-
-3 hours trial course - **EUR 150,-**
-Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
+{% include prices-courses.html %}
 
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
 

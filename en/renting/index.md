@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "KITESURF MALLORCA - Kite & board rental - Phone +34-696-264729"
-subtitle: "Kite & board rental"
-date: 2015-11-23
-modified: 2019-12-07
+title: "Kitesurfing & Wingfoil Gear Rental in Mallorca – Duotone & Eleveight"
+subtitle: "Equipment hire for kitesurfing, wingfoiling & hydrofoil in Pollensa Bay"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Rent your kitesurf equipment from Duotone and Eleveight for your next holiday on Mallorca."
+description: "Rent kitesurf and wingfoil gear in Mallorca: Current Duotone & Eleveight kites and boards. Hourly, daily, and weekly packages with beach watch and rescue boat."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -13,32 +13,35 @@ image:
   background2: 7.jpg
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
-  feature:
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_031.jpg
-  picnum: 31
+  feature: null
+  teaser: null
+  thumb: flying-friends/l_kite-mallorca_002.jpg
+  picnum: 02
 snippets: true
 lang: en
 en-url: "en/renting/"
 es-url: "es/alquiler/"
 de-url: "de/vermietung/"
+it-url: "it/noleggio/"
+fr-url: "fr/location/"
 t:
+  menu: MENU
+  link1: "kitesurfing-lessons/"
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons/"
+  link2: "renting/"
   menutxt2: "rental"
-  link2:    "renting/"
+  link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
-  link3:    "wingfoiling/"
+  link4: "contact/"
   menutxt4: "contact"
-  link4:    "contact/"
+  link5: "flying-friends/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends/"
-  menutxt6: "Disclaimer"
   link6: "disclaimer/"
-  menutxt7: "Contact us"
+  menutxt6: "Disclaimer"
   link7: "contact-us/"
+  menutxt7: "Contact us"
   link8: "shop/"
-  menutxt8: shop
+  menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
   link20: "kitesurfing-lessons/tryout/"
@@ -56,51 +59,39 @@ t:
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
   teaser: KITE & BOARD RENTAL
+published: true
 ---
 
-# Kitesurfing and Kiteboarding gear rental
+# Kitesurfing & Wingfoil Gear Rental in Mallorca
 
-Latest equipment from Duotone and Eleveight is available for you to rent. Of course the kites and boards can be changed during the day depending on the wind conditions. We support you with the selection of the right material - for your own safety and to progress quickly and successfully!
+Planning a kitesurfing or wingfoiling holiday in Mallorca without paying expensive sports luggage airline fees? Our station in the Bay of Pollensa (Sa Marina beach) offers a premium fleet of the latest gear from **Duotone** and **Eleveight**.
 
-We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
+---
+
+## Rental Rates Overview
+
+{% include prices-rental.html %}
+
+> **Free Size Swapping:** If the wind increases or eases off during your session, you can switch kite or board sizes on the beach without any extra charge.
 
 {% include carousel.html %}
 
-## Rental prices
-<table>
-  <tr>
-    <td></td>
-    <td>1 h</td>
-    <td>2 h</td>
-    <td>1 day</td>
-  </tr>
-  <tr>
-    <td>kite</td>
-    <td>25 €</td>
-    <td>50 €</td>
-    <td>80 €</td>
-  </tr>
-  <tr>
-    <td>board</td>
-    <td>10 €</td>
-    <td>20 €</td>
-    <td>30 €</td>
-  </tr>
-  <tr>
-    <td>kite & board</td>
-    <td>30 €</td>
-    <td>60 €</td>
-    <td>100 €</td>
-  </tr>
-</table>
+---
 
+## Why Rent with Kite-Mallorca?
 
-## Booking
-In order to make sure that you always get the apropriate kite we recommend to book in advance for a rental period of one week or more. Then the equipment will be reserved for you.
+* **Latest Gear:** Top-condition kites (5 m² to 18 m²), twintip boards, waveboards, wings, and hydrofoils.
+* **Safety & Peace of Mind:** We monitor the bay from the beach and have a dedicated motorized rescue boat on standby at all times.
+* **On-Beach Storage:** Bringing your own equipment? Store it securely at our station directly on the beach.
 
-### Liability for rented kites and boards
-We recommend to effect an insurance covering accident, third party liability and damage to rented equipment prior to the rental, e.g. the Safety Tool from VDWS.
+---
 
-In case of damage of a rented kite or board the customer is liable for the repair through one of our qualified professionals. In addition to the repair costs 20% of the present value has to be paid for the loss of value. In case of total damage or loss the customer is liable for the full present value.
+## Requirements for Rental
 
-Rental of kites and/or boards is only possible on the spot the KITE-MALLORCA team is visiting the same day. Rented equipment must not be taken to other destinations without our knowledge and approval.
+1. Independent riding and upwind ability (VDWS Level 4/5 or IKO Level 3).
+2. Upwind bodydrag for board recovery and self-rescue skills.
+3. Third-party liability insurance for watersports (e.g. *VDWS Safety Tool*).
+
+---
+
+[» Inquire or Reserve Your Gear for Your Holiday]({{ site.url }}/en/contact/ "Contact Kitesurf Mallorca")

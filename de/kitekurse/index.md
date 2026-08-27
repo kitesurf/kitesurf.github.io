@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "KITESURF MALLORCA - Kurse und Schulungen im kiten - Tel. +34-696-264729"
-subtitle: Kurse und Schulung im kitesurfen
-date: 2019-02-21T00:00:00.000Z
-modified: 2020-02-02T10:00:00.000Z
+title: "Kitesurfkurse Mallorca – Kitesurfen lernen mit VDWS-Lizenz"
+subtitle: "Professionelle Kiteschulung in der Bucht von Pollensa (Alcudia)"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "VDWS Kiteschule auf Mallorca mit deutschen Lehrern. Mit viel Spass kitesurfen sicher und schnell lernen. Vom Anfänger bis zum Könner, alle sind begeistert"
+description: "Kitesurfen lernen auf Mallorca: Professionelle Anfängerkurse, Aufsteiger-Trainings und Privatstunden mit VDWS-Lehrern im sicheren Stehrevier Pollensa."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: de
 "en-url": "en/kitesurfing-lessons/"
 "es-url": "es/cursos-de-kitesurf/"
 "de-url": de/kitekurse/
+"it-url": it/corsi-kitesurf/
+"fr-url": fr/cours-kitesurf/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -59,72 +61,99 @@ t:
   teaser: Kitekurse
 published: true
 ---
+
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
+
 {% include snippets/{{ page.lang }}/kurse.html %}
-# Seit 10 Jahren deine Kitesurfschule auf Mallorca
 
-Unsere Kurse im kitesurfen, kiteboarden und hydrofoilen basierend auf Ausbildung im Internationalen Kitesurf Verband VDWS und im Spanischen Segelverband Fachrichtung Kiteboarding und einer langjährige Erfahrung auf Mallorca, seit 2009 unterrichten wir auf dieser schönen Insel, nach den neuesten Erkenntnissen, schnell, sicher und optimal. Perfekt geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommt jeder Gast schnell aufs Board und kann mit uns die Faszination des Kitesurfen erleben!  
+# Kitesurfen lernen auf Mallorca – Seit über 15 Jahren deine Kiteschule
 
-Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontrolle hat, die ersten Wasserstartversuche gemacht hat und die ersten Meter gefahren ist, sodass man dann in die Miete übergehen und unter unserer Aufsicht selbständig weiterüben kann.  
+Unsere Kitesurfschulung basiert auf den international anerkannten Richtlinien des **VDWS (Verband Deutscher Wassersport Schulen)** und unserer Erfahrung seit 2009 in der Bucht von Pollensa (Alcudia/Sa Marina). 
 
-Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
+Mit kleinen Gruppen (max. 2–4 Schüler pro Lehrer), muttersprachlich deutschem Unterricht und bestem Schulungsmaterial von Duotone & Eleveight garantieren wir dir maximale Sicherheit, schnellen Lernerfolg und jede Menge Spaß auf dem Wasser.
 
-Der Hauptstandort vom KITE-MALLORCA Team befindet sich in Sa Marina, dem Strand in der Bucht zwischen Alcudia und Port Pollenca im Nordosten der Insel.
-Dies ergab sich einfach dadurch das Daniel hier seinen Wohnsitz, gerade vorm Kitestrand hat. Dies macht es uns sehr einfach unsere Gäste darüber zu informieren wie den gerade der Wind tatsächlich ist.  
+---
 
-Wir sind schon seit 2009 hier in Mallorca mit unserer Schule ansässig und seit 2012 offizziel eingetragen im internationalen VDWS Kite- und Wassersportschulen Verband.  
-Gerhard leitet im Winter seit 2011, gemeinsam mit andere, eines der grössten Schulen in Ägypten.  
-Gemeinsam bilden wir auch, seit 2015, bei uns in der Kiteschule Lehrer aus  
+## Unsere Kitekurs-Angebote im Überblick
 
-## Warum gerade mit uns einen Kitekurs reservieren:
-* **Langjährige internationale Erfahrung im Kiten, Kitesurfen und Kiteboarden**
-* **Klare und überschaubare Preise**
-* **Kurse in der eigenen Sprache :**
-**Deutsch, English, Español, Français, Italiano, Catalan.**
+{% include carousel.html %}
 
+### 1. Anfängerkurs (10 Stunden) – ab {{ p.beginner_10h.price }} {{ curr }}
+* **Für wen:** Komplette Neueinsteiger ohne Vorerfahrung.
+* **Dauer:** ca. {{ p.beginner_10h.duration_days }} Tage (je nach Wind & Gruppe).
+* **Inhalt:** Flugschule an Land, Windfenstertheorie, Sicherheitssysteme, Bodydrag im Wasser, Wasserstart und die ersten eigenständigen Meter auf dem Board.
+* **Ziel:** Sichere Schirmbeherrschung, selbstständiges Fahren und Vorbereitung auf die **VDWS-Kitelizenz** (Theorie & Lizenzabnahme zzgl. {{ p.beginner_10h.vdws_license_fee }} {{ curr }}).
 
+[» Mehr Details zum Anfängerkurs]({{ site.url }}/de/kitekurse/anfaengerkurse/ "Anfängerkurse Kitesurfen")
 
-## Unsere Qualität zum besten Preis  
+### 2. Schnupperkurs (3 Stunden) – {{ p.taster_3h.price }} {{ curr }}
+* **Für wen:** Alle, die Kitesurfen unverbindlich ausprobieren möchten.
+* **Dauer:** 1 Tag (ca. 3 Stunden).
+* **Inhalt:** Grundlegende Kite-Steuerung, Sicherheitseinweisung und erste Bodydrags im Wasser.
+* **Ziel:** Das Gefühl für die Zugkraft des Kites erleben. Schnupperstunden können zu 100 % auf einen Anfängerkurs angerechnet werden!
 
-### 10 Stunden Anfängerkurs - AB **EUR 399,-**  
-Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
-**Lizenz erwerb kostet extra 80,- Euro** (Dauer ca. 2 Stunden für Theorie und Test)
+[» Mehr Details zum Schnupperkurs]({{ site.url }}/de/kitekurse/schnupperkurse/ "Schnupperkurse Kitesurfen")
 
-### 4 Stunden Refreshkurs - **EUR 220,-**  
-Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
+### 3. Refresh- & Aufbaukurs (4 Stunden) – {{ p.refresher_4h.price }} {{ curr }}
+* **Für wen:** Kiter mit Vorkenntnissen oder nach längerer Pause.
+* **Dauer:** {{ p.refresher_4h.duration_days }} Tage.
+* **Inhalt:** Auffrischung der Kitekontrolle, Wasserstart-Training, Haltungskorrektur und Sicherheits-Check.
 
-### Einzelstunden in der Gruppe  
-mit geteiltem Kite & Board - **EUR 45,-/h**  
-mit eigenem Kite & Board - **EUR 60,-/h**  
-Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
+### 4. Aufsteiger & Fortgeschrittene – {{ p.advanced_hourly.price }} {{ curr }} / Stunde
+* **Für wen:** Kiter, die bereits fahren können und ihre Skills vertiefen möchten.
+* **Themen:** Höhe halten & Höhe laufen (Upwind), Richtungswechsel (Wende / Halse), Toeside-Fahren, erste kontrollierte Sprünge.
 
-### 3 Stunden Schnupperkurs - **EUR 150,-**  
-Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
+[» Mehr Details zum Aufsteigerkurs]({{ site.url }}/de/kitekurse/fortgeschritten/ "Kitekurse für Fortgeschrittene")
 
-### Einzelstunden im privaten Unterricht - **EUR 120,-/h**  
-Individuelle Stunden allein mit Lehrer für jede Könnensstufe  
+### 5. Privatunterricht (1:1 Intensivcoaching) – {{ p.private_hourly.price }} {{ curr }} / Stunde
+* **Für wen:** Schüler, die die ungeteilte Aufmerksamkeit des Kitelehrers und schnellstmögliche Fortschritte wünschen.
+* **Vorteil:** 100 % Fokus auf deine individuellen Lernziele, wahlweise mit Funkhelm-Schulung oder Bootsbegleitung.
 
-(Alle Preise gültig pro Person und mit komplettem Equipment)  
+[» Mehr Details zu Privatstunden]({{ site.url }}/de/kitekurse/privatstunden/ "Privatunterricht Kitesurfen")
 
-Die Kitesurfing-Kurse und -Lektionen beinhalten immer das gesamte notwendige Material für die Durchführung. Bei Bedarf auch mit Bootsunterstützung.  
+### 6. Hydrofoil Kitekurs – {{ p.hydrofoil_hourly.price }} {{ curr }} / Stunde
+* **Für wen:** Sichere Kiter, die das Foilen erlernen wollen.
+* **Vorteil:** Kiten schon ab 8–10 Knoten Wind, extrem geringer Wasserwiderstand und unvergleichliches Gleitgefühl mit Bootsbegleitung.
 
-## **Du musst lediglich gute Laune, Spass und Lust zu lernen mitbringen!**  
+[» Mehr Details zu Hydrofoil-Kursen]({{ site.url }}/de/kitekurse/hydrofoil/ "Hydrofoil Kitesurfen Mallorca")
 
-{% include carousel.html %}  
+---
 
-## Unsere Kitesurfkurse für Anfänger bauen sich wie folgt auf:  
+## Der 3-Stufen-Weg zum Kiter
 
-### 1) Basics und Kitekontrolle:
-Am Beginn jedes Anfängerkurses lernst du die sichere Schirmsteuerung anhand eines kleinen Kites. Windfenster, Materialaufbau und die Sicherheitssysteme moderner Kites werden dir anhand praktischer Übungen erklärt.  
+```
+Stufe 1: Landtraining & Kite-Kontrolle ➔ Stufe 2: Bodydrag im Wasser ➔ Stufe 3: Wasserstart & Fahren
+```
 
-### 2) Bodydrag:
-Sobald du den Kite an Land kontrolliert steuern kannst, geht es ins Wasser! In den ersten Wassereinheiten erlernst du das Bodydraggen, quasi das Kitesurfen ohne Board, bei dem du dich vom Kite durchs Wasser ziehen lässt.  
+1. **Basics & Sicherheit an Land:** Du lernst das Windfenster kennen, baust den Kite auf und steuerst einen Trainings- bzw. Schulungsschirm. Die modernen 4-Leiner-Sicherheitssysteme werden praxisnah verinnerlicht.
+2. **Bodydrag im Stehrevier:** Ohne Board lässt du dich vom Kite kontrolliert durchs Wasser ziehen, erlernst Relaunch (Starten aus dem Wasser) und Self-Rescue.
+3. **Wasserstart & Boardgefühl:** Das Board kommt an die Füße. Unter Anleitung des Lehrers stimmst du Sinuskurve des Kites und Boardkante ab, um aufzustehen und die ersten Schläge zu gleiten.
 
-### 3) Wasserstart:
-Nach den erfolgreichen Bodydrag-Übungen kommt das Board an die Füsse und du lernst, wie du die ersten Meter auf dem Wasser fährst.  
+---
 
+## Warum Kite-Mallorca?
 
-## Bilder von und mit Schüler beim Kitesurfen:  
+* **Perfektes Stehrevier:** Der Spot Sa Marina in der Bucht von Pollensa bietet seichtes, stehtiefes Wasser mit Sandboden – ideal für stressfreies Lernen ohne Wellenschlag.
+* **Verlässliche Thermik:** Von April bis Oktober sorgt die mallorquinische Nachmittagsthermik („Embat“) für konstante 12–18 Knoten Wind.
+* **Top-Equipment:** Duotone & Eleveight Kites und Boards der aktuellen Saison in allen Größen.
+* **Sicherheit garantiert:** Ausgebildete VDWS-Lehrer, Prallschutzwesten, Helme und bei Bedarf ein eigenes Rettungsboot vor Ort.
 
-{% include snippets/de/image-hover-effects.html %}  
+---
 
-Melde dich bei [**Daniel & Gerhard**]({{ site.url }}/de/kontaktiere-uns/ "Öffnet das Kontaktformular um uns zu mailen") (+34-696-264729) für deinen Kitekurs an!  
+## Häufige Fragen zu unseren Kitekursen (FAQ)
+
+### Was muss ich zum Kurs mitbringen?
+Badesachen, Sonnencreme, Handtuch und **ausreichend Trinkwasser**. Das gesamte Schulungsmaterial (Kite, Bar, Board, Neoprenanzug, Trapez, Helm und Prallschutzweste) stellen wir dir komplett zur Verfügung.
+
+### Brauche ich Vorkenntnisse für den Kitekurs?
+Nein, du musst lediglich sicher schwimmen können und Freude an Bewegung im Wasser mitbringen. Alles Weitere bringen wir dir Schritt für Schritt bei.
+
+### Wann finden die Kurse statt?
+Da sich die Thermik auf Mallorca meist ab ca. 12:00 / 13:00 Uhr aufbaut, starten unsere Kurse typischerweise am frühen Nachmittag und dauern je nach Wind 2 bis 4 Stunden pro Tag.
+
+---
+
+{% include snippets/de/image-hover-effects.html %}
+
+[» Jetzt unverbindlich deinen Kitekurs anfragen oder Termin sichern]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

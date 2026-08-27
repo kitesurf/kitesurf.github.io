@@ -5,7 +5,7 @@ subtitle: "Kontakformular Kitesurfcenter"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Nehme hier Kontakt mit dem KITE-MALLORCA Team auf und schreibe uns deine Fragen!"
+description: "Kontaktiere die Kiteschule Kite-Mallorca: Wir beantworten gerne deine Fragen zu Kitesurfkursen, Wingfoilen und Verleih in Alcudia. Jetzt anfragen!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: de
 en-url: "en/contact-us/"
 es-url: "es/contacta-con-nosotros/"
 de-url: "de/kontaktiere-uns/"
+it-url: "it/contattaci/"
+fr-url: "fr/contactez-nous/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

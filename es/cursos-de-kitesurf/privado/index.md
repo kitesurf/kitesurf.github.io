@@ -1,13 +1,12 @@
 ---
 layout: article
-buchung: true
-title: "CURSOS DE KITESURF CLASES PRIVADAS &#128242;+34-696-264729"
-subtitle: "Cursos y clases particulares de kitesurf o kiteboarding"
-date: 2020-03-10T12:34:10+01:00
-modified: 
+title: "Clases Particulares de Kitesurf en Mallorca – Coaching 1:1"
+subtitle: "Tu monitor personal para el aprendizaje más rápido y seguro"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "&#128081;Clases particulares que se centran en ti cuando se trata de kitesurf. Para todos los que desean llegar a su destino más rápido"
-image:
+description: "Clases particulares de kitesurf en Mallorca: Enseñanza exclusiva 1:1 con monitor titulado, casco con radio y apoyo de barco en la Bahía de Pollensa."
+image: 
   background: 7.webp
   backgroundx1: 7mov.webp
   backgroundx2: 7mov.webp
@@ -15,35 +14,38 @@ image:
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
   feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_037.jpg
-  picnum: 37
-snippets: null
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_038.jpg"
+  picnum: 38
+snippets: true
 lang: es
-"en-url": en/kitesurfing-lessons/privatlessons/
-"es-url": es/cursos-de-kitesurf/privado/
-"de-url": de/kitekurse/privatstunden/
-t:
+"en-url": "en/kitesurfing-lessons/privatlessons/"
+"es-url": "es/cursos-de-kitesurf/privado/"
+"de-url": "de/kitekurse/privatstunden/"
+"it-url": "it/corsi-kitesurf/lezioni-private/"
+"fr-url": "fr/cours-kitesurf/cours-particuliers/"
+t: 
+  menu: MENÚ
   link1: "cursos-de-kitesurf/"
-  menutxt1:    "cursos de kitesurf"
+  menutxt1: "cursos de kitesurf"
   link2: "alquiler/"
-  menutxt2:    "alquiler"
+  menutxt2: "alquiler"
   link3: "wingfoiling/"
-  menutxt3:    "Wingfoiling"
+  menutxt3: "Wingfoiling"
   link4: "contacto/"
-  menutxt4:    "contacto"
+  menutxt4: "contacto"
   link5: "flying-friends/"
-  menutxt5:    "fotos y videos"
+  menutxt5: "fotos y videos"
   link6: "aviso-legal/"
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros/"
   menutxt7: "Contacta con nosotros"
   link8: "shop/"
-  menutxt8: Shop
+  menutxt8: "Shop"
   link9: "outfit/"
-  menutxt9: Outfit
+  menutxt9: "Outfit"
   link20: "cursos-de-kitesurf/iniciacion/"
-  menutxt20: "Cursillo de iniciación"
+  menutxt20: "Bautismo / Iniciación"
   link21: "cursos-de-kitesurf/principiante/"
   menutxt21: "Principiantes"
   link22: "cursos-de-kitesurf/avanzado/"
@@ -56,40 +58,36 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser: Tus clases particulares de kitesurf
+  teaser: "Coaching exclusivo 1:1 adaptado 100% a tus objetivos y horario"
+published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=dbe5c4bb2db90f93af73bc64db04e932"></script>
-<noscript><h1>Reserva aquí tus clases particulares en kitesurf</h1>
- 
-<strong>120 € por hora </strong><br><br>
-<span>Nuestras clases privadas de kitesurf te ponen al centro de atención cuando se trata de aprender kitesurf o kiteboard.<br><br>
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-Tus clases muy exclusivas con Daniel o Gerhard o uno de nuestros excelentes instructores. Cada uno tiene su propio campo (afición especial), donde es muy bueno y puede ayudarte en consecuencia mejor que otro. No importa si se trata de un curso básico o de un salto o de clases de hidrofoil, en todas partes se te acompañará como lo mereces.<br>
-</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Tu correo electronico, por favor revisalo antes de enviar" required>
-  <input type="hidden" name="_subject" value="Encuesta de reserva para clases particulares">
-  <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y la fecha en la cual deseas hacer tu curso. Nos pondremos en contacto contigo lo antes posible."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias/">
-  <input type="submit" value="Enviar">
-</form>
-<ul><strong>¿Qué otros aspectos destacados me esperan?</strong>
-  <li>Un profesor con conocimientos especializados está a tu disposición</li>
-  <li>A pagar incluso después de terminar el curso</li>
-  <li>El equipo de kitesurf necesario estará incluido en el precio final</li>
-  <li>El material no tiene que ser compartido con otros</li>
-  <li>Si es necesario te acompañamos en barco a aguas más profundas</li>
-</ul>
-<span><strong>Requisitos a traer:</strong><br>
-ropa de baño, protección solar, gafas de sol, agua potable, material propio si disponible</span><br><br>
-<span><strong>Tenga en cuenta</strong><br>
-Los tiempos de inicio pueden variar dependiendo del viento. Le rogamos que se ponga en contacto con nosotros por teléfono para confirmarlo. Teléfono Daniel +34 696 264 729.</span>
-</div>
+{% include schema-product.html course_key="private_hourly" name="Clases Particulares Kitesurf Mallorca" description="Clases privadas 1:1 de kitesurf en la Bahía de Pollensa con monitor titulado." %}
+
+# Clases Particulares de Kitesurf en Mallorca (1:1)
+
+Si buscas la máxima atención de tu instructor, deseas aprovechar al máximo tus días de vacaciones en Mallorca o necesitas desbloquear maniobras concretas, nuestras clases privadas 1:1 son la opción más eficiente.
+
+> **Tarifa:** **{{ p.private_hourly.price }} {{ curr }}** / hora (incluye material completo de gama alta Duotone/Eleveight, neopreno, arnés, casco con intercomunicador de radio y apoyo de barco si se requiere).
+
+---
+
+## Ventajas del Coaching Privado
 
 {% include carousel.html %}
 
-</noscript>
+* **100 % de Atención para Ti:** Sin compartir cometa ni esperar turnos en el agua.
+* **Corrección en Tiempo Real:** Instrucciones directas por radio mientras navegas.
+* **Flexibilidad Horaria:** Adaptadas a tu plan de viaje y a las mejores horas de viento de la tarde.
+* **Evolución Máxima:** Diseñadas tanto para iniciación acelerada como para trucos avanzados (rotaciones, kiteloops o foil).
+
+## ¿Qué necesitas traer?
+
+Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Todo el material técnico, trajes de neopreno, arneses, chalecos de flotabilidad y cascos con radio están 100 % incluidos.
+
+---
+
+[» Consulta Disponibilidad para Clases Privadas]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

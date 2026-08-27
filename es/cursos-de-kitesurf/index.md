@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kite-Mallorca - CURSOS DE KITESURF TODOS NIVELES - Tel. +34-696-264729"
-subtitle: "Cursos y clases de kitesurf"
-date: 2015-01-23T13:57:10+01:00
-modified: 2020-03-10T12:34:10+01:00
+title: "Cursos de Kitesurf en Mallorca – Aprende con Instructores Titulados"
+subtitle: "Clases de kitesurf para todos los niveles en la Bahía de Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kitesurf, Kite y Kiteboarding en Mallorca: cursos y clases para todos los niveles en agua plana. Material incluido. Llama y reserva ya"
+description: "Cursos de kitesurf en Mallorca para principiantes y avanzados. Aprende con seguridad en aguas poco profundas en la Bahía de Pollensa con instructores certificados."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -13,8 +13,8 @@ image:
   background2: 7.jpg
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
-  feature:
-  teaser:
+  feature: null
+  teaser: null
   thumb: flying-friends/l_kite-mallorca_037.jpg
   picnum: 37
 snippets: true
@@ -22,6 +22,8 @@ lang: es
 en-url: "en/kitesurfing-lessons/"
 es-url: "es/cursos-de-kitesurf/"
 de-url: "de/kitekurse/"
+it-url: "it/corsi-kitesurf/"
+fr-url: "fr/cours-kitesurf/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
@@ -42,7 +44,7 @@ t:
   link9: "outfit/"
   menutxt9: Outfit
   link20: "cursos-de-kitesurf/iniciacion/"
-  menutxt20: "Cursillo de iniciación"
+  menutxt20: "Bautismo / Iniciación"
   link21: "cursos-de-kitesurf/principiante/"
   menutxt21: "Principiantes"
   link22: "cursos-de-kitesurf/avanzado/"
@@ -55,66 +57,70 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser: CURSOS DE KITESURF - VEN Y APRENDE CON DANIEL Y GERHARD
+  teaser: CURSOS DE KITESURF EN MALLORCA
+published: true
 ---
 
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
+
 {% include snippets/{{ page.lang }}/kurse.html %}
-# Desde diez años la escuela de kitesurf en Mallorca
-KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entre Alcudia y Puerto de Pollensa, al noreste de la isla Balear.  
 
-Ofrecemos cursos y clases para cada nivel (principiantes, avanzados y clases especiales de saltos y señida).  
+# Cursos de Kitesurf en Mallorca – Más de 15 Años de Experiencia
 
-Nuestra lección es lo mas rápido y seguro para aprender, entrenar y formar buenas habilidades en el kitesurf. 80% del kitesurf es control de la cometa. Enseñamos primero y rápido lo básico para iniciar lo antes posible a navegar de verdad!  
+Situada en la playa de Sa Marina, en la Bahía de Pollensa (entre Alcúdia y Port de Pollença), KITE-MALLORCA es la escuela de referencia para aprender kitesurf de forma rápida, segura y divertida.
 
-Un curso de iniciación de kitesurf dura aproximadamente 10 horas. Después del curso de iniciación tienes la posibilidad de continuar con tu equipo propio o alquilado de nosotros bajo nuestra supervisión y así avanzar más en corto plazo.  
+Gracias a nuestras aguas poco profundas (haces pie en cientos de metros), la brisa térmica constante y grupos reducidos (máx. 2–4 alumnos por monitor), garantizamos tu progreso desde el primer día con equipamiento nuevo de Duotone y Eleveight.
 
-## ¿Por qué reservar un curso de kitesurf con nosotros? ##
-* **Larga experiencia internacional en kite, kitesurf y kiteboarding**
-* **Precios claros y razonables**
-* **Cursos en tu propio idioma:**
-**Español, Catalán, Francés, Italiano, Alemán, Inglés.**
+---
 
-## Nuestra calidad al mejor precio  
+## Nuestra Oferta de Cursos de Kitesurf
 
-### Curso completo de 10 horas - **EUR 399,-**  
-Clases de iniciación en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)  
-**La compra de la licencia cuesta 80 euros extra**  (duración aproximada de 2 horas para la teoría y el examen)  
+{% include carousel.html %}
 
-### Curso de repaso de 4 horas - **EUR 220,-**  
-Clases en grupo para alumnos que quieren refrescar y mejorar sus conocimientos de un curso anterior (duración 1-3 dias)  
+### 1. Curso Completo de Iniciación (10 Horas) – desde {{ p.beginner_10h.price }} {{ curr }}
+* **Para quién:** Principiantes que quieren aprender a navegar de forma 100% autónoma.
+* **Duración:** 3 a 5 días (sesiones de tarde con viento térmico).
+* **Contenido:** Teoría de viento, sistemas de seguridad, bodydrag en el agua, waterstart y primeros largos sobre la tabla.
+* **Licencia:** Preparación para la **licencia internacional VDWS/IKO** (teoría y expedición de carnet: +{{ p.beginner_10h.vdws_license_fee }} €).
 
-### Clases por horas sueltas  
-con un equipo compartido entre dos alumnos - **EUR 45,-/h**  
-cada uno con un equipo sin compartir - **EUR 60,-/h**  
-Clases individuales en grupo de entre 2-4 alumnos para todos los niveles  
+[» Ver detalles del Curso de Iniciación]({{ site.url }}/es/cursos-de-kitesurf/principiante/ "Curso de iniciación al kitesurf")
 
-### Curso de bautismo de 3 horas - **EUR 150,-**  
-Clases en grupo que terminan con arrastre por una cometa en el agua (duración 1 dia)  
+### 2. Curso de Bautismo / Prueba (3 Horas) – {{ p.taster_3h.price }} {{ curr }}
+* **Para quién:** Quienes quieren probar la sensación de volar la cometa y deslizarse por el agua en una sola tarde.
+* **Duración:** 1 día (3 horas).
+* **Garantía:** Si decides continuar con el curso completo de 10 horas, ¡te descontamos el 100% del importe pagado!
 
-### Clases privadas por horas sueltas - **EUR 120,-/h**  
-Clases en exclusiva y privadas para todos los niveles  
+[» Ver detalles del Bautismo de Kitesurf]({{ site.url }}/es/cursos-de-kitesurf/iniciacion/ "Bautismo de kitesurf Mallorca")
 
-(Todos los precios válidos por persona)  
+### 3. Curso de Reciclaje / Refresco (4 Horas) – {{ p.refresher_4h.price }} {{ curr }}
+* **Para quién:** Alumnos que ya han hecho un curso previo y quieren recuperar confianza, consolidar el waterstart o volver a navegar tras un parón.
 
-Los cursos y las clases de kitesurf incluyen todo el material necesario para su practica. En caso necesario con barco de apoyo.  
+### 4. Perfeccionamiento y Ceñida – {{ p.advanced_hourly.price }} {{ curr }} / hora
+* **Para quién:** Kitesurfistas que quieren aprender a ceñir (remontar el viento), hacer transiciones fluidas, navegar en toeside o dar sus primeros saltos.
 
-## **Solo tienes que traer una buena sonrisa y ganas de aprender y divertirte!**  
+[» Ver detalles de Perfeccionamiento]({{ site.url }}/es/cursos-de-kitesurf/avanzado/ "Cursos avanzados de kitesurf")
 
-{% include carousel.html %}  
+### 5. Clases Particulares 1:1 – {{ p.private_hourly.price }} {{ curr }} / hora
+* **Para quién:** Atención 100% exclusiva con instructor personal y casco con radio.
 
-## Nuestros cursos de kite están compuestos de la siguiente manera:  
+[» Ver detalles de Clases Privadas]({{ site.url }}/es/cursos-de-kitesurf/privado/ "Clases privadas de kitesurf")
 
-### 1) Básicos y control de cometa:  
-Elección del equipo justo, características locales, ventana de viento, sistemas de seguridad de cometas modernas, volar un Powerkite (pequeña cometa de entrenamiento), kites de 4 o 5 lineas, montaje y armado, lanzar y aterrizar un kite, zona de Power, la etiqueta de los "kitesurfistas" - ¡Todo lo necesario para el inicio de un día perfecto de Kitesurf!  
+### 6. Curso de Hidrofoil – {{ p.hydrofoil_hourly.price }} {{ curr }} / hora
+* **Para quién:** Kitesurfistas experimentados que quieren volar sobre el agua a partir de 8–10 nudos de viento con apoyo de barco.
 
-### 2) Bodydrag:  
-Apenas muevas de manera controlada tu cometa comienza el entrenamiento en agua. A continuación, te enseñaremos el Bodydragg, una tècnica que, sin tabla, arrastrando tu cuerpo por el agua detrás de la cometa, ya te da la sensación del Kitesurf.  
+[» Ver detalles de Hidrofoil]({{ site.url }}/es/cursos-de-kitesurf/hidrofoil/ "Curso de hidrofoil Mallorca")
 
-### 3) Waterstart:  
-Después de navegar con Bodydrag bien controlado tendrás que ponerte la tabla de kitesurf o kiteboard en los pies, y aprenderás como hacer tus primeros metros encima del agua navegando.  
+---
 
-## Fotos de alumnos en clases y practicando kitesurf:  
+## La Progresión en 3 Fases
 
-{%include snippets/es/image-hover-effects.html %}  
+1. **Escuela en Tierra:** Manejo de la cometa en la playa, control de la ventana de viento y práctica de los sistemas de suelta rápida (quick release).
+2. **Bodydrag en el Agua:** Tracción directa del cuerpo en aguas cálidas y poco profundas, relanzamiento de la cometa y rescate de la tabla sin invento.
+3. **Waterstart y Navegación:** Colocación de la tabla en los pies, golpe de potencia con la cometa y primeros largos navegando sobre el agua.
 
-Llama a [Daniel y Gerhard]({{ site.url }}/es/contacta-con-nosotros/){:title="Abre el formulario para reservas o preguntas"} (+34-696-264729)  para reservar tu curso de kitesurf ahora!  
+---
+
+{% include snippets/es/image-hover-effects.html %}
+
+[» Contacta con nosotros por WhatsApp para reservar tu plaza]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

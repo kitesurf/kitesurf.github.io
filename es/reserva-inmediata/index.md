@@ -23,6 +23,8 @@ lang: es
 "en-url": en/instantly-booking/
 "es-url": es/reserva-inmediata/
 "de-url": de/sofortbuchung/
+"it-url": it/prenotazione-immediata/
+"fr-url": fr/reservation-immediate/
 t: 
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

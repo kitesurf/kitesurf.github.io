@@ -8,7 +8,7 @@ subtitle: Datenschutz
 date: 2018-06-14T00:00:00.000Z
 modified: 2018-06-14
 author: daniel
-description: null
+description: "Datenschutzerklärung von Kitesurf Mallorca SL: Erfahre alles über den Schutz deiner Daten, Cookies und deine Rechte gemäß DSGVO."
 image:
   background: 2.jpg
   feature: null

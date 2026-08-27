@@ -1,12 +1,11 @@
 ---
 layout: article
-buchung: true
-title: "Schnupperkurs im Kiten mit KITESURF MALLORCA"
-subtitle: Mit viel Spass das Kitesurfen testen
-date: 2019-02-21T00:00:00.000Z
-modified: 2019-12-07
+title: "Kitesurf Schnupperkurs Mallorca – In 3 Stunden den Kite erleben"
+subtitle: "Dein unverbindlicher Tages-Schnupperkurs in der Bucht von Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Buche hier deinen Schnuperkurs im kiten, kitesurfen - kiteboarden und teste einen Tag lang mit deutsche Lehrer bei viel Spaß diesen faszinierenden Wassersport"
+description: "Kitesurf Schnupperkurs auf Mallorca: 3 Stunden Faszination Kitesurfen im Stehrevier. Kite-Steuerung, Sicherheit & Bodydrag mit VDWS-Lehrern erleben."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -17,12 +16,14 @@ image:
   feature: "flying-friends/l_kite-mallorca_055.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
-  picnum: 
-snippets: null
+  picnum: 55
+snippets: true
 lang: de
 "en-url": en/kitesurfing-lessons/tryout/
 "es-url": es/cursos-de-kitesurf/iniciacion/
 "de-url": de/kitekurse/schnupperkurse/
+"it-url": it/corsi-kitesurf/prova/
+"fr-url": fr/cours-kitesurf/initiation/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -57,46 +58,49 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Unser Schnupperkurs, perfekt für den ersten Kontakt mit dem Kitesurf"
+  teaser: "Unser Schnupperkurs – Perfekt für den ersten Kontakt mit dem Kitesurfen"
 published: true
 ---
 
-<div id="bookingKitContainer" data-lang="de" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=3615f83ea415c3fbec86b9877a5050aa" async></script>
-<noscript>
-<h1>Reservieren und Buchen: Schnupperkurs im Kitesurfen</h1>
-<br>
- 
-<<strong>NUR 120,00 € für 3 Stunden an einem Tag</strong><br><br>
+{% assign p = site.data.prices.kitesurf.taster_3h %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-Wenn du schon immer mal das Kitesurfen lernen wolltest, du aber noch unsicher bist ob dieser Sport für dich was ist, dann ist unser Schnupperkurs genau dass richtige für dich.<br>
-Hiermit kannst du an einem einzigen Tag testen wie es sich anfühlt an einem richtigen, echten Kite zu hängen und sich von diesem durch das Wasser ziehen zu lassen.<br>
-Du lernst hierbei spielerisch die Basics im Fliegen eines Kites und so viel Kontrolle über diesen zu erlangen, daß du zum Schluss dieses Kurses in der Lage sein wirst, wie ein Fisch durchs Wasser zu zischen und somit die Faszination die das Kitesurfen auslöst am eigenen Körper spürst.<br>
-Dieser Kurs ist inhaltlich gleich wie die ersten 3 Stunden eines Grundkurses im Kitesurfen, auf den du dann ohne weiteres aufstocken kannst.<br><br>
+{% include schema-product.html course_key="taster_3h" name="3 Stunden Kitesurf Schnupperkurs Mallorca" description="Kompakter 3-Stunden-Schnupperkurs für Kitesurf-Einsteiger im Stehrevier Pollensa." %}
 
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Schnupperkurs">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
-  <input type="submit" value="Senden">
-</form>
-<ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
-  <li>Mit einem Kite am Strand spielerisch das fliegen lernen</li>
-  <li>Von einem echten Kite sich durch das Wasser ziehen lassen</li>
-  <li>Zahlbar auch erst nach Vollendung</li>
-  <li>Jederzeit Upgrade auf 10 Stunden Basic Kurs möglich</li>
-  <li>Auch für Kinder ab 8 Jahre, in Begleitung eines Erwachsenen</li>
-</ul>
-<span><strong>Mitzubringen sind:</strong><br>
-Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
+# Kitesurf Schnupperkurs auf Mallorca: Faszination pur an einem Tag
 
-<span><strong>Hinweis an die Teilnehmer</strong><br>
-Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+Du möchtest wissen, wie es sich anfühlt, die unbändige Kraft des Windes an einem echten Kite zu spüren und sich über das Wasser ziehen zu lassen? Unser 3-stündiger Schnupperkurs ist der perfekte, unkomplizierte Einstieg, um Kitesurfen unverbindlich auszuprobieren.
+
+> **Kompaktübersicht:**  
+> * **Dauer:** 3 Stunden an 1 Tag (am Nachmittag bei optimaler Thermik).  
+> * **Preis:** **{{ p.price }} {{ curr }}** pro Person (inklusive gesamtem Material, Neopren, Weste, Helm & Trapez).  
+> * **Gruppengröße:** Kleine Gruppe (2–4 Teilnehmer pro Lehrer).  
+> * **Volle Anrechnung:** Wenn du weitermachen möchtest, werden die gezahlten {{ p.price }} {{ curr }} zu 100 % auf unseren 10-Stunden-Anfängerkurs angerechnet!
+
+---
+
+## Was lernst du im Schnupperkurs?
 
 {% include carousel.html %}
 
-</noscript>
+1. **Flugschule am Strand:** Schneller Einstieg in Windfenster, Safety-Systeme und die intuitive Steuerung des Kites.
+2. **Kitebeherrschung:** Du lernst, den Schirm kontrolliert durch das Windfenster zu steuern und Power aufzubauen.
+3. **Erster Bodydrag im Wasser:** Das absolute Highlight! Im stehtiefen Wasser spürst du den vollen Zug des Kites und lässt dich sicher durch das warme Mittelmeer ziehen.
+
+---
+
+## Für wen ist der Schnupperkurs geeignet?
+
+* Für alle Neugierigen, die in ihrem Mallorca-Urlaub ein aufregendes Wassersporterlebnis suchen.
+* Für Familien & Jugendliche (ab ca. 10 Jahren in Begleitung).
+* Als perfekte Entscheidungshilfe vor der Buchung eines kompletten Grundkurses.
+
+---
+
+## Was musst du mitbringen?
+
+Badebekleidung, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Das gesamte Kitematerial, Neoprenanzug, Prallschutzweste, Helm und Trapez stellen wir dir komplett zur Verfügung.
+
+---
+
+[» Jetzt unverbindlich deinen Schnupperkurs anfragen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

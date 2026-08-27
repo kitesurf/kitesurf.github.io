@@ -73,18 +73,7 @@ layout: compress
     {% endif %}
     {% include open-graph.html %}
 
-        <!-- Multilinguale behandlung durch Google -->
-
-    <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
-    {% if page.en-url == '/' %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />    
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
-   {% else %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}" />    
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}" />
-    {% endif %}
-    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}" />
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}" />
+    {% include hreflang.html %}
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 

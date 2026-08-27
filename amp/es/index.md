@@ -86,14 +86,9 @@ KITE-MALLORCA se encuentra en Sa Marina, la playa en la Bahía de Pollensa, entr
 
 ### Nuestra calidad al mejor precio
 
-#### Curso completo de 10 horas - **EUR 500,-**<br>
-Cada alumno un equipo completo!
-Clases en grupo, incluyen preparación y teoría para obtener la licencia de la federación internacional VDWS (duración 3-6 dias)
+{% include prices-courses.html %}
 
-#### Clases por horas sueltas - **EUR 60,-/h**
-Clases individuales en grupo para todos los niveles
-
-[» Clica aquí para ver las ofertas y todos los precios en los Cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf/){:title="Cursos de kitesurf y precios completos"}
+[» Ver ofertas y todos los precios de los cursos de kitesurf]({{ site.url }}/es/cursos-de-kitesurf/){:title="Cursos de kitesurf y precios completos"}
 
 ## Alquiler de kite y tabla
 

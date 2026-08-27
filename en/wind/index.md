@@ -5,7 +5,7 @@ subtitle: "Wind and weather forecast"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Current information about the wind conditions in Mallorca."
+description: "Live wind forecast, weather reports, and webcams for kitesurfing and wingfoiling in Pollensa Bay (Alcudia), Mallorca. Check current wind now!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: en
 en-url: "en/wind/"
 es-url: "es/viento/"
 de-url: "de/wind/"
+it-url: "it/vento/"
+fr-url: "fr/vent/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

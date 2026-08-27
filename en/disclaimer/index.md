@@ -5,7 +5,7 @@ subtitle: "Disclaimer"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description:
+description: "Legal disclaimer & privacy policy of Kitesurf Mallorca SL. Learn more about data protection, terms of service, and GDPR compliance."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: en
 en-url: "en/disclaimer/"
 es-url: "es/aviso-legal/"
 de-url: "de/datenschutz/"
+it-url: "it/privacy/"
+fr-url: "fr/mentions-legales/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"
@@ -58,7 +60,7 @@ t:
   teaser:
 ---
 
-# Disclaimer
+## Disclaimer
 
 ## Kitesurf Mallorca S.L. Web Site Agreement
 

@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "KITESURF MALLORCA SL - Kontakt - Tel. +34-696-264729"
-subtitle: "Kontaktdaten"
-date: 2015-11-23
-modified: 2017-02-28
+title: "Kontakt & Anfahrt – Kiteschule KITE-MALLORCA in Alcudia"
+subtitle: "So erreichst du uns in der Bucht von Pollensa (Alcudia)"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kite-Mallorca Kontaktdaten Adresse Telefonnummern."
+description: "Kontaktdaten, Standort und Anfahrt zu KITE-MALLORCA am Strand von Sa Marina zwischen Alcudia und Port de Pollença. WhatsApp, Telefon & Lageplan."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -13,8 +13,8 @@ image:
   background2: 7.jpg
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
-  feature:
-  teaser:
+  feature: null
+  teaser: null
   thumb: flying-friends/m_kite-mallorca_051.jpg
   picnum: 51
 snippets: true
@@ -22,6 +22,8 @@ lang: de
 en-url: "en/contact/"
 es-url: "es/contacto/"
 de-url: "de/kontakt/"
+it-url: "it/contatto/"
+fr-url: "fr/contact/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -56,31 +58,37 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Unsere Kontaktdaten. Anrufen oder Chaten: +34 696 264 729"
+  teaser: "Unsere Kontaktdaten: Anrufen oder WhatsApp unter +34 696 264 729"
+published: true
 ---
 
-# KITE-MALLORCA KONTAKT
+# Kontakt & Standort von KITE-MALLORCA
 
-Du findest uns am Strand von Sa Marina in der Bucht zwischen Alcudia und Port de Pollenca.
+Du hast Fragen zu unseren Kursen, möchtest Material reservieren oder den aktuellen Windstatus abfragen? Wir sind jederzeit persönlich für dich da.
 
-KITE-MALLORCA  
-Kitesurf Mallorca S.L.  
-Calle del Greco 19  
-07400 Alcudia  
-Mallorca, Spanien  
-Tel.: +34 696 264729  
-[Whatsappgruppe kite-mallorca]({{ site.url }}/whatsapp/ "Öffnet ein Chat mit uns in deinem Whatsapp")  
+---
+
+### Kontaktdaten & Anschrift
+
+* **Kiteschule & Station:** Strand von Sa Marina (Bucht von Pollensa / Alcudia)
+* **Unternehmen:** Kitesurf Mallorca S.L.
+* **Adresse:** Calle del Greco 19, 07400 Alcúdia, Mallorca, Spanien
+* **Telefon & WhatsApp:** [+34 696 264 729](tel:+34696264729)
+* **Direkt-Chat:** [Über WhatsApp kontaktieren]({{ site.url }}/whatsapp/ "Öffnet WhatsApp Chat")
+* **Online-Anfrage:** [Zum Kontaktformular]({{ site.url }}/de/kontaktiere-uns/ "Nachricht senden")
 
 {% include googlemap.html %}
 
-## Nächstgelegene Unterkünfte
+---
 
-In Alcudia und Umgebung findet ihr hunderte von Hotels, wir führen euch hier nur die nächstgelegene auf.
-Von folgende Hotels könnt ihr zu uns zu Fuss, bzw. ist uns nach Absprache auch eure Abholung möglich.
+## Anfahrt & Parken
 
-- Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=de" rel="nofollow" title="www.clubpollentia.com">» Klicke hier für Angebote</a>
-- Hotel Moré <a href="http://www.hotelmore.com/de/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» Klicke hier für Angebote</a>
+Unsere Station befindet sich direkt an der Küstenstraße zwischen **Alcúdia** und **Port de Pollença** am Spot **Sa Marina**. Direkt entlang des Strandes stehen kostenfreie Parkmöglichkeiten zur Verfügung.
 
-Für nähere Informationen über uns fülle bitte das [Kontaktformular]({{ site.url }}/de/kontaktiere-uns/ "Öffnet das Kontaktformular um uns auch ohne E-Mail Programm zu schreiben") aus oder ruf uns einfach an!
+### Empfohlene Unterkünfte in der Nähe
+
+Von folgenden Hotels erreichst du unseren Spot bequem zu Fuß bzw. in wenigen Minuten:
+- **Hotel Club Pollentia Resort & Spa:** Nur wenige Gehminuten vom Spot entfernt.
+- **Hotel Moré (Alcudia):** Beliebtes Strandhotel in direkter Nähe.
 
 {% include daniel_und_gerhard.html %}

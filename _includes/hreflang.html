@@ -1,0 +1,60 @@
+{%- comment -%} Canonical and Hreflang Tags {%- endcomment -%}
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+{%- if page.amp != true -%}
+<link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
+{%- endif -%}
+
+{%- assign en_target = page['en-url'] | default: page.translations.en -%}
+{%- if en_target -%}
+  {%- if en_target == '/' -%}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/en/" />
+  {%- elsif en_target contains '://' -%}
+    <link rel="alternate" hreflang="x-default" href="{{ en_target }}" />
+    <link rel="alternate" hreflang="en" href="{{ en_target }}" />
+  {%- else -%}
+    {%- assign clean_en = en_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ clean_en }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ clean_en }}" />
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign de_target = page['de-url'] | default: page.translations.de -%}
+{%- if de_target -%}
+  {%- if de_target contains '://' -%}
+    <link rel="alternate" hreflang="de" href="{{ de_target }}" />
+  {%- else -%}
+    {%- assign clean_de = de_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ clean_de }}" />
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign es_target = page['es-url'] | default: page.translations.es -%}
+{%- if es_target -%}
+  {%- if es_target contains '://' -%}
+    <link rel="alternate" hreflang="es" href="{{ es_target }}" />
+  {%- else -%}
+    {%- assign clean_es = es_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ clean_es }}" />
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign it_target = page['it-url'] | default: page.translations.it -%}
+{%- if it_target -%}
+  {%- if it_target contains '://' -%}
+    <link rel="alternate" hreflang="it" href="{{ it_target }}" />
+  {%- else -%}
+    {%- assign clean_it = it_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="it" href="{{ site.url }}/{{ clean_it }}" />
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign fr_target = page['fr-url'] | default: page.translations.fr -%}
+{%- if fr_target -%}
+  {%- if fr_target contains '://' -%}
+    <link rel="alternate" hreflang="fr" href="{{ fr_target }}" />
+  {%- else -%}
+    {%- assign clean_fr = fr_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/{{ clean_fr }}" />
+  {%- endif -%}
+{%- endif -%}

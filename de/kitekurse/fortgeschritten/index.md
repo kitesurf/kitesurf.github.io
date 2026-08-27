@@ -1,12 +1,11 @@
 ---
 layout: article
-buchung: true
-title: "Kurs für fortgeschrittene Kitesurfer mit KITESURF MALLORCA"
-subtitle: Hier kommst du in den nächsten Level beim Kitesurfen
-date: 2019-02-21T00:00:00.000Z
-modified: 2019-12-07
+title: "Kitesurf Aufsteiger- & Fortgeschrittenenkurs Mallorca"
+subtitle: "Höhe halten, Richtungswechsel, Toeside & Sprünge trainieren"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Du hast schon eine Basis und möchtest mehr? Mehr Höhe laufen, Wenden, Springen? Bei diesem Kitesurf Kurs bist du richtig"
+description: "Kitesurfkurs für Fortgeschrittene und Aufsteiger auf Mallorca: Gezieltes Coaching für Höhe laufen, kontrollierte Wenden, Halsen und erste Sprünge."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -17,12 +16,14 @@ image:
   feature: "flying-friends/Dennis_with_backroll-inverted_l.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
-  picnum: 
-snippets: null
+  picnum: 38
+snippets: true
 lang: de
 "en-url": en/kitesurfing-lessons/advanced/
 "es-url": es/cursos-de-kitesurf/avanzado/
 "de-url": de/kitekurse/fortgeschritten/
+"it-url": it/corsi-kitesurf/avanzati/
+"fr-url": fr/cours-kitesurf/perfectionnement/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -57,41 +58,47 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Höhe laufen, sicherer wenden, springen? Hier bist du richtig"
+  teaser: "Höhe laufen, sicherer wenden, springen? Hier erreichst du das nächste Kite-Level"
 published: true
 ---
 
-<div id="bookingKitContainer" data-lang="de" data-e="2b2b67f400ea96bfe1028cd2adf1cc95" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=2b2b67f400ea96bfe1028cd2adf1cc95" async></script>
-<noscript>
-<h1>Reservieren und Buchen: Aufbaukurs im Kitesurfen</h1>
-<br>
- 
-AB 60,00 € pro Stunde<br>
-<strong>4 Stunden für 220,- € (ca. 8% Mengenrabatt)</strong><br><br>
-<span>Dieser Auffrischungskurs im Kitesurfen ist für alle die Gedacht, welche schon Kontakt hatten mit dem Kitesurfen und sich weiter entwickeln möchten.</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs für Fortgeschritten">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
-  <input type="submit" value="Senden">
-</form>
-<ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
-  <li>Das Kitematerial muss nicht mit anderen geteilt werden!</li>
-  <li>Du steigst dort ein wo du das letzte mal aufgehört hast!</li>
-  <li>Zahlbar auch erst nach Vollendung</li>
-  <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
-</ul>
-<span><strong>Mitzubringen sind:</strong><br>
-Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-<span><strong>Hinweis an die Teilnehmer</strong><br>
-Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher</span>
-</div>
+{% include schema-product.html course_key="refresher_4h" name="Kitesurf Aufsteiger- & Fortgeschrittenenkurs Mallorca" description="Fortgeschrittenenkurs für Kiter: Höhe halten, Richtungswechsel, Halsen und Sprünge." %}
+
+# Kitesurfkurs für Aufsteiger & Fortgeschrittene auf Mallorca
+
+Du hast bereits einen Grundkurs absolviert oder fährst schon selbstständig, möchtest aber endlich sicher Höhe halten, Richtungswechsel ohne Hineinfallen meistern oder deine ersten hohen Sprünge lernen? 
+
+Unser Aufsteiger- und Fortgeschrittenenkurs setzt genau an deinem individuellen Können an und bringt dich schnell und frustfrei auf das nächste Level.
+
+> **Optionen & Preise:**  
+> * **4-Stunden-Refresh- & Aufbaukurs:** **{{ p.refresher_4h.price }} {{ curr }}** (ideal für Wiedereinsteiger und zur Festigung des Wasserstarts).  
+> * **Stundenweises Aufsteigertraining:** **{{ p.advanced_hourly.price }} {{ curr }}** pro Stunde (mit eigenem oder gestelltem Material).  
+> * **1:1 Privat-Intensivtraining:** **{{ p.private_hourly.price }} {{ curr }}** pro Stunde.
+
+---
+
+## Mögliche Trainingsschwerpunkte
 
 {% include carousel.html %}
 
-</noscript>
+* **Höhe halten & Höhe laufen (Upwind):** Richtige Körperhaltung, Boardkante effektiv einsetzen und entspannt zum Startpunkt zurückkreuzen.
+* **Richtungswechsel & Transitionen:** Flüssige Wenden, Switch-/Toeside-Fahren und kontrollierte Halsen.
+* **Erste Sprünge & Airtime:** Absprungtechnik, Schirmsteuerung beim Absprung, kontrollierte Landung.
+* **Sicherheit & Selbstrettung:** Relaunch bei Leichtwind oder tiefem Wasser, Quick-Release-Checks und Self-Rescue.
+
+---
+
+## Warum Aufsteigertraining in der Bucht von Pollensa?
+
+Das große Stehrevier mit sandigem Untergrund und die gleichmäßige Nachmittagsthermik (12–18 Knoten) bieten ideale Laborbedingungen: Wenn ein Manöver misslingt, stehst du einfach im stehtiefen Wasser, sortierst dein Board und startest sofort den nächsten Versuch – ohne Kraftverlust!
+
+## Was musst du mitbringen?
+
+Badesachen, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Falls du eigenes Material hast, kannst du dieses gerne mitbringen – ansonsten stellen wir dir aktuelles Schulungsequipment, Neopren, Weste, Helm und Trapez komplett zur Verfügung.
+
+---
+
+[» Jetzt unverbindlich Training anfragen oder Termin vereinbaren]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

@@ -8,7 +8,7 @@ subtitle: "Disclaimer"
 date: 2017-01-05
 modified: 2017-02-28
 author: daniel
-description:
+description: "Legal disclaimer & privacy policy of Kitesurf Mallorca SL. Learn more about data protection, terms of service, and GDPR compliance."
 image:
   background: 6.jpg
   feature:

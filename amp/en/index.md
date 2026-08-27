@@ -85,14 +85,7 @@ KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and 
 
 ### Our quality for the best price
 
-#### 10 hours beginners course - **EUR 500,-**
-Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
-
-#### Lessons on an hourly basis - **EUR 60,-/h**
-Individual hours for all levels in a small group of 2-4 students
-
-#### 3 hours trial course - **EUR 120,-**
-Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)
+{% include prices-courses.html %}
 
 [» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
 

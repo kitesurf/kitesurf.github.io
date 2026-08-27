@@ -5,7 +5,7 @@ subtitle: Vielen Dank für deine Anfrage
 date: 2015-11-23T00:00:00.000Z
 modified: 2017-02-28
 author: daniel
-description: "Bei Kite-Mallorca werden alle Kunden bevorzugt behandelt. Dein Anliegen wird so schnell wie möglich erledigt"
+description: "Vielen Dank für deine Anfrage bei Kite-Mallorca! Wir melden uns schnellstmöglich bei dir. Dein Kitesurfkurs in der Bucht von Pollensa wartet."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: de
 "en-url": en/thanks/
 "es-url": es/gracias/
 "de-url": de/danke/
+"it-url": it/grazie/
+"fr-url": fr/merci/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -59,4 +61,9 @@ t:
   teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:   +34 696 264 729."
 published: true
 ---
+
+# Vielen Dank für deine Anfrage!
+
+Wir haben deine Nachricht erhalten und werden uns schnellstmöglich bei dir melden.
+
 

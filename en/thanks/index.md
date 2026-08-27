@@ -5,7 +5,7 @@ subtitle: "Thank you for contacting us"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Bei Kite-Mallorca werden alle Kunden bevorzugt behandelt. Dein Anliegen wird so schnell wie möglich erledigt"
+description: "Thank you for contacting Kite-Mallorca! We have received your inquiry and will reply as soon as possible. See you on the water in Mallorca!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: en
 en-url: "en/thanks/"
 es-url: "es/gracias/"
 de-url: "de/danke/"
+it-url: "it/grazie/"
+fr-url: "fr/merci/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"
@@ -55,6 +57,9 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser: "Thank you very much for contacting us. We will get back to you as soon as possible. You can also call us: +34696264729"
+  teaser: "Thank you for sending us a message. We will reply as soon as possible. Feel free to call us:  +34 696 264 729."
 ---
 
+# Thank you for your inquiry!
+
+We have received your message and will get back to you as soon as possible.

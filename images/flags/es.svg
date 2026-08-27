@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <path fill="#aa151b" d="M0 0h640v480H0z"/>
+  <path fill="#f1bf00" d="M0 120h640v240H0z"/>
+  <g transform="matrix(1.2 0 0 1.2 160 240)">
+    <path fill="#aa151b" d="M-20-40h40v40c0 22-20 40-20 40s-20-18-20-40z"/>
+    <path fill="#f1bf00" d="M-16-36h32v36c0 18-16 32-16 32s-16-14-16-32z"/>
+    <path fill="#aa151b" d="M0-36v68M-16-16h32"/>
+    <circle cx="0" cy="-16" r="6" fill="#003580"/>
+    <circle cx="0" cy="-16" r="3" fill="#f1bf00"/>
+    <path fill="#ffce00" d="M-15-46h30v6h-30z"/>
+    <circle cx="-10" cy="-49" r="3" fill="#ffce00"/>
+    <circle cx="0" cy="-51" r="3.5" fill="#ffce00"/>
+    <circle cx="10" cy="-49" r="3" fill="#ffce00"/>
+  </g>
+</svg>

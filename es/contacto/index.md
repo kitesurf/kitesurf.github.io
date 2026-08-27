@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kite-Mallorca - Contacto - Tel. +34-696-264729"
-subtitle: "Datos de contacto"
-date: 2015-11-23
-modified: 2017-02-28
+title: "Contacto y Ubicación – Escuela KITE-MALLORCA en Alcúdia"
+subtitle: "Cómo llegar a nuestro centro en la playa de Sa Marina (Bahía de Pollensa)"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Datos de contacto y ubicación de Kite-Mallorca. Tambien encuentras aquí una pequeña lista de los hoteles más cercanos."
+description: "Contacto y cómo llegar a KITE-MALLORCA en la playa de Sa Marina entre Alcúdia y Port de Pollença. Teléfono, WhatsApp, mapa y hoteles cercanos."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -13,15 +13,17 @@ image:
   background2: 7.jpg
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
-  feature:
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_022.jpg
-  picnum: 22
+  feature: null
+  teaser: null
+  thumb: flying-friends/m_kite-mallorca_051.jpg
+  picnum: 51
 snippets: true
 lang: es
 en-url: "en/contact/"
 es-url: "es/contacto/"
 de-url: "de/kontakt/"
+it-url: "it/contatto/"
+fr-url: "fr/contact/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
@@ -42,7 +44,7 @@ t:
   link9: "outfit/"
   menutxt9: Outfit
   link20: "cursos-de-kitesurf/iniciacion/"
-  menutxt20: "Cursillo de iniciación"
+  menutxt20: "Bautismo / Iniciación"
   link21: "cursos-de-kitesurf/principiante/"
   menutxt21: "Principiantes"
   link22: "cursos-de-kitesurf/avanzado/"
@@ -55,31 +57,36 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser: "Nuestros datos de contacto. Para llamar o chatear: +34 696 264 729"
+  teaser: "Ponte en contacto: Llámanos o escríbenos por WhatsApp al +34 696 264 729"
+published: true
 ---
 
-# DATOS DE CONTACTO DE KITE-MALLORCA
+# Contacto y Ubicación de KITE-MALLORCA
 
-Nos encuentras en la playa de Sa Marina, en la bahía de Pollensa, entre la ciudad de Alcudia y el Puerto de Pollensa.
+¿Tienes dudas sobre nuestros cursos de kitesurf o wingfoil, deseas reservar material o consultar la previsión de viento para hoy? ¡Estamos a tu disposición!
 
-KITE-MALLORCA  
-Kitesurf Mallorca S.L.  
-Calle del Greco 19  
-07400 Alcudia  
-Mallorca, España  
-Tlf. +34 696 264729  
-[Grupo Whatsapp kite-mallorca]({{ site.url }}/whatsapp/ "Abre un chat con nuestro grupo en tu whatsapp")  
+---
+
+### Datos de Contacto
+
+* **Ubicación del Spot:** Playa de Sa Marina (Bahía de Pollensa / Alcúdia)
+* **Sociedad:** Kitesurf Mallorca S.L.
+* **Dirección postal:** Calle del Greco 19, 07400 Alcúdia, Mallorca, España
+* **Teléfono y WhatsApp:** [+34 696 264 729](tel:+34696264729)
+* **Chat directo por WhatsApp:** [Abrir Chat de WhatsApp]({{ site.url }}/whatsapp/ "Chatear con Kite Mallorca")
+* **Formulario de Contacto:** [Abrir Formulario de Contacto]({{ site.url }}/es/contacta-con-nosotros/ "Enviar mensaje")
 
 {% include googlemap.html %}
 
-## Alojamientos cercanos
+---
 
-En Alcudia y alrededores encontraras miles de hoteles y alojamientos para todo tipo de gusto y coste.
-Aquí te aconsejamos los hoteles mas cercanos, desde los cuales te es posible llegar a pie o, segun previo acuerdo, te podemos ir a recoger con nuestros vehiculos.
+## Cómo Llegar y Hoteles Cercanos
 
-- Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=es" rel="nofollow" title="www.clubpollentia.com">» Clic aquí por ofertas</a>
-- Hotel Moré <a href="https://www.hotelmore.com" rel="nofollow" title="www.hotelmore.com">» Clic aquí por ofertas</a>
+Nuestra escuela se encuentra en la carretera costera que une **Alcúdia** con **Port de Pollença**, justo en la playa de **Sa Marina**. Hay aparcamiento gratuito y directo a pie de spot.
 
-Para más información sobre nosotros rellena el [formulario]({{ site.url }}/es/contacta-con-nosotros/ "formulario de contacto") o simplemente llama a uno de nosotros.
+### Hoteles Recomendados en la Zona
+
+* **Hotel Club Pollentia Resort & Spa:** Situado a pocos minutos a pie de la escuela.
+* **Hotel Moré (Alcúdia):** Hotel frente a la playa a escasa distancia del spot.
 
 {% include daniel_und_gerhard.html %}

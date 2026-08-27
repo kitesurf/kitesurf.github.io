@@ -1,12 +1,11 @@
 ---
 layout: article
-buchung: true
-title: "Privatunterricht im Kitesurfen mit KITESURF MALLORCA"
-subtitle: Wo dein eigener Unterricht an erster Stelle steht
-date: 2020-03-10T12:34:10+01:00
-modified: 2019-12-07
+title: "Privatunterricht im Kitesurfen auf Mallorca – 1:1 Coaching"
+subtitle: "Dein persönlicher Kitelehrer für maximalen Lernerfolg"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "&#128081;Unser Privatunterricht stellt dich in den Mittelpunkt wenn es ums kitesurfen geht. Für alle die extra schnell ans Ziel wollen"
+description: "Privatunterricht im Kitesurfen auf Mallorca: Exklusives 1:1 Intensivcoaching mit persönlichem VDWS-Lehrer, Funkhelm-Schulung und flexibler Zeiteinteilung."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -17,12 +16,14 @@ image:
   feature: "flying-friends/Privatlesson_with_Dani_l.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
-  picnum: 
-snippets: null
+  picnum: 38
+snippets: true
 lang: de
 "en-url": en/kitesurfing-lessons/privatlessons/
 "es-url": es/cursos-de-kitesurf/privado/
 "de-url": de/kitekurse/privatstunden/
+"it-url": it/corsi-kitesurf/lezioni-private/
+"fr-url": fr/cours-kitesurf/cours-particuliers/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -57,37 +58,44 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Privatunterricht für alle die Exclusiv und sehr schnell ans Ziel wollen"
+  teaser: "Exklusives 1:1 Coaching für schnellstmöglichen Lernerfolg"
 published: true
 ---
 
-<div id="bookingKitContainer" data-lang="de" data-e="29755c7747a531f245d7e053d5baa865" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=29755c7747a531f245d7e053d5baa865" async></script>
-<noscript><h1>Reservieren und Buchen: Privater Kurs im Kitesurfen</h1>
-<br>
- 
-<strong>120 € pro Stunde</strong><br><br>
-<span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist Preis inbegrifen.</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse, bitte zweimal kontrolieren" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für Privatstunden im Kitesurfen">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
-  <input type="submit" value="Senden">
-</form>
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-<H2>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz, welche unter anderem zum Mieten von Material an anderen Kiteschulen und Kitecenter berechtigt.</H2>
+{% include schema-product.html course_key="private_hourly" name="Privatunterricht Kitesurfen Mallorca" description="Exklusives 1:1 Einzeltraining im Kitesurfen auf Mallorca mit lizenziertem Kitelehrer." %}
 
-<span><strong>Mitzubringen sind:</strong><br>
-Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
+# Privatunterricht im Kitesurfen auf Mallorca: Dein 1:1 Coaching
 
-<span><strong>Hinweis an die Teilnehmer</strong><br>
-Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+Wenn du die ungeteilte Aufmerksamkeit deines Kitelehrers wünschst, deine Urlaubszeit optimal nutzen möchtest oder an ganz spezifischen Manövern arbeiten willst, ist unser privates 1:1 Coaching die effektivste Unterrichtsform.
+
+> **Preis:** **{{ p.private_hourly.price }} {{ curr }}** pro Stunde (inklusive komplettem High-End-Equipment von Duotone & Eleveight, Neopren, Trapez, Funkhelm & Bootssupport bei Bedarf).
+
+---
+
+## Die Vorteile von Privatstunden
 
 {% include carousel.html %}
 
-</noscript>
+* **100 % Fokus auf dich:** Kein Warten auf andere Kursteilnehmer – jede Minute auf dem Wasser gehört dir.
+* **Maßgeschneidertes Tempo:** Egal ob Einsteiger, Wiedereinsteiger oder Fortgeschrittener – der Unterricht passt sich exakt deinem Lerntempo an.
+* **Optionales Funk-Coaching:** Direkte Echtzeit-Korrekturen über Funkhelm während der Fahrt.
+* **Flexible Termine:** Perfekt abgestimmt auf deine Urlaubsplanung und die besten Windstunden des Tages.
+
+---
+
+## Für wen lohnt sich Privatunterricht?
+
+1. **Einsteiger mit wenig Urlaubszeit:** Wer in 2 bis 3 Tagen maximale Fortschritte machen möchte.
+2. **Kiter mit spezifischen Blockaden:** Perfekt zur Überwindung von Ängsten beim Wasserstart oder bei starkem Wind.
+3. **Fortgeschrittene:** Gezieltes Technik-Tuning für Sprünge, Rotationen (Backrolls/Frontrolls), Hydrofoil oder Strapless Kiten.
+
+## Was musst du mitbringen?
+
+Badesachen, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Das gesamte Kitematerial, Neoprenanzug, Prallschutzweste, Helm mit Funk und Trapez stellen wir dir komplett zur Verfügung.
+
+---
+
+[» Jetzt deinen persönlichen Privatlehrer anfragen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

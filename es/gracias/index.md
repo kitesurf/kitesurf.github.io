@@ -5,7 +5,7 @@ subtitle: "Gracias"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "En Kite-Mallorca todos nuestros clientes son privilegiados. Tu solicitud será tratada a la brevedad posible. Gracias"
+description: "¡Muchas gracias por contactar con Kite-Mallorca! Hemos recibido tu solicitud y te responderemos lo antes posible. ¡Nos vemos en el agua!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: es
 en-url: "en/thanks/"
 es-url: "es/gracias/"
 de-url: "de/danke/"
+it-url: "it/grazie/"
+fr-url: "fr/merci/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
@@ -55,7 +57,9 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser: "Muchas gracias por habernos escrito, responderemos lo antes posible. Si quieres nos puedes llamar tambien:  
-  +34 696 264 729."
+  teaser: "Muchas gracias por contactarnos, nos pondremos en contacto contigo lo antes posible. También puedes llamarnos: +34 696 264 729."
 ---
 
+# ¡Muchas gracias por tu solicitud!
+
+Hemos recibido tu mensaje correctamente y nos pondremos en contacto contigo lo antes posible.

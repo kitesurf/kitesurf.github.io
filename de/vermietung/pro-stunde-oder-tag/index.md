@@ -1,12 +1,11 @@
 ---
 layout: article
-buchung: true
-title: "Boards und Kites mieten zum kitesurfen auf Mallorca"
-subtitle: Gutes Material für faire Preise
-date: 2019-02-27T00:00:00.000Z
-modified: 2019-12-07
+title: "Kite- & Boardmiete pro Stunde oder Tag auf Mallorca"
+subtitle: "Flexible Materialmiete von Duotone & Eleveight in Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Buche deine Materialmiete zum Kiten und Kitesurfen: Twintip- und Directional-Boards und Kites von Duotone und Eleveight in alle gängigen Grössen"
+description: "Kitematerial flexibel nach Stunden oder Tagen mieten auf Mallorca. Neueste Kites und Boards von Duotone & Eleveight inkl. Größentausch & Rettungsboot."
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -17,12 +16,14 @@ image:
   feature: "flying-friends/l_kite-mallorca_048.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
-  picnum: 
-snippets: null
+  picnum: 48
+snippets: true
 lang: de
 en-url: "en/renting/per-hour-or-day/"
 es-url: "es/alquiler/por-hora-y-dia/"
 de-url: "de/vermietung/pro-stunde-oder-tag/"
+it-url: "it/noleggio/ore-o-giorno/"
+fr-url: "fr/location/heure-ou-journee/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -57,45 +58,40 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "In der Miete kannst du vom ganzen Material-Pool profitieren. "
+  teaser: "Flexibel stunden- oder tageweise das beste Material mieten"
 published: true
 ---
 
-<div id="bookingKitContainer" data-lang="de" data-e="faa3f4b5de3c2a359c1d2cdc305af5a6" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=faa3f4b5de3c2a359c1d2cdc305af5a6" async></script>
-<noscript>
-<h1>Buche hier dein Leihmaterial zum kiten bei uns in Mallorca</h1>
-  
-<ul><strong>Wir haben folgendes Material zur Wahl:</strong><br>
-<li>Eleveightkites: die gesamte Produktpalette (alle Kites, Twintips und Kitesurfboards)</li>
-<li>Duotone: Evo in 8m, 10m u. 14m - Neo in 7m, 10m u. 12m - Juice in 18m, verschiedene Twintips und Whip</li>
-</ul>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für Miete von Kitesurfmaterial">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
-  <input type="submit" value="Senden">
-</form>
-<ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
-<li>Material kann jederzeit getauscht werden, solange Vorrat reicht</li>
-<li>Zahlbar, was tatsächlich anfällt, auch erst nach dem kiten möglich</li>
-<li>Anzüge und Trapeze sind im Preis enthalten</li>
-<li>Es wird nur die Wasserzeit(tatsächliche Materialbenutzung) verrechnet</li>
-<li>Unser Rettungsboot steht immer bereit sollte mal was schief laufen</li>
-</ul>
-<span>Grundvoraussetzung für die Miete ist das vorweisen einer Haftpflichtversicherung für den Wassersport. Zum Beispiel das <a href="https://cp.vdws.de/shop/insurance/VS19796" title="Unfall und Haftpflichtversicherung">Safety Tool vom VDWS</a><br>
-Weiterhin ist dass Höhe halten können sehr wichtig, sowohl bei starkem als auch bei leichtem Wind. <br>
-Auch die Fähigkeit das eigene Board nach einem Sturz wieder mit Side-Bodydrag holen zu können.<br>
-Es werden keine Boardleashes gestattet, um vor Selbstverletzungen zu schützen
-Jeder ist für sein gemietetes Material und etwaige Schäden daran und an Dritte verantwortlich.</span><br><br>
+# Kitematerial stunden- oder tageweise mieten auf Mallorca
 
+Du möchtest für eine spontane Nachmittags-Session aufs Wasser oder dein Material flexibel an die Windbedingungen anpassen? An unserer Station in der Bucht von Pollensa (Sa Marina) steht dir die komplette Range an aktuellem Kitematerial zur Verfügung.
 
-<span>Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher bei Daniel, +34 696 264 729</span>
-</div>
+---
+
+## Unsere Tarife für Kurzzeit- und Tagesmiete
+
+{% include prices-rental.html %}
+
+> **Wichtiger Vorteil:** Wir berechnen nur die tatsächliche Wasserzeit – und wenn der Wind im Laufe des Nachmittags auffrischt oder nachlässt, tauschst du Schirm oder Board einfach direkt am Strand um.
 
 {% include carousel.html %}
-  
-</noscript>
+
+---
+
+## Verfügbare Marken & Modelle
+
+* **Duotone:** Evo, Neo, Juice (für Leichtwind) sowie verschiedene Twintips und Directional Waveboards.
+* **Eleveight:** Die komplette Range an Freeride-, Wave- und Foil-Kites sowie High-Performance Boards.
+* **Zubehör:** Trapeze, Neoprenanzüge, Prallschutzwesten und Helme sind bei der Komplettmiete bereits inklusive.
+
+---
+
+## Voraussetzungen für die Miete
+
+* Sichere Kitebeherrschung und Höhelaufen (VDWS Level 4/5 bzw. IKO Level 3).
+* Selbstrettung und Board-Bergung per Bodydrag im tiefen Wasser.
+* Eine gültige Wassersport-Haftpflichtversicherung (z. B. VDWS Safety Tool).
+
+---
+
+[» Jetzt Material anfragen oder für den Tag reservieren]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

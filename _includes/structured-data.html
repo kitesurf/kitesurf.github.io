@@ -1,145 +1,336 @@
-   <script type="application/ld+json">
-      {
-        "@context" : "https://schema.org",
-        "@type" : "LocalBusiness",
-        "telephone" : "+34-696-264-729",
-        "priceRange": "$$",
-        "name" : "Kitesurf Mallorca SL",
-        "image" : "https://kite-mallorca.com/images/gerhard-und-daniel.jpg",
-        "url" : "https://kite-mallorca.com/",
-        "sameAs" : [
-          "https://www.facebook.com/KitesurfMallorca",
-          "https://twitter.com/kite_mallorca",
-          "https://plus.google.com/108768305083116030970"
-        ],
-        "logo" : "https://kite-mallorca.com/images/kite-mallorca_225x177.png",        
-        "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Alcudia",
-        "addressCountry": "Spain",
-        "postalCode":"07400",
-        "streetAddress": "Calle del Greco 19"
-        },
-        "description": "Kitesurfing and Kiteboarding school for all levels, also equipement rental for practicing this watersport",
-        "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-22:00",
-         "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": "39.6224385",
-            "longitude": "2.966201"
-          },
-          "geoRadius": "60000"
-        },
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Sport services",
-          "itemListElement": [
-            {
-              "@type": "OfferCatalog",
-              "name": "Kiteboarding and Kitesurfing learning",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Tester course for everyone",
-                    "description": "Learning how to fly and control a kite and drag the body throw the water with his power"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Complette 10 hours course",
-                    "description": "Learning all basics about kitesurfing and kiteboarding to be safe and independent"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Refresh course for advanced riders",
-                    "description": "Special training like kitecontrol, waterstart, riding longer tack, transitions or jumping for advanced students"
-                  }
-                }
-              ]
-            },
-            {
-              "@type": "OfferCatalog",
-              "name": "Sports equipement rental",
-              "itemListElement": [
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Complette equipement rental"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Kite rental"
-                  }
-                },
-                {
-                  "@type": "Offer",
-                  "itemOffered": {
-                    "@type": "Service",
-                    "name": "Board rental"
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context" : "https://schema.org",
-        "@type": "WebSite",
-        "name": "Kitesurf Mallorca SL",
-        "alternateName": "Daniel and Gerhard",
-        "url": "https://kite-mallora.com/"
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "url": "https://kite-mallora.com/",
-  "logo": "https://kite-mallorca.com/images/kite-mallorca_225x177.png",
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+34-696-264-729",
-    "contactType": "customer service",
-    "availableLanguage" : ["German","English","Spanish","Italian"]
-  }]
-}
-</script>
+{% assign p = site.data.prices.kitesurf %}
+{% assign w = site.data.prices.wingfoil %}
+{% assign r = site.data.prices.rental %}
+{% assign curr = site.data.prices.currency_code | default: "EUR" %}
+{% assign lang = page.lang | default: "de" %}
+{% assign nav = site.data.navigation[lang] %}
+
+{% if lang == "en" %}
+  {% assign schema_desc = "International kitesurfing school and wingfoil center in the bay of Pollensa (Alcudia). Beginner and advanced lessons, VDWS licenses, and premium rental equipment." %}
+  {% assign catalog_name = "Kitesurf & Wingfoil Services" %}
+  {% assign cat_kitesurf = "Kitesurfing Lessons" %}
+  {% assign cat_wingfoil = "Wingfoiling Lessons" %}
+  {% assign cat_rental = "Equipment Rental" %}
+  {% assign url_beg = "https://kite-mallorca.com/en/kitesurfing-lessons/beginner/" %}
+  {% assign name_beg = "10 Hours Beginner Kitesurfing Course" %}
+  {% assign desc_beg = "Comprehensive beginner kitesurfing course including theory, bodydrag, waterstart, and VDWS license preparation." %}
+  {% assign url_tas = "https://kite-mallorca.com/en/kitesurfing-lessons/tryout/" %}
+  {% assign name_tas = "3 Hours Tryout Kitesurfing Course" %}
+  {% assign desc_tas = "First steps in kitesurfing with kite control and bodydrag in shallow water." %}
+  {% assign url_ref = "https://kite-mallorca.com/en/kitesurfing-lessons/advanced/" %}
+  {% assign name_ref = "4 Hours Refresher / Advanced Course" %}
+  {% assign desc_ref = "Training for returning kitesurfers to refresh waterstart, upwind riding, and safety." %}
+  {% assign url_priv = "https://kite-mallorca.com/en/kitesurfing-lessons/privatlessons/" %}
+  {% assign name_priv = "1:1 Private Kitesurfing Lessons (per hour)" %}
+  {% assign desc_priv = "Individual intensive coaching with a dedicated kitesurf instructor." %}
+  {% assign url_wing = "https://kite-mallorca.com/en/wingfoiling/" %}
+  {% assign name_wing = "Wingfoiling Beginner Course (10 Hours)" %}
+  {% assign desc_wing = "Systematic wingfoil lessons covering wing handling, foil training, and first flights." %}
+  {% assign url_r_day = "https://kite-mallorca.com/en/renting/per-hour-or-day/" %}
+  {% assign name_r_day = "Full Kitesurf Equipment Set (Day Rental)" %}
+  {% assign desc_r_day = "Latest Duotone & Eleveight gear including size exchange and rescue boat supervision." %}
+  {% assign url_r_week = "https://kite-mallorca.com/en/renting/long-term/" %}
+  {% assign name_r_week = "7 Days Full Kitesurf Equipment Rental" %}
+  {% assign desc_r_week = "Flexible weekly rental for kites and boards including size exchange." %}
+{% elsif lang == "es" %}
+  {% assign schema_desc = "Escuela internacional de kitesurf y centro de wingfoil en la bahía de Pollensa (Alcudia). Cursos para principiantes y avanzados, licencias VDWS y alquiler de material premium." %}
+  {% assign catalog_name = "Servicios de Kitesurf y Wingfoil" %}
+  {% assign cat_kitesurf = "Cursos de Kitesurf" %}
+  {% assign cat_wingfoil = "Cursos de Wingfoil" %}
+  {% assign cat_rental = "Alquiler de Material" %}
+  {% assign url_beg = "https://kite-mallorca.com/es/cursos-de-kitesurf/principiante/" %}
+  {% assign name_beg = "Curso de Kitesurf Principiante (10 Horas)" %}
+  {% assign desc_beg = "Curso completo de iniciación al kitesurf con teoría, bodydrag, waterstart y preparación para la licencia VDWS." %}
+  {% assign url_tas = "https://kite-mallorca.com/es/cursos-de-kitesurf/iniciacion/" %}
+  {% assign name_tas = "Bautismo de Kitesurf (3 Horas)" %}
+  {% assign desc_tas = "Primeros pasos en el kitesurf con control de cometa y bodydrag en aguas poco profundas." %}
+  {% assign url_ref = "https://kite-mallorca.com/es/cursos-de-kitesurf/avanzado/" %}
+  {% assign name_ref = "Curso de Perfeccionamiento / Avanzado (4 Horas)" %}
+  {% assign desc_ref = "Entrenamiento para refrescar waterstart, ceñida y técnicas de seguridad." %}
+  {% assign url_priv = "https://kite-mallorca.com/es/cursos-de-kitesurf/privado/" %}
+  {% assign name_priv = "Clases Privadas 1:1 de Kitesurf (por hora)" %}
+  {% assign desc_priv = "Coaching intensivo individual con instructor de kitesurf dedicado." %}
+  {% assign url_wing = "https://kite-mallorca.com/es/wingfoiling/" %}
+  {% assign name_wing = "Curso de Wingfoil para Principiantes (10 Horas)" %}
+  {% assign desc_wing = "Curso sistemático de wingfoil con manejo del wing, entrenamiento en foil y primeros vuelos." %}
+  {% assign url_r_day = "https://kite-mallorca.com/es/alquiler/por-hora-y-dia/" %}
+  {% assign name_r_day = "Alquiler de Equipo Completo de Kitesurf (1 Día)" %}
+  {% assign desc_r_day = "Material reciente de Duotone y Eleveight con cambio de medida y supervisión con lancha de rescate." %}
+  {% assign url_r_week = "https://kite-mallorca.com/es/alquiler/largo-plazo/" %}
+  {% assign name_r_week = "Alquiler de Equipo Completo de Kitesurf (7 Días)" %}
+  {% assign desc_r_week = "Alquiler semanal flexible de cometas y tablas con cambio de medida." %}
+{% elsif lang == "it" %}
+  {% assign schema_desc = "Scuola internazionale di kitesurf e centro wingfoil nella baia di Pollensa (Alcudia). Corsi per principianti e avanzati, brevetti VDWS e noleggio attrezzatura premium." %}
+  {% assign catalog_name = "Servizi Kitesurf & Wingfoil" %}
+  {% assign cat_kitesurf = "Corsi Kitesurf" %}
+  {% assign cat_wingfoil = "Corsi Wingfoil" %}
+  {% assign cat_rental = "Noleggio Attrezzatura" %}
+  {% assign url_beg = "https://kite-mallorca.com/it/corsi-kitesurf/principianti/" %}
+  {% assign name_beg = "Corso Kitesurf Principianti (10 Ore)" %}
+  {% assign desc_beg = "Corso completo di kitesurf per principianti con teoria, bodydrag, waterstart e preparazione al brevetto VDWS." %}
+  {% assign url_tas = "https://kite-mallorca.com/it/corsi-kitesurf/prova/" %}
+  {% assign name_tas = "Corso Prova Kitesurf (3 Ore)" %}
+  {% assign desc_tas = "Primi passi nel kitesurf con controllo dell'ala e bodydrag in acqua bassa." %}
+  {% assign url_ref = "https://kite-mallorca.com/it/corsi-kitesurf/avanzati/" %}
+  {% assign name_ref = "Corso Avanzato / Refresh (4 Ore)" %}
+  {% assign desc_ref = "Allenamento per rinfrescare waterstart, risalita al vento e manovre di sicurezza." %}
+  {% assign url_priv = "https://kite-mallorca.com/it/corsi-kitesurf/lezioni-private/" %}
+  {% assign name_priv = "Lezioni Private 1:1 di Kitesurf (all'ora)" %}
+  {% assign desc_priv = "Coaching intensivo individuale con istruttore dedicato." %}
+  {% assign url_wing = "https://kite-mallorca.com/it/wingfoiling/" %}
+  {% assign name_wing = "Corso Wingfoil Principianti (10 Ore)" %}
+  {% assign desc_wing = "Corso sistematico di wingfoil con gestione dell'ala, tecnica del foil e primi voli." %}
+  {% assign url_r_day = "https://kite-mallorca.com/it/noleggio/ore-o-giorno/" %}
+  {% assign name_r_day = "Noleggio Set Completo Kitesurf (1 Giorno)" %}
+  {% assign desc_r_day = "Attrezzatura Duotone ed Eleveight con cambio misura e supervisione con barca d'appoggio." %}
+  {% assign url_r_week = "https://kite-mallorca.com/it/noleggio/lungo-termine/" %}
+  {% assign name_r_week = "Noleggio Set Completo Kitesurf (7 Giorni)" %}
+  {% assign desc_r_week = "Noleggio settimanale flessibile di kite e tavole con cambio misura." %}
+{% elsif lang == "fr" %}
+  {% assign schema_desc = "École internationale de kitesurf et centre de wingfoil dans la baie de Pollensa (Alcudia). Cours débutants et perfectionnement, licences VDWS et location de matériel premium." %}
+  {% assign catalog_name = "Prestations Kitesurf & Wingfoil" %}
+  {% assign cat_kitesurf = "Cours de Kitesurf" %}
+  {% assign cat_wingfoil = "Cours de Wingfoil" %}
+  {% assign cat_rental = "Location de Matériel" %}
+  {% assign url_beg = "https://kite-mallorca.com/fr/cours-kitesurf/debutant/" %}
+  {% assign name_beg = "Stage de Kitesurf Débutant (10 Heures)" %}
+  {% assign desc_beg = "Stage complet d'initiation au kitesurf avec théorie, nage tractée, waterstart et préparation au brevet VDWS." %}
+  {% assign url_tas = "https://kite-mallorca.com/fr/cours-kitesurf/initiation/" %}
+  {% assign name_tas = "Cours d'Initiation Kitesurf (3 Heures)" %}
+  {% assign desc_tas = "Premiers pas en kitesurf avec pilotage de l'aile et nage tractée en eau peu profonde." %}
+  {% assign url_ref = "https://kite-mallorca.com/fr/cours-kitesurf/perfectionnement/" %}
+  {% assign name_ref = "Cours de Perfectionnement Kitesurf (4 Heures)" %}
+  {% assign desc_ref = "Remise à niveau pour consolider le waterstart, la remontée au vent et la sécurité." %}
+  {% assign url_priv = "https://kite-mallorca.com/fr/cours-kitesurf/cours-particuliers/" %}
+  {% assign name_priv = "Cours Particuliers 1:1 de Kitesurf (par heure)" %}
+  {% assign desc_priv = "Coaching intensif sur mesure avec un moniteur dédié." %}
+  {% assign url_wing = "https://kite-mallorca.com/fr/wingfoiling/" %}
+  {% assign name_wing = "Stage de Wingfoil Débutant (10 Heures)" %}
+  {% assign desc_wing = "Stage structuré de wingfoil avec maniement de la wing, technique du foil et premiers vols." %}
+  {% assign url_r_day = "https://kite-mallorca.com/fr/location/heure-ou-journee/" %}
+  {% assign name_r_day = "Location Pack Complet Kitesurf (1 Jour)" %}
+  {% assign desc_r_day = "Matériel récent Duotone et Eleveight avec changement de taille et sécurité bateau." %}
+  {% assign url_r_week = "https://kite-mallorca.com/fr/location/longue-duree/" %}
+  {% assign name_r_week = "Location Pack Complet Kitesurf (7 Jours)" %}
+  {% assign desc_r_week = "Location hebdomadaire flexible de kites et planches avec échange de matériel." %}
+{% else %}
+  {% assign schema_desc = "Internationale Kiteschule und Wingfoil-Center in der Bucht von Pollensa (Alcudia). Kurse für Anfänger und Fortgeschrittene, VDWS-Lizenzen und Premium-Materialmiete." %}
+  {% assign catalog_name = "Kitesurf & Wingfoil Services" %}
+  {% assign cat_kitesurf = "Kitesurf Kurse" %}
+  {% assign cat_wingfoil = "Wingfoiling Kurse" %}
+  {% assign cat_rental = "Materialverleih" %}
+  {% assign url_beg = "https://kite-mallorca.com/de/kitekurse/anfaengerkurse/" %}
+  {% assign name_beg = "10 Stunden Kitesurf Anfängerkurs" %}
+  {% assign desc_beg = "Umfassender Anfängerkurs für Kitesurfen inklusive Theorie, Bodydrag, Wasserstart und VDWS-Lizenzvorbereitung." %}
+  {% assign url_tas = "https://kite-mallorca.com/de/kitekurse/schnupperkurse/" %}
+  {% assign name_tas = "3 Stunden Schnupperkurs Kitesurfen" %}
+  {% assign desc_tas = "Erste Schritte im Kitesurfen mit Schirmbeherrschung und Bodydrag im Stehwasser." %}
+  {% assign url_ref = "https://kite-mallorca.com/de/kitekurse/fortgeschritten/" %}
+  {% assign name_ref = "4 Stunden Refresh- / Aufsteigerkurs Kitesurfen" %}
+  {% assign desc_ref = "Wiedereinsteiger-Training zur Auffrischung von Wasserstart, Höhehalten und Sicherheit." %}
+  {% assign url_priv = "https://kite-mallorca.com/de/kitekurse/privatstunden/" %}
+  {% assign name_priv = "1:1 Privatunterricht Kitesurfen pro Stunde" %}
+  {% assign desc_priv = "Individuelles Intensivcoaching mit persönlichem Kitelehrer." %}
+  {% assign url_wing = "https://kite-mallorca.com/de/wingfoiling/" %}
+  {% assign name_wing = "Wingfoiling Einsteigerkurs (10 Stunden)" %}
+  {% assign desc_wing = "Systematischer Wingfoil-Kurs mit Wing-Handling, Foil-Training und ersten Flügen." %}
+  {% assign url_r_day = "https://kite-mallorca.com/de/vermietung/pro-stunde-oder-tag/" %}
+  {% assign name_r_day = "Tagesmiete Kitesurf Komplettset (Kite, Board, Trapez, Neopren)" %}
+  {% assign desc_r_day = "Neuestes Duotone & Eleveight Equipment inklusive Größentausch und Rettungsboot-Aufsicht." %}
+  {% assign url_r_week = "https://kite-mallorca.com/de/vermietung/langzeit/" %}
+  {% assign name_r_week = "7 Tage Kitesurf Komplettset Miete" %}
+  {% assign desc_r_week = "Flexible Wochenmiete für Kites und Boards inklusive Größentausch." %}
+{% endif %}
+
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "AggregateRating",
-  "itemReviewed": {
-    "@type": "LocalBusiness",
-    "image": "https://kite-mallorca.com/images/gerhard-und-daniel.jpg",
-    "name": "Kitesurf Mallorca SL - International Kitesurf Center",
-    "telephone": "+34-696-264-729",
-    "priceRange": "$$",
-    "address" : {
-      "@type": "PostalAddress",
-      "streetAddress": "Calle del Greco 19",
-      "addressLocality": "Alcudia",
-      "addressRegion": "Balearic Islands",
-      "postalCode": "07400",
-      "addressCountry": "Spain"
-    }
-  },
-  "ratingValue": "4.9",
-  "bestRating": "5",
-  "ratingCount": "114"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SportsActivityLocation",
+      "@id": "https://kite-mallorca.com/#school",
+      "name": "Kitesurf Mallorca SL",
+      "alternateName": "Kite-Mallorca Kiteschule & Wingfoil Center",
+      "telephone": "+34-696-264-729",
+      "priceRange": "$$",
+      "image": "https://kite-mallorca.com/images/gerhard-und-daniel.jpg",
+      "url": "https://kite-mallorca.com/{{ lang }}/",
+      "logo": "https://kite-mallorca.com/images/kite-mallorca_225x177.png",
+      "sameAs": [
+        "https://www.facebook.com/KitesurfMallorca",
+        "https://twitter.com/kite_mallorca"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle del Greco 19",
+        "addressLocality": "Alcudia",
+        "addressRegion": "Balearic Islands",
+        "postalCode": "07400",
+        "addressCountry": "ES"
+      },
+      "description": "{{ schema_desc }}",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 09:00-20:00",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "39.8667",
+        "longitude": "3.0833"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "114",
+        "reviewCount": "114"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "{{ catalog_name }}",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "{{ cat_kitesurf }}",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "{{ name_beg }}",
+                "price": "{{ p.beginner_10h.price }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_beg }}",
+                "itemOffered": {
+                  "@type": "Course",
+                  "name": "{{ name_beg }}",
+                  "description": "{{ desc_beg }}"
+                }
+              },
+              {
+                "@type": "Offer",
+                "name": "{{ name_tas }}",
+                "price": "{{ p.taster_3h.price }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_tas }}",
+                "itemOffered": {
+                  "@type": "Course",
+                  "name": "{{ name_tas }}",
+                  "description": "{{ desc_tas }}"
+                }
+              },
+              {
+                "@type": "Offer",
+                "name": "{{ name_ref }}",
+                "price": "{{ p.refresher_4h.price }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_ref }}",
+                "itemOffered": {
+                  "@type": "Course",
+                  "name": "{{ name_ref }}",
+                  "description": "{{ desc_ref }}"
+                }
+              },
+              {
+                "@type": "Offer",
+                "name": "{{ name_priv }}",
+                "price": "{{ p.private_hourly.price }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_priv }}",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "{{ name_priv }}",
+                  "description": "{{ desc_priv }}"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "{{ cat_wingfoil }}",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "{{ name_wing }}",
+                "price": "{{ w.beginner_course.price | default: 590 }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_wing }}",
+                "itemOffered": {
+                  "@type": "Course",
+                  "name": "{{ name_wing }}",
+                  "description": "{{ desc_wing }}"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "{{ cat_rental }}",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "{{ name_r_day }}",
+                "price": "{{ r.complete_set.day1 }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_r_day }}",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "{{ name_r_day }}",
+                  "description": "{{ desc_r_day }}"
+                }
+              },
+              {
+                "@type": "Offer",
+                "name": "{{ name_r_week }}",
+                "price": "{{ r.complete_set.day7 }}",
+                "priceCurrency": "{{ curr }}",
+                "availability": "https://schema.org/InStock",
+                "url": "{{ url_r_week }}",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "{{ name_r_week }}",
+                  "description": "{{ desc_r_week }}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://kite-mallorca.com/#organization",
+      "name": "Kitesurf Mallorca SL",
+      "url": "https://kite-mallorca.com/",
+      "logo": "https://kite-mallorca.com/images/kite-mallorca_225x177.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+34-696-264-729",
+          "contactType": "customer service",
+          "availableLanguage": ["German", "English", "Spanish", "Italian", "French"]
+        }
+      ]
+    }{% if page.url != "/" and page.url != "/de/" and page.url != "/en/" and page.url != "/es/" and page.url != "/it/" and page.url != "/fr/" %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page.url | prepend: site.url }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "{{ nav.home | default: 'Home' }}",
+          "item": "https://kite-mallorca.com/{{ lang }}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | split: '-' | first | strip | default: page.title }}",
+          "item": "{{ page.url | replace:'index.html','' | prepend: site.url }}"
+        }
+      ]
+    }{% endif %}
+  ]
 }
 </script>

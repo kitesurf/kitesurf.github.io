@@ -1,13 +1,12 @@
 ---
 layout: article
-buchung: true
-title: "Kitesurfing lessons for beginner &#128242;34-696-264729"
-subtitle: "Kitesurfing basic courses and lessons for beginner"
-date: 2019-02-24T12:57:10+01:00
-modified: 2019-12-07
+title: "Beginner Kitesurfing Course in Mallorca – 10 Hours to the Board"
+subtitle: "Complete beginner course with international VDWS/IKO license in Pollensa Bay"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kitesurfing + kiteboarding lessons for all levels. Complete gear such as kite, board, harness and wetsuit included"
-image:
+description: "10-hour beginner kitesurfing course in Mallorca. Learn to kite in shallow flat water in Pollensa Bay with certified English-speaking instructors & full gear."
+image: 
   background: 7.webp
   backgroundx1: 7mov.webp
   backgroundx2: 7mov.webp
@@ -15,31 +14,34 @@ image:
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
   feature: "flying-friends/l_sabrina-and-niklas-002.jpg"
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_055.jpg
-  picnum: 55
-snippets: null
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_038.jpg"
+  picnum: 38
+snippets: true
 lang: en
 "en-url": en/kitesurfing-lessons/beginner/
 "es-url": es/cursos-de-kitesurf/principiante/
 "de-url": de/kitekurse/anfaengerkurse/
-t:
+"it-url": it/corsi-kitesurf/principianti/
+"fr-url": fr/cours-kitesurf/debutant/
+t: 
+  menu: MENU
+  link1: "kitesurfing-lessons/"
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons/"
+  link2: "renting/"
   menutxt2: "rental"
-  link2:    "renting/"
+  link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
-  link3:    "wingfoiling/"
+  link4: "contact/"
   menutxt4: "contact"
-  link4:    "contact/"
+  link5: "flying-friends/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends/"
-  menutxt6: "Disclaimer"
   link6: "disclaimer/"
-  menutxt7: "Contact us"
+  menutxt6: "Disclaimer"
   link7: "contact-us/"
+  menutxt7: "Contact us"
   link8: "shop/"
-  menutxt8: shop
+  menutxt8: "Shop"
   link9: "outfit/"
   menutxt9: "Outfit"
   link20: "kitesurfing-lessons/tryout/"
@@ -51,48 +53,57 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat lessons"
+  menutxt24: "Private lessons"
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
-  menutxt31: "Long-term rent"
-  teaser: KITESURFING LESSONS
+  menutxt31: "Long term rent"
+  teaser: "Our 10-Hour Beginner Course – The Best Foundation for Every Kiter"
+published: true
 ---
 
-<div id="bookingKitContainer" data-lang="en" data-e="ec7242b91d52f942c5d0333c2c0001cb" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=ec7242b91d52f942c5d0333c2c0001cb" async></script>
-<noscript>
-<h1>Basic course in kitesurfing, on an hourly basis for 45,- Euro or 10 hours for 400,- Euro</h1>
-<br>
- 
-<span>Our basic course in kitesurfing makes you independent in the shortest possible time.<br>
-When dealing with kiteboards and kites you will learn to ride the waves and get a lot of fun.<br>
-You can book an extra theory to gain the official license at the end of the course. Which entitles you to rent materials at other kite schools.<br><br>
+{% assign p = site.data.prices.kitesurf.beginner_10h %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-This is a group course for up to 4 students per teacher.<br>
-The material is complete for each student and included in the final price.</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for beginner lessons">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested in lessons. We'll contact you back soon"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
-  <input type="submit" value="Send">
-</form>
-<ul>
-  <li>From zero to 100 in only 10 hours</li>
-  <li>Payable even after completion</li>
-  <li>You continue where you were the last time</li>
-  <li>On the individual beginner course for 500 Euro, the material does not have to be shared with others and is included in the price</li>
-</ul>
-<span>Please bring:
-Swimsuit Suncream Sunglasses Drinkwater</span><br>
+{% include schema-product.html course_key="beginner_10h" name="10-Hour Beginner Kitesurfing Course Mallorca" description="Comprehensive 10-hour beginner kiteboarding course with VDWS/IKO license preparation in shallow water." %}
 
-<span><strong>Please note</strong>
-The start times can shift, depending on the wind. Please ask for confirmation: mobile Daniel +34 696 264 729.</span>
-</div>
+# 10-Hour Beginner Kitesurfing Course in Mallorca
+
+Our 10-hour beginner package is the most comprehensive, safe, and fun way to learn kitesurfing. In the flat, waist-deep waters of Pollensa Bay (Sa Marina), you will progress step by step under the guidance of certified English-speaking coaches.
+
+> **Key Course Facts:**  
+> * **Duration:** 10 hours of practical tuition across {{ p.duration_days }} days (afternoon thermal wind sessions).  
+> * **Price:** from **{{ p.price }} {{ curr }}** per person (includes full gear, wetsuit, harness, vest & helmet).  
+> * **Group Size:** Small group ({{ p.group_size }} students max per coach) for personalized instruction.  
+> * **Goal:** Confident kite control, water starts, independent riding, and international **VDWS/IKO license** preparation.
+
+---
+
+## 3-Phase Course Structure
 
 {% include carousel.html %}
 
-</noscript>
+### Phase 1: Ground School & Kite Dynamics (2–3 Hours)
+* Introduction to modern 4-line bow and hybrid kites (Duotone & Eleveight).
+* Wind window theory, wind direction, and launch/land safety signals.
+* Trainer kite handling and safety release activation.
+
+### Phase 2: Water Bodydragging (3–4 Hours)
+* Water relaunching techniques.
+* Bodydragging downwind and crosswind using the full power of the kite.
+* Upwind bodydrag for board recovery without a dangerous board leash.
+
+### Phase 3: Water Start & First Riding Runs (3–4 Hours)
+* Board positioning in shallow water.
+* Power stroke coordination and standing up smoothly.
+* Continuous gliding across the bay in both directions!
+
+---
+
+## What to Bring
+
+Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! All technical gear, premium kites, boards, harnesses, wetsuits, and safety helmets are provided.
+
+---
+
+[» Inquire or Book Your Beginner Course Today]({{ site.url }}/en/contact/ "Contact Kitesurf Mallorca")

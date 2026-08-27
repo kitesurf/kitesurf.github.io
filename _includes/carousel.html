@@ -1,4 +1,3 @@
-
 <div>
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
@@ -22,18 +21,18 @@
               "@context": "https://schema.org/",
               "@type": "Review",
               "itemReviewed": {
-                "@type": "LocalBusiness",
+                "@type": "SportsActivityLocation",
                 "image": "https://kite-mallorca.com/images/gerhard-und-daniel.jpg",
-                "name": "Legal Seafood",
+                "name": "Kitesurf Mallorca SL",
                 "priceRange": "$$",
                 "telephone": "+34-696-264-729",
                 "address" :{
                   "@type": "PostalAddress",
                   "streetAddress": "Calle del Greco 19",
                   "addressLocality": "Alcudia",
-                  "addressRegion": "Balearic Island",
+                  "addressRegion": "Balearic Islands",
                   "postalCode": "07400",
-                  "addressCountry": "Spain"
+                  "addressCountry": "ES"
                 }
               },
               "reviewRating": {
@@ -76,7 +75,7 @@
             </div>
             <div class="review-body">
                 <p>{{ item.review }}</p>
-                  <a href="{{ item.org_link }}" target="_blank" rel="nofollow">{{ lang.org_link }}{{ item.review_at }}</a>
+                <p><a href="{{ item.org_link }}" target="_blank" rel="noopener nofollow"><strong>{{ lang.org_link }}{{ item.review_at }} »</strong></a></p>
             </div>
         </div> 
         {% if forloop.index == 1 %}
@@ -92,10 +91,20 @@
     </div>
       {% endfor %}
 </div>
-  <div>
+  <div style="margin-top: 10px;">
     <strong>
-       {{ lang.ratings_based1 }}<span>4.6</span>/5
-       {{ lang.ratings_based2 }}<span>95</span> {{ lang.ratings_based3 }}
+       {{ lang.ratings_based1 }}<span>4.9</span>/5
+       {{ lang.ratings_based2 }}<span>114</span> 
+       {% if page.lang == "en" %}
+         reviews on <a href="https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z" target="_blank" rel="noopener nofollow">Google</a>, <a href="https://www.facebook.com/KitesurfMallorca/reviews" target="_blank" rel="noopener nofollow">Facebook</a> &amp; <a href="https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html" target="_blank" rel="noopener nofollow">Tripadvisor</a>.
+       {% elsif page.lang == "es" %}
+         reseñas en <a href="https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z" target="_blank" rel="noopener nofollow">Google</a>, <a href="https://www.facebook.com/KitesurfMallorca/reviews" target="_blank" rel="noopener nofollow">Facebook</a> y <a href="https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html" target="_blank" rel="noopener nofollow">Tripadvisor</a>.
+       {% elsif page.lang == "it" %}
+         recensioni su <a href="https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z" target="_blank" rel="noopener nofollow">Google</a>, <a href="https://www.facebook.com/KitesurfMallorca/reviews" target="_blank" rel="noopener nofollow">Facebook</a> e <a href="https://www.tripadvisor.it/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html" target="_blank" rel="noopener nofollow">Tripadvisor</a>.
+       {% elsif page.lang == "fr" %}
+         avis sur <a href="https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z" target="_blank" rel="noopener nofollow">Google</a>, <a href="https://www.facebook.com/KitesurfMallorca/reviews" target="_blank" rel="noopener nofollow">Facebook</a> et <a href="https://www.tripadvisor.fr/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html" target="_blank" rel="noopener nofollow">Tripadvisor</a>.
+       {% else %}
+         Bewertungen auf <a href="https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z" target="_blank" rel="noopener nofollow">Google</a>, <a href="https://www.facebook.com/KitesurfMallorca/reviews" target="_blank" rel="noopener nofollow">Facebook</a> und <a href="https://www.tripadvisor.de/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html" target="_blank" rel="noopener nofollow">Tripadvisor</a>.
+       {% endif %}
     </strong>
   </div>
-   

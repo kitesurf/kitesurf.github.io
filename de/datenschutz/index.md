@@ -5,7 +5,7 @@ subtitle: Datenschutz
 date: 2018-06-14T00:00:00.000Z
 modified: 2018-06-14
 author: daniel
-description: null
+description: "Datenschutzerklärung von Kitesurf Mallorca SL: Erfahre alles über den Schutz deiner Daten, Cookies und deine Rechte gemäß DSGVO."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: de
 "en-url": en/disclaimer/
 "es-url": "es/aviso-legal/"
 "de-url": de/datenschutz/
+"it-url": it/privacy/
+"fr-url": fr/mentions-legales/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -61,7 +63,7 @@ published: true
 ---
 
 
-<h1>Datenschutzerklärung</h1><h2 id="dsg-general-intro"></h2><p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).<br>
+<h2 id="dsg-general-intro">Datenschutzerklärung</h2><p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).<br>
 <br>
 </p><h2 id="dsg-general-controller">Verantwortlicher</h2><p><span class="tsmcontroller">Kitesurf Mallorca SL<br>
 Daniel von Ledebur<br>

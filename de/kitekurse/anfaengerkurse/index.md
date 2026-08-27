@@ -1,12 +1,11 @@
 ---
 layout: article
-buchung: true
-title: "Anfängerkurs im Kiten mit KITESURF MALLORCA"
-subtitle: Mit viel Spass das Kitesurfen richtig lernen vom Anfang an
-date: 2019-02-21T00:00:00.000Z
-modified: 2020-03-12T00:00:00.000Z
+title: "Kitesurf Anfängerkurs Mallorca – In 10 Stunden aufs Board"
+subtitle: "Dein Grundkurs mit VDWS-Lizenz in der Bucht von Pollensa (Alcudia)"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kurse im kitesurfen auf Mallorca: mit viel Spaß und bei besten Bedingungen kiten lernen"
+description: "Kitesurf Anfängerkurs auf Mallorca: 10 Stunden im flachen Stehrevier. VDWS-Lehrer, Kleingruppen & Duotone Material. Jetzt deinen Kitekurs buchen!"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -17,12 +16,14 @@ image:
   feature: "flying-friends/l_sabrina-and-niklas-002.jpg"
   teaser: null
   thumb: "flying-friends/l_kite-mallorca_038.jpg"
-  picnum: 
-snippets: null
+  picnum: 38
+snippets: true
 lang: de
 "en-url": en/kitesurfing-lessons/beginner/
 "es-url": es/cursos-de-kitesurf/principiante/
 "de-url": de/kitekurse/anfaengerkurse/
+"it-url": it/corsi-kitesurf/principianti/
+"fr-url": fr/cours-kitesurf/debutant/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -57,46 +58,79 @@ t:
   menutxt30: "Miete pro Stunde oder Tag"
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
-  teaser: "Unser Anfängerkurs, die Beste Basis für alle Kitesurfer"
+  teaser: "Unser 10-Stunden-Anfängerkurs – Die beste Basis für jeden Kitesurfer"
 published: true
 ---
 
-<div id="bookingKitContainer" data-lang="de" data-e="ec7242b91d52f942c5d0333c2c0001cb" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=de&e=ec7242b91d52f942c5d0333c2c0001cb" async></script>
-<noscript>
-<h1>Reservieren und Buchen: Grundkurs für Anfänger im Kitesurfen, 10 Std.</h1>
-<br>
- 
-AB 45,00 € pro Stunde<br>
-<strong>10 Stunden für ab 400,- € (12% Mengenrabatt)</strong><br>
-<span>Diese Preise gelten bei 1 Equipment pro 2 Teilnehmer, ansonsten siehe Preisliste</span><br><br>
-<span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
-Material wird komplett gestellt und ist im Endpreis inbegrifen.</span><br>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Deine Mail-Adresse" required>
-  <input type="hidden" name="_subject" value="Reservierungsanfrage für einen Kitekurs für Anfänger">
-  <textarea name="body" cols="40" rows="6" placeholder="Teile uns deinen Namen, deine Handynummer und den von Dir vorgesehen Zeitraum mit, wir bestätigen deine Anmeldung sofort."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/de/danke/">
-  <input type="submit" value="Senden">
-</form>
-<ul title="Weitere Highlights bei diesem Kurs"><strong>Welche weiteren Highlights erwarten mich?</strong>
-  <li>Von 0 auf 100 in nur 10 Stunden</li>
-  <li>Material muss, je nach Kurs, nicht mit anderen geteilt werden</li>
-  <li>Material ist im Preis enthalten</li>
-  <li>Zahlbar auch erst nach Vollendung</li>
-  <li>Verbessern deiner bisherigen Fähigkeiten im Kiten</li>
-</ul>
-<H2>
-Zum Ende des Kurses lässt sich extra Theorie einbauen zum erlangen der VDWS-Lizenz. Diese wird zum Mieten von Material an anderen Kiteschulen benötigt.</H2>
-<span><strong>Mitzubringen sind:</strong><br>
-Badesachen, Sonnenschutz, Sonnenbrille, Trinkwasser</span><br><br>
+{% assign p = site.data.prices.kitesurf.beginner_10h %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-<span><strong>Hinweis an die Teilnehmer</strong><br>
-Die Anfangszeiten können sich verschieben, je nach Wind. Wir bitten um Telefonische Absprache kurz vorher. Telefon Daniel +34 696 264 729.</span>
-</div>
+{% include schema-product.html course_key="beginner_10h" name="10 Stunden Kitesurf Anfängerkurs Mallorca" description="Kompletter 10-Stunden-Grundkurs für Einsteiger mit VDWS-Lizenzvorbereitung im Stehrevier Pollensa." %}
+
+# Kitesurf Anfängerkurs auf Mallorca: Dein 10-Stunden-Grundkurs
+
+Unser 10-stündiger Anfängerkurs ist der schnellste, sicherste und fundierteste Einstieg in das Kitesurfen. Im flachen Stehwasser der Bucht von Pollensa (Alcudia) lernst du in kleinen Gruppen von maximal 2 bis 4 Schülern pro Lehrer alle Fertigkeiten, um den Kite souverän zu beherrschen und die ersten selbstständigen Schläge auf dem Board zu gleiten.
+
+> **Das Wichtigste auf einen Blick:**  
+> * **Dauer:** 10 Unterrichtsstunden verteilt auf {{ p.duration_days }} Tage (nachmittags bei idealer Thermik).  
+> * **Preis:** ab **{{ p.price }} {{ curr }}** pro Person (inklusive komplettem Material, Neopren, Trapez, Weste & Helm).  
+> * **Gruppengröße:** Kleine Gruppe ({{ p.group_size }} Schüler) für maximale Betreuung.  
+> * **Ziel:** Selbstständiger Wasserstart, sichere Kitebeherrschung & Vorbereitung auf die international anerkannte **VDWS-Kitelizenz**.
+
+---
+
+## Kursablauf: Die 3 Phasen deines Anfängerkurses
 
 {% include carousel.html %}
 
-</noscript>
+### Phase 1: Flugschule & Sicherheit an Land (ca. 2–3 Stunden)
+Bevor es ins Wasser geht, machen wir dich am breiten Sandstrand mit den Grundlagen vertraut:
+* Aufbau und Funktionsweise moderner 4-Leiner-Tubes (Duotone & Eleveight).
+* Verstehen des Windfensters (Powerzone, Zenit, Windfensterrand).
+* Steuerung des Trainerkites und sicheres Starten & Landen.
+* Auslösen der Safety-Systeme (Quick Release) und Self-Rescue-Routinen.
+
+### Phase 2: Bodydrag im Stehwasser (ca. 3–4 Stunden)
+Jetzt geht es ins seichte Wasser der Bucht:
+* Starten des Kites aus dem Wasser (Relaunch).
+* Ein- und beidhändiges Fliegen des Kites im Wasser.
+* Bodydrag in alle Windrichtungen (sich von der Zugkraft des Kites durchs Wasser ziehen lassen).
+* Bodydrag mit Boardrückholung (wie du dein Board wiederfindest, wenn du es im Wasser verlierst).
+
+### Phase 3: Wasserstart & die ersten gefahrenen Meter (ca. 3–4 Stunden)
+Das Highlight des Kurses – das Board kommt an die Füße:
+* Board anziehen im Wasser bei stabiler Kiteposition.
+* Richtige Körperhaltung und Belastung der Kanten.
+* Koordination des Power-Loops (Sinuskurve) zum Aufstehen.
+* Die ersten gefahrenen Meter nach links und rechts!
+
+---
+
+## Die VDWS-Kitelizenz
+
+Im Rahmen des Kurses bereiten wir dich auf die international anerkannte **VDWS-Kitesurflizenz** vor. Mit dieser Lizenz kannst du weltweit an Kiteschulen Material mieten und deine Könnensstufe (Levels 1 bis 7) offiziell nachweisen.
+
+* Theorieeinweisung und Lizenzprüfung: zzgl. {{ p.vdws_license_fee }} € (inkl. VDWS-Workbook & Membercard).
+
+---
+
+## Was ist im Kurspreis enthalten?
+
+* **Komplettes Schulungsequipment:** Aktuelle Kites und Boards von Duotone & Eleveight.
+* **Persönliche Schutzausrüstung:** Neoprenanzug, Trapez, Prallschutzweste und Helm.
+* **Sicherheit:** Strandaufsicht und Bootsbegleitung bei Bedarf.
+* **Mitzubringen sind lediglich:** Badesachen, Sonnencreme, Handtuch und Trinkwasser.
+
+---
+
+## Häufig gestellte Fragen zum Anfängerkurs (FAQ)
+
+### Brauche ich Vorkenntnisse oder besondere Fitness?
+Nein. Kitesurfen erfordert vor allem Gefühl für den Schirm und die richtige Technik, keine übermäßige Muskelkraft (die Zugkraft wird vom Trapez auf den Körper übertragen, nicht von den Armen). Du musst lediglich schwimmen können.
+
+### Was passiert bei Flaute oder Gewitter?
+Nicht genutzte Kursstunden verfallen selbstverständlich nicht! Sollte der Wind einmal nicht ausreichen, holen wir die Stunden an den folgenden Tagen nach oder rechnen sie fair ab.
+
+---
+
+[» Jetzt unverbindlich deinen Anfängerkurs anfragen oder buchen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

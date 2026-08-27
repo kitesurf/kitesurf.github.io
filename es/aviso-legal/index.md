@@ -5,7 +5,7 @@ subtitle: "Aviso legal"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Aquí encuentras el aviso legal de Kitesurf Mallorca SL"
+description: "Aviso legal, términos de servicio y política de privacidad de Kitesurf Mallorca SL según la normativa española e internacional RGPD/DSGVO."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: es
 en-url: "en/disclaimer/"
 es-url: "es/aviso-legal/"
 de-url: "de/datenschutz/"
+it-url: "it/privacy/"
+fr-url: "fr/mentions-legales/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"
@@ -59,7 +61,7 @@ t:
 ---
 
 
-# Aviso legal
+## Aviso legal
 
 
 Información general para dar cumplimiento a la Ley de Internet 34/2002:

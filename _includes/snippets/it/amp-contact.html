@@ -1,0 +1,24 @@
+<div id="chatlinks"></div>
+<h4>Hai domande?</h4>
+<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
+  <input type="email" name="_replyto" placeholder="Il tuo indirizzo email" required>
+  <input type="hidden" name="_subject" value="Informazioni corsi kitesurf / noleggio">
+  <textarea name="body" placeholder="Scrivi qui le tue domande"></textarea>
+  <span>Lasciaci il tuo nome e numero di telefono per ricevere aggiornamenti gratuiti su vento e spot durante la tua vacanza.</span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/it/thanks">
+  <input type="submit" value="Invia">
+    <div submit-success>
+      <template type="amp-mustache">
+        Il modulo non è stato inviato, riprova a cliccare su Invia.
+      </template>
+    </div>
+    <div submit-error>
+      <template type="amp-mustache">
+        Grazie per la tua richiesta. Ti risponderemo nelle prossime ore!
+      </template>
+    </div>
+</form>
+<span>
+  Oppure scrivici direttamente a:
+  <p class="backforward">moc.acrollam-etik@maet</p>
+</span>

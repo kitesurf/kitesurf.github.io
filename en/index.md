@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kitesurf Mallorca - International Kiteboarding School +34-696-264729"
-subtitle: "Your International Kitesurf Center"
-date: 2015-11-23
-modified: 2018-04-14
+title: "Kitesurfing & Wingfoiling in Mallorca – School & Rental"
+subtitle: "Your International Kitesurf & Wingfoil Center in Pollensa Bay (Alcudia)"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kitesurfing, kiteboarding and foiling. All year-round rental of kite gear and courses with certified instructors for all levels. Call us"
+description: "Kitesurfing & wingfoil lessons in Mallorca for all levels. English-speaking instructors, shallow flat water in Pollensa Bay & top Duotone gear."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -14,7 +14,7 @@ image:
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
   feature: null
-  teaser:
+  teaser: null
   thumb: 7.jpg
   picnum: 08
 snippets: true
@@ -22,6 +22,8 @@ lang: en
 en-url: "en/"
 es-url: "es/"
 de-url: "de/"
+it-url: "it/"
+fr-url: "fr/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"
@@ -38,7 +40,7 @@ t:
   menutxt7: "Contact us"
   link7: "contact-us/"
   link8: "shop/"
-  menutxt8: shop
+  menutxt8: "shop"
   link9: "outfit/"
   menutxt9: "Outfit"
   link20: "kitesurfing-lessons/tryout/"
@@ -50,49 +52,88 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat Lessons"
+  menutxt24: "Private Lessons"
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long-term rent"
-  teaser:
+  teaser: "Learn Kitesurfing & Wingfoiling in Mallorca with Certified Instructors"
+published: true
 ---
 
-# [**KITEBOARDING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**RENTING**]({{ site.url }}/en/renting/ "Kite & board rental"), [**WINGFOILING**]({{ site.url }}/en/wingfoiling/ "Wingfoiling courses in Mallorca") [**& MORE**]({{ site.url }}/en/flying-friends/)
+# [**KITESURFING LESSONS**]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing courses and lessons"), [**WINGFOILING**]({{ site.url }}/en/wingfoiling/ "Wingfoiling lessons in Mallorca"), [**RENTAL**]({{ site.url }}/en/renting/ "Kite & board rental") [**& MORE**]({{ site.url }}/en/flying-friends/)
 
-KITE-MALLORCA is located in Sa Marina, the beach in the bay between Alcudia and Port de Pollenca northeast of the island.
+**KITE-MALLORCA** is your premier international kitesurfing school and wingfoil center located at Sa Marina beach in the Bay of Pollensa (Alcudia). Since 2009, our certified English-speaking team has guided thousands of holidaymakers, beginners, and advanced riders safely onto the water with state-of-the-art Duotone and Eleveight equipment.
 
-We've for you:  
-- Lessons for all kite levels (beginners, refreshers and advanced riders),  
-- Kites, Boards, etc. for kiteboarders to rent,  
-- Storage for our guests,  
-- and much more...
+### Quick Overview:
+* **Courses for All Skill Levels:** Beginner licensing courses (VDWS/IKO), refresher sessions, advanced coaching (upwind & jumps), and 1:1 private lessons in English, German, and Spanish.
+* **Wingfoiling & Hydrofoil:** Experience the sensation of silent flight above the water in shallow, protected conditions.
+* **Premium Gear Hire & Storage:** Latest kites, wings, foils, and boards from Duotone & Eleveight with free size swapping and rescue boat supervision.
+* **Perfect Spot:** Wide shallow standing area with fine sand and reliable thermal afternoon breeze ("Embat") from April through October.
 
-## Kiteboarding and kitesurfing courses
-As an absolute beginner you normally need about 10 hours of lessons to control the kite, do the first water-start attempts and ride the first meters so that you can then go into a rental and continue to practice independently under our supervision.
+---
+
+## Kitesurfing Lessons in Mallorca – Safe, Structured & Fast Progress
+
+Our teaching philosophy emphasizes small group sizes (maximum 2 to 4 students per instructor), radio communication, and practical water time so you get up on the board quickly and safely.
 
 {% include carousel.html %}
 
-The lessons for refreshers or advanced riders fully depend on the individual level of the kiter. Regardless of whether keeping height, going upwind, doing basic turns, jibe or first jumps - the instructor follows your needs and brings you to the next kite level!
+### Choose Your Ideal Kitesurf Course:
 
-### Our quality for the best price
+{% include prices-courses.html %}
 
-10-hour beginner's course - from **EUR 399,-** This price is per person for 2 students together with one kite! 
-Lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)
+[» Explore All Kitesurfing Lessons & Course Details]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and prices")
 
-Lessons on an hourly basis - **EUR 60,-/h** or 4 hours for **EUR 220,-**
-Individual hours for all levels in a small group of 2-4 students
+---
 
-3 hours trial course - **EUR 150,-** 
-Lessons in a small group of 2-4 students to be dragged through the water by a real kite! Any student is fully equipped. (duration 1 day)
+## Learn Wingfoiling in Mallorca
 
-[» full choice and prices for Kitesurfing lessons]({{ site.url }}/en/kitesurfing-lessons/ "Kitesurfing lessons and pricing")
+Wingfoiling combines the thrill of wind sports with the friction-free glide of hydrofoiling. Holding a lightweight, handheld wing, the underwater foil lifts your board out of the water as soon as you gain momentum, allowing you to ride even in light afternoon breezes.
 
+* Easy and intuitive to learn with no complex line setups.
+* Safe instruction in shallow water or behind our dedicated coaching boat.
+* Full beginner gear package provided: High-volume boards, stable foils, wetsuit, impact vest, and helmet.
 
-## KITE & BOARD RENTAL
+[» Discover Wingfoiling Lessons & Rental Options]({{ site.url }}/en/wingfoiling/ "Wingfoiling in Mallorca")
 
-The latest equipment from Duotone and Eleveight is available for you to rent. Of course, the kites and boards can be changed during the day depending on the wind conditions. We support you with selecting the right material - for your safety and to progress quickly and successfully!
+---
 
-We always keep an eye on you and in case you need our help we are immediately with you by kite or rescue boat.
+## Premium Kite & Wing Gear Hire
 
-[» full choice and prices for Kite & board rental]({{ site.url }}/en/renting/ "Renting and costs")
+Traveling to Mallorca without heavy sports luggage? Rent current-season kites, boards, and foils from **Duotone** and **Eleveight** directly at the beach spot in Sa Marina.
+
+* **Flexible Gear Swapping:** Change kite or board sizes as the afternoon wind changes.
+* **Safety First:** Beach observation and immediate rescue boat assistance if needed.
+* **Equipment Storage:** Secure on-beach storage available for guests bringing their own gear.
+
+[» View Full Equipment Rental Rates & Weekly Packages]({{ site.url }}/en/renting/ "Kite and wing rental Mallorca")
+
+---
+
+## The Spot: Bay of Pollensa / Alcudia
+
+The Bay of Pollensa in the north of Mallorca is celebrated across Europe as one of the safest and most wind-reliable spots in the Mediterranean.
+
+* **Reliable Thermal Breeze ("Embat"):** From April to late October, local heating creates a steady, side-onshore thermal wind of 12 to 18 knots almost daily from early afternoon.
+* **Shallow Sandy Bay:** A vast standing area with a sandy seabed enables stress-free water starts and maneuver practice without deep-water exhaustion.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### What is the best time of year for kitesurfing in Mallorca?
+The main wind season runs from **April to late October**. During these months, Mallorca's sunny climate produces reliable thermal sea breezes ("Embat") practically every sunny afternoon.
+
+### How many hours does it take to learn kitesurfing?
+Most complete beginners become independent riders within a **10-hour beginner course** (typically spread across 3 to 5 days), covering kite control, bodydrags, water starts, and basic riding.
+
+### What languages do your instructors speak?
+All our certified instructors teach fluently in **English, German, and Spanish**.
+
+### What do I need to bring?
+Swimwear, sun cream, sunglasses, and a towel! We provide all technical equipment, wetsuits, harnesses, flotation vests, and helmets.
+
+---
+
+[» Get in Touch or Request Your Course via WhatsApp]({{ site.url }}/en/contact/ "Contact Kite Mallorca")

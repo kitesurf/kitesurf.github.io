@@ -23,6 +23,8 @@ lang: en
 "en-url": en/outfit/
 "es-url": es/outfit/
 "de-url": de/outfit/
+"it-url": it/outfit/
+"fr-url": fr/outfit/
 t:
   menu: MENU
   menutxt1: kitesurfing lessons

@@ -1,160 +1,244 @@
-# testimonials, bei aendern der Anzahl muss die Datei carousel in Zeile 69-70 und in der css datei für normal und AMP der zus. Target angepasst werden bei Anzahl der reviews.
-
 lang:
-    de:
-      - person: Ronny R
-        avatar_img: "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/57/avatar030.jpg"
-        languages: de
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.com/members/ronnyr204"
-        quote: 5
-        review: "Mallorca mit der Absicht, das Kiten zu erlernen...Ausrüstung... sehr professionell...am meisten gefallen hat der sehr persönliche Umgang von Daniel und Gerhardt... Aus meiner Sicht sehr empfehlenswert!"
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
-    
-      - person: Elisabeth Kroess
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t31.0-1/c0.0.100.100a/p100x100/330606_2459297561021_268743842_o.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=iJ1kEtSZSekAX93xjVQ&_nc_ht=scontent.fmad6-1.fna&oh=3840605b54dbe2467589903f5b2a73a9&oe=5EFE9955"
-        languages: de
-        review_at: Facebook
-        author_link: "https://www.facebook.com/elisabeth.kroess/posts/10214245848159347:0"
-        quote: 5    
-        review: "Hier stimmt alles: gutes Material, gute Lehrer mit einer Engelsgeduld, gute Stimmung, absolut empfehlenswert. Best Kite School on the Island"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Ute Flockenhaus
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p100x100/71237787_10220706011904429_5925098420682358784_o.jpg?_nc_cat=111&_nc_sid=dbb9e7&_nc_ohc=WUxdgH5B7PcAX_ydq0r&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=52778344098fab61a590ef500966d0ef&oe=5EFD8728"
-        languages: de
-        review_at: Facebook
-        author_link: "https://www.facebook.com/ute.flockenhaus/posts/10216675413181980:0"
-        quote: 5    
-        review: "Nicest Kite Instructors on da World! Fun und Professionalität von der ersten Minute an, für jeden Wind & jedes Level den passenden Kite, individuelles Training und jede Menge gute Laune on top. Muchas gracias, amigos!"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Thorsten Koth
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p100x100/10898006_10204926883986902_5917098033074898328_n.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=gkZTFIeiDnoAX-yA4zy&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=71dab1d2faf707588e8d099ee2efaab7&oe=5EFEAE1A"
-        languages: de
-        review_at: Facebook
-        author_link: "https://www.facebook.com/thorsten.koth.79/posts/10212934301967347:0"
-        quote: 5    
-        review: "Super Jungs, perfekter Service, immer da, wenn man sie braucht. Gute Tipps für neue Manöver, schneller und einfacher kann man die neuen Tricks nicht lernen. Ich kann 'Die Zwei' nur empfehlen und freuen mich schon auf die nächste Session! Danke, und Gruß nach Malle"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Peter L
-        avatar_img: "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/70/avatar053.jpg"
-        languages: de
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.com/members/A8137HVpeterl"
-        quote: 5  
-        review: "Sehr kompetenter....schnell zu Erfolgserlebnissen und stand!!! nach wenigen Tagen schon auf dem Kitebrett!! ....Auf Wunsch ...werden die ersten Stehversuche mit einer GoPro festgehalten!... Suchtfaktor!:)"
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
-
-      - person: Thomas Sprecher
-        avatar_img: https://lh5.googleusercontent.com/-K-Om9lADwms/AAAAAAAAAAI/AAAAAAAAAAA/vgBbOKwy0C8/s74-p/photo.jpg
-        languages: de - en
-        review_at: Google Maps
-        author_link: https://www.google.com/maps/contrib/113521341863057329168/reviews/@39.8678333,3.1077288,15z
-        quote: 5
-        review: "Besser gehts nicht mehr :-) Habe im Sommer 2014 Kite und Board gemietet. Bekommen habe ich persönliche und individuelle Betreuung und Tipps....ermöglichen Dir Kiten bei jeder Bedingung.... Gerne wieder."
-        org_link: "https://www.google.com/search?q=Kitesurf+Mallorca+SL+-+International+Kitesurf+Center,+Carrer+Greco,+19,+07400+Alcudia,+Islas+Baleares,+Illes+Balears&ludocid=16053100418805389750#lrd=0x12962ca9e43656f9:0xdec811c72691d9b6,1"
-
-      - person: "Günna R"
-        avatar_img: "https://media-cdn.tripadvisor.com/media/photo-s/01/2e/70/72/avatar054.jpg"
-        languages: de
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.de/members/g_nnar2017"
-        quote: 5
-        review: "Sehr sehr zufrieden, gaaaanz nette Menschen die ihren Job lieben und es auch zeigen. Nachdem wir erst in der `falschen` Kiteschule Unterricht hatten hat uns Daniel sehr gut aufgenommen und uns das Kiten sehr liebevoll nahegebracht. Wir kommen nächstes Jahr definitiv wieder um das gelernt zu festigen. Vielen lieben Dank an die Crew von Kite-mallorca.com"
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
-
-    en:
-      - person: Marie Thongkhamdy
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p100x100/78232730_10156510961163204_2590890161764040704_o.jpg?_nc_cat=105&_nc_sid=dbb9e7&_nc_ohc=4q73pnTViz0AX-Jq4wI&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=a7ec71b496ea84fb94aeba31738da801&oe=5F00ED5D"
-        languages: fr - en
-        review_at: Facebook
-        author_link: "https://www.facebook.com/marie.thongkhamdy/posts/10156148674173204"
-        quote: 5    
-        review: "Merci à Daniel et Gerhad et aussi l’autre Daniel, d’avoir été super accueillant et compréhensif malgré la barrière de la langue 😛 Je les recommande, ils sont joviales et m’ont semblé patients.Je n’étais qd observation. Contact facile par whatsapp pour nous donner les prév. De la journée et nous convier à faire une session. On y retournera avec grand plaisir 👍"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Stephan Thiel
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p100x100/53472702_2657072884308876_6789414907730198528_n.jpg?_nc_cat=108&_nc_sid=dbb9e7&_nc_ohc=P7PwwGxGAUEAX82HNuv&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=4b99d947dc1f6b1f3134e573a84c0d9d&oe=5F0107FA"
-        languages: en
-        review_at: Facebook
-        author_link: "https://www.facebook.com/stephan.thiel.71/posts/641581249199797:0"
-        quote: 5    
-        review: "Daniel and Gerhard is the best Kite surfing training crew in Mallorca~~~ the coolest lesson I hv ever had!!! I am sure that i will come back soon... awesome experience in alcudia... Thx guys!!!"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-    
-      - person: Michael Probst
-        avatar_img: "https://lh3.googleusercontent.com/-ZebDuiOrRpE/AAAAAAAAAAI/AAAAAAAACZA/rLX1sMOZlQI/s46-c-k-no/photo.jpg"
-        languages: de - en
-        review_at: Google Maps
-        author_link: https://plus.google.com/117331087225651204080/reviews
-        quote: 5   
-        review: "Professional, fair and reliable kite-school. Fair prices due to hourly fees instead of full-course fees. I started as a beginner and would absolutely recommend. English and german spoken, among other languages."
-        org_link: https://plus.google.com/108768305083116030970/about
-
-      - person: Missultin64
-        avatar_img: https://media-cdn.tripadvisor.com/media/photo-l/01/f9/3c/59/missultin64.jpg
-        languages: it - en - es
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.com/members/Missultin64"
-        quote: 5
-        review: "We had a great time with Daniel that is a fantastic guy and really a good kite instructor. The place is excellent both for learners and for experienced kites. Overall EXCELLENT!"
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html"
-
-      - person: Nerijus Malin
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/c0.0.100.100a/p100x100/36720561_10160776220365601_3426953778413174784_o.jpg?_nc_cat=103&_nc_sid=dbb9e7&_nc_ohc=cXLpmXLdbLQAX9WeExp&_nc_ht=scontent.fmad6-1.fna&oh=ae3141c90db27066884d9ff648a76afc&oe=5EFF1A9A"
-        languages: en
-        review_at: Facebook
-        author_link: "https://www.facebook.com/nerijus.malinauskas/posts/10159336759465601:0"
-        quote: 5    
-        review: "My top recommendations to these guys - they professional, also fair (never overcharge), help with advices. I took some lessons and then rented the kite."
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Fabri2332
-        avatar_img: "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/a7/avatar078.jpg"
-        languages: es - en - no 
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.com/members/Fabri2332"
-        quote: 5
-        review: "Excellent, took lessons with Daniel, great guy puts the extra effort so that you learn properly, one of the best lessons I have seen .... I will strongly recommend taking classes with him and his team."
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r226221697-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html#REVIEWS"
-
-    es:
-      - person: Amancay Moreels
-        avatar_img: "https://scontent.fmad6-1.fna.fbcdn.net/v/t1.0-1/p100x100/13920769_10153865766823481_886922025931346587_n.jpg?_nc_cat=107&_nc_sid=dbb9e7&_nc_ohc=SYP_gZHZfjAAX-G2niY&_nc_ht=scontent.fmad6-1.fna&_nc_tp=6&oh=a8f286063e17f24438f0d04020c5b7fa&oe=5EFE61D1"
-        languages: es - en
-        review_at: Facebook
-        author_link: "https://www.facebook.com/amancay.moreels/posts/10154889412103481:0"
-        quote: 5    
-        review: "El que quiera aprender a hacer kitesurf en un tiempo record, en un ambiente distendido y de manera divertida y con gente que ama de verdad lo que hace, que no dude en ponerse en manos de Daniel y de su equipo. Mil gracias chicos! Sois un 10 !!!"
-        org_link: "https://www.facebook.com/pg/KitesurfMallorca/reviews/"
-
-      - person: Alejandro Garcia
-        avatar_img: "https://lh4.googleusercontent.com/-wZJryJKd2e4/AAAAAAAAAAI/AAAAAAAAAAA/4cu3hsPwlPE/w60-h60-p-rp-mo-br100/photo.jpg"
-        languages: es - en
-        review_at: Google
-        author_link: "https://www.google.com/maps/contrib/106235793320365814316/reviews"
-        quote: 5    
-        review: "Experiencia inolvidable. grandes profesionales con ganas de hacer que disfrutes de este deporte cada segundo del curso. Se preocuparon en todo momento de que los equipos fueran adecuados para el clima y mi nivel de experiencia, controlando todos mis avances y necesidades. Fue un curso de 10 horas, que me permitió conocer las nociones básicas del Kitesurf y ser capaz de tener autonomía para empezar a practicar el deporte por mi cuenta. Un 10 para Kite-Mallorca."
-        org_link: "https://business.google.com/reviews/l/10178801782382655446?hl=es"
-
-      - person: Pespy
-        avatar_img: https://media-cdn.tripadvisor.com/media/photo-l/05/18/4d/4a/pespy.jpg
-        languages: es
-        review_at: Tripadvisor
-        author_link: "https://www.tripadvisor.com/members/pespy"
-        quote: 4
-        review: "Unos chicos maravillosos!!! nadie como ellos para tener la primera toma de contacto con el kite, lastima que el viento no nos acompaño durante el curso!!!! totalmente recomendable. Noe es encantadora!!!!!"
-        org_link: "https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r175306685-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html#REVIEWS"
-
-
-
-#     - person:
-#       avatar_img:
-#       languages:
-#       review_at:
-#       author_link: https://plus.google.com/117331087225651204080/reviews
-#       quote:     
-#       review:
-#       org_link: 
+  de:
+  - person: Ronny R
+    avatar_img: /images/testimonials/ronny-r.jpg
+    languages: de
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.com/members/ronnyr204
+    quote: 5
+    review: Mallorca mit der Absicht, das Kiten zu erlernen...Ausrüstung... sehr professionell...am
+      meisten gefallen hat der sehr persönliche Umgang von Daniel und Gerhardt...
+      Aus meiner Sicht sehr empfehlenswert!
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+  - person: Elisabeth Kroess
+    avatar_img: /images/testimonials/elisabeth-kroess.jpg
+    languages: de
+    review_at: Facebook
+    author_link: https://www.facebook.com/elisabeth.kroess/posts/10214245848159347:0
+    quote: 5
+    review: 'Hier stimmt alles: gutes Material, gute Lehrer mit einer Engelsgeduld,
+      gute Stimmung, absolut empfehlenswert. Best Kite School on the Island'
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Ute Flockenhaus
+    avatar_img: /images/testimonials/ute-flockenhaus.jpg
+    languages: de
+    review_at: Facebook
+    author_link: https://www.facebook.com/ute.flockenhaus/posts/10216675413181980:0
+    quote: 5
+    review: Nicest Kite Instructors on da World! Fun und Professionalität von der
+      ersten Minute an, für jeden Wind & jedes Level den passenden Kite, individuelles
+      Training und jede Menge gute Laune on top. Muchas gracias, amigos!
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Thorsten Koth
+    avatar_img: /images/testimonials/thorsten-koth.jpg
+    languages: de
+    review_at: Facebook
+    author_link: https://www.facebook.com/thorsten.koth.79/posts/10212934301967347:0
+    quote: 5
+    review: Super Jungs, perfekter Service, immer da, wenn man sie braucht. Gute Tipps
+      für neue Manöver, schneller und einfacher kann man die neuen Tricks nicht lernen.
+      Ich kann 'Die Zwei' nur empfehlen und freuen mich schon auf die nächste Session!
+      Danke, und Gruß nach Malle
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Peter L
+    avatar_img: /images/testimonials/peter-l.jpg
+    languages: de
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.com/members/A8137HVpeterl
+    quote: 5
+    review: Sehr kompetenter....schnell zu Erfolgserlebnissen und stand!!! nach wenigen
+      Tagen schon auf dem Kitebrett!! ....Auf Wunsch ...werden die ersten Stehversuche
+      mit einer GoPro festgehalten!... Suchtfaktor!:)
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+  - person: Thomas Sprecher
+    avatar_img: /images/testimonials/thomas-sprecher.jpg
+    languages: de - en
+    review_at: Google Maps
+    author_link: https://www.google.com/maps/contrib/113521341863057329168/reviews/@39.8678333,3.1077288,15z
+    quote: 5
+    review: Besser gehts nicht mehr :-) Habe im Sommer 2014 Kite und Board gemietet.
+      Bekommen habe ich persönliche und individuelle Betreuung und Tipps....ermöglichen
+      Dir Kiten bei jeder Bedingung.... Gerne wieder.
+    org_link: https://www.google.com/search?q=Kitesurf+Mallorca+SL+-+International+Kitesurf+Center,+Carrer+Greco,+19,+07400+Alcudia,+Islas+Baleares,+Illes+Balears&ludocid=16053100418805389750#lrd=0x12962ca9e43656f9:0xdec811c72691d9b6,1
+  - person: Günna R
+    avatar_img: /images/testimonials/guenna-r.jpg
+    languages: de
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.de/members/g_nnar2017
+    quote: 5
+    review: Sehr sehr zufrieden, gaaaanz nette Menschen die ihren Job lieben und es
+      auch zeigen. Nachdem wir erst in der `falschen` Kiteschule Unterricht hatten
+      hat uns Daniel sehr gut aufgenommen und uns das Kiten sehr liebevoll nahegebracht.
+      Wir kommen nächstes Jahr definitiv wieder um das gelernt zu festigen. Vielen
+      lieben Dank an die Crew von Kite-mallorca.com
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r261346957-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+  en:
+  - person: Marie Thongkhamdy
+    avatar_img: /images/testimonials/marie-thongkhamdy.jpg
+    languages: fr - en
+    review_at: Facebook
+    author_link: https://www.facebook.com/marie.thongkhamdy/posts/10156148674173204
+    quote: 5
+    review: Merci à Daniel et Gerhad et aussi l’autre Daniel, d’avoir été super accueillant
+      et compréhensif malgré la barrière de la langue 😛 Je les recommande, ils sont
+      joviales et m’ont semblé patients.Je n’étais qd observation. Contact facile
+      par whatsapp pour nous donner les prév. De la journée et nous convier à faire
+      une session. On y retournera avec grand plaisir 👍
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Stephan Thiel
+    avatar_img: /images/testimonials/stephan-thiel.jpg
+    languages: en
+    review_at: Facebook
+    author_link: https://www.facebook.com/stephan.thiel.71/posts/641581249199797:0
+    quote: 5
+    review: Daniel and Gerhard is the best Kite surfing training crew in Mallorca~~~
+      the coolest lesson I hv ever had!!! I am sure that i will come back soon...
+      awesome experience in alcudia... Thx guys!!!
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Michael Probst
+    avatar_img: /images/testimonials/michael-probst.jpg
+    languages: de - en
+    review_at: Google Maps
+    author_link: https://plus.google.com/117331087225651204080/reviews
+    quote: 5
+    review: Professional, fair and reliable kite-school. Fair prices due to hourly
+      fees instead of full-course fees. I started as a beginner and would absolutely
+      recommend. English and german spoken, among other languages.
+    org_link: https://plus.google.com/108768305083116030970/about
+  - person: Missultin64
+    avatar_img: /images/testimonials/missultin64.jpg
+    languages: it - en - es
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.com/members/Missultin64
+    quote: 5
+    review: We had a great time with Daniel that is a fantastic guy and really a good
+      kite instructor. The place is excellent both for learners and for experienced
+      kites. Overall EXCELLENT!
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+  - person: Nerijus Malin
+    avatar_img: /images/testimonials/nerijus-malin.jpg
+    languages: en
+    review_at: Facebook
+    author_link: https://www.facebook.com/nerijus.malinauskas/posts/10159336759465601:0
+    quote: 5
+    review: My top recommendations to these guys - they professional, also fair (never
+      overcharge), help with advices. I took some lessons and then rented the kite.
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Fabri2332
+    avatar_img: /images/testimonials/fabri2332.jpg
+    languages: es - en - no
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.com/members/Fabri2332
+    quote: 5
+    review: Excellent, took lessons with Daniel, great guy puts the extra effort so
+      that you learn properly, one of the best lessons I have seen .... I will strongly
+      recommend taking classes with him and his team.
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r226221697-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html#REVIEWS
+  es:
+  - person: Amancay Moreels
+    avatar_img: /images/testimonials/amancay-moreels.jpg
+    languages: es - en
+    review_at: Facebook
+    author_link: https://www.facebook.com/amancay.moreels/posts/10154889412103481:0
+    quote: 5
+    review: El que quiera aprender a hacer kitesurf en un tiempo record, en un ambiente
+      distendido y de manera divertida y con gente que ama de verdad lo que hace,
+      que no dude en ponerse en manos de Daniel y de su equipo. Mil gracias chicos!
+      Sois un 10 !!!
+    org_link: https://www.facebook.com/pg/KitesurfMallorca/reviews/
+  - person: Alejandro Garcia
+    avatar_img: /images/testimonials/alejandro-garcia.jpg
+    languages: es - en
+    review_at: Google
+    author_link: https://www.google.com/maps/contrib/106235793320365814316/reviews
+    quote: 5
+    review: Experiencia inolvidable. grandes profesionales con ganas de hacer que
+      disfrutes de este deporte cada segundo del curso. Se preocuparon en todo momento
+      de que los equipos fueran adecuados para el clima y mi nivel de experiencia,
+      controlando todos mis avances y necesidades. Fue un curso de 10 horas, que me
+      permitió conocer las nociones básicas del Kitesurf y ser capaz de tener autonomía
+      para empezar a practicar el deporte por mi cuenta. Un 10 para Kite-Mallorca.
+    org_link: https://business.google.com/reviews/l/10178801782382655446?hl=es
+  - person: Pespy
+    avatar_img: /images/testimonials/pespy.jpg
+    languages: es
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.com/members/pespy
+    quote: 5
+    review: Unos chicos maravillosos! Nadie como ellos para tener la primera toma
+      de contacto con el kite, instructores muy atentos y profesionales. Totalmente
+      recomendable!
+    org_link: https://www.tripadvisor.com/ShowUserReviews-g1233772-d4086713-r175306685-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html#REVIEWS
+  it:
+  - person: Missultin64
+    avatar_img: /images/testimonials/missultin64.jpg
+    languages: it - en
+    review_at: Tripadvisor
+    author_link: https://www.tripadvisor.it/members/Missultin64
+    quote: 5
+    review: Abbiamo trascorso momenti fantastici con Daniel, persona squisita e bravissimo
+      istruttore di kitesurf. Lo spot nella baia di Pollensa è eccellente sia per
+      chi impara sia per kiters esperti. Esperienza fantastica!
+    org_link: https://www.tripadvisor.it/ShowUserReviews-g1233772-d4086713-r205500610-Kite_Mallorca-Alcudia_Majorca_Balearic_Islands.html
+  - person: Elisabeth Kroess
+    avatar_img: /images/testimonials/elisabeth-kroess.jpg
+    languages: it - de
+    review_at: Facebook
+    author_link: https://www.facebook.com/elisabeth.kroess/posts/10214245848159347:0
+    quote: 5
+    review: 'Tutto perfetto: materiale di prim''ordine, istruttori con pazienza infinita,
+      atmosfera fantastica e massima sicurezza. Senza dubbio la migliore scuola di
+      kitesurf dell''isola!'
+    org_link: https://www.facebook.com/KitesurfMallorca/reviews
+  - person: Stephan Thiel
+    avatar_img: /images/testimonials/stephan-thiel.jpg
+    languages: it - en
+    review_at: Facebook
+    author_link: https://www.facebook.com/stephan.thiel.71/posts/641581249199797:0
+    quote: 5
+    review: Daniel e Gerhard sono il miglior team di istruttori di kitesurf a Maiorca!
+      La lezione più bella ed efficace che abbia mai fatto. Esperienza eccezionale
+      ad Alcudia!
+    org_link: https://www.facebook.com/KitesurfMallorca/reviews
+  - person: Alejandro Garcia
+    avatar_img: /images/testimonials/alejandro-garcia.jpg
+    languages: it - es
+    review_at: Google Maps
+    author_link: https://www.google.com/maps/contrib/106235793320365814316/reviews
+    quote: 5
+    review: Esperienza indimenticabile con veri professionisti. Hanno curato ogni
+      dettaglio, dall'attrezzatura adeguata al monitoraggio costante in acqua con
+      il gommone. Un 10 e lode per Kite-Mallorca!
+    org_link: https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z
+  fr:
+  - person: Marie Thongkhamdy
+    avatar_img: /images/testimonials/marie-thongkhamdy.jpg
+    languages: fr
+    review_at: Facebook
+    author_link: https://www.facebook.com/marie.thongkhamdy/posts/10156148674173204
+    quote: 5
+    review: Merci à Daniel et Gerhard d’avoir été super accueillants et compréhensifs
+      malgré la barrière de la langue. Très jovials, patients et professionnels. Contact
+      facile par WhatsApp pour les prévisions. On y retournera avec grand plaisir
+      !
+    org_link: https://www.facebook.com/KitesurfMallorca/reviews
+  - person: Elisabeth Kroess
+    avatar_img: /images/testimonials/elisabeth-kroess.jpg
+    languages: fr - de
+    review_at: Facebook
+    author_link: https://www.facebook.com/elisabeth.kroess/posts/10214245848159347:0
+    quote: 5
+    review: 'Tout est parfait : matériel récent, moniteurs d''une patience remarquable,
+      ambiance conviviale et sécurité absolue. La meilleure école de kitesurf de l''île
+      !'
+    org_link: https://www.facebook.com/KitesurfMallorca/reviews
+  - person: Michael Probst
+    avatar_img: /images/testimonials/michael-probst.jpg
+    languages: fr - en
+    review_at: Google Maps
+    author_link: https://www.google.com/maps
+    quote: 5
+    review: École de kitesurf très professionnelle, transparente et fiable. Tarification
+      équitable à l'heure, accompagnement personnalisé et spot en eau peu profonde
+      idéal.
+    org_link: https://www.google.com/maps/place/Kitesurf+Mallorca+SL+-+International+Kitesurf+Center/@39.8667,3.0833,15z

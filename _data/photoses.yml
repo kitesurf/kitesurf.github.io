@@ -1,409 +1,371 @@
-# Gallery pictures data
 images:
-  - image: kite-mallorca_001.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Daniel cogiendo su tabla de surf para ir al agua"
-
-  - image: kite-mallorca_002.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Los cometas hacen que las playas sean coloridas"
-
-  - image: kite-mallorca_003.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Daniel instruyendo a un estudiante"
-
-  - image: kite-mallorca_004.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Marie, nuestra estudiante más joven, aquí cuando empezaba, con 6 años..."
-
-  - image: kite-mallorca_005.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Después de un largo día de kitesurf"
-
-  - image: kite-mallorca_006.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Eli buscando una ola para usarla de rampa"
-
-  - image: kite-mallorca_007.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "La vida de un kitesurfista es dura"
-
-  - image: kite-mallorca_008.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Gerhard delante de una cometa y un kitesurfista"
-
-  - image: kite-mallorca_009.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El instructor Carlos relajándose en la playa durante un descanso"
-
-  - image: kite-mallorca_010.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El estudiante se prepara para su próximo curso"
-
-  - image: kite-mallorca_011.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un paseo muy agradable..."
-
-  - image: kite-mallorca_012.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Evo de North y Envy de Liquid Force estan preparados en la playa"
-
-  - image: kite-mallorca_013.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El control de la cometa es lo más importante del kitesurf."
-
-  - image: kite-mallorca_014.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El barco de rescate está listo en la playa"
-
-  - image: kite-mallorca_015.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El viejo fuerte que vigila la bahía de los kitesurfistas"
-
-  - image: kite-mallorca_016.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una cometa necesita ser inflada para obtener su forma"
-
-  - image: kite-mallorca_017.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Costuras perfectas que conectan los paneles de la cometa"
-
-  - image: kite-mallorca_018.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Kitesurfistas viendo lo que está pasando"
-
-  - image: kite-mallorca_019.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "En el fondo Daniel está dando algunas instrucciones teóricas"
-
-  - image: kite-mallorca_020.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Se requiere una técnica especial para lanzar la cometa desde el agua"
-
-  - image: kite-mallorca_021.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Al final las cometas deben ser limpiadas y empaquetadas adecuadamente."
-
-  - image: kite-mallorca_022.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Las tablas grandes, planas y anchas ayudan a montar con viento suave."
-
-  - image: kite-mallorca_023.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Para arrancar una cometa en la playa siempre se necesita un asistente bien instruido"
-
-  - image: kite-mallorca_024.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Controlar una cometa necesita más sensación de barra que fuerza"
-
-  - image: kite-mallorca_025.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El sol dejó su marca, la piel de Daniel bronzeada y rugosa... "
-
-  - image: kite-mallorca_026.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "¡Un curso de kitesurf también es muy divertido para una pareja!"
-
-  - image: kite-mallorca_027.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Típica charla entre kitesurfistas en la playa"
-
-  - image: kite-mallorca_028.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Pareja aprendiendo a controlar una cometa"
-
-  - image: kite-mallorca_029.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Trasportar correctamente una cometa inflada por el medio del tubo frontal"
-
-  - image: kite-mallorca_030.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Hay diferentes técnicas para lanzar una cometa"
-
-  - image: kite-mallorca_031.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Cometas guardadas en la playa durante un descanso"
-
-  - image: kite-mallorca_032.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Las gafas de sol son necesarias para las clases de principiantes"
-
-  - image: kite-mallorca_033.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "El viento suave necesita un muy buen manejo de la cometa y la técnica de la tabla."
-
-  - image: kite-mallorca_034.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Las señales se utilizan para comunicarse en el agua"
-
-  - image: kite-mallorca_035.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Sonriendo después de una buena sesión de kitesurf"
-
-  - image: kite-mallorca_036.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Barco de rescate - una necesidad imprescindible para una escuela de kiteboarding"
-
-  - image: kite-mallorca_037.jpg
-    name: ""
-    title: ""
-    description: "Después del control básico de la cometa los estudiantes comienzan con el arrastre del cuerpo"
-    alt: "estudiantes con cometa en el arrastre del cuerpo, también llamado bodydrag"
-
-  - image: kite-mallorca_038.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Gerhard y Daniel probando el barco de rescate"
-
-  - image: kite-mallorca_039.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Gerhard preparándose para ir al agua"
-
-  - image: kite-mallorca_040.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Primero aprendes a arrancar la cometa en el agua"
-
-  - image: kite-mallorca_041.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre parado en una playa sosteniendo una cometa y ayudando a lanzarla."
-
-  - image: kite-mallorca_042.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Tres personas haciendo kitesurf en el agua con buenas condiciones de viento."
-
-  - image: kite-mallorca_043.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre volando por el aire con su tabla de kitesurf."
-
-  - image: kite-mallorca_044.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre parado en la cima de una playa de arena, esperando el viento adecuado para hacer kitesurf."
-
-  - image: kite-mallorca_045.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un grupo de personas sentadas en la cima de una playa de arena ."
-
-  - image: kite-mallorca_046.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una chica en una playa sosteniendo una cometa frente a su instructor."
-
-  - image: kite-mallorca_047.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre montando una tabla de kiteboarding en el mar Mediterráneo"
-
-  - image: kite-mallorca_048.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un coche aparcado en el lado de la carretera junto a las tablas de kiteboarding apoyadas en una pared ."
-
-  - image: kite-mallorca_049.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un profesor que trae una tabla de kitesurf a su estudiante"
-
-  - image: kite-mallorca_050.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una pareja que hablando sobre el kitesurfing"
-
-  - image: kite-mallorca_051.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un par de hombres parados en la cima de una playa."
-
-  - image: kite-mallorca_052.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre montando una ola sobre una tabla de kitesurf."
-
-  - image: kite-mallorca_053.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una mujer observando a un hombre ayudando a un niño en el kiteboarding."
-
-  - image: kite-mallorca_054.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre sobre el agua saltando con una tabla de kitesurf un giro desenganchado."
-
-  - image: kite-mallorca_055.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un grupo de personas montando una ola en el agua, cada uno tirado de una cometa."
-
-  - image: kite-mallorca_056.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un niño hablando con un hombre frente al mar"
-
-  - image: kite-mallorca_057.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un niño montando una ola con su tabla de kitesurf y colgando de una cometa."
-
-  - image: kite-mallorca_058.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una chica ayudando a otro mientras sostiene una cometa en el mar"
-
-  - image: kite-mallorca_059.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un grupo de personas mirando al mar y hablando"
-
-  - image: kite-mallorca_060.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una pareja llena de felicidad por el día soleado y hermoso"
-
-  - image: kite-mallorca_061.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "una chica surfeando una ola encima de una tabla de kite."
-
-  - image: kite-mallorca_062.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un profesor de kitesurf con gorra para cubrirse del sol en la playa."
-
-  - image: kite-mallorca_063.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un hombre y un niño disfrutando de un momento llevando una cometa en la playa"
-
-  - image: kite-mallorca_064.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Daniel hace kitesurf en su tabla de kite sobre las olas"
-
-  - image: kite-mallorca_065.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un niño mirando a su cometa mientras monta su tabla de kitesurf"
-
-  - image: kite-mallorca_066.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Una mujer que mira a su hijo cómo está entrenando bien independiente las lecciones de kitesurf"
-
-  - image: kite-mallorca_067.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Daniel y Gerhard siempre con una sonrisa en la cara"
-
-  - image: kite-mallorca_068.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: "Un arnés de cintura, el mejor amigo de los kitesurfistas y parte importante del equipo"
+- image: kite-mallorca_001.jpg
+  name: Daniel
+  title: Daniel mit Kitesurfboard bereit zum kitesurfen
+  description: Daniel macht sich auf dem Weg ins Wasser
+  alt: Daniel cogiendo su tabla de surf para ir al agua
+- image: kite-mallorca_002.jpg
+  name: Strandleben
+  title: Kites in Reih und Glied am Boden und am Himmel
+  description: Die Kites machen die Strände farbig
+  alt: Los cometas hacen que las playas sean coloridas
+- image: kite-mallorca_003.jpg
+  name: Schüler im Stehrevier
+  title: Kitesurflehrer mit letzte Anweisungen an Kiteschüler
+  description: Daniel mit Schüler im Wasser bereit zur ersten Fahrt
+  alt: Daniel instruyendo a un estudiante
+- image: kite-mallorca_004.jpg
+  name: Daniel mit Marie
+  title: Marie, hier 8, hat mit 6 Jahren bei uns angefangen
+  description: Marie hat mit 6 Jahren mit dem Kitesurfen begonnnen
+  alt: Marie, nuestra estudiante más joven, aquí cuando empezaba, con 6 años...
+- image: kite-mallorca_005.jpg
+  name: Ruhe
+  title: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+  description: Gegen Abend, wenn die Kitesurfer gehen,kehrt Ruhe ein
+  alt: Después de un largo día de kitesurf
+- image: kite-mallorca_006.jpg
+  name: Eli vor einem Kitesprung
+  title: Eli in voller Konzentration vor einem weiteren Sprung
+  description: Kitesurferin Eli über den Wellen in der Bucht von Pollensa
+  alt: Eli buscando una ola para usarla de rampa
+- image: kite-mallorca_007.jpg
+  name: Gemütlichkeit
+  title: Wenn der Wind eine Pause macht...
+  description: Noch ein Paar Sonnenstrahlen mit nach Hause nehmen
+  alt: La vida de un kitesurfista es dura
+- image: kite-mallorca_008.jpg
+  name: Gerhard
+  title: Gerhard sehr glücklich nach einer guten Kiteboard-Session
+  description: Gerhard, unser Schulleiter, immer ein Lächeln im Gesicht
+  alt: Gerhard delante de una cometa y un kitesurfista
+- image: kite-mallorca_009.jpg
+  name: Carlos
+  title: Unser Lehrer Carlos bei einer kurzen Arbeitspause
+  description: Carlos hat mal Schüler und Kitesurf gegen Ruhe getauscht
+  alt: El instructor Carlos relajándose en la playa durante un descanso
+- image: kite-mallorca_010.jpg
+  name: Ansgar
+  title: Manche Schüler haben viel Talent und können nach einem Tag schon fahren
+  description: Ein neuer Schüler macht sich bereit
+  alt: El estudiante se prepara para su próximo curso
+- image: kite-mallorca_011.jpg
+  name: Eli
+  title: Tanz in die unendlichkeit des Meeres
+  description: Leicht bewegtes Wasser und Wind, beste Bedingungen zum Kitesurfen
+  alt: Un paseo muy agradable...
+- image: kite-mallorca_012.jpg
+  name: ENVY
+  title: Die Kites von Liquid Force eignen sich hervorragend für den Sport
+  description: Liquid Force Kites vom Typ Envy, perfekter Allrounder
+  alt: Evo de North y Envy de Liquid Force estan preparados en la playa
+- image: kite-mallorca_013.jpg
+  name: Bodysystem
+  title: Am Anfang immer gehalten, damit keiner davon fliegt
+  description: Übung macht den Meister. Das fliegen des Kites muss sitzen
+  alt: El control de la cometa es lo más importante del kitesurf.
+- image: kite-mallorca_014.jpg
+  name: Uli 1
+  title: Uli 1. unser Rettungsboot immer dabei
+  description: Zur Sicherheit der Schüler ist dass Rettungsboot ein muss
+  alt: El barco de rescate está listo en la playa
+- image: kite-mallorca_015.jpg
+  name: Fortaleza
+  title: Die Fortaleza von Port Pollensa
+  description: Ein altes Fort mit Leuchtturm, wacht über die Bucht von Pollensa
+  alt: El viejo fuerte que vigila la bahía de los kitesurfistas
+- image: kite-mallorca_016.jpg
+  name: Aufbau
+  title: Vor dem kitesurfen muss ein Kite erst aufgeblasen werden
+  description: Ein Kite ist ein Flügel der seine Form erhält durch aufgeblasene Luftkammern
+  alt: Una cometa necesita ser inflada para obtener su forma
+- image: kite-mallorca_017.jpg
+  name: Nähkunst
+  title: Ein Kite ist eine Meisterleistung im Nähen
+  description: Ein guter Kite zeichnet sich durch durchdachte und sauber ausgeführte
+    Nähte aus
+  alt: Costuras perfectas que conectan los paneles de la cometa
+- image: kite-mallorca_018.jpg
+  name: Beobachten
+  title: Als Kiter muss man lernen Wind und Wetter zu beobachten
+  description: Gerhard beim beobachten vom Wind und Wetter
+  alt: Kitesurfistas viendo lo que está pasando
+- image: kite-mallorca_019.jpg
+  name: Fantasie
+  title: Im theoretischen Kitesurfunterricht braucht man gute Vorstellungskraft
+  description: Die Theorie kann sehr komplex werden, deswegen üben wir umso mehr
+  alt: En el fondo Daniel está dando algunas instrucciones teóricas
+- image: kite-mallorca_020.jpg
+  name: Relaunch
+  title: Das relaunchen ist das wiederstarten des Kites aus dem Wasser
+  description: Sollte ein Kite mal auf dem Wasser landen, muss es mit spezieller Technik
+    wieder starten
+  alt: Se requiere una técnica especial para lanzar la cometa desde el agua
+- image: kite-mallorca_021.jpg
+  name: Päckchen
+  title: Je kleiner die Kites gepackt, umso mehr gehen in den Van
+  description: Die Kites sollten nach Benutzung ordentlich wieder zusammengelegt werden
+  alt: Al final las cometas deben ser limpiadas y empaquetadas adecuadamente.
+- image: kite-mallorca_022.jpg
+  name: Door
+  title: Bei wenig Wind eignen sich grosse Boards -sogenannte Door- viel besser
+  description: Door sind Boards mit sehr grosse Fläche und fast keine Aufbiegung
+  alt: Las tablas grandes, planas y anchas ayudan a montar con viento suave.
+- image: kite-mallorca_023.jpg
+  name: Helfer
+  title: Beim starten und landen eines Kites braucht man einen eingewiesenen Helfer
+  description: Die Helfer müssen eingewiesen sein und entsprechend dem Signal agieren.
+  alt: Para arrancar una cometa en la playa siempre se necesita un asistente bien
+    instruido
+- image: kite-mallorca_024.jpg
+  name: Barkräfte
+  title: Beim kitesurfen benötigt man in der Regel keine große Kraft in den Armen
+  description: Eine gute Kitesurferin braucht an der Bar kaum Kraft
+  alt: Controlar una cometa necesita más sensación de barra que fuerza
+- image: kite-mallorca_025.jpg
+  name: Daniel
+  title: In 6 Jahren über 1000 Kiteschüler geschult, da bleiben ein paar Falten
+  description: Daniel mit einigen Falten... nach 6 Jahren lehren normal
+  alt: 'El sol dejó su marca, la piel de Daniel bronzeada y rugosa... '
+- image: kite-mallorca_026.jpg
+  name: Pärchen
+  title: Was viele nicht wissen, kitesurfen eignet sich besonders für beide
+  description: Am Anfang hat man viele Fragen. Wir versuchen alles klar zu stellen
+  alt: ¡Un curso de kitesurf también es muy divertido para una pareja!
+- image: kite-mallorca_027.jpg
+  name: Strandgespräche
+  title: Vor und nach dem Kitesurfen sollte man Zeit haben für einen Plausch
+  description: Kitesurfen ist für jeden geeignet, egal ob muskulös oder zierlich
+  alt: Típica charla entre kitesurfistas en la playa
+- image: kite-mallorca_028.jpg
+  name: Flugtraining
+  title: Vorrangig für einen guten Kitesurfer ist die volle Kontrolle des Kites
+  description: Bei uns lernt man wie ein Kite fliegt und wie man ihn steuert
+  alt: Pareja aprendiendo a controlar una cometa
+- image: kite-mallorca_029.jpg
+  name: Kitehandling
+  title: Ein Kite lässt sich sehr gut in der Mitte hochheben um es am Strand zu bewegen
+  description: Der sogenannte Transportgrif, dabei wird der Kite einfach in der Mitte
+    hochgenommen
+  alt: Trasportar correctamente una cometa inflada por el medio del tubo frontal
+- image: kite-mallorca_030.jpg
+  name: Relaunch
+  title: Beim relaunchen wird ein Kite aus dem Wasser wieder gestartet
+  description: Es gibt sehr viele Arten einen Kite zu relaunchen
+  alt: Hay diferentes técnicas para lanzar una cometa
+- image: kite-mallorca_031.jpg
+  name: Aufgereit
+  title: Kites warten auf ihren Einsatz
+  description: Immer wieder schön anzusehen wenn Kites ordentlich aufgereit da liegen
+  alt: Cometas guardadas en la playa durante un descanso
+- image: kite-mallorca_032.jpg
+  name: Sonnenschutz
+  title: Sonnenbrille und Sonnencreme, sehr wichtig beim Kitesurfen im Sommer
+  description: Gerade als Anfänger schaut man öfters nach dem Kite und dabei in die
+    Sonne
+  alt: Las gafas de sol son necesarias para las clases de principiantes
+- image: kite-mallorca_033.jpg
+  name: Leichtwind
+  title: Gefühlvolles steuern an der Kitebar
+  description: Bei Leichtwind muss man sehr gefühlvoll an der Bar steuern
+  alt: El viento suave necesita un muy buen manejo de la cometa y la técnica de la
+    tabla.
+- image: kite-mallorca_034.jpg
+  name: Startzeichen
+  title: Verständigung am Strand mit Zeichen
+  description: Da es oft sehr laut ist am Strand verständigt man sich mit Zeichen
+  alt: Las señales se utilizan para comunicarse en el agua
+- image: kite-mallorca_035.jpg
+  name: Glücksmomente
+  title: Kitesurfen kann sehr glücklich machen
+  description: Einfachheit gepaart mit akrobatischen Wassersport macht süchtig
+  alt: Sonriendo después de una buena sesión de kitesurf
+- image: kite-mallorca_036.jpg
+  name: Sicherheit
+  title: Sicherheit ist oberstes gebot
+  description: Als Rettungsschwimmer ausgebildete Kitelehrer und Rettungsboot, ein
+    muss für eine gute Kiteschule
+  alt: Barco de rescate - una necesidad imprescindible para una escuela de kiteboarding
+- image: kite-mallorca_037.jpg
+  name: Bodydrag
+  title: Bodydragen, ohne Board sich vom Kite durch das Wasser ziehen lassen
+  description: Después del control básico de la cometa los estudiantes comienzan con
+    el arrastre del cuerpo
+  alt: estudiantes con cometa en el arrastre del cuerpo, también llamado bodydrag
+- image: kite-mallorca_038.jpg
+  name: Gerhard & Daniel
+  title: Gerhard und Daniel auf probefahrt mit neuem Rettungsboot
+  description: Gerhard und Daniel auf probefahrt mit neuem Rettungsboot
+  alt: Gerhard y Daniel probando el barco de rescate
+- image: kite-mallorca_039.jpg
+  name: Wenn der Wind nachlässt
+  title: Daniel und Gerhard gehen ins Wasser
+  description: Wenn der Wind nachlässt und die Schüler fertig sind gehen die Lehrer
+    kiten
+  alt: Gerhard preparándose para ir al agua
+- image: kite-mallorca_040.jpg
+  name: Starten und landen
+  title: Das starten und landen der Kites üben wir stets mit höchste Sicherheit zuerst
+    im Wasser
+  description: Schüler startet einen Kite im Wasser
+  alt: Primero aprendes a arrancar la cometa en el agua
+- image: kite-mallorca_041.jpg
+  name: Daniel als Starthelfer
+  title: Daniel dirigiert einen Kiter beim starten seines Kites
+  description: Daniel, immer auf Sicherheit bedacht, gibt Anweisungen zum starten
+    eines Kites
+  alt: Un hombre parado en una playa sosteniendo una cometa y ayudando a lanzarla.
+- image: kite-mallorca_042.jpg
+  name: Bucht von Pollensa
+  title: Kitesurfer in der Bucht von Pollensa
+  description: In der Bucht von Pollensa herschen sehr oft traumhafte Bedingungen
+    zum kitesurfen
+  alt: Tres personas haciendo kitesurf en el agua con buenas condiciones de viento.
+- image: kite-mallorca_043.jpg
+  name: Gerhards F16
+  title: Gerhard beim Sprung im Wakestyle, sprich kite hängt nicht am Trapez
+  description: Gerhard bei einem F16, dabei hängt der Kite nicht am Trapez und Kite
+    und Rider vollziehen eine Drehung
+  alt: Un hombre volando por el aire con su tabla de kitesurf.
+- image: kite-mallorca_044.jpg
+  name: North EVO
+  title: North verfügt über Jahrzehntelange Erfahrung im Wassersport
+  description: Die Firma North ist eines der Vorreiter in Sachen Konstruktion und
+    Entwicklung von Kites und Boards
+  alt: Un hombre parado en la cima de una playa de arena, esperando el viento adecuado
+    para hacer kitesurf.
+- image: kite-mallorca_045.jpg
+  name: Kamel
+  title: In diesem Bild hat sich ein Kamel versteckt
+  description: Bei manchen Bilder sieht man oft Sachen die es gar nicht gibt
+  alt: Un grupo de personas sentadas en la cima de una playa de arena .
+- image: kite-mallorca_046.jpg
+  name: Farbenspiele
+  title: Rot-Blau, bei diesem Bild sieht man genau wie einem manche Farben anhaften
+  description: Gerhards Farben. Unsere Farben. Sowohl Trapez als auch Neo in der gleichen
+    Farbkombination
+  alt: Una chica en una playa sosteniendo una cometa frente a su instructor.
+- image: kite-mallorca_047.jpg
+  name: Walter
+  title: Un hombre montando una tabla de kiteboarding en el mar Mediterráneo
+  description: Un hombre montando una tabla de kiteboarding en el mar Mediterráneo
+  alt: Un hombre montando una tabla de kiteboarding en el mar Mediterráneo
+- image: kite-mallorca_048.jpg
+  name: ''
+  title: Un coche aparcado en el lado de la carretera junto a las tablas de kiteboarding
+    apoyadas en una pared .
+  description: Un coche aparcado en el lado de la carretera junto a las tablas de
+    kiteboarding apoyadas en una pared .
+  alt: Un coche aparcado en el lado de la carretera junto a las tablas de kiteboarding
+    apoyadas en una pared .
+- image: kite-mallorca_049.jpg
+  name: ''
+  title: Un profesor que trae una tabla de kitesurf a su estudiante
+  description: Un profesor que trae una tabla de kitesurf a su estudiante
+  alt: Un profesor que trae una tabla de kitesurf a su estudiante
+- image: kite-mallorca_050.jpg
+  name: ''
+  title: Una pareja que hablando sobre el kitesurfing
+  description: Una pareja que hablando sobre el kitesurfing
+  alt: Una pareja que hablando sobre el kitesurfing
+- image: kite-mallorca_051.jpg
+  name: ''
+  title: Un par de hombres parados en la cima de una playa.
+  description: Un par de hombres parados en la cima de una playa.
+  alt: Un par de hombres parados en la cima de una playa.
+- image: kite-mallorca_052.jpg
+  name: ''
+  title: Un hombre montando una ola sobre una tabla de kitesurf.
+  description: Un hombre montando una ola sobre una tabla de kitesurf.
+  alt: Un hombre montando una ola sobre una tabla de kitesurf.
+- image: kite-mallorca_053.jpg
+  name: ''
+  title: Una mujer observando a un hombre ayudando a un niño en el kiteboarding.
+  description: Una mujer observando a un hombre ayudando a un niño en el kiteboarding.
+  alt: Una mujer observando a un hombre ayudando a un niño en el kiteboarding.
+- image: kite-mallorca_054.jpg
+  name: ''
+  title: Un hombre sobre el agua saltando con una tabla de kitesurf un giro desenganchado.
+  description: Un hombre sobre el agua saltando con una tabla de kitesurf un giro
+    desenganchado.
+  alt: Un hombre sobre el agua saltando con una tabla de kitesurf un giro desenganchado.
+- image: kite-mallorca_055.jpg
+  name: ''
+  title: Un grupo de personas montando una ola en el agua, cada uno tirado de una
+    cometa.
+  description: Un grupo de personas montando una ola en el agua, cada uno tirado de
+    una cometa.
+  alt: Un grupo de personas montando una ola en el agua, cada uno tirado de una cometa.
+- image: kite-mallorca_056.jpg
+  name: ''
+  title: Un niño hablando con un hombre frente al mar
+  description: Un niño hablando con un hombre frente al mar
+  alt: Un niño hablando con un hombre frente al mar
+- image: kite-mallorca_057.jpg
+  name: ''
+  title: Un niño montando una ola con su tabla de kitesurf y colgando de una cometa.
+  description: Un niño montando una ola con su tabla de kitesurf y colgando de una
+    cometa.
+  alt: Un niño montando una ola con su tabla de kitesurf y colgando de una cometa.
+- image: kite-mallorca_058.jpg
+  name: ''
+  title: Una chica ayudando a otro mientras sostiene una cometa en el mar
+  description: Una chica ayudando a otro mientras sostiene una cometa en el mar
+  alt: Una chica ayudando a otro mientras sostiene una cometa en el mar
+- image: kite-mallorca_059.jpg
+  name: ''
+  title: Un grupo de personas mirando al mar y hablando
+  description: Un grupo de personas mirando al mar y hablando
+  alt: Un grupo de personas mirando al mar y hablando
+- image: kite-mallorca_060.jpg
+  name: ''
+  title: Una pareja llena de felicidad por el día soleado y hermoso
+  description: Una pareja llena de felicidad por el día soleado y hermoso
+  alt: Una pareja llena de felicidad por el día soleado y hermoso
+- image: kite-mallorca_061.jpg
+  name: ''
+  title: una chica surfeando una ola encima de una tabla de kite.
+  description: una chica surfeando una ola encima de una tabla de kite.
+  alt: una chica surfeando una ola encima de una tabla de kite.
+- image: kite-mallorca_062.jpg
+  name: ''
+  title: Un profesor de kitesurf con gorra para cubrirse del sol en la playa.
+  description: Un profesor de kitesurf con gorra para cubrirse del sol en la playa.
+  alt: Un profesor de kitesurf con gorra para cubrirse del sol en la playa.
+- image: kite-mallorca_063.jpg
+  name: ''
+  title: Un hombre y un niño disfrutando de un momento llevando una cometa en la playa
+  description: Un hombre y un niño disfrutando de un momento llevando una cometa en
+    la playa
+  alt: Un hombre y un niño disfrutando de un momento llevando una cometa en la playa
+- image: kite-mallorca_064.jpg
+  name: ''
+  title: Daniel hace kitesurf en su tabla de kite sobre las olas
+  description: Daniel hace kitesurf en su tabla de kite sobre las olas
+  alt: Daniel hace kitesurf en su tabla de kite sobre las olas
+- image: kite-mallorca_065.jpg
+  name: ''
+  title: Un niño mirando a su cometa mientras monta su tabla de kitesurf
+  description: Un niño mirando a su cometa mientras monta su tabla de kitesurf
+  alt: Un niño mirando a su cometa mientras monta su tabla de kitesurf
+- image: kite-mallorca_066.jpg
+  name: ''
+  title: Una mujer que mira a su hijo cómo está entrenando bien independiente las
+    lecciones de kitesurf
+  description: Una mujer que mira a su hijo cómo está entrenando bien independiente
+    las lecciones de kitesurf
+  alt: Una mujer que mira a su hijo cómo está entrenando bien independiente las lecciones
+    de kitesurf
+- image: kite-mallorca_067.jpg
+  name: ''
+  title: Daniel y Gerhard siempre con una sonrisa en la cara
+  description: Daniel y Gerhard siempre con una sonrisa en la cara
+  alt: Daniel y Gerhard siempre con una sonrisa en la cara
+- image: kite-mallorca_068.jpg
+  name: ''
+  title: Un arnés de cintura, el mejor amigo de los kitesurfistas y parte importante
+    del equipo
+  description: Un arnés de cintura, el mejor amigo de los kitesurfistas y parte importante
+    del equipo
+  alt: Un arnés de cintura, el mejor amigo de los kitesurfistas y parte importante
+    del equipo

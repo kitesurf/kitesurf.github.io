@@ -1,0 +1,423 @@
+images:
+- image: kite-mallorca_001.jpg
+  name: Daniel
+  title: Daniel avec sa planche de kitesurf prêt à naviguer
+  description: Daniel se prépare pour sa session de kitesurf dans la baie de Pollensa
+  alt: Daniel avec sa planche de kitesurf prêt à entrer dans l'eau à Majorque
+- image: kite-mallorca_002.jpg
+  name: Ambiance Plage
+  title: Ailes de kitesurf alignées sur le sable et dans le ciel
+  description: Les couleurs vives des kites illuminent la plage de Sa Marina
+  alt: Ailes de kitesurf colorées alignées sur la plage de Pollensa à Majorque
+- image: kite-mallorca_003.jpg
+  name: Élèves dans l'eau
+  title: Moniteur de kitesurf donnant les dernières consignes à l'élève
+  description: Daniel avec un élève en eau peu profonde prêt pour ses premiers bords
+  alt: Moniteur de kitesurf guidant son élève dans les eaux calmes d'Alcudia
+- image: kite-mallorca_004.jpg
+  name: Daniel avec Marie
+  title: Marie a commencé le kitesurf avec nous dès l'âge de 6 ans
+  description: L'apprentissage en toute sécurité pour les plus jeunes
+  alt: Marie, jeune élève de kitesurf débutante dans la baie de Pollensa
+- image: kite-mallorca_005.jpg
+  name: Coucher de soleil
+  title: En fin de journée, le calme revient sur la plage
+  description: Ambiance paisible après une belle journée de navigation
+  alt: Kite posé sur la plage au coucher du soleil à Majorque
+- image: kite-mallorca_006.jpg
+  name: Eli en action
+  title: Eli concentrée avant d'entamer un nouveau saut
+  description: Eli glisse sur les vagues de la baie de Pollensa
+  alt: Eli concentrée sur sa planche de kitesurf au-dessus des vagues
+- image: kite-mallorca_007.jpg
+  name: Détente
+  title: Moments de repos en attendant la prochaine brise
+  description: Profiter du soleil et de la bonne humeur sur le spot
+  alt: Kites et passionnés se reposant sur la plage de Majorque
+- image: kite-mallorca_008.jpg
+  name: Gerhard
+  title: Gerhard comblé après une excellente session de kitesurf
+  description: Gerhard, notre responsable d'école, toujours souriant
+  alt: Gerhard souriant au premier plan avec des kitesurfeurs en arrière-plan
+- image: kite-mallorca_009.jpg
+  name: Carlos
+  title: Notre moniteur Carlos lors d'une courte pause
+  description: Un moment de repos bien mérité entre deux cours
+  alt: Moniteur de kitesurf Carlos détendu sur la plage de Sa Marina
+- image: kite-mallorca_010.jpg
+  name: Ansgar
+  title: Des élèves talentueux qui naviguent dès la première journée
+  description: Préparation et protection solaire indispensables avant la session
+  alt: Élève de kitesurf se préparant pour son cours à Alcudia
+- image: kite-mallorca_011.jpg
+  name: Eli sur l'eau
+  title: Navigation fluide sur le plan d'eau de Majorque
+  description: Conditions idéales de vent thermique dans la baie de Pollensa
+  alt: Kitesurfeuse glissant sur les vagues dans la baie de Pollensa
+- image: kite-mallorca_012.jpg
+  name: Matériel de pointe
+  title: Ailes et planches modernes pour une progression rapide
+  description: Équipement haut de gamme à tester lors de nos cours et locations
+  alt: Kites et planches de marques réputées disponibles à notre école
+- image: kite-mallorca_013.jpg
+  name: Nage tractée
+  title: Maîtrise de l'aile et sécurité grâce au body drag
+  description: Le pilotage précis s'acquiert en eau peu profonde
+  alt: Moniteur encadrant les exercices de pilotage de kite dans l'eau
+- image: kite-mallorca_014.jpg
+  name: Bateau de sécurité
+  title: Notre bateau d'assistance garantit une sécurité maximale
+  description: Assistance immédiate et veille permanente sur le plan d'eau
+  alt: Bateau de sécurité Kite-Mallorca prêt dans la baie d'Alcudia
+- image: kite-mallorca_015.jpg
+  name: La Fortaleza
+  title: La Fortaleza historique de Port de Pollença
+  description: Le fort et son phare veillant sur la magnifique baie de Pollensa
+  alt: Fort historique et phare surplombant la baie de Pollensa à Majorque
+- image: kite-mallorca_016.jpg
+  name: Gonflage de l'aile
+  title: Préparation méticuleuse du matériel avant de naviguer
+  description: L'aile prend sa structure rigide grâce aux boudins gonflés
+  alt: Kitesurfeuse déployant son aile et gonflant les boudins sur le sable
+- image: kite-mallorca_017.jpg
+  name: Coutures & Conception
+  title: Finitions de haute qualité et résistance des matériaux
+  description: Un kite moderne se distingue par sa robustesse et sa précision
+  alt: Détails des coutures renforcées et de la toile d'un kite moderne
+- image: kite-mallorca_018.jpg
+  name: Observation Météo
+  title: Apprendre à analyser le vent et les prévisions météo
+  description: Gerhard observant l'évolution du vent thermique
+  alt: Kiters observant le vent et la météo pour naviguer en toute sécurité
+- image: kite-mallorca_019.jpg
+  name: Théorie du Vol
+  title: Compréhension de la fenêtre de vent et des zones de puissance
+  description: Explications claires pour visualiser le vol de l'aile
+  alt: Moniteur expliquant la fenêtre de vol du kite aux élèves
+- image: kite-mallorca_020.jpg
+  name: Redécollage dans l'eau
+  title: Technique pour redécoller l'aile tombée à l'eau
+  description: Apprentissage des gestes précis pour repartir facilement
+  alt: Moniteur certifié expliquant le redécollage d'un kite sur l'eau
+- image: kite-mallorca_021.jpg
+  name: Pliage du Kite
+  title: Un rangement soigné préserve la durée de vie de l'aile
+  description: Prendre soin de son équipement après chaque session
+  alt: Kite plié soigneusement pour préserver la toile et faciliter le transport
+- image: kite-mallorca_022.jpg
+  name: Planche Door
+  title: Planches larges parfaites pour le vent léger et les débuts
+  description: Départ au planning ultra facile pour débuter en douceur
+  alt: Moniteur naviguant avec une planche Door par vent léger
+- image: kite-mallorca_023.jpg
+  name: Assistant de décollage
+  title: Décollage et atterrissage toujours assistés
+  description: Communication par signes clairs pour une sécurité totale
+  alt: Assistant tenant l'aile levée en attendant le signal de décollage
+- image: kite-mallorca_024.jpg
+  name: Prise en main de la barre
+  title: La finesse de pilotage prime sur la force physique
+  description: Naviguer en souplesse et sans effort grâce à une bonne posture
+  alt: Kiteuse avec une posture et une technique de barre impeccables
+- image: kite-mallorca_025.jpg
+  name: Expérience Daniel
+  title: Plus de 1000 élèves formés avec passion depuis plus de 15 ans
+  description: Sécurité, pédagogie et convivialité à chaque cours
+  alt: Daniel, moniteur et fondateur de l'école Kite-Mallorca
+- image: kite-mallorca_026.jpg
+  name: Pärchen
+  title: A kitesurf course is also great fun for a couple!
+  description: Session de kitesurf à Majorque - A kitesurf course is also great fun
+    for a couple!
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A kitesurf course is also great
+    fun for a couple!'
+- image: kite-mallorca_027.jpg
+  name: Strandgespräche
+  title: Typical small talk between kitesurfers on the beach
+  description: Session de kitesurf à Majorque - Typical small talk between kitesurfers
+    on the beach
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Typical small talk between kitesurfers
+    on the beach'
+- image: kite-mallorca_028.jpg
+  name: Flugtraining
+  title: Coulpe learnng how to control a kite
+  description: Session de kitesurf à Majorque - Coulpe learnng how to control a kite
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Coulpe learnng how to control
+    a kite'
+- image: kite-mallorca_029.jpg
+  name: Kitehandling
+  title: Correctly carrying a kite in the middle of the front tube
+  description: Session de kitesurf à Majorque - Correctly carrying a kite in the middle
+    of the front tube
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Correctly carrying a kite in
+    the middle of the front tube'
+- image: kite-mallorca_030.jpg
+  name: Relaunch
+  title: There a different techniques to launch a kite
+  description: Session de kitesurf à Majorque - There a different techniques to launch
+    a kite
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: There a different techniques
+    to launch a kite'
+- image: kite-mallorca_031.jpg
+  name: Aufgereit
+  title: Kites parked on the beach during a break
+  description: Session de kitesurf à Majorque - Kites parked on the beach during a
+    break
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Kites parked on the beach during
+    a break'
+- image: kite-mallorca_032.jpg
+  name: Sonnenschutz
+  title: Sun glasses are required for beginners' lessons
+  description: Session de kitesurf à Majorque - Sun glasses are required for beginners'
+    lessons
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Sun glasses are required for
+    beginners'' lessons'
+- image: kite-mallorca_033.jpg
+  name: Leichtwind
+  title: Low wind needs a very good kite handling and board technique
+  description: Session de kitesurf à Majorque - Low wind needs a very good kite handling
+    and board technique
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Low wind needs a very good kite
+    handling and board technique'
+- image: kite-mallorca_034.jpg
+  name: Startzeichen
+  title: Signals are used to communicate on the water
+  description: Session de kitesurf à Majorque - Signals are used to communicate on
+    the water
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Signals are used to communicate
+    on the water'
+- image: kite-mallorca_035.jpg
+  name: Glücksmomente
+  title: Smiling after a nice kitesurf session
+  description: Session de kitesurf à Majorque - Smiling after a nice kitesurf session
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Smiling after a nice kitesurf
+    session'
+- image: kite-mallorca_036.jpg
+  name: Sicherheit
+  title: Rescue boat - a must have for a kiteboarding school
+  description: Session de kitesurf à Majorque - Rescue boat - a must have for a kiteboarding
+    school
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Rescue boat - a must have for
+    a kiteboarding school'
+- image: kite-mallorca_037.jpg
+  name: Bodydrag
+  title: After the basic kite control the students start with the body dragging
+  description: Session de kitesurf à Majorque - After the basic kite control the students
+    start with the body dragging
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: After the basic kite control
+    the students start with the body dragging'
+- image: kite-mallorca_038.jpg
+  name: Gerhard & Daniel
+  title: Gerhard and Daniel trying out the resuce boat
+  description: Session de kitesurf à Majorque - Gerhard and Daniel trying out the
+    resuce boat
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Gerhard and Daniel trying out
+    the resuce boat'
+- image: kite-mallorca_039.jpg
+  name: Wenn der Wind nachlässt
+  title: Gerhard preparing to go to the water
+  description: Session de kitesurf à Majorque - Gerhard preparing to go to the water
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Gerhard preparing to go to the
+    water'
+- image: kite-mallorca_040.jpg
+  name: Starten und landen
+  title: First you learn to start the kite in the water
+  description: Session de kitesurf à Majorque - First you learn to start the kite
+    in the water
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: First you learn to start the
+    kite in the water'
+- image: kite-mallorca_041.jpg
+  name: Daniel als Starthelfer
+  title: A man standing on a beach holding a kite and helping to launch it.
+  description: Session de kitesurf à Majorque - A man standing on a beach holding
+    a kite and helping to launch it.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man standing on a beach holding
+    a kite and helping to launch it.'
+- image: kite-mallorca_042.jpg
+  name: Bucht von Pollensa
+  title: Three people kiteboarding over a body of water by good wind conditions .
+  description: Session de kitesurf à Majorque - Three people kiteboarding over a body
+    of water by good wind conditions .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Three people kiteboarding over
+    a body of water by good wind conditions .'
+- image: kite-mallorca_043.jpg
+  name: Gerhards F16
+  title: A man flying through the air while riding a kiteboard.
+  description: Session de kitesurf à Majorque - A man flying through the air while
+    riding a kiteboard.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man flying through the air
+    while riding a kiteboard.'
+- image: kite-mallorca_044.jpg
+  name: North EVO
+  title: A man standing on top of a sandy beach, waiting for the right wind for kitesurfing.
+  description: Session de kitesurf à Majorque - A man standing on top of a sandy beach,
+    waiting for the right wind for kitesurfing.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man standing on top of a sandy
+    beach, waiting for the right wind for kitesurfing.'
+- image: kite-mallorca_045.jpg
+  name: Kamel
+  title: A group of people sitting on top of a sandy beach .
+  description: Session de kitesurf à Majorque - A group of people sitting on top of
+    a sandy beach .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A group of people sitting on
+    top of a sandy beach .'
+- image: kite-mallorca_046.jpg
+  name: Farbenspiele
+  title: A girl on a beach holding a kite in front their instructor .
+  description: Session de kitesurf à Majorque - A girl on a beach holding a kite in
+    front their instructor .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A girl on a beach holding a
+    kite in front their instructor .'
+- image: kite-mallorca_047.jpg
+  name: Walter
+  title: A man riding a kiteboard on the Mediterranean sea
+  description: Session de kitesurf à Majorque - A man riding a kiteboard on the Mediterranean
+    sea
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man riding a kiteboard on
+    the Mediterranean sea'
+- image: kite-mallorca_048.jpg
+  name: ''
+  title: A car parked on the side of a road next to kiteboards leaning on a wall .
+  description: Session de kitesurf à Majorque - A car parked on the side of a road
+    next to kiteboards leaning on a wall .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A car parked on the side of
+    a road next to kiteboards leaning on a wall .'
+- image: kite-mallorca_049.jpg
+  name: ''
+  title: A teacher bringing a kiteboard to his student
+  description: Session de kitesurf à Majorque - A teacher bringing a kiteboard to
+    his student
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A teacher bringing a kiteboard
+    to his student'
+- image: kite-mallorca_050.jpg
+  name: ''
+  title: A couple talking next to each other about kitesurfing
+  description: Session de kitesurf à Majorque - A couple talking next to each other
+    about kitesurfing
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A couple talking next to each
+    other about kitesurfing'
+- image: kite-mallorca_051.jpg
+  name: ''
+  title: A couple of men standing on top of a beach .
+  description: Session de kitesurf à Majorque - A couple of men standing on top of
+    a beach .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A couple of men standing on
+    top of a beach .'
+- image: kite-mallorca_052.jpg
+  name: ''
+  title: A man riding a wave on top of a kiteboard .
+  description: Session de kitesurf à Majorque - A man riding a wave on top of a kiteboard
+    .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man riding a wave on top of
+    a kiteboard .'
+- image: kite-mallorca_053.jpg
+  name: ''
+  title: A women observing a men helping a child in kiteboarding
+  description: Session de kitesurf à Majorque - A women observing a men helping a
+    child in kiteboarding
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A women observing a men helping
+    a child in kiteboarding'
+- image: kite-mallorca_054.jpg
+  name: ''
+  title: A man jumping an unhooked turn with a kiteboard over the water .
+  description: Session de kitesurf à Majorque - A man jumping an unhooked turn with
+    a kiteboard over the water .
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man jumping an unhooked turn
+    with a kiteboard over the water .'
+- image: kite-mallorca_055.jpg
+  name: ''
+  title: A group of people riding on top of a wave in the water behind a kite.
+  description: Session de kitesurf à Majorque - A group of people riding on top of
+    a wave in the water behind a kite.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A group of people riding on
+    top of a wave in the water behind a kite.'
+- image: kite-mallorca_056.jpg
+  name: ''
+  title: A child talking with a man in front of the sea
+  description: Session de kitesurf à Majorque - A child talking with a man in front
+    of the sea
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A child talking with a man in
+    front of the sea'
+- image: kite-mallorca_057.jpg
+  name: ''
+  title: A child riding a wave on top of a kiteboard and hanging on a kite.
+  description: Session de kitesurf à Majorque - A child riding a wave on top of a
+    kiteboard and hanging on a kite.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A child riding a wave on top
+    of a kiteboard and hanging on a kite.'
+- image: kite-mallorca_058.jpg
+  name: ''
+  title: A girl helping while holding a kite in the sea
+  description: Session de kitesurf à Majorque - A girl helping while holding a kite
+    in the sea
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A girl helping while holding
+    a kite in the sea'
+- image: kite-mallorca_059.jpg
+  name: ''
+  title: A group of people looking to the sea and talking about
+  description: Session de kitesurf à Majorque - A group of people looking to the sea
+    and talking about
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A group of people looking to
+    the sea and talking about'
+- image: kite-mallorca_060.jpg
+  name: ''
+  title: A couple full of happiness about the sunny and beauty day
+  description: Session de kitesurf à Majorque - A couple full of happiness about the
+    sunny and beauty day
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A couple full of happiness about
+    the sunny and beauty day'
+- image: kite-mallorca_061.jpg
+  name: ''
+  title: a girl surfing a wave on top of a kiteboard.
+  description: Session de kitesurf à Majorque - a girl surfing a wave on top of a
+    kiteboard.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: a girl surfing a wave on top
+    of a kiteboard.'
+- image: kite-mallorca_062.jpg
+  name: ''
+  title: A man wearing a hat and a hat.
+  description: Session de kitesurf à Majorque - A man wearing a hat and a hat.
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man wearing a hat and a hat.'
+- image: kite-mallorca_063.jpg
+  name: ''
+  title: A man and a child enjoying a moment wearing a kite on the beach
+  description: Session de kitesurf à Majorque - A man and a child enjoying a moment
+    wearing a kite on the beach
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A man and a child enjoying a
+    moment wearing a kite on the beach'
+- image: kite-mallorca_064.jpg
+  name: ''
+  title: Daniel kitesurfing on his kiteboard over the waves
+  description: Session de kitesurf à Majorque - Daniel kitesurfing on his kiteboard
+    over the waves
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Daniel kitesurfing on his kiteboard
+    over the waves'
+- image: kite-mallorca_065.jpg
+  name: ''
+  title: A child looking to his kite while riding on his kiteboard
+  description: Session de kitesurf à Majorque - A child looking to his kite while
+    riding on his kiteboard
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A child looking to his kite
+    while riding on his kiteboard'
+- image: kite-mallorca_066.jpg
+  name: ''
+  title: A woman looking to his son how is training well independent the kitesurfing
+    lessons
+  description: Session de kitesurf à Majorque - A woman looking to his son how is
+    training well independent the kitesurfing lessons
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A woman looking to his son how
+    is training well independent the kitesurfing lessons'
+- image: kite-mallorca_067.jpg
+  name: ''
+  title: Daniel and Gerhard always with a smile in the face
+  description: Session de kitesurf à Majorque - Daniel and Gerhard always with a smile
+    in the face
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: Daniel and Gerhard always with
+    a smile in the face'
+- image: kite-mallorca_068.jpg
+  name: ''
+  title: A waist harness, kitesurfers best friend and important part of the gear
+  description: Session de kitesurf à Majorque - A waist harness, kitesurfers best
+    friend and important part of the gear
+  alt: 'Kitesurf à Majorque dans la baie de Pollensa: A waist harness, kitesurfers
+    best friend and important part of the gear'

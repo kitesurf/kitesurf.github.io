@@ -1,0 +1,16 @@
+<div class="calltoaction">
+	{% assign lang = site.data.texts[page.lang] %}
+	<span class="centered"><strong>NOS COURS DE KITESURF</strong></span>
+	{% if page.buchung != true %}
+	<div class="centered">
+	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+	</div>
+	{% endif %}
+	<ul>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="Réservez votre cours initiation">Cours Découverte / Initiation, 3h / 1 jour</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="Réservez votre stage débutant">Stage Débutant Complet, 10h / 3-5 jours</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="Réservez votre perfectionnement">Perfectionnement & Remontée au vent</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="Réservez votre cours d'hydrofoil">Cours d'Hydrofoil</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="Réservez votre cours particulier 1:1">Cours Particuliers 1:1 sur-mesure</a></li>
+	</ul><br />
+</div>

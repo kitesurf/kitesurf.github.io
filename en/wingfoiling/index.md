@@ -20,6 +20,8 @@ lang: en
 "en-url": en/wingfoiling/
 "es-url": es/wingfoiling/
 "de-url": de/wingfoiling/
+"it-url": it/wingfoiling/
+"fr-url": fr/wingfoiling/
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

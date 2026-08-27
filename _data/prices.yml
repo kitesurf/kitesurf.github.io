@@ -1,0 +1,74 @@
+# ==============================================================================
+# Zentrale Preis- & Tarifsteuerung für KITE-MALLORCA
+# Änderungen hier wirken sich automatisch auf alle Sprachversionen aus.
+# ==============================================================================
+
+currency: "€"
+currency_code: "EUR"
+
+kitesurf:
+  beginner_10h:
+    price: 399
+    duration_hours: 10
+    duration_days: "3–5"
+    group_size: "2–4"
+    vdws_license_fee: 80
+  taster_3h:
+    price: 150
+    duration_hours: 3
+    duration_days: "1"
+    group_size: "2–4"
+  refresher_4h:
+    price: 220
+    duration_hours: 4
+    duration_days: "1–2"
+    group_size: "2–4"
+  advanced_hourly:
+    price: 60
+    unit: "h"
+  group_hourly_shared:
+    price: 45
+    unit: "h"
+  private_hourly:
+    price: 120
+    unit: "h"
+  hydrofoil_hourly:
+    price: 130
+    unit: "h"
+
+wingfoil:
+  beginner_course:
+    price: 590
+    duration_hours: 10
+    duration_days: "3–5"
+  taster_course:
+    price: 180
+    duration_hours: 3
+  private_hourly:
+    price: 130
+    unit: "h"
+
+rental:
+  complete_set:
+    h1: 30
+    h2: 60
+    day1: 100
+    day7: 450
+  kite_only:
+    h1: 25
+    h2: 50
+    day1: 80
+    day7: 360
+  board_only:
+    h1: 10
+    h2: 20
+    day1: 30
+    day7: 140
+  foil_set:
+    h1: 40
+    h2: 75
+    day1: 130
+    day7: 550
+  storage:
+    week1: 70
+    week2: 120

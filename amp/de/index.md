@@ -94,15 +94,9 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 ### Unsere Qualität zum besten Preis  
 
-10 Stunden Anfängerkurs - **EUR 500,-** <br>
-**Pro Person ein Kite!**<br>
-Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können oder 10 Stunden nur Praxis (Dauer 3-6 Tage)  
+{% include prices-courses.html %}
 
-4 Stunden Refreshkurs - **EUR 220,-**  
-Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
-
-[» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
-
+[» Mehr Details zu Kursen und Preisen]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
 
 ## KITE & BOARD VERMIETUNG  
 
@@ -110,4 +104,4 @@ Bei der Materialmiete steht für dich neuestes Equiment von Liquid Force, North 
 
 Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per Kite oder Rettungsboot zur Stelle.  
 
-[» komplettes Angebot und Preise für Kite & Board Vermietung]({{ site.url }}/de/vermietung/ "Vermietung und Preise")  
+[» komplettes Angebot und Preise für Kite & Board Vermietung]({{ site.url }}/de/vermietung/ "Vermietung und Preise")

@@ -1,0 +1,24 @@
+<div id="chatlinks"></div>
+<h4>Une question ?</h4>
+<form method="POST" action-xhr="https://formspree.io/team@kite-mallorca.com" target="_blank">
+  <input type="email" name="_replyto" placeholder="Votre adresse e-mail" required>
+  <input type="hidden" name="_subject" value="Information cours de kitesurf / location">
+  <textarea name="body" placeholder="Écrivez-nous votre question ici"></textarea>
+  <span>Indiquez-nous votre nom et numéro de téléphone pour recevoir gratuitement les infos vent et spot pendant votre séjour.</span><br><br>
+  <input type="hidden" name="_next" value="{{ site.url }}/amp/fr/thanks">
+  <input type="submit" value="Envoyer">
+    <div submit-success>
+      <template type="amp-mustache">
+        Votre formulaire n'a pas pu être envoyé, veuillez cliquer à nouveau sur Envoyer.
+      </template>
+    </div>
+    <div submit-error>
+      <template type="amp-mustache">
+        Merci pour votre demande. Nous vous répondrons dans les prochaines heures !
+      </template>
+    </div>
+</form>
+<span>
+  Ou écrivez-nous directement à :
+  <p class="backforward">moc.acrollam-etik@maet</p>
+</span>

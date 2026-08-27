@@ -51,14 +51,7 @@ layout: compress
     {% include open-graph.html %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
-        <!-- Multilinguale behandlung durch Google -->
-    <meta http-equiv="language" content="{{ page.lang }}">
-
-    <link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ page.en-url }}">        
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ page.en-url }}">
-    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.es-url }}">
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ page.de-url }}">
+    {% include hreflang.html %}
     <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
     <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
@@ -208,8 +201,3 @@ layout: compress
   </body>
 
 </html>
-    {% if page.amp == true %}{% else %}
-    <link href="{{ site.url }}/fonts/lato-v16-latin-regular.woff2&display=swap" crossorigin>
-    <link href="{{ site.url }}/fonts/lato-v16-latin-700.woff2&display=swap" crossorigin>
-
-    {% endif %}

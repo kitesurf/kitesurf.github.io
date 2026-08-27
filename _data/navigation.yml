@@ -1,0 +1,241 @@
+# Central navigation structure for all languages
+
+de:
+  home: "Start"
+  menu: "MENÜ"
+  lessons:
+    title: "Kitekurse"
+    url: "kitekurse/"
+    items:
+      - title: "Kitekurse Übersicht"
+        url: "kitekurse/"
+      - title: "Schnupperkurse"
+        url: "kitekurse/schnupperkurse/"
+      - title: "Anfängerkurse"
+        url: "kitekurse/anfaengerkurse/"
+      - title: "Aufsteiger"
+        url: "kitekurse/fortgeschritten/"
+      - title: "Hydrofoil"
+        url: "kitekurse/hydrofoil/"
+      - title: "Privatunterricht"
+        url: "kitekurse/privatstunden/"
+  rental:
+    title: "Vermietung"
+    url: "vermietung/"
+    items:
+      - title: "Vermietung Übersicht"
+        url: "vermietung/"
+      - title: "Miete pro Stunde oder Tag"
+        url: "vermietung/pro-stunde-oder-tag/"
+      - title: "Langzeitmiete"
+        url: "vermietung/langzeit/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Kontakt"
+    url: "kontakt/"
+  media:
+    title: "Bilder & Videos"
+    url: "flying-friends/"
+  privacy:
+    title: "Datenschutz"
+    url: "datenschutz/"
+  contact_us:
+    title: "Kontaktiere uns"
+    url: "kontaktiere-uns/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
+
+en:
+  home: "Start"
+  menu: "MENU"
+  lessons:
+    title: "Kitesurfing Lessons"
+    url: "kitesurfing-lessons/"
+    items:
+      - title: "Lessons Overview"
+        url: "kitesurfing-lessons/"
+      - title: "Tryout Course"
+        url: "kitesurfing-lessons/tryout/"
+      - title: "Beginner"
+        url: "kitesurfing-lessons/beginner/"
+      - title: "Advanced"
+        url: "kitesurfing-lessons/advanced/"
+      - title: "Hydrofoil"
+        url: "kitesurfing-lessons/hydrofoil/"
+      - title: "Private Lessons"
+        url: "kitesurfing-lessons/privatlessons/"
+  rental:
+    title: "Rental"
+    url: "renting/"
+    items:
+      - title: "Rental Overview"
+        url: "renting/"
+      - title: "Renting per hour or day"
+        url: "renting/per-hour-or-day/"
+      - title: "Long term rent"
+        url: "renting/long-term/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Contact"
+    url: "contact/"
+  media:
+    title: "Pictures & Videos"
+    url: "flying-friends/"
+  privacy:
+    title: "Disclaimer"
+    url: "disclaimer/"
+  contact_us:
+    title: "Contact us"
+    url: "contact-us/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
+
+es:
+  home: "Inicio"
+  menu: "MENÚ"
+  lessons:
+    title: "Cursos de Kitesurf"
+    url: "cursos-de-kitesurf/"
+    items:
+      - title: "Resumen Cursos"
+        url: "cursos-de-kitesurf/"
+      - title: "Bautismo / Iniciación"
+        url: "cursos-de-kitesurf/iniciacion/"
+      - title: "Principiante"
+        url: "cursos-de-kitesurf/principiante/"
+      - title: "Avanzado"
+        url: "cursos-de-kitesurf/avanzado/"
+      - title: "Hydrofoil"
+        url: "cursos-de-kitesurf/hidrofoil/"
+      - title: "Clases privadas"
+        url: "cursos-de-kitesurf/privado/"
+  rental:
+    title: "Alquiler"
+    url: "alquiler/"
+    items:
+      - title: "Resumen Alquiler"
+        url: "alquiler/"
+      - title: "Alquiler por horas o días"
+        url: "alquiler/por-hora-y-dia/"
+      - title: "Alquiler a largo plazo"
+        url: "alquiler/largo-plazo/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Contacto"
+    url: "contacto/"
+  media:
+    title: "Fotos & Videos"
+    url: "flying-friends/"
+  privacy:
+    title: "Aviso legal"
+    url: "aviso-legal/"
+  contact_us:
+    title: "Contacta con nosotros"
+    url: "contacta-con-nosotros/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
+
+it:
+  home: "Inizio"
+  menu: "MENU"
+  lessons:
+    title: "Corsi Kitesurf"
+    url: "corsi-kitesurf/"
+    items:
+      - title: "Panoramica Corsi"
+        url: "corsi-kitesurf/"
+      - title: "Corso Prova"
+        url: "corsi-kitesurf/prova/"
+      - title: "Principianti"
+        url: "corsi-kitesurf/principianti/"
+      - title: "Avanzati"
+        url: "corsi-kitesurf/avanzati/"
+      - title: "Hydrofoil"
+        url: "corsi-kitesurf/hydrofoil/"
+      - title: "Lezioni Private"
+        url: "corsi-kitesurf/lezioni-private/"
+  rental:
+    title: "Noleggio"
+    url: "noleggio/"
+    items:
+      - title: "Panoramica Noleggio"
+        url: "noleggio/"
+      - title: "Noleggio a ore o giorno"
+        url: "noleggio/ore-o-giorno/"
+      - title: "Noleggio a lungo termine"
+        url: "noleggio/lungo-termine/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Contatto"
+    url: "contatto/"
+  media:
+    title: "Foto & Video"
+    url: "flying-friends/"
+  privacy:
+    title: "Privacy"
+    url: "privacy/"
+  contact_us:
+    title: "Contattaci"
+    url: "contattaci/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
+
+fr:
+  home: "Accueil"
+  menu: "MENU"
+  lessons:
+    title: "Cours de Kitesurf"
+    url: "cours-kitesurf/"
+    items:
+      - title: "Aperçu des cours"
+        url: "cours-kitesurf/"
+      - title: "Initiation"
+        url: "cours-kitesurf/initiation/"
+      - title: "Débutant"
+        url: "cours-kitesurf/debutant/"
+      - title: "Perfectionnement"
+        url: "cours-kitesurf/perfectionnement/"
+      - title: "Hydrofoil"
+        url: "cours-kitesurf/hydrofoil/"
+      - title: "Cours Particuliers"
+        url: "cours-kitesurf/cours-particuliers/"
+  rental:
+    title: "Location"
+    url: "location/"
+    items:
+      - title: "Aperçu location"
+        url: "location/"
+      - title: "Location à l'heure ou journée"
+        url: "location/heure-ou-journee/"
+      - title: "Location longue durée"
+        url: "location/longue-duree/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Contact"
+    url: "contact/"
+  media:
+    title: "Photos & Vidéos"
+    url: "flying-friends/"
+  privacy:
+    title: "Mentions légales"
+    url: "mentions-legales/"
+  contact_us:
+    title: "Contactez-nous"
+    url: "contactez-nous/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"

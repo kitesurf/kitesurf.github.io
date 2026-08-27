@@ -1,13 +1,12 @@
 ---
 layout: article
-buchung: true
-title: "Kite-Mallorca - CURSOS DE KITESURF HIDROFOIL- Tel. +34-696-264729"
-subtitle: "Cursos y clases de kitesurf"
-date: 2019-02-27T13:57:10+01:00
-modified: 2020-03-10T12:34:10+01:00
+title: "Curso de Hidrofoil en Mallorca – Vuela a partir de 8 Nudos"
+subtitle: "Aprende kite foil con mástil corto y barco de apoyo en la Bahía de Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kite foil o hidrofoil, la nueva tendencia en kiteboarding y kitesurf. Con mástil corto y barco de apoyo se puede aprender rápido"
-image:
+description: "Cursos de hidrofoil en Mallorca: Aprende a volar sobre el mar con mástil de iniciación, radio y lancha motora en la Bahía de Pollensa."
+image: 
   background: 7.webp
   backgroundx1: 7mov.webp
   backgroundx2: 7mov.webp
@@ -15,35 +14,38 @@ image:
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
   feature: "flying-friends/Daniel_with_hydrofoil_l.jpg"
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_037.jpg
-  picnum: 37
-snippets: null
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_038.jpg"
+  picnum: 38
+snippets: true
 lang: es
-en-url: "en/kitesurfing-lessons/hydrofoil/"
-es-url: "es/cursos-de-kitesurf/hidrofoil/"
-de-url: "de/kitekurse/hydrofoil/"
-t:
+"en-url": "en/kitesurfing-lessons/hydrofoil/"
+"es-url": "es/cursos-de-kitesurf/hidrofoil/"
+"de-url": "de/kitekurse/hydrofoil/"
+"it-url": "it/corsi-kitesurf/hydrofoil/"
+"fr-url": "fr/cours-kitesurf/hydrofoil/"
+t: 
+  menu: MENÚ
   link1: "cursos-de-kitesurf/"
-  menutxt1:    "cursos de kitesurf"
+  menutxt1: "cursos de kitesurf"
   link2: "alquiler/"
-  menutxt2:    "alquiler"
+  menutxt2: "alquiler"
   link3: "wingfoiling/"
-  menutxt3:    "Wingfoiling"
+  menutxt3: "Wingfoiling"
   link4: "contacto/"
-  menutxt4:    "contacto"
+  menutxt4: "contacto"
   link5: "flying-friends/"
-  menutxt5:    "fotos y videos"
+  menutxt5: "fotos y videos"
   link6: "aviso-legal/"
   menutxt6: "Aviso legal"
   link7: "contacta-con-nosotros/"
   menutxt7: "Contacta con nosotros"
   link8: "shop/"
-  menutxt8: Shop
+  menutxt8: "Shop"
   link9: "outfit/"
-  menutxt9: Outfit
+  menutxt9: "Outfit"
   link20: "cursos-de-kitesurf/iniciacion/"
-  menutxt20: "Cursillo de iniciación"
+  menutxt20: "Bautismo / Iniciación"
   link21: "cursos-de-kitesurf/principiante/"
   menutxt21: "Principiantes"
   link22: "cursos-de-kitesurf/avanzado/"
@@ -56,44 +58,38 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Alquiler a largo plazo"
-  teaser: CURSOS ESPECIAL DE KITE FOIL O HIDROFOIL
+  teaser: "Aprende Hidrofoil – Vuelo silencioso y deslizamiento sin resistencia"
+published: true
 ---
 
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a03e5048263685b2ea6fd19deb2b34a8&lang=es&e=54c3d1abd7e9f8d1a02a3991c0ed8ff7"></script>
-<noscript><h1>Reserva aquí tu curso de hidrofoil en kitesurf</h1>
- 
-<strong>200 € por persona - acompañado por barca - mínimo 2 hs - máximo 2 alumnos</strong><br><br>
-<span>Hidrofoil, la nueva tendencia en kiteboarding también ha llegado hasta nosotros. Daniel fue el primero en traer el "foil" a nuestra área hace unos 3 años, e inmediatamente fue muy bien recibido por muchos, más ahora que se está por convertir en deporte olympico.<br>
-Debido a las perfectas condiciones para el foil en nuestra bahía, como la brisa diaria que sopla constantemente al mediodía, y el agua que permanece plana, sin grandes olas, este lugar es ideal para el aprendizaje y la práctica del foil. <br>
-En nuestro curso de hidrofoil te lo ponemos lo más fácil posible. Es por eso que la mayoría de la gente aprende a navegar con hidrofoil en las primeras 2-4 horas.<br>
+{% assign p = site.data.prices.kitesurf %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-El curso tiene lugar, después de un tiempo de preparación de 15 minutos en la playa, en la bahía más lejos con escolta de barco, donde te llevaremos allí y nos quedaremos contigo.</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Tu correo electronico, por favor revisalo antes de enviar" required>
-  <input type="hidden" name="_subject" value="Encuesta de reserva para un curso de hidrofoil">
-  <textarea name="body" cols="40" rows="6" placeholder="Apunta tu nombre, telefono y la fecha en la cual deseas hacer tu curso. Nos pondremos en contacto contigo lo antes posible."></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/es/gracias/">
-  <input type="submit" value="Enviar">
-</form>
-<ul><strong>¿Qué otros aspectos destacados me esperan?</strong>
-  <li>Un profesor con conocimientos especializados está a su disposición</li>
-  <li>A pagar incluso después de terminar el curso</li>
-  <li>Te acompañamos en barco durante tus clases</li>
-  <li>El equipo necesario puede ser traído o alquilado</li>
-  <li>Duración del curso: Mínimo 2 horas.</li>
-</ul>
-<H6>
-Tan pronto como logres ir y volver solo, deberías continuar practicando por tu cuenta para consolidar lo que has aprendido.</H6>
-<span><strong>Requisitos a traer:</strong><br>
-ropa de baño, protección solar, gafas de sol, agua potable, material propio si disponible</span><br><br>
-<span><strong>Tenga en cuenta</strong><br>
-Imprescindible para este curso es el perfecto control de la cometa.
-Los tiempos de inicio pueden variar dependiendo del viento. Le rogamos que se ponga en contacto con nosotros por teléfono para confirmarlo. Teléfono Daniel +34 696 264 729.</span>
-</div>
+{% include schema-product.html course_key="hydrofoil_hourly" name="Curso Hidrofoil Kitesurf Mallorca" description="Aprende hidrofoil con mástil de iniciación y lancha motora en la Bahía de Pollensa." %}
+
+# Cursos de Hidrofoil en Mallorca: Vuela sobre el Mar
+
+El hidrofoil es la evolución definitiva del kiteboarding: cuando el ala hidrodinámica genera sustentación, la tabla se despega completamente del agua. Toda vibración y resistencia desaparecen, permitiéndote navegar a gran velocidad con brisas térmicas suaves de tan solo 8 a 10 nudos.
+
+> **Resumen del Curso:**  
+> * **Tarifa:** **{{ p.hydrofoil_hourly.price }} {{ curr }}** / hora (incluye equipo completo de foil y lancha motora de apoyo).  
+> * **Requisitos:** Buen nivel de ceñida y dominio solvente de la cometa en tabla twintip.  
+> * **Aprendizaje Rápido:** Gracias a nuestros mástiles cortos de escuela, la mayoría de alumnos consiguen navegar estables en 2 a 4 horas.
+
+---
+
+## Metodología Progresiva
 
 {% include carousel.html %}
 
-</noscript>
+1. **Mástil Corto de Iniciación:** Comenzamos con mástiles de 45–60 cm para aprender el equilibrio sin caídas bruscas.
+2. **Control de Presión y Cabeceo:** Práctica del balance postural y apoyo sobre el pie delantero.
+3. **Clases en Bahía Abierta con Barco:** Salida en lancha motora a zonas con profundidad óptima para una sesión fluida y sin obstáculos.
+
+## ¿Qué necesitas traer?
+
+Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Todo el equipamiento de hidrofoil, cometas, trajes de neopreno, arneses, chalecos y cascos están 100 % incluidos.
+
+---
+
+[» Solicita Información para Clases de Hidrofoil]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

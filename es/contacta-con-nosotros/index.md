@@ -5,7 +5,7 @@ subtitle: "Contacta aquí con tu centro de kitesurf"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Contacta aquí con el equipo de KITE-MALLORCA y escribenos tus preguntas!"
+description: "Contacta con Kite-Mallorca: Envíanos tus dudas sobre cursos de kitesurf, wingfoil y alquiler de material en la Bahía de Pollensa. ¡Pregúntanos!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: es
 en-url: "en/contact-us/"
 es-url: "es/contacta-con-nosotros/"
 de-url: "de/kontaktiere-uns/"
+it-url: "it/contattaci/"
+fr-url: "fr/contactez-nous/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

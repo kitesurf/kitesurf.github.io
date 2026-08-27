@@ -77,24 +77,7 @@ Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individu
 
 ## Unsere Qualität zum besten Preis
 
-### 10 Stunden Anfängerkurs - **EUR 500,-**  
-Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
-
-### 4 Stunden Refreshkurs - **EUR 220,-**  
-Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage)  
-
-### Einzelstunden in der Gruppe  
-mit geteiltem Kite & Board - **EUR 45,-/h**  
-mit eigenem Kite & Board - **EUR 60,-/h**  
-Individuelle Stunden für jede Könnensstufe in einer kleinen Gruppe von 2-4 Schülern  
-
-### 3 Stunden Schnupperkurs - **EUR 120,-**  
-Unterrìcht in einer kleinen Gruppe von 2-4 Schülern mit dem Ziel sich am Ende von einem richtigen Kite durchs Wasser ziehen zu lassen! (Dauer 1 Tag)  
-
-Einzelstunden im privaten Unterricht - **EUR 120,-/h**  
-Individuelle Stunden allein mit Lehrer für jede Könnensstufe  
-
-(Alle Preise gültig pro Person)  
+{% include prices-courses.html %}  
 
 Die Kurse und der Unterricht im Kiten beinhalten immer das komplette notwendige Material für seine Ausführung. Wenn nötig auch mit Bootsunterstützung.  
 

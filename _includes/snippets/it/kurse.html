@@ -1,0 +1,16 @@
+<div class="calltoaction">
+	{% assign lang = site.data.texts[page.lang] %}
+	<span class="centered"><strong>I NOSTRI CORSI DI KITESURF</strong></span>
+	{% if page.buchung != true %}
+	<div class="centered">
+	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+	</div>
+	{% endif %}
+	<ul>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="Prenota il tuo corso prova">Corso Prova / Battesimo, 3 ore / 1 giorno</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="Prenota il tuo corso base">Corso Base Principianti, 10 ore / 3-5 giorni</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="Prenota lezioni di perfezionamento">Perfezionamento & Bolina</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="Prenota il corso hydrofoil">Corso Hydrofoil</a></li>
+		<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="Prenota lezioni private 1:1">Lezioni Private 1:1 con istruttore dedicato</a></li>
+	</ul><br />
+</div>

@@ -6,7 +6,7 @@ subtitle: Viel Spass beim stöbern
 date: 2017-11-24T00:00:00.000Z
 modified: 
 author: daniel
-description: "kite-mallorca's Outfit - dein Lifestyle. Shop für Fashion und Accessoires mit 30 Tage Rückgaberecht. Geniese unsere gemeinsame Lebensfreude mit deinem T—Shirt, Hoodie, Kappe oder sonst was wo auch immer"
+description: "Kite-Mallorca Outfit & Lifestyle: Hochwertige T-Shirts, Hoodies & Kappen für Kitesurfer. 30 Tage Rückgaberecht. Jetzt Lieblingsstyle entdecken!"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: de
 "en-url": en/outfit/
 "es-url": es/outfit/
 "de-url": de/outfit/
+"it-url": it/outfit/
+"fr-url": fr/outfit/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

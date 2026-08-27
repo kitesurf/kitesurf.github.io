@@ -1,0 +1,30 @@
+{% assign p = site.data.prices.kitesurf %}
+{% assign w = site.data.prices.wingfoil %}
+{% assign r = site.data.prices.rental %}
+{% assign curr = site.data.prices.currency_code | default: "EUR" %}
+
+{% if include.course_key %}
+  {% assign item = p[include.course_key] | default: w[include.course_key] %}
+  {% if item %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "{{ include.name | default: page.title }}",
+    "description": "{{ include.description | default: page.description }}",
+    "provider": {
+      "@type": "SportsActivityLocation",
+      "name": "Kitesurf Mallorca SL",
+      "sameAs": "https://kite-mallorca.com/"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ item.price }}",
+      "priceCurrency": "{{ curr }}",
+      "availability": "https://schema.org/InStock",
+      "url": "{{ page.url | replace:'index.html','' | prepend: site.url }}"
+    }
+  }
+  </script>
+  {% endif %}
+{% endif %}

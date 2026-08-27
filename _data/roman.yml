@@ -1,121 +1,121 @@
-# Gallery pictures data
+# Gallery pictures data - Roman
 images:
   - image: roman-001.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Roman beim Kitesurfen"
+    title: "Roman konzentriert beim Kitekurs in der Bucht von Pollensa"
+    description: "Roman lernt die ersten Meter auf dem Kiteboard im Stehrevier"
+    alt: "Kiteschüler Roman gleitet auf dem Kiteboard im Stehwasser"
 
   - image: roman-002.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Schirmkontrolle"
+    title: "Roman steuert den Kite sicher im Windfenster"
+    description: "Präzises Schirmhandling ist die Basis für sicheres Kitesurfen"
+    alt: "Kiteschüler Roman steuert die Bar des Kites im Windfenster"
 
   - image: roman-003.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Erste Fahrversuche"
+    title: "Erfolgreicher Wasserstart mit dem Kiteboard"
+    description: "Nach kurzer Übung klappt der Wasserstart bereits stabil"
+    alt: "Roman gelingt der Wasserstart mit dem Kitesurfboard auf Mallorca"
 
   - image: roman-004.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Gleiten über die Wellen"
+    title: "Roman fährt mit Geschwindigkeit über das flache Wasser"
+    description: "Optimale Windbedingungen in der Bucht von Pollensa"
+    alt: "Kiter Roman gleitet zügig über das Mittelmeer in Alcudia"
 
   - image: roman-005.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Unterricht mit Daniel"
+    title: "Kitelehrer Daniel gibt Feedback nach dem Run"
+    description: "Individuelle Korrekturen für noch bessere Körperhaltung"
+    alt: "Kitelehrer Daniel bespricht mit Roman die nächsten Fahrmanöver"
 
   - image: roman-006.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Höhe halten"
+    title: "Roman trainiert das Höhelaufen gegen den Wind"
+    description: "Höhelaufen gibt die Freiheit, überall am Spot zu cruisen"
+    alt: "Roman fährt eine saubere Kante zum Höhelaufen auf Mallorca"
 
   - image: roman-007.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite-Vorbereitung"
+    title: "Gemeinsames Auslegen der Leinen am Strand"
+    description: "Sicherheit beginnt mit dem sorgfältigen Leinen-Check"
+    alt: "Leinen und Bar werden vor dem Starten des Kites geordnet"
 
   - image: roman-008.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Spaß am Strand"
+    title: "Gute Laune und Teamspirit bei Kite-Mallorca"
+    description: "Entspannte Stimmung nach einer erfolgreichen Session"
+    alt: "Roman und das Kite-Mallorca Team lachen am Strand von Sa Marina"
 
   - image: roman-009.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Startvorbereitung"
+    title: "Helfer sichert den Kite vor dem Starten im Wasser"
+    description: "Sicheres Starten mit geschulter Assistenz"
+    alt: "Helfer hält den Kite im Wasser startbereit für Roman"
 
   - image: roman-010.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Perfekter Wind"
+    title: "Thermischer Wind in der Bucht von Alcudia"
+    description: "Konstante Bedingungen für schnelle Lernfortschritte"
+    alt: "Roman nutzt den konstanten thermischen Wind zum Kitesurfen"
 
   - image: roman-011.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Gleichgewichtstraining"
+    title: "Balance und Boardgefühl auf dem Wasser"
+    description: "Das Boardgefühl verbessert sich von Minute zu Minute"
+    alt: "Roman balanciert souverän auf dem TwinTip Kiteboard"
 
   - image: roman-012.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Wendemanöver"
+    title: "Üben der ersten Richtungswechsel auf dem Kiteboard"
+    description: "Saubere Gewichtsverlagerung für flüssige Richtungswechsel"
+    alt: "Roman leitet einen Richtungswechsel mit dem Kite ein"
 
   - image: roman-013.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite im Zenit"
+    title: "Kite ruhig im Zenit halten zur Erholung"
+    description: "Kurze Pause im stehtiefen Wasser von Pollensa"
+    alt: "Roman parkt den Kite sicher im Zenit über dem Kopf"
 
   - image: roman-014.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Dynamischer Flug"
+    title: "Powerdive für den nötigen Vortrieb"
+    description: "Den Kite dynamisch durch die Powerzone bewegen"
+    alt: "Roman fliegt eine Sinuskurve mit dem Kite für mehr Zugkraft"
 
   - image: roman-015.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Sonnige Session"
+    title: "Kitesurfen unter mallorquinischer Sonne"
+    description: "Traumhaftes Wetter und angenehme Wassertemperaturen"
+    alt: "Roman genießt den sonnigen Kitesurftag in der Bucht von Pollensa"
 
   - image: roman-016.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Bootsbegleitung"
+    title: "Sicherheit durch das Kite-Mallorca Rettungsboot"
+    description: "Das Sicherheitsboot ist immer in der Nähe der Schüler"
+    alt: "Sicherheitsboot von Kite-Mallorca begleitet Schüler Roman"
 
   - image: roman-017.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Fortschritt"
+    title: "Souveränes Fahrkönnen nach wenigen Tagen"
+    description: "Vom Anfänger zum selbstständigen Kitesurfer"
+    alt: "Roman surft selbstständig und sicher im Stehrevier"
 
   - image: roman-018.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite-Landung"
+    title: "Sicheres Landen des Kites am Strand"
+    description: "Kontrollierte Landung mit klaren Handzeichen"
+    alt: "Roman landet seinen Kite kontrolliert mit Unterstützung am Ufer"
 
   - image: roman-019.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Materialabbau"
+    title: "Kite einpacken und Equipment pflegen"
+    description: "Gute Materialpflege garantiert Langlebigkeit"
+    alt: "Roman rollt die Bar auf und packt das Kitematerial zusammen"
 
   - image: roman-020.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Erfolgreicher Tag"
+    title: "Glücklicher Kitesurfer nach der Session"
+    description: "Stolz auf die neu erlernten Fähigkeiten"
+    alt: "Roman freut sich über seinen erfolgreichen Kitekurs auf Mallorca"

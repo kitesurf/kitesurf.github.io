@@ -1,0 +1,29 @@
+<div class="photos">
+{% if page.amp == true %}
+            <div id="picleft">
+                <amp-img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" width="600" height="400" layout="responsive" alt="Tina e Daniel sulla spiaggia" title="Tina e Daniel sulla spiaggia"></amp-img>
+                <div></div>
+            </div>
+            <div id="picmiddle">
+                <amp-img src="{{ site.baseurl }}/images/roberto.jpg" width="600" height="400" layout="responsive" alt="Roberto a Sa Marina" title="Roberto a Sa Marina"></amp-img>
+                <div></div>
+            </div>
+            <div id="picright">
+                <amp-img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" width="600" height="400" layout="responsive" alt="Daniel con Kerstin a Maiorca" title="Daniel con Kerstin a Maiorca"></amp-img>
+                <div></div>
+            </div>
+{% else %}
+            <div id="picleft">
+                <img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" alt="Tina e Daniel sulla spiaggia" title="Tina e Daniel sulla spiaggia" />
+                <div></div>
+            </div>
+            <div id="picmiddle">
+                <img src="{{ site.baseurl }}/images/roberto.jpg" alt="Roberto a Sa Marina" title="Roberto a Sa Marina" />
+                <div></div>
+            </div>
+            <div id="picright">
+                <img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" alt="Daniel con Kerstin a Maiorca" title="Daniel con Kerstin a Maiorca" />
+                <div></div>
+            </div>
+{% endif %}     
+</div>

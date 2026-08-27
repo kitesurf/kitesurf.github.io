@@ -23,6 +23,8 @@ lang: en
 en-url: "en/flying-friends/"
 es-url: "es/flying-friends/"
 de-url: "de/flying-friends/"
+it-url: "it/flying-friends/"
+fr-url: "fr/flying-friends/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

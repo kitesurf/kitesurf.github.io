@@ -1,22 +1,28 @@
+{% assign nav = site.data.navigation[page.lang] %}
+{% assign de_link = page['de-url'] | default: "de/" %}
+{% assign es_link = page['es-url'] | default: "es/" %}
+{% assign en_link = page['en-url'] | default: "en/" %}
+{% if en_link == '/' or en_link == '' %}{% assign en_link = "en/" %}{% endif %}
+{% assign it_link = page['it-url'] | default: "it/" %}
+{% assign fr_link = page['fr-url'] | default: "fr/" %}
+
 <footer id="site-footer">
-{% if page.amp == true %}{% else %}
-	      {% include cookieconsent.html %}
-{% endif %}
-
-<div class="footer_box">
-
-{% if page.amp == true %}
-		<a rel="nofollow" href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link6 }}" title="{{ page.t.menutxt6 }}" >{{ page.t.menutxt6 }}</a>
-{% else %}
-		<a rel="nofollow" href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link6 }}" title="{{ page.t.menutxt6 }}" >{{ page.t.menutxt6 }}</a>
-		<a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link9 }}" title="{{ page.t.menutxt9 }}" >{{ page.t.menutxt9 }}</a>
-		<a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a>
-		<a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a>
-{% endif %}
-    {% assign lang = site.data.texts[page.lang] %}
-
-	<p class="copyright">&#169; {{ site.time | date: '%Y' }} All rights by<br>Kitesurf Mallorca SL</p>
-	
-</div>
-
+  <div class="footer_box">
+    {% if page.amp == true %}
+      <a rel="nofollow" href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.privacy.url | default: page.t.link6 }}" title="{{ nav.privacy.title | default: page.t.menutxt6 }}">{{ nav.privacy.title | default: page.t.menutxt6 }}</a>
+    {% else %}
+      <a rel="nofollow" href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.privacy.url | default: page.t.link6 }}" title="{{ nav.privacy.title | default: page.t.menutxt6 }}">{{ nav.privacy.title | default: page.t.menutxt6 }}</a>
+      <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.outfit.url | default: page.t.link9 }}" title="{{ nav.outfit.title | default: page.t.menutxt9 }}">{{ nav.outfit.title | default: page.t.menutxt9 }}</a>
+      <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a>
+      <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}">{{ nav.media.title | default: page.t.menutxt5 }}</a>
+      <span class="footer-lang" style="display:inline-flex;gap:8px;align-items:center;">
+        <a href="{{ site.baseurl }}/{{ de_link }}" title="Deutsch">DE</a>
+        <a href="{{ site.baseurl }}/{{ es_link }}" title="Español">ES</a>
+        <a href="{{ site.baseurl }}/{{ en_link }}" title="English">EN</a>
+        <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano">IT</a>
+        <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français">FR</a>
+      </span>
+    {% endif %}
+    <p class="copyright">&#169; {{ site.time | date: '%Y' }} All rights reserved by<br>Kitesurf Mallorca SL</p>
+  </div>
 </footer>

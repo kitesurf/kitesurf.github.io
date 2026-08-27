@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kitesurf Mallorca - Internationale Kiteschule +34-696-264729"
-subtitle: Dein internationales Kitesurfcenter
-date: 2019-02-21T00:00:00.000Z
-modified: 2020-01-03T00:00:00.000Z
+title: "Kitesurfen & Wingfoilen auf Mallorca – Kiteschule & Verleih"
+subtitle: "Deine deutsche Kiteschule & Wingfoil-Center in der Bucht von Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kiten, Kitesurfen, Kiteboarden und Foilen. Ganzjährige Vermietung von Material, Kurse, Schulung. Deutsche Kitelehrer. Ruf an"
+description: "Kitesurf- & Wingfoil-Kurse auf Mallorca für Einsteiger und Fortgeschrittene. VDWS-Lehrer, Stehrevier in Pollensa & Materialverleih von Duotone & Eleveight."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: de
 "en-url": en/
 "es-url": es/
 "de-url": de/
+"it-url": it/
+"fr-url": fr/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
@@ -60,47 +62,80 @@ t:
 published: true
 ---
 
-# [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im kitesurfen"), [**MIETE**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material"), [**WINGFOILING**]({{ site.url }}/de/wingfoiling/ "Wingfoiling Kurse auf Mallorca") [**& MEHR**]({{ site.url }}/de/flying-friends/)
+# [**KITEKURSE**]({{ site.url }}/de/kitekurse/ "Kurse und Schulungen im Kitesurfen"), [**WINGFOILING**]({{ site.url }}/de/wingfoiling/ "Wingfoiling Kurse auf Mallorca"), [**VERMIETUNG**]({{ site.url }}/de/vermietung/ "Vermietung von Kitesurf Material") [**& MEHR**]({{ site.url }}/de/flying-friends/)
 
-Wir haben für dich:  
-- Schulungen für jede Könnensstufe in deutscher Sprache(Einsteiger, Aufsteiger und Fortgeschrittene) 
-- VDWS geprüfte deutsche und österreichische Kitelehrer
-- Miete von Kites, Boards, Trapez, einfach alles für Fortgeschrittene
-- Einlagerung von Material für Gäste
-- Und vieles Mehr...
+**KITE-MALLORCA** ist deine professionelle, deutschsprachige Kiteschule und Wingfoil-Station in der Bucht von Pollensa (Alcudia). Seit 2009 begleiten wir Einsteiger, Fortgeschrittene und Urlauber sicher aufs Wasser – mit VDWS-geprüften Lehrern, modernstem Schulungsequipment und verlässlicher thermischer Windausbeute.
 
-Kiten, die im deutschen am häufigsten benutzte Kurzform vom Kitesurfen oder Kiteboarden ist ein sehr einfach zu erlernender Wassersport.
-Diese Einfachkeit und das Spiel mit Wind und Wellen machen aus diesem Wassersport eines der Faszinierenden Sportarten überhaupt.
-Sehr leicht werden Akrobatische Sprünge erlernt, die man sonst nur vielleicht beim springen auf einem Trampolin sieht
-KITE-MALLORCA, unsere Kiteschule auf Mallorca, zwischen Alcudia und Port Pollenca ist als internationales Kitesurfcenter seit 2009 hier tätig.
+### Unser Angebot im Überblick:
+- **Schulungen für alle Könnensstufen:** Schnupperkurse, Anfängerkurse mit VDWS-Lizenz, Aufsteiger-Trainings & Privatstunden auf Deutsch, Englisch und Spanisch.
+- **Wingfoiling & Hydrofoil:** Gezielte Kurse für den schnellen Einstieg in das lautlose Schweben über dem Wasser.
+- **Premium Materialmiete & Storage:** Neueste Kites, Wings und Boards von Duotone & Eleveight, inklusive flexibler Größenwahl und Rettungsboot-Sicherheit.
+- **Ideales Revier:** Flaches Stehrevier mit sandigem Untergrund und sicherer thermischer Windgarantie von April bis Oktober.
 
-## Kurse im Kiteboarden / Kitesurfen
-Unser Unterricht basiert auf den neuesten Erkenntnissen, ist schnell, sicher und optimal geeignet, um gute und effiziente Fertigkeiten im Kitesurfen zu erlernen und zu trainieren. Auf diese Weise kommst Du schnell aufs Board und kannst mit uns die Faszination des Kitesurfen erleben!  
+---
 
-{% include carousel.html %}  
+## Kitesurfkurse auf Mallorca – Schnell, sicher & mit System
 
-Als kompletter Anfänger braucht man ca. 10 Stunden bis man den Kite unter Kontrolle hat, die ersten Wasserstartversuche gemacht hat und die ersten Meter gefahren ist, sodass man dann in die Miete übergehen und unter unserer Aufsicht selbständig weiterüben kann.  
+Unser Unterrichtskonzept basiert auf modernen Lehrmethoden, individueller Betreuung in kleinen Gruppen (max. 2–4 Schüler) und sofortigem Praxisbezug. So lernst du Kitesurfen effizient, sicher und mit maximalem Spaßfaktor.
 
-Die Schulung für Aufsteiger und Fortgeschrittene richtet sich nach dem individuellen Könnensstand des Kiters. Egal ob Höhe halten, Höhe gewinnen, Wende, Halse oder erste Sprünge – der Kitelehrer stellt sich auf deine persönlichen Bedürfnisse ein und bringt dich auf den nächsten Kitelevel!  
+{% include carousel.html %}
 
-### Unsere Qualität zum besten Preis  
+### Welcher Kitekurs passt zu dir?
 
-10 Stunden Anfängerkurs - ab **EUR 399,-** (Preis pro Teilnehmer bei 1 Kite für 2 Schüler)  
-Unterricht in einer kleinen Gruppe von 2-4 Schülern, beinhaltet Vorbereitung und Theorie, um die Lizenz vom VDWS erwerben zu können (Dauer 3-6 Tage)  
+{% include prices-courses.html %}
 
-4 Stunden Refreshkurs - **EUR 220,-**  
-Aufbaukurs in einer kleinen Gruppe von 2-4 Schülern für Leute, die ihr Können von einem vorangegangenen Kurs auffrischen und verbessern wollen (Dauer 1-3 Tage) 
+[» Alle Kitekurse & Details im Überblick]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")
 
-3 Stunden Schnupperkurs - **EUR 150,-**  
-Unterricht in kleinen Gruppen von 2-4 Schüler mit dem Ziel so viel Kontrolle über den Kite zu erlernen dass sich jeder eigenständig vom Kite durch das Wasser ziehen kann(Bodydrag)! Jeder Teilnehmer wird von uns komplett ausgestattet. (Dauer ein Tag)
+---
 
-[» komplettes Angebot und Preise für Kitekurse]({{ site.url }}/de/kitekurse/ "Kitekurse und Preise")  
+## Wingfoilen lernen auf Mallorca
 
+Wingfoiling kombiniert das Beste aus Kitesurfen, Windsurfen und Hydrofoiling: Mit einem leichten Hand-Wing nutzt du den Wind, während das Hydrofoil-Board dich schon bei leichtem Wind völlig lautlos über die Wasseroberfläche hebt.
 
-## KITE & BOARD VERMIETUNG  
+Dank der konstanten Nachmittagsthermik in der Bucht von Pollensa herrschen auf Mallorca perfekte Bedingungen, um Wingfoilen von Grund auf zu lernen.
 
-Bei der Materialmiete steht für dich neuestes Equipment von Duotone und Eleveight zur Verfügung. Kites und Boards können natürlich mehrmals getauscht werden, wenn es die Bedingungen notwendig machen. Wir unterstützen dich bei der richtigen Materialwahl – für deine eigene Sicherheit und einen schnellen Lernerfolg!  
+* Schneller Einstieg ohne aufwendige Leinen-Vorbereitung.
+* Sichere Schulung im Stehbereich oder mit Bootbegleitung.
+* Neuestes Wingfoil-Material speziell für Einsteiger und Fortgeschrittene.
 
-Wir beobachten Dich vom Strand aus und sind, wenn du Hilfe brauchst, sofort per Kite oder Rettungsboot zur Stelle.  
+[» Mehr über Wingfoiling-Kurse & Miete erfahren]({{ site.url }}/de/wingfoiling/ "Wingfoiling auf Mallorca")
 
-[» komplettes Angebot und Preise für Kite & Board Vermietung]({{ site.url }}/de/vermietung/ "Vermietung und Preise")  
+---
+
+## Kite- & Wing-Vermietung mit Sicherheit
+
+Für erfahrene Kiter und Foiler bieten wir eine topaktuelle Mietflotte führender Marken wie **Duotone** und **Eleveight**. Du kannst dein Equipment flexibel an die wechselnden Windbedingungen des Tages anpassen.
+
+* **Sicherheit an erster Stelle:** Wir behalten dich vom Strand aus im Blick und stehen bei Bedarf mit unserem Rettungsboot sofort bereit.
+* **Material-Storage:** Du reist mit eigenem Material? Nutze unsere sichere Einlagerung direkt an der Station.
+
+[» Komplette Preisliste für Miete & Ausrüstung ansehen]({{ site.url }}/de/vermietung/ "Vermietung und Preise")
+
+---
+
+## Das Revier: Bucht von Pollensa / Alcudia
+
+Die Bucht von Pollensa im Norden Mallorcas zählt zu den sichersten und windbeständigsten Kitespots im gesamten Mittelmeerraum. 
+
+* **Verlässliche Thermik („Embat“):** Von April bis Oktober erwärmt die spanische Sonne das Landesinnere und erzeugt zuverlässig ab Mittag eine gleichmäßige, sideshore bis onshore wehende Brise von 12 bis 18 Knoten.
+* **Stehbereich & Sandgrund:** Großflächiges seichtes Wasser ohne störende Felsen oder starke Strömungen ermöglicht stressfreies Üben von Wasserstarts und Manövern.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Wann ist die beste Reisezeit zum Kiten und Wingfoilen auf Mallorca?
+Die Hauptsaison für Kitesurfen und Wingfoilen läuft von **April bis Ende Oktober**. In diesen Monaten baut sich an sonnigen Tagen verlässlich die thermische Seewindzirkulation (Embat) auf, die für konstante Windbedingungen sorgt.
+
+### Wie viele Stunden brauche ich, um Kitesurfen zu lernen?
+Einsteiger benötigen in der Regel einen **10-stündigen Anfängerkurs** (verteilt auf 3 bis 5 Tage), um den Kite sicher zu beherrschen, Wasserstarts durchzuführen und die ersten Strecken auf dem Board zu gleiten.
+
+### In welchen Sprachen wird unterrichtet?
+Unsere lizenzierten Kitelehrer unterrichten muttersprachlich auf **Deutsch, Englisch und Spanisch**.
+
+### Was muss ich zum Kurs mitbringen?
+Badebekleidung, Sonnencreme, Handtuch und gute Laune! Neoprenanzug, Prallschutzweste, Trapez, Helm sowie das komplette Kitematerial werden vollständig von uns gestellt.
+
+---
+
+[» Jetzt unverbindlich Kontakt aufnehmen oder Kurs anfragen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

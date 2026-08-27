@@ -1,121 +1,121 @@
-# Gallery pictures data
+# Gallery pictures data - Sabrina & Niklas
 images:
   - image: sabrina-and-niklas-001.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Sabrina & Niklas Start"
+    title: "Sabrina und Niklas beginnen ihren gemeinsamen Kitesurfkurs"
+    description: "Gemeinsam Kitesurfen lernen in der Bucht von Pollensa auf Mallorca"
+    alt: "Sabrina und Niklas freuen sich auf ihren Kitesurfkurs bei Kite-Mallorca"
 
   - image: sabrina-and-niklas-002.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite-Theorie"
+    title: "Erklärung des Windfensters und der Sicherheitsregeln"
+    description: "Sicherheitssysteme und Quick-Release werden am Strand geübt"
+    alt: "Sabrina und Niklas lernen die Kitesurf-Sicherheitssysteme und Quick Release"
 
   - image: sabrina-and-niklas-003.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Erste Flugübungen"
+    title: "Schirmbeherrschung und Lenkübungen mit dem Trainingskite"
+    description: "Gefühl für den Kitezug im flachen Wasser entwickeln"
+    alt: "Schulung der Schirmbeherrschung im stehtiefen Wasser von Alcudia"
 
   - image: sabrina-and-niklas-004.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Bodydrag im Wasser"
+    title: "Vortrieb durch den Kite ohne Board im Wasser"
+    description: "Bodydraggen macht riesigen Spaß und bringt Vertrauen in den Schirm"
+    alt: "Sabrina lässt sich beim Bodydraggen vom Kite durchs Wasser ziehen"
 
   - image: sabrina-and-niklas-005.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Niklas am Steuer"
+    title: "Niklas steuert den Kite kontrolliert durch die Powerzone"
+    description: "Saubere Lenkbewegungen für gleichmäßigen Schirmzug"
+    alt: "Niklas steuert die Bar des Kites souverän im Stehrevier"
 
   - image: sabrina-and-niklas-006.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Wasserstart-Vorbereitung"
+    title: "Board an die Füße und Schirm in Position bringen"
+    description: "Die richtige Vorbereitung vor dem eigentlichen Wasserstart"
+    alt: "Sabrina positioniert das Kiteboard an den Füßen vor dem Start"
 
   - image: sabrina-and-niklas-007.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Erfolgreicher Start"
+    title: "Erste Meter auf dem Kiteboard über das Wasser"
+    description: "Große Freude über den ersten geglückten Run"
+    alt: "Niklas gleitet auf dem Kiteboard über das ruhige Mittelmeer"
 
   - image: sabrina-and-niklas-008.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Teamwork"
+    title: "Gegenseitige Unterstützung beim Kitekurs"
+    description: "Zusammen lernt es sich doppelt so schnell und macht doppelt Spaß"
+    alt: "Sabrina und Niklas unterstützen sich gegenseitig beim Kitesurfen"
 
   - image: sabrina-and-niklas-009.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Coaching mit Daniel"
+    title: "Kitelehrer Daniel erklärt die optimale Körperhaltung"
+    description: "Hüfte nach vorne und Beine leicht anwinkeln"
+    alt: "Kitelehrer Daniel gibt Sabrina Tipps für eine entspannte Fahrhaltung"
 
   - image: sabrina-and-niklas-010.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Fahrfreude pur"
+    title: "Souveränes Fahren in beide Richtungen"
+    description: "Flüssiges Gleiten unter optimalen mallorquinischen Windbedingungen"
+    alt: "Sabrina surft entspannt mit dem Kiteboard in der Bucht von Pollensa"
 
   - image: sabrina-and-niklas-011.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Niklas fährt Upwind"
+    title: "Niklas fährt sicher Höhe und behält den Überblick"
+    description: "Höhelaufen klappt nach intensivem Coaching problemlos"
+    alt: "Niklas kitet am Homespot Sa Marina gegen den Wind"
 
   - image: sabrina-and-niklas-012.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Sonne und Meer"
+    title: "Traumhafte Bedingungen bei Kite-Mallorca"
+    description: "Kristallklares Wasser und angenehme Wassertemperaturen"
+    alt: "Kitesurferin Sabrina im sonnigen Mittelmeer vor Alcudia"
 
   - image: sabrina-and-niklas-013.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Rettungsboot-Aufsicht"
+    title: "Das Sicherheitsboot Uli 1 hat immer ein Auge auf alle Kiter"
+    description: "Maximale Sicherheit auf dem offenen Wasser"
+    alt: "Kite-Mallorca Rettungsboot überwacht die Kursteilnehmer auf dem Wasser"
 
   - image: sabrina-and-niklas-014.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Wenden und Switchen"
+    title: "Erste Wendeübungen für flüssige Richtungswechsel"
+    description: "Den Kite sanft über den Zenit auf die andere Seite steuern"
+    alt: "Niklas leitet eine Wende auf dem TwinTip Kiteboard ein"
 
   - image: sabrina-and-niklas-015.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Glückliche Gesichter"
+    title: "Begeisterung nach einer intensiven Kite-Session"
+    description: "Kitesurfen verbindet und schafft unvergessliche Urlaubserinnerungen"
+    alt: "Sabrina und Niklas strahlen nach einem erfolgreichen Kurstag am Strand"
 
   - image: sabrina-and-niklas-016.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kite abbauen"
+    title: "Gemeinsames Zusammenpacken der Kites am Strand"
+    description: "Luft ablassen, Tube aufrollen und Leinen sichern"
+    alt: "Sabrina und Niklas packen ihren Duotone Kite ordentlich zusammen"
 
   - image: sabrina-and-niklas-017.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "VDWS Lizenzierung"
+    title: "Vorbereitung auf den internationalen VDWS Kite-Pass"
+    description: "Offizieller Nachweis der erlernten Kitesurf-Levels"
+    alt: "Kiteschüler prüfen ihre erlernten VDWS Kitesurf-Stufen"
 
   - image: sabrina-and-niklas-018.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Sonnenuntergang"
+    title: "Stimmungsvoller Ausklang des Kitesurftages"
+    description: "Die Bucht von Pollensa im warmen Abendlicht"
+    alt: "Kitesurfer am Strand von Sa Marina im Abendlicht"
 
   - image: sabrina-and-niklas-019.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Abschiedsbild"
+    title: "Sabrina, Niklas und das Kite-Mallorca Team"
+    description: "Neue Kitesurf-Freunde fürs Leben gewonnen"
+    alt: "Gruppenfoto von Sabrina und Niklas mit ihren Kitelehrern auf Mallorca"
 
   - image: sabrina-and-niklas-020.jpg
-    name: ""
-    title: ""
-    description: ""
-    alt: ""
+    name: "Kiteboarding Passion"
+    title: "Vom Kitesurf-Fieber infiziert"
+    description: "Wir freuen uns schon auf die nächste Session mit euch"
+    alt: "Sabrina und Niklas mit Kiteboard bereit für den nächsten Kiteurlaub"

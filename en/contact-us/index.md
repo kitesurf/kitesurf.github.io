@@ -5,7 +5,7 @@ subtitle: "Contact with your kiteboarding center"
 date: 2015-11-23
 modified: 2017-02-28
 author: daniel
-description: "Contact here the KITE-MALLORCA team and send us your questions!"
+description: "Contact Kite-Mallorca: Send us your questions about kitesurfing lessons, wingfoiling, and gear rental in Pollensa Bay (Alcudia). Inquire now!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: en
 en-url: "en/contact-us/"
 es-url: "es/contacta-con-nosotros/"
 de-url: "de/kontaktiere-uns/"
+it-url: "it/contattaci/"
+fr-url: "fr/contactez-nous/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

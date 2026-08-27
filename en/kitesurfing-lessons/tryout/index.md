@@ -1,13 +1,12 @@
 ---
 layout: article
-buchung: true
-title: "Kite-Mallorca - Tryout in Kitesurfing"
-subtitle: "Kitesurfing courses and lessons - Tryout"
-date: 2019-02-24T12:57:10+01:00
-modified: 2019-12-07
+title: "Kitesurfing Taster Course in Mallorca – 3-Hour Trial"
+subtitle: "Experience the thrill of kiteboarding in a single afternoon"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "&#127965;Kitesurfing with lots of fun in a safe area, also for children the best way to learn this amazing water sport. All gear included"
-image:
+description: "3-hour kitesurfing taster course in Mallorca: Experience kite power, flying control, and shallow water bodydrag in Pollensa Bay."
+image: 
   background: 7.webp
   backgroundx1: 7mov.webp
   backgroundx2: 7mov.webp
@@ -15,31 +14,34 @@ image:
   background2x1: 7mov.jpg
   background2x2: 7mov.jpg
   feature: "flying-friends/l_kite-mallorca_055.jpg"
-  teaser:
-  thumb: flying-friends/l_kite-mallorca_055.jpg
+  teaser: null
+  thumb: "flying-friends/l_kite-mallorca_038.jpg"
   picnum: 55
-snippets: null
+snippets: true
 lang: en
 "en-url": en/kitesurfing-lessons/tryout/
 "es-url": es/cursos-de-kitesurf/iniciacion/
 "de-url": de/kitekurse/schnupperkurse/
-t:
+"it-url": it/corsi-kitesurf/prova/
+"fr-url": fr/cours-kitesurf/initiation/
+t: 
+  menu: MENU
+  link1: "kitesurfing-lessons/"
   menutxt1: "kitesurfing lessons"
-  link1:    "kitesurfing-lessons/"
+  link2: "renting/"
   menutxt2: "rental"
-  link2:    "renting/"
+  link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
-  link3:    "wingfoiling/"
+  link4: "contact/"
   menutxt4: "contact"
-  link4:    "contact/"
+  link5: "flying-friends/"
   menutxt5: "pictures & videos"
-  link5:    "flying-friends/"
-  menutxt6: "Disclaimer"
   link6: "disclaimer/"
-  menutxt7: "Contact us"
+  menutxt6: "Disclaimer"
   link7: "contact-us/"
+  menutxt7: "Contact us"
   link8: "shop/"
-  menutxt8: shop
+  menutxt8: "Shop"
   link9: "outfit/"
   menutxt9: "Outfit"
   link20: "kitesurfing-lessons/tryout/"
@@ -51,54 +53,43 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat lessons"
+  menutxt24: "Private lessons"
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser: PICK UP YOUR PORTION OF FUN TRYING OUT KITESURFING IN MAJORCA
+  teaser: "Our 3-Hour Taster Course – The Perfect First Taste of Kitesurfing"
+published: true
 ---
 
-<div id="bookingKitContainer" data-lang="en" data-e="3615f83ea415c3fbec86b9877a5050aa" data-cw="a03e5048263685b2ea6fd19deb2b34a8"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/a03e5048263685b2ea6fd19deb2b34a8/?lang=en&e=3615f83ea415c3fbec86b9877a5050aa" async></script>
-<noscript>
-<h1>Tryout kitesurfing course (English)</h1>
-<br>
- 
-ONLY €120.00 for 3 Hours<br>
-<br><br>
-<span>You always wanted to learn kitesurfing, but you are still unsure if this sport is for you, then our trial course is just the right choice.
-It allows you to try out in one day what it feels like to fly a real kitesurfing kite and to make it pull you through the water.
-You will learn the basics of flying a kite and gaining control over it, so that at the end of the course you will be able to hiss like a fish through the water and thus feel the fascination of kitesurfing on your own body.<br><br>
+{% assign p = site.data.prices.kitesurf.taster_3h %}
+{% assign curr = site.data.prices.currency | default: "€" %}
 
-In terms of content, this trial course is the same as the first 3 hours of our full beginners course in kitesurfing, to which you can easily upgrade at anytime.
-</span>
-<div class="item">
-<form method="POST" action="https://formspree.io/team@kite-mallorca.com">
-  <input type="email" name="_replyto" placeholder="Your email" required>
-  <input type="hidden" name="_subject" value="Booking request for tryout course">
-  <textarea name="body" cols="40" rows="6" placeholder="Please add your mobile phone number, your name and the time you'll be interested for the tryout. We'll contact you back soon"></textarea>
-  <span></span><br><br>
-  <input type="hidden" name="_next" value="{{ site.url }}/en/thanks/">
-  <input type="submit" value="Send">
-</form>
-<ul>
-  <li>Flying a trainer kite on the beach</li>
-  <li>Theory of wind and safety</li>
-  <li>Setting up a full-fledged kite</li>
-  <li>Safety exercises</li>
-  <li>Flying the kite in the water</li>
-  <li>Packing up the kite and etiquette</li>
-  <li>Payable even after completion</li>
-  <li>Our teachers speak English, German, Spanish, Italian, Catalan, Finnish, Dutch</li>
-</ul>
-<span>Please bring:
-Swimsuit Suncream Sunglasses Drinkwater</span><br>
+{% include schema-product.html course_key="taster_3h" name="3-Hour Kitesurfing Taster Course Mallorca" description="Action-packed 3-hour trial course for kitesurfing beginners in Pollensa Bay." %}
 
-<span><strong>Please note</strong>
-The start times can shift, depending on the wind. Please ask for confirmation: mobile Daniel +34 696 264 729.</span>
-</div>
+# 3-Hour Kitesurfing Taster Course in Mallorca
+
+Curious about kitesurfing and want to experience the power of the wind on your own body? Our 3-hour taster course lets you try kiteboarding in a single, action-packed afternoon session in the shallow waters of Pollensa Bay.
+
+> **Course Summary:**  
+> * **Duration:** 3 hours in 1 afternoon session.  
+> * **Price:** **{{ p.price }} {{ curr }}** per person (all equipment, wetsuit, vest & helmet included).  
+> * **100% Upgrade Credit:** If you decide to continue, your {{ p.price }} {{ curr }} is fully credited toward our 10-hour beginner course!
+
+---
+
+## What You Experience
 
 {% include carousel.html %}
 
-</noscript>
+1. **Beach Trainer Kite Control:** Understand how to steer, depower, and control the kite in the wind window.
+2. **Safety Release Drill:** Learn how modern quick-release systems depower the kite instantly.
+3. **Powered Water Bodydrag:** Enter the warm, shallow water and experience the thrilling acceleration as the kite pulls you across the bay!
+
+## What to Bring
+
+Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! All technical gear, kites, harnesses, wetsuits, and helmets are provided.
+
+---
+
+[» Book or Inquire About Your Taster Course via WhatsApp]({{ site.url }}/en/contact/ "Contact Kite Mallorca")

@@ -5,7 +5,7 @@ subtitle: "Pronosticos del viento en Mallorca"
 date: 2015-11-23 
 modified: 2017-02-28
 author: daniel
-description: "Informaciones actualizadas sobre la situación de viento y climática en Mallorca."
+description: "Previsión de viento en directo y webcams para kitesurf y wingfoil en la Bahía de Pollensa (Alcúdia), Mallorca. ¡Comprueba el viento térmico hoy!"
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -22,6 +22,8 @@ lang: es
 en-url: "en/wind/"
 es-url: "es/viento/"
 de-url: "de/wind/"
+it-url: "it/vento/"
+fr-url: "fr/vent/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

@@ -1,22 +1,33 @@
-
-// function menuAus() {
-var box = document.querySelector(".menuToggle");
-
-// Detect all clicks on the document
-document.addEventListener("click", function(event) {
-  // If user clicks inside the element, do nothing
-  if (event.target.closest(".menuToggle")) return;
-document.getElementById("nav-trigger").checked = false;
-  // If user clicks outside the element, hide it!
-  //box.classList.add("js-is-hidden");
-});
-function uncheck() {
-  document.getElementById("nav-trigger").checked = false;
-  document.getElementById("chbx1").checked = false;
-  document.getElementById("chbx2").checked = false;
-};
-function uncheck2() {
-  document.getElementById("nav-trigger").checked = false;
-  document.getElementById("chbx2").checked = false;
+// Menu toggle and click-outside handler
+function menuAus() {
+  var navTrigger = document.getElementById("nav-trigger");
+  if (navTrigger) {
+    navTrigger.checked = false;
+  }
 }
 
+function uncheck() {
+  var navTrigger = document.getElementById("nav-trigger");
+  var chbx1 = document.getElementById("chbx1");
+  var chbx2 = document.getElementById("chbx2");
+  if (navTrigger) navTrigger.checked = false;
+  if (chbx1) chbx1.checked = false;
+  if (chbx2) chbx2.checked = false;
+}
+
+function uncheck2() {
+  var navTrigger = document.getElementById("nav-trigger");
+  var chbx2 = document.getElementById("chbx2");
+  if (navTrigger) navTrigger.checked = false;
+  if (chbx2) chbx2.checked = false;
+}
+
+document.addEventListener("click", function(event) {
+  var menu = document.querySelector(".menuToggle");
+  if (menu && !menu.contains(event.target)) {
+    var navTrigger = document.getElementById("nav-trigger");
+    if (navTrigger) {
+      navTrigger.checked = false;
+    }
+  }
+});

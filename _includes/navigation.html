@@ -1,251 +1,152 @@
-    <!-- Navigation -->
+<!-- Navigation -->
+{% assign nav = site.data.navigation[page.lang] %}
+{% assign de_link = page['de-url'] | default: "de/" %}
+{% assign es_link = page['es-url'] | default: "es/" %}
+{% assign en_link = page['en-url'] | default: "en/" %}
+{% if en_link == '/' or en_link == '' %}{% assign en_link = "en/" %}{% endif %}
+{% assign it_link = page['it-url'] | default: "it/" %}
+{% assign fr_link = page['fr-url'] | default: "fr/" %}
+
 <div class="menubox">
-        <div>
-            {% if page.amp == true %}
-            <a href="{{site.baseurl }}/amp/{{page.lang }}/"><amp-img class="logo" src="{{site.baseurl}}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></amp-img></a>
-            <a href="http://wa.me/34696264729">
-                <svg style="position: relative;padding-top: 10px ; width: 2em; height: auto;"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="WhatsApp" role="img"
-                viewBox="0 0 512 512"
-                fill="#fff"><rect
-                width="512" height="512"
-                rx="15%"
-                fill="#45d354"/><path d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"/><path d="M264 384c-41 0-72-22-72-22l-49 13 12-48s-20-31-20-70c0-72 59-132 132-132 68 0 126 53 126 127 0 72-58 131-129 132m-159 29l83-23a158 158 0 0 0 230-140c0-86-68-155-154-155a158 158 0 0 0-137 236"/></svg>
-                </a>
-            <a href="tel:+34696264729" title="Call or WhatsApp"><strong>+34-696-264729</strong></a>
-            {% else %}
-            <a href="{{site.baseurl }}/{{page.lang }}/" onclick="uncheck()"><img class="logo" src="data:image/gif;base64,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" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
-            <div class="callbox">
-            <a href="http://wa.me/34696264729" onclick="uncheck()">
-                <svg style="position: relative;padding-top: 10px ; width: 2em; height: auto;"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="WhatsApp" role="img"
-                viewBox="0 0 512 512"
-                fill="#fff"><rect
-                width="512" height="512"
-                rx="15%"
-                fill="#45d354"/><path d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"/><path d="M264 384c-41 0-72-22-72-22l-49 13 12-48s-20-31-20-70c0-72 59-132 132-132 68 0 126 53 126 127 0 72-58 131-129 132m-159 29l83-23a158 158 0 0 0 230-140c0-86-68-155-154-155a158 158 0 0 0-137 236"/></svg>
-                </a>
-            <a href="tel:+34696264729" title="Call or WhatsApp" onclick="uncheck()"><strong>+34696264729</strong></a>
-            </div>
-            {% endif %}
-        </div>
-        <div>
-            {% if page.amp == true %}
-            <div class="navtop">
+  <div>
+    {% if page.amp == true %}
+      <a href="{{ site.baseurl }}/amp/{{ page.lang }}/"><amp-img class="logo" src="{{ site.baseurl }}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" height="118" width="150" title="Kite Mallorca home"></amp-img></a>
+      <a href="http://wa.me/34696264729">
+        <svg style="position: relative;padding-top: 10px ; width: 2em; height: auto;" xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512" fill="#fff"><rect width="512" height="512" rx="15%" fill="#45d354"/><path d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"/><path d="M264 384c-41 0-72-22-72-22l-49 13 12-48s-20-31-20-70c0-72 59-132 132-132 68 0 126 53 126 127 0 72-58 131-129 132m-159 29l83-23a158 158 0 0 0 230-140c0-86-68-155-154-155a158 158 0 0 0-137 236"/></svg>
+      </a>
+      <a href="tel:+34696264729" title="Call or WhatsApp"><strong>+34-696-264729</strong></a>
+    {% else %}
+      <a href="{{ site.baseurl }}/{{ page.lang }}/" onclick="uncheck()"><img class="logo" src="{{ site.baseurl }}/images/kite-mallorca_150x118.png" alt="Kite Mallorca Logo" title="Kite Mallorca home"></a>
+      <div class="callbox">
+        <a href="http://wa.me/34696264729" onclick="uncheck()">
+          <svg style="position: relative;padding-top: 10px ; width: 2em; height: auto;" xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" viewBox="0 0 512 512" fill="#fff"><rect width="512" height="512" rx="15%" fill="#45d354"/><path d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"/><path d="M264 384c-41 0-72-22-72-22l-49 13 12-48s-20-31-20-70c0-72 59-132 132-132 68 0 126 53 126 127 0 72-58 131-129 132m-159 29l83-23a158 158 0 0 0 230-140c0-86-68-155-154-155a158 158 0 0 0-137 236"/></svg>
+        </a>
+        <a href="tel:+34696264729" title="Call or WhatsApp" onclick="uncheck()"><strong>+34696264729</strong></a>
+      </div>
+    {% endif %}
+  </div>
+  <div>
+    {% if page.amp == true %}
+      <div class="navtop">
+        <ul>
+          <li id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
             <ul>
-              <li id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul>
-                  <li><a href="{{site.baseurl }}/amp/{{page.lang }}/">Start</a>
-                  </li>
-                  <li class="sub-menu">&#x2000;<label for="chbx1">{{ page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
-                    <ul class="navsub">
-                       <li>&#x2000;<label for="chbx1">
-                        <svg class="svg-icon" viewBox="0 0 20 20">
-                          <path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0
-                            c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795
-                            l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07
-                            C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208
-                            s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
-                            c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
-                        </svg></label><input type="checkbox" id="chbx1"/></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}">{{ page.t.menutxt1 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}">{{ page.t.menutxt20 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}">{{ page.t.menutxt21 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}">{{ page.t.menutxt22 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}">{{ page.t.menutxt23 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}">{{ page.t.menutxt24 }}</a></li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu">&#x2000;<label for="chbx2">{{ page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
-                    <ul class="navsub">
-                       <li>&#x2000;<label for="chbx2">
-                        <svg class="svg-icon" viewBox="0 0 20 20">
-                          <path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0
-                            c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795
-                            l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07
-                            C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208
-                            s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
-                            c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
-                        </svg></label><input type="checkbox" id="chbx2"/></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}">{{ page.t.menutxt2 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}">{{ page.t.menutxt30 }}</a></li>
-                       <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}">{{ page.t.menutxt31 }}</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" >{{ page.t.menutxt3 }}</a></li>
-                  <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" >{{ page.t.menutxt4 }}</a></li>
-                  <li><a href="{{site.baseurl }}/amp/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" >{{ page.t.menutxt5 }}</a></li>
-                  <li><a href="{{site.baseurl }}/amp/{{ page.de-url }}" title="Deutsch"><amp-img src="{{site.baseurl }}/images/flags/germany_24.png" alt="Deutsch" height="24" width="24"></amp-img></a></li>
-                  <li><a href="{{site.baseurl }}/amp/{{ page.es-url }}" title="Español"><amp-img src="{{site.baseurl }}/images/flags/spain_24.png" alt="Español" height="24" width="24"></amp-img></a></li>
-                  {%- if page.en-url =='/' -%}
-                  <li><a href="{{site.baseurl }}/amp/en/" title="English"><amp-img src="{{site.baseurl }}/images/flags/uk_24.png" alt="English" height="24" width="24"></amp-img></a></li>
-                  {%- else -%}
-                  <li><a href="{{site.baseurl }}/amp/{{ page.en-url }}" title="English"><amp-img src="{{site.baseurl }}/images/flags/uk_24.png" alt="English" height="24" width="24"></amp-img></a></li>
-                  {%- endif -%}
+              <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/">{{ nav.home | default: "Start" }}</a></li>
+              <li class="sub-menu">&#x2000;<label for="chbx1">{{ nav.lessons.title | default: page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
+                <ul class="navsub">
+                  <li>&#x2000;<label for="chbx1">
+                    <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path></svg>
+                  </label><input type="checkbox" id="chbx1"/></li>
+                  {% if nav.lessons.items %}
+                    {% for item in nav.lessons.items %}
+                      <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                  {% else %}
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}">{{ page.t.menutxt1 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}">{{ page.t.menutxt20 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}">{{ page.t.menutxt21 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}">{{ page.t.menutxt22 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}">{{ page.t.menutxt23 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}">{{ page.t.menutxt24 }}</a></li>
+                  {% endif %}
                 </ul>
               </li>
-            </ul>
-            </div>
-            {% else %}            
-            <div class="navtop">
-              <div id="menuToggle" class="menuToggle">
-                <input type="checkbox" class="nav-trigger" id="nav-trigger" onclick="menuAus()"/>
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/" onclick="uncheck()">Start </a>
-                  </li>
-                  <li class="sub-menu">&#x2000;<label for="chbx1">{{ page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
-                    <ul class="navsub">
-                      <li>&#x2000;<label for="chbx1">
-                      <svg class="svg-icon" viewBox="0 0 20 20">
-                        <path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0
-                          c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795
-                          l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07
-                          C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208
-                          s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
-                          c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
-                      </svg></label><input type="checkbox" id="chbx1"/></li>                  
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" onclick="uncheck()">{{ page.t.menutxt1 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}" onclick="uncheck()">{{ page.t.menutxt20 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}" onclick="uncheck()">{{ page.t.menutxt21 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}" onclick="uncheck()">{{ page.t.menutxt22 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}" onclick="uncheck()">{{ page.t.menutxt23 }}</a></li>
-                       <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}" onclick="uncheck()">{{ page.t.menutxt24 }}</a></li>
-                    </ul>
-                  </li>
-                  <li class="sub-menu">&#x2000;<label for="chbx2">{{ page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
-                    <ul class="navsub">                  
-                      <li>&#x2000;<label for="chbx2">
-                      <svg class="svg-icon" viewBox="0 0 20 20">
-                        <path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0
-                          c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795
-                          l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07
-                          C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208
-                          s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057
-                          c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path>
-                      </svg></label><input type="checkbox" id="chbx1"/></li>                      
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" onclick="uncheck2()">{{ page.t.menutxt2 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}" onclick="uncheck2()">{{ page.t.menutxt30 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}" onclick="uncheck2()">{{ page.t.menutxt31 }}</a></li>
-                      <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link32 }}" title="{{ page.t.menutxt32 }}" onclick="uncheck2()">{{ page.t.menutxt32 }}</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link3 }}" title="{{ page.t.menutxt3 }}" onclick="uncheck()">{{ page.t.menutxt3 }}</a></li>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link4 }}" title="{{ page.t.menutxt4 }}" onclick="uncheck()">{{ page.t.menutxt4 }}</a></li>
-                  <li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link5 }}" title="{{ page.t.menutxt5 }}" onclick="uncheck()">{{ page.t.menutxt5 }}</a></li>
-                  <li><div class="flags">                
-                              <img class="lazyload" data-src="data:image/gif;base64,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
-jJn/AFk6JemK47OUAAAAAElFTkSuQmCC" alt="languages" usemap="#Map" />
-                                  <map name="Map" id="Map">
-                                      <area alt="Español" title="Español" href="{{site.baseurl }}/{{ page.es-url }}" shape="rect" coords="2,3,25,21" />
-                                      <area alt="Deutsch" title="Deutsch" href="{{site.baseurl }}/{{ page.de-url }}" shape="rect" coords="64,3,88,21" />
-                                      <area alt="English" title="English" href="{{site.baseurl }}/{{ page.en-url }}" shape="rect" coords="126,3,149,20" />
-                                  </map>
-                      </div>
-                  </li>
+              <li class="sub-menu">&#x2000;<label for="chbx2">{{ nav.rental.title | default: page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
+                <ul class="navsub">
+                  <li>&#x2000;<label for="chbx2">
+                    <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path></svg>
+                  </label><input type="checkbox" id="chbx2"/></li>
+                  {% if nav.rental.items %}
+                    {% for item in nav.rental.items %}
+                      <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ item.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
+                    {% endfor %}
+                  {% else %}
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}">{{ page.t.menutxt2 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}">{{ page.t.menutxt30 }}</a></li>
+                    <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}">{{ page.t.menutxt31 }}</a></li>
+                  {% endif %}
                 </ul>
+              </li>
+              <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a></li>
+              <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.contact.url | default: page.t.link4 }}" title="{{ nav.contact.title | default: page.t.menutxt4 }}">{{ nav.contact.title | default: page.t.menutxt4 }}</a></li>
+              <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}">{{ nav.media.title | default: page.t.menutxt5 }}</a></li>
+              <li class="flags-item">
+                <div class="flags" style="display:flex;flex-wrap:wrap;gap:8px;padding:8px 10px;align-items:center;">
+                  <a href="{{ site.baseurl }}/amp/{{ de_link }}" title="Deutsch"><amp-img src="{{ site.baseurl }}/images/flags/de.svg" alt="Deutsch" height="19" width="26"></amp-img></a>
+                  <a href="{{ site.baseurl }}/amp/{{ es_link }}" title="Español"><amp-img src="{{ site.baseurl }}/images/flags/es.svg" alt="Español" height="19" width="26"></amp-img></a>
+                  <a href="{{ site.baseurl }}/amp/{{ en_link }}" title="English"><amp-img src="{{ site.baseurl }}/images/flags/uk.svg" alt="English" height="19" width="26"></amp-img></a>
+                  <a href="{{ site.baseurl }}/amp/{{ it_link }}" title="Italiano"><amp-img src="{{ site.baseurl }}/images/flags/it.svg" alt="Italiano" height="19" width="26"></amp-img></a>
+                  <a href="{{ site.baseurl }}/amp/{{ fr_link }}" title="Français"><amp-img src="{{ site.baseurl }}/images/flags/fr.svg" alt="Français" height="19" width="26"></amp-img></a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    {% else %}
+      <div class="navtop">
+        <div id="menuToggle" class="menuToggle">
+          <input type="checkbox" class="nav-trigger" id="nav-trigger"/>
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul>
+            <li><a href="{{ site.baseurl }}/{{ page.lang }}/" onclick="uncheck()">{{ nav.home | default: "Start" }}</a></li>
+            <li class="sub-menu">&#x2000;<label for="chbx1">{{ nav.lessons.title | default: page.t.menutxt1 }}</label><input type="checkbox" id="chbx1"/>
+              <ul class="navsub">
+                <li>&#x2000;<label for="chbx1">
+                  <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path></svg>
+                </label><input type="checkbox" id="chbx1"/></li>
+                {% if nav.lessons.items %}
+                  {% for item in nav.lessons.items %}
+                    <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ item.url }}" title="{{ item.title }}" onclick="uncheck()">{{ item.title }}</a></li>
+                  {% endfor %}
+                {% else %}
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link1 }}" title="{{ page.t.menutxt1 }}" onclick="uncheck()">{{ page.t.menutxt1 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link20 }}" title="{{ page.t.menutxt20 }}" onclick="uncheck()">{{ page.t.menutxt20 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link21 }}" title="{{ page.t.menutxt21 }}" onclick="uncheck()">{{ page.t.menutxt21 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link22 }}" title="{{ page.t.menutxt22 }}" onclick="uncheck()">{{ page.t.menutxt22 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link23 }}" title="{{ page.t.menutxt23 }}" onclick="uncheck()">{{ page.t.menutxt23 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link24 }}" title="{{ page.t.menutxt24 }}" onclick="uncheck()">{{ page.t.menutxt24 }}</a></li>
+                {% endif %}
+              </ul>
+            </li>
+            <li class="sub-menu">&#x2000;<label for="chbx2">{{ nav.rental.title | default: page.t.menutxt2 }}</label><input type="checkbox" id="chbx2"/>
+              <ul class="navsub">
+                <li>&#x2000;<label for="chbx2">
+                  <svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M13.864,6.136c-0.22-0.219-0.576-0.219-0.795,0L10,9.206l-3.07-3.07c-0.219-0.219-0.575-0.219-0.795,0c-0.219,0.22-0.219,0.576,0,0.795L9.205,10l-3.07,3.07c-0.219,0.219-0.219,0.574,0,0.794c0.22,0.22,0.576,0.22,0.795,0L10,10.795l3.069,3.069c0.219,0.22,0.575,0.22,0.795,0c0.219-0.22,0.219-0.575,0-0.794L10.794,10l3.07-3.07C14.083,6.711,14.083,6.355,13.864,6.136z M10,0.792c-5.086,0-9.208,4.123-9.208,9.208c0,5.085,4.123,9.208,9.208,9.208s9.208-4.122,9.208-9.208C19.208,4.915,15.086,0.792,10,0.792z M10,18.058c-4.451,0-8.057-3.607-8.057-8.057c0-4.451,3.606-8.057,8.057-8.057c4.449,0,8.058,3.606,8.058,8.057C18.058,14.45,14.449,18.058,10,18.058z"></path></svg>
+                </label><input type="checkbox" id="chbx2"/></li>
+                {% if nav.rental.items %}
+                  {% for item in nav.rental.items %}
+                    <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ item.url }}" title="{{ item.title }}" onclick="uncheck2()">{{ item.title }}</a></li>
+                  {% endfor %}
+                {% else %}
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link2 }}" title="{{ page.t.menutxt2 }}" onclick="uncheck2()">{{ page.t.menutxt2 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link30 }}" title="{{ page.t.menutxt30 }}" onclick="uncheck2()">{{ page.t.menutxt30 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link31 }}" title="{{ page.t.menutxt31 }}" onclick="uncheck2()">{{ page.t.menutxt31 }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ page.t.link32 }}" title="{{ page.t.menutxt32 }}" onclick="uncheck2()">{{ page.t.menutxt32 }}</a></li>
+                {% endif %}
+              </ul>
+            </li>
+            <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}" onclick="uncheck()">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.contact.url | default: page.t.link4 }}" title="{{ nav.contact.title | default: page.t.menutxt4 }}" onclick="uncheck()">{{ nav.contact.title | default: page.t.menutxt4 }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}" onclick="uncheck()">{{ nav.media.title | default: page.t.menutxt5 }}</a></li>
+            <li class="flags-item">
+              <div class="flags" style="display:flex;flex-wrap:wrap;gap:8px;padding:8px 10px;align-items:center;">
+                <a href="{{ site.baseurl }}/{{ de_link }}" title="Deutsch"><img src="{{ site.baseurl }}/images/flags/de.svg" alt="Deutsch" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
+                <a href="{{ site.baseurl }}/{{ es_link }}" title="Español"><img src="{{ site.baseurl }}/images/flags/es.svg" alt="Español" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
+                <a href="{{ site.baseurl }}/{{ en_link }}" title="English"><img src="{{ site.baseurl }}/images/flags/uk.svg" alt="English" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
+                <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano"><img src="{{ site.baseurl }}/images/flags/it.svg" alt="Italiano" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
+                <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français"><img src="{{ site.baseurl }}/images/flags/fr.svg" alt="Français" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
               </div>
-            </div>
-         {% endif %}
+            </li>
+          </ul>
         </div>
+      </div>
+    {% endif %}
+  </div>
 </div>

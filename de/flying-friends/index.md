@@ -5,7 +5,7 @@ subtitle: "Bilder & Videos - Impressionen"
 date: 2015-11-23T00:00:00.000Z
 modified: 2017-02-28
 author: daniel
-description: Bilder vom Kitesurfen auf Mallorca. Hier sind viele unserer Schüler und Freunde zu sehen.
+description: "Fotos & Videos von Kitesurfkursen auf Mallorca: Entdecke die besten Momente unserer Schüler und Freunde in der Bucht von Pollensa. Schau rein!"
 dataFile: photosde
 image:
   background: 7.webp
@@ -23,6 +23,8 @@ lang: de
 "en-url": "en/flying-friends/"
 "es-url": "es/flying-friends/"
 "de-url": "de/flying-friends/"
+"it-url": "it/flying-friends/"
+"fr-url": "fr/flying-friends/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

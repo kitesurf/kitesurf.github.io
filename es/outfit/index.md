@@ -6,7 +6,7 @@ subtitle: Have fun and hang loose
 date: 2017-11-24T00:00:00.000Z
 modified: 
 author: daniel
-description: "Nuestra tienda de moda para compartir nuestro estilo de vida. Camisetas, chaquetas, sudaderas, gorros, bolsos, etc."
+description: "Tienda oficial Kite-Mallorca: Camisetas, sudaderas y accesorios de estilo de vida kitesurf con 30 días de devolución. ¡Descubre la colección!"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -23,6 +23,8 @@ lang: es
 "en-url": en/outfit/
 "es-url": es/outfit/
 "de-url": de/outfit/
+"it-url": it/outfit/
+"fr-url": fr/outfit/
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

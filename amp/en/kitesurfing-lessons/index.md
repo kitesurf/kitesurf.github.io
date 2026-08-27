@@ -74,24 +74,7 @@ The lessons for refreshers or advanced riders fully depend on the individual lev
 
 ## Our quality for the best price  
 
-### 10 hours beginners course - **EUR 500,-**  
-Beginner lessons in a small group of 2-4 students, including preparation and theory for taking the international VDWS licence (duration 3-6 days)  
-
-### 4 hours refresh course - **EUR 220,-**  
-Advanced lessons in a small group of 2-4 students for people who have done a course before and want to refresh and improve their skills (duration 1-3 days)  
-
-### Group lessons on an hourly basis  
-with shared kite & board - **EUR 45,-/h**  
-with own kite & board - **EUR 60,-/h**  
-Individual hours for all levels in a small group of 2-4 students  
-
-### 3 hours trial course - **EUR 120,-**  
-Lessons in a small group of 2-4 students with the goal to be dragged through the water by a real kite! (duration 1 day)  
-
-### Private one-to-one lessons - **EUR 120,-/h**  
-Individual hours alone with an instructor for all levels
-
-(All prices are per person)
+{% include prices-courses.html %}
 
 The courses and lessons always include the complete equipment required. If necessary also with boat support.  
 

@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kite-Mallorca - Contact - Phone +34-696-264729"
-subtitle: Contact
-date: 2015-11-23T00:00:00.000Z
-modified: 2017-02-28
+title: "Contact & Location – KITE-MALLORCA Kitesurf Center Alcudia"
+subtitle: "How to find us at Sa Marina beach in the Bay of Pollensa"
+date: 2026-08-26T00:00:00.000Z
+modified: 2026-08-26T00:00:00.000Z
 author: daniel
-description: "Kite-Mallorca's international kitesurf center contact details and ubication on the island"
+description: "Contact information and location for KITE-MALLORCA at Sa Marina beach between Alcúdia and Port de Pollença. Phone, WhatsApp & directions."
 image:
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -15,31 +15,33 @@ image:
   background2x2: 7mov.jpg
   feature: null
   teaser: null
-  thumb: "flying-friends/l_kite-mallorca_001.jpg"
-  picnum: 1
+  thumb: flying-friends/m_kite-mallorca_051.jpg
+  picnum: 51
 snippets: true
 lang: en
-"en-url": en/contact/
-"es-url": es/contacto/
-"de-url": de/kontakt/
+en-url: "en/contact/"
+es-url: "es/contacto/"
+de-url: "de/kontakt/"
+it-url: "it/contatto/"
+fr-url: "fr/contact/"
 t:
   menu: MENU
-  menutxt1: kitesurfing lessons
   link1: "kitesurfing-lessons/"
-  menutxt2: rental
-  link2: renting/
-  menutxt3: Wingfoiling
-  link3: wingfoiling/
-  menutxt4: contact
-  link4: contact/
-  menutxt5: "pictures & videos"
+  menutxt1: "kitesurfing lessons"
+  link2: "renting/"
+  menutxt2: "rental"
+  link3: "wingfoiling/"
+  menutxt3: "Wingfoiling"
+  link4: "contact/"
+  menutxt4: "contact"
   link5: "flying-friends/"
-  menutxt6: Disclaimer
-  link6: disclaimer/
-  menutxt7: Contact us
+  menutxt5: "pictures & videos"
+  link6: "disclaimer/"
+  menutxt6: "Disclaimer"
   link7: "contact-us/"
+  menutxt7: "Contact us"
   link8: "shop/"
-  menutxt8: shop
+  menutxt8: "Shop"
   link9: "outfit/"
   menutxt9: "Outfit"
   link20: "kitesurfing-lessons/tryout/"
@@ -51,38 +53,41 @@ t:
   link23: "kitesurfing-lessons/hydrofoil/"
   menutxt23: "Hydrofoil"
   link24: "kitesurfing-lessons/privatlessons/"
-  menutxt24: "Privat lessons"
+  menutxt24: "Private lessons"
   link30: "renting/per-hour-or-day/"
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long term rent"
-  teaser: "Our contact details. Call or chat: +34 696 264 729"
+  teaser: "Get in touch: Call or WhatsApp us at +34 696 264 729"
 published: true
 ---
 
+# Contact & Location of KITE-MALLORCA
 
-# KITE-MALLORCA CONTACT
+Have questions about our kitesurfing or wingfoil courses, wish to reserve rental gear, or want to check today's wind conditions? We are here to help!
 
-You find us on the beach of Sa Marina in the bay between Alcudia and Port de Pollenca.
+---
 
-KITE-MALLORCA  
-Kitesurf Mallorca S.L.  
-Calle del Greco 19  
-07400 Alcudia  
-Mallorca, Spain  
-Phone +34 696 264729  
-[Whatsapp Group kite-mallorca]({{ site.url }}/whatsapp/ "Opens a chat with us in your whatsapp")  
+### Contact Information
+
+* **Station Spot:** Sa Marina Beach (Bay of Pollensa / Alcudia)
+* **Company:** Kitesurf Mallorca S.L.
+* **Address:** Calle del Greco 19, 07400 Alcúdia, Mallorca, Spain
+* **Phone & WhatsApp:** [+34 696 264 729](tel:+34696264729)
+* **WhatsApp Chat:** [Open WhatsApp Direct Chat]({{ site.url }}/whatsapp/ "Chat with Kite Mallorca on WhatsApp")
+* **Online Inquiry:** [Open Contact Form]({{ site.url }}/en/contact-us/ "Send a message")
 
 {% include googlemap.html %}
 
-## Places to stay
+---
 
-In Alcudia and around there are lots of accommodations, we just list the closest ones here.
-From those you can take the public bus or just walk to our spot.
+## Directions & Nearby Hotels
 
-- Hotel Club Pollentia Ressort <a href="https://www.clubpollentia.com/?lang=en" rel="nofollow" title="www.clubpollentia.com">» CLick here for offers</a>
-- Hotel Moré <a href="https://www.hotelmore.com/en/hotel-more-alcudia" rel="nofollow" title="www.hotelmore.com">» CLick here for offers</a>
+Our kite station is located directly along the scenic coastal road between **Alcúdia** and **Port de Pollença** at **Sa Marina**. Free beachside parking is available directly at the spot.
 
-For more information please fill out the [contact form]({{ site.url }}/en/contact-us/ "Open the contact form to write us without the need of a mail program") or just call us!
+### Recommended Nearby Hotels
+
+* **Hotel Club Pollentia Resort & Spa:** Located just a few minutes' walk from our spot.
+* **Hotel Moré (Alcudia):** Popular beachfront hotel in close proximity.
 
 {% include daniel_und_gerhard.html %}
