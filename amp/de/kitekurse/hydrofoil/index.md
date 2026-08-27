@@ -65,7 +65,7 @@ published: true
 
 <h1>Reservieren und Buchen: Hydrofoil-Kurs im Kitesurfen</h1>
  
-<strong>200 € pro Person - mit Bootsbegleitung - minimum 2 Std. - maximum 2 Teilnehmer</strong><br><br>
+<strong>Individuelle Schulung mit Bootsbegleitung – maximal 2 Teilnehmer</strong><br><br>
 <span>Hydrofoil, der neue Trend im Kiteboarden ist auch bei uns angekommen. Als erster hat Daniel das "foilen" vor ca. 3 Jahre in unser Revier gebracht, und es wurde sofort von vielen sehr gut angenommen.<br>
 Auf Grund der perfekten Bedingungen zum foilen in unsere Bucht, wie zum Beispiel der täglichen Brise, die zum Mittag sehr konstant bläst, eignet sich dieses Revier hervorragend um hier das foilen zu lernen und zu üben. 
 Bei unserem Kurs zum "Foiler" machen wir es dir so einfach wie Möglich. Aus diesem Grund lernen es die meisten innerhalb der ersten 2-4 Stunden einfach hin und her mit dem Foil zu "Cruisen".<br><br>

@@ -63,7 +63,7 @@ t:
 
 <h1>Reserva aquí tu curso de hidrofoil en kitesurf</h1>
  
-<strong>200 € por persona - acompañado por barca - mínimo 2 hs - máximo 2 alumnos</strong><br><br>
+<strong>Clases con apoyo de barco – máximo 2 alumnos</strong><br><br>
 <span>Hidrofoil, la nueva tendencia en kiteboarding también ha llegado hasta nosotros. Daniel fue el primero en traer el "foil" a nuestra área hace unos 3 años, e inmediatamente fue muy bien recibido por muchos, más ahora que se está por convertir en deporte olympico.<br>
 Debido a las perfectas condiciones para el foil en nuestra bahía, como la brisa diaria que sopla constantemente al mediodía, y el agua que permanece plana, sin grandes olas, este lugar es ideal para el aprendizaje y la práctica del foil. <br>
 En nuestro curso de hidrofoil te lo ponemos lo más fácil posible. Es por eso que la mayoría de la gente aprende a navegar con hidrofoil en las primeras 2-4 horas.<br>

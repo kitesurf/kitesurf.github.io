@@ -66,7 +66,7 @@ published: true
 <h1>Reservieren und Buchen: Privater Kurs im Kitesurfen</h1>
 <br>
  
-<strong>120 € pro Stunde</strong><br><br>
+<strong>1-zu-1 Intensivunterricht für maximalen Lernerfolg</strong><br><br>
 <span>Im Privatunterricht lernst du das Kitesurfen auf einer ganz exclusiven Art, perfekt auf dich und deiner Zeit angepasst. Unser Ziel dabei ist dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite zu bringen. Material wird komplett gestellt und ist Preis inbegrifen.</span>
 <div class="item">
 <H6>

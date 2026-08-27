@@ -5,7 +5,7 @@ subtitle: "Cursos de Wingfoiling en Mallorca"
 date: 2026-05-04T00:00:00.000Z
 modified: 2026-05-04T00:00:00.000Z
 author: daniel
-description: "Aprende wingfoiling en Mallorca en la bahía de Alcudia. Instructores certificados VDWS, equipo completo, curso de 10 horas desde 590 €. ¡Reserva ya!"
+description: "Aprende wingfoiling en Mallorca en la bahía de Alcudia. Instructores certificados VDWS, equipo completo, precios claros y licencia VDWS. ¡Reserva ya!"
 image:
   background: wingfoiling/cover.jpg
   backgroundx1: wingfoiling/cover.jpg
@@ -111,7 +111,7 @@ La mejor época para aprender en Mallorca es entre mayo y octubre, y en los mese
 
 ## Tu inversión: Costes y Material
 
-Por un curso para principiantes de 10 horas, en el que aprenderás todas las bases hasta tu primer vuelo, cobramos **590 euros**. Este precio incluye:
+En nuestros cursos completos para principiantes aprenderás todos los fundamentos hasta tu primer planeo seguro. Nuestras clases incluyen:
 
 - La supervisión de entrenadores experimentados de VDWS
 - Todo el material (tabla, foil, wing)

@@ -63,7 +63,7 @@ t:
 
 <h1>Hydrofoil course in kitesurfing</h1>
  
-<strong>200 € per person - mínimo 2 hs</strong><br><br>
+<strong>Individual coaching with boat support – max 2 students</strong><br><br>
 <span>Hydrofoil, the new trend in kiteboarding has also arrived to us. Daniel was the first to bring "foiling" to our area about 3 years ago, and it was immediately very well received by many; more now that it's about to become an Olympic sport.<br>
 Due to the perfect conditions for foiling in our bay, such as the daily breeze that blows very constantly at noon, this spot is ideal for learning and practicing foiling.<br>
 In our "Foiling" course we make it as easy as possible for you. That's why most people learn how to cruise within the first 2-4 hours. <br><br>

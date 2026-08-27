@@ -66,8 +66,7 @@ published: true
 
 <h1>Reservieren und Buchen: Grundkurs für Anfänger im Kitesurfen, 10 Std.</h1>
 <br>
-AB 45,00 € pro Stunde<br>
-<strong>oder 10 Stunden für 400,- €</strong><br><br>
+<strong>Umfassender Anfängerkurs mit VDWS-Lizenzierung</strong><br><br>
 <span>Unser Grundkurs im Kitesurfen macht dich in kürzester Zeit sicher und selbständig im Umgang mit Kiteboard und Kite.
 Material wird komplett gestellt und ist im Endpreis inbegrifen.</span>
 <div class="item">

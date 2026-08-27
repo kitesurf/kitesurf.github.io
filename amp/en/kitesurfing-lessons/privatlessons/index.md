@@ -64,7 +64,7 @@ t:
 <h1>Refresher lessons and further education in kitesurfing. (English)</h1>
 <br>
  
-FROM 55.00 Euro per person/hour<br>
+<strong>1-on-1 private tuition tailored to your goals</strong><br>
 by more then 4 hours with 10% discount<br><br>
 <span>Refresher course in kitesurfing:
 for those who have already had contact with kitesurfing and want to develop further here.
