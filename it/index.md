@@ -50,7 +50,7 @@ t:
   menutxt30: "Noleggio a ore o giorno"
   link31: "noleggio/lungo-termine/"
   menutxt31: "Noleggio a lungo termine"
-  teaser: "Impara Kitesurf e Wingfoil a Maiorca con Istruttori Certificati"
+  teaser:
 published: true
 ---
 

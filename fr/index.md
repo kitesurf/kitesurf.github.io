@@ -50,7 +50,7 @@ t:
   menutxt30: "Location à l'heure ou journée"
   link31: "location/longue-duree/"
   menutxt31: "Location longue durée"
-  teaser: "Apprenez le Kitesurf et le Wingfoil à Majorque avec des Moniteurs Certifiés"
+  teaser:
 published: true
 ---
 

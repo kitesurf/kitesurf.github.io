@@ -4,7 +4,8 @@ h2,h3,p{margin-bottom:1.5rem}body,h2,h5,input,li,p{line-height:1.5}h5>ul>li{line
   display: block;
   position: fixed;
   top: 20px;
-  left: 85%;
+  right: 20px;
+  left: auto;
   
   z-index: 3;
   

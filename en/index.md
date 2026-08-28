@@ -57,7 +57,7 @@ t:
   menutxt30: "Renting per hour or day"
   link31: "renting/long-term/"
   menutxt31: "Long-term rent"
-  teaser: "Learn Kitesurfing & Wingfoiling in Mallorca with Certified Instructors"
+  teaser:
 published: true
 ---
 

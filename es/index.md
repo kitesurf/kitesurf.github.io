@@ -57,7 +57,7 @@ t:
   menutxt30: "Alquiler por hora y día"
   link31: "alquiler/largo-plazo/"
   menutxt31: "Bonos y largo plazo"
-  teaser: "Aprende Kitesurf y Wingfoil en Mallorca con Instructores Certificados"
+  teaser:
 published: true
 ---
 
