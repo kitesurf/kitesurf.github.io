@@ -1,4 +1,5 @@
 {% assign lang = site.data.texts[page.lang] %}
+{% assign nav = site.data.navigation[page.lang] %}
 <script>
 window.addEventListener("load", function(){
   if (window.cookieconsent) {
@@ -20,7 +21,7 @@ window.addEventListener("load", function(){
         "message": "{{ lang.cookie_message }}",
         "dismiss": "{{ lang.cookie_dismiss }}",
         "link": "{{ lang.cookie_link }}",
-        "href": "{{ site.baseurl }}/{{ page.lang }}/datenschutz/"
+        "href": "{{ site.baseurl }}/{{ page.lang }}/{{ nav.privacy.url | default: 'datenschutz/' }}"
       },
       "onPopupOpen": function() {
         var el = this.element;

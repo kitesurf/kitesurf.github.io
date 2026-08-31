@@ -24,7 +24,7 @@
           <a class="text_bgd" href="{{ item.link }}" draggable="false">
           <span><strong>{{ item.title }}</strong></span>
           <p>{{ item.description }}</p>
-          <span class="btn" role="button">
+          <span class="btn">
              <strong>{{ item.button_text }}</strong>
           </span>
           </a>         
@@ -61,6 +61,14 @@
         keyboard: {
           enabled: true,
         },
+        a11y: {
+          enabled: true,
+          prevSlideMessage: 'Previous slide',
+          nextSlideMessage: 'Next slide',
+          firstSlideMessage: 'This is the first slide',
+          lastSlideMessage: 'This is the last slide',
+          paginationBulletMessage: 'Go to slide {{index}}',
+        },
         cubeEffect: {
           shadow: true,
           slideShadows: true,
@@ -74,6 +82,9 @@
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '" role="button" tabindex="0" aria-label="Slide ' + (index + 1) + '"></span>';
+          }
         },
         navigation: {
           nextEl: '.swiper-button-next',
