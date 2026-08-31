@@ -1,10 +1,10 @@
 lang:
   de:
-    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
@@ -14,11 +14,11 @@ lang:
       description: Mit der richtigen Kiteschule kannst du bei viel Spass kitesurfen lernen
       button_text: Zu den Kitekursen
       link: "/de/kitekurse/"
-    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
@@ -28,11 +28,11 @@ lang:
       description: nimm extra Stunden mit einem Lehrer NUR für Dich
       button_text: Privatstunden anfragen
       link: "/de/kitekurse/privatstunden/"
-    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
@@ -42,11 +42,11 @@ lang:
       description: Mit Dennis(Bild) oder Gerhard richtig geile Kitesprünge lernen
       button_text: Aufsteigerkurse ansehen
       link: "/de/kitekurse/fortgeschritten/"
-    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
@@ -56,11 +56,11 @@ lang:
       description: Mit Bernardi -Rider bei Eleveight- Stunden buchen
       button_text: Strapless Kurse
       link: "/de/kitekurse/fortgeschritten/"
-    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
@@ -71,11 +71,11 @@ lang:
       button_text: Hydrofoil Kurse
       link: "/de/kitekurse/hydrofoil/"
   en:
-    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
@@ -85,11 +85,11 @@ lang:
       description: With the right kite school you can learn to kitesurf with a lot of fun
       button_text: Explore Kitesurf Lessons
       link: "/en/kitesurfing-lessons/"
-    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
@@ -99,11 +99,11 @@ lang:
       description: take extra lessons with a teacher ONLY for you
       button_text: Inquire Private Lessons
       link: "/en/kitesurfing-lessons/privatlessons/"
-    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
@@ -113,11 +113,11 @@ lang:
       description: Learn really cool kite jumps with Dennis(picture) or Gerhard
       button_text: Advanced Lessons
       link: "/en/kitesurfing-lessons/advanced/"
-    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
@@ -127,11 +127,11 @@ lang:
       description: Book hours with Bernardi - Rider at Eleveight
       button_text: Strapless Lessons
       link: "/en/kitesurfing-lessons/advanced/"
-    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
@@ -142,11 +142,11 @@ lang:
       button_text: Hydrofoil Lessons
       link: "/en/kitesurfing-lessons/hydrofoil/"
   es:
-    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
@@ -156,11 +156,11 @@ lang:
       description: Con la escuela de kitesurf adecuada puedes aprender a hacer kitesurf con mucha diversión
       button_text: Ver cursos de kitesurf
       link: "/es/cursos-de-kitesurf/"
-    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
@@ -170,11 +170,11 @@ lang:
       description: Tomar lecciones extras con un profesor SOLO para ti
       button_text: Clases privadas
       link: "/es/cursos-de-kitesurf/privado/"
-    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
@@ -184,11 +184,11 @@ lang:
       description: Aprende a hacer saltos realmente geniales en kitesurf con Dennis(foto) o Gerhard
       button_text: Cursos para avanzados
       link: "/es/cursos-de-kitesurf/avanzado/"
-    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
@@ -198,11 +198,11 @@ lang:
       description: Reserva horas con Bernardi - Rider de Eleveight
       button_text: Clases strapless
       link: "/es/cursos-de-kitesurf/avanzado/"
-    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
@@ -213,11 +213,11 @@ lang:
       button_text: Cursos de hydrofoil
       link: "/es/cursos-de-kitesurf/hidrofoil/"
   it:
-    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
@@ -227,11 +227,11 @@ lang:
       description: Con la scuola giusta puoi imparare il kitesurf divertendoti nella baia di Pollensa
       button_text: Scopri i corsi di kitesurf
       link: "/it/corsi-kitesurf/"
-    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
@@ -241,11 +241,11 @@ lang:
       description: Ore di coaching intensivo individuale con istruttore dedicato SOLO per te
       button_text: Lezioni private
       link: "/it/corsi-kitesurf/lezioni-private/"
-    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
@@ -255,11 +255,11 @@ lang:
       description: Impara salti alti e rotazioni con Dennis o Gerhard a Maiorca
       button_text: Corsi perfezionamento
       link: "/it/corsi-kitesurf/avanzati/"
-    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
@@ -269,11 +269,11 @@ lang:
       description: Prenota sessioni strapless con Bernardi, rider del team Eleveight
       button_text: Corsi strapless
       link: "/it/corsi-kitesurf/avanzati/"
-    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
@@ -284,11 +284,11 @@ lang:
       button_text: Corsi hydrofoil
       link: "/it/corsi-kitesurf/hydrofoil/"
   fr:
-    - image: /images/flying-friends/bernardi_and_funny_dog_15x6.jpg
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
         m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
@@ -298,11 +298,11 @@ lang:
       description: Apprenez le kitesurf dans les meilleures conditions avec une équipe passionnée
       button_text: Découvrir les cours de kitesurf
       link: "/fr/cours-kitesurf/"
-    - image: /images/flying-friends/Privatlesson_with_Dani_15x6.jpg
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
         m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
@@ -312,11 +312,11 @@ lang:
       description: Coaching individuel sur mesure avec un instructeur dédié RIEN que pour vous
       button_text: Cours particuliers
       link: "/fr/cours-kitesurf/cours-particuliers/"
-    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6.jpg
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
         m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
@@ -326,11 +326,11 @@ lang:
       description: Perfectionnez vos sauts et rotations avec Dennis ou Gerhard à Majorque
       button_text: Cours perfectionnement
       link: "/fr/cours-kitesurf/perfectionnement/"
-    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6.jpg
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
         m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
@@ -340,11 +340,11 @@ lang:
       description: Réservez des cours de surf kite avec Bernardi, rider officiel Eleveight
       button_text: Cours strapless
       link: "/fr/cours-kitesurf/perfectionnement/"
-    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6.jpg
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
-        s: /images/flying-friends/t_roman-008.webp
+        s: /images/flying-friends/t_roman-008.jpg
       jpeg:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
         m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg

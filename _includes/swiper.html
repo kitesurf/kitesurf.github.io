@@ -37,44 +37,55 @@
   </div>
 </section>
 <!-- Swiper JS -->
-  <script src="{{ site.baseurl }}/js/swiper.min.js"></script>
+  <script defer src="{{ site.baseurl }}/js/swiper.min.js"></script>
 
 <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper('.swiper-container', {
-      speed: 1000,
-      effect: 'cube',
-      loop: true,
-      grabCursor: true,
-      simulateTouch: true,
-      allowTouchMove: true,
-      touchRatio: 1,
-      threshold: 0,
-      preventClicks: true,
-      preventClicksPropagation: true,
-      touchStartPreventDefault: true,
-      keyboard: {
-        enabled: true,
-      },
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      },
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+    function initHeroSwiper() {
+      if (typeof Swiper === 'undefined') {
+        setTimeout(initHeroSwiper, 40);
+        return;
+      }
+      var swiper = new Swiper('.swiper-container', {
+        speed: 1000,
+        effect: 'cube',
+        loop: true,
+        grabCursor: true,
+        simulateTouch: true,
+        allowTouchMove: true,
+        touchRatio: 1,
+        threshold: 0,
+        preventClicks: true,
+        preventClicksPropagation: true,
+        touchStartPreventDefault: true,
+        keyboard: {
+          enabled: true,
+        },
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initHeroSwiper);
+    } else {
+      initHeroSwiper();
+    }
   </script>
 <style type="text/css" media="screen">
 section {
