@@ -6,156 +6,244 @@ layout: compress
 
 {% if page.amp == true %}
 <html ⚡ lang="{{ page.lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
-    {% if page.amp-mustache == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-mustache-0.2.js">{% endif %}
-    {% if page.amp-form == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">{% endif %}
-    {% if page.amp-iframe == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-iframe-0.1.js">{% endif %}
-    {% if page.amp-video == true %}<link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-video-0.1.js">{% endif %}
-    <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
-    <link rel="preconnect dns-prefetch" href="https://www.instagram.com/" crossorigin>
-    <link rel="preconnect dns-prefetch" href="https://scontent-lht6-1.cdninstagram.com/" crossorigin>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    {% if page.amp-mustache == true %}<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>{% endif %}
-    {% if page.amp-form == true %}<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>{% endif %}
-    {% if page.amp-iframe == true %}<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>{% endif %}
-    {% if page.amp-video == true %}<script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>{% endif %}
-    {% if page.amp-instagram == true %}<script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>{% endif %}
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-    {% include amp-inline-css.html %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+  {% if page.amp-mustache == true %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-mustache-0.2.js">{% endif %}
+  {% if page.amp-form == true %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-form-0.1.js">{% endif %}
+  {% if page.amp-iframe == true %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-iframe-0.1.js">{% endif %}
+  {% if page.amp-video == true %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-video-0.1.js">{% endif %}
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
+  <link rel="preconnect dns-prefetch" href="https://www.instagram.com/" crossorigin>
+  <link rel="preconnect dns-prefetch" href="https://scontent-lht6-1.cdninstagram.com/" crossorigin>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  {% if page.amp-mustache == true %}
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>{% endif
+  %}
+  {% if page.amp-form == true %}
+  <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>{% endif %}
+  {% if page.amp-iframe == true %}
+  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>{% endif %}
+  {% if page.amp-video == true %}
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>{% endif %}
+  {% if page.amp-instagram == true %}
+  <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>{%
+  endif %}
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
-    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  {% include amp-inline-css.html %}
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    {% if page.author %}
-      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-    {% endif %}
-    {% include open-graph.html %}
+  <style amp-boilerplate>
+    body {
+      -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+      animation: -amp-start 8s steps(1, end) 0s 1 normal both
+    }
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />    
-    {% if page.en-url == '/' %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/" />
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/en/" />
-    {% else %}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/{{ page.en-url }}" />
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
-    {% endif %}
-    <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />
-    <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
+    @-webkit-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-moz-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-ms-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @-o-keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+
+    @keyframes -amp-start {
+      from {
+        visibility: hidden
+      }
+
+      to {
+        visibility: visible
+      }
+    }
+  </style>
+  <noscript>
+    <style amp-boilerplate>
+      body {
+        -webkit-animation: none;
+        -moz-animation: none;
+        -ms-animation: none;
+        animation: none
+      }
+    </style>
+  </noscript>
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
+  {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  {% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+  {% endif %}
+  {% include open-graph.html %}
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
+  {% if page.en-url == '/' %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/" />
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/en/" />
+  {% else %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/amp/{{ page.en-url }}" />
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/amp/{{ page.en-url }}" />
+  {% endif %}
+  <link rel="alternate" hreflang="es" href="{{ site.url }}/amp/{{ page.es-url }}" />
+  <link rel="alternate" hreflang="de" href="{{ site.url }}/amp/{{ page.de-url }}" />
+  <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7" />
 
 
-    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
 
-    {% include structured-data.html %}
+  {% include structured-data.html %}
 
 </head>
 {% else %}
-<html lang="{{ page.lang }}" {% if page.t.teaser %}class="no-js"{% else %}style="background-color: #211d44"{% endif %}>
-  <head>
-    <meta charset="utf-8">
+<html lang="{{ page.lang }}" {% if page.t.teaser %}class="no-js" {% else %}style="background-color: #211d44" {% endif
+  %}>
+
+<head>
+  <meta charset="utf-8">
 
   {% if page.langrouted == true %}
-    {% include lang_router.html %}
+  {% include lang_router.html %}
   {% endif %}
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description | strip_html }}">{% endif %}
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    {% if page.author %}
-      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-    {% endif %}
-    {% include open-graph.html %}
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} - {{ page.url }}{% endif %}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html }}">{% endif %}
+  {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+  {% if page.author %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+  {% endif %}
+  {% include open-graph.html %}
 
-    {% include hreflang.html %}
-    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
-    <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+  {% include hreflang.html %}
+  <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Atom Feed">
+  <link href="{{ site.url }}/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
 
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
-    <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7"/>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.png">
+  <meta name="p:domain_verify" content="91740243495340830b9e13883e90a9b7" />
 
-    {% if page.shop == true %}{% include shop-css.html %}{% else %}
-    {% include inline-above-css.html %}
-    {% endif %}
+  {% if page.shop == true %}{% include shop-css.html %}{% else %}
+  {% include inline-above-css.html %}
+  {% endif %}
 
-    {% include structured-data.html %}
+  {% include structured-data.html %}
 
 
-<link rel="stylesheet" href="/css/main.css?v=5" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="/css/main.css?v=5"></noscript>
-    {% if page.t.teaser %}{% else %}
-      {% if page.amp != true %}
-{% assign first_slide = site.data.sliderimages.lang[page.lang].first %}
-{% if first_slide %}
-<link rel="preload" as="image" href="{{ first_slide.webp.m }}" type="image/webp" media="(max-width: 500px)" fetchpriority="high">
-<link rel="preload" as="image" href="{{ first_slide.webp.xl }}" type="image/webp" media="(min-width: 500px)" fetchpriority="high">
+  <link rel="stylesheet" href="/css/main.css?v=5" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="/css/main.css?v=5">
+  </noscript>
+  {% if page.t.teaser %}{% else %}
+  {% if page.amp != true %}
+  {% assign first_slide = site.data.sliderimages.lang[page.lang].first %}
+  {% if first_slide %}
+  <link rel="preload" as="image" href="{{ first_slide.webp.m }}" type="image/webp" media="(max-width: 500px)"
+    fetchpriority="high">
+  <link rel="preload" as="image" href="{{ first_slide.webp.xl }}" type="image/webp" media="(min-width: 500px)"
+    fetchpriority="high">
+  {% endif %}
+  {% endif %}
+  {% endif %}
+</head>
+
 {% endif %}
-      {% endif %}
-    {% endif %}
-   </head>
 
-{% endif %}
-
-  <body>
+<body>
   {% if page.amp == true and site.url != "http://localhost:4000" %}
   {% include amp-analytics.html %}
   {% endif %}
   {% include header.html %}
-    <div id="page-wrapper">
-      {% if page.t.teaser %}
-        <div class="myteaser">
-          <span><strong>{{ page.t.teaser }}</strong></span>
-        </div>
-        {% else %}
-          {% if page.amp != true %} 
-            {% include swiper.html %}
-          {% endif %}
-      {% endif %}  
-
-      {{ content }}
-
+  <div id="page-wrapper">
+    {% if page.t.teaser %}
+    <div class="myteaser">
+      <span><strong>{{ page.t.teaser }}</strong></span>
     </div>
-    {% include footer.html %}
-
-
-    
-    {% if page.amp == false and page.toc == true %}
-    <script>
-      $('.toc').toc({
-        'selectors': 'h2',
-        'container': '.page-content',
-        'smoothScrolling': true,
-        'prefix': 'toc',
-        'onHighlight': function(el) {},
-        'highlightOnScroll': true,
-        'highlightOffset': 100,
-        'anchorName': function(i, heading, prefix) {
-          return prefix+i;
-        },
-        'headerText': function(i, heading, $heading) {
-          return $heading.text();
-        },
-        'itemClass': function(i, heading, $heading, prefix) {
-          return $heading[0].tagName.toLowerCase();
-        }
-      });
-    </script>
+    {% else %}
+    {% if page.amp != true %}
+    {% include swiper.html %}
+    {% endif %}
     {% endif %}
 
-    {% if page.amp == true %}{% else %}
-      {% include deferedloader.html %}
-      {% include cookieconsent.html %}
-    {% endif %}
+    {{ content }}
 
-  </body>
+  </div>
+  {% include footer.html %}
+
+
+
+  {% if page.amp == false and page.toc == true %}
+  <script>
+    $('.toc').toc({
+      'selectors': 'h2',
+      'container': '.page-content',
+      'smoothScrolling': true,
+      'prefix': 'toc',
+      'onHighlight': function (el) { },
+      'highlightOnScroll': true,
+      'highlightOffset': 100,
+      'anchorName': function (i, heading, prefix) {
+        return prefix + i;
+      },
+      'headerText': function (i, heading, $heading) {
+        return $heading.text();
+      },
+      'itemClass': function (i, heading, $heading, prefix) {
+        return $heading[0].tagName.toLowerCase();
+      }
+    });
+  </script>
+  {% endif %}
+
+  {% if page.amp == true %}{% else %}
+  {% include deferedloader.html %}
+  {% include cookieconsent.html %}
+  {% endif %}
+
+</body>
 
 </html>
