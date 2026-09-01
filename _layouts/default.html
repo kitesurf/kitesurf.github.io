@@ -90,11 +90,10 @@ layout: compress
     {% include structured-data.html %}
 
 
-<link rel="stylesheet" href="/css/main.css?v=4">
-<link rel="stylesheet" href="/css/cookieconsent.min.css">
+<link rel="stylesheet" href="/css/main.css?v=5" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/css/main.css?v=5"></noscript>
     {% if page.t.teaser %}{% else %}
       {% if page.amp != true %}
-<link rel="stylesheet" href="/css/swiper.min.css">
 {% assign first_slide = site.data.sliderimages.lang[page.lang].first %}
 {% if first_slide %}
 <link rel="preload" as="image" href="{{ first_slide.webp.m }}" type="image/webp" media="(max-width: 500px)" fetchpriority="high">

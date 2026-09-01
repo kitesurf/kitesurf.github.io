@@ -1,7 +1,7 @@
 {% assign lang = site.data.texts[page.lang] %}
 {% assign nav = site.data.navigation[page.lang] %}
 <script>
-window.addEventListener("load", function(){
+function initCookieConsent() {
   if (window.cookieconsent) {
     window.cookieconsent.initialise({
       "palette": {
@@ -42,6 +42,18 @@ window.addEventListener("load", function(){
         }
       }
     });
+  } else {
+    setTimeout(initCookieConsent, 100);
   }
-});
+}
+
+if ('requestIdleCallback' in window) {
+  window.requestIdleCallback(function () {
+    setTimeout(initCookieConsent, 1200);
+  });
+} else {
+  window.addEventListener("load", function () {
+    setTimeout(initCookieConsent, 1200);
+  });
+}
 </script>
