@@ -2,6 +2,9 @@
 {% assign lang = site.data.texts[page.lang] %}
 <p><strong>{{ lang.testimonial }}</strong></p>
 </div>
+<style>
+.carousel-wrapper{position:relative;height:400px}.carousel-wrapper [id^=testimonial]{display:none}.carousel-wrapper .carousel-item{position:absolute;top:0;bottom:0;left:0;right:0;padding:0 50px;opacity:0;transition:all .5s ease-in-out}.carousel-wrapper .item-1{z-index:2;opacity:1}.carousel-wrapper :target~.item-1{opacity:0}.carousel-wrapper #testimonial-1:target~.item-1{opacity:1}.carousel-wrapper #testimonial-2:target~.item-2,.carousel-wrapper #testimonial-3:target~.item-3,.carousel-wrapper #testimonial-4:target~.item-4,.carousel-wrapper #testimonial-5:target~.item-5,.carousel-wrapper #testimonial-6:target~.item-6,.carousel-wrapper #testimonial-7:target~.item-7{z-index:3;opacity:1}.carousel-wrapper .carousel-item .arrow{position:absolute;top:50%;display:block;width:30px;height:30px;text-align:center;font-size:30px}.carousel-wrapper .carousel-item .arrow-l{left:0}.carousel-wrapper .carousel-item .arrow-r{right:0}@media (max-width:480px){.carousel-wrapper .carousel-item{padding:0 30px}}.review{display:flex;flex-direction:column;align-items:flex-start}.avatar{margin-left:22px;width:100px;height:100px;border-radius:50px;background:center center no-repeat;background-size:cover;box-shadow:0 0 8px rgba(0,0,0,.8);display:inline-block}.review-body p{font-size:14px;font-family:Constantia,Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;font-style:italic;hyphens:auto;text-align:justify}.rating span{position:relative;font-size:1.2rem!important;width:1.1em;color:gold;display:inline-block}.golden{color:#4d4c4c}
+</style>
 <div class="carousel-wrapper">
 
   <svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
