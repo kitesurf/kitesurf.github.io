@@ -268,6 +268,7 @@
       const btn = e.target.closest('[data-fh-target]');
       if (!btn) return;
       if (btn.getAttribute('data-fh-inline') === 'true') return; // Nicht für Inline-Container
+      if (btn.getAttribute('href') && btn.getAttribute('href').startsWith('mailto:')) return;
 
       e.preventDefault();
       const slug = btn.getAttribute('data-fh-target');

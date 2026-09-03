@@ -10,26 +10,31 @@
   {% when 'en' %}
     {% assign txt_dock_btn = "Book a Course" %}
     {% assign txt_dock_sub = "Instant Online Booking" %}
+    {% assign txt_subject_prefix = "Booking: " %}
   {% when 'es' %}
     {% assign txt_dock_btn = "Reservar Curso" %}
     {% assign txt_dock_sub = "Reserva inmediata online" %}
+    {% assign txt_subject_prefix = "Reserva: " %}
   {% when 'fr' %}
     {% assign txt_dock_btn = "Réserver un Cours" %}
     {% assign txt_dock_sub = "Réservation immédiate" %}
+    {% assign txt_subject_prefix = "Réservation: " %}
   {% when 'it' %}
     {% assign txt_dock_btn = "Prenota un Corso" %}
     {% assign txt_dock_sub = "Prenotazione immediata" %}
+    {% assign txt_subject_prefix = "Prenotazione: " %}
   {% else %}
     {% assign txt_dock_btn = "Kurs buchen" %}
     {% assign txt_dock_sub = "Echtzeit-Verfügbarkeit" %}
+    {% assign txt_subject_prefix = "Buchungsanfrage: " %}
 {% endcase %}
 
+{% assign mail_subject = txt_subject_prefix | append: page.title | strip_html %}
+
 <div class="fh-sticky-dock" id="fhStickyDock" lang="{{ l }}">
-  <button 
-    type="button" 
+  <a 
+    href="mailto:buchung@kite-mallorca.com?subject={{ mail_subject | url_encode | replace: '+', '%20' }}"
     class="fh-sticky-btn"
-    data-fh-target="kite-mallorca"
-    data-fh-lang="{{ l }}"
     aria-label="{{ txt_dock_btn }}"
   >
     <span class="fh-pulse-dot"></span>
@@ -38,7 +43,7 @@
       <span class="fh-sticky-title">{{ txt_dock_btn }}</span>
       <span class="fh-sticky-sub">{{ txt_dock_sub }}</span>
     </span>
-  </button>
+  </a>
 </div>
 
 <style>
@@ -64,6 +69,7 @@
     transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     backdrop-filter: blur(10px);
     WebkitBackdropFilter: blur(10px);
+    text-decoration: none;
   }
   .fh-sticky-btn:hover {
     transform: translateY(-3px) scale(1.03);
