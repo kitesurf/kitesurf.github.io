@@ -71,6 +71,8 @@ published: true
 
 Unser 10-stündiger Anfängerkurs ist der schnellste, sicherste und fundierteste Einstieg in das Kitesurfen. Im flachen Stehwasser der Bucht von Pollensa (Alcudia) lernst du in kleinen Gruppen von maximal 2 bis 4 Schülern pro Lehrer alle Fertigkeiten, um den Kite souverän zu beherrschen und die ersten selbstständigen Schläge auf dem Board zu gleiten.
 
+{% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+
 > **Das Wichtigste auf einen Blick:**  
 > * **Dauer:** 10 Unterrichtsstunden verteilt auf {{ p.duration_days }} Tage (nachmittags bei idealer Thermik).  
 > * **Preis:** ab **{{ p.price }} {{ curr }}** pro Person (inklusive komplettem Material, Neopren, Trapez, Weste & Helm).  
@@ -133,4 +135,7 @@ Nicht genutzte Kursstunden verfallen selbstverständlich nicht! Sollte der Wind 
 
 ---
 
+{% include widgets/booking-card.html course="beginner_10h" %}
+
 [» Jetzt unverbindlich deinen Anfängerkurs anfragen oder buchen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")
+

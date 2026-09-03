@@ -63,5 +63,4 @@ published: true
 ---
 
 # RESERVA INMEDIATA  
-<div id="bookingKitContainer"></div>
-<script src="https://eu5.bookingkit.de/bkscript.js.php?cw=a1e73a54ad9c102a672acd0cf80fcfa7&lang=es"></script>
+{% include widgets/booking-catalog.html %}

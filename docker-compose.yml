@@ -3,7 +3,7 @@ services:
     image: jekyll/jekyll:pages
     platform: linux/amd64
     command: >-
-      bash -lc "gem list -i webrick -v 1.8.1 >/dev/null || gem install webrick -v 1.8.1 --no-document; bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling"
+      bash -lc "gem list -i webrick -v 1.8.1 >/dev/null || gem install webrick -v 1.8.1 --no-document; bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --incremental"
     ports:
       - "4000:4000"
       - "35729:35729"

@@ -1,0 +1,289 @@
+{% comment %}
+  Kite-Mallorca Amazon-Style Top Buy Button Widget
+  Verwendung:
+    {% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+  Parameter:
+    - course: 'beginner_10h' | 'taster_3h' | 'refresher_4h' | 'wingfoil_10h' | 'private_1h'
+    - lang: 'de' | 'en' | 'es' | 'fr' | 'it' | 'pt' (Standard: page.lang)
+{% endcomment %}
+
+{% assign l = include.lang | default: page.lang | default: 'de' %}
+{% assign c_key = include.course | default: 'beginner_10h' %}
+
+{% case c_key %}
+  {% when 'beginner_10h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
+    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 399 %}
+    {% assign dep_val = "79,80" %}
+    {% assign dep_pct = "20%" %}
+  {% when 'taster_3h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000002" %}
+    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 150 %}
+    {% assign dep_val = "30,00" %}
+    {% assign dep_pct = "20%" %}
+  {% when 'refresher_4h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000003" %}
+    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 220 %}
+    {% assign dep_val = "44,00" %}
+    {% assign dep_pct = "20%" %}
+  {% when 'wingfoil_10h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000004" %}
+    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 590 %}
+    {% assign dep_val = "118,00" %}
+    {% assign dep_pct = "20%" %}
+  {% when 'private_1h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000005" %}
+    {% assign p_val = site.data.prices.kitesurf.private_hourly.price | default: 120 %}
+    {% assign dep_val = "120,00" %}
+    {% assign dep_pct = "100%" %}
+  {% else %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
+    {% assign p_val = 399 %}
+    {% assign dep_val = "79,80" %}
+    {% assign dep_pct = "20%" %}
+{% endcase %}
+
+{% comment %} Übersetzungen {% endcomment %}
+{% case l %}
+  {% when 'en' %}
+    {% assign txt_stock = "In stock • Instant date reservation" %}
+    {% assign txt_deposit = "Only 20% deposit to secure spot" %}
+    {% assign txt_btn = "⚡ Book Course Now" %}
+    {% assign txt_sub = "100% Wind Guarantee • Free Rescheduling" %}
+    {% assign txt_per = "per person" %}
+    {% assign txt_now = "Due now:" %}
+  {% when 'es' %}
+    {% assign txt_stock = "Disponible • Reserva inmediata online" %}
+    {% assign txt_deposit = "Solo 20% de anticipo" %}
+    {% assign txt_btn = "⚡ Reservar Curso Ahora" %}
+    {% assign txt_sub = "Garantía de viento • Cambio de fecha gratis" %}
+    {% assign txt_per = "por persona" %}
+    {% assign txt_now = "A pagar hoy:" %}
+  {% when 'fr' %}
+    {% assign txt_stock = "Disponible • Réservation immédiate" %}
+    {% assign txt_deposit = "Seulement 20% d'acompte" %}
+    {% assign txt_btn = "⚡ Réserver le Stage" %}
+    {% assign txt_sub = "Garantie vent • Report sans frais" %}
+    {% assign txt_per = "par personne" %}
+    {% assign txt_now = "Acompte:" %}
+  {% when 'it' %}
+    {% assign txt_stock = "Disponibile • Prenotazione immediata" %}
+    {% assign txt_deposit = "Solo 20% di acconto" %}
+    {% assign txt_btn = "⚡ Prenota il Corso" %}
+    {% assign txt_sub = "Garanzia vento • Cambio data gratuito" %}
+    {% assign txt_per = "a persona" %}
+    {% assign txt_now = "Acconto oggi:" %}
+  {% when 'pt' %}
+    {% assign txt_stock = "Disponível • Reserva imediata online" %}
+    {% assign txt_deposit = "Apenas 20% de sinal" %}
+    {% assign txt_btn = "⚡ Reservar Curso Agora" %}
+    {% assign txt_sub = "Garantia de vento • Reagendamento grátis" %}
+    {% assign txt_per = "por pessoa" %}
+    {% assign txt_now = "Pagar hoje:" %}
+  {% else %}
+    {% assign txt_stock = "Verfügbar • Sofortige Terminreservierung" %}
+    {% assign txt_deposit = "Nur 20% Anzahlung" %}
+    {% assign txt_btn = "⚡ Jetzt Kurs buchen" %}
+    {% assign txt_sub = "100% Windgarantie • Kostenlose Umbuchung bei Flaute" %}
+    {% assign txt_per = "pro Person" %}
+    {% assign txt_now = "Heute fällig:" %}
+{% endcase %}
+
+<div class="km-amazon-buy-box">
+  <div class="km-buy-left">
+    <div class="km-buy-availability">
+      <span class="km-pulse-dot"></span>
+      <span class="km-stock-text">{{ txt_stock }}</span>
+    </div>
+    <div class="km-buy-pricing">
+      <span class="km-buy-price">{{ p_val }} €</span>
+      <span class="km-buy-per">{{ txt_per }}</span>
+      <span class="km-buy-deposit-badge">{{ txt_now }} <strong>{{ dep_val }} €</strong> ({{ dep_pct }})</span>
+    </div>
+  </div>
+
+  <div class="km-buy-right">
+    <button 
+      type="button"
+      class="km-amazon-btn"
+      data-fh-target="kite-mallorca"
+      data-fh-widget="button"
+      data-fh-service="{{ s_id }}"
+      data-fh-lang="{{ l }}"
+      data-fh-view="single"
+      aria-label="{{ txt_btn }}"
+    >
+      <span class="km-btn-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+      </span>
+      <span class="km-btn-label">{{ txt_btn }}</span>
+    </button>
+    <div class="km-buy-guarantee">
+      <svg width="14" height="14" viewBox="0 0 20 20" fill="#059669">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+      </svg>
+      <span>{{ txt_sub }}</span>
+    </div>
+  </div>
+</div>
+
+<style>
+.km-amazon-buy-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1.5px solid #e2e8f0;
+  border-left: 5px solid #f59e0b;
+  border-radius: 14px;
+  padding: 1.15rem 1.4rem;
+  margin: 1.5rem 0 2rem 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+}
+
+.km-buy-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.km-buy-availability {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #047857;
+}
+
+.km-pulse-dot {
+  width: 9px;
+  height: 9px;
+  background-color: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: kmPulse 1.8s infinite cubic-bezier(0.66, 0, 0, 1);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+@keyframes kmPulse {
+  to {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+}
+
+.km-buy-pricing {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.km-buy-price {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1;
+}
+
+.km-buy-per {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.km-buy-deposit-badge {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.km-buy-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+
+.km-amazon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  background: linear-gradient(180deg, #fcd200 0%, #f59e0b 100%);
+  color: #111827;
+  border: 1px solid #d97706;
+  padding: 0.85rem 1.6rem;
+  border-radius: 9999px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(245, 158, 11, 0.35);
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.km-amazon-btn:hover {
+  background: linear-gradient(180deg, #fbbf24 0%, #d97706 100%);
+  box-shadow: 0 5px 14px rgba(245, 158, 11, 0.45);
+  transform: translateY(-1px);
+}
+
+.km-amazon-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);
+}
+
+.km-btn-icon {
+  display: flex;
+  align-items: center;
+}
+
+.km-buy-guarantee {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Mobile responsive */
+@media (max-width: 640px) {
+  .km-amazon-buy-box {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1.1rem;
+  }
+
+  .km-buy-right {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .km-amazon-btn {
+    width: 100%;
+    padding: 0.95rem 1.2rem;
+    font-size: 1.08rem;
+  }
+
+  .km-buy-guarantee {
+    justify-content: center;
+    text-align: center;
+  }
+}
+</style>

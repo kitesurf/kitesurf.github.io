@@ -19,6 +19,8 @@ plugins:
   - jekyll-redirect-from
 compress_html:
   clippings: [script]
+  ignore:
+    envs: [development]
 # Site owner
 owner:
   name: Kitesurf Mallorca SL
@@ -32,9 +34,19 @@ disqus-shortname:
 
 
 exclude:
+  - _site
+  - _dist
+  - .git
+  - .github
+  - .bundle
+  - .playwright
+  - .vscode
+  - .venv
+  - .sass-cache
+  - .DS_Store
+  - "**/.DS_Store"
   - lib
   - config.rb
-  - .sass-cache
   - Capfile
   - config
   - log
@@ -50,7 +62,11 @@ exclude:
   - node_modules
   - Gruntfile.js
   - package.json
+  - package-lock.json
   - vendor
   - playwright-tests
   - _octopress.yml
   - docker-compose.yml
+  - Buchungssystem
+  - test-widgets.html
+  - images/backup-originals

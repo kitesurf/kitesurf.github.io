@@ -1,0 +1,381 @@
+{% comment %}
+  Kite-Mallorca Booking Card Widget
+  Verwendung:
+  {% include widgets/booking-card.html course="beginner_10h" %}
+  Optionale Parameter:
+    - course: 'beginner_10h' | 'taster_3h' | 'refresher_4h' | 'wingfoil_10h' | 'private_1h'
+    - lang: 'de' | 'en' | 'es' | 'fr' | 'it' (Standard: page.lang)
+    - featured: true | false
+    - button_text: Benutzerdefinierter Button-Text
+{% endcomment %}
+
+{% assign l = include.lang | default: page.lang | default: 'de' %}
+{% assign c_key = include.course | default: 'beginner_10h' %}
+
+{% comment %} Service UUIDs aus FastHooked {% endcomment %}
+{% case c_key %}
+  {% when 'beginner_10h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
+    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 399 %}
+    {% assign duration_val = site.data.prices.kitesurf.beginner_10h.duration_hours | default: 10 %}
+    {% assign days_val = site.data.prices.kitesurf.beginner_10h.duration_days | default: "3–5" %}
+  {% when 'taster_3h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000002" %}
+    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 150 %}
+    {% assign duration_val = 3 %}
+    {% assign days_val = "1" %}
+  {% when 'refresher_4h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000003" %}
+    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 220 %}
+    {% assign duration_val = 4 %}
+    {% assign days_val = "1–2" %}
+  {% when 'wingfoil_10h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000004" %}
+    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 590 %}
+    {% assign duration_val = 10 %}
+    {% assign days_val = "3–5" %}
+  {% when 'private_1h' %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000005" %}
+    {% assign p_val = site.data.prices.kitesurf.private_hourly.price | default: 120 %}
+    {% assign duration_val = 1 %}
+    {% assign days_val = "1" %}
+  {% else %}
+    {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
+    {% assign p_val = 399 %}
+    {% assign duration_val = 10 %}
+    {% assign days_val = "3–5" %}
+{% endcase %}
+
+{% comment %} Mehrsprachige Texte {% endcomment %}
+{% case l %}
+  {% when 'en' %}
+    {% assign txt_from = "from" %}
+    {% assign txt_per_person = "per person" %}
+    {% assign txt_deposit = "Only 20% deposit to secure spot" %}
+    {% assign txt_btn = "Check Dates & Book Now" %}
+    {% assign txt_badge_bestseller = "Most Popular" %}
+    {% assign txt_feat1 = "Small groups (max 2–4 students per coach)" %}
+    {% assign txt_feat2 = "Complete premium equipment included" %}
+    {% assign txt_feat3 = "Shallow water bay of Pollensa (Alcudia)" %}
+    {% assign txt_feat4 = "Weather guarantee: No wind = free rescheduling" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "10 Hours Beginner Course" %}
+      {% assign card_sub = "10 hours over " | append: days_val | append: " days • Theory, Bodydrag & Waterstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "3 Hours Taster Course" %}
+      {% assign card_sub = "3 hours • Kite control & fun bodydrags in shallow water" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "4 Hours Refresher Course" %}
+      {% assign card_sub = "4 hours • Waterstart, riding upwind & safe transitions" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "10 Hours Wingfoil Beginner Course" %}
+      {% assign card_sub = "10 hours • Wing handling, board control & foil flight" %}
+    {% else %}
+      {% assign card_title = "Private 1:1 Coaching" %}
+      {% assign card_sub = "1 hour • 100% individual coach focus with radio helmet" %}
+    {% endif %}
+
+  {% when 'es' %}
+    {% assign txt_from = "desde" %}
+    {% assign txt_per_person = "por persona" %}
+    {% assign txt_deposit = "Solo 20% de fianza para reservar" %}
+    {% assign txt_btn = "Comprobar fechas y reservar" %}
+    {% assign txt_badge_bestseller = "Más popular" %}
+    {% assign txt_feat1 = "Grupos reducidos (máx. 2–4 alumnos por instructor)" %}
+    {% assign txt_feat2 = "Material premium completo incluido (neopreno, chaleco, arnés)" %}
+    {% assign txt_feat3 = "Aguas poco profundas en la bahía de Pollensa" %}
+    {% assign txt_feat4 = "Garantía de viento: sin viento = cambio de fecha gratis" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "Curso de Iniciación (10 horas)" %}
+      {% assign card_sub = "10 horas repartidas en " | append: days_val | append: " días • Teoría, Bodydrag y Waterstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "Bautismo de Kitesurf (3 horas)" %}
+      {% assign card_sub = "3 horas • Control de cometa y primeros bodydrags" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "Curso de Reciclaje / Perfeccionamiento (4 horas)" %}
+      {% assign card_sub = "4 horas • Waterstart, ceñida y giros con seguridad" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "Curso de Iniciación al Wingfoil (10 horas)" %}
+      {% assign card_sub = "10 horas • Manejo del ala, tabla y vuelo en hydrofoil" %}
+    {% else %}
+      {% assign card_title = "Clase Particular 1:1" %}
+      {% assign card_sub = "1 hora • Atención 100% exclusiva con casco de radio" %}
+    {% endif %}
+
+  {% when 'fr' %}
+    {% assign txt_from = "à partir de" %}
+    {% assign txt_per_person = "par personne" %}
+    {% assign txt_deposit = "Seulement 20 % d'acompte pour réserver" %}
+    {% assign txt_btn = "Vérifier les dates & Réserver" %}
+    {% assign txt_badge_bestseller = "Le plus populaire" %}
+    {% assign txt_feat1 = "Petits groupes (2 à 4 élèves par moniteur)" %}
+    {% assign txt_feat2 = "Équipement complet de pointe inclus (combinaison, harnais, casque)" %}
+    {% assign txt_feat3 = "Plan d'eau peu profond dans la baie de Pollensa" %}
+    {% assign txt_feat4 = "Garantie vent : pas de vent = cours reporté sans frais" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "Stage Débutant Complet (10 heures)" %}
+      {% assign card_sub = "10 heures réparties sur " | append: days_val | append: " jours • Pilotage, Bodydrag & Waterstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "Stage Découverte Kitesurf (3 heures)" %}
+      {% assign card_sub = "3 heures • Sensations de glisse et pilotage en eau peu profonde" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "Stage Remise à niveau (4 heures)" %}
+      {% assign card_sub = "4 heures • Consolidation du waterstart, remontée au vent et virages" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "Stage Débutant Wingfoil (10 heures)" %}
+      {% assign card_sub = "10 heures • Maîtrise de l'aile, navigation et décollage sur foil" %}
+    {% else %}
+      {% assign card_title = "Cours Particulier 1:1" %}
+      {% assign card_sub = "1 heure • Coaching personnalisé avec liaison radio" %}
+    {% endif %}
+
+  {% when 'it' %}
+    {% assign txt_from = "da" %}
+    {% assign txt_per_person = "a persona" %}
+    {% assign txt_deposit = "Solo 20% di acconto per bloccare il posto" %}
+    {% assign txt_btn = "Verifica date e prenota ora" %}
+    {% assign txt_badge_bestseller = "Più richiesto" %}
+    {% assign txt_feat1 = "Piccoli gruppi (max 2–4 allievi per istruttore)" %}
+    {% assign txt_feat2 = "Attrezzatura top di gamma inclusa (muta, trapezio, casco)" %}
+    {% assign txt_feat3 = "Spot con acqua bassa nella baia di Pollensa" %}
+    {% assign txt_feat4 = "Garanzia vento: senza vento recuperi gratis" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "Corso Base Principianti (10 ore)" %}
+      {% assign card_sub = "10 ore suddivise in " | append: days_val | append: " giorni • Teoria, Bodydrag & Waterstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "Corso Prova / Battesimo (3 ore)" %}
+      {% assign card_sub = "3 ore • Controllo del kite e primi bodydrag divertenti" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "Corso di Ripasso (4 ore)" %}
+      {% assign card_sub = "4 ore • Perfeziona waterstart, bolina e virate" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "Corso Base Wingfoil (10 ore)" %}
+      {% assign card_sub = "10 ore • Controllo ala, conduzione tavola e volo su foil" %}
+    {% else %}
+      {% assign card_title = "Lezione Privata 1:1" %}
+      {% assign card_sub = "1 ora • Istruttore dedicato con casco radio" %}
+    {% endif %}
+
+  {% else %}
+    {% assign txt_from = "ab" %}
+    {% assign txt_per_person = "pro Person" %}
+    {% assign txt_deposit = "Nur 20% Anzahlung zur Terminreservierung" %}
+    {% assign txt_btn = "Verfügbarkeit prüfen & Jetzt buchen" %}
+    {% assign txt_badge_bestseller = "Beliebtester Kurs" %}
+    {% assign txt_feat1 = "Kleine Schulungsgruppen (max. 2–4 Schüler pro Lehrer)" %}
+    {% assign txt_feat2 = "Komplette Ausrüstung inklusive (Neopren, Trapez, Helm & Weste)" %}
+    {% assign txt_feat3 = "Stehrevier Bucht von Pollensa (Alcudia) – optimal für schnelle Erfolge" %}
+    {% assign txt_feat4 = "Windgarantie: Bei Flaute verfallen deine Stunden nicht" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "10 Stunden Kitesurf Anfängerkurs" %}
+      {% assign card_sub = "10 Stunden verteilt auf " | append: days_val | append: " Tage • Flugschule, Bodydrag & Wasserstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "3 Stunden Kitesurf Schnupperkurs" %}
+      {% assign card_sub = "3 Stunden • Erste Flugübungen & rasanter Bodydrag im Flachwasser" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "4 Stunden Kitesurf Auffrischer" %}
+      {% assign card_sub = "4 Stunden • Wasserstart festigen, Höhe laufen & sichere Wenden" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "10 Stunden Wingfoil Anfängerkurs" %}
+      {% assign card_sub = "10 Stunden • Wing-Handling, Foilboard-Fahren & lautloses Schweben" %}
+    {% else %}
+      {% assign card_title = "Privatunterricht (1:1 Intensivcoaching)" %}
+      {% assign card_sub = "1 Stunde • 100% Fokus deines Kitelehrers inklusive Funkhelm" %}
+    {% endif %}
+{% endcase %}
+
+{% if include.button_text %}
+  {% assign txt_btn = include.button_text %}
+{% endif %}
+
+<div class="fh-booking-card" lang="{{ l }}">
+  {% if include.featured or c_key == 'beginner_10h' %}
+    <div class="fh-card-badge">{{ txt_badge_bestseller }}</div>
+  {% endif %}
+
+  <div class="fh-card-header">
+    <div class="fh-card-meta">
+      <span class="fh-tag">🏄‍♂️ {{ duration_val }}h {{ txt_per_person }}</span>
+    </div>
+    <h3 class="fh-card-title">{{ card_title }}</h3>
+    <p class="fh-card-subtitle">{{ card_sub }}</p>
+  </div>
+
+  <div class="fh-card-pricing">
+    <div class="fh-price-box">
+      <span class="fh-price-prefix">{{ txt_from }}</span>
+      <span class="fh-price-amount">{{ p_val }} €</span>
+    </div>
+    <span class="fh-deposit-note">✓ {{ txt_deposit }}</span>
+  </div>
+
+  <ul class="fh-feature-list">
+    <li><svg class="fh-check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> {{ txt_feat1 }}</li>
+    <li><svg class="fh-check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> {{ txt_feat2 }}</li>
+    <li><svg class="fh-check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> {{ txt_feat3 }}</li>
+    <li><svg class="fh-check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> {{ txt_feat4 }}</li>
+  </ul>
+
+  <div class="fh-card-action">
+    <button 
+      type="button"
+      class="fh-book-btn"
+      data-fh-target="kite-mallorca"
+      data-fh-service="{{ s_id }}"
+      data-fh-lang="{{ l }}"
+      data-fh-view="single"
+    >
+      <span>{{ txt_btn }}</span>
+      <svg class="fh-arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  .fh-booking-card {
+    position: relative;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px 24px;
+    margin: 32px 0;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1e293b;
+    box-sizing: border-box;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .fh-booking-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 30px -10px rgba(2, 132, 199, 0.15), 0 10px 10px -5px rgba(15, 23, 42, 0.04);
+    border-color: #cbd5e1;
+  }
+  .fh-card-badge {
+    position: absolute;
+    top: -12px;
+    right: 24px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    box-shadow: 0 4px 10px rgba(2, 132, 199, 0.35);
+  }
+  .fh-card-header {
+    margin-bottom: 18px;
+  }
+  .fh-card-meta {
+    margin-bottom: 8px;
+  }
+  .fh-tag {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 6px;
+  }
+  .fh-card-title {
+    margin: 4px 0 6px 0;
+    font-size: 22px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+  }
+  .fh-card-subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.4;
+  }
+  .fh-card-pricing {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 0;
+    border-top: 1px dashed #e2e8f0;
+    border-bottom: 1px dashed #e2e8f0;
+    margin-bottom: 20px;
+  }
+  .fh-price-box {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+  .fh-price-prefix {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 500;
+  }
+  .fh-price-amount {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0284c7;
+    letter-spacing: -0.02em;
+  }
+  .fh-deposit-note {
+    font-size: 13px;
+    font-weight: 600;
+    color: #10b981;
+    background: #ecfdf5;
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
+  .fh-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+  }
+  .fh-feature-list li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  .fh-check-icon {
+    width: 18px;
+    height: 18px;
+    color: #0284c7;
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+  .fh-book-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 24px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);
+    transition: all 0.2s ease;
+  }
+  .fh-book-btn:hover {
+    background: linear-gradient(135deg, #0369a1 0%, #075985 100%);
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.5);
+    transform: scale(1.01);
+  }
+  .fh-arrow-icon {
+    transition: transform 0.2s ease;
+  }
+  .fh-book-btn:hover .fh-arrow-icon {
+    transform: translateX(4px);
+  }
+</style>

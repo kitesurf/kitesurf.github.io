@@ -9,3 +9,8 @@ _asset_bundler_cache
 s3_website.yml
 .bundle/
 .vscode/
+.jekyll-metadata
+.venv/
+requirements.txt
+test-widgets.html
+images/backup-originals/

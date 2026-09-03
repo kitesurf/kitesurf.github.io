@@ -242,6 +242,7 @@ layout: compress
   {% if page.amp == true %}{% else %}
   {% include deferedloader.html %}
   {% include cookieconsent.html %}
+  <script src="{{ '/js/embed.js' | relative_url }}" data-base-url="{{ site.data.fasthooked.baseUrl | default: 'http://localhost:5175' }}" defer></script>
   {% endif %}
 
 </body>

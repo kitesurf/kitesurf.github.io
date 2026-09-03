@@ -1,0 +1,3 @@
+# FastHooked SaaS Konfiguration
+baseUrl: "http://localhost:5175"
+tenantSlug: "kite-mallorca"

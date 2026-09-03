@@ -30,5 +30,5 @@ published: true
 
 # Prenota subito il tuo corso a Maiorca
 
-<div id="bookingKitContainer" data-lang="it" data-cw="da7acbb84fc14bc40c1863ce608e7c87"></div>
-<script src="https://30082ea380c1c2256da3a9a1643d7a72.widget.bookingkit.net/bkscript/da7acbb84fc14bc40c1863ce608e7c87/?lang=it" async></script>
+{% include widgets/booking-catalog.html %}
+

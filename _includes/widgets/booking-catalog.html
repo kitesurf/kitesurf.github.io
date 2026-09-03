@@ -1,0 +1,122 @@
+{% comment %}
+  Kite-Mallorca Full Booking Catalog Embed Widget
+  Ersetzt das alte bookingKitContainer Snippet.
+  Verwendung auf Sofortbuchungs-Seiten:
+  {% include widgets/booking-catalog.html %}
+{% endcomment %}
+
+{% assign l = include.lang | default: page.lang | default: 'de' %}
+{% assign base_url = include.base_url | default: "http://localhost:5175" %}
+
+{% case l %}
+  {% when 'en' %}
+    {% assign txt_catalog_title = "Select your kitesurf or wingfoil experience" %}
+    {% assign txt_catalog_desc = "Direct real-time booking with 20% deposit. Safe & instant confirmation." %}
+    {% assign txt_open_fullscreen = "Open Fullscreen Booking" %}
+  {% when 'es' %}
+    {% assign txt_catalog_title = "Elige tu curso o experiencia de kitesurf / wingfoil" %}
+    {% assign txt_catalog_desc = "Reserva directa en tiempo real con solo el 20% de fianza. Confirmación inmediata." %}
+    {% assign txt_open_fullscreen = "Abrir reservas en pantalla completa" %}
+  {% when 'fr' %}
+    {% assign txt_catalog_title = "Choisissez votre stage de kitesurf ou wingfoil" %}
+    {% assign txt_catalog_desc = "Réservation directe en temps réel avec 20 % d'acompte. Confirmation instantanée." %}
+    {% assign txt_open_fullscreen = "Ouvrir en plein écran" %}
+  {% when 'it' %}
+    {% assign txt_catalog_title = "Scegli il tuo corso di kitesurf o wingfoil" %}
+    {% assign txt_catalog_desc = "Prenotazione immediata in tempo reale con solo il 20% di acconto." %}
+    {% assign txt_open_fullscreen = "Apri a schermo intero" %}
+  {% else %}
+    {% assign txt_catalog_title = "Wähle dein Kitesurf- oder Wingfoil-Erlebnis" %}
+    {% assign txt_catalog_desc = "Direkte Online-Buchung mit 20% Anzahlung. Schnelle und sichere Bestätigung." %}
+    {% assign txt_open_fullscreen = "Vollbild-Ansicht öffnen" %}
+{% endcase %}
+
+<div class="fh-catalog-wrapper" lang="{{ l }}">
+  <div class="fh-catalog-toolbar">
+    <div class="fh-catalog-info">
+      <h2 class="fh-catalog-heading">{{ txt_catalog_title }}</h2>
+      <p class="fh-catalog-subheading">{{ txt_catalog_desc }}</p>
+    </div>
+    <button 
+      type="button" 
+      class="fh-catalog-fullscreen-btn"
+      data-fh-target="kite-mallorca"
+      data-fh-lang="{{ l }}"
+      title="{{ txt_open_fullscreen }}"
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+      </svg>
+      <span>{{ txt_open_fullscreen }}</span>
+    </button>
+  </div>
+
+  <!-- Inline FastHooked Storefront Container -->
+  <div 
+    id="fastHookedCatalogContainer"
+    class="fh-inline-container"
+    data-fh-target="kite-mallorca"
+    data-fh-lang="{{ l }}"
+    data-fh-inline="true"
+    data-fh-height="820px"
+  >
+    <!-- Iframe wird automatisch von embed.js injiziert -->
+  </div>
+</div>
+
+<script src="{{ '/js/embed.js' | relative_url }}" data-base-url="{{ base_url }}" defer></script>
+
+<style>
+  .fh-catalog-wrapper {
+    margin: 24px 0 48px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .fh-catalog-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .fh-catalog-heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0 0 4px 0;
+  }
+  .fh-catalog-subheading {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
+  }
+  .fh-catalog-fullscreen-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #0284c7;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+  }
+  .fh-catalog-fullscreen-btn:hover {
+    background: #f0f9ff;
+    border-color: #0284c7;
+    transform: translateY(-1px);
+  }
+  .fh-inline-container {
+    width: 100%;
+    min-height: 820px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+    overflow: hidden;
+  }
+</style>
