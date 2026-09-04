@@ -1,7 +1,7 @@
-{% assign p = site.data.prices.kitesurf %}
-{% assign w = site.data.prices.wingfoil %}
-{% assign r = site.data.prices.rental %}
-{% assign curr = site.data.prices.currency_code | default: "EUR" %}
+{% assign sd_p = site.data.prices.kitesurf %}
+{% assign sd_w = site.data.prices.wingfoil %}
+{% assign sd_r = site.data.prices.rental %}
+{% assign sd_curr = site.data.prices.currency_code | default: "EUR" %}
 {% assign lang = page.lang | default: "de" %}
 {% assign nav = site.data.navigation[lang] %}
 
@@ -193,8 +193,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_beg }}",
-                "price": "{{ p.beginner_10h.price }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_p.beginner_10h.price }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_beg }}",
                 "itemOffered": {
@@ -206,8 +206,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_tas }}",
-                "price": "{{ p.taster_3h.price }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_p.taster_3h.price }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_tas }}",
                 "itemOffered": {
@@ -219,8 +219,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_ref }}",
-                "price": "{{ p.refresher_4h.price }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_p.refresher_4h.price }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_ref }}",
                 "itemOffered": {
@@ -232,8 +232,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_priv }}",
-                "price": "{{ p.private_hourly.price }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_p.private_hourly.price }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_priv }}",
                 "itemOffered": {
@@ -251,8 +251,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_wing }}",
-                "price": "{{ w.beginner_course.price | default: 590 }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_w.beginner_course.price | default: 590 }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_wing }}",
                 "itemOffered": {
@@ -270,8 +270,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_r_day }}",
-                "price": "{{ r.complete_set.day1 }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_r.complete_set.day1 }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_r_day }}",
                 "itemOffered": {
@@ -283,8 +283,8 @@
               {
                 "@type": "Offer",
                 "name": "{{ name_r_week }}",
-                "price": "{{ r.complete_set.day7 }}",
-                "priceCurrency": "{{ curr }}",
+                "price": "{{ sd_r.complete_set.day7 }}",
+                "priceCurrency": "{{ sd_curr }}",
                 "availability": "https://schema.org/InStock",
                 "url": "{{ url_r_week }}",
                 "itemOffered": {
