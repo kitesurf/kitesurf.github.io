@@ -13,33 +13,33 @@
 {% case c_key %}
   {% when 'beginner_10h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
-    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 399 %}
-    {% assign dep_val = "79,80" %}
+    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 550 %}
+    {% assign dep_val = "110,00" %}
     {% assign dep_pct = "20%" %}
   {% when 'taster_3h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000002" %}
-    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 150 %}
-    {% assign dep_val = "30,00" %}
+    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 180 %}
+    {% assign dep_val = "36,00" %}
     {% assign dep_pct = "20%" %}
   {% when 'refresher_4h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000003" %}
-    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 220 %}
-    {% assign dep_val = "44,00" %}
+    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 240 %}
+    {% assign dep_val = "48,00" %}
     {% assign dep_pct = "20%" %}
   {% when 'wingfoil_10h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000004" %}
-    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 590 %}
-    {% assign dep_val = "118,00" %}
+    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 690 %}
+    {% assign dep_val = "138,00" %}
     {% assign dep_pct = "20%" %}
   {% when 'private_1h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000005" %}
     {% assign p_val = site.data.prices.kitesurf.private_hourly.price | default: 120 %}
-    {% assign dep_val = "120,00" %}
-    {% assign dep_pct = "100%" %}
+    {% assign dep_val = "24,00" %}
+    {% assign dep_pct = "20%" %}
   {% else %}
     {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
-    {% assign p_val = 399 %}
-    {% assign dep_val = "79,80" %}
+    {% assign p_val = 550 %}
+    {% assign dep_val = "110,00" %}
     {% assign dep_pct = "20%" %}
 {% endcase %}
 

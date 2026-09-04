@@ -6,57 +6,69 @@
     {% assign col_gear = "Equipment" %}
     {% assign col_1h = "1 Hour" %}
     {% assign col_2h = "2 Hours" %}
+    {% assign col_3h = "3 Hours" %}
     {% assign col_1d = "1 Day" %}
     {% assign col_1w = "1 Week (7 Days)" %}
     {% assign label_complete = "Complete Set (Kite + Bar + Board + Harness + Wetsuit)" %}
     {% assign label_kite = "Kite only (incl. Bar)" %}
     {% assign label_board = "Board only (Twintip / Directional)" %}
     {% assign label_foil = "Hydrofoil / Wingfoil Set" %}
+    {% assign rental_note = "*Only actual time in the water is counted.*" %}
   {% when 'es' %}
     {% assign col_gear = "Material" %}
     {% assign col_1h = "1 Hora" %}
     {% assign col_2h = "2 Horas" %}
+    {% assign col_3h = "3 Horas" %}
     {% assign col_1d = "1 Día" %}
     {% assign col_1w = "1 Semana (7 Días)" %}
     {% assign label_complete = "Equipo Completo (Cometa + Barra + Tabla + Arnés + Neopreno)" %}
     {% assign label_kite = "Solo Cometa (incl. Barra)" %}
     {% assign label_board = "Solo Tabla (Twintip / Direccional)" %}
     {% assign label_foil = "Equipo Hydrofoil / Wingfoil" %}
+    {% assign rental_note = "*Solo se contabiliza el tiempo real en el agua.*" %}
   {% when 'it' %}
     {% assign col_gear = "Attrezzatura" %}
     {% assign col_1h = "1 Ora" %}
     {% assign col_2h = "2 Ore" %}
+    {% assign col_3h = "3 Ore" %}
     {% assign col_1d = "1 Giorno" %}
     {% assign col_1w = "1 Settimana (7 Giorni)" %}
     {% assign label_complete = "Set Completo (Kite + Barra + Tavola + Trapezio + Muta)" %}
     {% assign label_kite = "Solo Kite (con Barra)" %}
     {% assign label_board = "Solo Tavola (Twintip / Direzionale)" %}
     {% assign label_foil = "Set Hydrofoil / Wingfoil" %}
+    {% assign rental_note = "*Viene conteggiato solo il tempo effettivo in acqua.*" %}
   {% when 'fr' %}
     {% assign col_gear = "Équipement" %}
     {% assign col_1h = "1 Heure" %}
     {% assign col_2h = "2 Heures" %}
+    {% assign col_3h = "3 Heures" %}
     {% assign col_1d = "1 Jour" %}
     {% assign col_1w = "1 Semaine (7 Jours)" %}
     {% assign label_complete = "Pack Complet (Aile + Barre + Planche + Harnais + Combinaison)" %}
     {% assign label_kite = "Aile seule (avec Barre)" %}
     {% assign label_board = "Planche seule (Twintip / Directionnelle)" %}
     {% assign label_foil = "Pack Hydrofoil / Wingfoil" %}
+    {% assign rental_note = "*Seul le temps réel passé dans l'eau est facturé.*" %}
   {% else %}
     {% assign col_gear = "Ausrüstung" %}
     {% assign col_1h = "1 Stunde" %}
     {% assign col_2h = "2 Stunden" %}
+    {% assign col_3h = "3 Stunden" %}
     {% assign col_1d = "1 Tag" %}
     {% assign col_1w = "1 Woche (7 Tage)" %}
     {% assign label_complete = "Komplettes Set (Kite + Bar + Board + Trapez + Neopren)" %}
     {% assign label_kite = "Nur Kite inkl. Bar" %}
     {% assign label_board = "Nur Board (Twintip / Directional)" %}
     {% assign label_foil = "Hydrofoil- / Wingfoil-Set" %}
+    {% assign rental_note = "*Es wird nur die Zeit im Wasser angerechnet.*" %}
 {% endcase %}
 
-| {{ col_gear }} | {{ col_1h }} | {{ col_2h }} | {{ col_1d }} | {{ col_1w }} |
-| :--- | :---: | :---: | :---: | :---: |
-| **{{ label_complete }}** | {{ r.complete_set.h1 }} {{ curr }} | {{ r.complete_set.h2 }} {{ curr }} | {{ r.complete_set.day1 }} {{ curr }} | {{ r.complete_set.day7 }} {{ curr }} |
-| **{{ label_kite }}** | {{ r.kite_only.h1 }} {{ curr }} | {{ r.kite_only.h2 }} {{ curr }} | {{ r.kite_only.day1 }} {{ curr }} | {{ r.kite_only.day7 }} {{ curr }} |
-| **{{ label_board }}** | {{ r.board_only.h1 }} {{ curr }} | {{ r.board_only.h2 }} {{ curr }} | {{ r.board_only.day1 }} {{ curr }} | {{ r.board_only.day7 }} {{ curr }} |
-| **{{ label_foil }}** | {{ r.foil_set.h1 }} {{ curr }} | {{ r.foil_set.h2 }} {{ curr }} | {{ r.foil_set.day1 }} {{ curr }} | {{ r.foil_set.day7 }} {{ curr }} |
+| {{ col_gear }} | {{ col_1h }} | {{ col_2h }} | {{ col_3h }} | {{ col_1d }} | {{ col_1w }} |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **{{ label_complete }}** | {{ r.complete_set.h1 }} {{ curr }} | {{ r.complete_set.h2 }} {{ curr }} | {{ r.complete_set.h3 | default: 100 }} {{ curr }} | {{ r.complete_set.day1 }} {{ curr }} | {{ r.complete_set.day7 }} {{ curr }} |
+| **{{ label_kite }}** | {{ r.kite_only.h1 }} {{ curr }} | {{ r.kite_only.h2 }} {{ curr }} | - | {{ r.kite_only.day1 }} {{ curr }} | {{ r.kite_only.day7 }} {{ curr }} |
+| **{{ label_board }}** | {{ r.board_only.h1 }} {{ curr }} | {{ r.board_only.h2 }} {{ curr }} | - | {{ r.board_only.day1 }} {{ curr }} | {{ r.board_only.day7 }} {{ curr }} |
+| **{{ label_foil }}** | {{ r.foil_set.h1 }} {{ curr }} | {{ r.foil_set.h2 }} {{ curr }} | - | {{ r.foil_set.day1 }} {{ curr }} | {{ r.foil_set.day7 }} {{ curr }} |
+
+{{ rental_note }}

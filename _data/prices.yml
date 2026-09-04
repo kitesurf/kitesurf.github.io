@@ -8,18 +8,18 @@ currency_code: "EUR"
 
 kitesurf:
   beginner_10h:
-    price: 399
+    price: 550
     duration_hours: 10
     duration_days: "3–5"
     group_size: "2–4"
     vdws_license_fee: 80
   taster_3h:
-    price: 150
+    price: 180
     duration_hours: 3
     duration_days: "1"
     group_size: "2–4"
   refresher_4h:
-    price: 220
+    price: 240
     duration_hours: 4
     duration_days: "1–2"
     group_size: "2–4"
@@ -38,7 +38,7 @@ kitesurf:
 
 wingfoil:
   beginner_course:
-    price: 590
+    price: 690
     duration_hours: 10
     duration_days: "3–5"
   taster_course:
@@ -50,10 +50,16 @@ wingfoil:
 
 rental:
   complete_set:
-    h1: 30
-    h2: 60
-    day1: 100
-    day7: 450
+    h1: 40
+    h2: 70
+    h3: 100
+    day1: 120
+    day7: 500
+    note_de: "Es wird nur die Zeit im Wasser angerechnet"
+    note_en: "Only actual time in water is counted"
+    note_es: "Solo se contabiliza el tiempo en el agua"
+    note_fr: "Seul le temps passé dans l'eau est comptabilisé"
+    note_it: "Viene conteggiato solo il tempo effettivo in acqua"
   kite_only:
     h1: 25
     h2: 50

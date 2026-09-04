@@ -16,22 +16,22 @@
 {% case c_key %}
   {% when 'beginner_10h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
-    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 399 %}
+    {% assign p_val = site.data.prices.kitesurf.beginner_10h.price | default: 550 %}
     {% assign duration_val = site.data.prices.kitesurf.beginner_10h.duration_hours | default: 10 %}
     {% assign days_val = site.data.prices.kitesurf.beginner_10h.duration_days | default: "3–5" %}
   {% when 'taster_3h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000002" %}
-    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 150 %}
+    {% assign p_val = site.data.prices.kitesurf.taster_3h.price | default: 180 %}
     {% assign duration_val = 3 %}
     {% assign days_val = "1" %}
   {% when 'refresher_4h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000003" %}
-    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 220 %}
+    {% assign p_val = site.data.prices.kitesurf.refresher_4h.price | default: 240 %}
     {% assign duration_val = 4 %}
     {% assign days_val = "1–2" %}
   {% when 'wingfoil_10h' %}
     {% assign s_id = "22222222-1111-4111-8111-000000000004" %}
-    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 590 %}
+    {% assign p_val = site.data.prices.wingfoil.beginner_course.price | default: 690 %}
     {% assign duration_val = 10 %}
     {% assign days_val = "3–5" %}
   {% when 'private_1h' %}
@@ -41,7 +41,7 @@
     {% assign days_val = "1" %}
   {% else %}
     {% assign s_id = "22222222-1111-4111-8111-000000000001" %}
-    {% assign p_val = 399 %}
+    {% assign p_val = 550 %}
     {% assign duration_val = 10 %}
     {% assign days_val = "3–5" %}
 {% endcase %}
