@@ -73,6 +73,8 @@ published: true
 
 Nuestras clases de perfeccionamiento se adaptan con precisión milimétrica a tus necesidades técnicas para que evoluciones con rapidez y sin frustraciones.
 
+{% include widgets/booking-buy-button-top.html course="refresher_4h" %}
+
 > **Tarifas de Perfeccionamiento:**  
 > * **Bono de Refresco (4 Horas):** **{{ p.refresher_4h.price }} {{ curr }}** (ideal para consolidar waterstart y ceñida).  
 > * **Clases de Avanzado por Horas:** **{{ p.advanced_hourly.price }} {{ curr }}** / hora.  
@@ -94,5 +96,7 @@ Nuestras clases de perfeccionamiento se adaptan con precisión milimétrica a tu
 Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Si dispones de tu propio material puedes traerlo; de lo contrario, te proporcionamos todo el equipamiento de navegación, neopreno, arnés, chaleco y casco.
 
 ---
+
+{% include widgets/booking-card.html course="refresher_4h" %}
 
 [» Reserva tus Clases de Perfeccionamiento]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

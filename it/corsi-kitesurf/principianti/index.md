@@ -63,6 +63,8 @@ published: true
 
 Il nostro corso base di 10 ore è il percorso più completo, sicuro ed efficace per diventare un kitesurfista autonomo. Nelle acque calme e basse della Baia di Pollensa (Sa Marina), impari in piccoli gruppi di massimo 2–4 allievi per istruttore.
 
+{% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+
 > **Punti Chiave del Corso:**  
 > * **Durata:** 10 ore di lezione suddivise in {{ p.duration_days }} giorni (sessioni pomeridiane con vento termico).  
 > * **Prezzo:** da **{{ p.price }} {{ curr }}** a persona (comprende attrezzatura completa, muta, trapezio, giubbotto e casco).  
@@ -97,5 +99,7 @@ Il nostro corso base di 10 ore è il percorso più completo, sicuro ed efficace 
 Costume da bagno, telo mare, crema solare, occhiali da sole e **abbondante acqua potabile**! Tutto il materiale tecnico, mute, trapezi, giubbotti salvagente e caschi sono forniti al 100%.
 
 ---
+
+{% include widgets/booking-card.html course="beginner_10h" %}
 
 [» Richiedi informazioni o prenota il tuo corso via WhatsApp]({{ site.url }}/it/contatto/ "Contatta Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 For maximum progression and flexibility, our private 1:1 lessons provide the undivided attention of a certified English-speaking instructor. Every minute on the water is dedicated entirely to your personal goals.
 
+{% include widgets/booking-buy-button-top.html course="private_1h" %}
+
 > **Rate:** **{{ p.private_hourly.price }} {{ curr }}** / hour (includes full premium gear from Duotone/Eleveight, wetsuit, harness, radio communication helmet, and boat support when needed).
 
 ---
@@ -89,5 +91,7 @@ For maximum progression and flexibility, our private 1:1 lessons provide the und
 Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! All technical gear, kites, boards, harnesses, wetsuits, and radio helmets are provided.
 
 ---
+
+{% include widgets/booking-card.html course="private_1h" %}
 
 [» Inquire for Private Lessons with Daniel & Gerhard]({{ site.url }}/en/contact/ "Contact Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 Du möchtest wissen, wie es sich anfühlt, die unbändige Kraft des Windes an einem echten Kite zu spüren und sich über das Wasser ziehen zu lassen? Unser 3-stündiger Schnupperkurs ist der perfekte, unkomplizierte Einstieg, um Kitesurfen unverbindlich auszuprobieren.
 
+{% include widgets/booking-buy-button-top.html course="taster_3h" %}
+
 > **Kompaktübersicht:**  
 > * **Dauer:** 3 Stunden an 1 Tag (am Nachmittag bei optimaler Thermik).  
 > * **Preis:** **{{ p.price }} {{ curr }}** pro Person (inklusive gesamtem Material, Neopren, Weste, Helm & Trapez).  
@@ -102,5 +104,7 @@ Du möchtest wissen, wie es sich anfühlt, die unbändige Kraft des Windes an ei
 Badebekleidung, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Das gesamte Kitematerial, Neoprenanzug, Prallschutzweste, Helm und Trapez stellen wir dir komplett zur Verfügung.
 
 ---
+
+{% include widgets/booking-card.html course="taster_3h" %}
 
 [» Jetzt unverbindlich deinen Schnupperkurs anfragen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

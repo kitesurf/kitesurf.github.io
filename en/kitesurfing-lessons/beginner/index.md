@@ -71,6 +71,8 @@ published: true
 
 Our 10-hour beginner package is the most comprehensive, safe, and fun way to learn kitesurfing. In the flat, waist-deep waters of Pollensa Bay (Sa Marina), you will progress step by step under the guidance of certified English-speaking coaches.
 
+{% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+
 > **Key Course Facts:**  
 > * **Duration:** 10 hours of practical tuition across {{ p.duration_days }} days (afternoon thermal wind sessions).  
 > * **Price:** from **{{ p.price }} {{ curr }}** per person (includes full gear, wetsuit, harness, vest & helmet).  
@@ -105,5 +107,7 @@ Our 10-hour beginner package is the most comprehensive, safe, and fun way to lea
 Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! All technical gear, premium kites, boards, harnesses, wetsuits, and safety helmets are provided.
 
 ---
+
+{% include widgets/booking-card.html course="beginner_10h" %}
 
 [» Inquire or Book Your Beginner Course Today]({{ site.url }}/en/contact/ "Contact Kitesurf Mallorca")

@@ -69,6 +69,8 @@ Notre stage complet de 10 heures constitue la méthode la plus sûre, rapide et 
 > * **Petit groupe :** {{ p.group_size }} élèves max pour un suivi personnalisé.  
 > * **Objectif :** Maîtrise de l'aile, waterstart autonome, navigation et préparation à la **licence internationale VDWS/IKO**.
 
+{% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+
 ---
 
 ## Déroulement du Stage en 3 Phases
@@ -96,6 +98,6 @@ Notre stage complet de 10 heures constitue la méthode la plus sûre, rapide et 
 
 Maillot de bain, serviette, crème solaire, lunettes de soleil et **de l'eau potable en quantité suffisante** ! Tout le matériel technique, combinaisons, harnais, gilets de flottabilité et casques sont fournis à 100 %.
 
----
+{% include widgets/booking-card.html course="beginner_10h" %}
 
 [» Demandez des informations ou réservez votre stage par WhatsApp]({{ site.url }}/fr/contact/ "Contacter Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 Si buscas la máxima atención de tu instructor, deseas aprovechar al máximo tus días de vacaciones en Mallorca o necesitas desbloquear maniobras concretas, nuestras clases privadas 1:1 son la opción más eficiente.
 
+{% include widgets/booking-buy-button-top.html course="private_1h" %}
+
 > **Tarifa:** **{{ p.private_hourly.price }} {{ curr }}** / hora (incluye material completo de gama alta Duotone/Eleveight, neopreno, arnés, casco con intercomunicador de radio y apoyo de barco si se requiere).
 
 ---
@@ -89,5 +91,7 @@ Si buscas la máxima atención de tu instructor, deseas aprovechar al máximo tu
 Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Todo el material técnico, trajes de neopreno, arneses, chalecos de flotabilidad y cascos con radio están 100 % incluidos.
 
 ---
+
+{% include widgets/booking-card.html course="private_1h" %}
 
 [» Consulta Disponibilidad para Clases Privadas]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

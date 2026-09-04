@@ -63,6 +63,8 @@ published: true
 
 Se cerchi la totale attenzione del tuo istruttore, desideri ottimizzare ogni minuto della tua vacanza a Maiorca o vuoi sbloccare manovre specifiche, il nostro coaching privato 1:1 è la formula più efficiente.
 
+{% include widgets/booking-buy-button-top.html course="private_1h" %}
+
 > **Tariffa:** **{{ p.private_hourly.price }} {{ curr }}** / ora (comprende materiale top di gamma Duotone/Eleveight, muta, trapezio, casco con interfono radio e gommone di supporto).
 
 ---
@@ -83,5 +85,7 @@ Se cerchi la totale attenzione del tuo istruttore, desideri ottimizzare ogni min
 Costume da bagno, telo mare, crema solare, occhiali da sole e **abbondante acqua potabile**. Tutto il materiale tecnico è fornito da noi.
 
 ---
+
+{% include widgets/booking-card.html course="private_1h" %}
 
 [» Richiedi Disponibilità per Lezioni Private]({{ site.url }}/it/contatto/ "Contatta Kitesurf Mallorca")

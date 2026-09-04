@@ -71,6 +71,8 @@ published: true
 
 ¿Siempre has querido probar el kitesurf pero no estás seguro de si es para ti? Nuestro bautismo de 3 horas es la experiencia perfecta para experimentar la potencia de una cometa real y deslizarte por el agua en una sola tarde.
 
+{% include widgets/booking-buy-button-top.html course="taster_3h" %}
+
 > **Resumen del Bautismo:**  
 > * **Duración:** 3 horas en 1 sola sesión de tarde.  
 > * **Precio:** **{{ p.price }} {{ curr }}** por persona (incluye todo el material, neopreno, arnés, chaleco y casco).  
@@ -91,5 +93,7 @@ published: true
 Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Todo el equipo de kitesurf, neopreno, arnés, chaleco y casco están incluidos.
 
 ---
+
+{% include widgets/booking-card.html course="taster_3h" %}
 
 [» Reserva tu Bautismo de Kitesurf vía WhatsApp]({{ site.url }}/es/contacto/ "Contacta con Kite Mallorca")

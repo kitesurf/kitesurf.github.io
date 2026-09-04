@@ -65,6 +65,8 @@ Si vous désirez l'attention exclusive de votre moniteur, souhaitez rentabiliser
 
 > **Tarif :** **{{ p.private_hourly.price }} {{ curr }}** / heure (matériel complet haut de gamme Duotone/Eleveight, combinaison, harnais, casque avec liaison radio et bateau d'assistance inclus).
 
+{% include widgets/booking-buy-button-top.html course="private_1h" %}
+
 ---
 
 ## Les Avantages du Coaching Particulier
@@ -82,6 +84,6 @@ Si vous désirez l'attention exclusive de votre moniteur, souhaitez rentabiliser
 
 Maillot de bain, serviette, crème solaire, lunettes de soleil et **de l'eau potable en quantité suffisante** ! Tout le matériel technique est fourni.
 
----
+{% include widgets/booking-card.html course="private_1h" %}
 
 [» Demandez vos Cours Particuliers par WhatsApp]({{ site.url }}/fr/contact/ "Contacter Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 Curious about kitesurfing and want to experience the power of the wind on your own body? Our 3-hour taster course lets you try kiteboarding in a single, action-packed afternoon session in the shallow waters of Pollensa Bay.
 
+{% include widgets/booking-buy-button-top.html course="taster_3h" %}
+
 > **Course Summary:**  
 > * **Duration:** 3 hours in 1 afternoon session.  
 > * **Price:** **{{ p.price }} {{ curr }}** per person (all equipment, wetsuit, vest & helmet included).  
@@ -91,5 +93,7 @@ Curious about kitesurfing and want to experience the power of the wind on your o
 Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! All technical gear, kites, harnesses, wetsuits, and helmets are provided.
 
 ---
+
+{% include widgets/booking-card.html course="taster_3h" %}
 
 [» Book or Inquire About Your Taster Course via WhatsApp]({{ site.url }}/en/contact/ "Contact Kite Mallorca")

@@ -63,6 +63,8 @@ published: true
 
 Vuoi scoprire com'è farsi trainare dalla forza del vento con un vero kite? Il nostro corso prova di 3 ore è l'occasione perfetta per testare il kitesurf senza impegno durante la tua vacanza a Maiorca.
 
+{% include widgets/booking-buy-button-top.html course="taster_3h" %}
+
 > **Riepilogo del Corso:**  
 > * **Durata:** 3 ore in 1 sola sessione pomeridiana.  
 > * **Prezzo:** **{{ p.price }} {{ curr }}** a persona (comprende attrezzatura, muta, trapezio, giubbotto e casco).  
@@ -85,5 +87,7 @@ Vuoi scoprire com'è farsi trainare dalla forza del vento con un vero kite? Il n
 Costume da bagno, telo mare, crema solare, occhiali da sole e **abbondante acqua potabile**. Tutto il materiale tecnico è fornito da noi.
 
 ---
+
+{% include widgets/booking-card.html course="taster_3h" %}
 
 [» Prenota il tuo Corso Prova via WhatsApp]({{ site.url }}/it/contatto/ "Contatta Kitesurf Mallorca")

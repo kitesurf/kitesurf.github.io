@@ -71,6 +71,8 @@ published: true
 
 Nuestro curso de iniciación de 10 horas es la forma más rápida, segura y completa de convertirte en un kitesurfista autónomo. En el agua plana y poco profunda de la Bahía de Pollensa (Sa Marina), aprenderás en grupos reducidos de máximo 2 a 4 alumnos por monitor.
 
+{% include widgets/booking-buy-button-top.html course="beginner_10h" %}
+
 > **Datos clave del curso:**  
 > * **Duración:** 10 horas de clase distribuidas en {{ p.duration_days }} días (sesiones de tarde con viento térmico).  
 > * **Precio:** desde **{{ p.price }} {{ curr }}** por persona (incluye todo el material, neopreno, arnés, chaleco y casco).  
@@ -105,5 +107,7 @@ Nuestro curso de iniciación de 10 horas es la forma más rápida, segura y comp
 Bañador, toalla, crema solar, gafas de sol y **suficiente agua potable**. Todo el material técnico, trajes de neopreno, arneses, chalecos de flotabilidad y cascos están 100 % incluidos.
 
 ---
+
+{% include widgets/booking-card.html course="beginner_10h" %}
 
 [» Solicita información o reserva tu plaza por WhatsApp]({{ site.url }}/es/contacto/ "Contacta con Kitesurf Mallorca")

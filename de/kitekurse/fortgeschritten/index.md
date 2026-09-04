@@ -73,6 +73,8 @@ Du hast bereits einen Grundkurs absolviert oder fährst schon selbstständig, m�
 
 Unser Aufsteiger- und Fortgeschrittenenkurs setzt genau an deinem individuellen Können an und bringt dich schnell und frustfrei auf das nächste Level.
 
+{% include widgets/booking-buy-button-top.html course="refresher_4h" %}
+
 > **Optionen & Preise:**  
 > * **4-Stunden-Refresh- & Aufbaukurs:** **{{ p.refresher_4h.price }} {{ curr }}** (ideal für Wiedereinsteiger und zur Festigung des Wasserstarts).  
 > * **Stundenweises Aufsteigertraining:** **{{ p.advanced_hourly.price }} {{ curr }}** pro Stunde (mit eigenem oder gestelltem Material).  
@@ -100,5 +102,7 @@ Das große Stehrevier mit sandigem Untergrund und die gleichmäßige Nachmittags
 Badesachen, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Falls du eigenes Material hast, kannst du dieses gerne mitbringen – ansonsten stellen wir dir aktuelles Schulungsequipment, Neopren, Weste, Helm und Trapez komplett zur Verfügung.
 
 ---
+
+{% include widgets/booking-card.html course="refresher_4h" %}
 
 [» Jetzt unverbindlich Training anfragen oder Termin vereinbaren]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

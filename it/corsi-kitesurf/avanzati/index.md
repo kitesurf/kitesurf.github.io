@@ -65,6 +65,8 @@ Hai già completato un corso base ma fai ancora fatica a risalire il vento (boli
 
 Le nostre lezioni di perfezionamento si concentrano esattamente sulle tue esigenze tecniche per farti progredire in modo rapido e senza frustrazione.
 
+{% include widgets/booking-buy-button-top.html course="refresher_4h" %}
+
 > **Opzioni & Tariffe:**  
 > * **Pacchetto Refresh (4 Ore):** **{{ p.refresher_4h.price }} {{ curr }}** (ideale per consolidare waterstart e bolina).  
 > * **Lezioni Avanzate a Ore:** **{{ p.advanced_hourly.price }} {{ curr }}** / ora.  
@@ -88,5 +90,7 @@ Le nostre lezioni di perfezionamento si concentrano esattamente sulle tue esigen
 Costume da bagno, telo mare, crema solare, occhiali da sole e **abbondante acqua potabile**. Se hai la tua attrezzatura puoi portarla, altrimenti mettiamo a disposizione tutto il materiale scuola aggiornato.
 
 ---
+
+{% include widgets/booking-card.html course="refresher_4h" %}
 
 [» Prenota la tua Sessione di Perfezionamento]({{ site.url }}/it/contatto/ "Contatta Kitesurf Mallorca")

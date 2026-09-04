@@ -68,6 +68,8 @@ Vous avez toujours rêvé de tester le kitesurf sans vous engager sur un stage c
 > * **Tarif :** **{{ p.price }} {{ curr }}** par personne (matériel complet, combinaison, harnais, gilet et casque fournis).  
 > * **100 % Déductible :** Si vous souhaitez continuer avec le stage débutant complet de 10 heures, les {{ p.price }} {{ curr }} sont intégralement déduits !
 
+{% include widgets/booking-buy-button-top.html course="taster_3h" %}
+
 ---
 
 ## Ce Que Vous Allez Apprendre
@@ -84,6 +86,6 @@ Vous avez toujours rêvé de tester le kitesurf sans vous engager sur un stage c
 
 Maillot de bain, serviette, crème solaire, lunettes de soleil et **de l'eau potable en quantité suffisante** ! Tout l'équipement technique est fourni.
 
----
+{% include widgets/booking-card.html course="taster_3h" %}
 
 [» Réservez votre Cours Découverte par WhatsApp]({{ site.url }}/fr/contact/ "Contacter Kitesurf Mallorca")

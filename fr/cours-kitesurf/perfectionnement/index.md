@@ -70,6 +70,8 @@ Nos séances de perfectionnement ciblent précisément vos blocages techniques p
 > * **Cours Perfectionnement à l'Heure :** **{{ p.advanced_hourly.price }} {{ curr }}** / heure.  
 > * **Coaching Particulier 1:1 :** **{{ p.private_hourly.price }} {{ curr }}** / heure.
 
+{% include widgets/booking-buy-button-top.html course="refresher_4h" %}
+
 ---
 
 ## Thèmes Techniques Abordés
@@ -87,6 +89,6 @@ Nos séances de perfectionnement ciblent précisément vos blocages techniques p
 
 Maillot de bain, serviette, crème solaire, lunettes de soleil et **de l'eau potable en quantité suffisante** ! Vous pouvez venir avec votre propre matériel ou profiter de notre équipement haut de gamme fourni.
 
----
+{% include widgets/booking-card.html course="refresher_4h" %}
 
 [» Réservez votre Session de Perfectionnement]({{ site.url }}/fr/contact/ "Contacter Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 Wenn du die ungeteilte Aufmerksamkeit deines Kitelehrers wünschst, deine Urlaubszeit optimal nutzen möchtest oder an ganz spezifischen Manövern arbeiten willst, ist unser privates 1:1 Coaching die effektivste Unterrichtsform.
 
+{% include widgets/booking-buy-button-top.html course="private_1h" %}
+
 > **Preis:** **{{ p.private_hourly.price }} {{ curr }}** pro Stunde (inklusive komplettem High-End-Equipment von Duotone & Eleveight, Neopren, Trapez, Funkhelm & Bootssupport bei Bedarf).
 
 ---
@@ -97,5 +99,7 @@ Wenn du die ungeteilte Aufmerksamkeit deines Kitelehrers wünschst, deine Urlaub
 Badesachen, Sonnenschutz, Sonnenbrille, Handtuch und **ausreichend Trinkwasser**! Das gesamte Kitematerial, Neoprenanzug, Prallschutzweste, Helm mit Funk und Trapez stellen wir dir komplett zur Verfügung.
 
 ---
+
+{% include widgets/booking-card.html course="private_1h" %}
 
 [» Jetzt deinen persönlichen Privatlehrer anfragen]({{ site.url }}/de/kontakt/ "Kontakt zur Kiteschule")

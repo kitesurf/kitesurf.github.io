@@ -60,6 +60,8 @@ Le wingfoiling combine la simplicité de la planche à voile, la légèreté du 
 
 En tenant une aile gonflable légère (*Wing*) et debout sur une planche munie d'un foil, vous vous élevez au-dessus de la mer dès que vous prenez de la vitesse, glissant en silence même par vent modéré de 10 à 15 nœuds.
 
+{% include widgets/booking-buy-button-top.html course="wingfoil_10h" %}
+
 ---
 
 ## Pourquoi Choisir la Baie de Pollensa pour le Wingfoil ?
@@ -84,6 +86,6 @@ En tenant une aile gonflable légère (*Wing*) et debout sur une planche munie d
 
 Maillot de bain, crème solaire, lunettes de soleil, serviette de plage et **de l'eau potable en quantité suffisante** ! Tout le matériel technique (wing, planche, foil, combinaison, gilet et casque) est fourni à 100 %.
 
----
+{% include widgets/booking-card.html course="wingfoil_10h" %}
 
 [» Contactez-nous par WhatsApp pour réserver votre séance de Wingfoil]({{ site.url }}/fr/contact/ "Contacter Kitesurf Mallorca")

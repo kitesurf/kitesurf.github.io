@@ -60,6 +60,8 @@ Il wingfoiling è lo sport d'acqua più dinamico e divertente degli ultimi anni:
 
 Tenendo in mano un'ala gonfiabile leggera (*Wing*) e stando in piedi su una tavola dotata di foil, ti sollevi sopra il pelo dell'acqua appena prendi velocità, navigando in silenzio anche con brezze estive di 10–15 nodi.
 
+{% include widgets/booking-buy-button-top.html course="wingfoil_10h" %}
+
 ---
 
 ## Perché Imparare il Wingfoil nella Baia di Pollensa?
@@ -84,6 +86,6 @@ Tenendo in mano un'ala gonfiabile leggera (*Wing*) e stando in piedi su una tavo
 
 Costume da bagno, crema solare, occhiali da sole, telo mare e **abbondante acqua potabile**! Tutto il materiale tecnico (ala wing, tavola, foil, muta, giubbotto e casco) è fornito al 100%.
 
----
+{% include widgets/booking-card.html course="wingfoil_10h" %}
 
 [» Contattaci via WhatsApp per Prenotare la tua Lezione di Wingfoil]({{ site.url }}/it/contatto/ "Contatta Kitesurf Mallorca")

@@ -71,6 +71,8 @@ published: true
 
 Already know how to waterstart and ride, but struggling to stay upwind, turn smoothly, or boost your first high jumps? Our advanced coaching sessions in Pollensa Bay provide personalized tips and real-time guidance to elevate your kiteboarding skills.
 
+{% include widgets/booking-buy-button-top.html course="refresher_4h" %}
+
 > **Coaching Rates:**  
 > * **4-Hour Refresher Package:** **{{ p.refresher_4h.price }} {{ curr }}** (ideal for brushing up after a break).  
 > * **Hourly Advanced Coaching:** **{{ p.advanced_hourly.price }} {{ curr }}** / hour.  
@@ -92,5 +94,7 @@ Already know how to waterstart and ride, but struggling to stay upwind, turn smo
 Swimwear, sunscreen, sunglasses, a beach towel, and **plenty of drinking water**! You are welcome to bring your own gear if you have it; otherwise, all current-season coaching equipment, wetsuits, harnesses, vests, and helmets are provided.
 
 ---
+
+{% include widgets/booking-card.html course="refresher_4h" %}
 
 [» Book Your Advanced Coaching Session]({{ site.url }}/en/contact/ "Contact Kitesurf Mallorca")

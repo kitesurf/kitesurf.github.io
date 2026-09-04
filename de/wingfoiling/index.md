@@ -66,6 +66,8 @@ Wingfoiling fasziniert immer mehr Menschen, und vielleicht spielst auch du mit d
 
 > **Das Wichtigste in Kürze:** Wingfoiling ist leichter zu erlernen als Kitesurfen, erfordert aber etwas mehr Balance als Windsurfen. Im Durchschnitt brauchen Anfänger etwa 10 Stunden im Kurs, um die ersten sicheren Flüge auf dem Foil zu erleben. Wir stellen dir das komplette Anfänger-Equipment zur Verfügung, sodass du dich voll auf das Lernen konzentrieren kannst.
 
+{% include widgets/booking-buy-button-top.html course="wingfoil_10h" %}
+
 ## Was macht Wingfoiling so besonders?
 
 Beim Wingfoiling stehst du auf einem Board, unter dem ein sogenanntes Hydrofoil (ein Tragflügel) montiert ist. In den Händen hältst du ein leichtes, aufblasbares Segel – den "Wing".
@@ -118,6 +120,8 @@ In unseren intensiven Anfängerkursen erlernst du alle Grundlagen bis zum ersten
 - Das abschließende VDWS-Zertifikat (falls gewünscht)
 
 Du musst dir für den Anfang also keinerlei Gedanken um den Kauf von eigenem Material machen.
+
+{% include widgets/booking-card.html course="wingfoil_10h" %}
 
 <div class="item">
 <form method="POST" action="https://formspree.io/team@kite-mallorca.com">
