@@ -1,0 +1,176 @@
+# ==============================================================================
+# Google Calendar Kürzelsystem & Buchungssyntax für KITE-MALLORCA
+# Verbindliche Nomenklatur für Trainer-Zuweisung, Dispo und Google Calendar Integration
+# ==============================================================================
+
+syntax:
+  title_template: "{Pax}{Kurskuerzel}, {Vorname}, {KontaktLink} ({Sprachen}) {Sonderwuensche}"
+  description: "Kompakte Titelsyntax für Google Kalender Termine zur optimalen Lesbarkeit auf Smartphone & Kalender-Grid"
+  fields:
+    pax: "Teilnehmeranzahl (z.B. 1, 2, 3, 4 - bei 1 kann die Zahl vorangestellt werden wie '1Cc' oder '2Cc')"
+    course_code: "Verbindliches Kurskuerzel (siehe 'courses')"
+    first_name: "Vorname des Kunden / Hauptansprechpartners (z.B. 'Max', 'Julia & Tom')"
+    contact_link: "Direkter Kommunikationslink ohne Leerzeichen (WhatsApp: wa.me/<landescode><nummer> oder RCS +<nummer>)"
+    languages: "Gesprochene Sprachen in runden Klammern (z.B. '(de)', '(en)', '(de/en)', '(es)')"
+    special_requests: "Sonderwünsche, Equipment-Hinweise oder Maße dahinter"
+  examples:
+    - title: "2Cc, Max, wa.me/34696264729 (de/en) Eig.Neo"
+      explanation: "2 Personen 10h Kitesurf Grundkurs, Max, WhatsApp Kontakt, Sprachen Deutsch/Englisch, eigener Neoprenanzug vorhanden"
+    - title: "1Pr, Sarah, wa.me/491701234567 (en) Boot"
+      explanation: "1 Person Kitesurf Privatstunde 1:1, Sarah, WhatsApp Kontakt, Englisch, Bootsschulung erwünscht"
+    - title: "1TrCc, Lukas, RCS +34696264729 (de) Gross (2m/105kg)"
+      explanation: "1 Person Schnupperkurs mit Upgrade-Option auf 10h, Lukas, RCS Kontakt, Deutsch, XXL Equipment"
+    - title: "2Semi, Felix, wa.me/491512345678 (de) Trapez Gr. L"
+      explanation: "2 Personen Semiprivat 2:1, Felix, WhatsApp Kontakt, Deutsch"
+    - title: "3Wfc, Elena, wa.me/34611223344 (es/en)"
+      explanation: "3 Personen Wingfoil Gruppenkurs, Elena, Spanisch/Englisch"
+    - title: "1WfcPr, Marc, wa.me/33612345678 (fr/en) Eig.Foil"
+      explanation: "1 Person Wingfoil Privatunterricht 1:1, Marc, Französisch/Englisch"
+    - title: "1R, Jens, wa.me/49160998877 (de) Kite 12m + Board"
+      explanation: "Kite Rental / Materialmiete (blockiert keinen Trainer)"
+    - title: "1WR, Sophie, wa.me/34699887766 (en) 5m Wing"
+      explanation: "Wingfoil Rental / Materialmiete (blockiert keinen Trainer)"
+    - title: "Block, Daniel, Pause / frei"
+      explanation: "Trainer abwesend / Pause / frei"
+
+courses:
+  - code: "Cc"
+    name: "10h Kitesurf Grundkurs"
+    alt_name: "Complete Course"
+    duration_hours: 10
+    duration_days: "3–5"
+    max_pax: 4
+    type: "group"
+    trainer_exclusive: false
+    fasthooked_service_id: "22222222-1111-4111-8111-000000000001"
+    description: "10h Kitesurf Grundkurs (Complete Course, max. 4 Pax Gruppe)"
+
+  - code: "Tr"
+    name: "3h Kitesurf Schnupperkurs"
+    alt_name: "Tryout"
+    duration_hours: 3
+    duration_days: "1"
+    max_pax: 4
+    type: "group"
+    trainer_exclusive: false
+    fasthooked_service_id: "22222222-1111-4111-8111-000000000002"
+    description: "3h Kitesurf Schnupperkurs (Tryout, max. 4 Pax Gruppe)"
+
+  - code: "TrCc"
+    name: "Schnupperkurs mit Upgrade-Option auf 10h"
+    alt_name: "Tryout to Complete Course Upgrade"
+    duration_hours: 3
+    duration_days: "1–5"
+    max_pax: 4
+    type: "group"
+    trainer_exclusive: false
+    description: "Schnupperkurs mit Upgrade-Option auf 10h"
+
+  - code: "Rf"
+    name: "4h Kitesurf Refresher / Aufsteiger"
+    alt_name: "Refresher"
+    duration_hours: 4
+    duration_days: "1–2"
+    max_pax: 4
+    type: "group"
+    trainer_exclusive: false
+    fasthooked_service_id: "22222222-1111-4111-8111-000000000003"
+    description: "4h Kitesurf Refresher / Aufsteiger (max. 4 Pax Gruppe)"
+
+  - code: "Pr"
+    name: "1h Kitesurf / Foil Privatkurs"
+    alt_name: "Private Coaching"
+    duration_hours: 1
+    max_pax: 1
+    type: "private"
+    trainer_exclusive: true
+    fasthooked_service_id: "22222222-1111-4111-8111-000000000005"
+    description: "1h Kitesurf / Foil Privatkurs (1:1, Trainer exklusiv belegt)"
+
+  - code: "Semi"
+    name: "Semiprivat (2:1)"
+    alt_name: "Semi-Private"
+    duration_hours: 1
+    max_pax: 2
+    type: "semi_private"
+    trainer_exclusive: true
+    description: "Semiprivat (2:1, Trainer exklusiv belegt)"
+
+  - code: "Wfc"
+    name: "Wingfoil Kurs"
+    alt_name: "Wingfoil Course"
+    duration_hours: 10
+    duration_days: "3–5"
+    max_pax: 3
+    type: "group"
+    trainer_exclusive: false
+    fasthooked_service_id: "22222222-1111-4111-8111-000000000004"
+    description: "Wingfoil Kurs (max. 3 Pax)"
+
+  - code: "WfcPr"
+    name: "Wingfoil Privatunterricht"
+    alt_name: "Wingfoil Private"
+    duration_hours: 1
+    max_pax: 1
+    type: "private"
+    trainer_exclusive: true
+    description: "Wingfoil Privatunterricht (1:1, Trainer exklusiv belegt)"
+
+  - code: "R"
+    name: "Kitesurf Rental (Materialmiete)"
+    alt_name: "Kitesurf Rental"
+    type: "rental"
+    trainer_exclusive: false
+    description: "Kitesurf Rental (Materialmiete, blockiert keinen Trainer)"
+
+  - code: "WR"
+    name: "Wingfoil Rental (Materialmiete)"
+    alt_name: "Wingfoil Rental"
+    type: "rental"
+    trainer_exclusive: false
+    description: "Wingfoil Rental (Materialmiete, blockiert keinen Trainer)"
+
+  - code: "Block"
+    name: "Trainer abwesend / Pause / frei"
+    alt_name: "Blocker"
+    type: "block"
+    trainer_exclusive: true
+    description: "Trainer abwesend / Pause / frei"
+
+contact_formats:
+  whatsapp:
+    syntax: "wa.me/<LandesvorwahlOhnePlus><Nummer>"
+    example: "wa.me/34696264729"
+    note: "Direkt klickbar auf iOS und Android Smartphones"
+  rcs:
+    syntax: "RCS +<Landesvorwahl><Nummer>"
+    example: "RCS +34696264729"
+    note: "RCS / SMS Textnachrichten"
+
+languages:
+  brackets: "({Sprachen})"
+  examples:
+    - code: "de"
+      name: "Deutsch"
+    - code: "en"
+      name: "Englisch"
+    - code: "es"
+      name: "Spanisch"
+    - code: "fr"
+      name: "Französisch"
+    - code: "it"
+      name: "Italienisch"
+    - code: "de/en"
+      name: "Deutsch und Englisch"
+    - code: "es/en"
+      name: "Spanisch und Englisch"
+
+special_requests_examples:
+  - code: "Eig.Neo"
+    description: "Eigener Neoprenanzug vorhanden"
+  - code: "Boot"
+    description: "Bootsschulung erwünscht / erforderlich"
+  - code: "Gross (2m/105kg)"
+    description: "Körpermaße für Materialdisposition (Trapez XXL, Board 145+ cm)"
+  - code: "VDWS"
+    description: "VDWS Lizenzprüfung erwünscht"

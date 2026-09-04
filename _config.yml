@@ -68,5 +68,6 @@ exclude:
   - _octopress.yml
   - docker-compose.yml
   - Buchungssystem
+  - docs
   - test-widgets.html
   - images/backup-originals
