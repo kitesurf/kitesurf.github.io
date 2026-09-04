@@ -10,7 +10,7 @@
   // Basis-URL Ermittlung
   const currentScript = document.currentScript;
   const configuredBaseUrl = currentScript ? currentScript.getAttribute('data-base-url') : null;
-  const STOREFRONT_BASE = configuredBaseUrl || "http://localhost:5175";
+  const STOREFRONT_BASE = configuredBaseUrl || "https://storefront.fasthooked.com";
 
   // Unterstützte Sprachen
   const SUPPORTED_LANGS = ['de', 'en', 'es', 'fr', 'it', 'pt'];

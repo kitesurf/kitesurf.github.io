@@ -6,7 +6,7 @@
 {% endcomment %}
 
 {% assign l = include.lang | default: page.lang | default: 'de' %}
-{% assign base_url = include.base_url | default: "http://localhost:5175" %}
+{% assign base_url = include.base_url | default: site.data.fasthooked.baseUrl | default: "https://storefront.fasthooked.com" %}
 
 {% case l %}
   {% when 'en' %}
