@@ -32,9 +32,11 @@
 {% assign mail_subject = txt_subject_prefix | append: page.title | strip_html %}
 
 <div class="fh-sticky-dock" id="fhStickyDock" lang="{{ l }}">
-  <a 
-    href="mailto:buchung@kite-mallorca.com?subject={{ mail_subject | url_encode | replace: '+', '%20' }}"
+  <button 
+    type="button"
     class="fh-sticky-btn"
+    data-fh-target="kite-mallorca"
+    data-fh-lang="{{ l }}"
     aria-label="{{ txt_dock_btn }}"
   >
     <span class="fh-pulse-dot"></span>
@@ -43,7 +45,7 @@
       <span class="fh-sticky-title">{{ txt_dock_btn }}</span>
       <span class="fh-sticky-sub">{{ txt_dock_sub }}</span>
     </span>
-  </a>
+  </button>
 </div>
 
 <style>
