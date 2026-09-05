@@ -44,6 +44,8 @@ Termintitel im Google Kalender werden nach folgendem Format strukturiert:
 | **`Semi`** | Semiprivat | Stundengenau (1h+) | 2 | **2:1 Exklusiv** (Trainer voll belegt) | – |
 | **`Wfc`** | Wingfoil Kurs | 10h (3–5 Tage) | 3 | Gruppe (max. 3 Pax / Trainer) | `22222222-1111-4111-8111-000000000004` |
 | **`WfcPr`** | Wingfoil Privatunterricht | Stundengenau (1h+) | 1 | **1:1 Exklusiv** (Trainer voll belegt) | – |
+| **`Ds`** | Dockstart Session (1h Coaching) | 1h | 3 | Gruppe (max. 3 Pax / Trainer mit mobiler Plattform) | – |
+| **`DsPr`** | Dockstart Privatunterricht | 1h | 1 | **1:1 Exklusiv** (Trainer voll belegt) | – |
 | **`R`** | Kitesurf Rental (Materialmiete) | Zeit/Tag flexibel | n/a | **Kein Trainer** belegt (Materialpool) | – |
 | **`WR`** | Wingfoil Rental (Materialmiete) | Zeit/Tag flexibel | n/a | **Kein Trainer** belegt (Materialpool) | – |
 | **`Block`** | Trainer abwesend / Pause / frei | Beliebig | – | **Trainer blockiert** (Urlaub, Krank, Pause) | – |
@@ -95,6 +97,8 @@ In runden Klammern hinter dem Kontaktlink:
 | `2Semi, Felix, wa.me/491512345678 (de) Trapez Gr. L` | 2 Schüler Semiprivat 2:1 exklusiv bei einem Trainer |
 | `3Wfc, Elena, wa.me/34611223344 (es/en)` | 3 Schüler Wingfoil Gruppe (Gruppe voll ausgelastet) |
 | `1WfcPr, Marc, wa.me/33612345678 (fr/en) Eig.Foil` | 1:1 Wingfoil Privatunterricht mit eigenem Foil |
+| `2Ds, Jan, wa.me/491712345678 (de) 2027` | 2 Schüler Dockstart Session mit mobiler Plattform (1h Coaching), Jan, WhatsApp |
+| `1DsPr, Tim, wa.me/49160991122 (de) Eig.Foil` | 1:1 Dockstart Privatunterricht mit mobiler Plattform, Tim, eigenes Foil |
 | `1R, Jens, wa.me/49160998877 (de) Kite 12m + Board` | Kitesurf Rental – reines Material, Trainer frei für Kurse |
 | `Block, Daniel, Pause` | Daniel hat Mittagspause / Frei |
 

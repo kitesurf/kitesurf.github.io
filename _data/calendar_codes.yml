@@ -30,6 +30,10 @@ syntax:
       explanation: "Kite Rental / Materialmiete (blockiert keinen Trainer)"
     - title: "1WR, Sophie, wa.me/34699887766 (en) 5m Wing"
       explanation: "Wingfoil Rental / Materialmiete (blockiert keinen Trainer)"
+    - title: "2Ds, Jan, wa.me/491712345678 (de) 2027"
+      explanation: "2 Personen Dockstart Session mit mobiler Plattform (1h Coaching), Jan, WhatsApp Kontakt, Deutsch"
+    - title: "1DsPr, Tim, wa.me/49160991122 (de) Eig.Foil"
+      explanation: "1 Person Dockstart Privatunterricht 1:1 mit mobiler Plattform, Tim, WhatsApp Kontakt, eigenes Foil"
     - title: "Block, Daniel, Pause / frei"
       explanation: "Trainer abwesend / Pause / frei"
 
@@ -115,6 +119,24 @@ courses:
     type: "private"
     trainer_exclusive: true
     description: "Wingfoil Privatunterricht (1:1, Trainer exklusiv belegt)"
+
+  - code: "Ds"
+    name: "Dockstart Session (1h Coaching)"
+    alt_name: "Dockstart / Pumpfoil Session"
+    duration_hours: 1
+    max_pax: 3
+    type: "group"
+    trainer_exclusive: false
+    description: "Dockstart & Pumpfoiling Schulung mit mobiler Startplattform (1h Coaching)"
+
+  - code: "DsPr"
+    name: "Dockstart Privatunterricht 1:1"
+    alt_name: "Dockstart Private 1:1"
+    duration_hours: 1
+    max_pax: 1
+    type: "private"
+    trainer_exclusive: true
+    description: "1:1 Intensivcoaching Dockstart & Pumpfoiling mit mobiler Startplattform (Trainer exklusiv)"
 
   - code: "R"
     name: "Kitesurf Rental (Materialmiete)"

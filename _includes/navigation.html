@@ -72,6 +72,9 @@
                 </ul>
               </li>
               <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a></li>
+              {% if nav.dockstart %}
+              <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.dockstart.url }}" title="{{ nav.dockstart.title }}">{{ nav.dockstart.title }}</a></li>
+              {% endif %}
               <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.contact.url | default: page.t.link4 }}" title="{{ nav.contact.title | default: page.t.menutxt4 }}">{{ nav.contact.title | default: page.t.menutxt4 }}</a></li>
               <li><a href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}">{{ nav.media.title | default: page.t.menutxt5 }}</a></li>
               <li class="flags-item">
@@ -133,6 +136,9 @@
               </ul>
             </li>
             <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}" onclick="uncheck()">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a></li>
+            {% if nav.dockstart %}
+            <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.dockstart.url }}" title="{{ nav.dockstart.title }}" onclick="uncheck()">{{ nav.dockstart.title }}</a></li>
+            {% endif %}
             <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.contact.url | default: page.t.link4 }}" title="{{ nav.contact.title | default: page.t.menutxt4 }}" onclick="uncheck()">{{ nav.contact.title | default: page.t.menutxt4 }}</a></li>
             <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}" onclick="uncheck()">{{ nav.media.title | default: page.t.menutxt5 }}</a></li>
             <li class="flags-item">

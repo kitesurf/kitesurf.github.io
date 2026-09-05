@@ -32,6 +32,9 @@ de:
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
+  dockstart:
+    title: "Dockstart & Pumpfoil"
+    url: "dockstart/"
   contact:
     title: "Kontakt"
     url: "kontakt/"
@@ -80,6 +83,9 @@ en:
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
+  dockstart:
+    title: "Dockstart & Pumpfoil"
+    url: "dockstart/"
   contact:
     title: "Contact"
     url: "contact/"
@@ -128,6 +134,9 @@ es:
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
+  dockstart:
+    title: "Dockstart y Pumpfoil"
+    url: "dockstart/"
   contact:
     title: "Contacto"
     url: "contacto/"
@@ -176,6 +185,9 @@ it:
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
+  dockstart:
+    title: "Dockstart e Pumpfoil"
+    url: "dockstart/"
   contact:
     title: "Contatto"
     url: "contatto/"
@@ -224,6 +236,9 @@ fr:
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
+  dockstart:
+    title: "Dockstart & Pumpfoil"
+    url: "dockstart/"
   contact:
     title: "Contact"
     url: "contact/"
