@@ -1,7 +1,8 @@
 {%- comment -%} Canonical and Hreflang Tags {%- endcomment -%}
+{%- if page.amp == true -%}
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'amp/','' }}" />
+{%- else -%}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
-{%- if page.amp != true -%}
-<link rel="amphtml" href="{{ site.url }}/amp{{ page.url }}" />
 {%- endif -%}
 
 {%- assign en_target = page['en-url'] | default: page.translations.en -%}
