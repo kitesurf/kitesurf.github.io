@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: Kitekurse
 published: true
+redirect_from: "/dekitekurse/"
 ---
 
 {% assign p = site.data.prices.kitesurf %}

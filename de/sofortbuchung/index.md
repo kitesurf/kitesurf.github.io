@@ -61,6 +61,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Hier kannst du sofort bequem reservieren und buchen"
 published: true
+redirect_from: "/desofortbuchung/"
 ---
 
 # Buche hier und jetzt  

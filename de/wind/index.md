@@ -59,6 +59,7 @@ t:
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
 teaser:
+redirect_from: "/dewind/"
 ---
 
 # WINDVORHERSAGEN

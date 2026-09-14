@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: KITE & BOARD VERMIETUNG
 published: true
+redirect_from: "/devermietung/"
 ---
 
 # Kitematerial & Wingfoil-Ausrüstung mieten auf Mallorca

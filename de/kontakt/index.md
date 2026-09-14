@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Unsere Kontaktdaten: Anrufen oder WhatsApp unter +34 696 264 729"
 published: true
+redirect_from: "/dekontakt/"
 ---
 
 # Kontakt & Standort von KITE-MALLORCA

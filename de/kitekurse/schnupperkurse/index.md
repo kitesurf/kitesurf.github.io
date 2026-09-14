@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Unser Schnupperkurs – Perfekt für den ersten Kontakt mit dem Kitesurfen"
 published: true
+redirect_from: "/dekitekurse/schnupperkurse/"
 ---
 
 {% assign p = site.data.prices.kitesurf.taster_3h %}

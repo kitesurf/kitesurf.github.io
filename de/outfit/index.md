@@ -61,6 +61,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Und möge der Wind mit dir sein."
 published: true
+redirect_from: "/deoutfit/"
 ---
 
 # Unser Shop mit Fanartikel aller Art  

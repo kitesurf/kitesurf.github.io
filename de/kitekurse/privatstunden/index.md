@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Exklusives 1:1 Coaching für schnellstmöglichen Lernerfolg"
 published: true
+redirect_from: "/dekitekurse/privatstunden/"
 ---
 
 {% assign p = site.data.prices.kitesurf %}
