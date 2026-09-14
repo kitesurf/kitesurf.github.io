@@ -4,6 +4,9 @@
 {%- else -%}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
 {%- endif -%}
+{%- comment -%} amphtml wird nicht ausgegeben: seit 00a4ff3 ist /amp/ robots-blockiert und
+     AMP-Zwillingsbaeume existieren nur fuer eine de/en/es-Teilmenge — pauschale amphtml-Links
+     erzeugen /amp/-404s (GSC-404-Befund 2026-09-13). {%- endcomment -%}
 
 {%- assign en_target = page['en-url'] | default: page.translations.en -%}
 {%- if en_target -%}
@@ -14,9 +17,8 @@
     <link rel="alternate" hreflang="x-default" href="{{ en_target }}" />
     <link rel="alternate" hreflang="en" href="{{ en_target }}" />
   {%- else -%}
-    {%- assign clean_en = en_target | remove_first: '/' -%}
-    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ clean_en }}" />
-    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ clean_en }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}/{{ en_target }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}/{{ en_target }}" />
   {%- endif -%}
 {%- endif -%}
 
@@ -25,8 +27,7 @@
   {%- if de_target contains '://' -%}
     <link rel="alternate" hreflang="de" href="{{ de_target }}" />
   {%- else -%}
-    {%- assign clean_de = de_target | remove_first: '/' -%}
-    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ clean_de }}" />
+    <link rel="alternate" hreflang="de" href="{{ site.url }}/{{ de_target }}" />
   {%- endif -%}
 {%- endif -%}
 
@@ -35,8 +36,7 @@
   {%- if es_target contains '://' -%}
     <link rel="alternate" hreflang="es" href="{{ es_target }}" />
   {%- else -%}
-    {%- assign clean_es = es_target | remove_first: '/' -%}
-    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ clean_es }}" />
+    <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ es_target }}" />
   {%- endif -%}
 {%- endif -%}
 
@@ -45,8 +45,7 @@
   {%- if it_target contains '://' -%}
     <link rel="alternate" hreflang="it" href="{{ it_target }}" />
   {%- else -%}
-    {%- assign clean_it = it_target | remove_first: '/' -%}
-    <link rel="alternate" hreflang="it" href="{{ site.url }}/{{ clean_it }}" />
+    <link rel="alternate" hreflang="it" href="{{ site.url }}/{{ it_target }}" />
   {%- endif -%}
 {%- endif -%}
 
@@ -55,7 +54,17 @@
   {%- if fr_target contains '://' -%}
     <link rel="alternate" hreflang="fr" href="{{ fr_target }}" />
   {%- else -%}
-    {%- assign clean_fr = fr_target | remove_first: '/' -%}
-    <link rel="alternate" hreflang="fr" href="{{ site.url }}/{{ clean_fr }}" />
+    <link rel="alternate" hreflang="fr" href="{{ site.url }}/{{ fr_target }}" />
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign pl_target = page['pl-url'] | default: page.translations.pl -%}
+{%- if pl_target -%}
+  {%- if pl_target contains '://' -%}
+    <link rel="alternate" hreflang="pl" href="{{ pl_target }}" />
+    <link rel="alternate" hreflang="pl-PL" href="{{ pl_target }}" />
+  {%- else -%}
+    <link rel="alternate" hreflang="pl" href="{{ site.url }}/{{ pl_target }}" />
+    <link rel="alternate" hreflang="pl-PL" href="{{ site.url }}/{{ pl_target }}" />
   {%- endif -%}
 {%- endif -%}
