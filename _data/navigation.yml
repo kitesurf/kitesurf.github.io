@@ -41,6 +41,10 @@ de:
   privacy:
     title: "Datenschutz"
     url: "datenschutz/"
+
+  cancellation:
+    title: "Stornierung & Widerruf"
+    url: "stornierung/"
   contact_us:
     title: "Kontaktiere uns"
     url: "kontaktiere-uns/"
@@ -89,6 +93,10 @@ en:
   privacy:
     title: "Disclaimer"
     url: "disclaimer/"
+
+  cancellation:
+    title: "Cancellation & Withdrawal"
+    url: "cancellation/"
   contact_us:
     title: "Contact us"
     url: "contact-us/"
@@ -137,6 +145,10 @@ es:
   privacy:
     title: "Aviso legal"
     url: "aviso-legal/"
+
+  cancellation:
+    title: "Cancelación y desistimiento"
+    url: "cancelacion/"
   contact_us:
     title: "Contacta con nosotros"
     url: "contacta-con-nosotros/"
@@ -185,6 +197,10 @@ it:
   privacy:
     title: "Privacy"
     url: "privacy/"
+
+  cancellation:
+    title: "Annullamento e recesso"
+    url: "annullamento/"
   contact_us:
     title: "Contattaci"
     url: "contattaci/"
@@ -233,6 +249,10 @@ fr:
   privacy:
     title: "Mentions légales"
     url: "mentions-legales/"
+
+  cancellation:
+    title: "Annulation & rétractation"
+    url: "annulation/"
   contact_us:
     title: "Contactez-nous"
     url: "contactez-nous/"
