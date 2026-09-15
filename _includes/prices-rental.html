@@ -64,11 +64,62 @@
     {% assign rental_note = "*Es wird nur die Zeit im Wasser angerechnet.*" %}
 {% endcase %}
 
-| {{ col_gear }} | {{ col_1h }} | {{ col_2h }} | {{ col_3h }} | {{ col_1d }} | {{ col_1w }} |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **{{ label_complete }}** | {{ r.complete_set.h1 }} {{ curr }} | {{ r.complete_set.h2 }} {{ curr }} | {{ r.complete_set.h3 | default: 100 }} {{ curr }} | {{ r.complete_set.day1 }} {{ curr }} | {{ r.complete_set.day7 }} {{ curr }} |
-| **{{ label_kite }}** | {{ r.kite_only.h1 }} {{ curr }} | {{ r.kite_only.h2 }} {{ curr }} | - | {{ r.kite_only.day1 }} {{ curr }} | {{ r.kite_only.day7 }} {{ curr }} |
-| **{{ label_board }}** | {{ r.board_only.h1 }} {{ curr }} | {{ r.board_only.h2 }} {{ curr }} | - | {{ r.board_only.day1 }} {{ curr }} | {{ r.board_only.day7 }} {{ curr }} |
-| **{{ label_foil }}** | {{ r.foil_set.h1 }} {{ curr }} | {{ r.foil_set.h2 }} {{ curr }} | - | {{ r.foil_set.day1 }} {{ curr }} | {{ r.foil_set.day7 }} {{ curr }} |
-
-{{ rental_note }}
+<div class="km-rental-wrap">
+<table class="km-rental-table">
+  <thead>
+    <tr>
+      <th scope="col">{{ col_gear }}</th>
+      <th scope="col">{{ col_1h }}</th>
+      <th scope="col">{{ col_2h }}</th>
+      <th scope="col">{{ col_3h }}</th>
+      <th scope="col">{{ col_1d }}</th>
+      <th scope="col">{{ col_1w }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">{{ label_complete }}</th>
+      <td>{{ r.complete_set.h1 }} {{ curr }}</td>
+      <td>{{ r.complete_set.h2 }} {{ curr }}</td>
+      <td>{{ r.complete_set.h3 | default: 100 }} {{ curr }}</td>
+      <td>{{ r.complete_set.day1 }} {{ curr }}</td>
+      <td>{{ r.complete_set.day7 }} {{ curr }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ label_kite }}</th>
+      <td>{{ r.kite_only.h1 }} {{ curr }}</td>
+      <td>{{ r.kite_only.h2 }} {{ curr }}</td>
+      <td>–</td>
+      <td>{{ r.kite_only.day1 }} {{ curr }}</td>
+      <td>{{ r.kite_only.day7 }} {{ curr }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ label_board }}</th>
+      <td>{{ r.board_only.h1 }} {{ curr }}</td>
+      <td>{{ r.board_only.h2 }} {{ curr }}</td>
+      <td>–</td>
+      <td>{{ r.board_only.day1 }} {{ curr }}</td>
+      <td>{{ r.board_only.day7 }} {{ curr }}</td>
+    </tr>
+    <tr>
+      <th scope="row">{{ label_foil }}</th>
+      <td>{{ r.foil_set.h1 }} {{ curr }}</td>
+      <td>{{ r.foil_set.h2 }} {{ curr }}</td>
+      <td>–</td>
+      <td>{{ r.foil_set.day1 }} {{ curr }}</td>
+      <td>{{ r.foil_set.day7 }} {{ curr }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="km-rental-note">{{ rental_note | remove: '*' }}</p>
+<style>
+.km-rental-wrap{overflow-x:auto;margin:1.5rem 0;-webkit-overflow-scrolling:touch}
+.km-rental-table{border-collapse:collapse;width:100%;min-width:640px;font-size:.95rem;background:#fff}
+.km-rental-table th,.km-rental-table td{border:1px solid #cbd5e1;padding:.55rem .7rem;text-align:center;vertical-align:middle}
+.km-rental-table thead th{background:#211d44;color:#fff;border-color:#39335e;white-space:nowrap}
+.km-rental-table tbody th{text-align:left;background:#f1f5f9;font-weight:700;min-width:220px}
+.km-rental-table tbody tr:nth-child(even) td{background:#f8fafc}
+.km-rental-note{font-size:.85rem;color:#64748b;margin-top:.5rem}
+@media (max-width:720px){.km-rental-table th,.km-rental-table td{padding:.45rem .4rem;font-size:.85rem}}
+</style>

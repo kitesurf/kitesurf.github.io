@@ -67,7 +67,7 @@ published: true
 **KITE-MALLORCA** ist deine professionelle, deutschsprachige Kiteschule und Wingfoil-Station in der Bucht von Pollensa (Alcudia). Seit 2009 begleiten wir Einsteiger, Fortgeschrittene und Urlauber sicher aufs Wasser – mit VDWS-geprüften Lehrern, modernstem Schulungsequipment und verlässlicher thermischer Windausbeute.
 
 ## Unser Angebot im Überblick:
-- **Schulungen für alle Könnensstufen:** Schnupperkurse, Anfängerkurse mit VDWS-Lizenz, Aufsteiger-Trainings & Privatstunden auf Deutsch, Englisch und Spanisch.
+- **Schulungen für alle Könnensstufen:** Schnupperkurse, Anfängerkurse mit VDWS-Lizenz, Aufsteiger-Trainings & Privatstunden auf Deutsch, Englisch, Spanisch und Italienisch.
 - **Wingfoiling & Hydrofoil:** Gezielte Kurse für den schnellen Einstieg in das lautlose Schweben über dem Wasser.
 - **Premium Materialmiete & Storage:** Neueste Kites, Wings und Boards von Duotone & Eleveight, inklusive flexibler Größenwahl und Rettungsboot-Sicherheit.
 - **Ideales Revier:** Flaches Stehrevier mit sandigem Untergrund und sicherer thermischer Windgarantie von April bis Oktober.
@@ -131,10 +131,10 @@ Die Hauptsaison für Kitesurfen und Wingfoilen läuft von **April bis Ende Oktob
 Einsteiger benötigen in der Regel einen **10-stündigen Anfängerkurs** (verteilt auf 3 bis 5 Tage), um den Kite sicher zu beherrschen, Wasserstarts durchzuführen und die ersten Strecken auf dem Board zu gleiten.
 
 ### In welchen Sprachen wird unterrichtet?
-Unsere lizenzierten Kitelehrer unterrichten muttersprachlich auf **Deutsch, Englisch und Spanisch**.
+Unsere lizenzierten Kitelehrer unterrichten muttersprachlich auf **Deutsch, Englisch, Spanisch und Italienisch**.
 
 ### Was muss ich zum Kurs mitbringen?
-Badebekleidung, Sonnencreme, Handtuch und gute Laune! Neoprenanzug, Prallschutzweste, Trapez, Helm sowie das komplette Kitematerial werden vollständig von uns gestellt.
+Badebekleidung, Sonnencreme, Handtuch, ausreichend Trinkwasser und gute Laune! Neoprenanzug, Prallschutzweste, Trapez, Helm sowie das komplette Kitematerial werden vollständig von uns gestellt.
 
 ---
 

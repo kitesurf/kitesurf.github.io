@@ -129,10 +129,10 @@ La temporada principal va de **abril a finales de octubre**, cuando el viento t�
 La mayoría de alumnos alcanzan la autonomía con nuestro **curso de iniciación de 10 horas** (distribuido en 3 a 5 días), logrando controlar la cometa, hacer el bodydrag y navegar los primeros largos sobre la tabla.
 
 ### ¿Qué idiomas hablan los monitores?
-Nuestros instructores titulados imparten clases en **español, inglés y alemán**.
+Nuestros instructores titulados imparten clases en **español, inglés, alemán e italiano**.
 
 ### ¿Qué debo llevar al curso?
-Bañador, crema solar, toalla y ganas de disfrutar. Todo el material técnico, neopreno, chaleco, casco y arnés está 100 % incluido.
+Bañador, crema solar, toalla, suficiente agua potable y ganas de disfrutar. Todo el material técnico, neopreno, chaleco, casco y arnés está 100 % incluido.
 
 ---
 
