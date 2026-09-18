@@ -239,3 +239,23 @@ fr:
   outfit:
     title: "Outfit"
     url: "outfit/"
+
+  cancellation:
+    title: "Stornierung & Widerruf"
+    url: "stornierung/"
+
+  cancellation:
+    title: "Cancellation & Withdrawal"
+    url: "cancellation/"
+
+  cancellation:
+    title: "Cancelación y desistimiento"
+    url: "cancelacion/"
+
+  cancellation:
+    title: "Annullamento e recesso"
+    url: "annullamento/"
+
+  cancellation:
+    title: "Annulation & rétractation"
+    url: "annulation/"
