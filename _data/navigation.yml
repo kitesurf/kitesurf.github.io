@@ -41,6 +41,10 @@ de:
   privacy:
     title: "Datenschutz"
     url: "datenschutz/"
+
+  cancellation:
+    title: "Stornierung & Widerruf"
+    url: "stornierung/"
   contact_us:
     title: "Kontaktiere uns"
     url: "kontaktiere-uns/"
@@ -89,6 +93,10 @@ en:
   privacy:
     title: "Disclaimer"
     url: "disclaimer/"
+
+  cancellation:
+    title: "Cancellation & Withdrawal"
+    url: "cancellation/"
   contact_us:
     title: "Contact us"
     url: "contact-us/"
@@ -137,6 +145,10 @@ es:
   privacy:
     title: "Aviso legal"
     url: "aviso-legal/"
+
+  cancellation:
+    title: "Cancelación y desistimiento"
+    url: "cancelacion/"
   contact_us:
     title: "Contacta con nosotros"
     url: "contacta-con-nosotros/"
@@ -185,6 +197,10 @@ it:
   privacy:
     title: "Privacy"
     url: "privacy/"
+
+  cancellation:
+    title: "Annullamento e recesso"
+    url: "annullamento/"
   contact_us:
     title: "Contattaci"
     url: "contattaci/"
@@ -233,6 +249,10 @@ fr:
   privacy:
     title: "Mentions légales"
     url: "mentions-legales/"
+
+  cancellation:
+    title: "Annulation & rétractation"
+    url: "annulation/"
   contact_us:
     title: "Contactez-nous"
     url: "contactez-nous/"
@@ -240,22 +260,51 @@ fr:
     title: "Outfit"
     url: "outfit/"
 
-  cancellation:
-    title: "Stornierung & Widerruf"
-    url: "stornierung/"
+pl:
+  home: "Start"
+  menu: "MENU"
+  lessons:
+    title: "Kursy Kitesurfingu"
+    url: "kitekurse/"
+    items:
+      - title: "Przegląd kursów"
+        url: "kitekurse/"
+      - title: "Kurs zapoznawczy"
+        url: "kitekurse/schnupperkurse/"
+      - title: "Dla początkujących"
+        url: "kitekurse/anfaengerkurse/"
+      - title: "Dla zaawansowanych"
+        url: "kitekurse/fortgeschritten/"
+      - title: "Hydrofoil"
+        url: "kitekurse/hydrofoil/"
+      - title: "Lekcje indywidualne"
+        url: "kitekurse/privatstunden/"
+  rental:
+    title: "Wypożyczalnia"
+    url: "vermietung/"
+    items:
+      - title: "Przegląd wypożyczalni"
+        url: "vermietung/"
+      - title: "Wynajem na godziny lub dni"
+        url: "vermietung/pro-stunde-oder-tag/"
+      - title: "Wynajem długoterminowy"
+        url: "vermietung/langzeit/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Kontakt"
+    url: "kontakt/"
+  media:
+    title: "Zdjęcia & Wideo"
+    url: "flying-friends/"
+  privacy:
+    title: "Polityka prywatności"
+    url: "datenschutz/"
+  contact_us:
+    title: "Napisz do nas"
+    url: "kontaktiere-uns/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
 
-  cancellation:
-    title: "Cancellation & Withdrawal"
-    url: "cancellation/"
-
-  cancellation:
-    title: "Cancelación y desistimiento"
-    url: "cancelacion/"
-
-  cancellation:
-    title: "Annullamento e recesso"
-    url: "annullamento/"
-
-  cancellation:
-    title: "Annulation & rétractation"
-    url: "annulation/"
