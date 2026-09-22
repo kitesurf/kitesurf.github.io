@@ -6,6 +6,7 @@
 {% if en_link == '/' or en_link == '' %}{% assign en_link = "en/" %}{% endif %}
 {% assign it_link = page['it-url'] | default: "it/" %}
 {% assign fr_link = page['fr-url'] | default: "fr/" %}
+{% assign pl_link = page['pl-url'] | default: "pl/" %}
 
 <div class="menubox">
   <div>
@@ -81,6 +82,7 @@
                   <a href="{{ site.baseurl }}/amp/{{ en_link }}" title="English"><amp-img src="{{ site.baseurl }}/images/flags/uk.svg" alt="English" height="19" width="26"></amp-img></a>
                   <a href="{{ site.baseurl }}/amp/{{ it_link }}" title="Italiano"><amp-img src="{{ site.baseurl }}/images/flags/it.svg" alt="Italiano" height="19" width="26"></amp-img></a>
                   <a href="{{ site.baseurl }}/amp/{{ fr_link }}" title="Français"><amp-img src="{{ site.baseurl }}/images/flags/fr.svg" alt="Français" height="19" width="26"></amp-img></a>
+                  <a href="{{ site.baseurl }}/amp/{{ pl_link }}" title="Polski"><amp-img src="{{ site.baseurl }}/images/flags/pl.svg" alt="Polski" height="19" width="26"></amp-img></a>
                 </div>
               </li>
             </ul>
@@ -142,6 +144,7 @@
                 <a href="{{ site.baseurl }}/{{ en_link }}" title="English"><img src="{{ site.baseurl }}/images/flags/uk.svg" alt="English" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
                 <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano"><img src="{{ site.baseurl }}/images/flags/it.svg" alt="Italiano" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
                 <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français"><img src="{{ site.baseurl }}/images/flags/fr.svg" alt="Français" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
+                <a href="{{ site.baseurl }}/{{ pl_link }}" title="Polski"><img src="{{ site.baseurl }}/images/flags/pl.svg" alt="Polski" width="26" height="19" style="border-radius:2px;box-shadow:0 1px 2px rgba(0,0,0,0.25);vertical-align:middle;display:inline-block;transition:transform 0.15s ease;"></a>
               </div>
             </li>
           </ul>
