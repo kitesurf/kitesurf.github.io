@@ -1,0 +1,342 @@
+# Gallery pictures data (Polish)
+images:
+- image: kite-mallorca_001.jpg
+  name: Daniel
+  title: Daniel z deską gotowy na sesję kitesurfingu
+  description: Daniel w drodze do wody w zatoce Pollensa
+  alt: Daniel z deską kitesurfingową gotowy do wejścia do wody
+- image: kite-mallorca_002.jpg
+  name: Życie na plaży
+  title: Latawce ułożone na plaży i unoszące się na niebie
+  description: Kolorowe latawce na plaży Sa Marina i na niebie
+  alt: Kolorowe latawce kitesurfingowe na plaży na Majorce
+- image: kite-mallorca_003.jpg
+  name: Kursanci
+  title: Daniel przekazuje ostatnie wskazówki przed pierwszym startem
+  description: Daniel z kursantem w płytkiej wodzie gotowy do pływania
+  alt: Instruktor kitesurfingu instruuje kursanta w wodzie
+- image: kite-mallorca_004.jpg
+  name: Daniel z Marie
+  title: Marie (tutaj 8 lat) zaczęła pływać na kite w wieku 6 lat
+  description: Marie rozpoczęła naukę kitesurfingu w naszej szkole w wieku 6 lat
+  alt: Marie, nasza najmłodsza kursantka, która zaczęła w wieku 6 lat
+- image: kite-mallorca_005.jpg
+  name: Relaks po pływaniu
+  title: Czas na spakowanie sprzętu o zachodzie słońca
+  description: Spokój na plaży, gdy kitesurferzy kończą sesję pod wieczór
+  alt: Latawiec na plaży po pełnym emocji dniu na wodzie
+- image: kite-mallorca_006.jpg
+  name: Eli
+  title: Eli płynąca po małych falach w zatoce
+  description: Eli w pełnym skupieniu podczas halsu
+  alt: Kitesurferka Eli płynąca po małych falach w zatoce Pollensa
+- image: kite-mallorca_007.jpg
+  name: Odpoczynek
+  title: Oczekiwanie na kolejny podmuch wiatru termicznego
+  description: Cieszymy się słońcem i klimatem na plaży kitesurfingowej
+  alt: Odpoczynek na plaży w oczekiwaniu na popołudniowy wiatr
+- image: kite-mallorca_008.jpg
+  name: Gerhard
+  title: Gerhard uśmiechnięty po udanej sesji na wodzie
+  description: Gerhard, nasz kierownik bazy, zawsze z uśmiechem
+  alt: Szczęśliwy kitesurfer po udanym pływaniu na Majorce
+- image: kite-mallorca_009.jpg
+  name: Carlos
+  title: Nasz instruktor Carlos podczas krótkiej przerwy
+  description: Instruktor Carlos odpoczywa na plaży Sa Marina
+  alt: Instruktor kitesurfingu podczas przerwy na plaży
+- image: kite-mallorca_010.jpg
+  name: Ansgar
+  title: Niektórzy kursanci mają wielki talent i pływają już pierwszego dnia
+  description: Nowy kursant przygotowuje się do kolejnej lekcji
+  alt: Kursant kitesurfingu przygotowujący się do zajęć na Majorce
+- image: kite-mallorca_011.jpg
+  name: Eli na falach
+  title: Kitesurferka trenuje skoki na małych falach
+  description: Eli w pełnej kontroli nad deską i latawcem
+  alt: Kitesurferka na tle błękitnego morza w zatoce Pollensa
+- image: kite-mallorca_012.jpg
+  name: Sprzęt kitesurfingowy
+  title: Nowoczesne latawce kitesurfingowe na plaży
+  description: Wysokiej klasy sprzęt do nauki i doskonalenia
+  alt: Latawiec kitesurfingowy napompowany na plaży
+- image: kite-mallorca_013.jpg
+  name: System partnerski (Buddy)
+  title: Pierwsze ćwiczenia w wodzie z asekuracją partnera
+  description: Bezpieczna nauka kontroli latawca w parach
+  alt: Dwaj kursanci ćwiczący sterowanie latawcem w płytkiej wodzie
+- image: kite-mallorca_014.jpg
+  name: Łódź asekuracyjna
+  title: Nasza motorówka asekuracyjna w zatoce Pollensa
+  description: Bezpieczeństwo na wodzie – stała asekuracja łodzi motorowej
+  alt: Motorówka ratunkowa szkoły kitesurfingu na Majorce
+- image: kite-mallorca_015.jpg
+  name: La Fortaleza
+  title: Widok na zabytkową Fortalezę w Port de Pollença
+  description: Malownicza sceneria zatoki Pollensa podczas pływania
+  alt: Widok na twierdzę La Fortaleza z zatoki Pollensa
+- image: kite-mallorca_016.jpg
+  name: Pompowanie latawca
+  title: Pompowanie latawców – idealna rozgrzewka przed sesją
+  description: Przygotowanie sprzętu na plaży przed wejściem do wody
+  alt: Kitesurfer pompujący latawiec na plaży
+- image: kite-mallorca_017.jpg
+  name: Konstrukcja latawca
+  title: Detal i precyzja wykonania nowoczesnego latawca
+  description: Solidne szwy i wzmocnienia w sprzęcie szkoleniowym
+  alt: Zbliżenie na poszycie i tubę latawca kitesurfingowego
+- image: kite-mallorca_018.jpg
+  name: Obserwacja warunków
+  title: Kitesurfer analizuje kierunek i siłę wiatru
+  description: Ocena warunków wiatrowych przed startem z plaży
+  alt: Kitesurfer obserwujący wiatr i fale na zatoce
+- image: kite-mallorca_019.jpg
+  name: Teoria na plaży
+  title: Krótkie i zwięzłe wprowadzenie teoretyczne na piasku
+  description: Omówienie okna wiatrowego i systemów bezpieczeństwa
+  alt: Instruktor wyjaśniający teorię kitesurfingu na plaży
+- image: kite-mallorca_020.jpg
+  name: Restart z wody
+  title: Nauka ponownego startu latawca z powierzchni wody
+  description: Pewny i łatwy restart latawca (relaunch) w płytkim akwenie
+  alt: Kursant restartujący latawiec z wody
+- image: kite-mallorca_021.jpg
+  name: Pakowanie sprzętu
+  title: Gerhard składa latawiec na koniec dnia
+  description: Prawidłowe pakowanie i pielęgnacja sprzętu po pływaniu
+  alt: Instruktor składający latawiec kitesurfingowy na plaży
+- image: kite-mallorca_022.jpg
+  name: Duża deska (Door)
+  title: Kitesurfing przy słabym wietrze na szerokiej desce
+  description: Lekki wiatr termiczny i deska słabowiatrowa to gwarancja pływania
+  alt: Kitesurfer pływający przy słabym wietrze na desce typu door
+- image: kite-mallorca_023.jpg
+  name: Pomoc przy starcie
+  title: Asysta przy bezpiecznym wystartowaniu latawca z plaży
+  description: Prawidłowe procedury startu i lądowania na brzegu
+  alt: Asystent startujący latawiec na plaży kitesurfingowej
+- image: kite-mallorca_024.jpg
+  name: Kontrola baru
+  title: Prawidłowe trzymanie baru i wyczucie siły latawca
+  description: Wszystko pod pełną kontrolą instruktora
+  alt: Dłonie kursanta na barze sterującym latawcem
+- image: kite-mallorca_025.jpg
+  name: Daniel czuwa
+  title: Daniel obserwuje postępy kursanta na wodzie
+  description: Indywidualne podejście i stały nadzór trenera
+  alt: Instruktor uważnie obserwujący kursanta w wodzie
+- image: kite-mallorca_026.jpg
+  name: Szkolenie w parze
+  title: Daniel prowadzi zajęcia dla pary kursantów
+  description: Nauka we dwoje – świetna zabawa i motywacja
+  alt: Instruktor szkolący parę na plaży
+- image: kite-mallorca_027.jpg
+  name: Rozmowy na plaży
+  title: Wymiana wrażeń i doświadczeń między kitesurferami
+  description: Przyjazna atmosfera w bazie Kite-Mallorca
+  alt: Kitesurferzy rozmawiający na plaży w przerwie
+- image: kite-mallorca_028.jpg
+  name: Kontrola latawca
+  title: Pierwsze ćwiczenia z precyzyjnego sterowania
+  description: Kursanci poznają reakcje latawca w bezpiecznej strefie
+  alt: Kursanci uczący się manewrowania latawcem
+- image: kite-mallorca_029.jpg
+  name: Noszenie latawca
+  title: Prawidłowy i bezpieczny sposób noszenia latawca na plaży
+  description: Instruktaż bezpiecznego poruszania się ze sprzętem
+  alt: Jak prawidłowo trzymać i przenosić latawiec na brzegu
+- image: kite-mallorca_030.jpg
+  name: Restart latawca
+  title: Ćwiczenie restartu z wody pod okiem instruktora
+  description: Praktyka czyni mistrza – szybkie opanowanie relaunchu
+  alt: Kursant ćwiczący restartowanie latawca w płytkiej wodzie
+- image: kite-mallorca_031.jpg
+  name: Sprzęt gotowy do akcji
+  title: Przygotowane latawce czekają na kolejną grupę
+  description: Nowoczesna flota sprzętowa gotowa do szkolenia
+  alt: Latawce zabezpieczone piaskiem na plaży Sa Marina
+- image: kite-mallorca_032.jpg
+  name: Okulary przeciwsłoneczne
+  title: Ochrona oczu podczas patrzenia w górę na latawiec
+  description: Słoneczna Majorka – okulary z filtrem UV to podstawa
+  alt: Kursant w okularach przeciwsłonecznych patrzący na latawiec
+- image: kite-mallorca_033.jpg
+  name: Słabowiatrowa sesja
+  title: Gerhard pływa przy delikatnej bryzie termicznej
+  description: Stabilny wiatr termiczny Embat w zatoce Pollensa
+  alt: Kitesurfer płynący przy łagodnym wietrze
+- image: kite-mallorca_034.jpg
+  name: Kciuki w górę
+  title: Trening zakończony sukcesem i pełną satysfakcją
+  description: Radość po udanym starcie latawca
+  alt: Kursant z kciukiem w górze po udanym ćwiczeniu
+- image: kite-mallorca_035.jpg
+  name: Uśmiech na wodzie
+  title: Szczęśliwy kitesurfer po pierwszych halsach
+  description: Pasja, wolność i adrenalina na Majorce
+  alt: Uśmiechnięty kitesurfer cieszący się pływaniem
+- image: kite-mallorca_036.jpg
+  name: Łódź ratunkowa
+  title: Bezpieczeństwo na pierwszym miejscu podczas każdego kursu
+  description: Motorówka szkoły czuwa nad wszystkimi kursantami
+  alt: Łódź asekuracyjna na błękitnych wodach Majorki
+- image: kite-mallorca_037.jpg
+  name: Bodydrag w wodzie
+  title: Daniel ćwiczy z kursantem bodydragi
+  description: Pływanie ciałem bez deski – kluczowy krok przed startem
+  alt: Instruktor i kursant podczas ćwiczeń bodydrag w morzu
+- image: kite-mallorca_038.jpg
+  name: Gerhard i Daniel
+  title: Gerhard i Daniel na pokładzie motorówki asekuracyjnej
+  description: Doświadczeni instruktorzy i pasjonaci kitesurfingu
+  alt: Instruktorzy szkoły Kite-Mallorca na łodzi
+- image: kite-mallorca_039.jpg
+  name: Przygotowania do wypłynięcia
+  title: Gerhard i Daniel planują harmonogram szkolenia
+  description: Profesjonalne przygotowanie do każdej sesji na wodzie
+  alt: Instruktorzy omawiający warunki wiatrowe
+- image: kite-mallorca_040.jpg
+  name: Start latawca z wody
+  title: Bezpieczny start latawca w płytkiej zatoce
+  description: Łatwy i bezpieczny start dzięki asyście instruktora
+  alt: Start latawca w płytkiej wodzie zatoki Pollensa
+- image: kite-mallorca_041.jpg
+  name: Asysta przy starcie
+  title: Daniel pomaga kursantowi bezpiecznie wystartować
+  description: Instruktor czuwa nad każdym etapem przygotowania
+  alt: Instruktor asystujący przy starcie latawca
+- image: kite-mallorca_042.jpg
+  name: Zatoka Pollensa
+  title: Kitesurferzy na wodach malowniczej zatoki Pollensa
+  description: Idealne warunki – płytka woda i stabilny wiatr termiczny
+  alt: Kitesurferzy pływający w zatoce Pollensa
+- image: kite-mallorca_043.jpg
+  name: Skok F16 Gerharda
+  title: Gerhard wykonuje widowiskowy skok F16 unhooked
+  description: Wakestyle i zaawansowane ewolucje na latawcu
+  alt: Zaawansowany skok kitesurfingowy w wykonaniu instruktora
+- image: kite-mallorca_044.jpg
+  name: Latawiec North / Duotone
+  title: Sprzęt najwyższej klasy od wiodących producentów
+  description: Stabilne, łatwe w prowadzeniu i bezpieczne skrzydła
+  alt: Latawiec kitesurfingowy na plaży
+- image: kite-mallorca_045.jpg
+  name: Klimat Majorki
+  title: Słoneczna atmosfera i surfingowy luz na plaży
+  description: Wyjątkowy klimat wyspy podczas sezonu kitesurfingowego
+  alt: Grupa surferów odpoczywająca na piaszczystej plaży
+- image: kite-mallorca_046.jpg
+  name: Kolory latawców
+  title: Żywe kolory i doskonała widoczność na wodzie
+  description: Bezpieczeństwo i styl w jednym
+  alt: Kursantka z latawcem w asyście instruktora
+- image: kite-mallorca_047.jpg
+  name: Walter
+  title: Kitesurfer na plaży gotowy na sesję
+  description: Pasja nie zna wieku – kitesurfing jest dla każdego
+  alt: Kitesurfer przygotowujący się do wejścia do wody
+- image: kite-mallorca_048.jpg
+  name: Trening na wodzie
+  title: Praktyczne ćwiczenia w płytkiej wodzie zatoki
+  description: Nauka w optymalnych warunkach bez stresu
+  alt: Kursanci trenujący na płytkiej wodzie
+- image: kite-mallorca_049.jpg
+  name: Wypożyczalnia sprzętu
+  title: Nowoczesny sprzęt gotowy do wypożyczenia
+  description: Latawce i deski dopasowane do każdego poziomu
+  alt: Sprzęt kitesurfingowy przygotowany na plaży
+- image: kite-mallorca_050.jpg
+  name: Zgrany zespół
+  title: Instruktorzy i kursanci w bazie Kite-Mallorca
+  description: Wspólna pasja łączy ludzi z całego świata
+  alt: Grupa kitesurferów na plaży w Alcudii
+- image: kite-mallorca_051.jpg
+  name: Zatoka Sa Marina
+  title: Płytka woda i piaszczyste dno – raj dla początkujących
+  description: Idealny spot do nauki kitesurfingu i wingfoila
+  alt: Plaża Sa Marina w zatoce Pollensa
+- image: kite-mallorca_052.jpg
+  name: Baza KITE-MALLORCA
+  title: Nasz punkt spotkań bezpośrednio przy spocie
+  description: Wszystko na miejscu – sprzęt, przebieralnia, asekuracja
+  alt: Baza szkoły kitesurfingu na plaży
+- image: kite-mallorca_053.jpg
+  name: Szkolenie młodzieży
+  title: Kitesurfing dla dzieci i młodzieży pod okiem instruktora
+  description: Bezpieczna nauka z dopasowanym, lekkim sprzętem
+  alt: Młody kursant podczas lekcji kitesurfingu
+- image: kite-mallorca_054.jpg
+  name: Skok unhooked
+  title: Daniel w zaawansowanym skoku unhooked
+  description: Freestyle i zaawansowane ewolucje na wodzie
+  alt: Kitesurfer w powietrzu podczas efektownego skoku
+- image: kite-mallorca_055.jpg
+  name: Bodydrag z instruktorem
+  title: Gerhard z kursantami podczas ćwiczeń bodydrag
+  description: Praktyka kontroli ciągu latawca w bezpiecznym otoczeniu
+  alt: Instruktor z kursantami w wodzie podczas bodydragu
+- image: kite-mallorca_056.jpg
+  name: Pierwsze halsy
+  title: Radość po przepłynięciu pierwszych metrów na desce
+  description: Niezapomniane uczucie pierwszego ślizgu po wodzie
+  alt: Początkujący kitesurfer stawiający pierwsze kroki
+- image: kite-mallorca_057.jpg
+  name: Płynięcie z wiatrem
+  title: Doskonalenie techniki prowadzenia deski
+  description: Stabilny kurs i pełna kontrola prędkości
+  alt: Kitesurfer w pełnym ślizgu na gładkiej wodzie
+- image: kite-mallorca_058.jpg
+  name: Nauka w grupie
+  title: Małe grupy gwarantują szybkie postępy każdego uczestnika
+  description: Maksymalnie 2-4 osoby na instruktora
+  alt: Grupa kursantów podczas zajęć na plaży
+- image: kite-mallorca_059.jpg
+  name: Obserwacja i analiza
+  title: Daniel i Gerhard analizują manewry na wodzie
+  description: Wskazówki trenerskie pomagające szybko poprawić technikę
+  alt: Instruktorzy omawiający technikę pływania z kursantami
+- image: kite-mallorca_060.jpg
+  name: Radość z pływania
+  title: Daniel i Eli dzielą się uśmiechem na plaży
+  description: Sport, relaks i pozytywna energia każdego dnia
+  alt: Instruktorzy cieszący się pięknym dniem na plaży
+- image: kite-mallorca_061.jpg
+  name: Eli w akcji
+  title: Dynamiczna jazda na falach w zatoce Pollensa
+  description: Pełna swoboda i radość z kitesurfingu
+  alt: Kitesurferka w akcji na wodzie
+- image: kite-mallorca_062.jpg
+  name: Pływanie o zachodzie słońca
+  title: Ostatnie halsy przy łagodnym wieczornym wietrze
+  description: Magiczne światło i złota godzina na wodzie
+  alt: Kitesurfer na tle zachodzącego słońca na Majorce
+- image: kite-mallorca_063.jpg
+  name: Zabawa z wiatrem
+  title: Daniel prezentuje precyzyjną kontrolę latawca
+  description: Latawiec reaguje na każdy subtelny ruch baru
+  alt: Kitesurfer bawiący się latawcem na plaży
+- image: kite-mallorca_064.jpg
+  name: Wingfoiling na Majorce
+  title: Nowoczesny wingfoil w ofercie Kite-Mallorca
+  description: Lewitacja nad wodą przy użyciu skrzydła wing
+  alt: Wingfoiler unoszący się na hydroskrzydle nad wodą
+- image: kite-mallorca_065.jpg
+  name: Start z wody (Waterstart)
+  title: Kluczowy moment wyjścia z wody na deskę
+  description: Prawidłowa technika startu z deską na nogach
+  alt: Kursant wykonujący start z wody z deską
+- image: kite-mallorca_066.jpg
+  name: Stabilny wiatr Embat
+  title: Termiczna bryza zapewnia równe warunki każdego dnia
+  description: Zatoka Pollensa słynie z niezawodnego wiatru od maja do października
+  alt: Wiatr termiczny w zatoce Pollensa sprzyjający pływaniu
+- image: kite-mallorca_067.jpg
+  name: Uśmiech po zdanym kursie
+  title: Zadowolona kursantka z licencją VDWS
+  description: Międzynarodowy certyfikat uprawniający do wypożyczania sprzętu
+  alt: Kursantka ciesząca się ze zdanego kursu kitesurfingu
+- image: kite-mallorca_068.jpg
+  name: Do zobaczenia na wodzie!
+  title: Zapraszamy do szkoły KITE-MALLORCA w zatoce Pollensa
+  description: Przeżyj niesamowitą przygodę na słonecznej Majorce
+  alt: Widok na zatokę Pollensa i latawce na niebie
