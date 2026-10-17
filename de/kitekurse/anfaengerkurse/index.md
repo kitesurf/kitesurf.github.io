@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Unser 10-Stunden-Anfängerkurs – Die beste Basis für jeden Kitesurfer"
 published: true
+redirect_from: "/dekitekurse/anfaengerkurse/"
 ---
 
 {% assign p = site.data.prices.kitesurf.beginner_10h %}

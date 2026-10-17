@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Vielen Dank dass Du uns angeschrieben hast, wir werden baldmöglichst antworten. Du kannst uns auch gerne anrufen:   +34 696 264 729."
 published: true
+redirect_from: "/dedanke/"
 ---
 
 # Vielen Dank für deine Anfrage!

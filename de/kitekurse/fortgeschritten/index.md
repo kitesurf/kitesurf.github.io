@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Höhe laufen, sicherer wenden, springen? Hier erreichst du das nächste Kite-Level"
 published: true
+redirect_from: "/dekitekurse/fortgeschritten/"
 ---
 
 {% assign p = site.data.prices.kitesurf %}

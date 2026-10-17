@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /amp/
 
 Sitemap: https://kite-mallorca.com/sitemap.xml

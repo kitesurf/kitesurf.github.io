@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: null
 published: true
+redirect_from: "/dedatenschutz/"
 ---
 
 

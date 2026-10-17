@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Flexibel stunden- oder tageweise das beste Material mieten"
 published: true
+redirect_from: "/devermietung/pro-stunde-oder-tag/"
 ---
 
 # Kitematerial stunden- oder tageweise mieten auf Mallorca

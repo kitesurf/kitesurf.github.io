@@ -61,6 +61,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "KITESURFEN AUF MALLORCA - EINDRÜCKE IN BILDER"
 published: true
+redirect_from: "/deflying-friends/"
 ---
 
 

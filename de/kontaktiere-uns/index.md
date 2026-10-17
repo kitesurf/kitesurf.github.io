@@ -60,6 +60,7 @@ t:
   link31: "vermietung/langzeit/"
   menutxt31: "Langzeitmiete"
   teaser:
+redirect_from: "/dekontaktiere-uns/"
 ---
 
 # NOCH FRAGEN?

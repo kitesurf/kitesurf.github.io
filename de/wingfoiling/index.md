@@ -58,6 +58,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Wingfoiling – der neue Wassersport auf Mallorca"
 published: true
+redirect_from: "/dewingfoiling/"
 ---
 
 # Wingfoiling lernen auf Mallorca: Dein Weg zum ersten Flug übers Wasser

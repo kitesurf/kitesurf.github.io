@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Hydrofoil lernen – Lautlos und widerstandsfrei übers Wasser gleiten"
 published: true
+redirect_from: "/dekitekurse/hydrofoil/"
 ---
 
 {% assign p = site.data.prices.kitesurf %}

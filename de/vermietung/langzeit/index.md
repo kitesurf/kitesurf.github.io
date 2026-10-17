@@ -60,6 +60,7 @@ t:
   menutxt31: "Langzeitmiete"
   teaser: "Du bist länger auf Mallorca? Nutze unsere günstigen Mehrtages- und Wochenpakete"
 published: true
+redirect_from: "/devermietung/langzeit/"
 ---
 
 # Langzeitmiete & Mehrtagespakete für Kitematerial auf Mallorca
