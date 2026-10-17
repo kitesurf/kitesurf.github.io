@@ -25,6 +25,7 @@ lang: it
 "de-url": "de/outfit/"
 "it-url": "it/outfit/"
 "fr-url": "fr/outfit/"
+"pl-url": "pl/outfit/"
 published: true
 ---
 

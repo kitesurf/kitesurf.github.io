@@ -22,6 +22,7 @@ lang: de
 "de-url": de/wingfoiling/
 "it-url": it/wingfoiling/
 "fr-url": fr/wingfoiling/
+"pl-url": pl/wingfoiling/
 t:
   menu: MENÜ
   link1: "kitekurse/"

@@ -25,6 +25,7 @@ lang: es
 "de-url": de/outfit/
 "it-url": it/outfit/
 "fr-url": fr/outfit/
+"pl-url": pl/outfit/
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

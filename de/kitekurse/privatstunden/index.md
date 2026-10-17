@@ -24,6 +24,7 @@ lang: de
 "de-url": de/kitekurse/privatstunden/
 "it-url": it/corsi-kitesurf/lezioni-private/
 "fr-url": fr/cours-kitesurf/cours-particuliers/
+"pl-url": pl/kitekurse/privatstunden/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

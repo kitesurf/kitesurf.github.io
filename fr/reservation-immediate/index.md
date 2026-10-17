@@ -25,6 +25,7 @@ lang: fr
 "de-url": "de/sofortbuchung/"
 "it-url": "it/prenotazione-immediata/"
 "fr-url": "fr/reservation-immediate/"
+"pl-url": "pl/sofortbuchung/"
 published: true
 ---
 

@@ -24,6 +24,7 @@ es-url: "es/viento/"
 de-url: "de/wind/"
 it-url: "it/vento/"
 fr-url: "fr/vent/"
+pl-url: "pl/wind/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

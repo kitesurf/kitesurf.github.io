@@ -24,6 +24,7 @@ lang: en
 "de-url": de/kitekurse/anfaengerkurse/
 "it-url": it/corsi-kitesurf/principianti/
 "fr-url": fr/cours-kitesurf/debutant/
+"pl-url": pl/kitekurse/anfaengerkurse/
 t: 
   menu: MENU
   link1: "kitesurfing-lessons/"

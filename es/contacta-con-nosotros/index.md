@@ -25,6 +25,7 @@ es-url: "es/contacta-con-nosotros/"
 de-url: "de/kontaktiere-uns/"
 it-url: "it/contattaci/"
 fr-url: "fr/contactez-nous/"
+pl-url: "pl/kontaktiere-uns/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

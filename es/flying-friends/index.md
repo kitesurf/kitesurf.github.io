@@ -25,6 +25,7 @@ es-url: "es/flying-friends/"
 de-url: "de/flying-friends/"
 it-url: "it/flying-friends/"
 fr-url: "fr/flying-friends/"
+pl-url: "pl/flying-friends/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

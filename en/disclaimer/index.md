@@ -24,6 +24,7 @@ es-url: "es/aviso-legal/"
 de-url: "de/datenschutz/"
 it-url: "it/privacy/"
 fr-url: "fr/mentions-legales/"
+pl-url: "pl/datenschutz/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

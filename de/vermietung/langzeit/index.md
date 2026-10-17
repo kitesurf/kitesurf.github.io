@@ -24,6 +24,7 @@ es-url: "es/alquiler/largo-plazo/"
 de-url: "de/vermietung/langzeit/"
 it-url: "it/noleggio/lungo-termine/"
 fr-url: "fr/location/longue-duree/"
+pl-url: "pl/vermietung/langzeit/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

@@ -24,6 +24,7 @@ lang: de
 "de-url": de/datenschutz/
 "it-url": it/privacy/
 "fr-url": fr/mentions-legales/
+"pl-url": pl/datenschutz/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

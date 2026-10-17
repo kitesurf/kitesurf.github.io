@@ -24,6 +24,7 @@ lang: de
 "de-url": de/
 "it-url": it/
 "fr-url": fr/
+"pl-url": pl/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

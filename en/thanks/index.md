@@ -24,6 +24,7 @@ es-url: "es/gracias/"
 de-url: "de/danke/"
 it-url: "it/grazie/"
 fr-url: "fr/merci/"
+pl-url: "pl/danke/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

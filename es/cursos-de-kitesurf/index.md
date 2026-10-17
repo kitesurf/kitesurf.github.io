@@ -24,6 +24,7 @@ es-url: "es/cursos-de-kitesurf/"
 de-url: "de/kitekurse/"
 it-url: "it/corsi-kitesurf/"
 fr-url: "fr/cours-kitesurf/"
+pl-url: "pl/kitekurse/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

@@ -24,6 +24,7 @@ lang: it
 "de-url": "de/datenschutz/"
 "it-url": "it/privacy/"
 "fr-url": "fr/mentions-legales/"
+"pl-url": "pl/datenschutz/"
 published: true
 ---
 

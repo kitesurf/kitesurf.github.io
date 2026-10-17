@@ -24,6 +24,7 @@ es-url: "es/alquiler/por-hora-y-dia/"
 de-url: "de/vermietung/pro-stunde-oder-tag/"
 it-url: "it/noleggio/ore-o-giorno/"
 fr-url: "fr/location/heure-ou-journee/"
+pl-url: "pl/vermietung/pro-stunde-oder-tag/"
 t: 
   menu: MENU
   link1: "corsi-kitesurf/"

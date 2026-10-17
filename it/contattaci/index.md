@@ -25,6 +25,7 @@ lang: it
 "de-url": "de/kontaktiere-uns/"
 "it-url": "it/contattaci/"
 "fr-url": "fr/contactez-nous/"
+"pl-url": "pl/kontaktiere-uns/"
 published: true
 ---
 

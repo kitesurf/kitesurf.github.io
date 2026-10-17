@@ -25,6 +25,7 @@ lang: de
 "de-url": "de/flying-friends/"
 "it-url": "it/flying-friends/"
 "fr-url": "fr/flying-friends/"
+"pl-url": "pl/flying-friends/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

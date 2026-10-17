@@ -24,6 +24,7 @@ lang: en
 "es-url": es/cancelacion/
 "it-url": it/annullamento/
 "fr-url": fr/annulation/
+"pl-url": pl/anulowanie/
 published: true
 ---
 

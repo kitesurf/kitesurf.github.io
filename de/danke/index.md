@@ -24,6 +24,7 @@ lang: de
 "de-url": de/danke/
 "it-url": it/grazie/
 "fr-url": fr/merci/
+"pl-url": pl/danke/
 t: 
   menu: MENÜ
   link1: "kitekurse/"

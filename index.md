@@ -25,6 +25,7 @@ es-url: "es/"
 de-url: "de/"
 it-url: "it/"
 fr-url: "fr/"
+pl-url: "pl/"
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

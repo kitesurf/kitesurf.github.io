@@ -25,6 +25,7 @@ lang: en
 "de-url": de/sofortbuchung/
 "it-url": it/prenotazione-immediata/
 "fr-url": fr/reservation-immediate/
+"pl-url": pl/sofortbuchung/
 t:
   menutxt1: "kitesurfing lessons"
   link1:    "kitesurfing-lessons/"

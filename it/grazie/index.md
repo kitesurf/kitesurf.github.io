@@ -24,6 +24,7 @@ lang: it
 "de-url": "de/danke/"
 "it-url": "it/grazie/"
 "fr-url": "fr/merci/"
+"pl-url": "pl/danke/"
 published: true
 ---
 

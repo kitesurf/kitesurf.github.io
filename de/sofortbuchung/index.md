@@ -25,6 +25,7 @@ lang: de
 "de-url": de/sofortbuchung/
 "it-url": it/prenotazione-immediata/
 "fr-url": fr/reservation-immediate/
+"pl-url": pl/sofortbuchung/
 t: 
   menu: MENÜ
   link1: "kitekurse/"
