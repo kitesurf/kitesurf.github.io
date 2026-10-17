@@ -301,6 +301,9 @@ pl:
   privacy:
     title: "Polityka prywatności"
     url: "datenschutz/"
+  cancellation:
+    title: "Anulowanie i odstąpienie od umowy"
+    url: "anulowanie/"
   contact_us:
     title: "Napisz do nas"
     url: "kontaktiere-uns/"
