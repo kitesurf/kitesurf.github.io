@@ -66,7 +66,7 @@ published: true
 **KITE-MALLORCA** is your premier international kitesurfing school and wingfoil center located at Sa Marina beach in the Bay of Pollensa (Alcudia). Since 2009, our certified English-speaking team has guided thousands of holidaymakers, beginners, and advanced riders safely onto the water with state-of-the-art Duotone and Eleveight equipment.
 
 ## Quick Overview:
-* **Courses for All Skill Levels:** Beginner licensing courses (VDWS/IKO), refresher sessions, advanced coaching (upwind & jumps), and 1:1 private lessons in English, German, and Spanish.
+* **Courses for All Skill Levels:** Beginner licensing courses (VDWS/IKO), refresher sessions, advanced coaching (upwind & jumps), and 1:1 private lessons in English, German, Spanish, and Italian.
 * **Wingfoiling & Hydrofoil:** Experience the sensation of silent flight above the water in shallow, protected conditions.
 * **Premium Gear Hire & Storage:** Latest kites, wings, foils, and boards from Duotone & Eleveight with free size swapping and rescue boat supervision.
 * **Perfect Spot:** Wide shallow standing area with fine sand and reliable thermal afternoon breeze ("Embat") from April through October.
@@ -129,10 +129,10 @@ The main wind season runs from **April to late October**. During these months, M
 Most complete beginners become independent riders within a **10-hour beginner course** (typically spread across 3 to 5 days), covering kite control, bodydrags, water starts, and basic riding.
 
 ### What languages do your instructors speak?
-All our certified instructors teach fluently in **English, German, and Spanish**.
+All our certified instructors teach fluently in **English, German, Spanish, and Italian**.
 
 ### What do I need to bring?
-Swimwear, sun cream, sunglasses, and a towel! We provide all technical equipment, wetsuits, harnesses, flotation vests, and helmets.
+Swimwear, sun cream, sunglasses, a towel, and plenty of drinking water! We provide all technical equipment, wetsuits, harnesses, flotation vests, and helmets.
 
 ---
 

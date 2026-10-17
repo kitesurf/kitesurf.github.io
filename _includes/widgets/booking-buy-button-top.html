@@ -85,6 +85,14 @@
     {% assign txt_per = "por pessoa" %}
     {% assign txt_now = "Pagar hoje:" %}
     {% assign txt_subject_prefix = "Reserva: " %}
+  {% when 'pl' %}
+    {% assign txt_stock = "Dostępny • Natychmiastowa rezerwacja terminu" %}
+    {% assign txt_deposit = "Tylko 20% zaliczki do rezerwacji" %}
+    {% assign txt_btn = "⚡ Zarezerwuj kurs teraz" %}
+    {% assign txt_sub = "100% Gwarancji wiatru • Bezpłatna zmiana terminu" %}
+    {% assign txt_per = "za osobę" %}
+    {% assign txt_now = "Płatne dzisiaj:" %}
+    {% assign txt_subject_prefix = "Rezerwacja: " %}
   {% else %}
     {% assign txt_stock = "Verfügbar • Sofortige Terminreservierung" %}
     {% assign txt_deposit = "Nur 20% Anzahlung" %}

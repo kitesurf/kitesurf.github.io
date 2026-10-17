@@ -156,6 +156,33 @@
       {% assign card_sub = "1 ora • Istruttore dedicato con casco radio" %}
     {% endif %}
 
+  {% when 'pl' %}
+    {% assign txt_from = "od" %}
+    {% assign txt_per_person = "za osobę" %}
+    {% assign txt_deposit = "Tylko 20% zaliczki do rezerwacji miejsca" %}
+    {% assign txt_btn = "Sprawdź terminy i zarezerwuj" %}
+    {% assign txt_badge_bestseller = "Najpopularniejszy" %}
+    {% assign txt_feat1 = "Małe grupy (maks. 2–4 kursantów na instruktora)" %}
+    {% assign txt_feat2 = "Kompletny sprzęt premium w cenie (pianka, trapez, kask)" %}
+    {% assign txt_feat3 = "Płytka woda w zatoce Pollensa (Alcudia)" %}
+    {% assign txt_feat4 = "Gwarancja wiatru: brak wiatru = bezpłatne przełożenie" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "10-godzinny kurs kitesurfingu dla początkujących" %}
+      {% assign card_sub = "10 godzin rozłożonych na " | append: days_val | append: " dni • Teoria, Bodydrag i Start z wody" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "3-godzinny kurs wprowadzający (Taster)" %}
+      {% assign card_sub = "3 godziny • Sterowanie latawcem i bodydragi w płytkiej wodzie" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "4-godzinny kurs odświeżający / doskonalący" %}
+      {% assign card_sub = "4 godziny • Start z wody, pływanie pod wiatr i bezpieczne zwroty" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "10-godzinny kurs Wingfoil dla początkujących" %}
+      {% assign card_sub = "10 godzin • Kontrola skrzydła, prowadzenie deski i lot na foilu" %}
+    {% else %}
+      {% assign card_title = "Lekcja indywidualna 1:1" %}
+      {% assign card_sub = "1 godzina • 100% uwagi instruktora z łącznością radiową" %}
+    {% endif %}
+
   {% else %}
     {% assign txt_from = "ab" %}
     {% assign txt_per_person = "pro Person" %}
@@ -197,6 +224,8 @@
     {% assign txt_subject_prefix = "Réservation: " %}
   {% when 'it' %}
     {% assign txt_subject_prefix = "Prenotazione: " %}
+  {% when 'pl' %}
+    {% assign txt_subject_prefix = "Rezerwacja: " %}
   {% else %}
     {% assign txt_subject_prefix = "Buchungsanfrage: " %}
 {% endcase %}
