@@ -75,8 +75,8 @@ Szkolimy na terenie jednego z **najbezpieczniejszych i najbardziej przyjaznych s
 
 Wiemy, jak wielu gości z Polski odwiedza Majorkę każdego sezonu, szukając słońca, czystej wody i pewnego wiatru. Chociaż nasza baza ma korzenie niemiecko-hiszpańskie, **język w kitesurfingu nigdy nie jest barierą!**
 
-> **Szkolenia w języku angielskim, niemieckim i hiszpańskim:**  
-> Wszyscy nasi licencjonowani instruktorzy VDWS biegle porozumiewają się w języku angielskim, niemieckim oraz hiszpańskim. Podczas lekcji na wodzie stawiamy na jasną, precyzyjną komunikację, cierpliwość, dużą dawkę humoru i maksymalne bezpieczeństwo. Doświadczenie uczy nas, że polscy kursanci czują się u nas fantastycznie i robią błyskawiczne postępy!
+> **Szkolenia w języku angielskim, niemieckim, hiszpańskim i włoskim:**  
+> Wszyscy nasi licencjonowani instruktorzy VDWS biegle porozumiewają się w języku angielskim, niemieckim, hiszpańskim oraz włoskim. Podczas lekcji na wodzie stawiamy na jasną, precyzyjną komunikację, cierpliwość, dużą dawkę humoru i maksymalne bezpieczeństwo. Doświadczenie uczy nas, że polscy kursanci czują się u nas fantastycznie i robią błyskawiczne postępy!
 
 ---
 
@@ -140,7 +140,7 @@ Główny sezon wiatrowy trwa od **kwietnia do końca października**. W tych mie
 Standardowy **10-godzinny kurs dla początkujących** (rozłożony na 3 do 5 dni) pozwala większości kursantów opanować bezpieczne sterowanie latawcem, starty z wody (waterstart) i pierwsze samodzielne ślizgi w obu kierunkach.
 
 ### W jakich językach prowadzicie zajęcia?
-Wszyscy instruktorzy płynnie posługują się **językiem angielskim, niemieckim i hiszpańskim**. Szkolenia prowadzone są w przyjaznej, bezstresowej atmosferze.
+Wszyscy instruktorzy płynnie posługują się **językiem angielskim, niemieckim, hiszpańskim i włoskim**. Szkolenia prowadzone są w przyjaznej, bezstresowej atmosferze.
 
 ### Co należy zabrać ze sobą na kurs?
 Strój kąpielowy, krem z filtrem UV, ręcznik i butelkę wody mineralnej. Cały sprzęt techniczny – piankę neoprenową, trapez, kamizelkę asekuracyjną, kask, latawiec i deskę – zapewnia nasza szkoła.
@@ -209,7 +209,7 @@ Strój kąpielowy, krem z filtrem UV, ręcznik i butelkę wody mineralnej. Cały
           "name": "W jakim języku odbywają się kursy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Nasi instruktorzy prowadzą lekcje w płynnym języku angielskim, niemieckim i hiszpańskim, dbając o jasne instrukcje i pełne bezpieczeństwo."
+            "text": "Nasi instruktorzy prowadzą lekcje w płynnym języku angielskim, niemieckim, hiszpańskim i włoskim, dbając o jasne instrukcje i pełne bezpieczeństwo."
           }
         },
         {
