@@ -5,6 +5,7 @@
 {% if en_link == '/' or en_link == '' %}{% assign en_link = "en/" %}{% endif %}
 {% assign it_link = page['it-url'] | default: "it/" %}
 {% assign fr_link = page['fr-url'] | default: "fr/" %}
+{% assign pl_link = page['pl-url'] | default: "pl/" %}
 
 <footer id="site-footer">
   <div class="footer_box">
@@ -12,7 +13,6 @@
       <a rel="nofollow" href="{{ site.baseurl }}/amp/{{ page.lang }}/{{ nav.privacy.url | default: page.t.link6 }}" title="{{ nav.privacy.title | default: page.t.menutxt6 }}">{{ nav.privacy.title | default: page.t.menutxt6 }}</a>
     {% else %}
       <a rel="nofollow" href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.privacy.url | default: page.t.link6 }}" title="{{ nav.privacy.title | default: page.t.menutxt6 }}">{{ nav.privacy.title | default: page.t.menutxt6 }}</a>
-      <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.cancellation.url | default: 'stornierung/' }}" title="{{ nav.cancellation.title | default: 'Stornierung' }}">{{ nav.cancellation.title | default: 'Stornierung' }}</a>
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.outfit.url | default: page.t.link9 }}" title="{{ nav.outfit.title | default: page.t.menutxt9 }}">{{ nav.outfit.title | default: page.t.menutxt9 }}</a>
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.wingfoiling.url | default: page.t.link3 }}" title="{{ nav.wingfoiling.title | default: page.t.menutxt3 }}">{{ nav.wingfoiling.title | default: page.t.menutxt3 }}</a>
       <a href="{{ site.baseurl }}/{{ page.lang }}/{{ nav.media.url | default: page.t.link5 }}" title="{{ nav.media.title | default: page.t.menutxt5 }}">{{ nav.media.title | default: page.t.menutxt5 }}</a>
@@ -22,6 +22,7 @@
         <a href="{{ site.baseurl }}/{{ en_link }}" title="English" aria-label="Language: English" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">EN</a>
         <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano" aria-label="Lingua: Italiano" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">IT</a>
         <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français" aria-label="Langue: Français" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">FR</a>
+        <a href="{{ site.baseurl }}/{{ pl_link }}" title="Polski" aria-label="Język: Polski" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">PL</a>
       </span>
     {% endif %}
     <p class="copyright">&#169; {{ site.time | date: '%Y' }} All rights reserved by<br>Kitesurf Mallorca SL</p>
