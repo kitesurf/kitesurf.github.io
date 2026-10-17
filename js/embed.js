@@ -13,7 +13,7 @@
   const STOREFRONT_BASE = configuredBaseUrl || "https://storefront.fasthooked.com";
 
   // Unterstützte Sprachen
-  const SUPPORTED_LANGS = ['de', 'en', 'es', 'fr', 'it', 'pt'];
+  const SUPPORTED_LANGS = ['de', 'en', 'es', 'fr', 'it', 'pt', 'pl'];
 
   /**
    * Ermittelt die beste passende Sprache für das Element
