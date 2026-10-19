@@ -169,7 +169,7 @@ Bez obaw – **niewykorzystane godziny kursu nigdy nie przepadają!** Jeśli war
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "OnSite",
-    "location": "Platja de Sa Marina, Bucht von Pollensa, Alcudia, Mallorca"
+    "location": "Platja de Sa Marina, Zatoka Pollensa, Alcudia, Mallorca"
   },
   "offers": {
     "@type": "Offer",

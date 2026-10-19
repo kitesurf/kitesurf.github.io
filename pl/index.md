@@ -84,7 +84,7 @@ Wiemy, jak wielu gości z Polski odwiedza Majorkę każdego sezonu, szukając s�
 
 Wybór odpowiedniego spotu to ponad 50% sukcesu w nauce kitesurfingu. Północna Majorka oferuje unikalne warunki naturalne:
 
-* **Płytka woda po pas (Stehrevier):** Rozległy pas płytkiej wody pozwala na spokojne ćwiczenie startów z wody bez konieczności ciągłego pływania wpław.
+* **Płytka woda po pas:** Rozległy pas płytkiej wody pozwala na spokojne ćwiczenie startów z wody bez konieczności ciągłego pływania wpław.
 * **Czyste, piaszczyste dno:** Żadnych ostrych skał, koralowców czy jeżowców. Bezpiecznie dla stóp i sprzętu.
 * **Termiczny wiatr „Embat”:** Od kwietnia do końca października hiszpańskie słońce każdego dnia nagrzewa ląd, generując równy, przewidywalny wiatr wiejący ukośnie do brzegu (side-onshore) o sile 12–18 węzłów.
 * **Asekuracja motorówki:** Nad bezpieczeństwem czuwa instruktor na plaży oraz dedykowana łódź motorowa w razie potrzeby.
@@ -152,7 +152,7 @@ Strój kąpielowy, krem z filtrem UV, ręcznik i butelkę wody mineralnej. Cały
 * **Telefon & WhatsApp:** [+34 696 264 729](tel:+34696264729)
 * **Czat WhatsApp:** [wa.me/34696264729](http://wa.me/34696264729)
 * **E-Mail:** <a href="mailto:team@kite-mallorca.com">team@kite-mallorca.com</a>
-* **Lokalizacja:** Platja de Sa Marina, Bucht von Pollensa (Alcudia), Majorka
+* **Lokalizacja:** Platja de Sa Marina, Zatoka Pollensa (Alcudia), Majorka
 
 {% include widgets/booking-sticky.html %}
 
