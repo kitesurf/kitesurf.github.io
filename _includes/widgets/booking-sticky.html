@@ -27,6 +27,10 @@
     {% assign txt_dock_btn = "Zarezerwuj kurs" %}
     {% assign txt_dock_sub = "Rezerwacja online" %}
     {% assign txt_subject_prefix = "Rezerwacja: " %}
+  {% when 'pt' %}
+    {% assign txt_dock_btn = "Marcar Curso" %}
+    {% assign txt_dock_sub = "Reserva online imediata" %}
+    {% assign txt_subject_prefix = "Reserva: " %}
   {% else %}
     {% assign txt_dock_btn = "Kurs buchen" %}
     {% assign txt_dock_sub = "Echtzeit-Verfügbarkeit" %}

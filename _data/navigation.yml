@@ -311,3 +311,55 @@ pl:
     title: "Outfit"
     url: "outfit/"
 
+pt:
+  home: "Início"
+  menu: "MENU"
+  lessons:
+    title: "Cursos de Kitesurf"
+    url: "kitekurse/"
+    items:
+      - title: "Visão Geral dos Cursos"
+        url: "kitekurse/"
+      - title: "Curso de Batismo"
+        url: "kitekurse/schnupperkurse/"
+      - title: "Para Principiantes"
+        url: "kitekurse/anfaengerkurse/"
+      - title: "Aperfeiçoamento & Avançado"
+        url: "kitekurse/fortgeschritten/"
+      - title: "Hydrofoil"
+        url: "kitekurse/hydrofoil/"
+      - title: "Aulas Particulares"
+        url: "kitekurse/privatstunden/"
+  rental:
+    title: "Aluguer"
+    url: "vermietung/"
+    items:
+      - title: "Visão Geral do Aluguer"
+        url: "vermietung/"
+      - title: "Aluguer por Hora ou Dia"
+        url: "vermietung/pro-stunde-oder-tag/"
+      - title: "Aluguer de Longa Duração"
+        url: "vermietung/langzeit/"
+  wingfoiling:
+    title: "Wingfoiling"
+    url: "wingfoiling/"
+  contact:
+    title: "Contacto"
+    url: "kontakt/"
+  media:
+    title: "Fotos & Vídeos"
+    url: "flying-friends/"
+  privacy:
+    title: "Política de Privacidade"
+    url: "datenschutz/"
+  cancellation:
+    title: "Cancelamento & Reembolso"
+    url: "anulowanie/"
+  contact_us:
+    title: "Contacte-nos"
+    url: "kontaktiere-uns/"
+  outfit:
+    title: "Outfit"
+    url: "outfit/"
+
+

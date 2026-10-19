@@ -1,0 +1,30 @@
+<!-- panel with buttons -->
+<div class="photos">
+{% if page.amp == true %}
+            <div id="picleft">
+                <amp-img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" width="600" height="400" layout="responsive" alt="Tina e Daniel na praia" title="Tina e Daniel na praia"></amp-img>
+                <div></div>
+            </div>
+            <div id="picmiddle">
+                <amp-img src="{{ site.baseurl }}/images/roberto.jpg" width="600" height="400" layout="responsive" alt="Roberto, o nosso primeiro aluno de sempre, a fazer kitesurf em Sa Marina" title="Roberto, o nosso primeiro aluno de sempre, a fazer kitesurf em Sa Marina"></amp-img>
+                <div></div>
+            </div>
+            <div id="picright">
+                <amp-img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" width="600" height="400" layout="responsive" alt="Daniel a explicar à Kerstin a montagem do kite" title="Daniel a explicar à Kerstin a montagem do kite"></amp-img>
+                <div></div>
+            </div>
+{% else %}
+            <div id="picleft">
+                <img src="{{ site.baseurl }}/images/tina_with_daniel.jpg" alt="Tina e Daniel na praia" title="Tina e Daniel na praia" />
+                <div></div>
+            </div>
+            <div id="picmiddle">
+                <img src="{{ site.baseurl }}/images/roberto.jpg" alt="Roberto, o nosso primeiro aluno de sempre, a fazer kitesurf em Sa Marina" title="Roberto, o nosso primeiro aluno de sempre, a fazer kitesurf em Sa Marina" />
+                <div></div>
+            </div>
+            <div id="picright">
+                <img src="{{ site.baseurl }}/images/kerstin_und_daniel.jpg" alt="Daniel a explicar à Kerstin a montagem do kite" title="Daniel a explicar à Kerstin a montagem do kite" />
+                <div></div>
+            </div>
+{% endif %}     
+</div>

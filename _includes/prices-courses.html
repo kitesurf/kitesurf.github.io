@@ -82,6 +82,22 @@
     {% assign txt_private_desc = "100% indywidualnej uwagi instruktora z kaskiem radiowym dla maksymalnych postępów." %}
     {% assign txt_from = "od" %}
     {% assign txt_per_hour = "za godzinę" %}
+  {% when 'pt' %}
+    {% assign txt_beginner_title = "Curso Completo para Principiantes (10 horas)" %}
+    {% assign txt_beginner_desc = "A base completa: controlo da asa, bodydrag, waterstart e teoria para certificação VDWS/IKO." %}
+    {% assign txt_beginner_info = p.beginner_10h.duration_days | append: " dias, pequenos grupos de " | append: p.beginner_10h.group_size | append: " alunos" %}
+    {% assign txt_taster_title = "Curso de Batismo / Iniciação (3 horas)" %}
+    {% assign txt_taster_desc = "O primeiro passo ideal para experimentar o controlo do kite e bodydrag em água pouco profunda." %}
+    {% assign txt_taster_info = p.taster_3h.duration_days | append: " dia, 100% dedutível no curso completo" %}
+    {% assign txt_refresher_title = "Curso de Aperfeiçoamento (4 horas)" %}
+    {% assign txt_refresher_desc = "Ideal para aperfeiçoar o waterstart e recuperar a confiança após uma pausa." %}
+    {% assign txt_refresher_info = p.refresher_4h.duration_days | append: " dias" %}
+    {% assign txt_advanced_title = "Avançado & Navegação Upwind" %}
+    {% assign txt_advanced_desc = "Manter e orçar contra o vento (upwind), viragens, transições, toeside e primeiros saltos." %}
+    {% assign txt_private_title = "Aulas Particulares (Coaching 1:1)" %}
+    {% assign txt_private_desc = "Atenção 100% exclusiva do instrutor com capacete rádio para rápida evolução." %}
+    {% assign txt_from = "desde" %}
+    {% assign txt_per_hour = "por hora" %}
   {% else %}
     {% assign txt_beginner_title = "10 Stunden Anfängerkurs" %}
     {% assign txt_beginner_desc = "Der Klassiker für Einsteiger: Kite-Kontrolle, Bodydrag, Wasserstart und Vorbereitung auf die VDWS-Lizenz." %}

@@ -183,6 +183,33 @@
       {% assign card_sub = "1 godzina • 100% uwagi instruktora z łącznością radiową" %}
     {% endif %}
 
+  {% when 'pt' %}
+    {% assign txt_from = "desde" %}
+    {% assign txt_per_person = "por pessoa" %}
+    {% assign txt_deposit = "Apenas 20% de sinal para garantir a vaga" %}
+    {% assign txt_btn = "Verificar Datas & Reservar" %}
+    {% assign txt_badge_bestseller = "Mais Popular" %}
+    {% assign txt_feat1 = "Grupos pequenos (máx. 2–4 alunos por instrutor)" %}
+    {% assign txt_feat2 = "Equipamento completo de alta gama incluído" %}
+    {% assign txt_feat3 = "Águas pouco profundas na Baía de Pollensa (Alcúdia)" %}
+    {% assign txt_feat4 = "Garantia de vento: sem vento = reagendamento gratuito" %}
+    {% if c_key == 'beginner_10h' %}
+      {% assign card_title = "Curso de Kitesurf para Principiantes (10 horas)" %}
+      {% assign card_sub = "10 horas repartidas por " | append: days_val | append: " dias • Teoria, Bodydrag & Waterstart" %}
+    {% elsif c_key == 'taster_3h' %}
+      {% assign card_title = "Curso de Batismo de Kitesurf (3 horas)" %}
+      {% assign card_sub = "3 horas • Controlo da asa & bodydrag em água pouco profunda" %}
+    {% elsif c_key == 'refresher_4h' %}
+      {% assign card_title = "Curso de Aperfeiçoamento (4 horas)" %}
+      {% assign card_sub = "4 horas • Consolidar waterstart, orçar contra o vento & viragens" %}
+    {% elsif c_key == 'wingfoil_10h' %}
+      {% assign card_title = "Curso de Wingfoil para Principiantes (10 horas)" %}
+      {% assign card_sub = "10 horas • Manejo da asa, condução da prancha & voo sobre o foil" %}
+    {% else %}
+      {% assign card_title = "Aulas Particulares 1:1" %}
+      {% assign card_sub = "1 hora • Atenção 100% individual do instrutor com capacete rádio" %}
+    {% endif %}
+
   {% else %}
     {% assign txt_from = "ab" %}
     {% assign txt_per_person = "pro Person" %}
@@ -226,6 +253,8 @@
     {% assign txt_subject_prefix = "Prenotazione: " %}
   {% when 'pl' %}
     {% assign txt_subject_prefix = "Rezerwacja: " %}
+  {% when 'pt' %}
+    {% assign txt_subject_prefix = "Reserva: " %}
   {% else %}
     {% assign txt_subject_prefix = "Buchungsanfrage: " %}
 {% endcase %}

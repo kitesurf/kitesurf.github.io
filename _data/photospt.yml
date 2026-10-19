@@ -1,0 +1,342 @@
+# Dados da galeria de fotos (Português)
+images:
+- image: kite-mallorca_001.jpg
+  name: Daniel
+  title: Daniel com a prancha pronto para a sessão de kitesurf
+  description: Daniel a caminho da água na Baía de Pollensa
+  alt: Daniel com prancha de kitesurf pronto para entrar na água
+- image: kite-mallorca_002.jpg
+  name: Vida na praia
+  title: Kites alinhados na praia e a voar no céu
+  description: Kites coloridos na praia de Sa Marina e no céu
+  alt: Kites coloridos na praia em Maiorca
+- image: kite-mallorca_003.jpg
+  name: Alunos na zona de pé
+  title: Daniel dá as últimas instruções antes da primeira navegação
+  description: Daniel com aluno em águas pouco profundas pronto para arrancar
+  alt: Instrutor de kitesurf a dar instruções ao aluno na água
+- image: kite-mallorca_004.jpg
+  name: Daniel com a Marie
+  title: Marie (aqui com 8 anos) começou a praticar kite aos 6 anos
+  description: A Marie começou a aprender kitesurf na nossa escola aos 6 anos
+  alt: Marie, a nossa aluna mais jovem que começou aos 6 anos
+- image: kite-mallorca_005.jpg
+  name: Fim de tarde
+  title: Hora de arrumar o equipamento ao pôr do sol
+  description: Tranquilidade na praia quando os kitesurfistas terminam a sessão
+  alt: Kite na praia após um dia cheio de emoções na água
+- image: kite-mallorca_006.jpg
+  name: Eli
+  title: Eli a planar nas pequenas ondas da baía
+  description: Eli totalmente concentrada durante a navegação
+  alt: Kitesurfista Eli a surfar pequenas ondas na Baía de Pollensa
+- image: kite-mallorca_007.jpg
+  name: Descanso
+  title: À espera da próxima rajada de vento térmico
+  description: A aproveitar o sol e o ambiente na praia de kitesurf
+  alt: Pausa na praia à espera do vento térmico da tarde
+- image: kite-mallorca_008.jpg
+  name: Gerhard
+  title: Gerhard sorridente após uma excelente sessão na água
+  description: Gerhard, o nosso diretor de base, sempre com um sorriso
+  alt: Kitesurfista satisfeito após velejar em Maiorca
+- image: kite-mallorca_009.jpg
+  name: Carlos
+  title: O nosso instrutor Carlos durante uma pequena pausa
+  description: O instrutor Carlos a descansar na praia de Sa Marina
+  alt: Instrutor de kitesurf durante uma pausa na praia
+- image: kite-mallorca_010.jpg
+  name: Ansgar
+  title: Alguns alunos têm enorme talento e já planam no primeiro dia
+  description: Novo aluno prepara-se para a próxima aula
+  alt: Aluno de kitesurf a preparar-se para o treino em Maiorca
+- image: kite-mallorca_011.jpg
+  name: Eli nas ondas
+  title: Kitesurfista a treinar pequenos saltos nas ondas
+  description: Eli com controlo total sobre a prancha e o kite
+  alt: Kitesurfista sobre o mar azul da Baía de Pollensa
+- image: kite-mallorca_012.jpg
+  name: Equipamento de kitesurf
+  title: Kites modernos de última geração na praia
+  description: Material de alta gama para aprendizagem e evolução rápida
+  alt: Kite insuflado na areia pronto para a sessão
+- image: kite-mallorca_013.jpg
+  name: Sistema de parceiros (Buddy)
+  title: Primeiros exercícios na água com apoio mútuo
+  description: Aprendizagem segura do controlo do kite em duplas
+  alt: Dois alunos a praticar a pilotagem do kite em águas baixas
+- image: kite-mallorca_014.jpg
+  name: Barco de apoio e salvamento
+  title: A nossa lancha de resgate na Baía de Pollensa
+  description: Segurança na água – vigilância constante de barco a motor
+  alt: Lancha de salvamento da escola de kitesurf em Maiorca
+- image: kite-mallorca_015.jpg
+  name: La Fortaleza
+  title: Vista para a histórica Fortaleza em Port de Pollença
+  description: Cenário deslumbrante na Baía de Pollensa durante a navegação
+  alt: Vista da fortaleza La Fortaleza a partir da baía
+- image: kite-mallorca_016.jpg
+  name: Insuflar o kite
+  title: Insuflar os kites – o aquecimento ideal antes da sessão
+  description: Preparação do material na praia antes de entrar na água
+  alt: Kitesurfista a insuflar o kite na praia
+- image: kite-mallorca_017.jpg
+  name: Construção do kite
+  title: Detalhe e precisão de fabrico num kite moderno
+  description: Costuras reforçadas e materiais robustos no equipamento escolar
+  alt: Pormenor do bordo de ataque e costuras do kite
+- image: kite-mallorca_018.jpg
+  name: Leitura das condições
+  title: Kitesurfista analisa a direção e força do vento
+  description: Avaliação das condições de vento antes de descolar na praia
+  alt: Kitesurfista a observar o vento e a água na baía
+- image: kite-mallorca_019.jpg
+  name: Teoria na praia
+  title: Introdução teórica curta e direta na areia
+  description: Explicação clara da janela de vento e sistemas de segurança
+  alt: Instrutor a explicar a teoria do kitesurf na praia
+- image: kite-mallorca_020.jpg
+  name: Relançamento da água
+  title: Treino de descolagem do kite a partir da superfície da água
+  description: Relançamento (relaunch) fácil e fiável em zona com pé
+  alt: Aluno a relançar o kite da água com facilidade
+- image: kite-mallorca_021.jpg
+  name: Arrumação do material
+  title: Gerhard dobra o kite no final do dia
+  description: Cuidados e dobragem correta do equipamento após a sessão
+  alt: Instrutor a dobrar o kite na praia
+- image: kite-mallorca_022.jpg
+  name: Prancha Door para vento fraco
+  title: Kitesurf com vento suave numa prancha larga (Door)
+  description: Brisa térmica suave e prancha volumosa garantem diversão imediata
+  alt: Kitesurfista a planar em vento fraco com prancha Door
+- image: kite-mallorca_023.jpg
+  name: Ajuda na descolagem
+  title: Assistência para descolar o kite na praia em total segurança
+  description: Procedimentos corretos de lançamento e aterragem em terra
+  alt: Assistente a ajudar na descolagem do kite na praia
+- image: kite-mallorca_024.jpg
+  name: Controlo da barra
+  title: Posicionamento correto das mãos e sensibilidade na barra
+  description: Tudo sob a supervisão constante do instrutor
+  alt: Mãos do aluno na barra de controlo do kite
+- image: kite-mallorca_025.jpg
+  name: Daniel atento
+  title: Daniel observa atentamente o progresso do aluno na água
+  description: Ensino personalizado e acompanhamento permanente
+  alt: Instrutor atento a acompanhar aluno na água
+- image: kite-mallorca_026.jpg
+  name: Aula em dupla
+  title: Daniel orienta uma sessão para dois alunos
+  description: Aprender a dois – motivação, diversão e partilha de momentos
+  alt: Instrutor a orientar dupla de alunos na praia
+- image: kite-mallorca_027.jpg
+  name: Convívio na praia
+  title: Troca de impressões e experiências entre praticantes
+  description: Ambiente acolhedor e descontraído na base Kite-Mallorca
+  alt: Kitesurfistas a conversar na praia durante um intervalo
+- image: kite-mallorca_028.jpg
+  name: Pilotagem do kite
+  title: Primeiros exercícios de pilotagem precisa e suave
+  description: Alunos aprendem as reações do kite na zona segura
+  alt: Alunos a praticar o controlo da asa
+- image: kite-mallorca_029.jpg
+  name: Transportar o kite
+  title: Forma correta e segura de transportar o kite na praia
+  description: Instruções práticas para manusear o material em terra
+  alt: Como segurar e transportar o kite com segurança na praia
+- image: kite-mallorca_030.jpg
+  name: Prática de relançamento
+  title: Aperfeiçoamento do relançamento sob olhar do instrutor
+  description: A prática leva à perfeição – domínio rápido da descolagem da água
+  alt: Aluno a treinar o relançamento da asa em água rasa
+- image: kite-mallorca_031.jpg
+  name: Material pronto para a ação
+  title: Kites preparados à espera do próximo grupo
+  description: Frota moderna e revista pronta para a formação
+  alt: Kites seguros com areia na praia de Sa Marina
+- image: kite-mallorca_032.jpg
+  name: Óculos de sol
+  title: Proteção ocular indispensável ao olhar para o céu
+  description: Maiorca ensolarada – óculos com filtro UV e cordão de segurança
+  alt: Aluno com óculos de sol a olhar para a asa
+- image: kite-mallorca_033.jpg
+  name: Sessão de vento térmico
+  title: Gerhard navega com a brisa térmica suave
+  description: Vento Embat constante e regular na Baía de Pollensa
+  alt: Kitesurfista a planar suavemente com brisa térmica
+- image: kite-mallorca_034.jpg
+  name: Polegar para cima
+  title: Treino concluído com sucesso e muita satisfação
+  description: A alegria após dominar o controlo da asa
+  alt: Aluno com polegar para cima satisfeito com a aula
+- image: kite-mallorca_035.jpg
+  name: Sorriso na água
+  title: Kitesurfista radiante após os primeiros bordos
+  description: Paixão, liberdade e pura adrenalina em Maiorca
+  alt: Kitesurfista sorridente a desfrutar da navegação
+- image: kite-mallorca_036.jpg
+  name: Barco de segurança
+  title: Segurança em primeiro lugar em todos os nossos cursos
+  description: A lancha da escola vigia de perto todos os alunos
+  alt: Barco de apoio nas águas cristalinas de Maiorca
+- image: kite-mallorca_037.jpg
+  name: Bodydrag na água
+  title: Daniel treina exercícios de bodydrag com o aluno
+  description: Deslocação com o corpo sem prancha – etapa fundamental do curso
+  alt: Instrutor e aluno durante o exercício de bodydrag no mar
+- image: kite-mallorca_038.jpg
+  name: Gerhard e Daniel
+  title: Gerhard e Daniel a bordo da lancha de apoio
+  description: Instrutores experientes e apaixonados pelo kitesurf
+  alt: Instrutores da escola Kite-Mallorca a bordo do barco
+- image: kite-mallorca_039.jpg
+  name: Preparação da saída
+  title: Gerhard e Daniel organizam a escala de formação
+  description: Preparação profissional para cada sessão no mar
+  alt: Instrutores a analisar a previsão e condições de vento
+- image: kite-mallorca_040.jpg
+  name: Descolagem na água
+  title: Descolagem segura da asa na baía abrigada
+  description: Lançamento fácil e controlado com apoio do instrutor
+  alt: Descolagem da asa em águas calmas da Baía de Pollensa
+- image: kite-mallorca_041.jpg
+  name: Assistência ao aluno
+  title: Daniel auxilia o aluno na descolagem em segurança
+  description: O instrutor acompanha cada fase da preparação
+  alt: Instrutor a apoiar aluno no lançamento da asa
+- image: kite-mallorca_042.jpg
+  name: Baía de Pollensa
+  title: Kitesurfistas a velejar na pitoresca Baía de Pollensa
+  description: Condições de sonho – mar plano, fundo arenoso e vento estável
+  alt: Kitesurfistas a navegar na Baía de Pollensa
+- image: kite-mallorca_043.jpg
+  name: Salto F16 do Gerhard
+  title: Gerhard executa manobra espetacular F16 unhooked
+  description: Wakestyle e manobras avançadas em kitesurf
+  alt: Salto avançado de kitesurf executado pelo instrutor
+- image: kite-mallorca_044.jpg
+  name: Kite North / Duotone
+  title: Equipamento de topo dos principais fabricantes mundiais
+  description: Asas estáveis, intuitivas e com elevado padrão de segurança
+  alt: Asa de kitesurf na praia de Maiorca
+- image: kite-mallorca_045.jpg
+  name: Ambiente em Maiorca
+  title: Clima ensolarado e atmosfera surfista descontraída
+  description: O ambiente único da ilha durante toda a temporada de kite
+  alt: Grupo de praticantes a relaxar na praia de areia
+- image: kite-mallorca_046.jpg
+  name: Cores vivas
+  title: Cores vibrantes para excelente visibilidade no mar
+  description: Máxima segurança e estilo em simultâneo
+  alt: Aluna com asa acompanhada pelo instrutor
+- image: kite-mallorca_047.jpg
+  name: Walter
+  title: Kitesurfista na praia pronto para a sua sessão
+  description: A paixão não tem idade – o kitesurf é para todos
+  alt: Praticante veterano a preparar a entrada na água
+- image: kite-mallorca_048.jpg
+  name: Treino no mar
+  title: Prática intensiva na zona rasa da baía
+  description: Aprendizagem sem stress nas condições mais favoráveis
+  alt: Alunos a treinar em águas de pouca profundidade
+- image: kite-mallorca_049.jpg
+  name: Centro de aluguer
+  title: Material moderno e afinado disponível para aluguer
+  description: Kites e pranchas ajustados a cada nível de experiência
+  alt: Equipamento de kitesurf pronto para alugar na praia
+- image: kite-mallorca_050.jpg
+  name: Equipa unida
+  title: Instrutores e alunos na base Kite-Mallorca
+  description: A paixão partilhada une pessoas de todo o mundo
+  alt: Grupo de kitesurfistas reunido na praia em Alcúdia
+- image: kite-mallorca_051.jpg
+  name: Praia de Sa Marina
+  title: Água pouco profunda e fundo de areia – paraíso para aprender
+  description: Spot de eleição para a prática de kitesurf e wingfoil
+  alt: Praia de Sa Marina na Baía de Pollensa
+- image: kite-mallorca_052.jpg
+  name: Base KITE-MALLORCA
+  title: O nosso ponto de encontro mesmo em frente ao spot
+  description: Tudo no local – equipamento, balneários e apoio marítimo
+  alt: Base da escola de kitesurf junto à praia
+- image: kite-mallorca_053.jpg
+  name: Aulas para jovens
+  title: Kitesurf para crianças e jovens com acompanhamento próximo
+  description: Ensino seguro com equipamento leve e adaptado ao peso
+  alt: Jovem aluno durante aula de kitesurf
+- image: kite-mallorca_054.jpg
+  name: Salto unhooked
+  title: Daniel num salto potente desengatado (unhooked)
+  description: Freestyle e manobras avançadas na água
+  alt: Kitesurfista no ar durante manobra acrobática
+- image: kite-mallorca_055.jpg
+  name: Bodydrag com instrutor
+  title: Gerhard com alunos durante o exercício de bodydrag
+  description: Prática de controlo da tração da asa com total confiança
+  alt: Instrutor com alunos na água durante exercício prático
+- image: kite-mallorca_056.jpg
+  name: Primeiros bordos
+  title: Felicidade pura ao deslizar os primeiros metros na prancha
+  description: A sensação inesquecível de planar pela primeira vez
+  alt: Principiante a dar os primeiros bordos com sucesso
+- image: kite-mallorca_057.jpg
+  name: A planar a favor do vento
+  title: Aperfeiçoamento da postura e condução da prancha
+  description: Rumo estável e controlo perfeito da velocidade
+  alt: Kitesurfista a deslizar a grande velocidade em mar calmo
+- image: kite-mallorca_058.jpg
+  name: Aulas em pequenos grupos
+  title: Grupos reduzidos garantem rápida evolução a cada aluno
+  description: Máximo de 2 a 4 pessoas por instrutor
+  alt: Pequeno grupo de formação durante treino na praia
+- image: kite-mallorca_059.jpg
+  name: Análise de manobras
+  title: Daniel e Gerhard analisam as manobras dos alunos
+  description: Dicas técnicas precisas para acelerar a evolução
+  alt: Instrutores a rever a técnica de navegação com os alunos
+- image: kite-mallorca_060.jpg
+  name: Alegria no mar
+  title: Daniel e Eli partilham sorrisos na praia
+  description: Desporto, descontração e boas energias todos os dias
+  alt: Instrutores bem-dispostos na praia em Maiorca
+- image: kite-mallorca_061.jpg
+  name: Eli em ação
+  title: Condução dinâmica nas pequenas ondas da baía
+  description: Liberdade total e prazer absoluto sobre a água
+  alt: Kitesurfista experiente em ação no mar
+- image: kite-mallorca_062.jpg
+  name: Ao pôr do sol
+  title: Os últimos bordos com a brisa suave do entardecer
+  description: Luz mágica e hora dourada sobre a Baía de Pollensa
+  alt: Kitesurfista ao pôr do sol nas águas de Maiorca
+- image: kite-mallorca_063.jpg
+  name: Brincar com o vento
+  title: Daniel demonstra controlo milimétrico da asa
+  description: A asa responde a cada pequeno toque na barra
+  alt: Kitesurfista a demonstrar controlo fino na areia
+- image: kite-mallorca_064.jpg
+  name: Wingfoiling em Maiorca
+  title: A modalidade de wingfoil na Kite-Mallorca
+  description: Levitação suave sobre a água com prancha de foil e asa wing
+  alt: Praticante de wingfoil a levitar sobre o hydrofoil
+- image: kite-mallorca_065.jpg
+  name: Waterstart
+  title: O momento crucial da saída da água para a prancha
+  description: Técnica correta de arranque com a prancha nos pés
+  alt: Aluno a executar o waterstart com a prancha
+- image: kite-mallorca_066.jpg
+  name: Vento térmico Embat
+  title: Brisa térmica fiável garante excelentes condições diárias
+  description: A Baía de Pollensa destaca-se pelo vento constante de maio a outubro
+  alt: Vento térmico regular na Baía de Pollensa
+- image: kite-mallorca_067.jpg
+  name: Conclusão com licença VDWS
+  title: Aluna satisfeita após certificar-se com licença internacional
+  description: Certificação VDWS válida mundialmente para aluguer de equipamento
+  alt: Aluna satisfeita a exibir o certificado de kitesurf
+- image: kite-mallorca_068.jpg
+  name: Vemo-nos na água!
+  title: Esperamos por si na escola KITE-MALLORCA na Baía de Pollensa
+  description: Viva uma aventura inesquecível na ensolarada Maiorca
+  alt: Vista panorâmica da Baía de Pollensa com kites no céu

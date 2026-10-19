@@ -1,0 +1,16 @@
+<div class="calltoaction">
+	    {% assign lang = site.data.texts[page.lang] %}
+	<span class="centered"><strong>OS NOSSOS CURSOS DE KITESURF</strong></span>
+	    {% if page.buchung != true %}
+	<div class="centered">
+	    <a class="btn-fixonbottom" href="{{site.baseurl }}/{{ lang.calltoactionlink }}">{{ lang.calltext }}</a>
+	</div>
+	    {% endif %}
+		<ul>
+			<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link20 }}" title="Reservar curso de batismo">Curso de batismo / iniciação (3 horas / 1 dia)</a></li>
+			<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link21 }}" title="Reservar curso para principiantes">Curso completo para principiantes (10 horas / 3–5 dias)</a></li>
+			<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link22 }}" title="Reservar curso de aperfeiçoamento">Curso de aperfeiçoamento / reciclagem (4 horas)</a></li>
+			<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link23 }}" title="Reservar curso de hydrofoil">Curso de Hydrofoil (mín. 2 horas)</a></li>
+			<li><a href="{{site.baseurl }}/{{page.lang }}/{{ page.t.link24 }}" title="Reservar aulas particulares 1:1">Aulas particulares 1:1 com instrutor</a></li>
+		</ul><br />
+</div>

@@ -69,3 +69,14 @@
     <link rel="alternate" hreflang="pl" href="{{ site.url }}/{{ clean_pl }}" />
   {%- endif -%}
 {%- endif -%}
+
+{%- assign pt_target = page['pt-url'] | default: page.translations.pt -%}
+{%- if pt_target -%}
+  {%- if pt_target contains '://' -%}
+    <link rel="alternate" hreflang="pt" href="{{ pt_target }}" />
+  {%- else -%}
+    {%- assign clean_pt = pt_target | remove_first: '/' -%}
+    <link rel="alternate" hreflang="pt" href="{{ site.url }}/{{ clean_pt }}" />
+  {%- endif -%}
+{%- endif -%}
+

@@ -6,6 +6,7 @@
 {% assign it_link = page['it-url'] | default: "it/" %}
 {% assign fr_link = page['fr-url'] | default: "fr/" %}
 {% assign pl_link = page['pl-url'] | default: "pl/" %}
+{% assign pt_link = page['pt-url'] | default: "pt/" %}
 
 <footer id="site-footer">
   <div class="footer_box">
@@ -23,6 +24,7 @@
         <a href="{{ site.baseurl }}/{{ it_link }}" title="Italiano" aria-label="Lingua: Italiano" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">IT</a>
         <a href="{{ site.baseurl }}/{{ fr_link }}" title="Français" aria-label="Langue: Français" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">FR</a>
         <a href="{{ site.baseurl }}/{{ pl_link }}" title="Polski" aria-label="Język: Polski" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">PL</a>
+        <a href="{{ site.baseurl }}/{{ pt_link }}" title="Português" aria-label="Idioma: Português" style="padding:6px 6px;min-width:28px;min-height:28px;display:inline-flex;align-items:center;justify-content:center;">PT</a>
       </span>
     {% endif %}
     <p class="copyright">&#169; {{ site.time | date: '%Y' }} All rights reserved by<br>Kitesurf Mallorca SL</p>
