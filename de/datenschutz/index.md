@@ -19,12 +19,13 @@ image:
   picnum: 15
 snippets: null
 lang: de
-"en-url": en/disclaimer/
+"en-url": "en/disclaimer/"
 "es-url": "es/aviso-legal/"
-"de-url": de/datenschutz/
-"it-url": it/privacy/
-"fr-url": fr/mentions-legales/
-"pl-url": pl/datenschutz/
+"de-url": "de/datenschutz/"
+"it-url": "it/privacy/"
+"fr-url": "fr/mentions-legales/"
+"pl-url": "pl/polityka-prywatnosci/"
+"pt-url": "pt/politica-de-privacidade/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

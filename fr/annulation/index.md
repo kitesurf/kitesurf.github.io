@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: fr
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="retractation">Droit de rétractation pour les consommateurs</h2>
 <p>Les consommateurs disposent d'un droit de rétractation de <strong>14 jours</strong> à compter de la conclusion du contrat, sans avoir à en indiquer le motif. La rétractation est à adresser à :</p>

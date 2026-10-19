@@ -265,30 +265,30 @@ pl:
   menu: "MENU"
   lessons:
     title: "Kursy Kitesurfingu"
-    url: "kitekurse/"
+    url: "kursy-kitesurfingu/"
     items:
       - title: "Przegląd kursów"
-        url: "kitekurse/"
+        url: "kursy-kitesurfingu/"
       - title: "Kurs zapoznawczy"
-        url: "kitekurse/schnupperkurse/"
+        url: "kursy-kitesurfingu/kurs-zapoznawczy/"
       - title: "Dla początkujących"
-        url: "kitekurse/anfaengerkurse/"
+        url: "kursy-kitesurfingu/poczatkujacy/"
       - title: "Dla zaawansowanych"
-        url: "kitekurse/fortgeschritten/"
+        url: "kursy-kitesurfingu/zaawansowani/"
       - title: "Hydrofoil"
-        url: "kitekurse/hydrofoil/"
+        url: "kursy-kitesurfingu/hydrofoil/"
       - title: "Lekcje indywidualne"
-        url: "kitekurse/privatstunden/"
+        url: "kursy-kitesurfingu/lekcje-indywidualne/"
   rental:
     title: "Wypożyczalnia"
-    url: "vermietung/"
+    url: "wypozyczalnia/"
     items:
       - title: "Przegląd wypożyczalni"
-        url: "vermietung/"
+        url: "wypozyczalnia/"
       - title: "Wynajem na godziny lub dni"
-        url: "vermietung/pro-stunde-oder-tag/"
+        url: "wypozyczalnia/na-godziny-lub-dni/"
       - title: "Wynajem długoterminowy"
-        url: "vermietung/langzeit/"
+        url: "wypozyczalnia/dlugoterminowy/"
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
@@ -300,66 +300,63 @@ pl:
     url: "flying-friends/"
   privacy:
     title: "Polityka prywatności"
-    url: "datenschutz/"
+    url: "polityka-prywatnosci/"
   cancellation:
     title: "Anulowanie i odstąpienie od umowy"
     url: "anulowanie/"
   contact_us:
     title: "Napisz do nas"
-    url: "kontaktiere-uns/"
+    url: "napisz-do-nas/"
   outfit:
     title: "Outfit"
     url: "outfit/"
-
 pt:
   home: "Início"
   menu: "MENU"
   lessons:
     title: "Cursos de Kitesurf"
-    url: "kitekurse/"
+    url: "cursos-kitesurf/"
     items:
       - title: "Visão Geral dos Cursos"
-        url: "kitekurse/"
+        url: "cursos-kitesurf/"
       - title: "Curso de Batismo"
-        url: "kitekurse/schnupperkurse/"
+        url: "cursos-kitesurf/batismo/"
       - title: "Para Principiantes"
-        url: "kitekurse/anfaengerkurse/"
+        url: "cursos-kitesurf/iniciacao/"
       - title: "Aperfeiçoamento & Avançado"
-        url: "kitekurse/fortgeschritten/"
+        url: "cursos-kitesurf/avancado/"
       - title: "Hydrofoil"
-        url: "kitekurse/hydrofoil/"
+        url: "cursos-kitesurf/hydrofoil/"
       - title: "Aulas Particulares"
-        url: "kitekurse/privatstunden/"
+        url: "cursos-kitesurf/aulas-particulares/"
   rental:
     title: "Aluguer"
-    url: "vermietung/"
+    url: "aluguer/"
     items:
       - title: "Visão Geral do Aluguer"
-        url: "vermietung/"
+        url: "aluguer/"
       - title: "Aluguer por Hora ou Dia"
-        url: "vermietung/pro-stunde-oder-tag/"
+        url: "aluguer/hora-ou-dia/"
       - title: "Aluguer de Longa Duração"
-        url: "vermietung/langzeit/"
+        url: "aluguer/longa-duracao/"
   wingfoiling:
     title: "Wingfoiling"
     url: "wingfoiling/"
   contact:
     title: "Contacto"
-    url: "kontakt/"
+    url: "contacto/"
   media:
     title: "Fotos & Vídeos"
     url: "flying-friends/"
   privacy:
     title: "Política de Privacidade"
-    url: "datenschutz/"
+    url: "politica-de-privacidade/"
   cancellation:
     title: "Cancelamento & Reembolso"
-    url: "anulowanie/"
+    url: "cancelamento/"
   contact_us:
     title: "Contacte-nos"
-    url: "kontaktiere-uns/"
+    url: "contacte-nos/"
   outfit:
     title: "Outfit"
     url: "outfit/"
-
-

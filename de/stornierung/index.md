@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: de
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="widerruf">Widerrufsrecht für Verbraucher</h2>
 <p>Verbraucher haben bei Fernabsatzverträgen ein Widerrufsrecht von <strong>14 Tagen</strong> ab Vertragsschluss, ohne Angabe von Gründen. Der Widerruf ist zu richten an:</p>

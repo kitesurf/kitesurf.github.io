@@ -19,12 +19,13 @@ image:
   picnum: 38
 snippets: true
 lang: de
-"en-url": en/kitesurfing-lessons/privatlessons/
-"es-url": es/cursos-de-kitesurf/privado/
-"de-url": de/kitekurse/privatstunden/
-"it-url": it/corsi-kitesurf/lezioni-private/
-"fr-url": fr/cours-kitesurf/cours-particuliers/
-"pl-url": pl/kitekurse/privatstunden/
+"en-url": "en/kitesurfing-lessons/privatlessons/"
+"es-url": "es/cursos-de-kitesurf/privado/"
+"de-url": "de/kitekurse/privatstunden/"
+"it-url": "it/corsi-kitesurf/lezioni-private/"
+"fr-url": "fr/cours-kitesurf/cours-particuliers/"
+"pl-url": "pl/kursy-kitesurfingu/lekcje-indywidualne/"
+"pt-url": "pt/cursos-kitesurf/aulas-particulares/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

@@ -21,10 +21,11 @@ snippets: true
 lang: de
 "en-url": "en/kitesurfing-lessons/"
 "es-url": "es/cursos-de-kitesurf/"
-"de-url": de/kitekurse/
-"it-url": it/corsi-kitesurf/
-"fr-url": fr/cours-kitesurf/
-"pl-url": pl/kitekurse/
+"de-url": "de/kitekurse/"
+"it-url": "it/corsi-kitesurf/"
+"fr-url": "fr/cours-kitesurf/"
+"pl-url": "pl/kursy-kitesurfingu/"
+"pt-url": "pt/cursos-kitesurf/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: it
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="recesso">Diritto di recesso per i consumatori</h2>
 <p>I consumatori hanno un diritto di recesso di <strong>14 giorni</strong> dalla conclusione del contratto, senza indicare i motivi. Il recesso va comunicato a:</p>

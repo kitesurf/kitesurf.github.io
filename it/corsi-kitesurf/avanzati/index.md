@@ -24,7 +24,8 @@ es-url: "es/cursos-de-kitesurf/avanzado/"
 de-url: "de/kitekurse/fortgeschritten/"
 it-url: "it/corsi-kitesurf/avanzati/"
 fr-url: "fr/cours-kitesurf/perfectionnement/"
-pl-url: "pl/kitekurse/fortgeschritten/"
+pl-url: "pl/kursy-kitesurfingu/zaawansowani/"
+"pt-url": "pt/cursos-kitesurf/avancado/"
 t: 
   menu: MENU
   link1: "corsi-kitesurf/"

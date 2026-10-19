@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: en
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="withdrawal">Right of withdrawal for consumers</h2>
 <p>Consumers have a right of withdrawal of <strong>14 days</strong> from the conclusion of the contract, without giving reasons. The withdrawal is to be addressed to:</p>

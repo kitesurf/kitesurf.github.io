@@ -19,12 +19,13 @@ image:
   picnum: 38
 snippets: true
 lang: en
-"en-url": en/kitesurfing-lessons/hydrofoil/
-"es-url": es/cursos-de-kitesurf/hidrofoil/
-"de-url": de/kitekurse/hydrofoil/
-"it-url": it/corsi-kitesurf/hydrofoil/
-"fr-url": fr/cours-kitesurf/hydrofoil/
-"pl-url": pl/kitekurse/hydrofoil/
+"en-url": "en/kitesurfing-lessons/hydrofoil/"
+"es-url": "es/cursos-de-kitesurf/hidrofoil/"
+"de-url": "de/kitekurse/hydrofoil/"
+"it-url": "it/corsi-kitesurf/hydrofoil/"
+"fr-url": "fr/cours-kitesurf/hydrofoil/"
+"pl-url": "pl/kursy-kitesurfingu/hydrofoil/"
+"pt-url": "pt/cursos-kitesurf/hydrofoil/"
 t: 
   menu: MENU
   link1: "kitesurfing-lessons/"

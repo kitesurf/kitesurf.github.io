@@ -19,12 +19,13 @@ image:
   picnum: 55
 snippets: true
 lang: es
-"en-url": en/kitesurfing-lessons/tryout/
-"es-url": es/cursos-de-kitesurf/iniciacion/
-"de-url": de/kitekurse/schnupperkurse/
-"it-url": it/corsi-kitesurf/prova/
-"fr-url": fr/cours-kitesurf/initiation/
-"pl-url": pl/kitekurse/schnupperkurse/
+"en-url": "en/kitesurfing-lessons/tryout/"
+"es-url": "es/cursos-de-kitesurf/iniciacion/"
+"de-url": "de/kitekurse/schnupperkurse/"
+"it-url": "it/corsi-kitesurf/prova/"
+"fr-url": "fr/cours-kitesurf/initiation/"
+"pl-url": "pl/kursy-kitesurfingu/kurs-zapoznawczy/"
+"pt-url": "pt/cursos-kitesurf/batismo/"
 t: 
   menu: MENÚ
   link1: "cursos-de-kitesurf/"

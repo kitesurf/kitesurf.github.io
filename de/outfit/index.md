@@ -20,12 +20,13 @@ image:
   picnum: 
 snippets: null
 lang: de
-"en-url": en/outfit/
-"es-url": es/outfit/
-"de-url": de/outfit/
-"it-url": it/outfit/
-"fr-url": fr/outfit/
-"pl-url": pl/outfit/
+"en-url": "en/outfit/"
+"es-url": "es/outfit/"
+"de-url": "de/outfit/"
+"it-url": "it/outfit/"
+"fr-url": "fr/outfit/"
+"pl-url": "pl/outfit/"
+"pt-url": "pt/outfit/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

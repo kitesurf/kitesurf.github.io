@@ -18,17 +18,18 @@ image:
   picnum:
 snippets: true
 lang: pl
-"en-url": en/wingfoiling/
-"es-url": es/wingfoiling/
-"de-url": de/wingfoiling/
-"it-url": it/wingfoiling/
-"fr-url": fr/wingfoiling/
-"pl-url": pl/wingfoiling/
+"en-url": "en/wingfoiling/"
+"es-url": "es/wingfoiling/"
+"de-url": "de/wingfoiling/"
+"it-url": "it/wingfoiling/"
+"fr-url": "fr/wingfoiling/"
+"pl-url": "pl/wingfoiling/"
+"pt-url": "pt/wingfoiling/"
 t:
   menu: MENU
-  link1: "kitekurse/"
+  link1: "kursy-kitesurfingu/"
   menutxt1: "Kursy Kitesurfingu"
-  link2: "vermietung/"
+  link2: "wypozyczalnia/"
   menutxt2: "Wypożyczalnia"
   link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
@@ -36,27 +37,27 @@ t:
   menutxt4: "Kontakt"
   link5: "flying-friends/"
   menutxt5: "Zdjęcia & Wideo"
-  link6: "datenschutz/"
+  link6: "polityka-prywatnosci/"
   menutxt6: "Polityka prywatności"
-  link7: "kontaktiere-uns/"
+  link7: "napisz-do-nas/"
   menutxt7: "Napisz do nas"
   link8: "shop/"
   menutxt8: "Sklep"
   link9: "outfit/"
   menutxt9: "Outfit"
-  link20: "kitekurse/schnupperkurse/"
+  link20: "kursy-kitesurfingu/kurs-zapoznawczy/"
   menutxt20: "Kurs zapoznawczy"
-  link21: "kitekurse/anfaengerkurse/"
+  link21: "kursy-kitesurfingu/poczatkujacy/"
   menutxt21: "Dla początkujących"
-  link22: "kitekurse/fortgeschritten/"
+  link22: "kursy-kitesurfingu/zaawansowani/"
   menutxt22: "Dla zaawansowanych"
-  link23: "kitekurse/hydrofoil/"
+  link23: "kursy-kitesurfingu/hydrofoil/"
   menutxt23: "Hydrofoil"
-  link24: "kitekurse/privatstunden/"
+  link24: "kursy-kitesurfingu/lekcje-indywidualne/"
   menutxt24: "Lekcje indywidualne"
-  link30: "vermietung/pro-stunde-oder-tag/"
+  link30: "wypozyczalnia/na-godziny-lub-dni/"
   menutxt30: "Wynajem na godziny lub dni"
-  link31: "vermietung/langzeit/"
+  link31: "wypozyczalnia/dlugoterminowy/"
   menutxt31: "Wynajem długoterminowy"
   teaser: "Wingfoiling – nowy wymiar sportów wodnych na Majorce"
 published: true

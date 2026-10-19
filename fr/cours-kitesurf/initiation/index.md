@@ -24,7 +24,8 @@ es-url: "es/cursos-de-kitesurf/iniciacion/"
 de-url: "de/kitekurse/schnupperkurse/"
 it-url: "it/corsi-kitesurf/prova/"
 fr-url: "fr/cours-kitesurf/initiation/"
-pl-url: "pl/kitekurse/schnupperkurse/"
+pl-url: "pl/kursy-kitesurfingu/kurs-zapoznawczy/"
+"pt-url": "pt/cursos-kitesurf/batismo/"
 t: 
   menu: MENU
   link1: "cours-kitesurf/"

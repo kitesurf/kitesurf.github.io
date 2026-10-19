@@ -24,9 +24,10 @@ lang: fr
 "de-url": "de/wind/"
 "it-url": "it/vento/"
 "fr-url": "fr/vent/"
-"pl-url": "pl/wind/"
+"pl-url": "pl/wiatr/"
 published: true
----
+
+"pt-url": "pt/vento/"---
 
 # Prévisions de Vent à Majorque
 

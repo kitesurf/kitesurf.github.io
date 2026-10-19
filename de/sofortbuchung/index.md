@@ -20,12 +20,13 @@ image:
   picnum: 
 snippets: null
 lang: de
-"en-url": en/instantly-booking/
-"es-url": es/reserva-inmediata/
-"de-url": de/sofortbuchung/
-"it-url": it/prenotazione-immediata/
-"fr-url": fr/reservation-immediate/
-"pl-url": pl/sofortbuchung/
+"en-url": "en/instantly-booking/"
+"es-url": "es/reserva-inmediata/"
+"de-url": "de/sofortbuchung/"
+"it-url": "it/prenotazione-immediata/"
+"fr-url": "fr/reservation-immediate/"
+"pl-url": "pl/rezerwacja-online/"
+"pt-url": "pt/reserva-online/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

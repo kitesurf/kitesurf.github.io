@@ -25,9 +25,10 @@ lang: fr
 "de-url": "de/sofortbuchung/"
 "it-url": "it/prenotazione-immediata/"
 "fr-url": "fr/reservation-immediate/"
-"pl-url": "pl/sofortbuchung/"
+"pl-url": "pl/rezerwacja-online/"
 published: true
----
+
+"pt-url": "pt/reserva-online/"---
 
 # Réservez directement votre stage à Majorque
 

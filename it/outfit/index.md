@@ -27,7 +27,8 @@ lang: it
 "fr-url": "fr/outfit/"
 "pl-url": "pl/outfit/"
 published: true
----
+
+"pt-url": "pt/outfit/"---
 
 # Il nostro negozio con articoli e abbigliamento  
 

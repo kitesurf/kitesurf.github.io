@@ -18,46 +18,46 @@ image:
   picnum:
 snippets: true
 lang: pt
-"en-url": en/wingfoiling/
-"es-url": es/wingfoiling/
-"de-url": de/wingfoiling/
-"it-url": it/wingfoiling/
-"fr-url": fr/wingfoiling/
-"pl-url": pl/wingfoiling/
-"pt-url": pt/wingfoiling/
+"en-url": "en/wingfoiling/"
+"es-url": "es/wingfoiling/"
+"de-url": "de/wingfoiling/"
+"it-url": "it/wingfoiling/"
+"fr-url": "fr/wingfoiling/"
+"pl-url": "pl/wingfoiling/"
+"pt-url": "pt/wingfoiling/"
 t:
   menu: MENU
-  link1: "kitekurse/"
+  link1: "cursos-kitesurf/"
   menutxt1: "Cursos de Kitesurf"
-  link2: "vermietung/"
+  link2: "aluguer/"
   menutxt2: "Aluguer"
   link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
-  link4: "kontakt/"
+  link4: "contacto/"
   menutxt4: "Contacto"
   link5: "flying-friends/"
   menutxt5: "Fotos & Vídeos"
-  link6: "datenschutz/"
+  link6: "politica-de-privacidade/"
   menutxt6: "Política de Privacidade"
-  link7: "kontaktiere-uns/"
+  link7: "contacte-nos/"
   menutxt7: "Contacte-nos"
   link8: "shop/"
   menutxt8: "Loja"
   link9: "outfit/"
   menutxt9: "Outfit"
-  link20: "kitekurse/schnupperkurse/"
+  link20: "cursos-kitesurf/batismo/"
   menutxt20: "Curso de Batismo"
-  link21: "kitekurse/anfaengerkurse/"
+  link21: "cursos-kitesurf/iniciacao/"
   menutxt21: "Para Principiantes"
-  link22: "kitekurse/fortgeschritten/"
+  link22: "cursos-kitesurf/avancado/"
   menutxt22: "Aperfeiçoamento"
-  link23: "kitekurse/hydrofoil/"
+  link23: "cursos-kitesurf/hydrofoil/"
   menutxt23: "Hydrofoil"
-  link24: "kitekurse/privatstunden/"
+  link24: "cursos-kitesurf/aulas-particulares/"
   menutxt24: "Aulas Particulares"
-  link30: "vermietung/pro-stunde-oder-tag/"
+  link30: "aluguer/hora-ou-dia/"
   menutxt30: "Aluguer por hora ou dia"
-  link31: "vermietung/langzeit/"
+  link31: "aluguer/longa-duracao/"
   menutxt31: "Aluguer de longa duração"
   teaser: "Wingfoiling – a nova dimensão dos desportos náuticos em Maiorca"
 published: true
@@ -126,4 +126,4 @@ Jovens a partir dos 12 anos com facilidade na água podem iniciar a aprendizagem
 
 ---
 
-[» Fale connosco pelo WhatsApp ou reserve a sua data de curso]({{ site.url }}/pt/kontakt/ "Contacto com a escola")
+[» Fale connosco pelo WhatsApp ou reserve a sua data de curso]({{ site.url }}/pt/contacto/ "Contacto com a escola")

@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: pl
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="odstapienie">Prawo odstąpienia od umowy dla konsumentów</h2>
 <p>Przy umowach zawieranych na odległość konsumenci mają prawo odstąpienia od umowy w ciągu <strong>14 dni</strong> od jej zawarcia, bez podania przyczyny. Odstąpienie należy zgłosić na adres:</p>

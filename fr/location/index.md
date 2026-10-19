@@ -24,7 +24,8 @@ es-url: "es/alquiler/"
 de-url: "de/vermietung/"
 it-url: "it/noleggio/"
 fr-url: "fr/location/"
-pl-url: "pl/vermietung/"
+pl-url: "pl/wypozyczalnia/"
+"pt-url": "pt/aluguer/"
 t:
   menu: MENU
   link1: "cours-kitesurf/"

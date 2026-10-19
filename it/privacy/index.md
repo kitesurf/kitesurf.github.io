@@ -24,9 +24,10 @@ lang: it
 "de-url": "de/datenschutz/"
 "it-url": "it/privacy/"
 "fr-url": "fr/mentions-legales/"
-"pl-url": "pl/datenschutz/"
+"pl-url": "pl/polityka-prywatnosci/"
 published: true
----
+
+"pt-url": "pt/politica-de-privacidade/"---
 
 ## Informativa sulla Privacy
 

@@ -25,9 +25,10 @@ lang: it
 "de-url": "de/kontaktiere-uns/"
 "it-url": "it/contattaci/"
 "fr-url": "fr/contactez-nous/"
-"pl-url": "pl/kontaktiere-uns/"
+"pl-url": "pl/napisz-do-nas/"
 published: true
----
+
+"pt-url": "pt/contacte-nos/"---
 
 # Hai domande sui corsi o sul noleggio?
 

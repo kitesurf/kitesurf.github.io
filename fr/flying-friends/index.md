@@ -27,7 +27,8 @@ lang: fr
 "fr-url": "fr/flying-friends/"
 "pl-url": "pl/flying-friends/"
 published: true
----
+
+"pt-url": "pt/flying-friends/"---
 
 # Photos & Vidéos
 

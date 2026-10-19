@@ -25,6 +25,7 @@ de-url: "de/kontakt/"
 it-url: "it/contatto/"
 fr-url: "fr/contact/"
 pl-url: "pl/kontakt/"
+"pt-url": "pt/contacto/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1:    "cursos de kitesurf"

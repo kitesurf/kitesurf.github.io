@@ -17,12 +17,13 @@ image:
   picnum:
 snippets: true
 lang: es
-"en-url": en/wingfoiling/
-"es-url": es/wingfoiling/
-"de-url": de/wingfoiling/
-"it-url": it/wingfoiling/
-"fr-url": fr/wingfoiling/
-"pl-url": pl/wingfoiling/
+"en-url": "en/wingfoiling/"
+"es-url": "es/wingfoiling/"
+"de-url": "de/wingfoiling/"
+"it-url": "it/wingfoiling/"
+"fr-url": "fr/wingfoiling/"
+"pl-url": "pl/wingfoiling/"
+"pt-url": "pt/wingfoiling/"
 t:
   link1: "cursos-de-kitesurf/"
   menutxt1: "cursos de kitesurf"

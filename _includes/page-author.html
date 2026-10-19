@@ -16,6 +16,18 @@
 	{% elsif page.lang == 'es' %}
 	  {% assign byline = 'Escrito por' %}
 	  {% assign localized_bio = author.bio_es | default: author.bio %}
+	{% elsif page.lang == 'fr' %}
+	  {% assign byline = 'Écrit par' %}
+	  {% assign localized_bio = author.bio_fr | default: author.bio_en | default: author.bio %}
+	{% elsif page.lang == 'it' %}
+	  {% assign byline = 'Scritto da' %}
+	  {% assign localized_bio = author.bio_it | default: author.bio_en | default: author.bio %}
+	{% elsif page.lang == 'pl' %}
+	  {% assign byline = 'Napisane przez' %}
+	  {% assign localized_bio = author.bio_pl | default: author.bio_en | default: author.bio %}
+	{% elsif page.lang == 'pt' %}
+	  {% assign byline = 'Escrito por' %}
+	  {% assign localized_bio = author.bio_pt | default: author.bio_en | default: author.bio %}
 	{% else %}
 	  {% assign byline = 'Written by' %}
 	  {% assign localized_bio = author.bio_en | default: author.bio %}

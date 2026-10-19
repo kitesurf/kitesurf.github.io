@@ -19,14 +19,15 @@ image:
   picnum: 15
 snippets: null
 lang: es
-"de-url": de/stornierung/
-"en-url": en/cancellation/
-"es-url": es/cancelacion/
-"it-url": it/annullamento/
-"fr-url": fr/annulation/
-"pl-url": pl/anulowanie/
+"de-url": "de/stornierung/"
+"en-url": "en/cancellation/"
+"es-url": "es/cancelacion/"
+"it-url": "it/annullamento/"
+"fr-url": "fr/annulation/"
+"pl-url": "pl/anulowanie/"
 published: true
----
+
+"pt-url": "pt/cancelamento/"---
 
 <h2 id="desistimiento">Derecho de desistimiento para consumidores</h2>
 <p>Los consumidores tienen un derecho de desistimiento de <strong>14 días</strong> desde la celebración del contrato, sin necesidad de indicar los motivos. El desistimiento debe dirigirse a:</p>

@@ -19,17 +19,18 @@ image:
   picnum: 08
 snippets: true
 lang: pl
-"en-url": en/
-"es-url": es/
-"de-url": de/
-"it-url": it/
-"fr-url": fr/
-"pl-url": pl/
+"en-url": "en/"
+"es-url": "es/"
+"de-url": "de/"
+"it-url": "it/"
+"fr-url": "fr/"
+"pl-url": "pl/"
+"pt-url": "pt/"
 t:
   menu: MENU
-  link1: "kitekurse/"
+  link1: "kursy-kitesurfingu/"
   menutxt1: "Kursy Kitesurfingu"
-  link2: "vermietung/"
+  link2: "wypozyczalnia/"
   menutxt2: "Wypożyczalnia"
   link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
@@ -37,33 +38,33 @@ t:
   menutxt4: "Kontakt"
   link5: "flying-friends/"
   menutxt5: "Zdjęcia & Wideo"
-  link6: "datenschutz/"
+  link6: "polityka-prywatnosci/"
   menutxt6: "Polityka prywatności"
-  link7: "kontaktiere-uns/"
+  link7: "napisz-do-nas/"
   menutxt7: "Napisz do nas"
   link8: "shop/"
   menutxt8: "Sklep"
   link9: "outfit/"
   menutxt9: "Outfit"
-  link20: "kitekurse/schnupperkurse/"
+  link20: "kursy-kitesurfingu/kurs-zapoznawczy/"
   menutxt20: "Kurs zapoznawczy"
-  link21: "kitekurse/anfaengerkurse/"
+  link21: "kursy-kitesurfingu/poczatkujacy/"
   menutxt21: "Dla początkujących"
-  link22: "kitekurse/fortgeschritten/"
+  link22: "kursy-kitesurfingu/zaawansowani/"
   menutxt22: "Dla zaawansowanych"
-  link23: "kitekurse/hydrofoil/"
+  link23: "kursy-kitesurfingu/hydrofoil/"
   menutxt23: "Hydrofoil"
-  link24: "kitekurse/privatstunden/"
+  link24: "kursy-kitesurfingu/lekcje-indywidualne/"
   menutxt24: "Lekcje indywidualne"
-  link30: "vermietung/pro-stunde-oder-tag/"
+  link30: "wypozyczalnia/na-godziny-lub-dni/"
   menutxt30: "Wynajem na godziny lub dni"
-  link31: "vermietung/langzeit/"
+  link31: "wypozyczalnia/dlugoterminowy/"
   menutxt31: "Wynajem długoterminowy"
-  teaser: "Kitesurfing i Wingfoiling na Majorce – Zatoka Pollensa"
+  teaser:
 published: true
 ---
 
-# [**KURSY KITESURFINGU**]({{ site.url }}/pl/kitekurse/ "Kursy kitesurfingu na Majorce"), [**WINGFOILING**]({{ site.url }}/pl/wingfoiling/ "Wingfoiling na Majorce"), [**WYPOŻYCZALNIA**]({{ site.url }}/pl/vermietung/ "Wypożyczalnia sprzętu kitesurfingowego") [**& REZERWACJA**]({{ site.url }}/pl/sofortbuchung/)
+# [**KURSY KITESURFINGU**]({{ site.url }}/pl/kursy-kitesurfingu/ "Kursy kitesurfingu na Majorce"), [**WINGFOILING**]({{ site.url }}/pl/wingfoiling/ "Wingfoiling na Majorce"), [**WYPOŻYCZALNIA**]({{ site.url }}/pl/wypozyczalnia/ "Wypożyczalnia sprzętu kitesurfingowego") [**& REZERWACJA**]({{ site.url }}/pl/rezerwacja-online/)
 
 **KITE-MALLORCA** to renomowana, międzynarodowa szkoła kitesurfingu i centrum foil w zatoce Pollensa (Alcudia, północna Majorka). Od 2009 roku z pasją i pełnym zaangażowaniem wprowadzamy w świat kitesurfingu początkujących i zaawansowanych kitesurferów. 
 
@@ -103,7 +104,7 @@ Szkolimy zgodnie z wytycznymi międzynarodowej organizacji **VDWS** (Verband Deu
 
 {% include prices-courses.html %}
 
-[» Szczegółowy opis kursu dla początkujących (10 godzin)]({{ site.url }}/pl/kitekurse/anfaengerkurse/ "Kurs kitesurfingu od podstaw")
+[» Szczegółowy opis kursu dla początkujących (10 godzin)]({{ site.url }}/pl/kursy-kitesurfingu/anfaengerkurse/ "Kurs kitesurfingu od podstaw")
 
 ---
 
@@ -127,7 +128,7 @@ Samodzielnym kitesurferom oferujemy najnowsze latawce, deski twin-tip, deski kie
 * **Nadzór ratowniczy w cenie:** Pływasz pod okiem naszej bazy z zapewnioną asystą na plaży i wodzie.
 * **Przechowalnia sprzętu (Storage):** Podróżujesz z własnym quiverem? Zostaw go bezpiecznie bezpośrednio na spocie.
 
-[» Przejdź do oferty wypożyczalni sprzętu]({{ site.url }}/pl/vermietung/ "Wypożyczalnia sprzętu kitesurfingowego")
+[» Przejdź do oferty wypożyczalni sprzętu]({{ site.url }}/pl/wypozyczalnia/ "Wypożyczalnia sprzętu kitesurfingowego")
 
 ---
 

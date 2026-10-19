@@ -19,12 +19,13 @@ image:
   picnum: 38
 snippets: true
 lang: de
-"en-url": en/kitesurfing-lessons/beginner/
-"es-url": es/cursos-de-kitesurf/principiante/
-"de-url": de/kitekurse/anfaengerkurse/
-"it-url": it/corsi-kitesurf/principianti/
-"fr-url": fr/cours-kitesurf/debutant/
-"pl-url": pl/kitekurse/anfaengerkurse/
+"en-url": "en/kitesurfing-lessons/beginner/"
+"es-url": "es/cursos-de-kitesurf/principiante/"
+"de-url": "de/kitekurse/anfaengerkurse/"
+"it-url": "it/corsi-kitesurf/principianti/"
+"fr-url": "fr/cours-kitesurf/debutant/"
+"pl-url": "pl/kursy-kitesurfingu/poczatkujacy/"
+"pt-url": "pt/cursos-kitesurf/iniciacao/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

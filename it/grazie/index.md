@@ -24,9 +24,10 @@ lang: it
 "de-url": "de/danke/"
 "it-url": "it/grazie/"
 "fr-url": "fr/merci/"
-"pl-url": "pl/danke/"
+"pl-url": "pl/dziekujemy/"
 published: true
----
+
+"pt-url": "pt/obrigado/"---
 
 # Grazie mille per la tua richiesta!
 

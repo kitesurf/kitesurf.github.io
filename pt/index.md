@@ -19,52 +19,52 @@ image:
   picnum: 08
 snippets: true
 lang: pt
-"en-url": en/
-"es-url": es/
-"de-url": de/
-"it-url": it/
-"fr-url": fr/
-"pl-url": pl/
-"pt-url": pt/
+"en-url": "en/"
+"es-url": "es/"
+"de-url": "de/"
+"it-url": "it/"
+"fr-url": "fr/"
+"pl-url": "pl/"
+"pt-url": "pt/"
 t:
   menu: MENU
-  link1: "kitekurse/"
+  link1: "cursos-kitesurf/"
   menutxt1: "Cursos de Kitesurf"
-  link2: "vermietung/"
+  link2: "aluguer/"
   menutxt2: "Aluguer"
   link3: "wingfoiling/"
   menutxt3: "Wingfoiling"
-  link4: "kontakt/"
+  link4: "contacto/"
   menutxt4: "Contacto"
   link5: "flying-friends/"
   menutxt5: "Fotos & Vídeos"
-  link6: "datenschutz/"
+  link6: "politica-de-privacidade/"
   menutxt6: "Política de Privacidade"
-  link7: "kontaktiere-uns/"
+  link7: "contacte-nos/"
   menutxt7: "Contacte-nos"
   link8: "shop/"
   menutxt8: "Loja"
   link9: "outfit/"
   menutxt9: "Outfit"
-  link20: "kitekurse/schnupperkurse/"
+  link20: "cursos-kitesurf/batismo/"
   menutxt20: "Curso de Batismo"
-  link21: "kitekurse/anfaengerkurse/"
+  link21: "cursos-kitesurf/iniciacao/"
   menutxt21: "Para Principiantes"
-  link22: "kitekurse/fortgeschritten/"
+  link22: "cursos-kitesurf/avancado/"
   menutxt22: "Aperfeiçoamento"
-  link23: "kitekurse/hydrofoil/"
+  link23: "cursos-kitesurf/hydrofoil/"
   menutxt23: "Hydrofoil"
-  link24: "kitekurse/privatstunden/"
+  link24: "cursos-kitesurf/aulas-particulares/"
   menutxt24: "Aulas Particulares"
-  link30: "vermietung/pro-stunde-oder-tag/"
+  link30: "aluguer/hora-ou-dia/"
   menutxt30: "Aluguer por hora ou dia"
-  link31: "vermietung/langzeit/"
+  link31: "aluguer/longa-duracao/"
   menutxt31: "Aluguer de longa duração"
-  teaser: "Kitesurf e Wingfoil em Maiorca – Baía de Pollensa"
+  teaser:
 published: true
 ---
 
-# [**CURSOS DE KITESURF**]({{ site.url }}/pt/kitekurse/ "Cursos de kitesurf em Maiorca"), [**WINGFOILING**]({{ site.url }}/pt/wingfoiling/ "Wingfoiling em Maiorca"), [**ALUGUER**]({{ site.url }}/pt/vermietung/ "Aluguer de equipamento de kitesurf") [**& RESERVA**]({{ site.url }}/pt/sofortbuchung/)
+# [**CURSOS DE KITESURF**]({{ site.url }}/pt/cursos-kitesurf/ "Cursos de kitesurf em Maiorca"), [**WINGFOILING**]({{ site.url }}/pt/wingfoiling/ "Wingfoiling em Maiorca"), [**ALUGUER**]({{ site.url }}/pt/aluguer/ "Aluguer de equipamento de kitesurf") [**& RESERVA**]({{ site.url }}/pt/reserva-online/)
 
 **KITE-MALLORCA** é uma escola internacional de kitesurf e centro de hydrofoil de referência, situada na Baía de Pollensa (Alcúdia, norte de Maiorca). Desde 2009 que ensinamos com máxima dedicação e paixão praticantes principiantes e velejadores avançados.
 
@@ -104,7 +104,7 @@ Ensinamos segundo os padrões da prestigiada federação internacional **VDWS** 
 
 {% include prices-courses.html %}
 
-[» Informações detalhadas sobre o curso para principiantes (10 horas)]({{ site.url }}/pt/kitekurse/anfaengerkurse/ "Curso de kitesurf do zero")
+[» Informações detalhadas sobre o curso para principiantes (10 horas)]({{ site.url }}/pt/cursos-kitesurf/anfaengerkurse/ "Curso de kitesurf do zero")
 
 ---
 
@@ -128,7 +128,7 @@ Aos praticantes autónomos disponibilizamos os modelos mais recentes de kites, p
 * **Vigilância e resgate marítimo incluídos:** Veleje com tranquilidade sob o olhar atento da nossa equipa e lancha de segurança.
 * **Guarda de equipamento (Storage):** Viaja com o seu próprio material? Guarde-o com segurança mesmo em frente ao spot.
 
-[» Consultar condições de aluguer de equipamento]({{ site.url }}/pt/vermietung/ "Aluguer de material de kitesurf")
+[» Consultar condições de aluguer de equipamento]({{ site.url }}/pt/aluguer/ "Aluguer de material de kitesurf")
 
 ---
 

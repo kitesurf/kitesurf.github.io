@@ -368,7 +368,7 @@ lang:
       title: Czysta frajda bez końca
       description: Z odpowiednią szkołą kitesurfingu nauczysz się pływać z uśmiechem i w bezpiecznych warunkach
       button_text: Zobacz kursy kitesurfingu
-      link: "/pl/kitekurse/"
+      link: "/pl/kursy-kitesurfingu/"
     - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
@@ -382,7 +382,7 @@ lang:
       title: Lekcje indywidualne
       description: Intensywny coaching 1:1 z dedykowanym instruktorem TYLKO dla Ciebie
       button_text: Zapytaj o lekcje prywatne
-      link: "/pl/kitekurse/privatstunden/"
+      link: "/pl/kursy-kitesurfingu/lekcje-indywidualne/"
     - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
@@ -396,7 +396,7 @@ lang:
       title: Skoki i ewolucje
       description: Naucz się wysokich skoków i rotacji na kitesurfingu z Dennisem lub Gerhardem
       button_text: Kursy dla zaawansowanych
-      link: "/pl/kitekurse/fortgeschritten/"
+      link: "/pl/kursy-kitesurfingu/zaawansowani/"
     - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
@@ -410,7 +410,7 @@ lang:
       title: Strapless Wave
       description: Zarezerwuj sesje strapless z Bernardim – oficjalnym riderem Eleveight
       button_text: Kursy strapless
-      link: "/pl/kitekurse/fortgeschritten/"
+      link: "/pl/kursy-kitesurfingu/zaawansowani/"
     - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
@@ -424,7 +424,7 @@ lang:
       title: Nauka hydrofoila
       description: Odkryj magię bezgłośnego lewitowania nad wodą już przy 8 węzłach wiatru
       button_text: Kursy hydrofoil
-      link: "/pl/kitekurse/hydrofoil/"
+      link: "/pl/kursy-kitesurfingu/hydrofoil/"
   pt:
     - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
       webp:
@@ -439,7 +439,7 @@ lang:
       title: Diversão sem limites
       description: Com a escola de kitesurf certa aprende a velejar com máxima diversão e segurança
       button_text: Ver cursos de kitesurf
-      link: "/pt/kitekurse/"
+      link: "/pt/cursos-kitesurf/"
     - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
@@ -453,7 +453,7 @@ lang:
       title: Aulas Particulares
       description: Coaching individual intensivo com um instrutor dedicado EXCLUSIVAMENTE para si
       button_text: Pedir aula particular
-      link: "/pt/kitekurse/privatstunden/"
+      link: "/pt/cursos-kitesurf/aulas-particulares/"
     - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
@@ -467,7 +467,7 @@ lang:
       title: Saltos & Manobras
       description: Aprenda saltos altos e rotações incríveis com o Dennis (na foto) ou com o Gerhard
       button_text: Cursos avançados
-      link: "/pt/kitekurse/fortgeschritten/"
+      link: "/pt/cursos-kitesurf/avancado/"
     - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
@@ -481,7 +481,7 @@ lang:
       title: Sem Alças (Strapless)
       description: Marque aulas de strapless wave com o Bernardi – rider da equipa Eleveight
       button_text: Cursos strapless
-      link: "/pt/kitekurse/fortgeschritten/"
+      link: "/pt/cursos-kitesurf/avancado/"
     - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
       webp:
         xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
@@ -495,5 +495,5 @@ lang:
       title: Aprender Hydrofoil
       description: Descubra a liberdade de voar silenciosamente sobre o mar logo a partir de 8 nós de vento
       button_text: Cursos de hydrofoil
-      link: "/pt/kitekurse/hydrofoil/"
+      link: "/pt/cursos-kitesurf/hydrofoil/"
 

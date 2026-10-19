@@ -19,12 +19,13 @@ image:
   picnum: 08
 snippets: true
 lang: de
-"en-url": en/
-"es-url": es/
-"de-url": de/
-"it-url": it/
-"fr-url": fr/
-"pl-url": pl/
+"en-url": "en/"
+"es-url": "es/"
+"de-url": "de/"
+"it-url": "it/"
+"fr-url": "fr/"
+"pl-url": "pl/"
+"pt-url": "pt/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"

@@ -3,10 +3,14 @@
 gerhard:
   name: Gerhard Duer
   email: gerhard@kite-mallorca.com
-  bio: "Schreib hier was rein"
-  bio_de: "Schreib hier was rein"
-  bio_en: "Add bio text here"
-  bio_es: "Escribe aqui un texto biografico"
+  bio: "Kite instructor and station manager at Kite-Mallorca"
+  bio_de: "Kitelehrer und Stationsleiter bei Kite-Mallorca"
+  bio_en: "Kite instructor and station manager at Kite-Mallorca"
+  bio_es: "Instructor de kite y director de estación en Kite-Mallorca"
+  bio_fr: "Moniteur de kite et responsable de station chez Kite-Mallorca"
+  bio_it: "Istruttore di kite e responsabile di stazione presso Kite-Mallorca"
+  bio_pl: "Instruktor kitesurfingu i kierownik bazy w Kite-Mallorca"
+  bio_pt: "Instrutor de kitesurf e responsável de base na Kite-Mallorca"
   avatar: flying-friends/s_kite-mallorca_008.jpg
   twitter:
 
@@ -17,6 +21,10 @@ daniel:
   bio_de: "Karateka, Snowboarder und Kitesurfer mit Herz und Seele"
   bio_en: "Karateka, snowboarder and kitesurfer with heart and soul"
   bio_es: "Karateka, snowboarder y kitesurfer de corazon"
+  bio_fr: "Karatéka, snowboardeur et kitesurfeur passionné de tout cœur"
+  bio_it: "Karateka, snowboarder e kitesurfista con cuore e anima"
+  bio_pl: "Karateka, snowboardzista i kitesurfer z sercem i duszą"
+  bio_pt: "Karateca, snowboarder e kitesurfista de corpo e alma"
   avatar: flying-friends/s_kite-mallorca_025.jpg
   twitter: kitesurfista
 
@@ -27,5 +35,9 @@ kite-mallorca:
   bio_de: "VDWS Kiteschule auf Mallorca, seit 2010 mit dem Ziel, die beste Schule im Kitesurfen zu sein."
   bio_en: "VDWS kite school in Mallorca, active since 2010 with the goal of being one of the best schools for kitesurfing."
   bio_es: "Escuela de kitesurf VDWS en Mallorca, activa desde 2010 con el objetivo de ser una de las mejores escuelas de kitesurf."
+  bio_fr: "École de kitesurf VDWS à Majorque, active depuis 2010 avec pour objectif d'être l'une des meilleures écoles de kitesurf."
+  bio_it: "Scuola di kitesurf VDWS a Maiorca, attiva dal 2010 con l'obiettivo di essere una delle migliori scuole di kitesurf."
+  bio_pl: "Szkoła kitesurfingu VDWS na Majorce, działająca od 2010 roku z misją bycia jedną z najlepszych szkół kitesurfingu."
+  bio_pt: "Escola de kitesurf VDWS em Maiorca, ativa desde 2010 com o objetivo de ser uma das melhores escolas de kitesurf."
   avatar: kite-mallorca_225x177.png
   twitter: kite-mallorca

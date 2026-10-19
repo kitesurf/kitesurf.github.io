@@ -19,12 +19,13 @@ image:
   picnum: 38
 snippets: null
 lang: de
-"en-url": en/thanks/
-"es-url": es/gracias/
-"de-url": de/danke/
-"it-url": it/grazie/
-"fr-url": fr/merci/
-"pl-url": pl/danke/
+"en-url": "en/thanks/"
+"es-url": "es/gracias/"
+"de-url": "de/danke/"
+"it-url": "it/grazie/"
+"fr-url": "fr/merci/"
+"pl-url": "pl/dziekujemy/"
+"pt-url": "pt/obrigado/"
 t: 
   menu: MENÜ
   link1: "kitekurse/"
