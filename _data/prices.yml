@@ -71,10 +71,11 @@ rental:
     day1: 30
     day7: 140
   foil_set:
-    h1: 40
-    h2: 75
-    day1: 130
-    day7: 550
+    h1: 50
+    h2: 90
+    h3: 130
+    day1: 180
+    day7: 630
   storage:
     week1: 70
     week2: 120
