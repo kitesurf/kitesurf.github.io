@@ -354,4 +354,146 @@ lang:
       description: Découvrez la sensation de voler au-dessus de l'eau dès 8 nœuds de vent
       button_text: Cours hydrofoil
       link: "/fr/cours-kitesurf/hydrofoil/"
+  pl:
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfer płynący na desce obok psa biegającego w falach
+      title: Czysta frajda bez końca
+      description: Z odpowiednią szkołą kitesurfingu nauczysz się pływać z uśmiechem i w bezpiecznych warunkach
+      button_text: Zobacz kursy kitesurfingu
+      link: "/pl/kitekurse/"
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Instruktor z kursantką podczas indywidualnej lekcji kitesurfingu 1:1
+      title: Lekcje indywidualne
+      description: Intensywny coaching 1:1 z dedykowanym instruktorem TYLKO dla Ciebie
+      button_text: Zapytaj o lekcje prywatne
+      link: "/pl/kitekurse/privatstunden/"
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfer wykonujący spektakularny skok z rotacją nad wodą
+      title: Skoki i ewolucje
+      description: Naucz się wysokich skoków i rotacji na kitesurfingu z Dennisem lub Gerhardem
+      button_text: Kursy dla zaawansowanych
+      link: "/pl/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Uśmiechnięty kitesurfer z deską surfingową w ręku podczas skoku nad falami
+      title: Strapless Wave
+      description: Zarezerwuj sesje strapless z Bernardim – oficjalnym riderem Eleveight
+      button_text: Kursy strapless
+      link: "/pl/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfer lewitujący na desce hydrofoil nad wodą w zatoce Pollensa
+      title: Nauka hydrofoila
+      description: Odkryj magię bezgłośnego lewitowania nad wodą już przy 8 węzłach wiatru
+      button_text: Kursy hydrofoil
+      link: "/pl/kitekurse/hydrofoil/"
+  pt:
+    - image: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.webp
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/bernardi_and_funny_dog_15x6_1600wide.jpg
+        m: /images/flying-friends/Dani_und_Bernardi_beim_bloedsinn_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfista a navegar ao lado do seu cão a correr nas ondas da Baía de Pollensa
+      title: Diversão sem limites
+      description: Com a escola de kitesurf certa aprende a velejar com máxima diversão e segurança
+      button_text: Ver cursos de kitesurf
+      link: "/pt/kitekurse/"
+    - image: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.webp
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Privatlesson_with_Dani_15x6_1600wide.jpg
+        m: /images/flying-friends/Privatlesson_with_Dani_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Instrutor com aluna durante aula particular de kitesurf 1:1 em Maiorca
+      title: Aulas Particulares
+      description: Coaching individual intensivo com um instrutor dedicado EXCLUSIVAMENTE para si
+      button_text: Pedir aula particular
+      link: "/pt/kitekurse/privatstunden/"
+    - image: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.webp
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Dennis_with_backroll-inverted_15x6_1600wide.jpg
+        m: /images/flying-friends/Dennis_with_backroll-inverted_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfista a realizar salto invertido espetacular sobre a água
+      title: Saltos & Manobras
+      description: Aprenda saltos altos e rotações incríveis com o Dennis (na foto) ou com o Gerhard
+      button_text: Cursos avançados
+      link: "/pt/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.webp
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/Bernardi_lachend_mit_surfbord_15x6_1600wide.jpg
+        m: /images/flying-friends/Bernardi_lachend_mit_surfbord_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfista sorridente com prancha de surfkite na mão num salto sobre as ondas
+      title: Sem Alças (Strapless)
+      description: Marque aulas de strapless wave com o Bernardi – rider da equipa Eleveight
+      button_text: Cursos strapless
+      link: "/pt/kitekurse/fortgeschritten/"
+    - image: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+      webp:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.webp
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.webp
+        s: /images/flying-friends/t_roman-008.jpg
+      jpeg:
+        xl: /images/flying-friends/daniel_hang_loose_on_hydrofoil_15x6_1600wide.jpg
+        m: /images/flying-friends/dani_happy_nach_hydrofoil_session_1x1.jpg
+        s: /images/flying-friends/t_roman-008.jpg
+      alt: Kitesurfista a levitar sobre a água com prancha hydrofoil na Baía de Pollensa
+      title: Aprender Hydrofoil
+      description: Descubra a liberdade de voar silenciosamente sobre o mar logo a partir de 8 nós de vento
+      button_text: Cursos de hydrofoil
+      link: "/pt/kitekurse/hydrofoil/"
 
