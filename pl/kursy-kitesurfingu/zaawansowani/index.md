@@ -70,18 +70,18 @@ published: true
 {% assign p = site.data.prices.kitesurf %}
 {% assign curr = site.data.prices.currency | default: "€" %}
 
-{% include schema-product.html course_key="refresher_4h" name="Kurs Kitesurfingu dla Zaawansowanych i Refresher Majorka" description="Kurs doskonalący dla kitesurferów: pływanie na wiatr, zwroty, halsy i pierwsze skoki." %}
+{% include schema-product.html course_key="refresher_4h" name="Kurs Kitesurfingu dla Zaawansowanych i Kurs Odświeżający Majorka" description="Kurs doskonalący dla kitesurferów: pływanie na wiatr, zwroty, halsy i pierwsze skoki." %}
 
 # Kurs Kitesurfingu dla Zaawansowanych & Doskonalący na Majorce
 
 Masz już za sobą kurs podstawowy lub potrafisz samodzielnie wystartować z deską, ale wciąż masz trudności z ostrzeniem pod wiatr (upwind), gubisz deskę przy zwrotach lub marzysz o swoich pierwszych wysokich i kontrolowanych skokach?
 
-Nasz kurs doskonalący dla zaawansowanych i powracających do sportu (*refresher*) skupia się dokładnie na Twoich indywidualnych potrzebach. Błyskawicznie eliminujemy złe nawyki i pomagamy Ci czerpać maksymalną radość z samodzielnej jazdy!
+Nasz kurs doskonalący dla zaawansowanych i powracających do sportu skupia się dokładnie na Twoich indywidualnych potrzebach. Błyskawicznie eliminujemy złe nawyki i pomagamy Ci czerpać maksymalną radość z samodzielnej jazdy!
 
 {% include widgets/booking-buy-button-top.html course="refresher_4h" %}
 
 > **Opcje szkolenia & Ceny:**  
-> * **4-godzinny Kurs Odświeżający / Refresher:** **{{ p.refresher_4h.price }} {{ curr }}** (idealny po dłuższej przerwie lub do doszlifowania startu z wody i pływania na wiatr).  
+> * **4-godzinny kurs odświeżający:** **{{ p.refresher_4h.price }} {{ curr }}** (idealny po dłuższej przerwie lub do doszlifowania startu z wody i pływania na wiatr).  
 > * **Trening na godziny dla zaawansowanych:** **{{ p.advanced_hourly.price }} {{ curr }}** za godzinę (z własnym lub naszym sprzętem szkoleniowym).  
 > * **Indywidualny coaching 1:1 z instruktorem:** **{{ p.private_hourly.price }} {{ curr }}** za godzinę.
 

@@ -77,7 +77,7 @@ Planujesz dłuższy urlop na słonecznej Majorce lub regularnie odwiedzasz wysp�
 
 {% include prices-rental.html %}
 
-> **Gwarancja dni wietrznych (Wind-Day Guarantee):** Twoje dni wynajmu **nie muszą następować bezpośrednio po sobie**! Jeśli w dany dzień zabraknie wiatru do bezpiecznego pływania, Twój pakiet zostaje wstrzymany. Wykorzystujesz go wyłącznie w te dni, kiedy termika *Embat* w zatoce zapewnia wymarzone warunki do sesji!
+> **Gwarancja dni wietrznych:** Twoje dni wynajmu **nie muszą następować bezpośrednio po sobie**! Jeśli w dany dzień zabraknie wiatru do bezpiecznego pływania, Twój pakiet zostaje wstrzymany. Wykorzystujesz go wyłącznie w te dni, kiedy termika *Embat* w zatoce zapewnia wymarzone warunki do sesji!
 
 {% include carousel.html %}
 

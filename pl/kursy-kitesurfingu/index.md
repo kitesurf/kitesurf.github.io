@@ -91,7 +91,7 @@ Małe grupy (maksymalnie 2 do 4 osób na instruktora), płynna komunikacja po an
 
 [» Zobacz szczegóły kursu dla początkujących]({{ site.url }}/pl/kursy-kitesurfingu/anfaengerkurse/ "Kurs kitesurfingu od podstaw")
 
-### 2. Kurs zapoznawczy / Taster (3 godziny) – {{ p.taster_3h.price }} {{ curr }}
+### 2. Kurs zapoznawczy (3 godziny) – {{ p.taster_3h.price }} {{ curr }}
 * **Dla kogo:** Dla wszystkich, którzy chcą poczuć moc latawca bez długich zobowiązań.
 * **Czas trwania:** 1 dzień (ok. 3 godziny).
 * **Program:** Sterowanie latawcem treningowym, zasady bezpieczeństwa i pierwsze bodydragi w wodzie.
@@ -99,7 +99,7 @@ Małe grupy (maksymalnie 2 do 4 osób na instruktora), płynna komunikacja po an
 
 [» Zobacz szczegóły kursu zapoznawczego]({{ site.url }}/pl/kursy-kitesurfingu/schnupperkurse/ "Kurs zapoznawczy 3h")
 
-### 3. Kurs odświeżający / Refresher & Zaawansowany – {{ p.refresher_4h.price }} {{ curr }}
+### 3. Kurs odświeżający / doskonalący – {{ p.refresher_4h.price }} {{ curr }}
 * **Dla kogo:** Kitesurferzy po dłuższej przerwie lub chcący doszlifować start z wody, ostrzenie i skoki.
 * **Czas trwania:** {{ p.refresher_4h.duration_days }} dni (lub na godziny: {{ p.advanced_hourly.price }} {{ curr }}/h).
 * **Program:** Powtórka zasad bezpieczeństwa, kontrola latawca na głębszej wodzie, dopracowanie pozycji ciała przy starcie, pływanie ostro pod wiatr (upwind), płynne zwroty przez sztag i rufę, jazda na switch (toeside) oraz pierwsze wysokie skoki.

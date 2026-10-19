@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Kurs Zapoznawczy Kitesurfingu Majorka (3h) – Taster Course | KITE-MALLORCA"
+title: "Kurs Zapoznawczy Kitesurfingu Majorka (3h) | KITE-MALLORCA"
 subtitle: "Twój 3-godzinny wstęp do kitesurfingu w bezpiecznej zatoce Pollensa"
 date: 2026-09-05T00:00:00.000Z
 modified: 2026-09-05T00:00:00.000Z
 author: daniel
-description: "Kurs kitesurfingu taster (zapoznawczy) na Majorce: 3 godziny w płytkiej wodzie zatoki Pollensa. Sterowanie latawcem, bezpieczeństwo i bodydrag z licencją VDWS. Sprawdź!"
+description: "Kurs zapoznawczy kitesurfingu na Majorce: 3 godziny w płytkiej wodzie zatoki Pollensa. Sterowanie latawcem, bezpieczeństwo i bodydrag z licencją VDWS. Sprawdź!"
 image: 
   background: 7.webp
   backgroundx1: 7mov.webp
@@ -74,7 +74,7 @@ published: true
 
 # Kurs Zapoznawczy Kitesurfingu na Majorce: Poczuj moc wiatru w 3 godziny
 
-Chcesz poczuć, jak to jest trzymać w dłoniach prawdziwą moc latawca i dać się bezpiecznie pociągnąć po tafli ciepłego morza? Nasz 3-godzinny kurs zapoznawczy (*taster course*) to doskonały, bezstresowy sposób, aby sprawdzić, czy kitesurfing to pasja dla Ciebie – bez konieczności rezerwacji wielodniowego szkolenia!
+Chcesz poczuć, jak to jest trzymać w dłoniach prawdziwą moc latawca i dać się bezpiecznie pociągnąć po tafli ciepłego morza? Nasz 3-godzinny kurs zapoznawczy to doskonały, bezstresowy sposób, aby sprawdzić, czy kitesurfing to pasja dla Ciebie – bez konieczności rezerwacji wielodniowego szkolenia!
 
 {% include widgets/booking-buy-button-top.html course="taster_3h" %}
 
