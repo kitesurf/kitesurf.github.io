@@ -8,17 +8,23 @@
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
           <picture>
             {% if forloop.first %}
-            <source type="image/webp" media="(min-width: 500px)" srcset="{{ item.webp.xl }}">
-            <source type="image/webp" media="(max-width: 500px)" srcset="{{ item.webp.m }}">
-            <source type="image/jpeg" media="(min-width: 500px)" srcset="{{ item.jpeg.xl }}">
-            <source type="image/jpeg" media="(max-width: 500px)" srcset="{{ item.jpeg.m }}">
-            <img src="{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high" draggable="false" width="1600" height="1066">
+              {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                <img src="{{ site.baseurl }}{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high" draggable="false" width="1200" height="800">
+              {% else %}
+                <source media="(min-width: 1024px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}">
+                <source media="(min-width: 600px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}">
+                <source media="(max-width: 599px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ item.image }}">
+                <img src="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high" draggable="false" width="1200" height="800">
+              {% endif %}
             {% else %}
-            <source type="image/webp" media="(min-width: 500px)" data-srcset="{{ item.webp.xl }}">
-            <source type="image/webp" media="(max-width: 500px)" data-srcset="{{ item.webp.m }}">
-            <source type="image/jpeg" media="(min-width: 500px)" data-srcset="{{ item.jpeg.xl }}">
-            <source type="image/jpeg" media="(max-width: 500px)" data-srcset="{{ item.jpeg.m }}">
-            <img data-src="{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy" draggable="false" width="1600" height="1066">
+              {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                <img data-src="{{ site.baseurl }}{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy" draggable="false" width="1200" height="800">
+              {% else %}
+                <source media="(min-width: 1024px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}">
+                <source media="(min-width: 600px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}">
+                <source media="(max-width: 599px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ item.image }}">
+                <img data-src="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy" draggable="false" width="1200" height="800">
+              {% endif %}
             {% endif %}
           </picture>
           <a class="text_bgd" href="{{ item.link }}" draggable="false">
