@@ -74,13 +74,18 @@ Zentrales Include für responsive Bildausgabe im gesamten Jekyll-Projekt:
 
 ### 3.3 Anpassung der bestehenden Komponenten
 
-1. **Hero-Swiper (`_includes/swiper.html`):**
-   - Behält die `<picture>`- und `<source media="...">`-Struktur bei, damit Swiper-Events und LCP-Preload 100 % stabil bleiben.
-   - Bildquellen verweisen auf die Edge-URLs des Master-JPGs:
-     - Desktop (`min-width: 500px`): `width=1600,quality=85,format=auto`
-     - Mobil (`max-width: 500px`): `width=600,quality=85,format=auto`
-   - Slide 1: `fetchpriority="high"`, Preload in `_layouts/default.html` angepasst.
-   - Slides 2–5: `lazyload` mit `data-srcset`.
+1. **Hero-Swiper (`_includes/swiper.html`) & PageSpeed-Optimierung:**
+   - **PageSpeed-Target:** Google PageSpeed testet Desktop mit einem 1200px-Viewport. Statt ein überdimensioniertes 1600px-Bild auszuliefern (was zu Punktabzug bei *„Properly size images“* führt), liefern wir für Standard-Desktop exakt **1200px** aus.
+   - **Granulare Breakpoints für Slide 1:**
+     - Mobil (< 600px): `width=480,quality=85,format=auto`
+     - Tablet (600px – 1023px): `width=800,quality=85,format=auto`
+     - Desktop / PageSpeed-Benchmark (1024px – 1440px): `width=1200,quality=85,format=auto`
+     - Große Monitore (> 1440px): `width=1600,quality=85,format=auto`
+   - **`<img>`-Attribute:** `width="1200" height="800"` (3:2 Aspect Ratio) zur Vermeidung von Layout Shifts (CLS = 0) und Erfüllung der PageSpeed-Erwartung.
+   - **LCP-Preload (`_layouts/default.html`):**
+     - Desktop: `<link rel="preload" as="image" href="/cdn-cgi/image/width=1200,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 600px)" fetchpriority="high">`
+     - Mobil: `<link rel="preload" as="image" href="/cdn-cgi/image/width=480,quality=85,format=auto{{ first_slide.image }}" media="(max-width: 599px)" fetchpriority="high">`
+   - **Slides 2–5:** Nutzen dieselben optimierten Breakpoints über `lazyload` mit `data-srcset`.
 
 2. **Fotogalerie (`_includes/gallery-thumbs.html`):**
    - Thumbnails: `width=320,quality=85,format=auto`
