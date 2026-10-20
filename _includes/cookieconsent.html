@@ -28,7 +28,10 @@ function initCookieConsent() {
         var el = this.element;
         if (el) {
           var link = el.querySelector('.cc-link');
-          if (link) { link.removeAttribute('aria-label'); }
+          if (link) {
+            link.setAttribute('aria-label', '{{ lang.cookie_link }}');
+            link.setAttribute('title', '{{ lang.cookie_link }}');
+          }
           var btn = el.querySelector('.cc-btn');
           if (btn) { btn.removeAttribute('aria-label'); }
         }
@@ -37,7 +40,10 @@ function initCookieConsent() {
         var el = this.element;
         if (el) {
           var link = el.querySelector('.cc-link');
-          if (link) { link.removeAttribute('aria-label'); }
+          if (link) {
+            link.setAttribute('aria-label', '{{ lang.cookie_link }}');
+            link.setAttribute('title', '{{ lang.cookie_link }}');
+          }
           var btn = el.querySelector('.cc-btn');
           if (btn) { btn.removeAttribute('aria-label'); }
         }

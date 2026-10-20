@@ -26,6 +26,9 @@ lang: pt
 "fr-url": "fr/annulation/"
 "pl-url": "pl/anulowanie/"
 "pt-url": "pt/cancelamento/"
+t:
+  link6: "politica-de-privacidade/"
+  menutxt6: "Política de Privacidade"
 published: true
 
 redirect_from:
