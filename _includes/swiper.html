@@ -4,25 +4,28 @@
   <div class="swiper-container">
     <div class="swiper-wrapper" itemscope itemtype="http://schema.org/ImageGallery">
       {% for item in site.data.sliderimages.lang[page.lang] %}
+      {% assign mobile_img = item.jpeg.m | default: item.image %}
       <div class="swiper-slide">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">     
           <picture>
             {% if forloop.first %}
               {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                <source media="(max-width: 500px)" srcset="{{ site.baseurl }}{{ mobile_img }}" width="500" height="500">
                 <img src="{{ site.baseurl }}{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high" draggable="false" width="1200" height="480">
               {% else %}
-                <source media="(min-width: 1024px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}">
-                <source media="(min-width: 600px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}">
-                <source media="(max-width: 599px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ item.image }}">
+                <source media="(min-width: 1024px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" width="1200" height="480">
+                <source media="(min-width: 501px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}" width="800" height="320">
+                <source media="(max-width: 500px)" srcset="{{ site.baseurl }}/cdn-cgi/image/width=500,quality=85,format=auto{{ mobile_img }}" width="500" height="500">
                 <img src="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" alt="{{ item.alt }}" title="{{ item.alt }}" fetchpriority="high" draggable="false" width="1200" height="480">
               {% endif %}
             {% else %}
               {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                <source media="(max-width: 500px)" data-srcset="{{ site.baseurl }}{{ mobile_img }}" width="500" height="500">
                 <img data-src="{{ site.baseurl }}{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy" draggable="false" width="1200" height="480">
               {% else %}
-                <source media="(min-width: 1024px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}">
-                <source media="(min-width: 600px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}">
-                <source media="(max-width: 599px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ item.image }}">
+                <source media="(min-width: 1024px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" width="1200" height="480">
+                <source media="(min-width: 501px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ item.image }}" width="800" height="320">
+                <source media="(max-width: 500px)" data-srcset="{{ site.baseurl }}/cdn-cgi/image/width=500,quality=85,format=auto{{ mobile_img }}" width="500" height="500">
                 <img data-src="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ item.image }}" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="{{ item.alt }}" title="{{ item.alt }}" data-sizes="auto" class="lazyload" loading="lazy" draggable="false" width="1200" height="480">
               {% endif %}
             {% endif %}

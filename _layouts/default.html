@@ -182,11 +182,12 @@ layout: compress
   {% if page.amp != true %}
   {% assign first_slide = site.data.sliderimages.lang[page.lang].first %}
   {% if first_slide %}
+  {% assign first_mobile_img = first_slide.jpeg.m | default: first_slide.image %}
   {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
   <link rel="preload" as="image" href="{{ site.baseurl }}{{ first_slide.image }}" fetchpriority="high">
   {% else %}
-  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ first_slide.image }}" media="(max-width: 599px)" fetchpriority="high">
-  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 600px) and (max-width: 1023px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=500,quality=85,format=auto{{ first_mobile_img }}" media="(max-width: 500px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 501px) and (max-width: 1023px)" fetchpriority="high">
   <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 1024px)" fetchpriority="high">
   {% endif %}
   {% endif %}
