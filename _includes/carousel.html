@@ -59,10 +59,18 @@
                <span itemprop="name">{{ item.person }}</span>
               {% if page.amp == true %}
                 <div>
-                  <amp-img class="avatar" src="{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
+                  {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                    <amp-img class="avatar" src="{{ site.baseurl }}{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
+                  {% else %}
+                    <amp-img class="avatar" src="{{ site.baseurl }}/cdn-cgi/image/width=200,quality=85,format=auto{{ item.avatar_img }}" alt="avatar" height="100" width="100"></amp-img>
+                  {% endif %}
                 </div>
               {% else %}
-                <div class="avatar lazyload" data-bg="{{ item.avatar_img }}"></div>
+                {% if site.url contains 'localhost' or site.url contains '127.0.0.1' %}
+                  <div class="avatar lazyload" data-bg="{{ site.baseurl }}{{ item.avatar_img }}"></div>
+                {% else %}
+                  <div class="avatar lazyload" data-bg="{{ site.baseurl }}/cdn-cgi/image/width=200,quality=85,format=auto{{ item.avatar_img }}"></div>
+                {% endif %}
               {% endif %}
             </div>
             <div class="rating">
