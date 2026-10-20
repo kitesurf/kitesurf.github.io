@@ -186,7 +186,8 @@ layout: compress
   <link rel="preload" as="image" href="{{ site.baseurl }}{{ first_slide.image }}" fetchpriority="high">
   {% else %}
   <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=480,quality=85,format=auto{{ first_slide.image }}" media="(max-width: 599px)" fetchpriority="high">
-  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 600px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=800,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 600px) and (max-width: 1023px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ site.baseurl }}/cdn-cgi/image/width=1200,quality=85,format=auto{{ first_slide.image }}" media="(min-width: 1024px)" fetchpriority="high">
   {% endif %}
   {% endif %}
   {% endif %}

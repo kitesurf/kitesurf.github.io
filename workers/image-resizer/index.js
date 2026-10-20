@@ -65,6 +65,26 @@ export default {
       }
     }
 
+    // Smart format negotiation: Ensure PageSpeed/Lighthouse & modern browsers ALWAYS get AVIF/WebP
+    // Even if headless crawlers or image preloads send a generic Accept header (*/*)
+    const accept = request.headers.get("accept") || "";
+    const ua = request.headers.get("user-agent") || "";
+
+    if (imageOptions.format === "auto") {
+      if (accept.includes("image/avif")) {
+        imageOptions.format = "avif";
+      } else if (accept.includes("image/webp")) {
+        imageOptions.format = "webp";
+      } else if (/Chrome|Chromium|CriOS|Googlebot|Lighthouse/i.test(ua)) {
+        // Modern Chrome / Google Lighthouse / Googlebot always support AVIF
+        imageOptions.format = "avif";
+      } else if (/Firefox/i.test(ua)) {
+        imageOptions.format = "avif";
+      } else if (/Safari/i.test(ua)) {
+        imageOptions.format = "webp";
+      }
+    }
+
     // Security check: only allow images from origin domain (prevent open proxy)
     const originUrl = new URL(imagePath, url.origin);
     if (originUrl.hostname !== url.hostname) {
@@ -72,9 +92,16 @@ export default {
     }
 
     try {
+      const subHeaders = new Headers(request.headers);
+      if (imageOptions.format === "avif") {
+        subHeaders.set("Accept", "image/avif,image/webp,*/*");
+      } else if (imageOptions.format === "webp") {
+        subHeaders.set("Accept", "image/webp,*/*");
+      }
+
       // Execute Cloudflare Image Resizing transformation
       const imageRequest = new Request(originUrl.toString(), {
-        headers: request.headers,
+        headers: subHeaders,
         cf: {
           image: imageOptions,
         },
