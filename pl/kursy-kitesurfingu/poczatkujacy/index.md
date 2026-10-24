@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/corsi-kitesurf/principianti/"
 "fr-url": "fr/cours-kitesurf/debutant/"
 "pl-url": "pl/kursy-kitesurfingu/poczatkujacy/"
-redirect_from:
-  - /pl/kursy-kitesurfingu/poczatkujacy/
 "pt-url": "pt/cursos-kitesurf/iniciacao/"
 t: 
   menu: MENU

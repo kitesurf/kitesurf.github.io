@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/corsi-kitesurf/hydrofoil/"
 "fr-url": "fr/cours-kitesurf/hydrofoil/"
 "pl-url": "pl/kursy-kitesurfingu/hydrofoil/"
-redirect_from:
-  - /pl/kursy-kitesurfingu/hydrofoil/
 "pt-url": "pt/cursos-kitesurf/hydrofoil/"
 t: 
   menu: MENU

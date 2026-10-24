@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/corsi-kitesurf/"
 "fr-url": "fr/cours-kitesurf/"
 "pl-url": "pl/kursy-kitesurfingu/"
-redirect_from:
-  - /pl/kursy-kitesurfingu/
 "pt-url": "pt/cursos-kitesurf/"
 t: 
   menu: MENU

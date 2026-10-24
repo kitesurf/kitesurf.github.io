@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/grazie/"
 "fr-url": "fr/merci/"
 "pl-url": "pl/dziekujemy/"
-redirect_from:
-  - /pl/dziekujemy/
 "pt-url": "pt/obrigado/"
 t: 
   menu: MENU

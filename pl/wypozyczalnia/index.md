@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/noleggio/"
 "fr-url": "fr/location/"
 "pl-url": "pl/wypozyczalnia/"
-redirect_from:
-  - /pl/wypozyczalnia/
 "pt-url": "pt/aluguer/"
 t: 
   menu: MENU

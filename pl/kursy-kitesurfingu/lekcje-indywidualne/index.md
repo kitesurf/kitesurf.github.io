@@ -26,7 +26,6 @@ lang: pl
 "fr-url": "fr/cours-kitesurf/cours-particuliers/"
 "pl-url": "pl/kursy-kitesurfingu/lekcje-indywidualne/"
 redirect_from:
-  - /pl/kursy-kitesurfingu/lekcje-indywidualne/
   - /pl/kursy-kitesurfingu/prywatne/
 "pt-url": "pt/cursos-kitesurf/aulas-particulares/"
 t: 

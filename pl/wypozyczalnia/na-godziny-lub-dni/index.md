@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/noleggio/ore-o-giorno/"
 "fr-url": "fr/location/heure-ou-journee/"
 "pl-url": "pl/wypozyczalnia/na-godziny-lub-dni/"
-redirect_from:
-  - /pl/wypozyczalnia/na-godziny-lub-dni/
 "pt-url": "pt/aluguer/hora-ou-dia/"
 t: 
   menu: MENU

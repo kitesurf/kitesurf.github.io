@@ -26,7 +26,6 @@ lang: pl
 "fr-url": "fr/location/longue-duree/"
 "pl-url": "pl/wypozyczalnia/dlugoterminowy/"
 redirect_from:
-  - /pl/wypozyczalnia/dlugoterminowy/
   - /pl/wypozyczalnia/pakiety-tygodniowe/
 "pt-url": "pt/aluguer/longa-duracao/"
 t: 

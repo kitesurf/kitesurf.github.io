@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/privacy/"
 "fr-url": "fr/mentions-legales/"
 "pl-url": "pl/polityka-prywatnosci/"
-redirect_from:
-  - /pl/polityka-prywatnosci/
 "pt-url": "pt/politica-de-privacidade/"
 t: 
   menu: MENU

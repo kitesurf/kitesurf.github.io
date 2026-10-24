@@ -25,8 +25,6 @@ lang: pl
 "it-url": "it/vento/"
 "fr-url": "fr/vent/"
 "pl-url": "pl/wiatr/"
-redirect_from:
-  - /pl/wiatr/
 "pt-url": "pt/vento/"
 t: 
   menu: MENU
