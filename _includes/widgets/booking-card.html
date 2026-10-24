@@ -58,6 +58,7 @@
     {% assign txt_feat2 = "Complete premium equipment included" %}
     {% assign txt_feat3 = "Shallow water bay of Pollensa (Alcudia)" %}
     {% assign txt_feat4 = "Weather guarantee: No wind = free rescheduling" %}
+    {% assign txt_voucher_btn = "🎁 Buy as Gift Voucher?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "10 Hours Beginner Course" %}
       {% assign card_sub = "10 hours over " | append: days_val | append: " days • Theory, Bodydrag & Waterstart" %}
@@ -85,6 +86,7 @@
     {% assign txt_feat2 = "Material premium completo incluido (neopreno, chaleco, arnés)" %}
     {% assign txt_feat3 = "Aguas poco profundas en la bahía de Pollensa" %}
     {% assign txt_feat4 = "Garantía de viento: sin viento = cambio de fecha gratis" %}
+    {% assign txt_voucher_btn = "🎁 ¿Comprar como vale regalo?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "Curso de Iniciación (10 horas)" %}
       {% assign card_sub = "10 horas repartidas en " | append: days_val | append: " días • Teoría, Bodydrag y Waterstart" %}
@@ -112,6 +114,7 @@
     {% assign txt_feat2 = "Équipement complet de pointe inclus (combinaison, harnais, casque)" %}
     {% assign txt_feat3 = "Plan d'eau peu profond dans la baie de Pollensa" %}
     {% assign txt_feat4 = "Garantie vent : pas de vent = cours reporté sans frais" %}
+    {% assign txt_voucher_btn = "🎁 Acheter en bon cadeau ?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "Stage Débutant Complet (10 heures)" %}
       {% assign card_sub = "10 heures réparties sur " | append: days_val | append: " jours • Pilotage, Bodydrag & Waterstart" %}
@@ -139,6 +142,7 @@
     {% assign txt_feat2 = "Attrezzatura top di gamma inclusa (muta, trapezio, casco)" %}
     {% assign txt_feat3 = "Spot con acqua bassa nella baia di Pollensa" %}
     {% assign txt_feat4 = "Garanzia vento: senza vento recuperi gratis" %}
+    {% assign txt_voucher_btn = "🎁 Acquista come buono regalo?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "Corso Base Principianti (10 ore)" %}
       {% assign card_sub = "10 ore suddivise in " | append: days_val | append: " giorni • Teoria, Bodydrag & Waterstart" %}
@@ -166,6 +170,7 @@
     {% assign txt_feat2 = "Kompletny sprzęt premium w cenie (pianka, trapez, kask)" %}
     {% assign txt_feat3 = "Płytka woda w zatoce Pollensa (Alcudia)" %}
     {% assign txt_feat4 = "Gwarancja wiatru: brak wiatru = bezpłatne przełożenie" %}
+    {% assign txt_voucher_btn = "🎁 Kup jako voucher podarunkowy?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "10-godzinny kurs kitesurfingu dla początkujących" %}
       {% assign card_sub = "10 godzin rozłożonych na " | append: days_val | append: " dni • Teoria, Bodydrag i Start z wody" %}
@@ -220,6 +225,7 @@
     {% assign txt_feat2 = "Komplette Ausrüstung inklusive (Neopren, Trapez, Helm & Weste)" %}
     {% assign txt_feat3 = "Stehrevier Bucht von Pollensa (Alcudia) – optimal für schnelle Erfolge" %}
     {% assign txt_feat4 = "Windgarantie: Bei Flaute verfallen deine Stunden nicht" %}
+    {% assign txt_voucher_btn = "🎁 Als Gutschein kaufen?" %}
     {% if c_key == 'beginner_10h' %}
       {% assign card_title = "10 Stunden Kitesurf Anfängerkurs" %}
       {% assign card_sub = "10 Stunden verteilt auf " | append: days_val | append: " Tage • Flugschule, Bodydrag & Wasserstart" %}
@@ -237,6 +243,10 @@
       {% assign card_sub = "1 Stunde • 100% Fokus deines Kitelehrers inklusive Funkhelm" %}
     {% endif %}
 {% endcase %}
+
+{% if l == 'pt' %}
+  {% assign txt_voucher_btn = "🎁 Comprar como voucher de oferta?" %}
+{% endif %}
 
 {% if include.button_text %}
   {% assign txt_btn = include.button_text %}
@@ -303,6 +313,26 @@
         <line x1="5" y1="12" x2="19" y2="12"></line>
         <polyline points="12 5 19 12 12 19"></polyline>
       </svg>
+    </button>
+    <button 
+      type="button"
+      class="fh-voucher-btn"
+      data-fh-target="kite-mallorca"
+      data-fh-widget="button"
+      data-fh-service="{{ s_id }}"
+      data-fh-lang="{{ l }}"
+      data-fh-voucher="true"
+      data-fh-view="single"
+      aria-label="{{ txt_voucher_btn }}"
+    >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 12 20 22 4 22 4 12"></polyline>
+          <rect x="2" y="7" width="20" height="5"></rect>
+          <line x1="12" y1="22" x2="12" y2="7"></line>
+          <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+          <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+        </svg>
+      <span>{{ txt_voucher_btn }}</span>
     </button>
   </div>
 </div>
@@ -452,5 +482,41 @@
   }
   .fh-book-btn:hover .fh-arrow-icon {
     transform: translateX(4px);
+  }
+  .fh-card-action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fh-voucher-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #faf5ff;
+    color: #7e22ce;
+    border: 1.5px solid #d8b4fe;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(147, 51, 234, 0.12);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+  .fh-voucher-btn:hover {
+    background: #f3e8ff;
+    border-color: #a855f7;
+    color: #6b21a8;
+    box-shadow: 0 4px 12px rgba(147, 51, 234, 0.22);
+    transform: translateY(-1px);
+  }
+  .fh-voucher-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 3px rgba(147, 51, 234, 0.15);
   }
 </style>

@@ -53,6 +53,7 @@
     {% assign txt_per = "per person" %}
     {% assign txt_now = "Due now:" %}
     {% assign txt_subject_prefix = "Booking: " %}
+    {% assign txt_voucher_btn = "🎁 Buy as Gift Voucher?" %}
   {% when 'es' %}
     {% assign txt_stock = "Disponible • Reserva inmediata online" %}
     {% assign txt_deposit = "Solo 20% de anticipo" %}
@@ -61,6 +62,7 @@
     {% assign txt_per = "por persona" %}
     {% assign txt_now = "A pagar hoy:" %}
     {% assign txt_subject_prefix = "Reserva: " %}
+    {% assign txt_voucher_btn = "🎁 ¿Comprar como vale regalo?" %}
   {% when 'fr' %}
     {% assign txt_stock = "Disponible • Réservation immédiate" %}
     {% assign txt_deposit = "Seulement 20% d'acompte" %}
@@ -69,6 +71,7 @@
     {% assign txt_per = "par personne" %}
     {% assign txt_now = "Acompte:" %}
     {% assign txt_subject_prefix = "Réservation: " %}
+    {% assign txt_voucher_btn = "🎁 Acheter en bon cadeau ?" %}
   {% when 'it' %}
     {% assign txt_stock = "Disponibile • Prenotazione immediata" %}
     {% assign txt_deposit = "Solo 20% di acconto" %}
@@ -77,6 +80,7 @@
     {% assign txt_per = "a persona" %}
     {% assign txt_now = "Acconto oggi:" %}
     {% assign txt_subject_prefix = "Prenotazione: " %}
+    {% assign txt_voucher_btn = "🎁 Acquista come buono regalo?" %}
   {% when 'pt' %}
     {% assign txt_stock = "Disponível • Reserva imediata online" %}
     {% assign txt_deposit = "Apenas 20% de sinal" %}
@@ -85,6 +89,7 @@
     {% assign txt_per = "por pessoa" %}
     {% assign txt_now = "Pagar hoje:" %}
     {% assign txt_subject_prefix = "Reserva: " %}
+    {% assign txt_voucher_btn = "🎁 Comprar como voucher de oferta?" %}
   {% when 'pl' %}
     {% assign txt_stock = "Dostępny • Natychmiastowa rezerwacja terminu" %}
     {% assign txt_deposit = "Tylko 20% zaliczki do rezerwacji" %}
@@ -93,6 +98,7 @@
     {% assign txt_per = "za osobę" %}
     {% assign txt_now = "Płatne dzisiaj:" %}
     {% assign txt_subject_prefix = "Rezerwacja: " %}
+    {% assign txt_voucher_btn = "🎁 Kup jako voucher podarunkowy?" %}
   {% else %}
     {% assign txt_stock = "Verfügbar • Sofortige Terminreservierung" %}
     {% assign txt_deposit = "Nur 20% Anzahlung" %}
@@ -101,6 +107,7 @@
     {% assign txt_per = "pro Person" %}
     {% assign txt_now = "Heute fällig:" %}
     {% assign txt_subject_prefix = "Buchungsanfrage: " %}
+    {% assign txt_voucher_btn = "🎁 Als Gutschein kaufen?" %}
 {% endcase %}
 
 {% assign mail_subject = txt_subject_prefix | append: page.title | strip_html %}
@@ -119,6 +126,7 @@
   </div>
 
   <div class="km-buy-right">
+    <div class="km-buy-btn-group">
     <button 
       type="button"
       class="km-amazon-btn"
@@ -139,6 +147,29 @@
       </span>
       <span class="km-btn-label">{{ txt_btn }}</span>
     </button>
+    <button 
+      type="button"
+      class="km-voucher-buy-btn"
+      data-fh-target="kite-mallorca"
+      data-fh-widget="button"
+      data-fh-service="{{ s_id }}"
+      data-fh-lang="{{ l }}"
+      data-fh-voucher="true"
+      data-fh-view="single"
+      aria-label="{{ txt_voucher_btn }}"
+    >
+      <span class="km-btn-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 12 20 22 4 22 4 12"></polyline>
+          <rect x="2" y="7" width="20" height="5"></rect>
+          <line x1="12" y1="22" x2="12" y2="7"></line>
+          <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+          <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+        </svg>
+      </span>
+      <span class="km-btn-label">{{ txt_voucher_btn }}</span>
+    </button>
+    </div>
     <div class="km-buy-guarantee">
       <svg width="14" height="14" viewBox="0 0 20 20" fill="#059669">
         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
@@ -277,6 +308,47 @@
   font-weight: 500;
 }
 
+.km-buy-btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.km-voucher-buy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #faf5ff;
+  color: #7e22ce;
+  border: 1.5px solid #d8b4fe;
+  padding: 0.82rem 1.35rem;
+  border-radius: 9999px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(147, 51, 234, 0.12);
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.km-voucher-buy-btn:hover {
+  background: #f3e8ff;
+  border-color: #a855f7;
+  color: #6b21a8;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.22);
+  transform: translateY(-1px);
+}
+
+.km-voucher-buy-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 3px rgba(147, 51, 234, 0.15);
+}
+
 /* Mobile responsive */
 @media (max-width: 640px) {
   .km-amazon-buy-box {
@@ -295,6 +367,15 @@
     width: 100%;
     padding: 0.95rem 1.2rem;
     font-size: 1.08rem;
+  }
+
+  .km-buy-btn-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .km-voucher-buy-btn {
+    width: 100%;
   }
 
   .km-buy-guarantee {

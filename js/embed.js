@@ -50,6 +50,7 @@
     if (params.lang) query.set('lang', params.lang);
     if (params.serviceId) query.set('serviceId', params.serviceId);
     if (params.view) query.set('view', params.view);
+    if (params.voucher) query.set('voucher', 'true');
 
     return `${STOREFRONT_BASE.replace(/\/$/, '')}/${encodeURIComponent(slug)}?${query.toString()}`;
   }
@@ -275,8 +276,9 @@
       const serviceId = btn.getAttribute('data-fh-service') || undefined;
       const lang = resolveLanguage(btn);
       const view = btn.getAttribute('data-fh-view') || undefined;
+      const voucher = btn.getAttribute('data-fh-voucher') === 'true' || undefined;
 
-      openModal({ slug, serviceId, lang, view });
+      openModal({ slug, serviceId, lang, view, voucher });
     });
   }
 
