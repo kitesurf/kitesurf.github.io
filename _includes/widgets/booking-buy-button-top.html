@@ -261,7 +261,8 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 0.4rem;
-  flex-shrink: 0;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .km-amazon-btn {
@@ -347,6 +348,30 @@
 .km-voucher-buy-btn:active {
   transform: translateY(1px);
   box-shadow: 0 1px 3px rgba(147, 51, 234, 0.15);
+}
+
+/* Tablet & schmale Desktops: Box stapelt, Buttons volle Breite */
+@media (max-width: 900px) {
+  .km-amazon-buy-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .km-buy-right {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .km-buy-btn-group {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .km-amazon-btn,
+  .km-voucher-buy-btn {
+    width: 100%;
+  }
 }
 
 /* Mobile responsive */
