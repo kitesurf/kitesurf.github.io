@@ -72,12 +72,12 @@ Formamos num dos **spots mais seguros e acessíveis de toda a Europa**, equipado
 
 ---
 
-## 🇵🇹 Bem-vindos kitesurfistas portugueses a Maiorca!
+## Bem-vindos kitesurfistas lusófonos a Maiorca!
 
-Sabemos como Maiorca é um destino de eleição para visitantes vindos de Portugal em busca de sol, águas cristalinas e vento garantido. Embora a nossa base tenha origens hispano-germânicas, **a língua nunca é uma barreira no kitesurf!**
+Sabemos como Maiorca é um destino de eleição para a comunidade lusófona de todo o mundo em busca de sol, águas cristalinas e vento garantido. Embora a nossa base tenha origens hispano-germânicas, **a língua nunca é uma barreira no kitesurf!**
 
 > **Comunicação clara e formação em vários idiomas:**  
-> Todos os nossos instrutores certificados VDWS comunicam fluentemente em inglês, espanhol, alemão e italiano. Durante as aulas na água privilegiamos instruções diretas, paciência, boa disposição e segurança sem compromissos. A nossa experiência comprova que os alunos portugueses aprendem rapidamente e desfrutam ao máximo do ambiente na baía!
+> Todos os nossos instrutores certificados VDWS comunicam fluentemente em inglês, espanhol, alemão e italiano. Durante as aulas na água privilegiamos instruções diretas, paciência, boa disposição e segurança sem compromissos. A nossa experiência comprova que os alunos falantes de português aprendem rapidamente e desfrutam ao máximo do ambiente na baía!
 
 ---
 

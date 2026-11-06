@@ -113,7 +113,7 @@ Assiste a qualquer utilizador o exercício dos seguintes direitos previstos no R
 * Direito à limitação do tratamento (Artigo 18.º do RGPD).
 * Direito de portabilidade dos dados (Artigo 20.º do RGPD).
 * Direito de oposição ao tratamento (Artigo 21.º do RGPD).
-* Direito de apresentar reclamação junto da autoridade de controlo competente (em Espanha: AEPD – Agencia Española de Protección de Datos; em Portugal: CNPD – Comissão Nacional de Proteção de Dados).
+* Direito de apresentar reclamação junto da autoridade de controlo competente (em Espanha, onde se situa a nossa escola: AEPD – Agencia Española de Protección de Datos; noutros países: a autoridade de controlo competente do seu país de residência).
 
 ---
 
